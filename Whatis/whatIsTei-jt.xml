@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="../../../Public/TEI-SF/P5/Exemplars/tei_jtei.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_jtei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_jtei.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>What is the Text Encoding Initiative ?</title>
-        <author>Lou Burnard</author>
+        <title type="main">What is the Text Encoding Initiative ?</title>
+        <author><name>Lou Burnard</name>
+        <affiliation></affiliation><email>lou.burnard@retired.ox.ac.uk</email></author>
       </titleStmt>
       <publicationStmt>
         <p>For publication by Open Edition Press</p>
@@ -14,6 +17,18 @@
         <p>All my own work</p>
       </sourceDesc>
     </fileDesc>
+  
+    <profileDesc>
+      <langUsage>
+        <language ident="en">en</language>
+      </langUsage>
+      <textClass>
+        <keywords xml:lang="en">
+    
+          <term>TEI</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
     <!--revisionDesc>
        <change>
         <name>Lou Burnard</name>
@@ -69,7 +84,7 @@
   </teiHeader>
   <text>
     <front>
-      <div>
+      <div type="abstract">
         <head>Introduction</head>
         <p>The Text Encoding Initiative (TEI) is one of the longest-lived and most influential projects in the field now
           known as the Digital Humanities. Its purpose is to provide guidelines for the creation and management in
@@ -92,16 +107,16 @@
           <item>If you care about the words in your text and their meanings more than you do about the way they are
               laid out on the page you will soon encounter some frustrating limitations when using a typical word
               processor. Almost any such system will readily search through hundreds of pages of text and retrieve all
-              the occurrences of the string "London" for you. But an intelligent search ― one in which "London" as the
+              the occurrences of the string <mentioned>London</mentioned> for you. But an intelligent search ― one in which <mentioned>London</mentioned> as the
               name of a place in Canada is distinguished from that of a place in England, or the surname of an author ―
-              requires something more. As <ref target="#Coombsetal1987">Coombs et al</ref> pointed out back in 1987,
+              requires something more. As <ref type="bibl" target="#Coombsetal1987">Coombs et al</ref> pointed out back in 1987,
               there is a significant difference between the way a scholar looks at textual resources and the way in
               which most automated document preparation systems text are designed. To use an often quoted phrase,
                 <q>What You See is What You Get means What You See is ALL you Get</q>: that is, systems which are mostly
               concerned to narrow the gap between what you see on the screen and what you type at the keyboard tend to
               achieve this by reducing what you can express and store in digital form to information about the
               appearance of strings of characters rather than their linguistic properties or function. You can adjust
-              the font, size, alignment, or colour of each occurrence of the word "London" in your document as much as
+              the font, size, alignment, or colour of each occurrence of the word <mentioned>London</mentioned> in your document as much as
               you like; but you cannot reliably or consistently use word processing software to indicate which ones are
               personal names and which are place names. </item>
           <label>Software independence</label>
@@ -132,11 +147,11 @@
               appearance on the page will hardly suffice. TEI-XML gives us a framework for representing whatever is
               considered of importance about the text, not just its appearance, so that software can act on the
               distinctions identified, generating new visualisations and new perspectives. Consequently, deciding what
-              TEI-XML markup to use is always a scholarly activity, always involving conscious choice. </item>
-          <label>Community-driven</label>
-          <item>The TEI was first developed over thirty years ago, as a research project in the then-emerging field
-              of "humanities computing". The original idea was to propose a set of recommendations about how researchers
-              should create "machine-readable" textual resources, which would be adequate to the needs of research, to
+              TEI&#x2013;XML markup to use is always a scholarly activity, always involving conscious choice. </item>
+          <label>Community&#x2013;driven</label>
+          <item>The TEI was first developed over thirty years ago, as a research project in the then&#x2013;emerging field
+              of <soCalled>humanities computing</soCalled>. The original idea was to propose a set of recommendations about how researchers
+              should create <soCalled>machine&#x2013;readable</soCalled> textual resources, which would be adequate to the needs of research, to
               the extent that consensus on the topic existed, but which would also be expandable as those needs changed
               and evolved. This combination of flexibility with a focus on the scientific needs of a particular
               community makes the TEI unusual among other standardisation efforts, and is also one of the factors
@@ -144,7 +159,7 @@
               considered beneficial by its user community, while ignoring those which are not.<lb/>This close
               involvement with its user community also has beneficial effects for the novice: awareness of and expertise
               in the TEI can now readily be found in most disciplines in the humanities: it is not restricted to a
-              recondite area of information science. Institutions like the TEI mailing list TEI-L provide vivid
+              recondite area of information science. Institutions like the TEI mailing list TEI&#x2013;L provide vivid
               testimony of the heterogenous nature of the TEI community, as well as repeatedly demonstrating its
               openness, friendliness, and readiness to assist the beginner. </item>
         </list>
@@ -157,12 +172,12 @@
           purposes is something that only you can decide. </p>
         <p>The first chapter <!-- <ref target="#TEIXML"></ref--> gives a little technical background introducing the XML
           concepts that underlie TEI markup. The second chapter <!-- ptr target="#STRUC"/--> describes how TEI documents
-          are structured, followed by a number of typical examples in the third chapter <ref target="#STRUCEGS"
+          are structured, followed by a number of typical examples in the third chapter <ref type="crossref" target="#STRUCEGS"
             >Varieties of textual structure</ref>. The two following chapters then go into more detail, discussing first
           some textual features common to most types of document <!--(chapter <ptr target="#CORE"/>) --> and then a few
           of the more specialised possibilities offered by the TEI system <!-- (chapter <ptr target="#TOPS"/>)-->.
           Chapter six <!-- <ptr target="#HDR"/> --> describes the TEI Header, the mandatory <q>digital title-page</q> of
-          a TEI document that provides its metadata. A seventh chapter <ptr target="#ODD"/> discusses how to tailor the
+          a TEI document that provides its metadata. A seventh chapter <ptr type="crossref" target="#ODD"/> discusses how to tailor the
           TEI system to the needs of a particular project. We conclude with some discussion of how the TEI itself is
           organized, its present, and its future. </p>
         <!--p> For every element mentioned there is a link to <ref
@@ -182,10 +197,10 @@
           however compromising too greatly what text may become in the future. It attempts to treat all kinds of digital
           document in the same way, whether they were <soCalled>born digital</soCalled> or not. </p>
         <p>As a consequence, the TEI framework provides a useful way of thinking about the nature of text: it
-          constitutes a kind of encyclopaedia of generally-agreed textual notions. In this brief guide we will try to
+          constitutes a kind of encyclopaedia of generally&#x2013;agreed textual notions. In this brief guide we will try to
           exemplify some of these notions, using the vocabulary defined by the TEI in its <title>Guidelines</title>
         </p>
-        <p>At present TEI documents in digital form are expressed using a very widely-used formal encoding language
+        <p>At present TEI documents in digital form are expressed using a very widely&#x2013;used formal encoding language
           called XML, the <q>extensible markup language</q>, first published by the World Wide Web Consortium (W3C) in
           1998, but with origins in the document preparation systems of the 1980s. XML provides a simple way of
           representing structured data as a linear stream of character data, and of labelling particular parts of that
@@ -204,20 +219,20 @@
         </p>
         <p>The first line of an XML document always takes the form shown above: a special kind of instruction indicating
           that what follows is an XML document conforming to the version of the XML standard indicated (in this case,
-          version 1.0). An XML document consists of a sequence of human-readable characters, with no special additional
+          version 1.0). An XML document consists of a sequence of human&#x2013;readable characters, with no special additional
           codes or binary data. The characters &lt; and &gt; are used to mark the start and end of <term>tags</term>
-          within this sequence. A tag may be a start-tag (such as <code>&lt;p&gt;</code>) or an end-tag (such as
+          within this sequence. A tag may be a start&#x2013;tag (such as <code>&lt;p&gt;</code>) or an end&#x2013;tag (such as
             <code>&lt;/p&gt;</code>). A tag always begins with a name (<code>doc</code>, <code>p</code>,
             <code>placeName</code> in the above example) and may also contain attribute specifications (such as
-            <code>n="1"</code>). The purpose of a start-tag is to mark the point in the sequence of characters at which
-          some <term>element</term>, of a type indicated by the tag name, starts, and the purpose of an end-tag is to
+            <code>n="1"</code>). The purpose of a start&#x2013;tag is to mark the point in the sequence of characters at which
+          some <term>element</term>, of a type indicated by the tag name, starts, and the purpose of an end&#x2013;tag is to
           mark where that element ends. The purpose of an attribute specification is to add some extra information about
           an element occurrence beyond its name. In the above example we have an element named <gi>doc</gi> which
           contains two <gi>p</gi> elements. The <gi>p</gi> elements both have an <att>n</att> attribute which supplies a
           number, and both contain plain text. The second <gi>p</gi> element also contains an element called
             <gi>placeName</gi></p>
-        <p>An XML document like this is said to be <term>well-formed</term> if it respects the syntax exemplified here,
-          with start- and end-tags both present and correctly nested. But the XML standard says nothing at all about how
+        <p>An XML document like this is said to be <term>well&#x2013;formed</term> if it respects the syntax exemplified here,
+          with start&#x2013; and end&#x2013;tags both present and correctly nested. But the XML standard says nothing at all about how
           elements or attributes should be named (unlike, for example, HTML which defines a specific set of tags that
           must be used in a particular way in all documents), much less what their names mean. We may guess that the
             <gi>p</gi> elements above are marking up numbered paragraphs, but there is nothing in the XML representation
@@ -232,12 +247,12 @@
           A namespace is a way of labelling a group of elements: in our example, its use makes clear that the
           <gi>p</gi>elements here are different from any <gi>p</gi> elements defined by some other namespace. </p>
         <p>The reason for introducing tagging into a document is to label and organize it for machine processing. If the
-          paragraphs are clearly marked, then a formatter can lay them out properly. If the place-names are clearly
+          paragraphs are clearly marked, then a formatter can lay them out properly. If the place&#x2013;names are clearly
           marked, a program can automatically pick them out to make a geographical index. But this can really only be
           done reliably if we have some control over what tags are introduced into the document and where they appear.
           XML technology provides this additional level of control by means of what is called a <term>schema</term>, a
           kind of combined lexicon and grammar for valid XML documents. We noted above that an XML document is said to
-          be well-formed if it respects the syntactic rules of the XML standard. It may, optionally, also be said to be
+          be well&#x2013;formed if it respects the syntactic rules of the XML standard. It may, optionally, also be said to be
             <term>valid</term>, if the tags it contain conform to a schema.</p>
         <p>A <term>schema</term> specifies a set of element names, the names and datatypes of any attributes associated
           with them, and rules about the contexts in which they may legally appear. A schema for our simple example
@@ -245,7 +260,7 @@
           that <gi>p</gi> elements may appear within <gi>doc</gi> elements, that <gi>placeName</gi>s may appear within
             <gi>p</gi>s, that the attribute <att>n</att> must have a numeric value etc. Note however that an XML schema
           still has no way of specifying that the tag <gi>placeName</gi> indicates the name of a place, or what we mean
-          by "a place": such additional semantic constraints must be specified elsewhere, for example by documentation
+          by a <mentioned>place</mentioned>: such additional semantic constraints must be specified elsewhere, for example by documentation
           such as that provided by the TEI <title>Guidelines</title>. </p>
         <p>The TEI provides names and definitions for many hundred tags, together with rules about how they may be
           combined. More exactly, the TEI Guidelines define some five or six hundred different <emph>concepts</emph>,
@@ -253,16 +268,16 @@
           them. Most, if not all, TEI documents need to use only a small amount of what is provided. It is therefore
           somewhat misleading to think of the TEI as a single monolithic schema. To facilitate interoperability, every
           TEI document uses components taken from the same mammoth schema, but most TEI projects use quite small subsets
-          of it, and a well-organised project will generally have its own customized documentation identifying that
+          of it, and a well&#x2013;organised project will generally have its own customized documentation identifying that
           subset. </p>
         <p>Software such as the web application <ref target="http://www.tei-c.org/Roma">Roma</ref> can be used to select
           amongst the TEI specifications and generate from them a schema appropriate to the needs of your own project,
           or you can simply assemble a schema by hand. We discuss this topic in more detail in chapter <ptr
-            target="#ODD"/> below. The TEI's <title>Guidelines</title>, freely accessible from its web site at <ptr
+           type="crossref" target="#ODD"/> below. The TEI&#x2019;s <title>Guidelines</title>, freely accessible from its web site at <ptr
             target="www.tei-c.org/Guidelines"/>, constitute a complete reference manual for these concepts, combining
           technical specification with detailed discussion of how they are meant to be used. </p>
         <p>There is a very wide range of software tools available to create, transform, and process XML documents in
-          general, or TEI XML in particular. This is a very large and fast-moving topic which is not treated here,
+          general, or TEI XML in particular. This is a very large and fast&#x2013;moving topic which is not treated here,
           though you will find some useful pointers on the TEI website and the TEI Wiki.</p>
       </div>
       <div xml:id="STRUC">
@@ -275,14 +290,14 @@
           <p>To begin at the beginning, every TEI document (represented by means of a <gi>TEI</gi> element) has at least
             two parts: a <term>header</term> (represented by means of a <gi>teiHeader</gi> element) containing metadata
             describing the document, and the text itself (usually represented by a <gi>text</gi> element). For example : <eg><![CDATA[
-                <TEI xmlns='http://www.tei-c.org/ns/1.0'> 
+                <TEI xmlns=&#x2019;http://www.tei-c.org/ns/1.0&#x2019;> 
                 <teiHeader>
                 <!-- metadata describing a text  --> </teiHeader> 
                 <text> <!-- a representation of the text itself --> </text> 
                 </TEI>]]></eg> Like every other TEI XML document, this one explicitly states that the elements it
             contain are by default to be understood as coming from the TEI namespace
               <val>http://www.tei-c.org/ns/1.0</val>. </p>
-          <p>We describe the header in more detail in section <ptr target="#HDR"/> below; for the moment we note simply
+          <p>We describe the header in more detail in section <ptr type="crossref" target="#HDR"/> below; for the moment we note simply
             that a minimal header must contain information identifying the document itself (in the <gi>titleStmt</gi>),
             information about how it is distributed or published (in the <gi>publicationStmt</gi>) and some indication
             of its origins (in the <gi>sourceDesc</gi>). The <gi>text</gi> element is used to hold an encoded version of
@@ -333,10 +348,10 @@
               </TEI>]]>
             </egXML>
           </p>
-          <p>In this example the body of a text contains smaller divisions, themselves containing sub-divisions. Such
+          <p>In this example the body of a text contains smaller divisions, themselves containing sub&#x2013;divisions. Such
             textual subdivisions have different names in different cultures and in different kinds of document; many
             western cultures use names such as <q>section</q>, <q>part</q>, <q>book</q>, or <q>chapter</q> (or their
-            equivalents) for these sub-parts of the body, but often in inconsistent or mutually incompatible ways. What
+            equivalents) for these sub&#x2013;parts of the body, but often in inconsistent or mutually incompatible ways. What
             is called a <q>part</q> within a <q>book</q> in one text may be called a <q>section</q> within a
               <q>chapter</q> in another, or a <q>book</q> within a <q>part</q> in a third. Hence, the TEI proposes a
             single element <gi>div</gi> for any such structural subdivision of the body of a text.</p>
@@ -346,8 +361,8 @@
             containing <soCalled>chapters</soCalled>. We have also used the <att>xml:id</att> attribute to provide a
             unique identifier for each division of the novel. </p>
           <p>This same kind of hierarchic structure may be used for any kind of text. For example, an epic poem divided
-            into books might tag each book as a <tag>div type='book'</tag>; a play divided into acts and scenes might
-            tag them <tag>div type='act'</tag> and <tag>div type='scene'</tag> respectively; and so on. The values
+            into books might tag each book as a <tag>div type=&#x2019;book&#x2019;</tag>; a play divided into acts and scenes might
+            tag them <tag>div type=&#x2019;act&#x2019;</tag> and <tag>div type=&#x2019;scene&#x2019;</tag> respectively; and so on. The values
             available for use with the <att>type</att> and <att>xml:id</att> attributes are not defined by the TEI, but
             are chosen by the encoder. For <att>xml:id</att> the values used are arbitrary codes unique to the element
             on which they appear: they provide a way of labelling the element concerned so that other parts of this or
@@ -355,7 +370,7 @@
             the encoder to indicate the function of the <gi>div</gi> concerned. Some commonly encountered values such as
               <val>chapter</val> or <val>volume</val> are suggested in the Guidelines, but it is left to individual
             projects using the TEI to define their own taxonomy. It is however easy both to document and to enforce any
-            chosen taxonomy by means of a TEI customisation, as discussed further in chapter <ptr target="#ODD"/>. </p>
+            chosen taxonomy by means of a TEI customisation, as discussed further in chapter <ptr type="crossref" target="#ODD"/>. </p>
           <p>The <gi>div</gi> element is so named because it is a <emph>division</emph>; it should not therefore be used
             for something which is complete in itself. If the body of a text is undivided there is no need to provide a
             single <gi>div</gi> element to contain it. Instead, the <gi>body</gi> element may contain directly one or
@@ -365,7 +380,7 @@
             or something as small as a postcard. As an alternative or in addition to the <gi>text</gi> element, the TEI
             also provides a <gi>facsimile</gi> element which could be used to provide a complementary visual
             representation, for example as a series of digitized page images. And the TEI also provides ways of
-            representing collections of such things, as discussed in <ref target="#compo">the final section of the next
+            representing collections of such things, as discussed in <ref type="crossref" target="#compo">the final section of the next
               chapter</ref>.</p>
         </div>
       </div>
@@ -420,7 +435,7 @@
             should be realised as (say) an HTML link, or some added text (such as the section number) or both. Of
             course, it is not hard to imagine how we might display these document components using a formatting language
             such as Word, HTML, or LaTex but that is not the primary purpose of this markup. Because these aspects are
-            all left unspecified in the encoding, the same document can be re-used in different processing contexts.
+            all left unspecified in the encoding, the same document can be re&#x2013;used in different processing contexts.
           </p>
         </div>
         <div>
@@ -443,7 +458,7 @@
               <l>My Mistress when she walkes treads on the ground.</l>
               <lg type="couplet">
                 <l>And yet by heaven I thinke my love as rare,</l>
-                <l>As any she beli'd with false compare.</l>
+                <l>As any she beli&#x2019;d with false compare.</l>
               </lg>
             </lg>
           </egXML>
@@ -456,15 +471,15 @@
             caps or the indentation associated with the couplet. It has retained the original spelling, but silently
             modernised some of the typographic variation, such as the long S, or the ligatured letters. </p>
           <p><figure>
-              <graphic url="shakson.png" width="90%"/>
-              <head>Sonnet 130 from <title>Shake-speares Sonnets. Never before Imprinted</title> (1609)</head>
+            <graphic url="shakson.png"  width="400px" height="100px"/>
+              <head type="legend">Sonnet 130 from <title>Shake&#x2013;speares Sonnets. Never before Imprinted</title> (1609)</head>
             </figure> We will see below how this encoding could be enhanced to produce an acceptable modern reading
-            version as well as the quasi-diplomatic version shown here. </p>
+            version as well as the quasi&#x2013;diplomatic version shown here. </p>
         </div>
         <div>
           <head>A play text</head>
           <p>Our third example shows how we might encode the structure of a dramatic text : in this case, the end of
-            Beckett's <title>Waiting for Godot</title>. </p>
+            Beckett&#x2019;s <title>Waiting for Godot</title>. </p>
           <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <div type="scene">
               <!-- ... -->
@@ -491,7 +506,7 @@
               </sp>
               <sp>
                 <speaker>Estragon</speaker>
-                <p>Yes, let's go.</p>
+                <p>Yes, let&#x2019;s go.</p>
               </sp>
               <stage>They do not move.</stage>
             </div>
@@ -509,8 +524,8 @@
             informal writing. Our fourth example shows how we might use the TEI to encode the structure of this postcard
             : </p>
           <figure>
-            <graphic url="postcard.jpg" width="90%"/>
-            <head>A picture postcard (verso)</head>
+            <graphic url="postcard.jpg" width="400px" height="100px"/>
+            <head type="legend">A picture postcard (verso)</head>
           </figure>
           <p>All postcards have two sides, a recto and a verso: we represent these as <gi>div</gi> elements. Within the
             side shown above, we can see that there is a clear distinction between the part carrying the message, to the
@@ -528,7 +543,7 @@
                 <ab>
                   <stamp type="publicity">Silhouette of vintage car and slogan <mentioned>Brighton &amp; Hove all set
                       for the seventies.</mentioned></stamp>
-                  <stamp type="postmark">Circular mark specifying <mentioned>Brighton &amp; Hove - Sussex</mentioned>
+                  <stamp type="postmark">Circular mark specifying <mentioned>Brighton &amp; Hove &#x2013; Sussex</mentioned>
                     and <date when="1970-10-26">26 Oct 1970</date></stamp>
                   <stamp type="postage"> Machin design. 4d, vermillion. </stamp>
                 </ab>
@@ -556,7 +571,7 @@
             incomplete: we therefore add to the encoded date a normalised value, supplied on the <att>when</att>
             attribute. Finally, we have given the address to which the card was sent, simply dividing it up into lines. </p>
           <p>In a more detailed encoding we would probably distinguish the names of people and places, perhaps adding
-            geographic co-ordinate information for the place names mentioned. We might wish to add some explanation of
+            geographic co&#x2013;ordinate information for the place names mentioned. We might wish to add some explanation of
             the little joke about <q>Wales</q>. We would probably want to distinguish the formulaic parts of the
             message, such as its opening and closing lines, from the content. And we would also consider how best to
             record the textual information printed on the back of the card ― the title and the name of its publisher for
@@ -569,8 +584,8 @@
         <div>
           <head>A minimally structured text</head>
           <p>Finally, if this all seems too much, we should note that the TEI can also support a very simple structural
-            view in which all these conventional, semantically-charged, components such as paragraphs, speakers, verse
-            lines, etc. are elided or ignored in favour of a neutral segmentation based on orthographically-defined
+            view in which all these conventional, semantically&#x2013;charged, components such as paragraphs, speakers, verse
+            lines, etc. are elided or ignored in favour of a neutral segmentation based on orthographically&#x2013;defined
             sentences. In such a view, we might decide to keep the main divisions of the text, but then simply split it
             up into linguistically convenient segments at every appropriate punctuation mark, using the generic
               <gi>s</gi> (segment) and <gi>ab</gi> (anonymous block) elements. To reprise our first example: </p>
@@ -703,29 +718,29 @@
             we can close the <gi>page</gi>, even though it is an observed fact of life that paragraphs frequently span
             across page boundaries. </p>
           <p>Users of XML (and before that SGML) have been trying to find better ways of representing textual structure
-            without falling foul of this constraint for decades, and we don't intend to debate the <soCalled>overlap
-              problem</soCalled> in any more detail here. We note simply that one well-established TEI way of addressing
+            without falling foul of this constraint for decades, and we don&#x2019;t intend to debate the <soCalled>overlap
+              problem</soCalled> in any more detail here. We note simply that one well&#x2013;established TEI way of addressing
             this problem takes the form of the <soCalled>milestone</soCalled> tags, of which <gi>pb</gi> is probably the
             most frequently encountered example. Whereas normal tags in an XML document mark explicitly both the start
             and the end of an element and thus always enclose something, a milestone tag marks simply a point at which
             something changes, but do not enclose anything. Milestone number 42 on the road from London to Bath marks
-            the point at which the forty-second section of that road begins. We can guess that if we keep going we will
-            eventually reach milestone number 43, which will mark the point at which the forty-third section starts, and
-            hence (since a stretch of road cannot be in two sections at once) the point at which the forty-second
+            the point at which the forty&#x2013;second section of that road begins. We can guess that if we keep going we will
+            eventually reach milestone number 43, which will mark the point at which the forty&#x2013;third section starts, and
+            hence (since a stretch of road cannot be in two sections at once) the point at which the forty&#x2013;second
             section finishes, but it is not explicitly marked. </p>
           <p>The elements <gi>lb</gi> (line break), <gi>cb</gi> (column break), and <gi>gb</gi> (gathering or folio
             break) are all milestones in this sense. In addition the TEI provides a generic <gi>milestone</gi> element
             which can be used to mark any kind of unit not otherwise provided for. As an example consider the practice
-            (common in the 19th century) of publishing novels in serial form. We might wish to mark the boundary of the
-            individual part issues, even though these do not necessarily fit well with the novel's internal organization
-            as a series of chapters. (Dickens, for example, was not above closing a part issue with a mid-chapter
-              <q>cliff-hanger</q>). A <tag>milestone unit='serialPart' n='12'/</tag> can be used to represent the point
+            (common in the nineteenth century) of publishing novels in serial form. We might wish to mark the boundary of the
+            individual part issues, even though these do not necessarily fit well with the novel&#x2019;s internal organization
+            as a series of chapters. (Dickens, for example, was not above closing a part issue with a mid&#x2013;chapter
+              <q>cliff&#x2013;hanger</q>). A <code>&lt;milestone unit="serialPart" n="12"/</code> can be used to represent the point
             at which <q>serialPart</q> number 12 begins, independent of the structure of <gi>div</gi> and <gi>p</gi>
             elements used for the text itself.</p>
           <p>This generic element can be used for any kind of shift, of course, not simply structural units. A
             narratological analysis might be represented using <gi>milestone</gi> elements to mark points at which the
             narrative voice changes; a stylistic analysis might use them to mark points of stylistic variation. There
-            are also other specific elements which behave in a milestone-like fashion for example to indicate changes of
+            are also other specific elements which behave in a milestone&#x2013;like fashion for example to indicate changes of
             voice quality in transcribed speech, or changes of hand in transcribed manuscript. </p>
         </div>
         <div>
@@ -757,11 +772,11 @@
               </div>
             </egXML>
             <p>Here we specify that the whole <gi>div</gi> element uses the language with the coded identifier <q>la</q>
-              (The codes used are taken from ISO standard 639 for language identifiers) i.e. Latin. Since it is
+              (The codes used are taken from ISO standard 639 for language identifiers) i.e., Latin. Since it is
               contained by that <gi>div</gi> there is no need to supply this information again for the first <gi>s</gi>
               element. The second <gi>s</gi> element however overrides this value, and indicates that its content is in
               English (the language with identifier <code>en</code>). The third <gi>s</gi> element is again in Latin. To
-              find the language for any element's content, a processor must first look to see whether that element, or
+              find the language for any element&#x2019;s content, a processor must first look to see whether that element, or
               any of its parents, supplies a value for <att>xml:lang</att>. As you may suppose, the nearest parent is
               the one applicable, if there is more than one. Suppose, for example, that the second sentence above also
               contained a phrase in French. Such a phrase will need to be tagged with some element of course: the
@@ -774,8 +789,8 @@
                 <s>Vita brevis, ars longa.</s>
               </div>
             </egXML>
-            <p>The codes used to identify language may (as here) be standard two-letter codes; more complex codes can be
-              used to distinguish such things as geographically or socially-defined variants, or to distinguish the same
+            <p>The codes used to identify language may (as here) be standard two&#x2013;letter codes; more complex codes can be
+              used to distinguish such things as geographically or socially&#x2013;defined variants, or to distinguish the same
               language written using different scripts. These codes, and ways of using them, are defined by the ISO
               rather than the TEI, and we do not discuss them further. <!--See further CH and HD.--></p>
           </div>
@@ -795,9 +810,9 @@
               carry a <att>ref</att> attribute which points to a <gi>glyph</gi> element somewhere, in which we define
               the nature, function, appearance, name etc. of this variation. Thus, supposing that we have identified and
               described three variant forms of the letter R, giving them codes R1, R2, R3, we might represent individual
-              occurrences of these forms as <tag>g ref='#R1'/</tag>, <tag>g ref='#R2'/</tag> or <tag>g ref='#R3'/</tag>.
+              occurrences of these forms as <code>&lt;g ref='#R1'/&gt;</code>, <code>&lt;g ref='#R2'/&gt;</code> or <code>&lt;g ref='#R3'/&gt;</code>.
               The associated definitions may be provided within the<gi>charsDecl</gi> element of the TEI Header, as
-              further discussed in <ptr target="#HDR"/> below. </p>
+              further discussed in <ptr type="crossref" target="#HDR"/> below. </p>
           </div>
         </div>
         <div xml:id="rend">
@@ -832,10 +847,10 @@
             provide a default rendition for an element, or to override that default using yet another global attribute:
               <att>style</att>. </p>
           <p>We show how each of these methods might be used to encode the following brief passage, taken from an early
-            17th century schoolbook.</p>
+            seventeenth century schoolbook.</p>
           <figure>
-            <graphic url="sample.png"/>
-            <head>Extract from Henry Care's <title>The tutor to true English</title> (1687), p 70</head>
+            <graphic url="sample.png"  width="400px" height="100px"/>
+            <head type="legend">Extract from Henry Care&#x2019;s <title>The tutor to true English</title> (1687), p 70</head>
           </figure>
           <p>In this passage, we observe sequences of words in a gothic or black letter font, in a normal roman font,
             and in italics. We can speculate about the reasons for this typographic variation, but supposing that at
@@ -894,11 +909,11 @@
             passage in roman embedded in one predominantly in gothic. If we extend the meaning of the term to include
             passages set off by quotation marks of various kinds, the list of motivations for highlighting expands to
             include passages of direct speech, material cited or quoted from elsewhere, or which the writer wishes to
-            indicate as being in some sense non-authorial, words which are being talked about rather than used... and so
+            indicate as being in some sense non&#x2013;authorial, words which are being talked about rather than used... and so
             on and so forth. </p>
           <p>The TEI provides elements which enable the encoder to make all these and other semantic distinctions within
             the simple words of a text, guided by the visual clues implicit in the original rendition of a document, and
-            the encoder's understanding of it. This is often a useful way of distinguishing an otherwise ambiguous
+            the encoder&#x2019;s understanding of it. This is often a useful way of distinguishing an otherwise ambiguous
             passage of text. In a modern journal article, for example, a passage set in italic might be a foreign
             expression, the title of another article or of a film or song, a technical term, or a phrase the author
             wishes to emphasize. By using the appropriate tag (<gi>foreign</gi>, <gi>title</gi>, <gi>term</gi>, or
@@ -911,15 +926,15 @@
         <div>
           <head>Names and dates</head>
           <p>We mentioned above the convention of highlighting the names of persons, places, etc. in printed text. This
-            practice, which was commonplace till the mid 19th century, testifies to a long standing desire on the part
+            practice, which was commonplace till the mid nineteenth century, testifies to a long standing desire on the part
             of readers to distinguish names clearly from other words, and it is one which remains true of modern day
             digital encoders. Identifying what are now often referred to as <q>named entities</q> from the rest of a sea
-            of words is just as important a task for today's computational linguist building a language understanding
-            system, or today's digital historian tracing social networks within a corpus of 18th century correspondence,
-            as it is for today's intelligence operative trying to track down references to terrorist suspects in vast
+            of words is just as important a task for today&#x2019;s computational linguist building a language understanding
+            system, or today&#x2019;s digital historian tracing social networks within a corpus of eighteenth century correspondence,
+            as it is for today&#x2019;s intelligence operative trying to track down references to terrorist suspects in vast
             bodies of surveillance data. </p>
           <p>The TEI provides several elements to encode such things once they have been identified. Probably the most
-            general-purpose of these is <gi>rs</gi> (short for <q>referring string</q>) which can be used to tag any
+            general&#x2013;purpose of these is <gi>rs</gi> (short for <q>referring string</q>) which can be used to tag any
             sequence of words considered by the encoder to refer to some entity such as a person or place, even if the
             reference does not take the form of a name, but is rather a pronominal reference (<q>she</q>, <q>the
               king</q>) or deictic phrase (<q>that girl</q>, <q>the chap we saw on Thursday</q>), or idiom (<q>the great
@@ -934,9 +949,9 @@
               <gi>orgName</gi>, to support the assertion that the name refers to a person, place or organization. It is
             also possible to identify significant subcomponents of such names: the TEI provides <gi>surname</gi>,
               <gi>foreName</gi>, <gi>altName</gi> (for an alternative name such as a nickname), <gi>roleName</gi> (for a
-            socially-defined role or title such as <q>Lady</q>, <q>Esquire</q>, <q>Preacher</q>, etc.), <gi>genName</gi>
+            socially&#x2013;defined role or title such as <q>Lady</q>, <q>Esquire</q>, <q>Preacher</q>, etc.), <gi>genName</gi>
             (for a generational name such as <q>Junior</q>, <q>the elder</q>, etc.) and others. For place names, the TEI
-            distinguishes components placing the name socio-politically such as <gi>settlement</gi>, <gi>region</gi>,
+            distinguishes components placing the name socio&#x2013;politically such as <gi>settlement</gi>, <gi>region</gi>,
               <gi>country</gi> and also components such as <gi>geogName</gi> for any purely geographic name such as
               <q>Mount Sinai</q> or <q>River Thames</q>, which can also be further decomposed into a name
             (<q>Thames</q>, <q>Sinai</q>) and the name of some kind of geographic feature (<q>Mount</q>, <q>River</q>). </p>
@@ -983,7 +998,7 @@
             help you answer such questions, but it does provide ways of expressing the answer (if any) you have reached. </p>
           <p>Proposing a standardised form for a name has, of course, long been the business of librarians and
             cataloguers. For literary works and persons, and for modern or classical geographies, there exist
-            well-established reference works or <soCalled>authority files</soCalled> which provide a useful point of
+            well&#x2013;established reference works or <soCalled>authority files</soCalled> which provide a useful point of
             reference for many of the entities that may be named in a TEI document; for others, we may find some kind of
             canonical information in other online references such as wikipedia or ancestry.com. One way of making clear
             which of the many possible people which we believe this <q>Edmond Lougee</q> concerns would therefore be to
@@ -1037,7 +1052,7 @@
         </div>
         <div>
           <head>Tables, figures, and bibliographies</head>
-          <p>Documents in the real world contain many non-textual or only semi-textual components such as figures or
+          <p>Documents in the real world contain many non&#x2013;textual or only semi&#x2013;textual components such as figures or
             tables, as well as textual components that have their own internal structure such as indexes and
             bibliographies. Particularly where the TEI is used to encode a new document, but also where there is a need
             to indicate the presence of such features in an old one, the encoder cannot do without elements such as
@@ -1054,8 +1069,8 @@
               data, and there are attributes <att>rows</att> and <att>cols</att> which can be used to indicate when a
               row or a cell spans more than one row or column respectively.</p>
             <p>Suppose we find the following (imaginary) table in a document we are encoding: <figure>
-                <graphic url="table.png"/>
-                <head>An imaginary table</head>
+              <graphic url="table.png"  width="400px" height="100px"/>
+                <head type="legend">An imaginary table</head>
               </figure> In our TEI version, we can record that the first column of cells supplies a label for the
               entries in the remainder of each row, and also that the cell in the third column of the first row spans
               two columns. </p>
@@ -1091,11 +1106,11 @@
               location where a digital representation of the image concerned may be found. Attributes <att>scale</att>,
                 <att>width</att> or <att>height</att> are available to specify the desired size of the image when it is
               displayed. </p>
-            <p>Consider the following example taken from <title>Punch</title>, a well known 19th century British
+            <p>Consider the following example taken from <title>Punch</title>, a well known nineteenth century British
               humorous publication:</p>
             <figure>
-              <graphic url="punch.png" width="90%"/>
-              <head>John Leech: <title>Domestic Bliss</title>,cartoon in Punch vol 13 (July 1847), page 14.</head>
+              <graphic url="punch.png"  width="400px" height="100px"/>
+              <head type="legend">John Leech: <title>Domestic Bliss</title>,cartoon in Punch vol 13 (July 1847), page 14.</head>
             </figure>
             <p>We may encode this as follows: <egXML xmlns="http://www.tei-c.org/ns/Examples">
                 <figure type="cartoon" place="topLeft">
@@ -1103,7 +1118,7 @@
                   <graphic url="vol13p14.png"/>
                   <sp>
                     <speaker rend="italic">Wife of your bussum</speaker>
-                    <p rend="smallcaps"><q>Oh! I don't want to interrupt you dear. I only want some money for Baby's
+                    <p rend="smallcaps"><q>Oh! I don&#x2019;t want to interrupt you dear. I only want some money for Baby&#x2019;s
                         socks — and to know whether you will have the mutton cold or hashed.</q></p>
                   </sp>
                   <figDesc>A domestic interior drawn by Leech, showing a wild-haired man in a dressing gown sitting at a
@@ -1130,11 +1145,11 @@
               in the body of the text, as a separate division of the back matter, or in the header. </p>
             <p>It is conventional practice in scientific writing to provide references in a standard format, in which
               the components appear in a specified order, and use consistent layout. Whether in a footnote, or in a
-              standalone list of references, a book will typically be described something like this:<quote rend="block"
-                >Cameron, D. (1995) <hi rend="italic">Verbal Hygiene</hi> London and New York: Routledge. </quote>TEI
+              standalone list of references, a book will typically be described something like this:<q rend="block"
+                >Cameron, D. (1995) <hi rend="italic">Verbal Hygiene</hi> London and New York: Routledge. </q> TEI
               markup can be used to show which part of this is the title, which the place of publication, etc. The TEI
               provides two distinct elements for this purpose: <gi>bibl</gi> and <gi>bibl</gi>. </p>
-            <p>The <gi>bibl</gi> element provides a <soCalled>structured</soCalled> or <term>data-centred</term>
+            <p>The <gi>bibl</gi> element provides a <soCalled>structured</soCalled> or <term>data&#x2013;centred</term>
               view of a bibliographic item, in which each part of the description (author, title, etc.) is tagged
               distinctly, treating it as if it were part of a database. Note that punctuation is not allowed between
               components: this is because different visualisations might be appropriate for different bibliographic
@@ -1157,7 +1172,7 @@
             <p>The <gi>monogr</gi> element here indicates that this is what bibliographers call a
                 <term>monographic</term> item, that is an individual work, rather than an <term>analytic</term> item
               such as an article in a journal. </p>
-            <p>The <gi>bibl</gi> element provides a less structured, more <term>text-centred</term>, view of a
+            <p>The <gi>bibl</gi> element provides a less structured, more <term>text&#x2013;centred</term>, view of a
               bibliographic item, in which punctuation is permitted between tagged items, along with any running prose
               found, and the order of the components is not fixed. It is useful where the encoder wishes to follow the
               conventions of the (usually printed) catalogue from which such a description is taken or for which it is
@@ -1246,7 +1261,7 @@
               concerned with the identification and recovery of text from scattered documentary witnesses. It is
               scarcely surprising therefore to find that it also provides facilities for the representation of such
               phenomena as scribal correction or alteration where these are manifest in a particular document, or for
-              the representation of a collation of variant readings. Where pre-digital textual editors were necessarily
+              the representation of a collation of variant readings. Where pre&#x2013;digital textual editors were necessarily
               concerned with the production of a single carefully considered and substantiated print version of a text,
               the economics of digital production have greatly facilitated the production of
                 <soCalled>diplomatic</soCalled> digital or documentary editions, which claim to present objectively the
@@ -1258,18 +1273,18 @@
                 <gi>orig</gi> element for cases where the original spelling has been retained even though it looks unfamiliar.
               For example, a modernized version of the Shakespeare sonnet shown above would probably begin </p>
             <egXML xmlns="http://www.tei-c.org/ns/Examples">
-              <l>My Mistress' eyes are nothing like the sun,</l>
+              <l>My Mistress&#x2019; eyes are nothing like the sun,</l>
               <l>Coral is far more red than her lips red,</l>
               <l>If snow be white, why then her breasts are dun:</l>
               <l>If hairs be wires, black wires grow on her head:</l>
             </egXML>
             <p>Even in such a modernized version, a conscientious encoder wishing to show where they have departed from
-              the original source may simply wrap the words <q>Mistress'</q>, <q>sun</q> etc. with the <gi>reg</gi>
+              the original source may simply wrap the words <q>Mistress&#x2019;</q>, <q>sun</q> etc. with the <gi>reg</gi>
               element. More usually however an encoder will wish to retain the original orthography along with the
               modernized version, so that either is available for display. The <gi>choice</gi> element addresses this
               requirement:</p>
             <egXML xmlns="http://www.tei-c.org/ns/Examples">
-              <l>My <choice><reg>Mistress'</reg><orig>Mistres</orig></choice> eyes are nothing like the
+              <l>My <choice><reg>Mistress&#x2019;</reg><orig>Mistres</orig></choice> eyes are nothing like the
                     <choice><reg>sun</reg><orig>Sunne</orig></choice>,</l>
               <l><choice><reg>Coral</reg><orig>Curral</orig></choice> is far more red
                     <choice><reg>than</reg><orig>then</orig></choice> her lips red,</l>
@@ -1284,7 +1299,7 @@
               be considered as the <soCalled>primary</soCalled> or <soCalled>correct</soCalled> one, in which case it
               will be tagged using the <gi>lem</gi> element rather than as just another <gi>rdg</gi>. The <gi>rdg</gi>
               element has a <att>wit</att> attribute which can be used to identify the witnesses in which the reading is
-              question is attested. For example, the first line of Chaucer's <title>Wife of Bath's Tale</title> begins
+              question is attested. For example, the first line of Chaucer&#x2019;s <title>Wife of Bath&#x2019;s Tale</title> begins
                 <q>Experience though noon Auctoritee...</q>, but its first word is spelled quite differently in three of
               the surviving manuscripts. Taken as a whole, such spelling variations provide useful evidence for the
               reconstruction of the history of the manuscript tradition in question, and our encoding therefore wishes
@@ -1312,24 +1327,24 @@
             <p>The example is taken from the surviving authorial manuscript of a poem by the English writer Wilfred
               Owen, a part of which is shown here: </p>
             <figure>
-              <graphic url="PHowen.png" width="90%"/>
-              <head>Detail from <title>Dulce et decorum est</title> autograph manuscript in the English Faculty Library,
+              <graphic url="PHowen.png"  width="400px" height="100px"/>
+              <head type="legend">Detail from <title>Dulce et decorum est</title> autograph manuscript in the English Faculty Library,
                 Oxford University. </head>
             </figure>
             <p>Owen first wrote <q>Helping the worst amongst us</q>, but then deleted it, adding <q>Dragging the worst
-                amongt us</q> over the top. In the same way, he revised the phrase <q>half-blind</q> by deleting the
-                <q>half-</q> and adding <q>all</q> above it. In the last line, he started a word beginning <q>fif</q>
-              before deleting it and writing the word <q>five-nines</q>. We can encode all of this as follows: </p>
+                amongt us</q> over the top. In the same way, he revised the phrase <q>half&#x2013;blind</q> by deleting the
+                <q>half&#x2013;</q> and adding <q>all</q> above it. In the last line, he started a word beginning <q>fif</q>
+              before deleting it and writing the word <q>five&#x2013;nines</q>. We can encode all of this as follows: </p>
             <egXML xmlns="http://www.tei-c.org/ns/Examples">
               <l>And towards our distant rest began to trudge,</l>
               <l><subst><del>Helping the worst amongst us</del>
                   <add>Dragging the worst amongt us</add>
-                </subst>, who'd no boots </l>
-              <l>But limped on, blood-shod. All went lame; <subst>
-                  <del status="shortEnd">half-</del>
+                </subst>, who&#x2019;d no boots </l>
+              <l>But limped on, blood&#x2013;shod. All went lame; <subst>
+                  <del status="shortEnd">half&#x2013;</del>
                   <add>all</add></subst> blind;</l>
               <l>Drunk with fatigue ; deaf even to the hoots</l>
-              <l>Of tired, outstripped <del>fif</del> five-nines that dropped behind.</l>
+              <l>Of tired, outstripped <del>fif</del> five&#x2013;nines that dropped behind.</l>
             </egXML>
             <p>The tags <gi>add</gi> and <gi>del</gi> elements are used to enclose passages added or deleted
               respectively. Additional attributes are available such as <att>resp</att> to indicate responsibility for
@@ -1337,7 +1352,7 @@
               the modification has been made. Where the encoder wishes to assert that the addition and deletion make up
               a single editorial act of substitution, these elements can be combined within a <gi>subst</gi> element as
               shown above.</p>
-            <p>A very careful examination of Owen's second modification shows that he really did write <q>amongt</q>
+            <p>A very careful examination of Owen&#x2019;s second modification shows that he really did write <q>amongt</q>
               rather than <q>amongst</q>, presumably in error. An equally careful editor wishing to restore the missing
                 <q>s</q> might use the <gi>supplied</gi> element to indicate that they have done so:</p>
             <egXML xmlns="http://www.tei-c.org/ns/Examples">
@@ -1355,12 +1370,12 @@
             to complement page images. Whether automatically or manually produced, transcriptions of speech are of
             particular interest in many branches of linguistics; for example, in language acquisition studies, in
             studies of language variation, or of the relationship between speech and writing in both literate and
-            pre-literate societies. The study of transcribed speech is also an essential component of sociological
+            pre&#x2013;literate societies. The study of transcribed speech is also an essential component of sociological
             studies such as oral history.</p>
           <p> However, the units in which such analysis is carried out — in TEI terms, the component elements of a
               <gi>text</gi> which contains transcribed speech — are not universally agreed on, and may even be
             controversial. Another complicating factor is that the process of transcribing speech is technically
-            difficult and often carried out with the aid of special-purpose software; this is a complication because
+            difficult and often carried out with the aid of special&#x2013;purpose software; this is a complication because
             most such software systems have a preference for using their own internal formats rather than an externally
             defined standard. </p>
           <p>Nevertheless, the TEI does propose a set of elements which may be useful for the detailed encoding of
@@ -1373,8 +1388,8 @@
             bell ringing or an airplane flying overhead are therefore explicitly noted using the <gi>incident</gi>
             element. Spoken communication is effected using the voice, but not all voice effects are regarded as
             lexical, and not all communication is vocal: the TEI therefore provides an element <gi>vocal</gi> for
-            non-lexical phenomena such as coughs or laughter as well as an element <gi>kinesic</gi> for non-lexical and
-            non-vocalic phenomena such as gestures or facial expression. These elements are complemented with a small
+            non&#x2013;lexical phenomena such as coughs or laughter as well as an element <gi>kinesic</gi> for non&#x2013;lexical and
+            non&#x2013;vocalic phenomena such as gestures or facial expression. These elements are complemented with a small
             number of others concerned with what might be called the <q>rendition</q> of speech : notably <gi>pause</gi>
             and <gi>shift</gi>; the latter being used to indicate changes in voice quality (for example in loudness,
             pitch, or speed). These function in a way very similar to the milestone elements introduced earlier. </p>
@@ -1392,7 +1407,7 @@
             speech signal: </p>
           <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <u who="#PS6P0">
-              <s n="3">There ain't</s>
+              <s n="3">There ain&#x2019;t</s>
             </u>
             <u who="#PS6NY">
               <s n="4"><shift new="laughing"/>There is<shift/></s>
@@ -1408,8 +1423,8 @@
               <s n="8">Boats are shaped like a bloody rugby ball shape type</s>
             </u>
             <u who="#PS6NY">
-              <s n="9">No they ain't</s>
-              <s n="10">One end is and the other one ain't <pause/> and it was a yacht <pause/> and a yacht they got
+              <s n="9">No they ain&#x2019;t</s>
+              <s n="10">One end is and the other one ain&#x2019;t <pause/> and it was a yacht <pause/> and a yacht they got
                 little rooms in or something cos <unclear/> innit</s>
             </u>
             <u who="#PS6P0">
@@ -1417,10 +1432,10 @@
                 nonce <vocal desc="tut"/></s>
             </u>
             <u who="#PS6NY">
-              <s n="12">Let's ask your Mum if there's <pause/> if there's any corners on a boat</s>
+              <s n="12">Let&#x2019;s ask your Mum if there&#x2019;s <pause/> if there&#x2019;s any corners on a boat</s>
             </u>
             <u who="#PS6P0">
-              <s n="13">Of course there ain't</s>
+              <s n="13">Of course there ain&#x2019;t</s>
             </u>
             <u who="#PS6NY">
               <s n="14">Just ask your Mum that</s>
@@ -1432,24 +1447,24 @@
               <unclear/>
             </u>
             <u who="#PS6P0">
-              <s n="16">I bet she'll probably side with you</s>
+              <s n="16">I bet she&#x2019;ll probably side with you</s>
             </u>
           </egXML>
           <!-- BNC KSP -->
-          <p>When transcribing speech, the transcriber must also make decisions about how to represent the non-standard
-            or only semi-lexicalised sounds that speakers make, such as <q>hmmm</q>, or the <q>ach</q> or <q>tsk tsk</q>
+          <p>When transcribing speech, the transcriber must also make decisions about how to represent the non&#x2013;standard
+            or only semi&#x2013;lexicalised sounds that speakers make, such as <q>hmmm</q>, or the <q>ach</q> or <q>tsk tsk</q>
             in the above example (in this case the decision has been to treat the former as a word and the latter as a
               <gi>vocal</gi>). Even when it is clear that the sound is lexical, it is not always clear how it should be
             spelled: for example, the sound represented above as <q>yeah</q> might equally well be spelled <q>yeh</q> or
               <q>yuh</q> or even <q>yes</q>. </p>
           <p>In language corpora of this kind it is also common practice to markup each word explicitly, often using the
-              <gi>w</gi> element. Deciding how this tokenisation should be done is not always self-evident: in the BNC,
-            for example, elided forms like <q>ain't</q> and <q>there's</q> are tagged as two <gi>w</gi> elements and
+              <gi>w</gi> element. Deciding how this tokenisation should be done is not always self&#x2013;evident: in the BNC,
+            for example, elided forms like <q>ain&#x2019;t</q> and <q>there&#x2019;s</q> are tagged as two <gi>w</gi> elements and
             additional tags are used to distinguish false starts or truncated forms like <q>th</q> and <q>ni</q> in the
             above example. The main use of such tagging is however to support additional information such as <q>part of
-              speech</q> or <q>morphosyntactic</q> analyses, as described in the section on <ptr target="#ANA"/> below.</p>
+              speech</q> or <q>morphosyntactic</q> analyses, as described in the section on <ptr type="crossref" target="#ANA"/> below.</p>
           <p>There is one further important feature of the TEI model for transcribing speech: alignment. Whereas in an
-            image the transcription has to be aligned within a two-dimensional co-ordinate space, within a time-based
+            image the transcription has to be aligned within a two&#x2013;dimensional co&#x2013;ordinate space, within a time&#x2013;based
             medium such as audio, the various parts of a transcription must be located within time. Speakers typically
             interrupt one another, or speak at the same time; understanding a dialogue is impossible without information
             about the sequence of events transcribed. The TEI proposes a way of explicitly recording a kind of temporal
@@ -1474,30 +1489,30 @@
             linguistic information such as its part of speech, and by a series of sense definitions, often arranged
             hierarchically. Etymological information, examples of usage, references to homonyms, etc. may also be
             present. </p>
-          <p>In a TEI-style encoding, all of these and other parts of an entry will be distinguished as clearly as
+          <p>In a TEI&#x2013;style encoding, all of these and other parts of an entry will be distinguished as clearly as
             possible, whether the purpose is to produce a new dictionary (in which these things must all be rendered in
             a consistent way), or to represent an existing one (in which distinguishing these things will improve the
             range of intelligent searching).</p>
           <p>As a first simple example, consider the following : <figure>
-              <graphic url="johnson-apple.png" width="80%"/>
-              <head><q>Apple</q> from Johnson's <title>Dictionary of the English Language</title>(1755)</head>
+            <graphic url="johnson-apple.png"  width="400px" height="100px"/>
+              <head type="legend"><q>Apple</q> from Johnson&#x2019;s <title>Dictionary of the English Language</title>(1755)</head>
             </figure></p>
           <p>A minimal TEI encoding for this entry would distinguish the word form used as lemma, its spelling and
             grammatical coding, the etymology provided, and the two senses : </p>
           <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <entry>
               <form type="lemma">
-                <orth rend="ALLCAPS">A'PPLE</orth>. <gramGrp><pos norm="noun">n.s.</pos></gramGrp>
+                <orth rend="ALLCAPS">A&#x2019;PPLE</orth>. <gramGrp><pos norm="noun">n.s.</pos></gramGrp>
               </form>
               <etym>[<foreign xml:lang="ang">æppel</foreign>, <lang>Saxon</lang>.] </etym>
               <sense n="1">
                 <def>The fruit of the apple tree.</def>
                 <cit>
                   <quote type="verse">
-                    <l>Tall thriving trees confess'd the fruitful mold;</l>
-                    <l>The red'ning <hi>apple</hi> ripens here to gold.</l>
+                    <l>Tall thriving trees confess&#x2019;d the fruitful mold;</l>
+                    <l>The red&#x2019;ning <hi>apple</hi> ripens here to gold.</l>
                   </quote>
-                  <bibl>Pope's <title>Odyssey</title>.</bibl>
+                  <bibl>Pope&#x2019;s <title>Odyssey</title>.</bibl>
                 </cit>
               </sense>
               <sense n="2">
@@ -1523,17 +1538,17 @@
           <p>In modern printing practice, explanatory annotations are usually moved off to the back of the book. For
             example, in a discussion of contemporary attitudes to linguists published in 1995, we find the following
             comment: <figure>
-              <graphic url="cameron-1.png" width="80%"/>
-              <head>Extract from Deborah Cameron's <title>Verbal Hygiene</title> (p 229)</head>
+              <graphic url="cameron-1.png"  width="400px" height="100px"/>
+              <head type="legend">Extract from Deborah Cameron&#x2019;s <title>Verbal Hygiene</title> (p 229)</head>
             </figure> The raised figure 6 here is an indication that the author has provided a further comment, which
             appears duly collected with others some 18 pages later on: <figure>
-              <graphic url="cameron-2.png" width="80%"/>
-              <head>Extract from Deborah Cameron's <title>Verbal Hygiene</title> (p 247)</head>
+              <graphic url="cameron-2.png"  width="400px" height="100px"/>
+              <head type="legend">Extract from Deborah Cameron&#x2019;s <title>Verbal Hygiene</title> (p 247)</head>
             </figure>. </p>
           <p>One simple way of encoding this would be as follows: <egXML xmlns="http://www.tei-c.org/ns/Examples">
               <div>
                 <head>Beyond "anything goes"</head>
-                <p> Why does the language-maven in the street (or the senior common-room, or the bar at the Groucho Club
+                <p> Why does the language&#x2013;maven in the street (or the senior common&#x2013;room, or the bar at the Groucho Club
                     <note>An establishment patronized by media folk in London (provided the club will have them as
                     members).</note>) have such a low opinion of linguists? Because...</p>
               </div></egXML>
@@ -1545,7 +1560,7 @@
             the <gi>ptr</gi> element: <egXML xmlns="http://www.tei-c.org/ns/Examples">
               <div>
                 <head>Beyond "anything goes"</head>
-                <p> Why does the language-maven in the street (or the senior common-room, or the bar at the Groucho Club
+                <p> Why does the language&#x2013;maven in the street (or the senior common&#x2013;room, or the bar at the Groucho Club
                     <ptr target="#note6"/>) have such a low opinion of linguists? Because...</p>
               </div>
               <back>
@@ -1557,7 +1572,7 @@
               </back>
             </egXML> To represent the link between the text and the note, we first give the <gi>note</gi> element a
             unique identifier (<ident>note6</ident>) and we then place a <gi>ptr</gi> element at the point in the text
-            from which we wish to refer to it (the "point of attachment"). This pointer element both represents the
+            from which we wish to refer to it (the <soCalled>point of attachment</soCalled>). This pointer element both represents the
             supralinear 6 in our original source indicates that its function is to point to the note whose identifier is
             supplied by its <att>target</att> attribute. Alternatively, if we care to record exactly the way the point
             of attachment appears in the text, we could use the <gi>ref</gi> element: <egXML
@@ -1580,9 +1595,9 @@
               <gi>noun</gi> or <gi>adjunct</gi> or <gi>metaphor</gi>, but instead it proposes general purpose elements
             for segmenting texts into smaller units, any of which can carry labels defined by the project.</p>
           <p>This method is particularly useful when a digital text is automatically analysed by a computer program,
-            (for example a morphosyntactic analyser, or part-of-speech tagger) since the format used for the outputs
+            (for example a morphosyntactic analyser, or part&#x2013;of&#x2013;speech tagger) since the format used for the outputs
             from such automated systems differ considerably. The TEI offers a simple way of explicitly segmenting
-            running text into word-like units, and associating linguistic codes with each such segment. For example,
+            running text into word&#x2013;like units, and associating linguistic codes with each such segment. For example,
             like many other language corpora, the BNC provides codes identifying the part of speech (noun, adjective,
             verb etc.) of each word as well as its base or uninflected form. We might therefore represent the sentence
             quoted above in TEI as follows : <egXML xmlns="http://www.tei-c.org/ns/Examples" rend="tiny">
@@ -1594,7 +1609,7 @@
                   <w ana="#NN1" lemma="mum">Mum </w>
                   <w ana="#CJS" lemma="if">if </w>
                   <w ana="#EX0" lemma="there">there</w>
-                  <w ana="#VBZ" lemma="be">'s</w>
+                  <w ana="#VBZ" lemma="be">&#x2019;s</w>
                   <w ana="#DT0" lemma="any">any </w>
                   <w ana="#NN2" lemma="corner">corners </w>
                   <w ana="#PRP" lemma="on">on </w>
@@ -1614,7 +1629,7 @@
             analysis pointed to by the <att>ana</att> attribute: that is, how to define what <code>VBZ</code> or
               <code>NN1</code> actually means. </p>
           <p>One method is to provide a further definition for the category, typically within a TEI Header, using the
-              <gi>taxonomy</gi> element discussed in section <ptr target="#encDesc"/>. Such a definition will typically
+              <gi>taxonomy</gi> element discussed in section <ptr type="crossref" target="#encDesc"/>. Such a definition will typically
             be meaningful only to a human being, but it can still be very useful to provide one. </p>
           <p>At the other extreme, categories may be formally defined using the joint TEI/ISO recommendations for
             representing linguistic analyses in terms of <term>feature structures</term> (see further <ref
@@ -1622,7 +1637,7 @@
               Guidelines</ref>). Such analyses are now used quite widely in the NLP community, for example as a means of
             mapping information between different computational lexica. </p>
           <p>Or, intermediate between the two, linguistic categorizations may be made with reference to an existing
-            standard, such as that provided by the ISO Data Category Registry (see further <ref target="#ideromary">Ide
+            standard, such as that provided by the ISO Data Category Registry (see further <ref type="bibl" target="#IdeRomary">Ide
               and Romary 2009.</ref>). This approach has much in common with many other data harmonization efforts on
             the Web: it makes it simpler for systems to interoperate, in the same way as TEI documents in general can be
             interoperable. </p>
@@ -1633,7 +1648,7 @@
               <gi>s</gi>, etc.</p>
           <p>Of course the units of text being analysed do not necessarily coincide with the units of text directly
             represented within the text. We mentioned one way of dealing with this common <soCalled>overlap
-              problem</soCalled> in <ptr target="#milestones"/> above. Another is to use <soCalled>stand off</soCalled>
+              problem</soCalled> in <ptr type="crossref" target="#milestones"/> above. Another is to use <soCalled>stand off</soCalled>
             markup, in which the units analysed are represented not by XML elements but by pointers. <ref
               target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/NH.html">Chapter 20 of the TEI
               Guidelines</ref> discusses these and other techniques in more detail. </p>
@@ -1653,9 +1668,9 @@
           conform to the highest or most precise of cataloguing standards. Nevertheless it serves a useful purpose as a
           place where (for example) the data creator and the data curator can share information. </p>
         <p>Originally, the TEI header was designed to suit two rather different requirements. On the one hand, it was
-          intended to assist bibliographers and librarians faced with the (then) new problem of documenting ‘electronic
-          books’; on the other it was intended to meet the needs of researchers working with digital text collections,
-          and needing to document the ‘coding practices’ applied to them. For the researcher, the important thing about
+          intended to assist bibliographers and librarians faced with the (then) new problem of documenting <soCalled>electronic
+          books</soCalled>; on the other it was intended to meet the needs of researchers working with digital text collections,
+          and needing to document the <soCalled>coding practices</soCalled> applied to them. For the researcher, the important thing about
           the Header is that it provides a place for everything, supporting as far as possible the full range of
           divergent practice in different research communities, without imposing such barriers as a detailed knowledge
           of cataloguing standards or practices. For the librarian, the important thing about the TEI Header is that it
@@ -1673,7 +1688,7 @@
               <gi>encodingDesc</gi> (encoding description) documents the relationship between an electronic text and the
               source or sources from which it was derived.</item>
             <item>
-              <gi>profileDesc</gi> (profile description) provides a detailed description of non-bibliographic aspects of
+              <gi>profileDesc</gi> (profile description) provides a detailed description of non&#x2013;bibliographic aspects of
               a text, specifically the languages and sublanguages used, the situation in which it was produced, the
               participants and their setting. </item>
             <item>
@@ -1682,7 +1697,7 @@
         </p>
         <div>
           <head>The file description</head>
-          <p>Since it is not usually a pre-existing document, the structure of a TEI Header can be fairly tightly
+          <p>Since it is not usually a pre&#x2013;existing document, the structure of a TEI Header can be fairly tightly
             prescribed by the TEI. The first and only mandatory part, known as the file description, is represented by a
               <gi>fileDesc</gi> element, which contains three mandatory parts the title statement, publication statement
             and source description. A minimal TEI Header thus looks something like this: </p>
@@ -1732,11 +1747,11 @@
             about, for example, the format of names, or the use of authority lists to provide titles, which may vary
             considerably: the TEI therefore permits a more exact tagging of components such as proper names (for example
             by distinguishing forenames and surnames) but does not require it. </p>
-          <p>The file description describes the <q>file</q> (i.e. the whole of a digital resource ― it may of course
+          <p>The file description describes the <q>file</q> (i.e., the whole of a digital resource ― it may of course
             consist of several operating system files). The <term>publication statement</term> describes how this
             resource may be obtained, in much the same way as the imprint of a printed book suggests who is responsible
             for distributing or publishing it. Even if the TEI document is a private document which is not actually
-            available anywhere beyond the owner's private hard disk, that fact must be mentioned here; more usually, of
+            available anywhere beyond the owner&#x2019;s private hard disk, that fact must be mentioned here; more usually, of
             course, a header will be created only for a TEI resource which is being shared. The publication statement
             allows you to specify who is making the resource available, any identifier used for it, such as a catalogue
             number or Resource Identifier, and information about the terms under which it is distributed such as a
@@ -1753,9 +1768,9 @@
                 <p xml:lang="fr">Les droits de reproduction des gravures ont été achetés de la Bibliothèque Nationale de
                   France grâce à une subvention accordée par le <ref target="http://www.sshrc-crsh.gc.ca/">Conseil de
                     recherches en sciences humaines du Canada</ref>. Les autres éléments du projet (les contributions
-                  des éditeurs, les transcriptions des textes, l'encodage et le code) sont distribués sous les termes de
+                  des éditeurs, les transcriptions des textes, l&#x2019;encodage et le code) sont distribués sous les termes de
                   cette licence: <ref target="http://creativecommons.org/licenses/by-nc-nd/2.5/ca/deed.fr_CA">Creative
-                    Commons Paternité - Pas d'Utilisation Commerciale - Pas de Modification 2.5 Canada</ref>.</p>
+                    Commons Paternité - Pas d&#x2019;Utilisation Commerciale - Pas de Modification 2.5 Canada</ref>.</p>
               </availability>
             </publicationStmt>
           </egXML>
@@ -1771,12 +1786,12 @@
           <head>Varieties of source description</head>
           <p>The next and only other mandatory component of the <gi>fileDesc</gi> is the source description, represented
             by the <gi>sourceDesc</gi> element. Even for documents which are <q>born digital</q> and thus have no
-            pre-existing source, this element must be provided. Its purpose is to document formally the object or
+            pre&#x2013;existing source, this element must be provided. Its purpose is to document formally the object or
             objects from which the TEI document has been derived, using traditional bibliographic terms. The
               <gi>sourceDesc</gi> may contain a simple paragraph of description, or it may contain one or more of the
             specialised elements for bibliographic description provided by the TEI. </p>
           <p>As a first example, consider a document which has no form of existence beyond its digital version. We may
-            represent this using a pared-down <gi>bibl</gi> : </p>
+            represent this using a pared&#x2013;down <gi>bibl</gi> : </p>
           <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <sourceDesc>
               <bibl>
@@ -1841,7 +1856,7 @@
                   <resp>after a drawing by</resp>
                   <name>R. H. Nibbs</name>
                 </respStmt>
-                <publisher>K. J. Bredon's Bookshop</publisher>
+                <publisher>K. J. Bredon&#x2019;s Bookshop</publisher>
                 <pubPlace>10 East Street, Brighton</pubPlace>
               </bibl>
             </sourceDesc>
@@ -1921,7 +1936,7 @@
           <p>Such documentation is of course useful only to a human reader. However, other components of the encoding
             description are intended for use by automated processes. Typically they provide a set of declarations for
             particular codes which are subsequently referenced or used in the body of the text. Examples include: <list>
-              <item><gi>charDecl</gi> : XML requires the use of Unicode throughout a document, Non-standard glyphs or
+              <item><gi>charDecl</gi> : XML requires the use of Unicode throughout a document, Non&#x2013;standard glyphs or
                 characters may however be indicated in a TEI document using the <gi>g</gi> element to reference
                 definitions for such things provided by this element; </item>
               <item><gi>classDecl</gi>: any kind of classification system or taxonomy can be declared using this
@@ -1949,7 +1964,7 @@
             to reference the above definition by means of its <att>xml:id</att> value as usual. A processor can choose
             to render it using either the standardized mapping or the nonstandard code given by the PUA <note rend="foot"
               >PUA is short for Private Use Area: a Unicode concept permitting the definition of private
-              codes for non-interchangeable characters</note> mapping. </p>
+              codes for non&#x2013;interchangeable characters</note> mapping. </p>
           <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <p> ... mulct<g ref="#z103"/> ... </p>
           </egXML>
@@ -1993,7 +2008,7 @@
             <catRef target="#small #social-women"/>
           </egXML>
           <p>The same mechanism can be used to document the codes used in simple linguistic analyses such as those
-            discussed in chapter <ptr target="#ANA"/> above. </p>
+            discussed in chapter <ptr type="crossref" target="#ANA"/> above. </p>
           <p>Finally, we consider the <gi>tagsDecl</gi> element. This can be used just to list the elements actually
             used within a document, and also to define default formatting styles for them (typically using the W3C
             Cascading Stylesheet Language CSS). In the following example, we first define an two font styles, Italic and
@@ -2012,16 +2027,16 @@
             </tagsDecl>
           </egXML>
           <p>Within the body of a document, the <att>rendition</att> attribute can over-ride the default styling for an
-            element; see further section <ptr target="#rend"/> above.</p>
+            element; see further section <ptr type="crossref" target="#rend"/> above.</p>
         </div>
         <div>
           <head>The profile and revision descriptions</head>
-          <p>The third major division of the TEI header is the rather oddly-named <term>Profile Description</term>,
+          <p>The third major division of the TEI header is the rather oddly&#x2013;named <term>Profile Description</term>,
             represented by a <gi>profileDesc</gi> element. Like the others, this is a group of optional notes or more
-            specialised elements; they have in common simply that they are ‘non-bibliographic’. Default members of the
+            specialised elements; they have in common simply that they are <soCalled>non-bibliographic</soCalled>. Default members of the
             model.profileDescPart class include: <list>
               <item>
-                <gi>creation</gi>: information about the origination of the intellectual content of the text, e.g. time
+                <gi>creation</gi>: information about the origination of the intellectual content of the text, e.g., time
                 and place. In a genetic edition, this may include a structured <gi>listChange</gi> element documenting
                 each significant stage identified in the evolution of a text; </item>
               <item>
@@ -2032,7 +2047,7 @@
                 <gi>textDesc</gi> and <gi>textClass</gi>: classifications applied to the text by means of a list of
                 specified criteria or by means of a collection of pointers, respectively</item>
               <item>
-                <gi>particDesc</gi> and <gi>settingDesc</gi>: information about the ‘participants’, either real or
+                <gi>particDesc</gi> and <gi>settingDesc</gi>: information about the participants, either real or
                 depicted, in the text</item>
               <!--item>
                             <gi>handNotes</gi>: information about each of the hands identified in
@@ -2043,13 +2058,13 @@
             respect to a predefined taxonomy. The <gi>profileDesc</gi> provides several complementary ways of doing
             this: <list type="gloss">
               <label>using <gi>catRef</gi></label>
-              <item>by referring to a locally defined (e.g. in the corpus header) category </item>
+              <item>by referring to a locally defined (e.g., in the corpus header) category </item>
               <label>using <gi>classCode</gi></label>
               <item>by referring to some commonly agreed and externally defined category, such as the Universal Decimal
                 Classification system, </item>
               <label>using <gi>keywords</gi></label>
               <item>by assigning descriptive terms taken from a bibliographic controlled vocabulary or a tag
-                cloud</item>
+                cloud.</item>
             </list>
           </p>
           <p>In the following example, taken from the British National Corpus, a text is classified using all three
@@ -2064,8 +2079,8 @@
                   target="#WRI #ALLTIM1 #ALLAVA2 #ALLTYP3 #WRIDOM5 #WRILEV2 #WRIMED1 #WRIPP5 #WRISAM3 #WRISTA2 #WRITAS0"/>
                 <classCode scheme="DLEE">W nonAc: humanities arts</classCode>
                 <keywords scheme="COPAC">
-                  <term>History, Modern - 19th century</term>
-                  <term>Capitalism - History - 19th century</term>
+                  <term>History, Modern - nineteenth century</term>
+                  <term>Capitalism - History - nineteenth century</term>
                   <term>World, 1848-1875</term>
                 </keywords>
               </textClass>
@@ -2081,7 +2096,7 @@
             mentioned above may also be used here to to refer to identified stages in the evolution of the electronic
             file, as distinct from the text encoded. In a production environment an auomated version control system such
             as SVN will be used to keep detailed track of the evolution of a dcument; the TEI encoding of significant
-            stages in the development of a document may be performed semi-automatically by such tools, or manually. </p>
+            stages in the development of a document may be performed semi&#x2013;automatically by such tools, or manually. </p>
           <egXML xmlns="http://www.tei-c.org/ns/Examples" rend="tiny">
             <revisionDesc>
               <listChange>
@@ -2096,18 +2111,18 @@
       <div xmlns="http://www.tei-c.org/ns/1.0" xml:id="ODD">
         <head>Customizing the TEI</head>
         <p>As we have seen, the TEI is designed to support a very wide range of encoding choices. It can be used for a
-          simple reading-oriented transcription of a primary source, whether that be an authorial manuscript, a printed
+          simple reading&#x2013;oriented transcription of a primary source, whether that be an authorial manuscript, a printed
           literary work, an audio broadcast, or a dictionary. It can be used for enriched encodings in which many
           aspects of such texts are made explicit, so that software of all kinds can operate upon them, from
           visualisation tools and digital publishing systems to specialised statistical analysis packages. It can be
-          used to provide additional annotations and metadata of all kinds. Almost no-one needs everything defined by
+          used to provide additional annotations and metadata of all kinds. Almost no&#x2013;one needs everything defined by
           the TEI, yet every one of its elements is of use or interest to someone. How should you go about choosing just
           the parts of the TEI you need? One major motivation for creating TEI documents in the first place is the
           possibility of sharing them with others, and integrating them with other TEI documents. How should you
           communicate the particular TEI encoding choices you have made to others so that such integration remains
           possible?</p>
         <p>The TEI provides a way of adressing these concerns, as well as satisfying the important need for detailed
-          project-specific documentation, by providing a set of elements which can be used both to specify a
+          project&#x2013;specific documentation, by providing a set of elements which can be used both to specify a
             <term>schema</term> in terms of the names and formal properties of the elements and attributes it contains
           and also to document the way those elements and attributes are used in a given application.</p>
         <p>The notion of a schema is fundamental to XML: it provides a kind of document grammar, naming the possible
@@ -2147,7 +2162,7 @@
             some 450 different elements, and many, many, different ways of solving often over-lapping encoding problems.
             The size and permissiveness of this schema alike make it more or less unusable for practical purposes ―
             except for one very important one related to TEI <term>conformance</term>, to which we return below.</p>
-          <p>Probably the most widely used and frequently referenced TEI customization is <ref target="#BurnardSperberg"
+          <p>Probably the most widely used and frequently referenced TEI customization is <ref  type="bibl" target="#BurnardSperberg"
                 ><ident>tei_lite</ident></ref>, a subset of some fifty elements claiming to satisfy the needs of 90% of
             TEI users, as evidenced by their actual practice in creating digital texts. This was originally produced for
             a TEI training workshop back in 1997, but with some updating has continued to be useful in a very wide range
@@ -2229,7 +2244,7 @@ declared by the module (for example, in this case, the attribute class
           <p>An ODD specification can include or exclude elements and attributes in these and other ways. It can also
             modify an existing declaration by adding additional constraints to it. For an example, consider <ref
               target="https://sourceforge.net/p/epidoc/wiki/Home/">the TEI customization known as Epidoc</ref>, which is
-            widely-used by epigraphers and others working with inscriptions from the ancient world. As we noted above,
+            widely&#x2013;used by epigraphers and others working with inscriptions from the ancient world. As we noted above,
             the <att>type</att> attribute on the <gi>div</gi> element is not constrained in any way by the TEI. The
             Epidoc community however has decided that it wishes to enforce the presence of this attribute and to permit
             only six predefined values for it. Here is the fragment of the Epidoc ODD which achieves that effect: <egXML
@@ -2275,24 +2290,24 @@ declared by the module (for example, in this case, the attribute class
             example, is difficult without knowing which classes exist and how they interact. Choosing an appropriate
             content model for the new element similarly requires some thought about how other elements are defined,
             assuming that we wish our new element to behave consistently with the rest of the TEI. And finally, because
-            this is a non-TEI element, we must take care to define it in a non-TEI namespace. </p>
+            this is a non&#x2013;TEI element, we must take care to define it in a non&#x2013;TEI namespace. </p>
           <p>For example, suppose we wish to add a new element <gi>speciesName</gi> to mark up the names of botanical or
             other species appearing in a text. Our new element is semantically similar to the existing <gi>persName</gi>
             or <gi>name</gi> elements, so a good starting point will be to look at the ODD specification for other
-            name-like elements. For example, in the <gi>elementSpec</gi> for the element <gi>persName</gi>, we see that
+            name&#x2013;like elements. For example, in the <gi>elementSpec</gi> for the element <gi>persName</gi>, we see that
             it is a member of a model class <ident>model.nameLike.agent</ident>, which is a subclass of the more general
               <ident>model.nameLike</ident> class. Adding our new element to this class will ensure that it will appear
             in the content models of other TEI elements in the same places as other naming elements, without any further
             work on our part. We also note that <gi>persName</gi> is a member of several attribute classes, notably
               <att>att.global</att> (which has several subclasses of its own) and <ident>att.canonical</ident>, both of
             which look useful for our purposes. Adding our new element to these classes will ensure that it uses these
-            attributes in the same way as other name-like elements. </p>
+            attributes in the same way as other name&#x2013;like elements. </p>
           <p>Next, we consider the content model of our new element. The easiest course of action would be to do the
-            same as the other naming elements, and say that it can contain just text, mixed in with other phrase-level
+            same as the other naming elements, and say that it can contain just text, mixed in with other phrase&#x2013;level
             elements, elements such as <gi>g</gi>, and global elements. This is so common a requirement in the TEI
-            scheme that there is a short cut (a "macro") defined for it called <ident>macro.phraseSeq</ident>. If
+            scheme that there is a short cut (a <soCalled>macro</soCalled>) defined for it called <ident>macro.phraseSeq</ident>. If
             however we want to represent the internal content of a <gi>speciesName</gi> (for example to distinguish the
-            "genus name" from the "specific name" component), we might want to define a more specific content model,
+            <soCalled>genus name</soCalled> from the <soCalled>specific name</soCalled> component), we might want to define a more specific content model,
             possibly involving other new elements or other constraints. Whichever course of action we take will be
             explicitly documented in our ODD, so that other users of our data can see how we have customized the basic
             TEI framework.</p>
@@ -2301,7 +2316,7 @@ declared by the module (for example, in this case, the attribute class
           <head>Customization and Conformance</head>
           <p>The TEI must reflect the diversity of practice within its user community if it is to continue to be useful.
             It is sometimes said that asking two academics the same question will always provide you with at least three
-            different answers to it, and so it should be unsurprising to find considerable diversity in the TEI's
+            different answers to it, and so it should be unsurprising to find considerable diversity in the TEI&#x2019;s
             recommendations.</p>
           <p>Nevertheless, one of the purposes of the TEI Guidelines is to <emph>guide</emph> encoding practice. It is
             not a standard which tells you what to do (in the way that engineering standards, for example, specify
@@ -2314,7 +2329,7 @@ declared by the module (for example, in this case, the attribute class
             tei_all, and respect for the defined semantics of the TEI elements used: a conformant TEI document may
             contain elements from many namespaces, but any elements from the TEI namespace must have the semantics
             defined for them by the TEI. </p>
-          <p>Consider for example the redoubtable English nineteenth century novelist Bulwer-Lytton. In one corpus of
+          <p>Consider for example the redoubtable English nineteenth century novelist Bulwer&#x2013;Lytton. In one corpus of
             TEI documents we might hope to find his full name tagged, and associated with a definition of the person
             himself, as follows: <egXML xmlns="http://www.tei-c.org/ns/Examples">
               <persName ref="http://en.wikipedia.org/wiki/Edward_Bulwer-Lytton,_1st_Baron_Lytton"
@@ -2339,20 +2354,20 @@ declared by the module (for example, in this case, the attribute class
             it is enough just to show that a string of words is a name; for others, it is important to distinguish names
             of persons from names of places; for yet others it is essential to disambiguate named entity references, as
             they are known. The outputs from such projects clearly cannot simply be combined in a straightforwardly
-            interoperable way, without some additional effort. Can they all be considered TEI-conformant? </p>
+            interoperable way, without some additional effort. Can they all be considered TEI&#x2013;conformant? </p>
           <p>An explicit customization, using the features of ODD we have sketched in this section, is the easiest way
             for a project to communicate its own decisions about how the TEI should be applied, and hence the easiest
             way to ensure its documents are interchangeable with others. A project can simply suppress (say) the element
               <gi>rs</gi> from its schema, or specify a closed list of values for its <att>type</att> attribute. It can
             choose to use one or other (or both) of the attributes <att>key</att> and <att>ref</att> to associate
-            different versions of a person's name with data about the person intended, and hence disambiguate them. Such
+            different versions of a person&#x2019;s name with data about the person intended, and hence disambiguate them. Such
             choices can be made explicit in a customized schema, and hence tell us which of the many very different
-            approaches to tagging an individual's name has been adopted in a given set of documents. And because it is
+            approaches to tagging an individual&#x2019;s name has been adopted in a given set of documents. And because it is
             also possible to generate an ODD automatically from a set of TEI XML documents, we can also distinguish an
             intended customization ― expressing what the creators of a document intended to be their encoding practice ―
             from an actual customization, expressing the encoding practices actually found. </p>
-          <p>If the TEI is designed to be customized, how can it also claim to be an interchange format? For "blind
-            interchange" (also known as "interoperability"), the recipient of a document must be confident that it will
+          <p>If the TEI is designed to be customized, how can it also claim to be an interchange format? For <soCalled>blind
+            interchange</soCalled> (also known as <soCalled>interoperability</soCalled>), the recipient of a document must be confident that it will
             contain only TEI elements, and that those elements have been used according to the rules defined by the TEI.
             Unmodified, those rules permit so much variation that it is all but impossible for a developer to anticipate
             every possibility that their software must be able to handle. The availability of an ODD greatly simplifies
@@ -2369,13 +2384,13 @@ declared by the module (for example, in this case, the attribute class
             <q>we support the TEI</q> we are probably talking about the Consortium as an organization. But when we say
             <q>The TEI now supports markup of musical notation</q> or <q>The TEI now provides methods for the encoding
             of genetic editions</q> we are talking about something rather different — the technical content of the TEI
-          Guidelines. And when we say <q>that's a really TEI point of view</q> (for example, with reference to best
-          practice in the long-term archiving of digital resources) or <q>the TEI exemplifies our approach to open
-            source</q> we're clearly talking about something more than either a set of technical recommendations or the
+          Guidelines. And when we say <q>that&#x2019;s a really TEI point of view</q> (for example, with reference to best
+          practice in the long&#x2013;term archiving of digital resources) or <q>the TEI exemplifies our approach to open
+            source</q> we&#x2019;re clearly talking about something more than either a set of technical recommendations or the
           people who maintain or who choose to use them. Some people talk about <q>the TEI</q> as it were a kind of club
-          or religion, with members and non-believers, to which some aspire and from which others wish to distinguish
+          or religion, with members and non&#x2013;believers, to which some aspire and from which others wish to distinguish
           themselves. Within the noisy market place of the <q>Digital Humanities</q>, the TEI is a kind of senior
-          member, an annoying parental figure for some, a benevolent one for others, something just too old-fashioned
+          member, an annoying parental figure for some, a benevolent one for others, something just too old&#x2013;fashioned
           even to be considered for others. Yet, over the last decade, it has become increasingly clear that the TEI is
           part of what makes the digital humanities happen: it has become a part of the infrastructure everyone has to
           engage with, both technically and socially, once they start thinking about text or other forms of cultural
@@ -2384,15 +2399,15 @@ declared by the module (for example, in this case, the attribute class
           sense of TEI, as an information architecture, which we have used throughout most of this text. However, it
           seems appropriate to conclude with some consideration of the TEI as an organization.</p>
         <p>One of the odder things about the TEI, from some perspectives at least, is that it is not a government agency
-          like ANSI, or a well-funded international organization like ISO, or an industrial consortium like the W3C,
-          though organizationally the TEI Consortium has points in common with all of these. The TEI is a not-for-profit
+          like ANSI, or a well&#x2013;funded international organization like ISO, or an industrial consortium like the W3C,
+          though organizationally the TEI Consortium has points in common with all of these. The TEI is a not&#x2013;for&#x2013;profit
           membership organization, powered entirely by a small amount of funding from institutions and individuals who
           care enough about its activities to put money into their support and maintenance and also by a large amount of
           volunteer effort from institutions and individuals who want to contribute to its continued development. Every
           year, the TEI hosts a conference where the membership meets to transact the necessary official business of
           electing officers, and of course to discuss the ways in which the TEI is intellectually strong or weak. The
           community of those using the TEI and contributing to its continued development is however much larger than the
-          paid-up membership. Any interested person is free to propose modifications or extensions to the system, or to
+          paid&#x2013;up membership. Any interested person is free to propose modifications or extensions to the system, or to
           report errors or inconsistencies ― and many people do. The TEI maintains an elected Technical Council which is
           responsible for assessing and acting upon all proposed modifications and managing production of regular new
           releases. This process is carried out in public, in the spirit of Open Source development. We thus find it
@@ -2402,15 +2417,15 @@ declared by the module (for example, in this case, the attribute class
         <p>The word <q>evolution</q> is not chosen lightly. The TEI of 2013 is not the same as that of 1998, nor even as
           that of 2009, although most of the element names are still the same. The organization and flexibility of the
           TEI as a system architecture enables it to adapt to the changing needs and priorities of its community, in
-          much the same way as other life forms have evolved in response to a changing environment. In <ref
-            target="#Burnard2013">Burnard 2013</ref> I have argued that this is the secret of the TEI's longevity: it is
+          much the same way as other life forms have evolved in response to a changing environment. In <ref type="bibl"
+            target="#Burnard2013">Burnard 2013</ref> I have argued that this is the secret of the TEI&#x2019;s longevity: it is
           organized in such a way as to ensure that it can be modified simply and effectively, depending on the needs of
           its users. It seems likely therefore that the TEI will continue to evolve, both in taking on new areas of
           encoding, and in modifying what has already been proposed to keep up with the changing digital landscape. At
           the end of 2010, for example, release 2.0 of TEI P5 introduced a whole new way of representing genetic or
-          documentary editions defined over the preceding year by an externally-funded workgroup. A method of making TEI
+          documentary editions defined over the preceding year by an externally&#x2013;funded workgroup. A method of making TEI
           documents interoperable with a new standard for the representation of notated music was introduced at about
-          the same time. More recently, ongoing work in the TEI's Special Interest Group on Ontologies ensures that TEI
+          the same time. More recently, ongoing work in the TEI&#x2019;s Special Interest Group on Ontologies ensures that TEI
           encoded texts will continue to be hospitable to emerging best practice in representing Linked Data. </p>
         <p>The TEI as an organization is committed to improving the accessibility and comprehensibility of the TEI as a
           technical system. In addition to the TEI website, which acts as a complete online reference for the scheme,
@@ -2421,7 +2436,7 @@ declared by the module (for example, in this case, the attribute class
       </div>
     </body>
     <back>
-      <div>
+      <div type="bibliography">
         <head>Further Reading</head>
         <p>The <ref target="http//www.tei-c.org">TEI website</ref> maintains a page of links to online tutorial
           materials at <ptr target="http://www.tei-c.org/Support/Learn/tutorials.xml"/>; we list a few of these
@@ -2434,9 +2449,9 @@ declared by the module (for example, in this case, the attribute class
             target="https://www.zotero.org/groups/tei/items"/>, and one more focussed on linguistic issues at <ptr
             target="https://www.zotero.org/groups/tei-lingsig/items/"/>
         </p>
-        <div>
-          <head>Tutorial articles and manuals</head>
-          <listBibl>
+           <listBibl>
+             <head>Tutorial articles and manuals</head>
+             
             <bibl xml:id="Bertrand">
               <editor>
                 <forename>Lauranne</forename>
@@ -2450,7 +2465,7 @@ declared by the module (for example, in this case, the attribute class
                 <forename>Jorge</forename>
                 <surname>Fins</surname>
               </editor>
-              <title level="m">Manuel d’encodage XML-TEI Renaissance et temps modernes (Imprimés - manuscrits)</title>
+              <title level="m">Manuel d’encodage XML&#x2013;TEI Renaissance et temps modernes (Imprimés - manuscrits)</title>
               <ptr target="http://www.bvh.univ-tours.fr/XML-TEI/index.asp"/>
               <note>Detailed encoding manual for early print materials; in French.</note>
             </bibl>
@@ -2462,7 +2477,7 @@ declared by the module (for example, in this case, the attribute class
               <title level="m" xml:lang="zh">TEI使用指南──運用TEI處理中 文文獻</title>
               <title level="m" xml:lang="zh">Chinese TEI – A guide to using TEI with Chinese texts</title>
               <pubPlace>Taiwan</pubPlace>
-              <publisher>Taiwan E-learning and Digital Archive Program 數位典藏與數位學習國家型科技計畫</publisher>
+              <publisher>Taiwan E&#x2013;learning and Digital Archive Program 數位典藏與數位學習國家型科技計畫</publisher>
               <date>2009</date>
               <ptr target="http://www.tei-c.org/Support/Learn/TEI-ChinLoc-2ndPrintEd.pdf"/>
               <note>Chinese translation of the TEI tutorial (P5 edition) and accompanying articles. </note>
@@ -2491,7 +2506,7 @@ declared by the module (for example, in this case, the attribute class
               </author>
               <author>
                 <forename>C.M.</forename>
-                <surname>Sperberg-McQueen</surname>
+                <surname>Sperberg&#x2013;McQueen</surname>
               </author>
               <title level="m">TEI Lite: Encoding for Interchange: an introduction to the TEI: final revised edition for
                 TEI P5</title>
@@ -2557,7 +2572,7 @@ declared by the module (for example, in this case, the attribute class
                 <forename>Sylvain</forename>
                 <surname>Loiseau</surname>
               </author>
-              <title level="m">Les standards : autour d'XML et de la TEI</title>
+              <title level="m">Les standards : autour d&#x2019;XML et de la TEI</title>
               <ptr target="http://www.revue-texto.net/Corpus/Manufacture/standards/sommaire.html"/>
               <date>2002</date>
               <note>Detailed overview of TEI P4 and related XML standards; in French.</note>
@@ -2577,10 +2592,10 @@ declared by the module (for example, in this case, the attribute class
                 modules.</note>
             </bibl>
           </listBibl>
-        </div>
-        <div>
-          <head>Journal articles and books</head>
-          <listBibl>
+       
+            <listBibl>
+              <head>Journal articles and books</head>
+              
             <bibl xml:id="Barnardetal1996">
               
                 <author>
@@ -2773,7 +2788,7 @@ declared by the module (for example, in this case, the attribute class
               <ptr target="http://doi.acm.org/10.1145/264842.264843"/>
               <!--idno type="doi">10.1145/264842.264843</idno-->
               <note>Classic statement of the <soCalled>OHCO</soCalled> hypothesis according to which text is
-                fundamentally an "Ordered Hierarchy of Content".</note>
+                fundamentally an <soCalled>Ordered Hierarchy of Content Objects</soCalled>.</note>
             </bibl>
             <bibl xml:id="HolmesRomary2010">
               
@@ -2791,7 +2806,7 @@ declared by the module (for example, in this case, the attribute class
                 <title level="m" type="main">Publishing and digital libraries: Legal and organizational issues</title>
                 
                   <publisher>IGI Global</publisher>
-                  <biblScope unit="page">88-110</biblScope>
+                  <biblScope unit="page">88&#x2013;110</biblScope>
                 
               
               <!--idno type="doi">10.4018/978-1-60960-031-0</idno>
@@ -2831,11 +2846,11 @@ declared by the module (for example, in this case, the attribute class
               
               
                 <title>Proceedings of the 4th International Conference on Language Resources and Evaluation -
-                  LREC'04</title>
+                  LREC&#x2019;04</title>
                 
                   <pubPlace>Lisbon, Portugal</pubPlace>
                   <date>2004</date>
-                  <biblScope unit="page">135-138</biblScope>
+                  <biblScope unit="page">135&#x2013;138</biblScope>
                 
               
               <idno>http://hal.inria.fr/inria-00099858</idno>
@@ -2875,7 +2890,7 @@ declared by the module (for example, in this case, the attribute class
                 <title level="j">Computers and the Humanities</title>
                 
                   <biblScope unit="volume">33</biblScope>
-                  <biblScope unit="issue">1-2</biblScope>
+                  <biblScope unit="issue">1&#x2013;2</biblScope>
                   <date>1999</date>
                 
               
@@ -2889,7 +2904,7 @@ declared by the module (for example, in this case, the attribute class
                   <forename>Thomas</forename>
                   <surname>Schmidt</surname>
                 </author>
-                <title level="a">A TEI-based Approach to Standardising Spoken Language Transcription</title>
+                <title level="a">A TEI&#x2013;based Approach to Standardising Spoken Language Transcription</title>
               
               
                 <title level="j">Journal of the Text Encoding Initiative</title>
@@ -2907,7 +2922,7 @@ declared by the module (for example, in this case, the attribute class
                 <author>
                   <forename>C.</forename>
                   <forename>Michael</forename>
-                  <surname>Sperberg-McQueen</surname>
+                  <surname>Sperberg&#x2013;McQueen</surname>
                 </author>
                 <title level="a">Text in the Electronic Age: Textual Study and Text Encoding, with Examples from
                   Medieval Texts</title>
@@ -2918,7 +2933,7 @@ declared by the module (for example, in this case, the attribute class
                   <biblScope unit="volume">6</biblScope>
                   <biblScope unit="issue">1</biblScope>
                   <date>1991</date>
-                  <biblScope unit="page">34-46</biblScope>
+                  <biblScope unit="page">34&#x2013;46</biblScope>
                 
               
               <ptr target="http://dx.doi.org/10.1093/llc/6.1.34"/>
@@ -2934,8 +2949,8 @@ declared by the module (for example, in this case, the attribute class
                 </editor>
                 <editor>
                   <forename>Katherine</forename>
-                  <surname>O'Brien</surname>
-                  <surname>O'Keeffe</surname>
+                  <surname>O&#x2019;Brien</surname>
+                  <surname>O&#x2019;Keeffe</surname>
                 </editor>
                 <editor>
                   <forename>Lou</forename>
@@ -2972,7 +2987,7 @@ declared by the module (for example, in this case, the attribute class
                   <biblScope unit="volume">24</biblScope>
                   <biblScope unit="issue">3</biblScope>
                   <date>2009</date>
-                  <biblScope unit="page">281-96</biblScope>
+                  <biblScope unit="page">281&#x2013;96</biblScope>
                 
               
               <ptr target="http://dx.doi.org/10.1093/llc/fqp017"/>
@@ -2980,7 +2995,7 @@ declared by the module (for example, in this case, the attribute class
             </bibl>
           </listBibl>
         </div>
-        <div>
+        <div type="appendix">
           <head>Glossary</head>
           <list type="gloss">
             <label>analytic</label>
@@ -2991,7 +3006,7 @@ declared by the module (for example, in this case, the attribute class
             <label>conformance</label>
             <item>A TEI conformant document must be valid according to the <ident>tei_all</ident> schema, and must also
               respect the TEI conceptual model. </item>
-            <label>data-centred</label>
+            <label>data&#x2013;centred</label>
             <item>An approach to structuring information which prioritizes its informational content or structure above
               its form or appearance. </item>
             <label>element</label>
@@ -3000,10 +3015,10 @@ declared by the module (for example, in this case, the attribute class
             <item>That part of a TEI Header which describes the encoding and editorial practices applied in its
               production</item>
             <label>feature structures</label>
-            <item>A widely-used abstract formalism used in linguistics to represent meaning as structures of named
+            <item>A widely&#x2013;used abstract formalism used in linguistics to represent meaning as structures of named
               features and feature values. </item>
             <label>global attributes</label>
-            <item>Attributes which are potentially available on every TEI-defined element</item>
+            <item>Attributes which are potentially available on every TEI&#x2013;defined element</item>
             <label>group</label>
             <item>A number of independent texts which can also be regarded as constituting a single one, for example an
               anthology.</item>
@@ -3019,7 +3034,7 @@ declared by the module (for example, in this case, the attribute class
             <label>namespace</label>
             <item>An identifier associated with a particular group of XML element names or vocabulary.</item>
             <label>profile description</label>
-            <item>That part of a TEI header concerned with non-bibliographic descriptive metadata.</item>
+            <item>That part of a TEI header concerned with non&#x2013;bibliographic descriptive metadata.</item>
             <label>publication statement</label>
             <item>That part of a TEI header concerned with the publication or distribution of a resource</item>
             <label>rendition</label>
@@ -3036,7 +3051,7 @@ declared by the module (for example, in this case, the attribute class
             <label>tags</label>
             <item>Codes or labels embedded within a string of characters to indicate the beginning or end of an
               element.</item>
-            <label>text-centred</label>
+            <label>text&#x2013;centred</label>
             <item>An approach to structuring information which prioritizes its presentation in textual form over its
               intentional content.</item>
             <label>valid</label>
@@ -3044,11 +3059,12 @@ declared by the module (for example, in this case, the attribute class
             <label>validator</label>
             <item>A piece of software which checks an XML document against a schema to determine whether or not it is
               valid.</item>
-            <label>well-formed</label>
-            <item>A document is said to be well-formed if it conforms to the syntactic rules of XML.</item>
+            <label>well&#x2013;formed</label>
+            <item>A document is said to be well&#x2013;formed if it conforms to the syntactic rules of XML.</item>
           </list>
         </div>
-      </div>
+      
     </back>
   </text>
 </TEI>
+
