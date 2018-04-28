@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_simplePrint.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_simplePrint.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Wash Stand : TEI edition</title>
+            <author>Lou Burnard</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>An unpublished curiosity from the Burnard Archives</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Transcribed from a typescript in the author's possessione</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition xml:id="indent1"/>
+            <rendition xml:id="indent2"/>
+         </tagsDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2018-04-28">Scanned, OCRd, and tagged</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="Pages/1.tiff"/>
+         <stage>cue A</stage>
+         <sp who="A">
+            <l>Persil is the softest wash, soothing </l>
+            <l>red knickers to sargasso depths</l>
+         </sp>
+         <sp who="B">
+            <l>Omo kept us clean, covering</l>
+            <l>filth in forgetful suds, feeding</l>
+            <l>a little life with dried foam.</l>
+         </sp>
+         <sp who="C">
+            <l>Rinso surprised us, pouring from the machine </l>
+            <l>we stopped in the j.c.r. </l>
+            <l>and drank coffee, and talked for an hour</l>
+            <stage>(cue B)</stage>
+         </sp>
+         <sp who="D">
+            <l>I wash, much of the night, and go mad in the winter.</l>
+            <stage>(cue C)</stage>
+         </sp>
+         <sp who="B">
+            <l>What are the suds that pour, what waters flow</l>
+            <l>out of this soapy rubbish? </l>
+         </sp>
+         <sp who="A">
+            <l>Son of man</l>
+            <l>You cannot say, or guess, for you know only</l>
+            <l>A heap of empty packets, where the neon glows</l>
+            <l>and broken furniture gives no shelter, the iron no warmth</l>
+            <l>and the dryer no sound of water. Only </l>
+            <l>there is Daz under this red cardboard.</l>
+         </sp>
+         <sp who="B C D">
+            <l>Come in under the shadow of this red cardboard</l>
+            <stage>(cue D)</stage>
+         </sp>
+         <sp who="B">
+            <l>Madame Sosistris, washday expert</l>
+            <l>had a bad cold nevertheless</l>
+            <l>is known to be the wisest woman in Europe</l>
+            <l>with a wizard pack of pegs.</l>
+         </sp>
+         <sp who="D">
+            <l>Here</l>
+         </sp>
+         <sp who="B">
+            <l rendition="#indent1"> said she</l>
+         </sp>
+         <sp who="D">
+            <l>is the answer to your query Mrs Blake</l>
+            <l>do not use with a flame-resistant finish</l>
+            <l>Here is Fairy Snow, here Proctor and Gamble</l>
+            <l>and this peg your free gift. I do not find</l>
+            <l>imperfect whiteness. Fear death by water.</l>
+            <stage>(Lights)</stage>
+            <l>I see crowds of housewifes, washing in a ring </l>
+            <pb facs="Pages/2.tiff"/>
+            <l>Thank you. If you see dear Mrs Equitine</l>
+            <l>Tell her I bring persilicates myself;</l>
+            <l>One must be so careful these days</l>
+            <stage>(cue E) (linking movement, washing, circle, regroup)</stage>
+         </sp>
+         <sp who="A">
+            <l>O</l>
+         </sp>
+         <sp who="B">
+            <l>O</l>
+         </sp>
+         <sp who="C">
+            <l>O</l>
+         </sp>
+         <sp who="D">
+            <l>O</l>
+         </sp>
+         <sp who="omnes">
+            <l>that Shakespeherian rag</l>
+         </sp>
+         <sp who="A">
+            <l>It's so filthy</l>
+         </sp>
+         <sp who="C">
+            <l>so scrubby</l>
+         </sp>
+         <sp who="B">
+            <l>what shall we do now, what shall we do?</l>
+         </sp>
+         <sp who="D">
+            <l>I shall wash out in the streets, as I am,</l>
+            <l>with my hair down.</l>
+         </sp>
+         <sp who="C">
+            <l>What shall we do tomorrow?</l>
+         </sp>
+         <sp who="B">
+            <l>Washing, again washing.</l>
+         </sp>
+         <sp who="A">
+            <l>Do you know washing? Do you see washing? Do you remember Washing?</l>
+         </sp>
+         <sp who="C">
+            <l>I remember. "Do not use with a flame-resistant finish" </l>
+            <stage>(cue F)</stage>
+         </sp>
+         <sp who="D">
+            <l>The hot water at ten</l>
+            <l>And if it rains, an indoor washing line </l>
+            <l>And we shall scrub the collars,</l>
+            <l>pressing cuffless shirts, and waiting for the FairySnowMan at the door</l>
+            <stage>(mime: A, representing the FairySnowMan, knocks, enters to C; the famous dumb -
+               or bumb - show screw. meanwhile, cue G</stage>
+         </sp>
+         <sp who="D">
+            <l>Twit</l>
+         </sp>
+         <sp who="B">
+            <l>Twit</l>
+         </sp>
+         <sp who="D">
+            <l>Twit</l>
+         </sp>
+         <sp who="B">
+            <l>Jug-jug</l>
+         </sp>
+         <pb facs="Pages/3.tiff"/>
+         <sp who="D">
+            <l>Jug</l>
+         </sp>
+         <sp who="B">
+            <l>Jug</l>
+         </sp>
+         <sp who="D B">
+            <l>So rudely forced </l>
+         </sp>
+         <sp who="A C">
+            <l>Tereu</l>
+         </sp>
+         <stage>(cue H) </stage>
+         <sp who="A">
+            <l>To staircase 13 than I came</l>
+            <l>rinsing rinsing RINSING </l>
+            <l>rinsing</l>
+            <stage>(he is laid to rest)</stage>
+            <l>O Bendix, thou spinnest me out</l>
+            <l>O Bendix, thou spinnest</l>
+            <l>rinsing</l>
+            <stage>(cue I)</stage>
+         </sp>
+         <sp who="B">
+            <l>Proctor the Phoenician, a fortnight dead</l>
+            <l>Forgot the tails of shirts, and the deep spin swell</l>
+            <l>And the fourpence off.</l>
+         </sp>
+         <sp who="D">
+            <l rendition="#indent2">As he drained away</l>
+            <l>He passed the fourth and fifth rinse</l>
+            <l>Entering the whirlpool</l>
+         </sp>
+         <sp who="C">
+            <l rendition="#indent2">Warmwash or hot</l>
+            <l>O you who turn the knob and watch the wash-line</l>
+            <l>Consider Proctor who once gambled as well as you.</l>
+            <stage>(transitional movement as before; cue J)</stage>
+         </sp>
+         <sp who="A">
+            <l>If there were Persil</l>
+         </sp>
+         <sp who="B C D">
+            <l>And no daz</l>
+         </sp>
+         <sp who="A">
+            <l>If there were Daz</l>
+         </sp>
+         <sp who="B C D">
+            <l>And also Persil</l>
+         </sp>
+         <sp who="A">
+            <l>And persil</l>
+         </sp>
+         <sp who="B C D">
+            <l>A packet, washing whiter</l>
+         </sp>
+         <sp who="A">
+            <l>If there were the smell of Persil only</l>
+         </sp>
+         <sp who="B C D">
+            <l>Not dry furniture singing</l>
+            <pb facs="Pages/4.tiff"/>
+         </sp>
+         <sp who="B C D">
+            <l>and the smell of burning nylons</l>
+            <l>But the scent of Persil over the machine</l>
+            <l>frothing to the floor</l>
+         </sp>
+         <sp who="A">
+            <l>Drip</l>
+         </sp>
+         <sp who="B">
+            <l>Drop</l>
+         </sp>
+         <sp who="C">
+            <l>Drip</l>
+         </sp>
+         <sp who="A">
+            <l>Drop</l>
+         </sp>
+         <sp who="D">
+            <l>Drop drop drop</l>
+         </sp>
+         <sp who="A">
+            <l>But there is no Persil</l>
+            <stage>(cue K)</stage>
+         </sp>
+         <sp who="B">
+            <l>THEN SPOKE THE BENDIX</l>
+         </sp>
+         <stage>(cue L)</stage>
+         <sp who="omnes">
+            <l>DAZ</l>
+         </sp>
+         <stage>(cue M)</stage>
+         <sp who="A">
+            <l>Dazzle. What have we washed?</l>
+            <l>Our smalls, whiter than white </l>
+            <l>shrunken to the moment's surrender</l>
+            <l>in our empty rooms</l>
+         </sp>
+         <stage>(cue N)</stage>
+         <sp who="omnes">
+            <l>DAZ</l>
+         </sp>
+         <stage>(cue O)</stage>
+         <sp who="C">
+            <l>Dazzling: I have seen the dryer</l>
+            <l>tumbling, red hat and silent</l>
+            <l>in fetid air. aethereal rumours</l>
+            <l>revive for a moment a broken dramsoc.</l>
+         </sp>
+         <stage>(cue P)</stage>
+         <sp who="omnes">
+            <l>DAZ</l>
+         </sp>
+         <stage>(cue Q)</stage>
+         <sp who="D">
+            <l>Dazzled: The iron responded</l>
+            <l>Gaily, to the hand expert with shirt and trouser.</l>
+            <l>The board was still, smoothing obedient</l>
+            <l>to controlling hands.</l>
+         </sp>
+         <stage>(cue R)</stage>
+         <sp who="B">
+            <l>I sat upon the steps</l>
+            <l>naked with socks whirling before me.</l>
+            <l>Shall I at least set my drawers in order?</l>
+         </sp>
+         <pb facs="Pages/5.tiff"/>
+         <sp who="C">
+            <l>Strawberry fields forever, forever, forever</l>
+         </sp>
+         <sp who="A">
+            <l>Je marche le longue de ces couloirs interminables</l>
+         </sp>
+         <sp who="D">
+            <stage>(tearfully)</stage>
+            <l>O Rinso, rinso.</l>
+         </sp>
+         <sp who="B">
+            <l>These fragments I have shored against my ruins</l>
+            <l>Why then Ile fit you. Birtwhistle's mad againe.</l>
+            <l>Dazzle. Dazzling. Dazzled.</l>
+         </sp>
+         <sp who="omnes">
+            <l>softrinse softrinse softrinse</l>
+         </sp>
+         <stage>cue S</stage>
+      </body>
+   </text>
+</TEI>
