@@ -28,7 +28,7 @@
    </teiHeader>
    <text>
       <body>
-         <pb facs="Pages/1.tiff"/>
+         <pb facs="Pages/1.png"/>
          <stage>cue A</stage>
          <sp who="A">
             <l>Persil is the softest wash, soothing </l>
@@ -85,7 +85,7 @@
             <l>imperfect whiteness. Fear death by water.</l>
             <stage>(Lights)</stage>
             <l>I see crowds of housewifes, washing in a ring </l>
-            <pb facs="Pages/2.tiff"/>
+            <pb facs="Pages/2.png"/>
             <l>Thank you. If you see dear Mrs Equitine</l>
             <l>Tell her I bring persilicates myself;</l>
             <l>One must be so careful these days</l>
@@ -152,7 +152,7 @@
          <sp who="B">
             <l>Jug-jug</l>
          </sp>
-         <pb facs="Pages/3.tiff"/>
+         <pb facs="Pages/3.png"/>
          <sp who="D">
             <l>Jug</l>
          </sp>
@@ -215,7 +215,7 @@
          </sp>
          <sp who="B C D">
             <l>Not dry furniture singing</l>
-            <pb facs="Pages/4.tiff"/>
+            <pb facs="Pages/4.png"/>
          </sp>
          <sp who="B C D">
             <l>and the smell of burning nylons</l>
@@ -283,7 +283,7 @@
             <l>naked with socks whirling before me.</l>
             <l>Shall I at least set my drawers in order?</l>
          </sp>
-         <pb facs="Pages/5.tiff"/>
+         <pb facs="Pages/5.png"/>
          <sp who="C">
             <l>Strawberry fields forever, forever, forever</l>
          </sp>
