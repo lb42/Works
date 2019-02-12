@@ -29,7 +29,7 @@
    <text>
       <body>
          <pb facs="Pages/1.tiff"/>
-         <stage>cue A</stage>
+         <stage>(cue A)</stage>
          <sp who="A">
             <l>Persil is the softest wash, soothing </l>
             <l>red knickers to sargasso depths</l>
@@ -89,8 +89,9 @@
             <l>Thank you. If you see dear Mrs Equitine</l>
             <l>Tell her I bring persilicates myself;</l>
             <l>One must be so careful these days</l>
-            <stage>(cue E) (linking movement, washing, circle, regroup)</stage>
          </sp>
+         <stage>(cue E) (linking movement, washing, circle, regroup)</stage>
+         
          <sp who="A">
             <l>O</l>
          </sp>
@@ -137,9 +138,10 @@
             <l>And if it rains, an indoor washing line </l>
             <l>And we shall scrub the collars,</l>
             <l>pressing cuffless shirts, and waiting for the FairySnowMan at the door</l>
-            <stage>(mime: A, representing the FairySnowMan, knocks, enters to C; the famous dumb -
-               or bumb - show screw. meanwhile, cue G</stage>
+         
          </sp>
+         <stage>(mime: A, representing the FairySnowMan, knocks, enters to C; the famous dumb -
+            or bumb - show screw. meanwhile, cue G</stage>
          <sp who="D">
             <l>Twit</l>
          </sp>
@@ -190,8 +192,7 @@
             <l rendition="#indent2">Warmwash or hot</l>
             <l>O you who turn the knob and watch the wash-line</l>
             <l>Consider Proctor who once gambled as well as you.</l>
-            <stage>(transitional movement as before; cue J)</stage>
-         </sp>
+         </sp> <stage>(transitional movement as before; cue J)</stage>
          <sp who="A">
             <l>If there were Persil</l>
          </sp>
