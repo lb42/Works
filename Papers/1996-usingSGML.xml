@@ -1,0 +1,1211 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_jtei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_jtei.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="jTEI">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Using SGML for Linguistic
+               Analysis: the case of the BNC</title>
+        
+            <author>
+               <name>
+                  <forename>Lou</forename> 
+                  <surname>Burnard</surname>
+               </name>
+               <affiliation>>Lou Burnard is
+                  Manager of the Humanities Computing Unit at Oxford University Computing
+                  Services, and European Editor of the Text Encoding Initiative. He was
+                  educated at Oxford University, where he has worked in humanistic
+                  applications of information technology since the seventies. </affiliation>
+               <email>http://users.ox.ac.uk/~lou/</email>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p></p>
+           
+         </publicationStmt>
+         <sourceDesc>
+            <p>Retagged from an SGML version dated 1998</p>
+         </sourceDesc>
+      </fileDesc>
+     
+      <profileDesc>
+         <langUsage>
+            <language ident="en">en</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+          
+               <term/>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+  </teiHeader>
+   
+   
+  <text>
+      <front>
+         <div type="abstract" >
+            <p>The British National Corpus (BNC) is a rather large SGML document,
+               comprising some 4124 samples taken from a rich variety of contemporary
+               British English texts of every kind, written and printed, famous and
+               obscure, learned and ignorant, spoken and written. Each of its hundred
+               million words and six and a quarter million sentences is tagged
+               explicitly in SGML and carries an automatically&#x2013;generated linguistic
+               analysis. Each sample carries a TEI&#x2013;conformant header, containing
+               detailed contextual and descriptive information, as well as more
+               conventional SGML mark&#x2013;up. </p>
+            <p>The corpus was created over a four year period by a consortium of
+               leading dictionary publishers and academic research centres in the UK,
+               with substantial funding from the British Department of Trade and
+               Industry, the Science and Engineering Research Council, and the British
+               Library. On publication, it was made freely  available under licence
+               within the European Union, where it is increasingly used in linguistic
+               research and lexicography, in applications ranging from the construction
+               of state of the art language&#x2013;recognition systems, to the teaching of
+               English as a second language. 
+            </p>
+            <p>This paper describes how the corpus was constructed, and gives an
+               overview of some of the SGML encoding issues raised during the process.
+               A brief description of the special purpose SGML aware retrieval system
+               developed to analyse the corpus and its current status is also provided.</p>
+         </div>
+      </front>
+      <body>
+<div xml:id="howto"><head>How to build a corpus</head>
+<p>
+The building of large&#x2013;scale corpora of text for use in linguistic
+analysis pre&#x2013;dates the technical feasibility of such resources in
+digital form by several centuries. The <hi rend="italic">
+Oxford English Dictionary</hi>, for
+example, may be regarded as the product of an immense corpus of citation
+slips, collected and collated in handwritten form over a period of
+decades during the last century. However, the term <term>corpus</term>
+is most typically used nowadays to refer to a collection of linguistic
+data gathered for some specific analytic purpose, with a strong
+presupposition that it will be stored, managed, and analysed in digital
+form. The grandfather of linguistic corpora of this type is the
+one&#x2013;million word Brown corpus, created at Brown University in the early
+sixties, using methods still relevant today. Linguists and linguistics
+thrive on controversy, of which the dignifying of corpus&#x2013;based
+approaches to the subject into a recognized academic discipline has had
+its fair share. Nevertheless, certainly in Europe, and increasingly in
+North America, corpus&#x2013;based linguistics is widely perceived as central
+to many aspects of research into the nature and functioning of human
+language, with applications in fields as diverse as lexicography,
+natural language processing, machine translation, and language learning.
+ The maturity of the field may also be inferred from the increasing
+number of general introductory textbooks: see for example
+<ref type="bibl" target="#MCE96">McEnery and Wilson  1996  </ref>, 
+<ref type="bibl" target="#BIB98">Biber et al   1998  </ref>, <ref type="bibl" target="#KEN98">Kennedy   1998  </ref>,
+or
+&#x2014; a general introduction produced with particular reference to the
+British National Corpus (BNC) &#x2014; <ref type="bibl" target="#AST98">Aston and
+Burnard   1998  </ref>. 
+</p>
+<p>Many of the most well&#x2013;known language corpora were created within an
+academic context, where slightly different constraints tend to affect
+quality control, budgets, and deadlines than those associated with
+commercial production environments. The BNC project was, by contrast, a
+joint academic&#x2013;industrial project, in which both academic and industrial
+partners learned a little more of their colleagues’ perspectives by
+means of an enforced collaboration. In crude terms, if the academic
+partners learned to cut their coat according to the cloth available; the
+industrial partners learned that there were more complex things in life
+than boilersuits.</p> 
+<p>The British National Corpus (BNC) is a collection of over 4000
+different text samples, of all kinds, both written and spoken,
+containing in all six and a quarter million sentences, and over 100
+million words of current British English. Work on building it began in
+1991, and was completed in 1994.  The project was funded by the Science
+and Engineering Council (now EPSRC) and the Department of Trade and
+Industry under the Joint Framework for Information Technology (JFIT)
+programme.   The project was carried out by a consortium lead by Oxford
+University Press, of which the other members are major dictionary
+publishers Addison&#x2013;Wesley Longman and Chambers&#x2013;Harrap; academic research
+centres at Oxford University Computing Services, Lancaster University’s
+Centre for Computer Research on the English Language, and the British
+Library’s Research and Innovation Centre.
+</p>
+<p>Organizationally, the tasks of designing and building the corpus
+were split across a number of technical work groups on which each member
+of the consortium was represented.  Task Group A concerned itself with
+basic issues of corpus design &#x2014; what principles should inform the
+selection of texts for inclusion in the corpus &#x2014; what target
+proportions should be set for different text types and so forth. Task
+Group B focussed on one key issue in corpus construction, the
+establishment of acceptable procedures for rights clearance and
+poermissions to include material in the corpus. This might have been the
+subject of a major research project in its own right: in practice, the
+output from the task group was a standard agreement, in some sense a
+precedent&#x2013;setting document for other European corpus&#x2013;builders. </p>
+<p>Task Group C concerned itself with technical details of encoding and
+text processing; these are discussed in more detail below. Task Group D
+concerned itself with corpus enrichment and analysis. In practice, the
+distinction between the two turned out to be largely the distinction
+between the creation of the corpus and of specific software to make use
+of it. Since the latter task was not possible until the end of the
+project, by when there were no funds left to do it, it is unsurprising
+that little was actually accomplished in this group within the time of
+the original BNC project.</p>
+<p> SGML played a major part in the BNC project: as an interchange
+medium between the various data&#x2013;providers; as a target
+application&#x2013;independent format; and as the vehicle for expression of
+metadata and linguistic interpretations encoded within the corpus. From
+the start of the project, it was recognized that SGML offered the only
+sure foundation for long term storage and distribution of the data; only
+during its progress did the importance of using it also as an exchange
+medium between the various partners emerge. The importance of SGML as an
+application independent encoding format is also  only now becoming
+apparent, as a wide range of applications for it begin to be realized.</p>
+<p>The scale and variety of data to be included meant that a industrial
+style production line environment had to be defined: this was dubbed the
+BNC sausage machine by Jeremy Clear, the project manager at the time, 
+and may be summarized as follows:<list type="gloss">
+<label>data capture</label>
+<item> each of the three commercial partners selected and  prepared
+material to a different defined format, reflecting to some extent the
+diverse nature of materials for which they were primarily responsible;
+</item>
+<label>primary check and conversion</label>
+<item> OUCS checked each text against its data capture format,
+automatically converted it to project standard format,  and made an
+accession record for it in  the project database; </item>
+<label>linguistic annotation</label>
+<item> valid SGML texts were passed to Lancaster for automatic addition
+of word class tagging and linguistic segmentation, using the CLAWS
+software discussed further below; </item>
+<label>text cataloguing and final checking</label>
+<item>
+lexically annotated texts were run through a final conversion  at OUCS;
+a detailed TEI header was generated from the project database and  the
+text itself  added to the corpus. </item></list></p> 
+<p>A wide literature now exists on corpus design methodologies, which
+this paper will not attempt to summarize although the experience of
+designing and creating the BNC has contributed greatly to it (see in
+particular <ref type="bibl" target="#ATK92">Atkins et al   1992  </ref>).  A corpus
+which, like the BNC, aims to represent all the varieties of the English
+language cannot simply be assembled opportunistically by collecting as
+much electronic material as its budget will permit, although a project
+with a defined budget and timescale inevitably finds design principles
+sometimes have to be sacrificed to pragmatic considerations. Neither can
+a corpus aiming to represent the full variety of contemporary English
+proceed on a purely statistical basis: a statistically balanced random
+sampling of language producers will be unlikely to include (for example)
+many journalists or media personalities, while a statistically balanced
+random sample of language reception is unlikely to include much apart
+from popular journalism. As a compromise, the project adapted a
+stratified sampling procedure, in which the range of texts to be sampled
+is pre&#x2013;defined, and target proportions were then agreed on for each.  
+</p>
+<p>In the spoken part of the corpus, ten per cent of the whole, a
+balance was struck between material gathered on a statistical basis
+(i.e.,  recruited from a demographically&#x2013;balanced sample of language
+producers) and from material gathered from a pre&#x2013;defined set of speech
+situations or contexts. A moment’s reflection should show that this dual
+practice was necessary to ensure that the corpus included examples of
+both common and uncommon types of language. Equally, in the written
+parts of the corpus, published and unpublished material, of a wide range
+of topics, registers, levels etc., were all represented. From high&#x2013;brow
+novels and text books to pulp fiction and journalism, by way of school
+essays, office memoranda, email discussion lists, and paper&#x2013;bags, our
+aim was to ensure that every form of written language is to be found in
+the corpus, to a greater or larger extent.</p>  
+<p>As noted above, data capture for the whole project was carried out
+by the three publishers in the BNC consortium (OUP, Longman and
+Chambers). Three sources of electronic data were envisaged at the start
+of the project: existing electronic text, OCR from printed text, and
+keyed&#x2013;in text. It soon become apparent that the first source would be
+less useful than anticipated since either the material was encoded in
+formats too difficult to unscramble consistently, or the texts available
+did not match the stipulated design criteria. Scanning and keying text
+brought lesser problems of their own, of which probably the worst was
+training keyboarders and scanners at different places to be consistent
+under tight time constraints.  In the case of spoken data, keyboarding
+was the only option from the start, and proved to be very expensive and
+time&#x2013;consuming, in part because of the very high standards set for data
+capture. Transcribing spoken language with attention to such features as
+overlap (where one speaker interrupts another), and enforcing
+consistency in the representation of non lexical or semi&#x2013;lexical
+phenomena are major technical problems, rarely attempted on the scale of
+the BNC material, which finally included ten million words of naturally
+occurring speech, recorded in all sorts of environments</p>  
+<p>For a variety of reasons, the three data suppliers all used their
+own internal markup systems for data capture which then had to be
+centrally converted and corrected to the project encoding standard. Had
+this standard, the Corpus Document Interchange Format, or CDIF, been
+available at the start of the project, the need for conversion would
+have been lessened, but not that for validation. CDIF, like many other
+TEI&#x2013;conformant dtds, allows for considerable variation in actual
+encoding practice, largely because of the very widely different text
+types that it has to accommodate. To help ease the burden on data
+suppliers, the tags available were classified according to their
+perceived usefulness and applicability. Some &#x2014; such as headings,
+chapter or other division breaks, and paragraphs &#x2014; were designated
+<term>required</term> parts of any CDIF document; when such features
+occur in a text, they must be marked up. Others &#x2014; such as
+sub&#x2013;divisions within the text, lists, poems, and notes about editorial
+correction, were <term>recommended</term>, and should be marked up if
+at all possible. Finally, some tags were considered
+<term>optional</term> &#x2014; dates, proper names and citations which
+are easily identifiable.  The process of format conversion and SGML
+validation was automated as far as possible (fortunately for us, the
+sgmls parser became available early on during the project): these
+constituted the <mentioned>syntactic</mentioned> check. Where time
+permitted, we also carried out a <mentioned>semantic</mentioned> check to
+determine whether material which should have been tagged had in fact
+been marked up, though it was of course impossible to carry out a full
+proof reading exercise. Materials which fell below an agreed threshold
+of errors, either syntactic or semantic, were returned to the data
+capture agency, for correction or replacement. </p> 
+<p>Management of the many thousand of files and versions of files
+involved as texts passed through the production line was managed by a
+relational database system, which also managed routine archiving and
+backup.  This database also held all of the bibliographic and other
+metadata associated with each text, from which the TEI headers
+eventually added to each text were generated. (A useful summary of the
+information recorded in each header is provided in <ref type="bibl" target="#DUN95">Dunlop
+  1995  </ref>).</p>  
+<p>The project was funded for a total of four years, of which the first
+was devoted to agreeing and defining in full operational detail the
+procedures summarized above.  By the end of the 5th quarter (March
+1992), 10 percent of the corpus had been received at OUCS and procedures
+for handling it were in place. A small sample (2 million words) had been
+processed and sent on to Lancaster for the next stage of processing. The
+rate at which texts were received and processed at OUCS fluctuated
+somewhat during the course of the project, but ramped up steadily
+towards its end. </p>
+<p>The following table shows the approximate number of words (in
+millions) received at OUCS, converted to the project standard, and
+received back from Lancaster in annotated form, for each quarter
+(parenthesized figures indicate
+<mentioned>bounced</mentioned> texts &#x2014; material which had to be returned
+because it did not pass the QA procedures discussed above):
+
+<!-- sorry, no idea how to tag this in  MLANG -->
+
+<table>
+<row><cell>Quarter </cell><cell> Received </cell><cell>Validated</cell>
+<cell>
+Annotated</cell></row>
+<row><cell> 6 </cell><cell>2 </cell><cell>4 </cell><cell> &#x2013; 
+</cell></row>
+<row><cell> 7 </cell><cell> 6 </cell><cell>4 </cell><cell> &#x2013; 
+</cell></row>
+<row><cell> 8</cell><cell>5 (1)</cell><cell> 8 </cell><cell>6</cell></row>
+<row><cell> 9</cell><cell> 6 (2)
+</cell><cell>14 </cell><cell> 13</cell></row>
+<row><cell>10</cell><cell>14 (3)</cell><cell> 11 </cell><cell>
+ 5</cell></row>
+<row><cell>11</cell><cell> 12 (2)</cell><cell> 13</cell><cell>8</cell></row>
+<row><cell>12</cell><cell>25 </cell><cell>16</cell><cell> 17</cell></row>
+<row><cell>13 </cell><cell>25 </cell><cell> 32</cell><cell>
+22    
+</cell></row>
+<row><cell>14 </cell><cell>3 </cell><cell> 8 </cell><cell>
+30    
+</cell></row></table> 
+</p>
+</div>
+<div xml:id="markup"><head>How to mark up a corpus</head>
+<p>A full description of the BNC mark up scheme is beyond the scope of
+this paper, and is in any case available in the documentation supplied
+with the corpus and elsewhere. In this paper I would like to focus on
+the way in which the anticipated uses of the corpus conditioned the mark
+up scheme actually applied. </p>
+<p>It has often been said of general purpose dtds such as the TEI
+(which was being developed symbiotically with the CDIF scheme used in
+the BNC) that they allow the user too much flexibility.  In practice, we
+found that the richly descriptive aspects of the TEI scheme were of
+least interest to our potential users. For purpose of linguistic
+analysis, the immense variety of objects in a fully marked up text, with
+all their fascinating problems of rendering and interpretation, are of
+less importance than a reliable and regular structural breakdown, into
+segments and words. This was an unpalatable lesson for academics with a
+fondness for the rugosities of real language, but an important one. The
+scale of the BNC simply did not permit us to lovingly mark up every
+detail of the text &#x2014; distinguishing sharply every list, foreign
+word, editorial intervention, or proper name. Instead we had to be sure
+that headings, paragraphs, and major text divisions were reliably and
+consistently captured in an immense variety of materials. For purposes
+of linguistic analysis, segmentation at the sentence and word level was
+crucial but, fortunately, automatic. By comparison with other, more
+literary oriented, TEI texts, the tagging of the BNC is thus rather
+sparse, despite its 150 million SGML tags. </p> 
+<p> The basic structural mark up of both written and spoken texts may
+be summarized as follows.  Each of the 4124 documents or text samples
+making up the corpus is represented by a single <ident>&lt;bncDoc&gt;</ident>
+element, containing a header, and either a <ident>&lt;text&gt;</ident> (for written
+texts) or an <ident>&lt;stext&gt;</ident> (for spoken texts) element. The header
+element contains detailed and richly structured metadata supplying a
+variety of contextual information about the document (its title, source,
+encoding, etc., as defined by the TEI): as noted above, headers were
+automatically generated from information managed within a relational
+database. A spoken text is divided into utterances, possibly
+interspersed with nonlinguistic elements such as events, possibly
+grouped into divisions to mark breaks in conversations. A written text
+is divided into paragraphs, possibly also grouped into hierarchically
+numbered divisions. Below the level of the paragraph or utterance, all
+texts are composed of <ident>&lt;s&gt;</ident> elements, marking the automatic
+linguistic segmentation carried out at Lancaster, and each of these is
+divided into <ident>&lt;w&gt;</ident> (word) or <ident>&lt;c&gt;</ident> (punctuation) elements,
+each bearing a POS (part of speech) annotation attribute.</p> 
+<p>Considerable discussion went on at the start of the project as to
+the best method of encoding this automatically&#x2013;generated information.
+There are about sixty different possible POS codes, each  representing a
+linguistic category, for example as a singular noun, adverb of a
+particular type, etc. The codes are automatically allocated to each word
+by CLAWS, a sophisticated language&#x2013;processing system developed at the
+University of Lancaster, and widely recognized as a mature product in
+the field of Natural Language Processing. </p>
+<p>For approximately 4.7 per cent of the words in the corpus, CLAWS was
+unable to decide between two possible taggings with sufficient
+likelihood of success. In such cases, a two&#x2013;value word&#x2013;class code, known
+as a <term>portmanteau tag</term> is applied. For example, 
+the portmanteau tag <code>VVD&#x2013;VVN</code> means that the word may be
+either a past tense verb (<code>VVD</code>), or a past participle (<code>VVN</code>).
+We did not make any attempt to represent this ambiguity in the SGML
+coding, though at a later stage of linguistic analysis, perhaps based on
+the TEI feature structure mechanism, this might be possible.  Without
+manual intervention, the CLAWS system has an overall error&#x2013;rate of
+approximately 1.7%, excluding punctuation marks.  Given the size of the
+corpus, there was no opportunity to undertake post&#x2013;editing to correct
+annotation errors before the first release of the corpus. </p>
+<p> Since then two successor projects have been completed by the
+Lancaster team, resulting in the availability of a much improved new
+version. The first step was to manually check a 2 percent sample from
+the whole corpus, using a much richer and more delicate set of c
+existence, and had been for many years), we began by representing the
+code simply as an entity reference following the token to which it
+applied, thus:
+<code><![CDATA[ The&AT0 Queen&NP0’s&POS annus horribilis&NN1]]></code></p>
+<p>This option, we felt, would enable us to defer to a later stage
+exactly what the replacement for each entity reference should be: it
+might be nothing at all, for those uninterested in POS information, or a
+string, or a pointer indicating a more complex expansion of the TEI
+kind. The problem with this representation however, is that it relies on
+an ad hoc interpretive rule (of the kind which SGML is specifically
+designed to preclude the need for) to indicate, for example, that the
+code <code>AT0</code> belongs to the word <mentioned >The</mentioned>,
+rather than to the word <mentioned >Queen</mentioned>. In
+fact this is not encoding the truth of the situation: we have here a
+string of word&#x2013;annotation pairs. A more truthful annotation might be:
+<code><![CDATA[<pair>
+  <form>The</form>
+  <code>At0</code>
+</pair>]]></code></p>
+<p>A further possibility is to use an attribute value, for either the
+Form or the Code: thus
+<code><![CDATA[  <form code=AT0>The</form>]]></code> or, equivalently,<code ><![CDATA[  <code form=The>AT0</code>
+  ]]></code></p>
+<p>From the SGML point of view these are equivalent. From the 
+application point of view, the notion of a text composed of strings of
+POS codes, with embedded forms seems somehow less appealing than the
+reverse, which is what we eventually chose: our example being tagged as
+follows: 
+<code><![CDATA[<w AT0>The <w NP0>Queen<w POS>’s <w NN1>annus horribilis]]></code></p>
+<p>The decision to use an often deprecated form of tag minimization for
+the POS annotation was forced upon us largely by economic
+considerations. A fully normalized form, with attribute name and
+end&#x2013;tags included on each of the 100 million words would have more than
+doubled the size of the corpus. Data storage costs continue to plummet,
+but the difference between 2 Gb and 4Gb remains significant! </p>
+<p>A second major set of encoding problems arose from the inclusion in
+the corpus of  ten million words of transcribed speech, half of it
+recorded in pre&#x2013;defined situations (lectures, broadcasts, consultations
+etc), and the other half recorded by a demographically sampled set of
+volunteers, willing to tape their own every day work and leisure time
+conversation. </p>
+<p>Speech is transcribed using normal orthographic conventions, rather
+than attempting a full phonemic transcript, which would have been beyond
+the project’s limited resources.  Even so, the markup has to be very
+rich in order to capture the process of speaker interaction &#x2014; who
+is speaking, and how, and where they are interrupted.  Significant
+non&#x2013;verbal events such as pauses or changes in voice quality are also
+marked up using appropriate empty elements, which bear descriptive
+attributes.  Here is an example of the start of one such conversation,
+as encoded in CDIF: <code><![CDATA[<u who=D00011>
+<s n=00011>
+<event desc="radio on"><w PNp><pause dur=34>You
+<w VVD>got<w TO0>ta <unclear><w NN1>Radio
+<w CRD>Two <w PRp>with <w DT0>that <c PUN>.
+<s n=00012>
+<pause dur=6><w AJ0>Bloody <w NN1>pirate
+<w NN1>station <w VM0>would<w XX0>n’t
+<w PNp>you <c PUN>?
+</u>
+]]></code></p>
+<p>The basic unit is the utterance, marked as an <ident>&lt;u&gt;</ident> element,
+with  an attribute <code>who</code> specifying the speaker, where this
+is known. This attribute targets an element in the header for the text,
+which carries important background information about the speaker, for
+example their gender, age, social background, inter&#x2013;relationship etc.
+Where speakers interrupt each other, as they usually do, a system of
+alignment pointers simplified from that defined by the TEI, is used.
+This requires that all points of overlap are identified in a<ident>&lt;timeLine&gt;</ident>
+element prefixed to each text, component points (<ident>&lt;when&gt;</ident>
+elements) of which are then pointed to from synchronous moments within
+the transcribed speech, represented as <ident>&lt;ptr&gt;</ident> elements.   Pausing
+is marked, using a <ident>&lt;pause&gt;</ident> element, with an indication of its
+length if this seems abnormal. Gaps in the transcription, caused either
+by inaudibility or the need to anonymize the material, are marked using
+the <ident>&lt;unclear&gt;</ident> or <ident>&lt;gap&gt;</ident> elements as appropriate.
+Truncated forms of words, caused by interruption or false&#x2013;starts, are
+also marked, using the <ident>&lt;trunc&gt;</ident> element. </p>
+<p>A semi&#x2013;rigorous form of normalization is applied to the spelling of
+non&#x2013;conventional forms such as <mentioned >innit</mentioned>
+or
+<mentioned >lorra</mentioned>; the principle adopted was to
+spell such forms in the way that they typically appear in general
+dictionaries. Similar methods are used to normalize such features of
+spoken language as filled pauses, semi&#x2013;lexicalized items such as
+<mentioned >um</mentioned>,
+<mentioned >err</mentioned>, etc. Some light punctuation 
+was also added, motivated chiefly by the desire to make the
+transcriptions comprehensible to a reader, by marking (for example)
+questions, possessives, and sentence boundaries in the conventional way.
+</p>
+<p>Paralinguistic features affecting particular stretches of speech,
+such as shouting or laughing,  are marked using the <ident>&lt;shift&gt;</ident>
+element to delimit changes in voice quality. Non&#x2013;verbal sounds such as
+coughing or yawning, and non&#x2013;speech events such as  traffic noise are
+also marked, using the <ident>&lt;vocal&gt;</ident> and <ident>&lt;event&gt;</ident> elements
+respectively; in both cases, a closed list of values for the
+<code>desc</code> attribute is used to specify the phenomenon
+concerned. It should however be emphasized that the aim was to
+transcribe as  clearly and economically as possible rather than to
+represent all the subtleties of the audio recording.</p>
+<p> The metadata provided by the header element, mentioned above, is of
+particular importance in any electronic text, but especially so in a
+large corpus. Earlier corpora have  tended to provide all such
+documentation (if at all) as a separate collection of reference manuals,
+rather than as an integral part of the  corpus, with obvious concomitant
+problems of maintainability and consistency. In SGML, particularly the
+TEI header, we felt that we had a powerful mechanism for integrating
+data and metadata, which we used to the full: each component text of the
+BNC carries a full header, structured according to TEI recommendations,
+and containing a full bibliographic description of it, and of its
+source, as well as specific details of its encoding, revision status,
+etc. A corpus header, containing information common to all texts, is
+also provided: this includes full descriptions of the corpus creation
+methodology, and the various codes used within individual text headers,
+such as those for text classification.</p>
+<p>A particular problem arises with large general purpose corpora like
+the BNC, the components of which can be cross&#x2013;classified in many
+different ways. Earlier corpora have tended to simplify this, for
+example, by organizing the corpora into groups of texts of a particular
+type &#x2014; all newspaper texts together, all novels together, etc.   A
+typical BNC text however can be classified in many different ways
+(medium, level, region, etc.). The solution we adopted, was to include
+in the header of each text a single <ident>&lt;catRef&gt;</ident> element carrying an
+IDREFS&#x2013;valued attribute, which targetted each of the descriptive
+categories applicable to the text.</p>
+<p>For example, the header of a text of written author type 2 (multiple
+authorship),  written medium type 4 (miscellaneous unpublished), and
+written domain type 3 (applied sciences) will contain a element like the
+following:<code><![CDATA[<catref="wriaty2 wrimed4 wridom3">]]></code>The
+values wriaty2 wrimed4 etc.  here each references a <ident>&lt;category&gt;</ident>
+element in the corpus header, containing a definition for the
+classification intended.  The full set of descriptive categories used is
+thus controlled and can be guaranteed uniform across the whole corpus,
+while at the same time permitting us to mix and combine descriptive
+categories within each text as appropriate. </p>
+<p>A similar method was used to link very detailed participant
+descriptions (stored in the header) with utterances attributed to them
+in the spoken part of the corpus. </p>
+<p>In retrospect, had we all known as much about SGML at the start of
+the project as we did by the end of it, we would have made much more
+impressive progress, and perhaps delivered a better product.  Needless
+effort went into converting from one format to another, which might have
+been better spent on gathering more reliable contextual information for
+example. We also spent a long time devising ways of representing complex
+information about (for example) relationships between the speakers which
+in the event was not reliably available for more than a handful of
+cases.  The data representation we produced was thus rather more
+sophisticated and complex than the material included perhaps warranted.
+</p></div>
+<div xml:id="anal"><head>How to analyse a corpus</head>
+<p>
+Linguistic analysis, particularly of large and diversely organized
+corpora, is not the same as text retrieval. While some of the
+application needs of the BNC user community might be met by standard
+SGML browsers or text database systems, many are not. The typical user
+of the BNC is interested in its contents as raw material for analysis,
+not as material to be searched for particular words or references. There
+is a correspondingly greater emphasis on statistical output, on ways of
+patterning and reordering result sets, as well as a need to support more
+complex kinds of enquiry than are usual in text&#x2013;retrieval products.  To
+meet some of these needs, the BNC is now delivered with a
+purpose&#x2013;written SGML Aware Retrieval Application (SARA), developed at
+Oxford.</p>
+<p>From the start of the BNC project in 1990, it had always tacitly
+been assumed that some kind of retrieval software would need to be
+delivered along with the corpus. The original project proposal talks of
+ <soCalled>simple processing tools</soCalled> and an informal specification for an
+<soCalled>information search and retrieval processor</soCalled> was also drawn up by the
+UCREL team early on. In the event, the need to complete delivery of the
+corpus on time (or at least, not too late), meant that development of
+any such software beyond that needed for the immediate needs of the
+project was increasingly deferred. It was argued that the lack of such
+software might be only transient, since the corpus was to be delivered
+in SGML form, tools for which were already becoming widely available, as
+a result of the widespread adoption of this standard both within the
+language engineering research community and elsewhere. 
+</p>
+<p>
+However, a major stated goal of the project was to make the corpus
+available and usable as widely as possible, that is, not just at a low
+cost, but also within as wide a variety of environments as possible. It
+seemed to us that the potential user community for large scale corpora
+like the BNC extended considerably as far beyond the Natural Language
+Processing research community as it did beyond the immediate needs of
+commercial lexicographers, although it was largely on behalf of these
+groups that the project had originally been funded and largely therefore
+these groups which had determined the manner in which it should be
+delivered. </p>
+<p>
+It seemed to us that the software needs of some of the potential users
+of the BNC would be only partially met by the generic SGML software
+available in late 1994 (and to a large extent still today). The choice
+lay amongst highly specialized, but high performance, application
+development tool kits which given sufficient expertise could be
+customized to suit the needs of niche markets in NLP or lexicography,
+but which were somewhat beyond the needs, comprehension, or indeed
+purse, of the person in the street; generic SGML browse and display
+engines, designed originally for electronic publication or delivery over
+the web, often with very attractive and user&#x2013;friendly interfaces but
+generally unable to handle the full complexity and scale of the BNC; or
+simple concordancing tools which were equally unable to take advantage
+of the added value we had so painfully put into the encoding and
+organization of the corpus. Moreover existing software was either very
+expensive (being aimed at large scale electronic publishing
+environments), or free, but requiring considerable technical expertise
+for anything beyond the most trivial of applications. As discussed
+further below, the scale and complexity of the BNC (with its 100 million
+tagged words, six and a quarter million sentences, and 4124 interlinked
+texts) seemed likely to stretch the capacity of most simple text&#x2013;based
+concordancers available at that time.
+</p>
+<p>
+We were fortunate enough to obtain funding, initially from the British
+Library R &amp; D Department, and subsequently from the British Academy,
+to produce a software package which might go some way to fill the gaps
+identified. Development of the system was carried out by Tony Dodd, with
+valuable input from members of the original BNC Consortium, and from
+early users of the software. The system is called SARA, for SGML&#x2013;Aware
+Retrieval Application, to make explicit that although
+aware of the SGML markup present in the
+corpus, it is not a native SGML database. In this respect, however, it
+is no better or worse than a number of other current software packages.
+</p>
+</div>
+<div xml:id="sara"><head>The SARA system</head>
+<p>The SARA system was designed for <term >client&#x2013;server
+mode</term>   operation, typically in a distributed computing
+environment, where one or more work&#x2013;stations or personal computers are
+used to access a central server over a network. This is, of course, the
+kind of environment which is most widely current in academic (and other)
+computing milieux today. The success of the World Wide Web, which uses
+an identical design philosophy, is vivid testimony to the effectiveness
+of this approach.
+</p>
+<p>
+The system has four chief components:<list>
+<item><p>the indexing program, which generates an index of tokens from an
+SGML marked&#x2013;up text;</p>
+</item>
+<item><p>the server program, which accepts messages in the Corpus Query
+Language (see below) and returns results from the SGML text;
+</p></item>
+<item><p>the SARA protocol, a formally defined set of message types which
+determines legal interactions between the client and server programs;
+this protocol makes use of a high&#x2013;level query language known as CQL (for
+Corpus Query Language);
+</p></item>
+<item><p>one or more client programs, with which a user interacts in any
+appropriate platform&#x2013;specific way, and which communicate with the server
+program using the protocol.</p></item></list></p>
+<div xml:id="sara1"><head>The SARA index</head>
+<p>
+Computationally, the best&#x2013;understood method of accessing a text the size
+and complexity of the BNC is to use an index file, in which search terms
+are associated with their location in the main text file, and into which
+rapid access can be obtained using hashing techniques. Such methods have
+been employed for decades in mainstream information retrieval systems,
+with the consequence that the advantages and disadvantages of the
+various ways of implementing the underlying technology are well known
+and very stable.
+</p>
+<p>
+The SARA index is a conventional index of this type. Entries in the
+index are created by the indexing program, using the SGML markup to
+determine how the input text is to be tokenized. The tokens indexed
+include the content of every <ident>&lt;w&gt;</ident> or <ident>&lt;c&gt;</ident> element,
+together with the part of speech code allocated to it by the CLAWS
+program. For example, there will be one entry in the index for 
+<mentioned>lead</mentioned> as a noun, and another for <mentioned>lead</mentioned>
+tagged as a verb. The index is not case&#x2013;sensitive, so occurrences of
+<mentioned>Lead</mentioned> may appear in either entry. The
+tokenization is entirely dependent on that carried out by CLAWS, which
+accounts for the presence of a few oddities in the index where CLAWS
+failed to segment sentences entirely.
+</p>
+<p>
+The SGML tags (other than those for individual tokens) themselves are
+also indexed, as are their attribute values. For example, there is an
+entry in the index for every <ident>&lt;text&gt;</ident>  start&#x2013; and end&#x2013;tag, and for
+every <ident>&lt;head&gt;</ident> start&#x2013; and end&#x2013;tag, etc. This makes it possible to
+search for words appearing within the scope of a particular SGML element
+type. For some very frequent element&#x2013;types (notably <ident>&lt;s&gt;</ident> and
+<ident>&lt;p&gt;</ident> )  whose locations are particularly important when
+delimiting the context of a hit, additional secondary indexes called
+<term>accelerator files</term>  are maintained.
+</p>
+<p>
+The index supplied with the first version of the BNC occupies 33,000
+files and 2.5 gigabytes of disk space, i.e., slightly more than the size
+of the text itself. Building the index is a complex and computationally
+expensive process, requiring much larger amounts of disk space or
+several sort/merge intermediate phases. This was one reason for
+delivering the completed index together with the corpus itself on the
+first release of the BNC, even though development of the client software
+was not at that stage complete. More compact indexing would have been
+possible with the use of data compression, at the expense of some
+increase in complexity: in practice, the indexing algorithm used
+provides equally good retrieval times for any kind of query, independent
+of the size of the corpus indexed. The index included on the published
+CDs necessarily assumes that the server accessing it has certain
+hardware characteristics (in particular, word length and byte addressing
+order).  To cater for machines for which these assumptions are
+incorrect, a localization program is now included with the software.
+This can either make a once for all modification to the index or be used
+by the server to make the necessary modifications <mentioned> on the fly</mentioned>.
+
+</p>
+<p>
+The indexer program is intended to operate on generic SGML texts, that
+is, not just on the particular set of tags defined for use in the BNC.
+However, we have not yet attempted to use it for corpora using other
+DTDs, and there are some features of its behaviour which assume that the
+DTD in use is (like the BNC) more or less TEI&#x2013;compatible. For example,
+it requires that texts have a TEI header, that they are decomposed into
+<ident>&lt;S&gt;</ident> like elements, that each token to be indexed be explicitly
+tagged as such. 
+</p>
+</div>
+<div xml:id="sara2"><head>The SARA server</head> 
+<p>
+The SARA server program was written originally in the ANSI C language,
+using BSD sockets to implement network connexions, with a view to making
+it as portable as possible. The current version, release 930, has been
+implemented on several different flavours of the Unix operating system,
+including Solaris, Digital Unix, and Linux, which appear to be the most
+popular variations. The software is delivered with detailed installation
+and localization instructions, and can be downloaded freely from the
+BNC’s web site (see <code> http://info.ox.ac.uk/bnc/sara.html</code>),
+though it is not yet of much interest to anyone other than BNC
+licensees, since the indexer program is not yet included with it.
+</p>
+<p>
+The server has several distinct functions, amongst which the following
+are probably the most important:
+<list>
+<item><p>it allows registered users to log on or off and to change their
+passwords;</p></item>
+<item><p>it implements the key functions required of the Corpus Query
+Language, in particular:
+</p><p><list>
+<item><p>looking for tokens in the index;
+</p></item>
+<item><p>solving a query;
+</p></item>
+<item><p>supplying bibliographic information about a text;
+</p></item>
+<item><p>displaying some or all of a text at a given location;
+</p></item>
+<item><p>thinning or filtering the result set from a query.
+</p></item></list></p></item>
+<item><p>it handles all housekeeping, allowing concurrent access by
+several different users.
+</p></item></list></p>
+<p>
+The server listens on a specified socket for login calls from a client.
+When such a call is received, the server tries to create a process to
+accept further data packages. If it succeeds, the client is logged on
+and set up messages are exchanged which define for example, the names
+and characteristics of SGML elements in the server’s database. Following
+this, the client sends queries in the Corpus Query Language, and
+receives data packets containing solutions to them. Once a connexion has
+been established in this way, the server expects to receive regular
+messages from the client, and will time out if it does not. The client
+can also request the server to interrupt certain transactions
+prematurely.
+</p> 
+</div>
+<div xml:id="sara3"><head>The Corpus Query Language</head>
+<p>
+The Corpus Query Language (CQL) is a fairly typical Boolean style
+retrieval language, with a number of additional features particularly
+useful for corpus work. It is emphatically not intended for human use.
+Like many other such languages, its syntax is designed for convenience
+of machine processing, rather than elegance or perspicuousness. A brief
+summary of its functionality only is given here.
+</p>
+<p>
+A query is made up of one or more atomic queries. An atomic query may be
+one of the following:
+<list>
+<item><p>a word or punctuation character;</p></item>
+<item><p>a wildcard character, which will match any single term;</p></item>
+<item><p>an <term>L&#x2013;word</term>, that is a combination of word and
+part&#x2013;of&#x2013;speech code, such as <code>CAN=NN1</code> (i.e., <term>can</term>
+as a singular noun);</p></item>
+<item><p>a phrase, which is decomposed into a search for consecutive terms
+irrespective of punctuation;</p></item>
+<item><p>a regular expression;</p></item>
+<item><p>an SGML query, that is, a search for a start&#x2013; or end&#x2013;tag,
+possibly including attribute name&#x2013;value pairs.</p></item>
+<item><p>an existing (named) solution set. Names are allocated to queries
+by the server.</p></item>
+<item><p>any CQL query enclosed in parentheses.</p></item></list> </p>
+<p>
+The following unary operators are currently implemented in CQL:
+<list type="gloss">
+<label>case</label>
+<item> The dollar operator makes the query which is its operand
+case&#x2013;sensitive;  </item>
+<label>header</label>
+<item> The commercial&#x2013;at operator makes the query which is its operand
+search within headers as well as in the bodies of texts (it thus assumes
+that a TEI&#x2013;conformant dtd is in use);  </item>
+<label>optionality</label>
+<item> The ? operator matches zero or one solutions to the query which
+is its operand; it makes no sense unless the query is combined with
+another;  </item>
+</list>
+</p>
+<p>
+A CQL expression containing more than one query may use the following
+binary operators:<list type="gloss">
+<label>concatenation</label>
+<item>Two queries written in sequence match occasions where a solution
+to the first query is directly followed by a solution to the second.
+</item>
+<label>disjunction</label>
+<item>The term <code>query1|query2</code> matches anything that is a
+solution to either <ident>query1</ident> or <ident>query2</ident></item>
+<label>join</label>
+<item>The term <code>query1*query2</code> matches anything that is a
+solution to <ident>query1</ident> followed by a solution to <ident>query2</ident>
+within the current <term>scope</term>; the term <code>query1#query2</code>
+matches anything that is a solution to <ident>query1</ident> either
+followed or preceded by a solution to <ident>query2</ident> within the
+current <term>scope</term>.  </item></list>
+</p>
+<p>
+When queries are joined, the scope of the expression may be defined in
+one of the following ways:
+<list type="gloss">
+<label>SGML element</label>
+<item> A join query followed by the / operator and an SGML query
+matches cases where the joined query is satisfied within the scope of
+the SGML query.  </item>
+<label>number</label>
+<item> A join query followed by the / operator and a number matches
+cases where the joined query is satisfied within the number of words
+specified.  </item></list>
+</p>
+<p>
+If no scope is supplied for a join query, the default scope is a single
+<ident>&lt;bncDoc&gt;</ident> element, i.e., a single text in the corpus.
+</p> 
+</div>
+<div xml:id="sara4"><head>SARA client programs</head> 
+<p>
+The standard SARA installation includes a very rudimentary client
+program called solve, for Unix. This provides a command line interface
+at which CQL expressions can be typed for evaluation, returning result
+sets on the standard Unix output channel, for piping to a formatter of
+the user’s choice, or display at a terminal. This client is provided
+mainly for debugging purposes, and also as a model of how to construct
+such software. 
+</p>
+<p>A web client, written in Perl, has recently  been developed at the
+University of Zurich, a  simplified version of which  is currently used
+at the BNC online service, and which will also be included in the next
+release of the SARA software. 
+</p>
+<p>The SARA client program which has been most extensively developed
+and used runs in the Microsoft Windows environment, and it is this which
+forms the subject of the remainder of this paper.
+</p>
+<p>
+In designing the Windows client, we attempted to make sure that as much
+of the basic functionality of the CQL protocol could be retained, while
+at the same time making the package easy to use for the novice. We also
+recognized that we could not implement all of the features which corpus
+specialists would require at the same time as providing a simple enough
+interface to attract corpus novices. In retrospect, there are several
+features and functions we would liked to have added (of which some are
+discussed below); but no doubt, had we done so, there would be several
+aspects of the user interface we would now be equally dissatisfied with.
+</p>
+<p>
+The SARA client follows standard Microsoft Windows application
+guidelines, and is written in Microsoft C++, using the standard object
+classes and libraries. It thus looks very similar to any other Windows
+application, with the same conventions for window management, buttons,
+menus, etc. It runs under any version of Windows more recent than 3.0,
+and there are both 16 and 32 bit versions. A TCP/IP stack (such as
+Winsock) to implement connexion to the server is essential, and a colour
+screen highly desirable. The software uses only small amounts of disk or
+memory, except when downloading or sorting result sets containing very
+many (more than a few hundred) or very long (more than 1Kb) hits.
+</p>
+<p>
+The Windows client allows the user to:
+<list>
+<item><p>search the word index and check what tokens it contains;
+</p></item>
+<item><p>define, save, re&#x2013;use, or modify a <term >query</term>
+(effectively, a CQL expression to be evaluated);
+</p></item>
+<item><p>view, sort, save, or print all or some of the
+<term >results</term> returned by a query;
+</p></item>
+<item><p>configure and manipulate the display of results in a variety of
+ways;
+</p></item>
+<item><p>view contextual and bibliographic data for any one text;
+</p></item>
+<item><p>combine simple queries to form a complex one, using a visual
+interface.
+</p></item></list>
+</p>
+<p>
+A brief description of each of these functions is given below; more 
+information is available from the built&#x2013;in help file and from the <hi rend="italic">
+BNC Handbook</hi>
+</p>
+<div xml:id="sara5"><head>Types of Query</head>
+<p>
+The Windows client distinguishes five types of query, and allows for
+their combination as a complex query. The basic query types are:
+<list type="gloss">
+<label>word query</label>
+<item> this searches the SARA word index, either by stem (right hand
+truncation only is performed) or by <term >pattern</term>
+(see below). All index&#x2013;entries matching the string entered are returned,
+and the user can then select all or some of them for dispatch to the
+server as CQL queries against the corpus;  </item>
+<label>phrase query</label>
+<item> A phrase query behaves superficially like a word query, in that
+it searches for occurrences of a particular word or phrase. It differs
+in that it can be case&#x2013;sensitive, can search text headers as well as
+bodies, can include punctuation, and is aware of the tokenization rules
+used by the CLAWS tagger. A phrase query can also include a <mentioned>wild
+card</mentioned> character to match any word in a phrase.  </item>
+<label>pattern query</label>
+<item> A pattern query allows for queries using a simple subset of
+UNIX&#x2013;style regular expressions, for example to find variant spellings of
+a word. Some limitations on the kind of pattern which can usefully be
+searched for are imposed by the nature of the index: for example, left
+hand truncation of the search term always implies a scan through the
+entire index, and is therefore not allowed.  </item>
+<label>POS query: </label>
+<item>A part of speech (POS) query carries out a word query, further
+restricted by a given POS code or code, for example to find occurrences
+of <mentioned>lead</mentioned> tagged as a noun. It should be stressed
+that this is only feasible for a specified word, since the POS code is
+only a secondary key in the SARA word index &#x2014;  it is not possible
+to search for (say) all nouns with the current system.  </item>
+<label>SGML query</label>
+<item> An SGML query carries out a search for a given SGML tag in the
+corpus, optionally qualified by particular combinations of attribute
+values, for example to find all occurrences of
+<ident>&lt;event&gt;</ident> elements in which the desc attribute has the value
+<mentioned>laughing</mentioned> or<mentioned> laughter</mentioned>. It
+is particularly useful when restricting searches to texts of a
+particular type, since text type information is typically carried by
+SGML attributes in the BNC.  </item></list>
+</p>
+<p>
+One or more of the above types of query may be combined to form a
+complex query, using the special purpose Query Builder visual interface,
+in which the parts of a complex query are represented by
+<term >node</term>s of various types. A Query Builder query
+always has at least two nodes: one, the
+<term >scope node</term>, defines the the
+<term >context</term> within which a complex query is to be
+evaluated. This may be expressed either as an SGML element, or as a span
+of some number of words. The other nodes are known as <term>content
+nodes</term>, and correspond with the simple queries from which the
+complex query is built. Content nodes may be linked together
+horizontally, to indicate alternation, or vertically to indicate
+concatenation. In the latter case, different arc types are drawn, to
+indicate whether the terms are to be satisfied in either order, in one
+order only, or directly, i.e., with no intervening terms.
+</p>
+<p>
+Query Builder thus enables one to solve queries such as <q>find the
+word <mentioned>fork</mentioned> followed by the word <mentioned>knife</mentioned>
+as a noun, within the scope of a single <ident>&lt;u&gt;</ident> element</q>. It can
+be used to find occurrences of the words <mentioned>anyhow</mentioned>
+or
+<mentioned>anyway</mentioned> directly following laughter at the start
+of a sentence; to constrain searches to texts of particular types, or
+contexts, and so forth.
+</p>
+<p>
+For completeness, the Windows client also allows the skilled (or
+adventurous) user to type a CQL expression directly: this is the only
+form of simple query which is not permitted within the Query Builder
+interface.
+</p> 
+</div>
+<div xml:id="sara6"><head>Display and manipulation of queries
+</head> 
+<p>
+By whatever method it is posed, any SARA query returns its results in
+the same way. Results may be displayed in one of line or page modes,
+i.e., in a conventional KWIC display, or one result at a time. The amount
+of context returned for each result is specified as a maximum number of
+characters, within which a whole sentence or paragraph will usually be
+displayed. Results can be displayed in one of four different formats:
+<list type="gloss">
+<label>plain</label>
+<item> text&#x2013;only display which effectively ignores and suppresses all
+markup;  </item>
+<label>POS</label>
+<item> individual words are colour&#x2013;coded according to their part of
+speech and a user&#x2013;defined colour scheme;  </item>
+<label>SGML</label>
+<item> all SGML encoding in the original is displayed uninterpreted; 
+</item>
+<label>custom</label>
+<item> the SGML encoding is interpreted according to a simple
+user&#x2013;supplied specification.  </item>
+</list>
+</p>
+<p>
+It will often be the case that the number of results found for a query
+is unmanageably large. To handle this, the SARA client offers the
+following facilities. A global limit is defined on the number of results
+to be returned. When this limit is exceeded, the user can choose
+<list>
+<item><p>to over&#x2013;ride the limit temporarily for this result set,
+specifying how many solutions are required, discarding any surplus from
+the end of the result set;
+</p></item>
+<item><p>to discard all but the first solution in each text;
+</p></item>
+<item><p>to take a random sample of specified size from the available
+solutions.
+</p></item></list>
+</p>
+<p>
+When the last of these is repeated for a given large result set, it will
+return a different random sample each time.
+</p>
+<p>
+Once downloaded to the client, a set of results may be manipulated in a
+number of ways. It may be sorted according to the keyword which defined
+the query, by varying extents of the left or right context for this
+keyword, or by combinations of these keys. Sorting can be carried out
+either by the orthographic form, in case&#x2013;insensitive manner, or by the
+POS code of words. This enables the user to group together all
+occurrences of a word in which it is followed by a particular POS code,
+for example. It is also possible to scroll through a result set,
+manually identifying particular solutions for inclusion or exclusion, or
+to thin it automatically in the same way as when the limit on the number
+of solutions is exceeded.
+</p>
+<p>
+A result set may simply be printed out, or saved to a file in SGML
+format, for later processing by some SGML&#x2013;aware formatter or further
+processor. Named <term >bookmarks</term> may be associated
+with particular solutions (as in other Windows applications) to
+facilitate their rapid recovery. The queries generating a result set,
+together with any associated thinning of it, any bookmarks, and any
+additional documentary comment, can all be saved together as named
+queries on the client, which can then be reactivated as required.
+</p> 
+</div>
+<div xml:id="sara7"><head>Additional features of the client
+</head>
+<p>
+The main bibliographic information about each text from which a given
+concordance line has been extracted can be displayed with a single mouse
+click. It is also possible to browse directly the whole of the text and
+its associated header, which is presented as a hierarchic menu,
+reflecting its SGML structure. The user can either start from the
+position where a hit was found, expanding or contracting the elements
+surrounding it, or start from the root of the document tree, and move
+down to it.
+</p>
+<p>
+A limited range of statistical features are provided. Word frequencies
+and z&#x2013;scores are provided for word&#x2013;form lookups, and there is a useful
+collocation option which enables one to calculate the absolute and
+relative frequencies with which a specified term co&#x2013;occurs within a
+specified number of words of the current query focus.
+</p></div></div></div>
+<div xml:id="limit"><head>Limitations of the current system and future
+plans</head>
+<p>
+As noted above, the current client lacks some facilities which are
+widely used in particular fields of corpus&#x2013;based research. This is
+particularly true of statistical information. There is no facility for
+the automatic generation of collocate lists, or any of the other forms
+of more sophisticated forms of statistical analysis now widely used.
+Neither is there any form of linguistic knowledge built into the system
+(other than the POS tagging): there is no lemmatized index, or
+lemmatizing component, though clearly it would be desirable to add one.
+For those sufficiently technically minded, or motivated, the
+construction of such facilities (whether using SGML&#x2013;aware tools or not)
+is relatively straightforward; the problem is that no simple interface
+or hook exists to build them into the current Windows client.
+</p>
+<p>
+Similarly, it is not possible to define, save and re&#x2013;use subcorpora,
+except by saving and re&#x2013;using the queries which define them. The SARA
+client can address only the whole of the SARA index, which indexes the
+whole of the BNC. This is a design issue, which has yet to be addressed.
+If queries become very complex, involving manipulation of many very
+large result streams, they may exceed the limits of what can be handled
+by the server. This has not yet arisen in practice however.
+</p>
+<p>
+A more common complaint about the current system is that it cannot be
+used to search for patterns of POS codes, independently of the
+particular word forms to which they are attached. This is fundamentally
+an indexing problem, which may be addressed in the next major release of
+the system. The performance problems associated with queries containing
+very high frequency words are derived from the same problem, and may be
+addressed in the same way. And again, it is a trivial exercise for a
+competent programmer to write special purpose code which will search for
+such patterns across the whole of the BNC.
+</p>
+<p>
+Despite these limitations, the system has attracted great enthusiasm
+when tested and demonstrated, despite performance problems and
+difficulties of access, perhaps owing largely to the intrinsic interest
+of the BNC data itself. Since mid&#x2013;1997, we have been providing a free
+online service using the client  as a part of the British Library’s
+<hi rend="italic">Initiatives for Access</hi> programme.  This service allows
+anyone with access to the World Wide Web to search the BNC at no charge.
+Using any Web browser and a simple query form, restricted searches can
+be carried out via a CGI script accessing the SARA server directly.
+Alternatively, the user can download and install their own copy of the
+Windows client software, and use it to access the same server. At the
+time of writing, this full query service is available free of charge for
+a limited trial period, after which an annual registration fee is
+charged.
+</p>
+<p>A second updated and corrected version of the Corpus is due for
+release in 1998. Up to date information about the project is available
+from the project website at  <code>http://info.ox.ac.uk/bnc</code>. 
+</p></div>
+</body>
+      
+     <back>
+        <div type="bibliography">
+           <listBibl><bibl xml:id="AST98">Aston, G. and Burnard, L. 1998 <title>The
+              BNC Handbook</title> Edinburgh: Edinburgh University Press.</bibl>
+           <bibl xml:id="ATK92">Atkins, S., Clear, J. and Ostler, N. 1992.
+              <title level="a">Corpus design criteria</title> <title level="j">Literary
+                 and linguistic computing</title> 7:  1&#x2013;16.</bibl>
+           <bibl xml:id="BIB98">Biber, D., Conrad, S., and Reppen, R. 1998 <title>Corpus linguistics: investigating language structure and use</title>
+              Cambridge: Cambridge University Press.</bibl>
+           <bibl xml:id="DUN95">Dunlop, D. 1995<title level="a">Practical
+              considerations in the use of TEI headers in large corpora</title> (in
+              Ide, N. and Veronis, J. eds, 1995 <title>Text Encoding
+                 Initiative: background and context</title> Kluwer.)</bibl>
+           <bibl xml:id="GAR97">Garside, R., Leech, G., and McEnery, T. 1997.
+              <title>Corpus annotation: linguistic information from
+                 computer text corpora</title> Harlow: Addison&#x2013;Wesley Longman.</bibl>
+           <bibl xml:id="KEN98">Kennedy, Graeme, 1998 <title>An
+              introduction to corpus linguistics</title> Harlow:
+              Addison&#x2013;Wesley&#x2013;Longman.</bibl>
+           <bibl xml:id="MCE96">McEnery, A. and Wilson, A. 1996. <title>Corpus
+              linguistics. </title> Edinburgh: Edinburgh University Press.</bibl>
+        </listBibl></div></back> 
+  </text>
+</TEI>
+<!-- 
+   
+To make the DTD work, I had to
+(a) comment out invocation of CALS table invocation: exchange.txt 
+    not supplied (but see below)
+(b) change xml:link to xml-link
+(c) add declaration for document element
+
+I found the following problems with the dtd:
+
+1. I expect refs to appear in the text in the form [Aston 1997]. It’s
+not clear to me that "1997" is an abbreviation of the title, but that
+seemed to be the only option, since only  and <titleabbrev>
+are allowed within <ref>. Also, in the case of [Clear et al 1996],
+there’s no way of showing that "et al" is foreign, since 
+only permits PCDATA.
+
+2. I wasn’t sure what to do with code fragments containing markup
+characters, so I followed TEI convention in enclosing them within CDATA
+sections, within <code>. Except for GIs, which I tagged as <ident>s
+with entity refs thusly <ident>&lt;yuk&gt;</ident>
+
+3. The requirement for <p> within <item> drives me nuts.
+
+4. I couldn’t find any obvious equivalent for the TEI <q> element (marks
+   quoted matter within a para), so I clenched my teeth and used &ldquo
+   ...&rdquo. Likewise, the DTD won’t let me tag a <head> as such when
+   it appears at phrase level within a para, so I clenched some more,
+   swallowed deeply, and used <emph> (god forgive me)
+   
+5. Because I don’t have the file "exchange.txt" and lack the leisure to
+   track it down, I couldn’t do anything with my <table> element. This
+   remains therefore unregenerate TEI. Sorry, but everything else now
+   parses
+   
+6. Also sorry, but I couldn’t face doing all the detail in the bibliography.
+
+Lou
+
+-->
+
+<!-- retagged in MLANG dtd, more or less 3 Jun 98 -->
+
+<!--
+<TEI.2><TEIHEADER><FILEDESC><TITLESTMT><head>Using SGML for
+Linguistic Analysis: the case of the BNC</head><AUTHOR>Lou Burnard</AUTHOR></TITLESTMT>
+<PUBLICATIONSTMT><DISTRIBUTOR>Humanities Computing Unit, Oxford
+University Computing Services</DISTRIBUTOR>
+<ADDRESS><ADDRLINE>13 Banbury Rd</ADDRLINE>
+<ADDRLINE>Oxford OX2 6NN</ADDRLINE></ADDRESS><DATE>26 Oct 1996</DATE></PUBLICATIONSTMT>
+<NOTESSTMT><NOTE></NOTE></NOTESSTMT>
+<SOURCEDESC><P>Lightly modified from the original source for my
+presentation at SGML96, Boston, in November 1996.</P></SOURCEDESC></FILEDESC>
+<REVISIONDESC><CHANGE><DATE>31 May 1998</DATE>
+<RESPSTMT><RESP>author</RESP>
+<NAME>LB</NAME></RESPSTMT><ITEM>Revised for
+publication in MUL</ITEM></CHANGE>
+<CHANGE><DATE>Oct 1996</DATE>
+<RESPSTMT><RESP>author</RESP>
+<NAME>LB</NAME></RESPSTMT><ITEM>First
+fully TEI tagged edition</ITEM></CHANGE></REVISIONDESC></TEIHEADER>
+<TEXT>
+-->
+<!--<GCAPAPER><FRONT> <head>Using SGML for Linguistic Analysis:
+the case of the BNC</head> <AUTHOR PRIME="1"><FNAME>Lou</FNAME>
+<SURNAME>Burnard</SURNAME> <ADDRESS><AFFIL>Oxford University Computing
+Services</AFFIL> <SUBAFFIL>Humanities Computing Unit</SUBAFFIL>
+<ALINE>13 Banbury Road</ALINE> <CITY>Oxford</CITY> <POSTcode>OX2
+6NN</postcode> <cntry>UK</cntry>
+<email>lou.burnard@oucs.ox.ac.uk</email>
+<web>http://users.ox.ac.uk/~lou</web></address></author>
+-->

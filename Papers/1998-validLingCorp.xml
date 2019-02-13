@@ -1,0 +1,2972 @@
+<?xml version="1.0"?> 
+<!-- DOCTYPE TEI.2 PUBLIC "-//TEI//DTD TEI Lite XML ver. 1//EN"
+"/home/lou/TEI/web/Software/tei-emacs/xml/dtds/tei/teixlite.dtd" []-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader type="text" >
+    <fileDesc>
+      <titleStmt>
+        <title>ELRA Work Package 3: first draft</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished draft</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Original work, based on AMM's unpublished draft of March 12</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change>
+        <date>29 jul 03</date>
+        Completed XML conversion for website 
+      </change>
+      <change>
+        <date>24 apr 98</date>
+       Final version 
+      </change>
+      <change>
+        <date>19 apr 98</date>
+       Further revision: added section on tag description
+      </change>
+      <change>
+        <date>17 apr 98</date>
+        AMM Revised draft
+      </change>
+      <change>
+        <date>11 apr 98</date>
+       First completed draft
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Validation of Linguistic Corpora</titlePart>
+        </docTitle>
+        <docAuthor>Tony McEnery, Lou Burnard, Andrew Wilson &amp; Paul Baker</docAuthor>
+      </titlePage>
+    </front>
+    <body>
+      <div1 type="d1">
+        <head>Introduction</head>
+        <p>This document forms the chief deliverable for Work Package 3 of the ELRA contract for
+          validation of language corpora. It discusses the theoretical basis underlying our approach
+          to the formal validation of language corpora, and makes some recommendations about
+          relevant techniques and practices which may be of assistance in performing such
+          evaluations, and documenting their results. Particular attention is paid to the specific
+          case of morpho-syntactically annotated corpora.</p>
+        <div2 type="d2">
+          <head>Tagsets and Annotation</head>
+          <p>Some confusion exists about the terminology associated with linguistically annotated
+            corpora. This is partly because the term<term>tagset</term> is used differently by two
+            different communities. For the traditional corpus linguist, a tagset is the set of
+            possible values used to explicitly annotate a text with a linguistic analysis; for
+            example, the CLAWS tagset comprises a set of values such as<code>NN1, VVD</code> etc.,
+            each of which has a specific significance (singular common noun, verb past tense, etc.)
+            For the mark-up specialist however, the term tagset refers to any kind of annotation, in
+            particular the collection of SGML tags corresponding with the elements defined in a
+            particular DTD: for example, the TEI defines a number of tagsets, each containing
+            definitions for specific SGML elements and attributes.</p>
+          <p>Both usages reflect the fact that all markup introduced into a text is identical, at
+            some level of analysis, in the sense that it serves to record or assert an association
+            between stretches of text and values taken from some externally defined set of
+            interpretations. However most people seem to categorize an analysis such as <q>this is a
+              paragraph</q> differently from the formally equivalent judgement <q>this is a
+            noun</q>. The former judgement is said to be <soCalled>structural</soCalled> and the
+              latter<soCalled>interpretative</soCalled>. This kind of categorization also underlies
+            the notion of <soCalled>level</soCalled> of annotation as exemplified by (inter alia)
+            the Corpus Encoding Specification <ref target="ide98">(Ide 1998)</ref>, where the
+            distinction is further justified by the observation that the addition of so-called
+              <soCalled>structural</soCalled> markup is generally easier to automate than that
+              of<soCalled>interpretive</soCalled> markup, since the latter (almost) invariably
+            requires human judgement and knowledge, while the former rarely does. Particularly in
+            the case of textual markup, interpretative judgements tend to be more controversial than
+            structural ones, if only because the latter relate to aspects of a text which are
+            accepted as intrinsic to its substance by the community of text readers. Structural
+            interpretations form part of the<soCalled>contracts of literacy</soCalled> (<ref
+              target="sno86">Snow and Ninio, 1986</ref>) which form the precondition of a text's
+            recognition as meaningful by the members of a particular community of readers.</p>
+          <p>For purposes of validation, however, the distinction seems unhelpful. All markup
+            introduced into an corpus should be validated in the same way, and the validity of the
+            corpus overall is equally affected by each type of markup used. Nevertheless, we have
+            subdivided our discussion into two parts, reflecting the division currently made by most
+            practitioners between structural and interpretative markup, and which are consequently
+            reflected in actual practices. Structural markup is most generally to be validated with
+            reference to an abstract model of textual components and features which is either
+            entirely intuitive and <soCalled>common sense</soCalled> based, or defined in terms of
+            some consensus-based model such as that of the TEI, restated as an SGML DTD.
+            Interpretative markup may be similarly theory-free (see, for example, <ref
+              target="lee93">Leech 1993</ref>, but it is more customary to define it with reference
+            to some explicitly stated analytic model, and hence to facilitate both automatic
+            validation of the corpus itself (to check that it is valid in its own terms) and
+            comparison of two corpora using different markup schemes derived from a common abstract
+            model.</p>
+          <p>In section <ptr target="struc"/> we discuss the process by which the structural markup
+            defined for a given corpus may be validated. The formal mechanism used for this purpose
+            is an SGML document type definition. In section <ptr target="morph"/> we discuss in more
+            detail one particular kind of interpretative markup: that which seeks to make explicit
+            morpho-syntactic analysis of a text. We present here an SGML scheme for the formal
+            expression of an abstract model that may be used to validate such analyses both
+            internally and externally. Finally, in section <ptr target="rep"/> we suggest some ways
+            in which the result of either validation exercise may be formally documented. We begin,
+            however, by describing the model of formal validation which underlies both descriptions.
+            (For a more detailed discussion of the principles adumbrated here, see <ref
+              target="spe95">Sperberg-McQueen and Burnard 1995</ref>).</p>
+        </div2>
+        <div2 xml:id="princ" type="d2">
+          <head>Principles of Textual Markup</head>
+          <p>We begin by positing the existence of textual <term>features</term> or abstractions,
+            instances of which are predicated at various positions within a document. The function
+            of markup is to indicate unambiguously the presence of instances of such features. For
+            example, a document may contain instances of the feature<soCalled>segment</soCalled>,
+            whose presence might be signalled by such markup conventions as: <list type="simple">
+              <item>the start of a new input record;</item>
+              <item>the presence of some distinguishing code or sign such as a star, not otherwise
+                present in the text; </item>
+              <item>the presence of some predefined symbol such as the tag <gi>s</gi></item>
+            </list></p>
+          <p>As noted above, the presence and scope of a feature such as<soCalled>singular
+            noun</soCalled> may be predicated in exactly the same way. </p>
+          <p>We further assume that it is possible to define a<term>grammar</term> for such markup
+            symbols: that is, a grammar which defines which combinations of such symbols in a
+            document are to be regarded as <term>legal</term>. Such grammars generally have regard
+            only to the markup language itself, rather than its extension to the underlying feature
+            set. A markup grammar may simply enumerate all legal markup tokens, or simply specify an
+            algorithm for the identification of markup tokens with no consideration of which markup
+            tokens might be permitted. A more complex grammar (such as SGML) may also be used,
+            enabling the formulation of <term>contextual</term> rules such as <q>the tag X is only
+              legal within the scope of the component identified by tag Y</q> in addition to these
+            kinds of rules. Note however that legality is still defined here in terms of syntax:
+            only informal legislation can determine whether the content of an SGML element is
+              <soCalled>correct</soCalled> with reference to some semantic model. Publications such
+            as the <title>TEI Guidelines</title> typically extend the syntactic definitions embodied
+            in their DTDs by more or less detailed discussion of the intended semantics of elements,
+            but rarely provide a formally verifiable abstract model of such semantics, nor is it
+            entirely clear what such a model might resemble. Nevertheless, throughout our discussion
+            we will use the term <term>feature</term> (and derivatives) to refer to components of
+            such a model, and the term <term>tag</term> (and derivatives) to refer to components of
+            the markup system used to assert their existence.</p>
+          <p>This distinction seems to us crucial to the feasibility of validation: <q>A corpus is a
+              collection of utterances, and therefore a sample of actual linguistic behaviour.
+              However, even if we do not believe that the distinction between competence and
+              performance is valid, a corpus is not itself the behaviour, but a record of this
+              behaviour</q> (<ref target="stu96">Stubbs, 1996</ref>). The function of the markup in
+            the corpus is to make explicit, and hence accessible to comparative study, the recording
+            process for both structural and interpretative encoding in a corpus text. Without this,
+            neither comparative studies of different corpora, nor any assessment of the validity of
+            the corpus<soCalled>record</soCalled> with respect to what
+            it<soCalled>records</soCalled> will be possible.</p>
+          <p>We define the process of <term>validation</term> as follows:<list type="ORDERED">
+              <item>for each feature of interest, does the document contain any tagging?</item>
+              <item>is the tagging of the document syntactically correct?</item>
+              <item>is the tagging of the document consistently applied (i.e. is every occurrence of
+                a given feature tagged in the same way)?</item>
+              <item>is the tagging of a document correctly applied, with reference to some
+                externally (or internally) defined abstract model?</item>
+              <item>if correct, is the tagging of a document complete, with reference to some
+                externally (or internally) defined list of mandatory features?</item>
+            </list></p>
+          <p>Taking these in reverse order, it is clear that, in the general case, the last two of
+            these stages are automatable only to the extent that an abstract model can be formally
+            specified for both the feature system itself and for the intended correspondence between
+            that and the tagging employed. We present in section <ptr target="fsd"/> below one such
+            abstract model, the EAGLES Guidelines for morpho-syntactic annotation (<ref
+              target="lee94">Leech and Wilson, 1994</ref>), re-expressed as a TEI-conformant feature
+            system, against which any other set of morpho-syntactic annotations using the same
+            representation may be validated, without necessarily having to conform to the EAGLES
+            model. We also discuss the somewhat simpler abstract model proposed by EAGLES itself in
+            section <ptr target="morphsem"/> below.</p>
+          <p>Equally clearly, however, neither the third nor the first of the stages above can in
+            principle be automated, since both depend on a human judgement to the effect that such
+            and such a feature is in fact present, whether or not it is signalled by the tagging in
+            a text. Such text-comprehension abilities still seem to be somewhat beyond the state of
+            the art in NLP, despite some advances.</p>
+          <p>The second of the three stages above is however automatable, to the extent that the
+            tagging syntax of the document is fully specified. In an SGML context, this implies the
+            existence of a DTD against which candidate documents can be verified using an SGML
+            parser. For other forms of markup, validation may involve other forms of verification,
+            some of which may be intimately tied in to the behaviour of particular application
+            software. For example, a document marked up in RTF or LaTeX may be considered valid so
+            long as Microsoft Word or LaTeX does not reject it, irrespective of its output.
+            Technical documentation will often specify what markup should be found in a document:
+            where the markup syntax is arbitrary or application specific, clearly special purpose
+            software must be developed to validate it. </p>
+        </div2>
+      </div1>
+      <div1 xml:id="struc">
+        <head>Validation of Structural Analyses</head>
+        <div2>
+          <head>Corpus Composition</head>
+          <p>Language corpora are made by combining together whole texts or extracts from
+            pre-existing documents, usually according to some specific design criteria. The
+            structure of the corpus itself may thus be described (and hence marked up) at two
+            levels: internal, relating to the way the parts of the corpus fit together, and
+            external, relating to compositional features of the originals. This distinction holds
+            good whether the corpus under consideration is a fixed document or a dynamic or
+              <soCalled>monitor</soCalled> corpus; in the latter case, as well as generally
+            requiring dictate the use of whole texts rather than extracts, the internal design
+            criteria may be further extended to include such topics as the rate at which new
+            documents enter the corpus, the criteria for determining that they should be discarded
+            from it, etc.</p>
+          <p>The internal structural features of a corpus are largely self-evident, and require
+            little validation: common practice requires only the clear delimitation of individual
+            text fragments, and to associate with each an appropriate level of description or
+            metadata. In the TEI model, the former constitutes the text proper, and the latter its
+            header. In older corpora, it was common practice to provide such metadata (if at all) as
+            a separate documentary component, with only an informal association between the two,
+            often depending on such artifices as file-naming conventions or sequencing to identify
+            descriptive features of each component. The TEI model uses the power of SGML (in
+            particular, its hierarchic structure and the consequent ability to specify property
+            inheritance) to build more sophisticated structures. (For an account of some of these,
+            see the discussion in e.g. <!-- xref doc="P3" from="id(CC)" to="DITTO"-->Chapter
+            23<!--/xref--> of the TEI Guidelines.)</p>
+          <p>The scope of the external features to be found marked up in language corpora varies
+            greatly, depending both on the diverse nature of the materials they include and the
+            diversity of applications envisaged for them. In large corpora, economic considerations
+            alone preclude any attempt at modelling in the markup the full diversity of structures
+            which a detailed textual feature analysis might indicate as possible: in the earliest
+            corpora, for example the Lancaster/Oslo/Bergen corpus, even such basic organizational
+            features as paragraphs or subheadings are rarely distinguished as such. Even today, the
+            corpus designer is always forced to make pragmatic decisions about which structural
+            features will have sufficient usefulness in the intended applications to warrant the
+            expense of identifying them consistently and correctly. For many purposes, division into
+            discrete segments, corresponding with identifiable locations in the original source, is
+            adequate. For other purposes (for example, the study of discourse-related phenomena or
+            text-grammar) a richer approach will be desirable.</p>
+          <p>Standards such as the CES provide a rich set of feature descriptions from which the
+            corpus builder can select, together with specific tagging rules about how the presence
+            of selected features can be made explicit. There is, however, considerable (and
+            understandable) reluctance to make recommendations about which particular selections are
+            appropriate or mandatory, since this will inevitably depend on the intended application
+            for the corpus.</p>
+          <p>To validate such corpora therefore, a necessary first step is to identify the
+            intentions of the designer. A corpus which does not mark up paragraph divisions is not
+            necessarily less valid or useful than one which does; a corpus which claims to mark such
+            divisions but which does so inconsistently or inaccurately is. Unfortunately, as WP2
+            demonstrates, it is often hard for corpus builders to specify their intentions in this
+            respect, and harder for the validator to determine the extent to which these intentions
+            have been carried out. Documentation and the provision of a DTD go some way to
+            simplifying the task, as further discussed below.</p>
+        </div2>
+        <div2>
+          <head>Syntactic Consistency</head>
+          <p>As noted above, the extent to which the syntactic consistency of the structural markup
+            in a corpus can be validated depends on the extent to which that markup uses a formally
+            verifiable syntax. The great merit of SGML as a markup language is precisely that it
+            makes this automatic verification simply a matter of defining an appropriate grammar (a
+            document type definition) and checking the corpus against it. The most widely used
+            software for this purpose is currently the freely available SGML parser
+            <ident>SP</ident>, particularly its DOS incarnation NSGMLS <ref target="sp">[SP]</ref>.
+            With the growing take up of SGML and of its simplified version XML, the number and
+            sophistication of such systems is likely to increase greatly.</p>
+          <p>SP and similar programs typically perform a number of other functions on a document,
+            but for validation purposes, the key functions may be summarized as follows:<list
+              type="simple">
+              <item>are the tags present in the corpus all defined in its DTD?</item>
+              <item>are the tags in the corpus all present in syntactically correct contexts?</item>
+              <item>do all attributes specified for the tags in the corpus conform to the value
+                ranges specified for them in the DTD?</item>
+              <item>are any cross references specified by the SGML markup satisfied?</item>
+            </list></p>
+          <p>The output from an SGML parser is thus typically either simply confirmation that the
+            document does in fact conform to the DTD, or a list of instances where it does not
+            conform. At the risk of stating the obvious, it should be emphasized that a corpus which
+            does not conform to its DTD, or which lacks a DTD, cannot be validated, no matter how
+            closely its markup appears to be modelled on that of the SGML standard. The notion
+              <soCalled>SGML-like</soCalled> or<soCalled>unvalidated SGML</soCalled> is not a
+            helpful one in this context. </p>
+          <p>For corpora which do not use SGML markup, validation will require the provision of some
+            DTD-like set of formal rules, and the production of some parser-like software to check
+            them against the corpus itself. Such procedures are eminently feasible, and for simple
+            markup schemes may be considered preferable to the expense of converting the markup to
+            true SGML. For a variety of reasons not necessary to summarize, we do not recommend this
+            approach: in the long run, the use of a widely accepted standardized markup language
+            should always be less expensive than the maintenance of an idiosyncratic or
+            application-limited scheme.</p>
+        </div2>
+        <div2>
+          <head>Structural Correctness</head>
+          <p>The list of questions to which an SGML parser will provide answers given in the
+            previous section falls some way short of what we would like to know before deciding that
+            a given corpus is suitable for our purposes in the general case. In particular, a parser
+            cannot tell us<list type="simple">
+              <item>whether every item tagged as an instance of some feature is in fact such an
+                instance</item>
+              <item>whether every instance of some feature is in fact tagged as such</item>
+            </list></p>
+          <p>To a large extent, however, these are limitations inherent in the whole markup
+            enterprise; they also touch on fundamental problems of naming and ontology which have
+            exercised philosophers since the time of Aristotle, and for which it would be
+            unreasonable to expect immediate answers. Nevertheless, it is possible to make some
+            pragmatic observations, additional to those provided in section <ptr target="semcorr"/>
+            below concerning the semantic validation of analytic tagging.</p>
+          <p>Although not formally presented as such, pre-defined feature lists such as those
+            provided by the TEI and CES may be regarded as constituting a kind of abstract model for
+            the structural components of texts. They thus provide a useful reference point against
+            which the validator may check both that the objects tagged as representing some feature
+            appear to conform with the definitions supplied there, and conversely that no features
+            conformant with those definitions are present but untagged or tagged inappropriately.
+            This remains however an entirely manual process.</p>
+          <p>Few corpora are small enough to permit the luxury of a close reading, and so in the
+            general vase this kind of manual validation can only be done by sampling. Typical
+            procedures are thus to inspect some random sample of the corpus for the presence of
+            specific tagged features, for example, the paragraph boundaries or headings. Provided
+            that the location of these samples within the original documents is known, an attempt
+            can then be made to assess the accuracy with which the tagging of structural features
+            has been carried out across the corpus with respect to the original source. In the
+            absence of an original source, such accuracy can be assessed only in statistical terms,
+            for example by comparing the distribution of certain tagged features in the sample with
+            their distribution across the whole, where a <soCalled>correct</soCalled> distribution
+            can be hypothesized on the basis of a priori reasoning (e.g. the number of paragraphs
+            per text of a given type should be reasonably stable) or by applying other statistically
+            derived heuristics.</p>
+        </div2>
+      </div1>
+      <div1 xml:id="morph">
+        <head>Validation of Morphosyntactic Analyses</head>
+        <p>In this section we discuss the possibilities for automatic or semi-automatic validation
+          of one particular form of interpretative markup: that which seeks to mark up the result of
+          a morphosyntactic analysis.</p>
+        <div2 type="d2">
+          <head>Presence</head>
+          <p>Whatever form of markup is employed, morphosyntactic tagging is usually supplied at the
+            level of individual tokens in a text and is thus usually self-evident. In the absence of
+            any documentation, it is likely to be a generally a simple matter to extract from a
+            document all the unique tokens constituting the markup, and also to identify the lexemes
+            to which they are attached, as was done, for example, by<ref target="gar93">Garside and
+              McEnery 1993</ref>. In this example, annotations were separated from words by
+            underscore characters. Other schemes place the markup and lexeme in
+              separate<soCalled>fields</soCalled>, or on alternate lines within the text proper. In
+            SGML documents, annotations may be represented as attribute values, or as distinct
+            elements, and the association between lexical item and annotation may be made by means
+            of pointer or link.</p>
+        </div2>
+        <div2 xml:id="morphsem">
+          <head>Understanding the Markup</head>
+          <p>It will be rather less easy (in the absence of documentation) to determine what feature
+            or combination of features each markup token is intended to represent. The list of all
+            markup tokens, together with an index of their occurrences, and the associated lexical
+            item, might be collated with an annotated corpus in which the same lexical items are
+            associated with annotations whose feature equivalences are known, thus providing a kind
+            of latter-day Rosetta Stone for the purpose. Such a process is hardly likely to be
+            easily automated. This is one good reason for insisting on the availability of such
+            documentation, preferably in a form which can be readily mapped to agreed standards.</p>
+          <p>Such mapping requires the predefinition of an agreed set of morphosyntactic features,
+            independent of markup. Such a set is provided in the context of several western European
+            languages (such as Danish, English, French, German, Greek and Spanish) by the EAGLES
+            morphosyntactic annotation guidelines <ref target="lee94">(Leech and Wilson,
+            1994)</ref>, which we have therefore adopted as a test case for our recommendations. The
+            procedures described here and the conclusions we reach would be equally applicable to
+            any other set of Guidelines. However, as the EAGLES guidelines have been published on
+            the basis of a wide-ranging review of corpus builders, recommendations derived from it
+            are likely both to reflect, and potentially have a wide impact on, current practice.</p>
+          <p>The EAGLES recommendations have a dual focus: as well as providing an abstract model of
+            the feature sets against which any particular combination of the features tagged in some
+            corpus may be validated, the Recommendations specify explicitly a subset
+              of<soCalled>recommended</soCalled> features which it is assumed should always be
+            marked. Validation at this level thus becomes a matter of simply checking that the
+            recommended features are in fact present [mdash ] in the terms we introduced in section
+              <ptr target="princ"/> above, validation that the tagging is not only syntactically
+            correct, but also complete.</p>
+          <div3 xml:id="eagrep" type="d3">
+            <head>Representation of Features in EAGLES</head>
+            <p>EAGLES provides a <soCalled>intermediate representation </soCalled> for the encoding
+              of feature sets. This operates as follows:<list type="simple">
+                <item>a one- or two-letter code is used for some <soCalled>obligatory
+                  features</soCalled> (the basic parts of speech) [mdash ] for
+                  example,<code>AJ</code> indicates the feature <mentioned>Adjective</mentioned>,
+                    <code>N</code> indicates the feature <mentioned>Noun</mentioned>, and so on;</item>
+                <item>each recommended feature that is assigned to an obligatory feature occupies
+                  one place in the representation [mdash ] thus, if, as for the obligatory feature
+                    <mentioned>Noun</mentioned>, there are four associated recommended features,
+                  then there will be a four-place representation.<soCalled>Recommended</soCalled>
+                  features are not mandatory, but come with a strong suggestion that any system of
+                  morphosyntactic annotation for the languages covered by EAGLES should include
+                  them;</item>
+                <item>in each place or <mentioned>slot</mentioned> in the representation a number is
+                  inserted according to the value represented. For instance, the first slot in the
+                  representation for <mentioned>Noun</mentioned> is assigned to the recommended
+                  feature <mentioned>Type</mentioned>: this has two possible values [mdash
+                    ]<mentioned>Common</mentioned> (represented by <code>1</code>) and
+                    <mentioned>Proper</mentioned> (represented by <code>2</code>). So the
+                  representation for a proper noun would begin <code>N2</code> and that for common
+                    noun<code>N1</code>. If a recommended feature is not represented for whatever
+                  reason, a <code>0</code> is placed in the appropriate slot instead of an actual
+                  feature value.</item>
+              </list>
+            </p>
+            <p>Here are some examples of complete intermediate representations for nouns:</p>
+            <list type="gloss">
+              <label>
+                <code>N1010</code>
+              </label>
+              <item>common noun, singular; gender and case not represented</item>
+              <label>
+                <code>N1012</code>
+              </label>
+              <item>common noun, singular, genitive; gender not represented</item>
+              <label>
+                <code>N2214</code>
+              </label>
+              <item>proper noun, feminine, singular, accusative</item>
+            </list>
+            <p>This representation provides a convenient means of facilitating validation against a
+              standard list of features. By comparing intermediate representations from the corpus
+              with the representation of the master list of features, it may easily be ascertained
+              what features and values are or are not represented. Even where the intermediate
+              representation is not used, a mapping list can still be produced showing for each
+              corpus tag the EAGLES feature which it encodes. This latter kind of list is also
+              essential for non-EAGLES-conformant corpora and, on a smaller scale, for any
+              additional optional features used within the EAGLES remit. In section<ptr
+                target="maps"/> we present examples of mapping lists for a non-EAGLES-conformant
+              tagset (in this case, Lancaster University's Claws C7 tagset as used in the
+              part-of-speech annotation of the British National Corpus).</p>
+            <p>Two problems arise however when attempting such mappings. The tagset under
+              consideration may <term>under-specify</term> with relation to the EAGLES master list,
+              that is, some annotation may map onto more than one feature combination. For example,
+              the CLAWS 7 tagset uses the tag VV0 to denote any non third person singular form of a
+              regular present tense verb, thus blurring the distinction between the imperative,
+              first person singular, second person singular and first, second or third person
+              plural.</p>
+            <p>The opposite situation [mdash ] where the tagset<term>over-specifies</term> is also
+              possible, particularly where the bondary between morphosyntax and semantics is
+              blurred, where the tagset makes distinctions between sets of features regarded as
+              equivalent by EAGLES. For example, CLAWS includes a <soCalled>Noun of Style</soCalled>
+              tag (<code>NNB</code>) to mark English honorifics such as <mentioned>Mr</mentioned>,
+                <mentioned>Dame</mentioned>,<mentioned>Professor</mentioned> etc. for which no
+              equivalent feature is identified by EAGLES, and which therefore cannot be
+              distinguished from other parts of proper names.</p>
+            <p>It should be noted that EAGLES does allow for arbitrary extensions to cover
+              language-specific features. However, to stay with the previous example, honorifics are
+              to be found in most European languages, and hence to treat them as language-specific
+              is not appropriate. Extensibility of the basic features and their sub-categorizations
+              will clearly be essential to any general purpose representation scheme for feature
+              systems, and some such systems may require something more complex than a simple
+              two-level categorization of this kind. EAGLES, itself the product of a consensus
+              amongst corpus analysts at a particular point in time, was designed with the changing
+              needs and practices of that community in mind. It is anticipated that revisions to
+              both the list of recommended features and the sets of features they summarize will
+              occur steadily, particularly as the field of application extends beyond the relatively
+              frequently studied Western European languages.</p>
+            <p>In the general case, what is needed is a representation scheme which maximizes the
+              flexibility of the annotation scheme without compromising the need to validate
+              instances of its use. We discuss such a scheme in the next section.</p>
+          </div3>
+          <div3 xml:id="feats">
+            <head>Representation using Feature Structures</head>
+            <p>A more powerful and discriminating representation is provided by the TEI tagset for
+              feature structure analysis. This has two parts, a set of tags for the direct
+              representation of feature structures, which can be linked to instances of textual
+              objects so analysed, and a set of tags for documenting the feature system itself, that
+              is, the constraints, allowable feature-value pairs etc. which are to be regarded as
+              valid in a given analysis.</p>
+            <p>The feature system representation is defined in
+              <!--xref doc="P3" from="id(FS)" to="DITTO"-->chapter 26<!--/xref--> of the TEI
+                <title>Guidelines</title>;<ref target="lan95">Langendoen and Simons 1995</ref>
+              provides a useful introduction. A <term>feature</term>, in this scheme, is defined as
+              a pair, comprising a <term>name</term> and a<term>value</term>. The latter may be one
+              of a defined set of value types, including Boolean (plus or minus), numeric, string
+              (an unclosed set of values), symbol (one of a defined set), a <term>feature
+              structure</term>, or a reference to one. A <term>feature structure</term> is a named
+              combination of such features, ordered or unordered.</p>
+            <p>For example, in an analysis of nouns, we might identify the features
+              <term>number</term> and <term>proper</term>, with values<ident>singular</ident> or
+                <ident>plural</ident>, and <ident>plus</ident> or <ident>minus</ident> respectively.
+              (The decision as to the appropriate domain for a value is inevitably arbitrary: we
+              have here chosen to regard number as being a symbolic value to allow for the
+              possibility of additional values such as <ident>dual</ident>
+              or<ident>uncountable</ident>). These features may be combined to form feature
+              structures corresponding to part-of-speech annotations such as <code>NP1</code> or
+                <code>NP2</code> as follows:<eg>&lt;fs xml:id=NP1 name="&gt; &lt;f
+                name=class&gt;&lt;sym value=noun&gt; &lt;f
+                name=number&gt;&lt;sym value=singular&gt;&lt;/f&gt; &lt;f
+                name=proper&gt;&lt;plus&gt;&lt;/f&gt;&lt;/fs&gt;
+                &lt;fs xml:id=NP2&gt; &lt;f name=class&gt;&lt;sym value=noun&gt;
+                &lt;f name=number&gt;&lt;sym value=plural&gt;&lt;/f&gt;
+                &lt;f
+                name=proper&gt;&lt;plus&gt;&lt;/f&gt;&lt;/fs&gt;</eg></p>
+            <p>To reduce the redundancy of this representation, one may specify the individual
+              features making up a given feature structure by reference. This requires that the
+              features to be used are first specified independently of the structures in which they
+              are to be combined, using a construct known as a <term>feature library</term>,
+              represented by a <gi>fLib</gi> element, each one being given a unique identifier, as
+                follows:<eg>&lt;flib&gt; &lt;f name=class xml:id=FCN&gt;&lt;sym
+                value=noun&gt; &lt;f name=number xml:id=FN1&gt;&lt;sym
+                value=singular&gt;&lt;/f&gt; &lt;f name=number
+                xml:id=FN2&gt;&lt;sym value=plural&gt;&lt;/f&gt; &lt;f
+                name=proper xml:id=FPP&gt;&lt;plus&gt;&lt;/f&gt; &lt;f
+                name=proper xml:id=FPM&gt;&lt;minus&gt;&lt;/f&gt;
+                &lt;/fLib&gt;</eg></p>
+            <p>Each of the feature structures attested can now be represented by reference to these
+              underlying primitives, using the <ident>feats</ident> attribute, as
+                follows:<eg>&lt;fs xml:id=NN1 feats="FCN FPM FN1"&gt; &lt;fs xml:id=NN2
+                feats="FCN FPM FN2"&gt; &lt;fs xml:id=NP1 feats="FCN FPP FN1"&gt; &lt;fs
+                xml:id=NN1 feats="FCN FPP FN2"&gt;</eg></p>
+            <p>It should be apparent how this approach permits an SGML aware processor to identify
+              automatically linguistic analyses where features such as number or properness are
+              marked, independently of the actual category code (the <code>NN1</code> or
+              <code>NP2</code>) used to mark the analysis. In addition, of course, the use of the
+              SGML ID/IDREF mechanism allows for simple validation of the codes used. For more
+              sophisticated validation, for example to ensure that the feature properness cannot be
+              both plus and minus in the same analysis, the TEI specifies an additional declarative
+              mechanism, known as a <term>feature system declaration</term> (FSD).</p>
+            <p>Full details of the FSD are provided in <!--xref doc="P3" from="id(FD)" to="DITTO"-->
+              chapter 26<!--/xref--> of the TEI <title>Guidelines</title>; its relevance for our
+              present purposes is that it provide a mechanism, intermediate in constraining power
+              between a full document type definition (which requires that all possible annotations
+              or tags be specified in advance) and the kind of limited validation possible with the
+              EAGLES mapping list. A fully elaborated feature system declaration for the EAGLES
+              morphosyntactic classification scheme is presented in section <ptr target="fsd"/>
+              below. This more general solution makes possible a form of internal validation,
+              whereby the contents of the corpus are validated against feature lists produced
+              specifically for that corpus, or where the feature list used is a super- or sub- set
+              of the EAGLES feature list, without losing the ability to validate that part of the
+              feature set which does coincide with EAGLES' recommendations.</p>
+          </div3>
+          <div3>
+            <head>Documenting the Feature Set</head>
+            <p>Returning for the moment to the utility of the original EAGLES report for validation,
+              as a first step for languages covered by the report, corpus designers would be foolish
+              to ignore the relevance of the EAGLES obligatory and recommended features, since these
+              now form an agreed cross-linguistic EU standard. Any internal validation should thus
+              be regarded as secondary to an EAGLES validation. Adoption of a feature-based system
+              for validation makes possible the application of identical validation techniques in
+              either case.</p>
+            <p>The process of deriving a feature set from documentation is also a convenient way of
+              checking the thoroughness and consistency of the documentation itself. Anomalies such
+              as the presence of undocumented tags in the corpus, or the presence of unused
+                or<soCalled>phantom</soCalled> features in the documentation are often only found by
+              such a process.</p>
+            <p>The former are easily handled by rectifying the documentation, but the latter are
+              slightly more problematic. Phantom features may occur for any of three reasons: </p>
+            <list type="ORDERED">
+              <item>they are present for the sake of completeness but simply did not occur in the
+                text corpus being examined; </item>
+              <item>their presence is a historical accident, representing for example a change in
+                the design of the feature analysis;</item>
+              <item>they should have been applied to the corpus but were not. </item>
+            </list>
+            <p>Clearly, the most serious case is that of (3): here the annotation does not validate
+              against the intended features and needs to be rectified. Such deficiency, at least at
+              the EAGLES obligatory and recommended levels, should be immediately evident when the
+              corpus annotation used is checked against the feature list. In the case of (2), only
+              the documentation needs correcting. In the case of (1), the matter should simply be
+              documented, for the information of corpus users. Phantom tags can be introduced as the
+              result of typographic errors; the use of an automatic system for introduction of tags
+              and their automatic validation against the agreed corpus tagset entirely does away
+              with this form of error.</p>
+          </div3>
+        </div2>
+        <div2>
+          <head>Syntactic Correctness and Consistency</head>
+          <p>The aim of this level of validation is to ensure that the form of tags is consistent.
+            Specifically, it should check that:<list type="simple">
+              <item>each appropriate lexical item receives an appropriate annotation;</item>
+              <item>each appropriate lexical item receives a single annotation;</item>
+              <item>each annotation used is documented and corresponds with a known feature, i.e.
+                there are no typographic errors;</item>
+              <item>the annotation is presented using a consistent and correct syntax.</item>
+            </list></p>
+          <p>We use the phrase <soCalled>lexical item</soCalled> above to indicate that the tokens
+            to which annotation is attached need not correspond with orthographic words. Although
+            many commonly used annotation schemes for English do in fact attempt to make this
+            correspondence, it is unnecessary where a single formalism such as SGML or something of
+            equivalent power is used to represent both structure and analysis. </p>
+          <p>Thus, the CLAWS scheme uses a special form of annotation known
+            as<soCalled>ditto</soCalled> tags to indicate that the annotation for one token applies
+            also to another. For example, the English conjunction <mentioned>so that</mentioned>
+            should properly be regarded as a single conjunction, although it is orthographically
+            represented as two tokens. Early versions of CLAWS tagged this phrase as<code>so_CS21
+              that_CS22</code> or, using the equivalent SGML formalism, as <eg> &lt;w
+              CS21&gt;so &lt;w CS22&gt;that.</eg> The actual annotation for conjunction
+            is <code>CS</code>, the following digit 2 indicates the number of tokens to which it is
+            to be attached, and the final 1 and 2 indicate the number of this token within the
+            sequence. A more natural approach would be to revise the tokenization rules so that the
+            token so that might be treated as a single unit, tagging it as <eg> &lt;w
+              CS2&gt;so that.</eg>. Uncoupling the annotation structure from the orthographic
+            structure also enables a consistent approach to be taken for the case where the
+            morphosyntactic units to be tagged are smaller than orthographic words.</p>
+          <p>We recommend above that a single annotation be attached to each lexical token,
+            recognizing that in production systems it may be necessary to retain deliberately
+            ambiguous or polyvalent annotations to avoid incorrect deterministic disambiguation.
+            Such exceptions to the <q>one word, one tag</q> rule, should be clearly documented to
+            aid validation; ideally each possible combination of multiple annotations can be
+            represented as a distinct choice within the feature set. The FSD notation recommended
+            below supports this possibility.</p>
+          <p>The majority of these tasks can be achieved using a series of procedures aided by
+            simple Unix tools such as <term>awk</term> and<term>grep</term>. Checking SGML requires
+            an SGML parser, and a number of these are available. As part of this workpackage, we
+            reviewed the SGML validation that had been undertaken on the corpora covered in the WP2
+            review. For most part, the results (summarized in section <ptr target="appc"/> below)
+            indicate that as yet only a few corpus builders are taking advantage of the availability
+            of tools such as SGML parsers to validate formally-defined markup schemes.</p>
+          <p>This is unsurprising, given the fact that such schemes have only begun to gain wide
+            acceptance in the last few years. However, it does seem strange that the topic of
+            validation is rarely touched on in the extant literature concerning corpus design and
+            construction; where it is, the topic appears to relate almost exclusively to the
+            statistical validity of a given sample as representative of some aspect of language (see
+            for example <ref target="cle92">Clear 1992</ref>, <ref target="atk92">Atkins et al
+            1990</ref>). Corpora such as the LOB and Brown have been so exhaustively studied and
+            analysed that it would be surprising if such errors as they contain had not come to
+            light; furthermore, where they have, however, corpus designers and builders seem to have
+            been uninterested in their status or implications. A plausible reason for this is that
+            it is only with the advent of really large corpora, often produced by automatic or
+            semi-automatic methods of data capture such as optical character recognition or as a
+            by-product of electronic typesetting, that questions of accuracy and authenticity have
+            arisen. </p>
+          <div3 xml:id="semcorr" type="d3">
+            <head>Semantic Correctness</head>
+            <p>As stated above, an accurate assessment of the semantic validity of any markup in a
+              corpus is an inherently intractable problem. Where the function of the markup is to
+              assert the existence of a human interpretation of the data, it is probably the case
+              that this can only be validated manually, although some control over variability may
+              be derived by the application of some rough heuristics to assess semantic conformance
+              to a pre-established norm. For example, if we know the statistical distribution of
+              specific nouns, verbs etc in a general corpus like the BNC, then we may be able to
+              check future corpora on the basis of these rough distributions. However, this is
+              clearly a rough and ready process.</p>
+            <p>Let us turn to considering hand validation. Even where human checking occurs, a
+              validation cannot be considered 100% accurate, since frequently there is scope for
+              error or genuine disagreement, even within a single set of guidelines [mdash ] (see
+              for example <ref target="bak97">Baker 1997</ref>). One possibly automated check would
+              be to see whether an assigned tag is allowed for a given word, by checking the word's
+              entry in a lexicon. However, this only makes sense when (a) a lexicon has been used to
+              tag the text and (b) manual correction has taken place [mdash ] otherwise we can
+              already be sure that the tag is permissible, unless there is something very seriously
+              wrong with the operation of the tagging program. Limitations on this method of
+              checking are (a) the fact that often a suffix list, etc., rather than an exhaustive
+              lexicon, is used for tag assignment and (b) the presence of new tags, i.e.,
+              permissible and correct tags added by human annotators because a new contextual
+              reading is missing from the lexicon.</p>
+          </div3>
+        </div2>
+        <div2>
+          <head>Other forms of Annotation</head>
+          <p>In addition to the strictly morphosyntactic analysis discussed so far, the EAGLES
+            Guidelines also envisage two generic forms of syntactic analysis: phrase structure and
+            dependency. Phrase structure grammars require the ability to model well-balanced trees
+            in a markup language, while structural dependency grammar requires the ability to
+            describe directed acyclic graphs.</p>
+          <p>Both abilities are intrinsic to the SGML abstract model, and the tasks of first
+            representing, and then validating the correctness of such structures, is thus
+            comparatively trivial. Furthermore, it is clear that the fundamental problems of
+            semantic validation are the same whether analyses are attached to high level structural
+            units such as those identified by syntactic analysis or to lower level word-like tokens.</p>
+          <p>The generality of the SGML model leads to its being suitable for the tagging of a
+            semantically highly diverse set of textual features. For example, the TEI
+            recommendations propose that SGML tagging be applied to mark <foreign>inter
+            alia</foreign> the following features:<list type="simple">
+              <item>orthographic and presentational features of the transcription</item>
+              <item>links to corresponding objects (for example digitized recordings of transcribed
+                speech, digitised page images of transcribed writing etc.) </item>
+              <item>explicit disambiguation of features such as proper nouns, dates, times, etc.</item>
+              <item>part-of-speech and morphology</item>
+              <item>syntactic analysis</item>
+              <item>discourse analysis</item>
+              <item>contextual, bibliographic, and topically related features</item>
+              <item>editorial correction, normalization, commentary, or annotation</item>
+            </list></p>
+          <p>While there is no doubt that an SGML encoding can cope with all of these forms of
+            analysis individually, the difficulty of distinguishing them in combination rapidly
+            increases, particularly if they are all located in the same data stream. There is an
+            increasing tendency therefore towards so-called <soCalled>out-of-line</soCalled>
+            annotation, in which potentially many, possibly contradictory, annotations or analytic
+            interpretations are stored independently of the text itself, but linked to it by means
+            of hypertext pointers. Similar techniques are required for the alignment of the
+            structural components of multilingual or multimedia corpora.</p>
+          <p>Such techniques have much to recommend them, but place additional constraints on the
+            ease with which the semantic and syntactic correctness of any one analysis can be
+            validated. As well as checking that the analysis is internally consistent, it must be
+            possible to check that the targets of each link are correctly specified. This may be
+            difficult, if a non-portable or non-robust method has been used to specify them, or
+            impossible entirely if the corpus text has been changed. Reliable standards for the
+            specification of robust and application-independent linking mechanisms (e.g. HyTime,
+            XLL) have a degree of acceptance within the computing sector, but are not yet widely
+            accepted or understood within the community of corpus creators. An obvious exception to
+            this generalization is in the special case of multilingual or multimedia aligned corpora
+            where such mechanisms are essential.</p>
+          <p>We have restricted ourselves primarily to morphosyntax and syntax, partly because these
+            are the most widely encountered forms of annotation and are also the only ones for
+            which, at present, EAGLES guidelines exist. Other forms of annotation are sparser and
+            more diverse, with insufficient examples of each type to make generally acceptable
+            recommendations, even where consensus exists as to the scope or application of such
+            analyses. This situation is like to change over time and consideration should be given
+            on a rolling basis to validation procedures as the application of annotation types and
+            the development of standards proceeds. </p>
+          <p>With this said, it is likely that many of the issues for validation of, say, pragmatic
+            annotation, will be similar to those for morphosyntax. While the precise details of the
+            scope of annotations and the interpretative nature of the schemes may differ, basic
+            issues such as idiosyncratic v. widely accepted annotation schemes and questions of
+            rigid v. fluid analysis schemes will most likely remain the same. So future work on the
+            validation of such further annotations will be able to refer to this document for
+            guidance, if not a complete solution.</p>
+        </div2>
+      </div1>
+      <div1 xml:id="rep">
+        <head>Representation of Validation</head>
+        <p>The TEI Guidelines provide for the recording of some aspects of the validation process by
+          specialised documentation within the TEI Header, but do not include elements for all the
+          aspects touched on in our discussion. We list here the relevant elements from section
+          <!--xref doc="P3" from="id(HD5)" to="DITTO"-->5.3<!--/xref--> of
+          the<title>Guidelines</title>, and also make preliminary suggestions for some additional
+          elements which might usefully be added in a future revision of the TEI scheme. </p>
+        <p>The <gi>encodingDesc</gi> element in the TEI header is intended to<q>document the
+            relationship between an electronic text and the source or sources from which it was
+            derived</q>. As such it is the natural location for statements about the results of the
+          validation process. The following elements, each of which is described in more detail in
+          the Guidelines, seem of particular relevance:<list type="gloss">
+            <label>
+              <gi>projectDesc</gi>
+            </label>
+            <item>describes in detail the aim or purpose for which an electronic file was encoded,
+              together with any other relevant information concerning the process by which it was
+              assembled or collected.</item>
+            <label>
+              <gi>samplingDecl</gi>
+            </label>
+            <item>contains a prose description of the rationale and methods used in sampling texts
+              in the creation of a corpus or collection.</item>
+            <label>
+              <gi>editorialDecl</gi>
+            </label>
+            <item>provides details of editorial principles and practices applied during the encoding
+              of a text.</item>
+            <label>
+              <gi>tagsDecl</gi>
+            </label>
+            <item>provides detailed information about the tagging applied to an SGML document. </item>
+            <label>
+              <gi>refsDecl</gi>
+            </label>
+            <item>specifies how canonical references are constructed for this text.</item>
+            <label>
+              <gi>classDecl</gi>
+            </label>
+            <item>contains one or more taxonomies defining any classificatory codes used elsewhere
+              in the text.</item>
+            <label>
+              <gi>fsdDecl</gi>
+            </label>
+            <item>identifies the feature system declaration which contains definitions for a
+              particular type of feature structure.</item>
+          </list></p>
+        <p>Some of these elements, for example <gi>projectDesc</gi> and<gi>samplingDecl</gi> are
+          purely documentary, in that they are defined as containing only a prose description. For
+          others, however, a more detailed substructure is proposed. The <gi>tagsDecl</gi> element
+          for example is defined as containing a series of <gi>tagUsage</gi> elements, each of which
+          specifies the number of occurrences found within a document for each SGML tag used. Such
+          elements can thus be used to record the result of any structural validation carried out,
+          simply as a count of the number of elements, optionally extended by any desired usage
+          notes, as in the following example:<eg>&lt;tagsDecl&gt; &lt;tagUsage gi=DIV1
+            occurs=20&gt;&lt;/tagUsage&gt; &lt;tagUsage gi=P occurs=2043&gt;Used
+            for typographic paragraphs and also for individual list
+            components&lt;/tagUsage&gt; &lt;/tagsDecl&gt;</eg> Use of this element
+          provides a useful way of documenting actual SGML tagging practice within a text, and can
+          readily be automatically generated during the validation process. If usage notes are
+          supplied, they need only specify information not already implicit in the definition of the
+          element's syntax, as in the example above, where the<gi>p</gi> tag has been used for
+          something which might more properly have been encoded using a different TEI element.</p>
+        <p>A more elaborate scheme is defined by the TEI <gi>classDecl</gi> element for the
+          documentation of the classification scheme applied to a corpus, which permits (for
+          example) a formal specification of any descriptive taxonomy or typology applied to the
+          texts. The Guidelines suggest, as an example, the following way of representing the Brown
+          corpus typology:<eg>&lt;taxonomy xml:id=B&gt; &lt;bibl&gt;Brown
+            Corpus&lt;/bibl&gt; &lt;category xml:id=B.A&gt;&lt;catDesc&gt;Press
+            Reportage &lt;category
+            xml:id=B.A1&gt;&lt;catDesc&gt;Daily&lt;/category&gt; &lt;category
+            xml:id=B.A2&gt;&lt;catDesc&gt;Sunday&lt;/category&gt; &lt;category
+            xml:id=B.A3&gt;&lt;catDesc&gt;National&lt;/category&gt; &lt;category
+            xml:id=B.A4&gt;&lt;catDesc&gt;Provincial&lt;/category&gt;
+            &lt;category
+            xml:id=B.A5&gt;&lt;catDesc&gt;Political&lt;/category&gt;
+            &lt;category xml:id=B.A6&gt;&lt;catDesc&gt;Sports&lt;/category&gt;
+            &lt;!-- ... --&gt; &lt;/category&gt; &lt;category
+            xml:id=B.D&gt;&lt;catDesc&gt;Religion &lt;category
+            xml:id=B.D1&gt;&lt;catDesc&gt;Books&lt;/category&gt; &lt;category
+            xml:id=B.D2&gt;&lt;catDesc&gt;Periodicals and tracts&lt;/category&gt;
+            &lt;/category&gt; &lt;!-- ... --&gt; &lt;/taxonomy&gt;</eg> This
+          method does not however allow for documentation of the extent to which the taxonomy has
+          been applied, i.e. the coverage associated with each category within it. One way of
+          filling this gap might be to define an additional element <gi>coverage</gi> as additional
+          content for the existing <gi>category</gi> element, with attributes such as
+          <ident>unit</ident> and <gi>extent</gi> to specify the proportion of the corpus which has
+          been assigned this descriptive category. One might then specify, for example, that 7 texts
+          or 3000 words in a given corpus have been assigned to the <q>Provincial Press</q> class as
+            follows:<eg> &lt;category
+            xml:id=B.A4&gt;&lt;catDesc&gt;Provincial&lt;/catDesc&gt;
+            &lt;coverage unit=text extent=7&gt; &lt;coverage unit=word
+            extent=3000&gt; &lt;/category&gt;</eg> Again, the <gi>coverage</gi> element
+          can be automatically generated during the validation process. Its presence, like that of
+            the<gi>tagUsage</gi> elements discussed above, enables the corpus user to tell at a
+          glance whether a given corpus is relevant to a specific requirement, subject of course to
+          the general proviso that the corpus under examination is marked up correctly. In other
+          words, it enables us to satisfy the <soCalled>completeness</soCalled> criterion, as well
+          as the <soCalled>syntactic correctness</soCalled> criterion (which must have been
+          satisfied in the case of an SGML corpus).</p>
+        <p>With regard to recording the usage of feature structures within a TEI document, the TEI
+          provides a <gi>fsdDecl</gi> element, the function of which is to associate each feature
+          structure used in a document with the (externally defined) feature system declaration to
+          which it belongs. For example:<eg>&lt;fsdDecl type=NN2 fsd=eaglesFSD&gt;
+            &lt;fsdDecl type=NN1 fsd=eaglesFSD&gt;</eg> indicates that the feature
+          structures <code>NN1</code> and<code>NN2</code> are defined by the feature system which is
+          contained in an external entity named <code>eaglesFSD</code>. (The use of an external SGML
+          entity is a consequence of technical aspects of the way the TEI document type definition
+          is implemented, which need not concern us here). As with the <gi>tagUsage</gi> element,
+          each feature structure actually used within the corpus should be specified in this way.
+          This mechanism allows for multiple analyses (using different FSDs) to co-occur within a
+          given corpus, which may be of interest. However, there is no scope for inclusion of
+          coverage or validation information, which might arguably be more useful. A simple way of
+          rectifying this might be to define a new <gi>fsUsage</gi> element, analogous to the
+            <gi>tagUsage</gi> element, with similar attributes and semantics. One might then include
+          in the Header statements such as<eg>&lt;fsUsage type=NN2 occurs=1234&gt;
+            &lt;fsUsage type=NN1 occurs=164538&gt;</eg>
+        </p>
+        <p>Alternatively, given the need to supply a <gi>fsdDecl</gi> element, it would be more
+          economical to combine the function of the latter into the new element and
+            write:<eg>&lt;fsUsage type=NN2 occurs=1234 fsd=eaglesFSD&gt; &lt;fsUsage
+            type=NN1 occurs=164538 fsd=eaglesFSD&gt;</eg>
+        </p>
+        <p>As with the other elements discussed so far, the <gi>fsUsage</gi> elements for a given
+          corpus should be automatically generated during the validation process, rather than
+          manually added, and would therefore provide an automatic degree of consistency checking,
+          as well as providing an explicit record of tagging practice within the text, rather than
+          what is implicitly claimed for it. This in turn implies a further requirement for the
+          documentation of the results of any manual or semi-automatic validation performed. (It
+          precludes the explicit identification of features defined by the FSD but missing from the
+          corpus, for example).</p>
+        <p>Such information might be provided as running text within an<gi>interpretation</gi>
+          element, one of the subcomponents of the<gi>editorialDecl</gi> elements, although the
+          definition provided for this suggests rather that it is intended for the corpus creator to
+          record his or her intentions in this regard rather than for the corpus validator to record
+          actual practice or assessment of the extent to which such intentions have been realised.
+          The only example cited in the Guidelines is as follows:<eg>&lt;interpretation&gt;
+            &lt;p&gt;The part of speech analysis applied throughout section 4 was added by
+            hand and has not been validated</eg></p>
+        <p>As an initial step, we recommend including within a this element a statement of such
+          topics as<list type="simple">
+            <item>what type of annotation is it claimed that the corpus includes (none,
+              morphosyntactic, etc);</item>
+            <item>whether the annotation is consistently applied (as implied by the coverage
+              elements);</item>
+            <item>whether the annotation is judged semantically correct, and by what
+            criteria.</item>
+          </list></p>
+        <p>Where a finer grained validation is required, for example, at the level of individual
+          features or tags, it may be preferable to add further attributes to the <gi>tagUsage</gi>
+          or <gi>fsUsage</gi> elements discussed above. For example, a <ident>check</ident>
+          attribute, with values such as <code>NONE</code>, <code>SOME</code>, or <code>ALL</code>,
+          might be used to record the status of validation for each <gi>fsUsage</gi> element to
+          which it applied. This might be useful where a corpus is initially morphosyntactically
+          tagged by a program and then manually corrected on a piecemeal basis: the value for this
+          attribute would then be changed as validation and hand correction progressed, on a
+          feature-by-feature basis. Attaching validation feature at this level of granularity also
+          has the advantage that certain categories (for example definite articles in English) are
+          far easier to validate with confidence than others.</p>
+        <p>Clearly, there is a need for more formalization of the validation process, and a greater
+          degree of consensus on what it is feasible or desirable to include by way of metrics
+          before more specific recommendations can be made. This document is intended to provide a
+          basis for such discussion.</p>
+      </div1>
+      <div1>
+        <head>Appendixes</head>
+        <p/>
+        <div2 xml:id="fsd">
+          <head>A Feature System Declaration for the EAGLES morphosyntactic Guidelines</head>
+          <p>This is a complete FSD for the EAGLES Guidelines for morphosyntactic analysis, using
+            the formalism defined in chapter 26 of the TEI Guidelines. It consists of a series of
+            declarations for feature structures, each represented as a <gi>fsDecl</gi> element, and
+            each corresponding with an EAGLES recommended feature. Each <gi>fsDecl</gi> contains a
+            series of <gi>fDecl</gi> elements, each corresponding with a set of the feature-value
+            pairs defined for that feature structure in the EAGLES scheme. The values
+            (<gi>vRange</gi>) are specified as a set of alternate values using the <gi>vAlt</gi>
+            element, indicating that EAGLES does not permit multi-valued features, but a
+            system-dependent default value (<gi>dft</gi>) is permitted for use in cases where none
+            of the specified values is applicable.<eg>&lt;!DOCTYPE teiFsd2 system
+              "teifsd2.dtd"&gt; &lt;TEIfsd2&gt; &lt;teiHeader&gt;
+              &lt;fileDesc&gt; &lt;titleStmt&gt; &lt;title&gt;Feature System
+              Declaration for the EAGLES tagset&lt;/title&gt; &lt;/titleStmt&gt;
+              &lt;publicationstmt&gt; &lt;p&gt;Prepared for ELRA WP3
+              &lt;/publicationstmt&gt; &lt;sourcedesc&gt;&lt;p&gt;No source:
+              this is an original work&lt;/sourcedesc&gt; &lt;/filedesc&gt;
+              &lt;revisionDesc&gt; &lt;change&gt;&lt;date&gt;2 apr
+              1997&lt;/date&gt;
+              &lt;respstmt&gt;&lt;resp&gt;ed&lt;/resp&gt;&lt;name&gt;LB&lt;/name&gt;&lt;/respstmt&gt;
+              &lt;item&gt;Minor changes for validation; added header&lt;/item&gt;
+              &lt;/change&gt; &lt;change&gt; &lt;date&gt;31 mar
+              1997&lt;/date&gt;
+              &lt;respstmt&gt;&lt;resp&gt;&lt;/resp&gt;&lt;name&gt;APM&lt;/name&gt;&lt;/respstmt&gt;
+              &lt;item&gt;First complete draft&lt;/item&gt; &lt;/change&gt;
+              &lt;/revisionDesc&gt; &lt;/teiHeader&gt; &lt;!-- Feature system
+              for Nouns --&gt; &lt;fsDecl type = Noun&gt; &lt;fDecl name =
+              Type&gt; &lt;fDescr&gt;Range types associated with a
+              noun&lt;/fDescr&gt; &lt;vRange&gt;&lt;vAlt&gt; &lt;sym
+              value=0&gt;&lt;!-- Value not relevant for a language --&gt; &lt;sym
+              value=1&gt;&lt;!-- Common --&gt; &lt;sym value=2&gt;&lt;!--
+              Proper --&gt; &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Gender&gt; &lt;fDescr&gt;Range
+              genders associated with a noun&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Masculine --&gt; &lt;sym value=2&gt;&lt;!-- Feminine --&gt;
+              &lt;sym value=3&gt;&lt;!-- Neuter --&gt; &lt;sym
+              value=4&gt;&lt;!-- Common FOR USE WITH DUTCH AND DANISH ONLY --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Number&gt; &lt;fDescr&gt;Range
+              number associated with a noun&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Singular --&gt; &lt;sym value=2&gt;&lt;!-- Plural --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Case&gt; &lt;fDescr&gt;Range
+              case associated with a noun&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Nominative --&gt; &lt;sym value=2&gt;&lt;!-- Genitive --&gt;
+              &lt;sym value=3&gt;&lt;!-- Dative --&gt; &lt;sym
+              value=4&gt;&lt;!-- Accusative --&gt; &lt;sym
+              value=5&gt;&lt;!-- Vocative --&gt; &lt;sym value=6&gt;&lt;!--
+              Indeclinable VALUE FOR GREEK ONLY --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Countability&gt;
+              &lt;fDescr&gt;Optional attribute counatbility&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Count --&gt; &lt;sym value=2&gt;&lt;!-- Mass --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Countability&gt;
+              &lt;fDescr&gt;Language Specific Attribute Definiteness for
+              Danish&lt;/fDescr&gt; &lt;vRange&gt;&lt;vAlt&gt; &lt;sym
+              value=0&gt;&lt;!-- Value not relevant for a language --&gt; &lt;sym
+              value=1&gt;&lt;!-- Definite --&gt; &lt;sym value=2&gt;&lt;!--
+              Indefinite --&gt; &lt;sym value=3&gt;&lt;!-- Unmarked --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;/fsDecl&gt; &lt;!-- Feature system for Verbs
+              --&gt; &lt;fsDecl type = Verb&gt; &lt;fDecl name = Person&gt;
+              &lt;fDescr&gt;Range person associated with a verb&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              First Person --&gt; &lt;sym value=2&gt;&lt;!-- Second person
+              --&gt; &lt;sym value=3&gt;&lt;!-- Third person --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Gender&gt; &lt;fDescr&gt;Range
+              genders associated with a verb&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Masculine --&gt; &lt;sym value=2&gt;&lt;!-- Feminine --&gt;
+              &lt;sym value=3&gt;&lt;!-- Neuter --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Number&gt; &lt;fDescr&gt;Range
+              number associated with a verb&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Singular --&gt; &lt;sym value=2&gt;&lt;!-- Plural --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Finiteness&gt;
+              &lt;fDescr&gt;Range finiteness associated with a verb&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Finite --&gt; &lt;sym value=2&gt;&lt;!-- Non Finite --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = FormOrMood&gt;
+              &lt;fDescr&gt;Range form/mood associated with a verb&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Indicative --&gt; &lt;sym value=2&gt;&lt;!-- Subjunctive --&gt;
+              &lt;sym value=3&gt;&lt;!-- Imperative --&gt; &lt;sym
+              value=4&gt;&lt;!-- Conditional --&gt; &lt;sym
+              value=5&gt;&lt;!-- Infinitive --&gt; &lt;sym
+              value=6&gt;&lt;!-- Participle --&gt; &lt;sym
+              value=7&gt;&lt;!-- Gerund --&gt; &lt;sym value=8&gt;&lt;!--
+              Supine --&gt; &lt;sym value=9&gt;&lt;!-- Ing Form VALID FOR ENGLISH
+              ONLY --&gt; &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Tense&gt; &lt;fDescr&gt;Range
+              tense associated with a verb&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Present --&gt; &lt;sym value=2&gt;&lt;!-- Imperfect --&gt;
+              &lt;sym value=3&gt;&lt;!-- Future --&gt; &lt;sym
+              value=4&gt;&lt;!-- Past --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Voice&gt; &lt;fDescr&gt;Range
+              voice associated with a verb&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Active --&gt; &lt;sym value=2&gt;&lt;!-- Passive --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Status&gt; &lt;fDescr&gt;Range
+              status associated with a verb&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Main --&gt; &lt;sym value=2&gt;&lt;!-- Auxiliary --&gt;
+              &lt;sym value=3&gt;&lt;!-- Optional Attribute Semi Auxiliary --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Aspect&gt;
+              &lt;fDescr&gt;Optional Aspect attribute&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Perfective --&gt; &lt;sym value=2&gt;&lt;!-- Imperfective --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Separability&gt;
+              &lt;fDescr&gt;Optional Separability Attribute&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Non Separable --&gt; &lt;sym value=2&gt;&lt;!-- Separable --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Reflexivity&gt;
+              &lt;fDescr&gt;Optional Reflexivity Attribute&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Reflexive --&gt; &lt;sym value=2&gt;&lt;!-- Non reflexive --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Auxiliary&gt;
+              &lt;fDescr&gt;Optional Auxiliary Attribute&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Have --&gt; &lt;sym value=2&gt;&lt;!-- Be --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = AuxiliaryFunction&gt;
+              &lt;fDescr&gt;Auxiliary Function Attribute Applicable ONLY TO
+              ENGLISH&lt;/fDescr&gt; &lt;vRange&gt;&lt;vAlt&gt; &lt;sym
+              value=0&gt;&lt;!-- Value not relevant for a language --&gt; &lt;sym
+              value=1&gt;&lt;!-- Primary --&gt; &lt;sym value=2&gt;&lt;!--
+              Modal --&gt; &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;/fsDecl&gt; &lt;!-- Feature system for
+              Adjectives --&gt; &lt;fsDecl type = Adjective&gt; &lt;fDecl name =
+              Degree&gt; &lt;fDescr&gt;Range degree associated with an
+              adjective&lt;/fDescr&gt; &lt;vRange&gt;&lt;vAlt&gt;
+              &lt;sym value=0&gt;&lt;!-- Value not relevant for a language --&gt;
+              &lt;sym value=1&gt;&lt;!-- Positive --&gt; &lt;sym
+              value=2&gt;&lt;!-- Comparative --&gt; &lt;sym
+              value=3&gt;&lt;!-- Superlative --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Gender&gt; &lt;fDescr&gt;Range
+              genders associated with an adjective&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Masculine --&gt; &lt;sym value=2&gt;&lt;!-- Feminine --&gt;
+              &lt;sym value=3&gt;&lt;!-- Neuter --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Number&gt; &lt;fDescr&gt;Range
+              number associated with an adjective&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Singular --&gt; &lt;sym value=2&gt;&lt;!-- Plural --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Case&gt; &lt;fDescr&gt;Range
+              case associated with an adjective&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Nominative --&gt; &lt;sym value=2&gt;&lt;!-- Genitive --&gt;
+              &lt;sym value=3&gt;&lt;!-- Dative --&gt; &lt;sym
+              value=4&gt;&lt;!-- Accusative --&gt; &lt;sym
+              value=5&gt;&lt;!-- Vocative GREEK ONLY--&gt; &lt;sym
+              value=6&gt;&lt;!-- Indeclinable GREEK ONLY --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = InflectionType&gt;
+              &lt;fDescr&gt;Optional Inflection Type Attribute&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Weak flection --&gt; &lt;sym value=2&gt;&lt;!-- Strong flection
+              --&gt; &lt;sym value=3&gt;&lt;!-- Mixed --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Use&gt; &lt;fDescr&gt;Optional
+              Use Attribute&lt;/fDescr&gt; &lt;vRange&gt;&lt;vAlt&gt;
+              &lt;sym value=0&gt;&lt;!-- Value not relevant for a language --&gt;
+              &lt;sym value=1&gt;&lt;!-- Attributive--&gt; &lt;sym
+              value=2&gt;&lt;!-- Predicative --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = NPFunction&gt;
+              &lt;fDescr&gt;Optional NP Function Attribute&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Premodifying --&gt; &lt;sym value=2&gt;&lt;!-- Postmodifying
+              --&gt; &lt;sym value=3&gt;&lt;!-- Head function --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;/fsDecl&gt; &lt;!-- Feature system for
+              Pronoun-Determiners --&gt; &lt;fsDecl type = PronounDeterminer&gt;
+              &lt;fDecl name = Person&gt; &lt;fDescr&gt;Range person associated with
+              a pronoun/determiner&lt;/fDescr&gt; &lt;vRange&gt;&lt;vAlt&gt;
+              &lt;sym value=0&gt;&lt;!-- Value not relevant for a language --&gt;
+              &lt;sym value=1&gt;&lt;!-- First Person --&gt; &lt;sym
+              value=2&gt;&lt;!-- Second person --&gt; &lt;sym
+              value=3&gt;&lt;!-- Third person --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Gender&gt; &lt;fDescr&gt;Range
+              genders associated with a pronoun/determiner&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Masculine --&gt; &lt;sym value=2&gt;&lt;!-- Feminine --&gt;
+              &lt;sym value=3&gt;&lt;!-- Neuter --&gt; &lt;sym
+              value=4&gt;&lt;!-- Common DANISH ONLY --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Number&gt; &lt;fDescr&gt;Range
+              number associated with a pronoun/determiner&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Singular --&gt; &lt;sym value=2&gt;&lt;!-- Plural --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Case&gt; &lt;fDescr&gt;Range
+              case associated with a pronoun/determiner&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Nominative --&gt; &lt;sym value=2&gt;&lt;!-- Genitive --&gt;
+              &lt;sym value=3&gt;&lt;!-- Dative --&gt; &lt;sym
+              value=4&gt;&lt;!-- Accusative --&gt; &lt;sym
+              value=5&gt;&lt;!-- Non Genitive --&gt; &lt;sym
+              value=6&gt;&lt;!-- Oblique --&gt; &lt;sym value=7&gt;&lt;!--
+              Prepositional case SPANISH ONLY --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Category&gt;
+              &lt;fDescr&gt;Range category associated with a
+              pronoun/determiner&lt;/fDescr&gt; &lt;vRange&gt;&lt;vAlt&gt;
+              &lt;sym value=0&gt;&lt;!-- Value not relevant for a language --&gt;
+              &lt;sym value=1&gt;&lt;!-- Pronoun --&gt; &lt;sym
+              value=2&gt;&lt;!-- Determiner --&gt; &lt;sym
+              value=3&gt;&lt;!-- Both Pronoun and Determiner --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = PronounType&gt;
+              &lt;fDescr&gt;Range pronoun type associated with a
+              pronoun/determiner&lt;/fDescr&gt; &lt;vRange&gt;&lt;vAlt&gt;
+              &lt;sym value=0&gt;&lt;!-- Value not relevant for a language --&gt;
+              &lt;sym value=1&gt;&lt;!-- Demonstrative --&gt; &lt;sym
+              value=2&gt;&lt;!-- Indefinite --&gt; &lt;sym
+              value=3&gt;&lt;!-- Possessive --&gt; &lt;sym
+              value=4&gt;&lt;!-- Int/Rel --&gt; &lt;sym value=5&gt;&lt;!--
+              Personal/Reflexive --&gt; &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = DeterminerType&gt;
+              &lt;fDescr&gt;Range determiner type associated with a
+              pronoun/determiner&lt;/fDescr&gt; &lt;vRange&gt;&lt;vAlt&gt;
+              &lt;sym value=0&gt;&lt;!-- Value not relevant for a language --&gt;
+              &lt;sym value=1&gt;&lt;!-- Demonstrative --&gt; &lt;sym
+              value=2&gt;&lt;!-- Indefinite --&gt; &lt;sym
+              value=3&gt;&lt;!-- Possessive --&gt; &lt;sym
+              value=4&gt;&lt;!-- Int/Rel --&gt; &lt;sym value=5&gt;&lt;!--
+              Partitive --&gt; &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Strength&gt;
+              &lt;fDescr&gt;Range strength associated with a pronoun/determiner in FRENCH
+              DUTCH AND GREEK ONLY&lt;/fDescr&gt; &lt;vRange&gt;&lt;vAlt&gt;
+              &lt;sym value=0&gt;&lt;!-- Value not relevant for a language --&gt;
+              &lt;sym value=1&gt;&lt;!-- Weak --&gt; &lt;sym
+              value=2&gt;&lt;!-- Strong --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = SpecialPronounType&gt;
+              &lt;fDescr&gt;Optional Special Pronoun Type Attribute&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Personal --&gt; &lt;sym value=2&gt;&lt;!-- Reflexive --&gt;
+              &lt;sym value=3&gt;&lt;!-- Reciprocal --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = WHType&gt;
+              &lt;fDescr&gt;Optional WH Type Attribute&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Interogative --&gt; &lt;sym value=2&gt;&lt;!-- Relative --&gt;
+              &lt;sym value=3&gt;&lt;!-- Exclamatory --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Politeness&gt;
+              &lt;fDescr&gt;Optional Politeness Attribute&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Polite --&gt; &lt;sym value=2&gt;&lt;!-- Familiar --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;/fsDecl&gt; &lt;!-- Feature system for Articles
+              --&gt; &lt;fsDecl type = Articles&gt; &lt;fDecl name =
+              ArticleType&gt; &lt;fDescr&gt;Range types associated with an
+              article&lt;/fDescr&gt; &lt;vRange&gt;&lt;vAlt&gt; &lt;sym
+              value=0&gt;&lt;!-- Value not relevant for a language --&gt; &lt;sym
+              value=1&gt;&lt;!-- Definite --&gt; &lt;sym value=2&gt;&lt;!--
+              Indefinite --&gt; &lt;sym value=3&gt;&lt;!-- Partitive FRENCH ONLY
+              --&gt; &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Gender&gt; &lt;fDescr&gt;Range
+              genders associated with an article&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Masculine --&gt; &lt;sym value=2&gt;&lt;!-- Feminine --&gt;
+              &lt;sym value=3&gt;&lt;!-- Neuter --&gt; &lt;sym
+              value=4&gt;&lt;!-- Common DANISH ONLY --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Number&gt; &lt;fDescr&gt;Range
+              number associated with an article&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Singular --&gt; &lt;sym value=2&gt;&lt;!-- Plural --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Case&gt; &lt;fDescr&gt;Range
+              case associated with an article&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Nominative --&gt; &lt;sym value=2&gt;&lt;!-- Genitive --&gt;
+              &lt;sym value=3&gt;&lt;!-- Dative --&gt; &lt;sym
+              value=4&gt;&lt;!-- Accusative --&gt; &lt;sym
+              value=5&gt;&lt;!-- Vocative GREEK ONLY --&gt; &lt;sym
+              value=6&gt;&lt;!-- Indeclinable GREEK ONLY --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;/fsDecl&gt; &lt;!-- Feature system for Adverbs
+              --&gt; &lt;fsDecl type = Adverbs&gt; &lt;fDecl name = Degree&gt;
+              &lt;fDescr&gt;Range degree associated with an adverb&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Positive --&gt; &lt;sym value=2&gt;&lt;!-- Comparative --&gt;
+              &lt;sym value=3&gt;&lt;!-- Superlative --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = AdverbType&gt;
+              &lt;fDescr&gt;Optional Adverb Type Attribute&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              General --&gt; &lt;sym value=2&gt;&lt;!-- Degree --&gt;
+              &lt;sym value=3&gt;&lt;!-- Particle ENGLISH GERMAN DUTCH ONLY --&gt;
+              &lt;sym value=4&gt;&lt;!-- Pronominal ENGLISH GERMAN DUTCH ONLY --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Polarity&gt;
+              &lt;fDescr&gt;Optional Polarity Attribute&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!-- WH
+              Type --&gt; &lt;sym value=2&gt;&lt;!-- Non Wh Type --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = WHType&gt; &lt;fDescr&gt;Range
+              degree associated with an adverb&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Interogative --&gt; &lt;sym value=2&gt;&lt;!-- Relative --&gt;
+              &lt;sym value=3&gt;&lt;!-- Exclamatory --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;/fsDecl&gt; &lt;!-- Feature system for
+              Adpositions --&gt; &lt;fsDecl type = Adposition&gt; &lt;fDecl name =
+              Type&gt; &lt;fDescr&gt;Range types associated with an
+              adposition&lt;/fDescr&gt; &lt;vRange&gt;&lt;vAlt&gt;
+              &lt;sym value=0&gt;&lt;!-- Value not relevant for a language --&gt;
+              &lt;sym value=1&gt;&lt;!-- Preposition --&gt; &lt;sym
+              value=2&gt;&lt;!-- Optional Fused Prepositional Article Value --&gt;
+              &lt;sym value=3&gt;&lt;!-- Postposition ENGLISH GERMAN ONLY --&gt;
+              &lt;sym value=4&gt;&lt;!-- Circumposition ENGLISH GERMAN ONLY --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;/fsDecl&gt; &lt;!-- Feature system for
+              Conjunctions --&gt; &lt;fsDecl type = Conjunction&gt; &lt;fDecl name =
+              Type&gt; &lt;fDescr&gt;Range types associated with a
+              conjunction&lt;/fDescr&gt; &lt;vRange&gt;&lt;vAlt&gt;
+              &lt;sym value=0&gt;&lt;!-- Value not relevant for a language --&gt;
+              &lt;sym value=1&gt;&lt;!-- Coordinating --&gt; &lt;sym
+              value=2&gt;&lt;!-- Subordinating --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = CoordType&gt;
+              &lt;fDescr&gt;Optional Coordination Type Attribute&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Simple --&gt; &lt;sym value=2&gt;&lt;!-- Correlative--&gt;
+              &lt;sym value=3&gt;&lt;!-- Inital --&gt; &lt;sym
+              value=4&gt;&lt;!-- Non Initial--&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = SubordType&gt;
+              &lt;fDescr&gt;Subordination Type for GERMAN ONLY&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              With finite --&gt; &lt;sym value=2&gt;&lt;!-- With infinite--&gt;
+              &lt;sym value=3&gt;&lt;!-- Comparative--&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;/fsDecl&gt; &lt;!-- Feature system for Numerals
+              --&gt; &lt;fsDecl type = Numerals&gt; &lt;fDecl name = Type&gt;
+              &lt;fDescr&gt;Range types associated with a numeral&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Cardinal --&gt; &lt;sym value=2&gt;&lt;!-- Ordinal --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Gender&gt; &lt;fDescr&gt;Range
+              genders associated with a numeral&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Masculine --&gt; &lt;sym value=2&gt;&lt;!-- Feminine --&gt;
+              &lt;sym value=3&gt;&lt;!-- Neuter --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Number&gt; &lt;fDescr&gt;Range
+              number associated with a numeral&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Singular --&gt; &lt;sym value=2&gt;&lt;!-- Plural --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Case&gt; &lt;fDescr&gt;Range
+              case associated with a numeral&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Nominative --&gt; &lt;sym value=2&gt;&lt;!-- Genitive --&gt;
+              &lt;sym value=3&gt;&lt;!-- Dative --&gt; &lt;sym
+              value=4&gt;&lt;!-- Accusative --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Function&gt;
+              &lt;fDescr&gt;Range function associated with a numeral&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Pronoun --&gt; &lt;sym value=2&gt;&lt;!-- Determiner --&gt;
+              &lt;sym value=3&gt;&lt;!-- Adjective --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;/fsDecl&gt; &lt;!-- Feature system for Unique
+              tags --&gt; &lt;fsDecl type = unique&gt; &lt;fdecl
+              name="interjection"&gt; &lt;fDescr&gt;Range of types associated with
+              interjections&lt;/fDescr&gt; &lt;vRange&gt;&lt;vAlt&gt;
+              &lt;sym value=0&gt;&lt;!-- Value not relevant for a language --&gt;
+              &lt;sym value=1&gt;&lt;!-- Interjection --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fdecl&gt;&lt;/fsDecl&gt; &lt;fsDecl type = Unique&gt;
+              &lt;fDecl name = InfinitiveMarker&gt; &lt;fDescr&gt;Range types
+              associated with an infinitive marker&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              German marker zu GERMAN ONLY --&gt; &lt;sym value=2&gt;&lt;!-- Danish
+              marker at DANISH ONLY --&gt; &lt;sym value=3&gt;&lt;!-- Dutch marker
+              DUTCH ONLY --&gt; &lt;sym value=4&gt;&lt;!-- English marker ENGLISH
+              ONLY --&gt; &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = NegativeParticle&gt;
+              &lt;fDescr&gt;Negative particles ENGLISH ONLY&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              full form not --&gt; &lt;sym value=2&gt;&lt;!-- contracted form of not
+              --&gt; &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = ExistentialMarker&gt;
+              &lt;fDescr&gt;Existential Markers&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              English existential marker ENGLISH ONLY --&gt; &lt;sym
+              value=2&gt;&lt;!-- Danish existential marker DANISH ONLY --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = SecondNegativeParticle&gt;
+              &lt;fDescr&gt;Second negative particles FRENCH ONLY&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              French pas --&gt; &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Anticipatory&gt;
+              &lt;fDescr&gt;Anticipatory Marker er DUTCH only&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!-- er
+              --&gt; &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Mediopassive&gt;
+              &lt;fDescr&gt;Mediopassive PORTUGESE ONLY&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Mediopassive marker se --&gt; &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = PreverbalParticle&gt;
+              &lt;fDescr&gt;Preverbal Particle GREEK ONLY&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Preverbal particle --&gt; &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;/fsDecl&gt; &lt;!-- Feature system for
+              Residuals --&gt; &lt;fsDecl type = Residual&gt; &lt;fDecl name =
+              Type&gt; &lt;fDescr&gt;Range types associated with a
+              residual&lt;/fDescr&gt; &lt;vRange&gt;&lt;vAlt&gt; &lt;sym
+              value=0&gt;&lt;!-- Value not relevant for a language --&gt; &lt;sym
+              value=1&gt;&lt;!-- Foreign Word --&gt; &lt;sym
+              value=2&gt;&lt;!-- Formula --&gt; &lt;sym value=3&gt;&lt;!--
+              Symbol --&gt; &lt;sym value=4&gt;&lt;!-- Acronym --&gt;
+              &lt;sym value=5&gt;&lt;!-- Abbreviation --&gt; &lt;sym
+              value=6&gt;&lt;!-- Unclassified --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Number&gt; &lt;fDescr&gt;Range
+              number associated with a residual&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Singular --&gt; &lt;sym value=2&gt;&lt;!-- Plural --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Gender&gt; &lt;fDescr&gt;Range
+              genders associated with a residual&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Masculine --&gt; &lt;sym value=2&gt;&lt;!-- Feminine --&gt;
+              &lt;sym value=3&gt;&lt;!-- Neuter --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;/fsDecl&gt; &lt;!-- Feature system for
+              Punctuation --&gt; &lt;fsDecl type = Punctuation&gt; &lt;fDecl name =
+              Period&gt; &lt;fDescr&gt;Range types associated with a
+              fullstop&lt;/fDescr&gt; &lt;vRange&gt;&lt;vAlt&gt; &lt;sym
+              value=0&gt;&lt;!-- Value not relevant for a language --&gt; &lt;sym
+              value=1&gt;&lt;!-- Period --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Comma&gt; &lt;fDescr&gt;Range
+              types associated with a comma&lt;/fDescr&gt;
+              &lt;vRange&gt;&lt;vAlt&gt; &lt;sym value=0&gt;&lt;!--
+              Value not relevant for a language --&gt; &lt;sym value=1&gt;&lt;!--
+              Comma --&gt; &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;fDecl name = Question&gt;
+              &lt;fDescr&gt;Range types associated with a question
+              mark&lt;/fDescr&gt; &lt;vRange&gt;&lt;vAlt&gt; &lt;sym
+              value=0&gt;&lt;!-- Value not relevant for a language --&gt; &lt;sym
+              value=1&gt;&lt;!-- Question mark --&gt;
+              &lt;/vAlt&gt;&lt;/vRange&gt;
+              &lt;vDefault&gt;&lt;dft&gt;&lt;/vDefault&gt;
+              &lt;/fDecl&gt; &lt;/fsDecl&gt; &lt;/TEIfsd2&gt;</eg></p>
+        </div2>
+        <div2 xml:id="maps">
+          <head>Sample Mapping Lists for the EAGLES Obligatory Features</head>
+          <p>The following tables illustrate how a particular set of analytic tags, in this case the
+            CLAWS7 tagset, can be re-expressed in terms of the EAGLES <soCalled>intermediate
+              representation</soCalled>. In cases where the CLAWS7 tag underspecies, each possible
+            EAGLES value is given as an alternation.</p>
+          <p>The tables are organized as follows. Each table relates to an EAGLES obligatory
+            feature, within which appear entries for all of the CLAWS tags categorised as being
+            grouped with that feature. These tags are then further analysed in terms of their
+            recommended features.<table xml:id="tab6">
+              <head>Mapping list for Nouns</head>
+              <row>
+                <cell>ND1</cell>
+                <cell>N</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>NN</cell>
+                <cell>N</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>NN1</cell>
+                <cell>N</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>NN2</cell>
+                <cell>N</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>NNA</cell>
+                <cell>N</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>NNB</cell>
+                <cell>N</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>NNJ</cell>
+                <cell>N</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>NNJ2</cell>
+                <cell>N</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>NNL1</cell>
+                <cell>N</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>NNL2</cell>
+                <cell>N</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>NN0</cell>
+                <cell>N</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>NN02</cell>
+                <cell>N</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>NNT1</cell>
+                <cell>N</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>NNT2</cell>
+                <cell>N</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>NNU</cell>
+                <cell>N</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>NNU1</cell>
+                <cell>N</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>NNU2</cell>
+                <cell>N</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>NP</cell>
+                <cell>N</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>NP1</cell>
+                <cell>N</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>NP2</cell>
+                <cell>N</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>NPD1</cell>
+                <cell>N</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>NPD2</cell>
+                <cell>N</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>NPM1</cell>
+                <cell>N</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>NPM2</cell>
+                <cell>N</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+              </row>
+            </table>
+            <table xml:id="tab10">
+              <head>Mapping list for Verbs</head>
+              <row>
+                <cell>VB0</cell>
+                <cell>V</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>2|3</cell>
+                <cell>1|0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>VBDR</cell>
+                <cell>V</cell>
+                <cell>2|0|0</cell>
+                <cell>0</cell>
+                <cell>1|2|0</cell>
+                <cell>1</cell>
+                <cell>1|1|2</cell>
+                <cell>4</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>VBDZ</cell>
+                <cell>V</cell>
+                <cell>-2</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+                <cell>4</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>VBG</cell>
+                <cell>V</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+                <cell>9</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>VBI</cell>
+                <cell>V</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+                <cell>5</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>VBM</cell>
+                <cell>V</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>VBN</cell>
+                <cell>V</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+                <cell>6</cell>
+                <cell>4</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>VBR</cell>
+                <cell>V</cell>
+                <cell>2|0</cell>
+                <cell>0</cell>
+                <cell>1|2</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>VBZ</cell>
+                <cell>V</cell>
+                <cell>3</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>VD0</cell>
+                <cell>V</cell>
+                <cell>-3|0|0|0</cell>
+                <cell>0</cell>
+                <cell>1|2|0|0</cell>
+                <cell>1</cell>
+                <cell>1|1|2|3</cell>
+                <cell>1|1|1|0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>VDD</cell>
+                <cell>V</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+                <cell>4</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>VDG</cell>
+                <cell>V</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+                <cell>9</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+              </row>
+              <row>
+                <cell>VDI</cell>
+                <cell>V</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+                <cell>5</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+              </row>
+              <row>
+                <cell>VDN</cell>
+                <cell>V</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+                <cell>6</cell>
+                <cell>4</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+              </row>
+              <row>
+                <cell>VDZ</cell>
+                <cell>V</cell>
+                <cell>3</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>VH0</cell>
+                <cell>V</cell>
+                <cell>-3|0|0|0</cell>
+                <cell>0</cell>
+                <cell>1|2|0|0</cell>
+                <cell>1</cell>
+                <cell>1|1|2|3</cell>
+                <cell>1|1|1|0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>VHD</cell>
+                <cell>V</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+                <cell>4</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>VHN</cell>
+                <cell>V</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+                <cell>6</cell>
+                <cell>4</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+              </row>
+              <row>
+                <cell>VHG</cell>
+                <cell>V</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+                <cell>9</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>VHI</cell>
+                <cell>V</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+                <cell>5</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>VHZ</cell>
+                <cell>V</cell>
+                <cell>3</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>VM</cell>
+                <cell>V</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+              </row>
+              <row>
+                <cell>VMK</cell>
+                <cell>V</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>3</cell>
+              </row>
+              <row>
+                <cell>VV0</cell>
+                <cell>V</cell>
+                <cell>-3|0|0|0|0</cell>
+                <cell>0</cell>
+                <cell>1|2|0|0|0</cell>
+                <cell>1|1|1|1|0</cell>
+                <cell>1|1|2|3|0</cell>
+                <cell>1|1|1|0|1</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+              </row>
+              <row>
+                <cell>VVD</cell>
+                <cell>V</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+                <cell>4</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+              </row>
+              <row>
+                <cell>VVG</cell>
+                <cell>V</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+                <cell>9</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+              </row>
+              <row>
+                <cell>VVGK</cell>
+                <cell>V</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+                <cell>9</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+              </row>
+              <row>
+                <cell>VVI</cell>
+                <cell>V</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+                <cell>5</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+              </row>
+              <row>
+                <cell>VVN</cell>
+                <cell>V</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+                <cell>6</cell>
+                <cell>4</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+              </row>
+              <row>
+                <cell>VVNK</cell>
+                <cell>V</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+                <cell>6</cell>
+                <cell>4</cell>
+                <cell>0</cell>
+                <cell>3</cell>
+              </row>
+              <row>
+                <cell>VVZ</cell>
+                <cell>V</cell>
+                <cell>3</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+              </row>
+            </table>
+            <table xml:id="tab10a">
+              <head>Mapping list for Pronoun-Determiners</head>
+              <row>
+                <cell>APPGE</cell>
+                <cell>PD</cell>
+                <cell>1|2</cell>
+                <cell>0</cell>
+                <cell>1|2|0</cell>
+                <cell>0|1|2</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+                <cell>3</cell>
+              </row>
+              <row>
+                <cell>DA</cell>
+                <cell>PD</cell>
+                <cell>0|3</cell>
+                <cell>0</cell>
+                <cell>1|2</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>3</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+              </row>
+              <row>
+                <cell>DA1</cell>
+                <cell>PD</cell>
+                <cell>0|3</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>3</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+              </row>
+              <row>
+                <cell>DA2</cell>
+                <cell>PD</cell>
+                <cell>0|3</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>3</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+              </row>
+              <row>
+                <cell>DAR</cell>
+                <cell>PD</cell>
+                <cell>0|3</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>3</cell>
+                <cell>0</cell>
+                <cell>4</cell>
+              </row>
+              <row>
+                <cell>DAT</cell>
+                <cell>PD</cell>
+                <cell>0|3</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>3</cell>
+                <cell>0</cell>
+                <cell>4</cell>
+              </row>
+              <row>
+                <cell>DB</cell>
+                <cell>PD</cell>
+                <cell>0|3</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>3</cell>
+                <cell>0</cell>
+                <cell>4</cell>
+              </row>
+              <row>
+                <cell>DB2</cell>
+                <cell>PD</cell>
+                <cell>0|3</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>3</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+              </row>
+              <row>
+                <cell>DD</cell>
+                <cell>PD</cell>
+                <cell>0|3</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>3</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+              </row>
+              <row>
+                <cell>DD1</cell>
+                <cell>PD</cell>
+                <cell>0|3</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>3</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+              </row>
+              <row>
+                <cell>DD2</cell>
+                <cell>PD</cell>
+                <cell>0|3</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>3</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+              </row>
+              <row>
+                <cell>DDQ</cell>
+                <cell>PD</cell>
+                <cell>0|3</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>3</cell>
+                <cell>0</cell>
+                <cell>4</cell>
+              </row>
+              <row>
+                <cell>DDQGE</cell>
+                <cell>PD</cell>
+                <cell>0|3</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>1|2</cell>
+                <cell>0</cell>
+                <cell>3</cell>
+                <cell>0</cell>
+                <cell>3</cell>
+              </row>
+              <row>
+                <cell>DDQV</cell>
+                <cell>PD</cell>
+                <cell>0|3</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>3</cell>
+                <cell>0</cell>
+                <cell>4</cell>
+              </row>
+              <row>
+                <cell>PN</cell>
+                <cell>PD</cell>
+                <cell>0|3</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>PN1</cell>
+                <cell>PD</cell>
+                <cell>0|3</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>PNQ0</cell>
+                <cell>PD</cell>
+                <cell>0|3</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>6</cell>
+                <cell>1</cell>
+                <cell>4</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>PNQS</cell>
+                <cell>PD</cell>
+                <cell>0|3</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+                <cell>4</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>PNQV</cell>
+                <cell>PD</cell>
+                <cell>0|3</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>4</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>PNX1</cell>
+                <cell>PD</cell>
+                <cell>3</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>5</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>PPGE</cell>
+                <cell>PD</cell>
+                <cell>1|2|3</cell>
+                <cell>1|2|3</cell>
+                <cell>0</cell>
+                <cell>1|2|0</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>3</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>PPH1</cell>
+                <cell>PD</cell>
+                <cell>3</cell>
+                <cell>3</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>1|6</cell>
+                <cell>1</cell>
+                <cell>5</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>PPH01</cell>
+                <cell>PD</cell>
+                <cell>3</cell>
+                <cell>1|2</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>6</cell>
+                <cell>1</cell>
+                <cell>5</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>PPH02</cell>
+                <cell>PD</cell>
+                <cell>3</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+                <cell>6</cell>
+                <cell>1</cell>
+                <cell>5</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>PPHS1</cell>
+                <cell>PD</cell>
+                <cell>3</cell>
+                <cell>1|2</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+                <cell>5</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>PPHS2</cell>
+                <cell>PD</cell>
+                <cell>3</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+                <cell>5</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>PPI01</cell>
+                <cell>PD</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>6</cell>
+                <cell>1</cell>
+                <cell>5</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>PPI02</cell>
+                <cell>PD</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+                <cell>6</cell>
+                <cell>1</cell>
+                <cell>5</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>PPIS1</cell>
+                <cell>PD</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+                <cell>5</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>PPIS2</cell>
+                <cell>PD</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+                <cell>5</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>PPX1</cell>
+                <cell>PD</cell>
+                <cell>1|2|3</cell>
+                <cell>1|2|3</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>5</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>PPX2</cell>
+                <cell>PD</cell>
+                <cell>1|2|3</cell>
+                <cell>1|2|3</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>5</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>PPY</cell>
+                <cell>PD</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>1|6</cell>
+                <cell>1</cell>
+                <cell>5</cell>
+                <cell>0</cell>
+              </row>
+            </table>
+            <table xml:id="tab6a">
+              <head>Mapping list for Adjectives</head>
+              <row>
+                <cell>JJ</cell>
+                <cell>AJ</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>JJR</cell>
+                <cell>AJ</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>JJT</cell>
+                <cell>AJ</cell>
+                <cell>3</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>JK</cell>
+                <cell>AJ</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+            </table>
+            <table xml:id="tab5">
+              <head>Mapping list for Adverbs</head>
+              <row>
+                <cell>RA</cell>
+                <cell>AV</cell>
+                <cell>1</cell>
+                <cell>2</cell>
+                <cell>1</cell>
+              </row>
+              <row>
+                <cell>REX</cell>
+                <cell>AV</cell>
+                <cell>1</cell>
+                <cell>2</cell>
+                <cell>1</cell>
+              </row>
+              <row>
+                <cell>RG</cell>
+                <cell>AV</cell>
+                <cell>1</cell>
+                <cell>2</cell>
+                <cell>2</cell>
+              </row>
+              <row>
+                <cell>RGQ</cell>
+                <cell>AV</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+                <cell>2</cell>
+              </row>
+              <row>
+                <cell>RGQV</cell>
+                <cell>AV</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+                <cell>2</cell>
+              </row>
+              <row>
+                <cell>RGR</cell>
+                <cell>AV</cell>
+                <cell>2</cell>
+                <cell>2</cell>
+                <cell>2</cell>
+              </row>
+              <row>
+                <cell>RGT</cell>
+                <cell>AV</cell>
+                <cell>3</cell>
+                <cell>2</cell>
+                <cell>2</cell>
+              </row>
+              <row>
+                <cell>RL</cell>
+                <cell>AV</cell>
+                <cell>1</cell>
+                <cell>2</cell>
+                <cell>1</cell>
+              </row>
+              <row>
+                <cell>RP</cell>
+                <cell>AV</cell>
+                <cell>1</cell>
+                <cell>2</cell>
+                <cell>3</cell>
+              </row>
+              <row>
+                <cell>RPK</cell>
+                <cell>AV</cell>
+                <cell>1</cell>
+                <cell>2</cell>
+                <cell>3</cell>
+              </row>
+              <row>
+                <cell>RR</cell>
+                <cell>AV</cell>
+                <cell>1</cell>
+                <cell>2</cell>
+                <cell>1</cell>
+              </row>
+              <row>
+                <cell>RRQ</cell>
+                <cell>AV</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+              </row>
+              <row>
+                <cell>RRQV</cell>
+                <cell>AV</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+              </row>
+              <row>
+                <cell>RRR</cell>
+                <cell>AV</cell>
+                <cell>2</cell>
+                <cell>2</cell>
+                <cell>1</cell>
+              </row>
+              <row>
+                <cell>RRT</cell>
+                <cell>AV</cell>
+                <cell>3</cell>
+                <cell>2</cell>
+                <cell>1</cell>
+              </row>
+              <row>
+                <cell>RT</cell>
+                <cell>AV</cell>
+                <cell>1</cell>
+                <cell>2</cell>
+                <cell>1</cell>
+              </row>
+            </table>
+            <table xml:id="tab6b">
+              <head>Mapping list for Articles</head>
+              <row>
+                <cell>AT</cell>
+                <cell>AT</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>AT1</cell>
+                <cell>AT</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+              </row>
+            </table>
+            <table xml:id="tab3">
+              <head>Mapping list for Adposition tags</head>
+              <row>
+                <cell>II</cell>
+                <cell>AP</cell>
+                <cell>1</cell>
+              </row>
+              <row>
+                <cell>IO</cell>
+                <cell>AP</cell>
+                <cell>1</cell>
+              </row>
+              <row>
+                <cell>IW</cell>
+                <cell>AP</cell>
+                <cell>1</cell>
+              </row>
+              <row>
+                <cell>GE</cell>
+                <cell>AP</cell>
+                <cell>3</cell>
+              </row>
+            </table>
+            <table xml:id="tab5a">
+              <head>Mapping list for Conjunctions</head>
+              <row>
+                <cell>BCL</cell>
+                <cell>C</cell>
+                <cell>1</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>CC</cell>
+                <cell>C</cell>
+                <cell>1</cell>
+                <cell>1|4</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>CCB</cell>
+                <cell>C</cell>
+                <cell>1</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>CS</cell>
+                <cell>C</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+              </row>
+              <row>
+                <cell>CSA</cell>
+                <cell>C</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+                <cell>3</cell>
+              </row>
+              <row>
+                <cell>CSN</cell>
+                <cell>C</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+                <cell>3</cell>
+              </row>
+              <row>
+                <cell>CST</cell>
+                <cell>C</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+              </row>
+              <row>
+                <cell>CSW</cell>
+                <cell>C</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+                <cell>1|2</cell>
+              </row>
+            </table>
+            <table xml:id="tab7">
+              <head>Mapping list for Numerals</head>
+              <row>
+                <cell>MC</cell>
+                <cell>NU</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>MC1</cell>
+                <cell>NU</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>MC2</cell>
+                <cell>NU</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>MCGE</cell>
+                <cell>NU</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>MCMC</cell>
+                <cell>NU</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>MD</cell>
+                <cell>NU</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+            </table>
+            <table xml:id="tab5b">
+              <head>Mapping list for Residuals</head>
+              <row>
+                <cell>FO</cell>
+                <cell>R</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>FU</cell>
+                <cell>R</cell>
+                <cell>6</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>FW</cell>
+                <cell>R</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>ZZ1</cell>
+                <cell>R</cell>
+                <cell>3</cell>
+                <cell>1</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>ZZ2</cell>
+                <cell>R</cell>
+                <cell>3</cell>
+                <cell>2</cell>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>MF</cell>
+                <cell>R</cell>
+                <cell>3</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+              </row>
+            </table>
+            <table xml:id="tab3a">
+              <head>Mapping list for Unique tags</head>
+              <row>
+                <cell>UH</cell>
+                <cell>I</cell>
+                <cell> Interjection</cell>
+              </row>
+              <row>
+                <cell>EX</cell>
+                <cell>UE</cell>
+                <cell>Existential <mentioned>there</mentioned></cell>
+              </row>
+              <row>
+                <cell>TO</cell>
+                <cell>UT</cell>
+                <cell>Infinitive marker</cell>
+              </row>
+              <row>
+                <cell>XX</cell>
+                <cell>UX</cell>
+                <cell>Negative particle</cell>
+              </row>
+              <row>
+                <cell>PUQ</cell>
+                <cell>R</cell>
+                <cell>Punctuation mark (quotation)</cell>
+              </row>
+              <row>
+                <cell>PUN</cell>
+                <cell>R</cell>
+                <cell>Punctuation mark (non-quotation)</cell>
+              </row>
+            </table>
+          </p>
+        </div2>
+        <div2 xml:id="appc">
+          <head>Some current markup validation practice</head>
+          <p>In the following list, we summarize claims made by the builders of several of the
+            corpora analysed in Work Package 2 regarding how the encoding of their corpus was
+            validated. The information here is only partial, and has not been reviewed by our
+              informants.<list type="gloss">
+              <label>BNC</label>
+              <item>SGML parser used to validate all markup against the CDIF (Corpus Document
+                Interchange Format) dtd; all tagging errors reported are then hand-corrected. Some
+                semantic validation (on a portion of each text) also performed for errors such as
+                incorrect or missing headings, with limited manual correction. All addition of
+                analytic tagging was automatic. but its syntactic validity was checked again, using
+                an SGML parser. As a separate exercise, a 2 percent sample of the corpus was
+                hand-checked for accuracy of analytic tagging, and the results used to improve the
+                original part-of-speech tagging. (Results of this are not yet publicly available,
+                but are due in 1998).</item>
+              <label>LOB and Brown </label>
+              <item>No SGML mark-up used, but structure indicated by means of a simple and
+                automatically verifiable coding. Typographic errors are retained unchanged. Analytic
+                coding performed using similar techniques to those of the BNC.</item>
+              <label>London Lund Corpus </label>
+              <item>No SGML mark-up used, but detailed indication of prosodic features using
+                idiosyncratic markup scheme; no information available as to how this was verified. </item>
+              <label>Penn Treebank </label>
+              <item>No SGML mark-up used, but detailed indication of syntactic features using
+                idiosyncratic markup scheme;validated by own analytic tools. </item>
+              <label>ICE </label>
+              <item>Originally used own SGML-like markup scheme, validated by suite of WordPerfect
+                macros which inserted text unit markup after full stops etc. This system
+                  <q>generally ensures that markup symbols are closed, and reminds users to do so
+                  should they try opening the same symbol again before closing it.</q>
+                <ref target="nel96">Nelson 1996, p 65-66</ref>. After developing further software
+                tools to check validity, the project has reportedly converted to an SGML system, but
+                we have been unable to obtain further details of this.</item>
+              <label>Multext and CRATER </label>
+              <item>Where applicable, automatic conversion of preexisting header data was carried
+                out. As for primary data in most cases division and/or paragraph level markup of
+                some kind already existed in the texts we received, so getting P and DIV was a
+                matter of conversion or automatic insertion. However, corrections were made by hand
+                to P level markup. Since they were dealing with issues of alignment the accuracy of
+                sentence level (and above) tags was crucial, so, while automatic means where used
+                for as many of the steps as practical, hand-checking was also performed on sentence
+                and above (<gi>p</gi>, <gi>quote</gi>, <gi>div</gi> etc) markup. All texts were
+                parsed against their respective DTDs. </item>
+              <label>Plato</label>
+              <item>According to our informant,<q>The corpora were produced all over Europe in
+                  various formats and by people with varying amounts of experience and expertise in
+                  such work. Many started with a paper text, which was then scanned or even
+                  keyboarded. So this was clearly an issue to be tackled, especially since we wanted
+                  to align the texts and needed the markup to be not just accurate and SGML-wise
+                  correct, but also similar enough to assist the aligner. Parsers (nsgmls/xemacs)
+                  were used to check and correct the SGML, and most of the hands-on dirty work was
+                  done recently at the workshop in Nancy with Laurent Romary and his team. Most of
+                  the TELRI-ers who had prepared texts came along and we had the chance to really
+                  check and compare the texts. Some of the texts very initially sliced into
+                  sentences using tools that has been developped at our sites and which, being SGML
+                  aware can base their work upon an existing [lt ]p[gt ] structure. </q></item>
+              <label>The Lampeter Corpus </label>
+              <item>Originally prepared using word processor macros to insert minimal tagging for
+                font changes and some structural features, use of different languages etc. The texts
+                were then converted to true SGML by a combination of automatic and manual means, and
+                have been proof read several times. Correction and validation carried out using
+                emacs, PSGML, SP, and Author/Editor. </item>
+              <label>ENPC</label>
+              <item>Validated against the TEI P3 DTD twice, once after proofreading, and then again
+                after alignment to check that the values of the<ident>id</ident> and
+                <ident>corresp</ident> attributes are unique and that the value of the
+                  <ident>corresp</ident> attribute points to an existing <ident>id</ident> in the
+                parallel text. All validation performed by SP; project has developed its own
+                SGML-aware software for further analysis.</item>
+              <label>UAMSC</label>
+              <item>Uses SGML-like coding for speaker identification and vocalic effects but not
+                validated during data capture; some subsequent SGML-based analysis and validation.</item>
+              <label>Helsinki</label>
+              <item>Uses simply OCP-style markup only; validated only by analytic tools.</item>
+              <label>MUC</label>
+              <item>Some use of SGML-style tagging, e.g. for anaphor markup. No formal validation,
+                other than by analytic tools.</item>
+              <label>Speech Thought and Writing Presentation Corpus </label>
+              <item>Some use of SGML-style tagging but no formal validation, other than by analytic
+                tools. Tagging all manually added.</item>
+              <label>PAROLE</label>
+              <item>Minimal TEI-conformant dtd defined at start of project against which all corpora
+                are eventually to be validated. Considerable variation in encoding practices
+                reported amongst partners, no detailed information currently available.</item>
+            </list></p>
+        </div2>
+      </div1>
+      <div1>
+        <head>References</head>
+        <listBibl>
+          <bibl xml:id="atk92"><author>Atkins, S., Clear J. and Ostler, N.</author> (1992). <title
+              level="a">Corpus design criteria</title>
+            <title level="s">Literary and Linguistic Computing</title> 7:1, 1-16.</bibl>
+          <bibl xml:id="bak97"><author>Baker, J.P. </author> (1997) <title level="a">Consistency and
+              accuracy in correcting automatically tagged data</title> in<editor role="editor"
+              >Garside, R., Leech, G. and Mcenery, A.P.</editor><title level="m">Corpus
+              Annotation</title><publisher>Addison Wesley Longman</publisher><date>1997</date></bibl>
+          <bibl xml:id="cle92"><author>Clear, J.H.</author> (1992) <title level="a">Corpus
+            sampling</title> in <editor role="editor">Leitner, G.</editor><title level="m">New
+              directions in English language corpora</title><publisher>Mouton de
+              Gruyter</publisher><date>1992</date></bibl>
+          <bibl xml:id="gar93"><author>Garside, R.G. and McEnery, A.M. </author> (1993). <title
+              level="a">Treebanking: the compilation of a corpus of skeleton parsed
+            sentences</title>. In: <editor role="editor">E. Black, R. Garside and G.Leech</editor>,
+              <title level="m">Statistically Driven Computer Grammars of English: The IBM-Lancaster
+              Approach </title>. Amsterdam: Rodopi.</bibl>
+          <bibl xml:id="ide95"><editor role="editor">Ide, N. and Veronis, J.</editor> (1995) <title
+              level="m">Text Encoding Initiative: background and context</title>
+            <publisher>Kluwer</publisher>
+            <date>1995</date><idno type="isbn">0-7923-3704-2</idno></bibl>
+          <bibl xml:id="ide98">Ide, Nancy (coordinator) (1998)<title level="a">Corpus Encoding
+              Specification</title> (forthcoming, in<title level="m">Proceedings of the First
+              International Conference on Language Resources and Evaluation</title>); see also
+              URL<ref>http://www.cs.vassar.edu/CES</ref></bibl>
+          <bibl xml:id="lan95"><author>Langendoen, T.L. and Simons G.</author> (1995) <title level="a"
+              >Rationale for the TEI Recommendations for Feature-structure Markup</title> (in <ref
+              target="ide95">Ide and Veronis 1995</ref>) </bibl>
+          <bibl xml:id="lee93"><author>Leech, G.</author> (1993). <title level="a">Corpus Annotation
+              Systems</title>. <title level="s">Literary and Linguistic Computing</title>, 8(4) pp.
+            275--281.</bibl>
+          <bibl xml:id="lee94"><author>Leech, G. and Wilson, A.</author> (1994).<title level="m">EAGLES
+              Morphosyntactic Annotation. EAGLES Report EAG-CSG/IR-T3.1.</title>. Pisa: Istituto di
+            Linguistica Computazionale.</bibl>
+          <bibl xml:id="nel96"><author>Nelson, G.</author> (1996). <title level="a">Markup
+            systems</title>. In: S. Greenbaum (ed.), <title level="m">Comparing English Worldwide:
+              The International Corpus of English</title>, pp. 36--53. Oxford: Clarendon Press.</bibl>
+          <bibl xml:id="sno86"><author>Snow, C. and Ninio, A.</author> (1986).<title level="a">The
+              Contracts of Literacy: What Children Learn from Reading Books</title>. In: W. Teal and
+            E. Sulsky (eds.),<title level="m">Emergent Literacy </title>, pp. 116-138. New Jersey:
+            Ablex.</bibl>
+          <bibl xml:id="spe95"><editor role="editor">Sperberg McQueen, C.M. and Burnard, L.</editor>
+              (1995)<title level="a">The design of the TEI Encoding Scheme</title> (in <ref
+              target="ide95">Ide and Veronis 1995</ref>) </bibl>
+          <bibl xml:id="stu96"><author>Stubbs, M. </author> (1996) <title level="m">Text and Corpus
+              Analysis</title><publisher>Blackwell</publisher></bibl>
+          <bibl xml:id="sp">
+            <author>Clark, James (1998) <title level="m">SP: An SGML system </title>[software].
+              Available from URL <ref>http://www.jclark.com/sp/</ref></author>
+          </bibl>
+        </listBibl>
+      </div1>
+    </body>
+  </text>
+</TEI>

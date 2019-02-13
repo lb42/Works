@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_jtei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_jtei.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="jTEI">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">From Archive to Database</title>
+            <author>
+               <name>
+                  <forename>Lou</forename>
+                  <surname>Burnard</surname>
+               </name>
+               <affiliation>Oxford University Computing Service</affiliation>
+               <email/>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <date/>
+            <availability>
+               <p>TEI Consortium 2015 (Creative Commons Attribution&#x2013;NoDerivs 3.0 Unported License)</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Brunet, Etienne (1986) Actes du Colloque international CNRS <title>Méthodes quantitatives et
+                  informatiques dans l’étude des textes</title> (en hommage à Charles Muller), Genève, Editions
+               Slatkine, xiv &#x2013; 948 pages </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">en</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term/>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="abstract" xml:id="abstract">
+            <p> This paper describes the TOMES database at OUCS used to maintain details of the Oxford Text Archive’s
+               collection of machine readable texts. The use of special&#x2013;purpose hardware (ICL’s CAFS) to provide
+               very rapid free text searching facilities and support for many features of this model is demonstrated,
+               with reference to an experimental Shakespearean corpus. </p>
+            <p> Amongst the services which an academic computing centre of any size should provide are archival
+               facilities for large machine&#x2013;readable files. Such facilities are of particular importance for
+               scholars working in the field of literary and linguistic computing, because of the wide range of uses to
+               which such texts can be put. A small text typed in to a word processor as a part of a doctoral
+               dissertation may become the only authoritative edition of a work which, in combination with many others,
+               may provide important evidence in an analysis far removed from the original scholar’s concerns.
+               Machine&#x2013;readable texts are thus like books in their multiplicity and the need to conserve them;
+               unlike books in the extent to which they may be amalgamated. When large numbers of texts are combined
+               into a single searchable entity, it becomes possible to consider this no longer as simply an Archive, but
+               as an integrated textual database. This is the goal of our current work.</p>
+         </div>
+      </front>
+      <body>
+         <div>
+            <head>The Oxford Text Archive</head>
+            <p> The Oxford Text Archive was set up in 1976, as one of the facilities provided by Oxford University
+               Computing Service to encourage the use of computers in the Arts faculties of the University. In those
+               halcyon pre&#x2013;word&#x2013;processor, pre&#x2013;KDEM days the chief obstacle encountered by
+               potential computer users was often the painful preparation on punched cards or paper tape of the text to
+               be analysed. In overcoming this problem, the original model for the Text Archive was the Social Science
+               Survey Archive at the University of Essex, which has for many years met the need for national archival
+               facilities for statistical data pertaining to the social and economic sciences. While scholars working in
+               these fields are certainly no less altruistic than their literary and linguistic colleagues, a major
+               difference between the two archives has always been that in the domain of the social sciences, the grants
+               awarded to undertake research involving the preparation of machine&#x2013;readable data are often
+               conditional on the subsequent deposit of such data in a nationally available archive. By contrast, the
+               Text Archive has always had to rely on a scholar’s recognition of the possible long term benefit to the
+               academic community as its primary method of acquiring materials.</p>
+            <p> Even so, it is apparent that the Text Archive fills an important need, both from the size and diversity
+               of its holdings, and from the increasing demand for its services, nationally and internationally. The
+               Text Archive currently contains 637 texts in 25 different languages, with a total size of over 670 Mb,
+               broken down as indicated in table 1.</p>
+            <table>
+               <head>Text Archive at 15 May 85</head>
+               <row role="label">
+                  <cell>LANGUAGE</cell>
+                  <cell>TEXTS</cell>
+                  <cell>FILES</cell>
+                  <cell>SIZE (Kb)</cell>
+               </row>
+               <row>
+                  <cell> Arabic</cell>
+                  <cell>4</cell>
+                  <cell>4 </cell>
+                  <cell>1465</cell>
+               </row>
+               <row>
+                  <cell> Chinese</cell>
+                  <cell> 1</cell>
+                  <cell>1 </cell>
+                  <cell>2294</cell>
+               </row>
+               <row>
+                  <cell> Dutch</cell>
+                  <cell> 1</cell>
+                  <cell>2 </cell>
+                  <cell>12197</cell>
+               </row>
+               <row>
+                  <cell> English</cell>
+                  <cell> 350 </cell>
+                  <cell>434 </cell>
+                  <cell>332453</cell>
+               </row>
+               <row>
+                  <cell> French</cell>
+                  <cell> 37 </cell>
+                  <cell>51 </cell>
+                  <cell>30258 </cell>
+               </row>
+               <row>
+                  <cell>Fulfulde</cell>
+                  <cell> 4</cell>
+                  <cell>5</cell>
+                  <cell> 500</cell>
+               </row>
+               <row>
+                  <cell> Gaelic</cell>
+                  <cell>2</cell>
+                  <cell>2</cell>
+                  <cell> 698 </cell>
+               </row>
+               <row>
+                  <cell>German</cell>
+                  <cell> 19 </cell>
+                  <cell>22 </cell>
+                  <cell>30078 </cell>
+               </row>
+               <row>
+                  <cell>Greek</cell>
+                  <cell>88 </cell>
+                  <cell>100 </cell>
+                  <cell>184212 </cell>
+               </row>
+               <row>
+                  <cell>Hebrew</cell>
+                  <cell>6</cell>
+                  <cell>6 </cell>
+                  <cell>5397</cell>
+               </row>
+               <row>
+                  <cell> Icelandic</cell>
+                  <cell> 1</cell>
+                  <cell>3 </cell>
+                  <cell>5472 </cell>
+               </row>
+               <row>
+                  <cell>Italian</cell>
+                  <cell> 7</cell>
+                  <cell>9 </cell>
+                  <cell>3098 </cell>
+               </row>
+               <row>
+                  <cell>Kurdish</cell>
+                  <cell> 1</cell>
+                  <cell>2</cell>
+                  <cell> 356 </cell>
+               </row>
+               <row>
+                  <cell>Latin</cell>
+                  <cell>69 </cell>
+                  <cell>120 </cell>
+                  <cell>21618 </cell>
+               </row>
+               <row>
+                  <cell>Mediaeval Latin </cell>
+                  <cell>22 </cell>
+                  <cell>28 </cell>
+                  <cell>22626</cell>
+               </row>
+               <row>
+                  <cell> Latvian</cell>
+                  <cell> 1</cell>
+                  <cell>1 </cell>
+                  <cell>900</cell>
+               </row>
+               <row>
+                  <cell> Malayan</cell>
+                  <cell> 1</cell>
+                  <cell>1 </cell>
+                  <cell>1044</cell>
+               </row>
+               <row>
+                  <cell> Pa~li</cell>
+                  <cell> 1</cell>
+                  <cell>1 </cell>
+                  <cell>300</cell>
+               </row>
+               <row>
+                  <cell> Portuguese</cell>
+                  <cell> 1</cell>
+                  <cell>1 </cell>
+                  <cell>164 </cell>
+               </row>
+               <row>
+                  <cell>Provenc\al</cell>
+                  <cell> 4</cell>
+                  <cell>4 </cell>
+                  <cell>500 </cell>
+               </row>
+               <row>
+                  <cell>Russian</cell>
+                  <cell> 1</cell>
+                  <cell>1 </cell>
+                  <cell>644 </cell>
+               </row>
+               <row>
+                  <cell>Sanskrit</cell>
+                  <cell> 3 </cell>
+                  <cell>12 </cell>
+                  <cell>2399 </cell>
+               </row>
+               <row>
+                  <cell>Serbo&#x2013;croat</cell>
+                  <cell> 1</cell>
+                  <cell>1 </cell>
+                  <cell>224 </cell>
+               </row>
+               <row>
+                  <cell>Spanish</cell>
+                  <cell> 3</cell>
+                  <cell>4 </cell>
+                  <cell>7216 </cell>
+               </row>
+               <row>
+                  <cell>Swedish</cell>
+                  <cell> 1</cell>
+                  <cell>1 </cell>
+                  <cell>528 </cell>
+               </row>
+               <row>
+                  <cell>Turkish</cell>
+                  <cell> 7</cell>
+                  <cell>7 </cell>
+                  <cell>3071 </cell>
+               </row>
+               <row>
+                  <cell>Welsh</cell>
+                  <cell> 1</cell>
+                  <cell>1 </cell>
+                  <cell>1072 </cell>
+               </row>
+               <row>
+                  <cell>Totals</cell>
+                  <cell> 637 </cell>
+                  <cell>824 </cell>
+                  <cell>670784</cell>
+               </row>
+            </table>
+            <p> Since 1981 (when the TOMES database described in this paper became operational), a record has been kept
+               of all texts deposited with and issued from the Text Archive; some indication of the numbers involved is
+               given by table 2.</p>
+            <table>
+               <head> Texts deposited and issued 1982&#x2013;1985</head>
+               <row role="label">
+                  <cell>Period </cell>
+                  <cell>Texts deposited </cell>
+                  <cell>Texts issued</cell>
+               </row>
+               <row>
+                  <cell> Up to 1982</cell>
+                  <cell> 131</cell>
+                  <cell> 82 </cell>
+               </row>
+               <row>
+                  <cell>1982</cell>
+                  <cell> 3 </cell>
+                  <cell>47 </cell>
+               </row>
+               <row>
+                  <cell>1983</cell>
+                  <cell> 79 </cell>
+                  <cell>248 </cell>
+               </row>
+               <row>
+                  <cell>1984</cell>
+                  <cell> 46 </cell>
+                  <cell>169 </cell>
+               </row>
+               <row>
+                  <cell>1985</cell>
+                  <cell> 47</cell>
+                  <cell> 123 </cell>
+               </row>
+            </table>
+            <p> An indication of the international flavour of the Text Archive’s activities is given by table 3, which
+               shows the countries to which texts have been sent.</p>
+            <table>
+               <head> Text issues by country</head>
+               <row>
+                  <cell> COUNTRY&#x2013;TO</cell>
+                  <cell>ISSUE&#x2013;COUNT </cell>
+               </row>
+               <row>
+                  <cell> Australia</cell>
+                  <cell> 11 </cell>
+               </row>
+               <row>
+                  <cell> Belgium</cell>
+                  <cell>29 </cell>
+               </row>
+               <row>
+                  <cell> Canada</cell>
+                  <cell> 62 </cell>
+               </row>
+               <row>
+                  <cell> Finland</cell>
+                  <cell>33 </cell>
+               </row>
+               <row>
+                  <cell> France</cell>
+                  <cell> 6 </cell>
+               </row>
+               <row>
+                  <cell> Germany, W.</cell>
+                  <cell> 22 </cell>
+               </row>
+               <row>
+                  <cell> Iceland</cell>
+                  <cell> 1 </cell>
+               </row>
+               <row>
+                  <cell> Israel</cell>
+                  <cell> 1 </cell>
+               </row>
+               <row>
+                  <cell> Italy</cell>
+                  <cell> 3 </cell>
+               </row>
+               <row>
+                  <cell> Japan</cell>
+                  <cell> 3 </cell>
+               </row>
+               <row>
+                  <cell> Netherlands</cell>
+                  <cell> 7 </cell>
+               </row>
+               <row>
+                  <cell> New Zealand</cell>
+                  <cell> 3 </cell>
+               </row>
+               <row>
+                  <cell> Norway</cell>
+                  <cell> 11 </cell>
+               </row>
+               <row>
+                  <cell> South Africa</cell>
+                  <cell> 8 </cell>
+               </row>
+               <row>
+                  <cell> Sweden</cell>
+                  <cell> 15 </cell>
+               </row>
+               <row>
+                  <cell> UK</cell>
+                  <cell> 250 </cell>
+               </row>
+               <row>
+                  <cell> USA</cell>
+                  <cell> 191 </cell>
+               </row>
+               <row>
+                  <cell> Total issues </cell>
+                  <cell>656</cell>
+               </row>
+            </table>
+         </div>
+         <div>
+            <head>The TOMES Database and its current facilities</head>
+            <p> In 1981, it became apparent that simple manual methods were inadequate to support the Text Archive
+               facilities, particularly given the lack of funding and personnel which continues to bedevil it. A simple
+               relational database, called TOMES (Text Ordering Maintenance and Enquiry System) was therefore designed
+               and implemented using ICL’s Personal Database System (PDS). <ref type="bibl" target="#niceNote-1"
+                  >[1]</ref> This software was chosen on the purely pragmatic grounds that it was available, easy to use
+               and required no special purpose programming; it has since turned out to have several unexpected bonuses,
+               most notably the ease with which PDS databases can be extended to include other materials.</p>
+            <p><figure xml:id="niceFig1">
+                  <graphic url="media/nicefig1.png" width="111px" height="111px"/>
+                  <head type="legend">The TOMES database model</head>
+               </figure></p>
+            <p> The original database design, which is represented in <ref type="crossref" target="#niceFig1">Figure
+                  1</ref>, concerned itself exclusively with machine-readable texts viewed as catalogue entries or as
+               physical files on magnetic tape and with the copies of them deposited in or issued from the Archive.</p>
+            <p> The heart of the TOMES database is the MRT (Machine Readable Text) table which contains the short
+               details of each text used to make up its entry in the published Text Archive Shortlist. Each row in this
+               table has a unique identifying number, which is used to join rows from this table to rows in other
+               tables, using predefined access paths or relationships as they are called in PDS. In the MTFILE table are
+               recorded details of the magnetic tape files in which texts are archived, such as the tape identifier, the
+               tape file name known to the operating system, the date the file copy was made, its size, format etc.
+               Entries in the MRT table may be associated with many entries in the MTFILE table, either because the text
+               occupies many files, or because a new version of a text has been archived.</p>
+            <p> Maintaining information about the text independently from information about the text file has the
+               obvious benefit that alterations in one table do not impinge on the other; PDS relationships are
+               maintained automatically by the software in such a way that it is impossible to enter an MTFILE row for
+               an MRT which does not exist. The joining of rows is also automatic, a fact which greatly simplified the
+               writing of the priming program, which constructs and then executes all the operating system commands
+               needed to load the appropriate magnetic tape or tapes and copy a specified set of texts to disc. A
+               similar suite of programs is used to archive new texts, updating as much of the TOMES database as
+               possible automatically.</p>
+            <p> From the start it was apparent that an important function of the Text Archive would be the
+               redistribution of the materials deposited within it, where this was considered desirable by the original
+               depositors. Considerable effort was devoted to attempting to find some means of protecting both the
+               University and the original depositors of the material against any possible infringement of copyright
+               law, which efforts found expression in the User Declaration form and the requirement that the TOMES
+               database should maintain detailed records of the scholars who use its services, whether as depositors of
+               texts, as sources of information about texts, or as recipients of copies of texts. These requirements are
+               supported by the tables INST, which records details of an institution of some sort, SCHOLAR, which
+               records details of a person attached to some INST, and the tables TEXTIN and TEXTOUT which record details
+               of texts acquired or issued respectively. Predefined relationships between these four tables, using the
+               text numbers, and similar identifying tags for scholars and institutions, enable us to perform such
+               routine enquiries as <q>To which institutions have we sent copies of texts by Jane Austen? </q><q>How
+                  many Greek texts were acquired from California in 1982? </q><q>Which texts have we issued to Professor
+                  Jones of Bombay? </q><q>To what address should I write to obtain permission to make a copy of text no
+                  42?</q> and so forth; those experienced in the use of relational databases will of course see nothing
+               remarkable in this flexibility.</p>
+            <p> The original database design was intended to support only enquiries about texts held at Oxford. However,
+               it proved very simple to extend this catalogue to include information about texts held at other centres;
+               details of the holdings of the Cambridge LLCC archive are already included in our database, and other
+               centres wishing to contribute details of their holdings are also welcome. (An article soliciting such
+               contributions was published in the ALLC Bulletin XIII no. 1, 1985).</p>
+            <p> There have been several efforts to make some sort of international union catalogue of machine readable
+               texts in the past, most of which have foundered on the rocks of apathy and over-weening ambition. By
+               requiring only minimal amounts of information we hope to avoid the latter, while our survival over the
+               last nine years is some evidence that we have avoided the former. In my view, such a task is best
+               undertaken by professional cataloguers adequately funded for the purpose. Something resembling such a
+               union catalogue may therefore come out of the current Rutgers University Library MRTH project <ref
+                  type="bibl" target="#niceNote-2">[2]</ref>.</p>
+            <p> Although TOMES supports only minimal cataloguing details of all texts, its relational capabilities
+               enable these to be extended as required for individual texts or corpora. The Old English corpus for
+               example, although treated as a single entity in the catalogue, is actually composed of some sixty
+               separate files containing between them over 2000 different texts of widely varying sizes and subjects. We
+               have therefore added tables to the database, using as a subsidiary identifier the numbers assigned to
+               every Old English text by the late Angus Cameron in his pioneering <title>Plan</title>
+               <ref type="bibl" target="#niceNote-3">[3]</ref>. These tables relate individual texts to the physical
+               files in which they are held as well as to a full bibliographic description of the text, thus making it
+               possible simply to recover from the corpus for example only those files containing works by Aelfric, or
+               edited by Zupitsa. A similar extension of TOMES is being prepared to document the large corpus of Ancient
+               Greek material obtained from the Thesaurus Linguae Graecae archive.</p>
+            <p> Access to the database over international networks is another possibility not originally envisaged, but
+               which we hope to realise in the near future. It is already possible for users with access to Oxford’s
+               node on the UK Joint Academic Network (JANET) to use electronic mail facilities to make enquiries
+               concerning the text archive’s holdings and facilities, and also to obtain an up-to-date listing of the
+               Text Archive shortlist; direct access to the database itself is also possible in principle.</p>
+            <p> In sum, TOMES is currently used to produce the Archive’s printed shortlist, to assist with all magnetic
+               tape housekeeping and in the production of ad hoc reports about the distribution and availability of
+               particular texts. Like most relational database systems, it does not support text searching in a
+               particularly efficient manner, because in the initial design, it was intended to offer access only to
+               meta-data, not to the data itself. This means that it is quite difficult to carry out multi-textual
+               analyses: to produce citations for all usages of a particular word across the range of texts in the whole
+               Archive would require a number of individual (and possibly expensive) searches through texts individually
+               identifiable and recoverable, but not directly accessible, by TOMES.</p>
+         </div>
+         <div>
+            <head>Creating a textual database</head>
+            <p> A detailed discussion of the structure and function of an integrated textual database would be beyond
+               the scope of this paper. However, even the most casual consideration of the facilities required by such a
+               system indicates the unsuitability of most conventional database management systems (dbms) - not
+               excluding PDS - for the purpose. To support access to the individual tokens of which texts are composed
+               as well as the lemmata with which different tokens may be associated in different contexts, to subdivide
+               texts into semantic units of various kinds or to group them together into corpora according to many
+               different attributes, to distinguish the appearance of a text from its meaning - all of these tasks,
+               while theoretically possible with any such dbms, would, in my view, prove to be prohibitively expensive
+               in design time, disc space and processing time.</p>
+            <p> Most existing textual databases rely upon an inverted file structure (or a B-tree index) in which text
+               has been decomposed into tokens for indexing purposes. Such indexes typically occupy at least as much
+               space as the original text, and often more. For many textual applications it is necessary to maintain the
+               original text as well as the indexes to it. Moreover the cost of maintaining such indexes may impose an
+               intolerable burden in systems which are fairly dynamic, both in the restrictions they impose on the types
+               of access possible and in the expense of maintaining them as texts are added to or removed from the
+               system.</p>
+            <p> Traditional database systems are also notoriously poor at supporting such elementary requirements of
+               text processing systems as variably sized fields, or fields which can be assigned to more than one
+               category without duplication. The arrival of CAFS in April 1984 provided us with an alternative strategy,
+               at once simpler and more effective.</p>
+            <div>
+               <head>CAFS</head>
+               <p> CAFS (Content Addressable File Store) is a specialised database engine unique to the British computer
+                  manufacturer ICL. It takes the form of an extra component within the disc controller of a mainframe
+                  computer to which certain processor-intensive activities (in particular the formatting and searching
+                  of data records) can be delegated. <ref type="bibl" target="#niceNote-4">[4]</ref> As the name
+                  suggests, CAFS enables data blocks stored on a disc to be addressed in terms of their contents rather
+                  than as a sequence of physical objects, the contents of which can be determined only by the processor.
+                  The net effect of using CAFS is to increase the speed at which records are retrieved by factors that
+                  most computing professionals find a little implausible, accustomed as they are to hyperbole. In our
+                  own experience, the amount of processor time used for a search can be reduced from several minutes to
+                  a few seconds, so that a task which would formerly have had to be run as an over night batch job
+                  becomes possible in an interactive session.</p>
+               <p> This performance enhancement has obvious benefits for a very wide range of database style operations.
+                  If the primary purpose of maintaining an index is simply to support rapid access to particular record
+                  occurrences, CAFS will offer the same facility at less cost. Unless the file is very large indeed, a
+                  serial scan with CAFS will cost no more than a search via an index, and may cost less if the index is
+                  a large or overflowing one; certainly it will cost less when the cost of maintaining and updating the
+                  index is included. Even in conventional database systems, in which certain access paths have been
+                  carefully tuned and optimised perhaps at the expense of other less probable routes, CAFS can be used
+                  with advantage to cope with those unexpected user requirements which invariably emerge shortly after
+                  the system design has been finalised.</p>
+               <p> In an academic environment, where research is speculative and result driven, the speed of CAFS is of
+                  importance because of the changes it makes possible in the characteristic mode of enquiry. The
+                  attitude to computing of the researcher for whom every search for a particular combination of words
+                  requires an over-night batch job is quite different from that of the researcher who performs such
+                  searches at an interactive terminal. Hypotheses can be tested as they are formed; searches can be
+                  determined by the results of previous searches. Our experience so far suggests that CAFS has a
+                  qualitative effect as well as a quantitative one.</p>
+               <p> CAFS is however more than an impressive way of boosting performance statistics, more even than a way
+                  of changing users’ expectations about how computers are to be used. It also provides some
+                  sophisticated text processing capabilities.</p>
+            </div>
+            <div>
+               <head>CAFS and text</head>
+               <p> In conventional database systems, storage is organised into records of various types, each type being
+                  defined as a collection of one or more fields, usually of fixed length and type. In the TOMES database
+                  system, for example, each record in the file containing details of individual texts begins with a four
+                  byte binary number, a two byte language code, a one byte availability code and a 30 byte author field.
+                  Free text can also be stored in such records, usually in strings analogous to the printed lines on a
+                  page, often extended to a fixed length by blanks.</p>
+               <p> Much storage space is wasted by the requirement to specify a fixed minimum length for so inherently
+                  variable an item as a text field. The cost of finding and comparing individual substrings within such
+                  records is very high with a conventional machine architecture. There is also no possibility of
+                  categorising individual tokens in more than one way without duplicating their storage.</p>
+               <p> CAFS can, of course, process records of this type; of more interest however for the processing of
+                  text is its support of what are called Self Identifying Format (SIF) records. In a SIF record,
+                  individual items are packed together with a prefix indicating their category and length. Items within
+                  a record may thus be of many types and lengths, and no static definition is needed to process them.
+                  For example, the SIF stored form of the sentence <hi>The cat sat on the mat.</hi> could be represented
+                  by the sequence <code>12 3 The 12 3 cat 12 3 sat 12 2 on 12 3 the 12 3 mat 13 1.</code> Here the type
+                  identifier 12 identifies tokens, and the type identifier 13 identifies punctuation. Many different
+                  identifiers can appear within one SIF record; one could for example mark <soCalled>noise
+                     words</soCalled> with the identifier 14, rather than 12, so that the sentence might be <code>14 3
+                     The 12 3 cat 12 3 sat 14 2 on 14 3 the 12 3 mat 13 1 .</code> Using this form, the CAFS unit could
+                  be programmed to search either noise words or non-noise words. Another identifier (20, say) might be
+                  used to indicate the lemma associated with each token, if this differed in form from it, thus,
+                     <code>14 3 The 12 3 cat 12 3 sat 20 3 sit 14 2 on 14 3 the 12 3 mat 13 1 .</code>. The CAFS unit
+                  can be programmed to ignore or to process any or all the identified tokens, by means of applying an
+                  appropriate mask to the identifiers when a comparison is performed, a technique we have used
+                  extensively in the Shakespeare database described below.</p>
+               <p> Converting normal records to SIF is a comparatively simple operation (certainly less difficult than
+                  indexing them) carried out once for all by a low level system routine. Once converted, SIF records are
+                  stored and manipulated by the computer in the same way as any others, so that the record structure may
+                  be modified with no need to reorganise the entire database. When text is converted to SIF, identifying
+                  only words and punctuation sequences, the resulting SIF records typically occupy approximately 50 to
+                  80% more space; they can however be searched with an efficiency rather better than that of an inverted
+                  file system in which the indexes alone might occupy three or four times as much disc storage. The
+                  decision as to which characters represent letters and which punctuation has to be made when the
+                  conversion process is carried out, but is otherwise arbitrary: a factor which is of considerable
+                  importance when texts in a wide variety of languages and alphabets are to be processed.</p>
+               <p> The individual items within SIF records can be searched by the CAFS hardware at a speed limited only
+                  by the speed of the disc drive on which the data is held; at our installation this is approximately 1
+                  Mb per second, so that the complete works of Shakespeare (some 100, 000 records) can be searched for
+                  any word in a matter of seconds.</p>
+               <p> Searches are specified in terms of the items defined within the SIF record and the usual relational
+                  operators. Up to fifteen elementary comparisons may be combined in one search, using full Boolean
+                  logic. The speed of the search is not affected by the complexity of the enquiry since all the
+                  searching is done in parallel, using the CAFS unit’s sixteen key channels. Because the various
+                  components of a search are evaluated in parallel, it is not possible to perform context sensitive
+                  searching using the CAFS hardware. If for example a search requests records containing the words
+                     <q>Venetian</q> and <q>blind</q>, records referring to <soCalled>blind Venetian</soCalled>s and
+                     <soCalled>Venetian blind</soCalled>s will both be recovered. Equally where a number of alternative
+                  conditions are specified, the CAFS unit has no way of specifying which condition was satisfied in
+                  order for the record to be recovered. Such refinements have to be performed by the software which
+                  initiated the search after the hit records have been recovered.</p>
+               <p> Amongst other features of use in text processing provided by the CAFS hardware are partial matching,
+                  counting and quorum conditions. Partial or <soCalled>fuzzy</soCalled> matching of a limited nature is
+                  supported in that the target of a comparison may include special omnibus or elastic characters which
+                  are masked out of the comparison. Stem matching is also supported, but not (except by a rather
+                  cumbersome artifice) left-hand truncation. To make searches case or accent blind requires some
+                  recoding and use of masks; the former is easily achieved, but the latter is still under
+                  investigation.</p>
+               <p> Rather than simply recovering records which match a specified criterion, the CAFS unit can be
+                  programmed to accumulate counts or (for numeric data) totals of such hit records; this has proved to
+                  be a very useful facility, where the object is simply to ascertain the existence or absence of certain
+                  textual features, although the limit imposed by the number of such counts which can be performed in a
+                  single pass (effectively 15) has posed some problems.</p>
+               <p> By <soCalled>quorum condition</soCalled> is meant a search which combines the results of a number of
+                  elementary conditions in such a way that the condition is satisfied if some specified number of them
+                  is satisfied. Thus a record may be defined as a hit record if any two of conditions a, b, c or d are
+                  satisfied, irrespective of which two. Weights may be assigned to the individual components of a quorum
+                  condition, so that the record will be a hit if say condition a and any one of b c and d is
+                  satisfied.</p>
+               <p> The evaluation of conditions, however complex, is performed by the hardware of the CAFS unit against
+                  each record. As soon as a record satisfies the condition, it is counted as a hit and evaluation
+                  ceases. The record can then be further processed by the software which initiated the search. For many
+                  text applications however, using a record as the unit of search is less than satisfactory. Often what
+                  is required is the co-occurrence of certain features within a context, as defined above, which may be
+                  smaller or larger than the physical records within which it is stored on disc. The CAFS architecture
+                  offers a facility of relevance here which we have yet to evaluate fully, known as
+                     <soCalled>trailers</soCalled>. These are special tags embedded within SIF records which serve to
+                  delimit nested units of search smaller than the record. For example, if trailers marking the end of a
+                  phrase and the end of a sentence are present within a record corresponding with the whole of a speech
+                  in a play, it becomes possible to limit the unit of search to a sentence or phrase as well as a
+                  record. This facility does not however permit the definition of a unit of search larger than the
+                  record, nor does it allow search unit boundaries to cross one another, so that one could not (say)
+                  specify trailers to mark the ends of verse-lines within a speech as well as sentences which might be
+                  either longer or shorter than a verse line.</p>
+            </div>
+            <div>
+               <head>Programming for CAFS</head>
+               <p> A number of different software interfaces are provided to the CAFS capabilities described above. Our
+                  first experiments used an ICL product called Querymaster <ref type="bibl" target="#niceNote-5"
+                     >[5]</ref>, which offers a relational interface to existing data files almost identical with that
+                  offered by PDS. When the TOMES database is accessed by Querymaster, CAFS search power dramatically
+                  improves upon some of the notorious inefficiencies associated with relational database management
+                  systems, particularly for non-keyed accesses and relational joins. <ref type="bibl"
+                     target="#niceNote-6">[6]</ref> As Querymaster can process some forms of SIF record, it will also be
+                  possible to integrate the very varied bibliographical and descriptive data available for some texts
+                  into the TOMES database, without the need to convert it all to a common format. Querymaster does not
+                  however support all of the CAFS functions described above, nor does it offer sufficient flexibility in
+                  the processing of records to supplement these deficiencies by other means.</p>
+               <p> To take advantage of all the facilities of CAFS, we have therefore developed our own software, using
+                  a new ICL product called Direct CAFS Interface (DCI). This consists of a suite of low-level routines
+                  callable from any user program. <ref type="bibl" target="#niceNote-7">[7]</ref> There follows a
+                  detailed account of the Shakespearean Database we have been developing with its aid at Oxford. This
+                  database consists of the text of several early printed editions of the works of Shakespeare,
+                  originally prepared by Trevor Howard-Hill, for use in a series of concordances. As described in the
+                  ALLC Bulletin <ref type="bibl" target="#niceNote-8">[8]</ref>, these texts have since been carefully
+                  re-edited and re-formatted by staff working on the preparation of a new edition of Shakespeare under
+                  the general direction of Stanley Wells. The CAFS-searchable form of the text was prepared initially
+                  simply to evaluate the CAFS system, but has also proved to be an invaluable tool for scholars working
+                  with the texts.</p>
+               <p> The corpus comprises all substantive early editions of Shakespeare’s works, notably the first folio
+                  (1623) and some 25 quarto texts published before 1630. Other contemporary plays will be added to the
+                  corpus as they become available in a compatible form. Each play is regarded as a distinct text, and is
+                  divided into contexts corresponding with the printed lines of the original. Each context is tagged
+                  with codes indicating its status according to a number of criteria, such as the author to whom it has
+                  been attributed (some of the quarto plays are of multiple authorship), the text status (that is,
+                  whether or not it is regarded as an authoritative reading of the base text), the type of copy and the
+                  compositor believed to be responsible for it, as well as such conventional tags as play title, line
+                  number and normalised form of speaker’s name.</p>
+               <p> This sort of tagging is of course not unusual; CAFS is used simply to speed up selection of contexts
+                  satisfying criteria such as <soCalled>Shakespearean authorship</soCalled>, <soCalled>compositor
+                     B</soCalled>, <soCalled>Speeches of Hamlet</soCalled> in combination. Where CAFS facilities really
+                  show their power is in the text itself.</p>
+               <p> An important requirement of the database was the analysis of several typographical features of the
+                  original, notably the use of punctuation and different typefaces. The markers indicating these
+                  features in the original text were processed during the conversion of the text to SIF records as
+                  follows. A one byte SIF identifier was used for each token and punctuation sequence defined in the
+                  text. The least significant four bits of each byte indicate the status of the associated token
+                  according to the following table:</p>
+               <table>
+                  <row role="label">
+                     <cell>bit</cell>
+                     <cell>set</cell>
+                     <cell>clear</cell>
+                  </row>
+                  <row>
+                     <cell> 0</cell>
+                     <cell>Punctuation </cell>
+                     <cell>Word</cell>
+                  </row>
+                  <row>
+                     <cell> 1</cell>
+                     <cell>Italic </cell>
+                     <cell>Roman</cell>
+                  </row>
+                  <row>
+                     <cell> 2</cell>
+                     <cell>Stage-direction </cell>
+                     <cell>Speech</cell>
+                  </row>
+                  <row>
+                     <cell> 3</cell>
+                     <cell>Speech prefix </cell>
+                     <cell>Speech</cell>
+                  </row>
+               </table>
+               <p>Bit 4 is always set, and the remaining bits are always clear. Thus, an italicised word in a speech
+                  will have an identifier with a bit value of 0001 0010 (decimal 18), and an italicised word in a speech
+                  prefix one of 0001 1010 (decimal 26). By applying a suitable mask to such identifiers, the program can
+                  invoke a CAFS search for only italicised words, or stage directions, or italicised stage directions,
+                  and so forth.</p>
+               <p> At present, the interactive program used to access this database performs the following
+                  functions:</p>
+               <p>(1) Redefinition of the SIF records. A default record-definition is provided, but the user may change
+                  this to suppress or rename some of the fields, or to redefine how the SIF identifiers are to be
+                  interpreted.</p>
+               <p>(2) Perform a search. Searches are expressed using a simple relational syntax and all types of search
+                  described in section 3.2 are supported, including quorum searches and fuzzy matching.</p>
+               <p>(3) Pre-define a search criterion. The text of a search may be named and stored away for re-use.</p>
+               <p>(4) A count is always returned for any named criteria used in a search, whether or not hit records are
+                  also returned. The number and destination of returned hit records is under user control.</p>
+               <figure xml:id="niceFig2">
+                  <eg><![CDATA[0005 Check fields?N
+                  Current retrieval limit is 50
+                  0006 Do you want to change it?Y
+                  0007 Enter new limit 12
+                  0008 PQRS>P
+                  0009 Retrieval?aword eq ’hono_r%’ mask x3f and play eq ’H5’
+                  SH F 1 H5    50   A 1.1 As much as would maintaine, to the Kings honor,
+                  SH F 1 H5   465   A 1.1 Now thriue the Armorers, and Honors thought
+                  SH F 1 H5   480   B 1.1 What mightst thou do, that honour would thee
+                  do, 
+                  SH F 1 H5   717   B 1.1 Belonging to his Honour; and this man,
+                  SH F 1 H5   976   A 1.1 And all wide- stretched Honors, that pertaine
+                  SH F 1 H5  1143 * A 2.1 Nim .  These be good humors: your Honor wins bad
+                  SH F 1 H5  1401   A 2.1 Seeme frostie? O, for honor of our Land,
+                  SH F 1 H5  1406   A 2.1 Dolphin .  By Faith and Honor,
+                  SH F 1 H5  1417   A 2.1 Vp Princes, and with spirit of Honor edged,
+                  SH F 1 H5  1457 * A 2.1 and a man that I loue and honour with my soule,
+                  SH F 1 H5  1701   A 2.1 and ’twere more honor some were away.
+                  SH F 1 H5  1976   A 3.1 his Quarrell honorable.
+                  
+                  26 records satisfied your search criteria
+                  0010 PQRS>q
+                  0011 Q1?compo eq ’A’
+                  0012 PQRS>q
+                  0013   Q2?compo eq ’B’
+                  0014 PQRS>q
+                  0015   Q3?compo eq ’C’
+                  0016 PQRS>q
+                  0017 Q4?compo eq ’D’
+                  0018 PQRS>q
+                  0019   Q5?compo eq ’E’
+                  0020 PQRS>q
+                  0021   Q6?compo eq ’H’
+                  0022 PQRS>q
+                  0023   Q7?compo eq ’I’
+                  0024 PQRS>q
+                  0025   Q8?apunct eq ’_;%’
+                  0026 PQRS>p
+                  0029 Retrieval?q8 and (q1 and q2 and q3 and q4 and q5 and q6 and q7)
+                  
+                  0 records satisfied your search criteria
+                  
+                  Count    Criterion
+                  Q1   15045   COMPO EQ ’A’
+                  Q2   52195   COMPO EQ ’B’
+                  Q3   12116   COMPO EQ ’C’
+                  Q4    7359   COMPO EQ ’D’
+                  Q5   11522   COMPO EQ ’E’
+                  Q6    2857   COMPO EQ ’H’
+                  Q7    2740   COMPO EQ ’I’
+                  Q8    3993   APUNCT EQ ’_;%’
+                  0030 PQRS>p
+                  0031 Retrieval?q8 andthen (q1 and q2 and q3 and q4 and q5 and q6 and q7)             
+                  
+                  0 records satisfied your search criteria
+                  
+                  Count    Criterion
+                  Q1     586   COMPO EQ ’A’
+                  Q2    1440   COMPO EQ ’B’
+                  Q3     469   COMPO EQ ’C’
+                  Q4     426   COMPO EQ ’D’
+                  Q5     241   COMPO EQ ’E’
+                  Q6     114   COMPO EQ ’H’
+                  Q7     410   COMPO EQ ’I’
+                  Q8    3993   APUNCT EQ ’_;%’
+                  0032 PQRS>s
+                  Total of 3 searches performed in 921 msecs
+                  52195       1440   B
+                  12116        469   C
+                  7359        426   D
+                  11522        241   E
+                  2740        410   I
+                  2857        114   H
+                  3344        307   GT I
+                  ]]></eg>
+                  <head type="legend">Terminal session using PQR</head>
+               </figure>
+               <p> Two sample dialogues with the program are given in <ref type="crossref" target="#niceFig2">Figure
+                     2</ref>. In the first, the requirement is to list all the lines from the play <title>Henry
+                     V</title> in which the word <soCalled>honour</soCalled> in some spelling or other appears. This is
+                  achieved by the simple search query
+                     <code><![CDATA[Play eq 'H5' and aword eq 'hono@r%' mask x3f]]></code>. The first few lines of
+                  output indicate the effectiveness of this fuzzy match: records containing the variants
+                     <soCalled>honor</soCalled>, <soCalled>Honors</soCalled>, <soCalled>honour</soCalled> etc. are all
+                  retrieved.</p>
+               <p> In the second example, the goal is to determine the relative fondness of different compositors for
+                  the use of the semicolon. Search criteria are defined (Q1 to Q7) for the seven compositors under
+                  investigation. An eighth search criterion (Q8) is defined which will find any punctuation sequence
+                  containing a semicolon. Two searches are then performed to obtain counts of the records satisfying
+                  (firstly) all of these criteria independently and (secondly) each pair Q9 AND Q1, Q9 AND Q2 etc. Table
+                  4 presents the results obtained: <table>
+                     <head>Table </head>
+                     <row role="label">
+                        <cell>Compositor</cell>
+                        <cell>Lines</cell>
+                        <cell>Semicolons</cell>
+                        <cell>Percentage</cell>
+                     </row>
+                     <row>
+                        <cell>B</cell>
+                        <cell>52195</cell>
+                        <cell>1440</cell>
+                        <cell>2.758</cell>
+                     </row>
+                     <row>
+                        <cell>C</cell>
+                        <cell>12116</cell>
+                        <cell> 469</cell>
+                        <cell> 3.871</cell>
+                     </row>
+                     <row>
+                        <cell>D</cell>
+                        <cell>7359</cell>
+                        <cell> 426</cell>
+                        <cell> 5.788</cell>
+                     </row>
+                     <row>
+                        <cell>E</cell>
+                        <cell>11522</cell>
+                        <cell> 241</cell>
+                        <cell> 2.092</cell>
+                     </row>
+                     <row>
+                        <cell>I</cell>
+                        <cell>2740</cell>
+                        <cell> 410</cell>
+                        <cell> 14.963</cell>
+                     </row>
+                     <row>
+                        <cell>H</cell>
+                        <cell>2857</cell>
+                        <cell> 114</cell>
+                        <cell> 3.990</cell>
+                     </row>
+                     <row>
+                        <cell>I</cell>
+                        <cell>3344</cell>
+                        <cell> 307</cell>
+                        <cell>9.180</cell>
+                     </row>
+                  </table>
+               </p>
+               <p> As the example shows, the entire process, consisting of three sequential scans though the entire
+                  first folio uses less than 1 mill second per search, and about four minutes of elapsed time. Our
+                  conclusion (that compositor I is inordinately fond of semicolons by comparison with the others tested)
+                  has been quantified in less time than it takes to define the hypothesis.</p>
+            </div>
+            <div>
+               <head>Conclusions</head>
+               <p> CAFS is not a panacea. Some functions characteristic of a textual database (notably the
+                  identification of all the different tokens in a corpus) are simply not supported by it. In itself,
+                  CAFS cannot help in the fundamental problems of re-formatting and re-mapping needed when many
+                  disparate texts are to be integrated into one system. However, we have found that the new tools it
+                  offers the builder and the user of such systems radically simplify their construction. Its performance
+                  benefits alone can lead to a qualitative change in the usage of such systems.</p>
+            </div>
+         </div>
+        
+      </body>
+      <back>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="niceNote-1"> ICL Technical Publications, <title>The Personal Database System</title>
+                  (R02242, 1983)</bibl>
+               <bibl xml:id="niceNote-2"> Details of the Rutgers MRTH Project are available from Marianne L. Gaunt,
+                  Archibald Stevens Library, Rutgers University. </bibl>
+               <bibl xml:id="niceNote-3"> Cameron, A. <title>A Plan for the Dictionary of Old English</title>. Toronto,
+                  1973</bibl>
+               <bibl xml:id="niceNote-4"> For some technical details, see Carmichael, J.W.S. <title>Application of ICL’s
+                     CAFS to text storage and retrieval</title>. (Protext 1984)</bibl>
+               <bibl xml:id="niceNote-5"> ICL Technical Publications, Querymaster (200 Level), (R 00260, 1983)</bibl>
+               <bibl xml:id="niceNote-6">For other (non-textual) applications of the Querymaster/CAFS combination to
+                  research in the humanities, see Burnard, L.D. <title>Database or Knowledgebase?</title> (Osaka, Senri
+                  Ethnological Studies, forthcoming); Salotti, P.S. and Cook, R.J. <title>Nascent Republicanism in Iowa:
+                     the relational database and content addressing hardware</title> (Proceedings of ICDBHSS/85,
+                  Paradigm Press, forthcoming)</bibl>
+               <bibl xml:id="niceNote-7">ICL Technical Publications : <title>Direct CAFS Interface</title> (Forthcoming,
+                  1985)</bibl>
+               <bibl xml:id="niceNote-8">ALLC Bulletin, vol 8 no 1 (1980, p.72)</bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

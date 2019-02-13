@@ -1,0 +1,600 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader type="text" >
+    <fileDesc>
+      <titleStmt>
+        <title>Is Humanities Computing an Academic Discipline?</title>
+        <author>Lou Burnard</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished draft. Not for circulation without permission of the author.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Drafted for the UVA Seminar series, 16 Nov 99; merged with conclusion of herman</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <list>
+        <item><date>9 dec 14</date>hasty first P5 version</item>
+        <item><date>17 Nov 99</date>more drafting; placed on website </item>
+        <item><date>16 Nov 99</date>drafted first part and overview </item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle >
+        <titlePart type="main">Is Humanities Computing an Academic
+          Discipline?</titlePart>
+        <titlePart type="alternate">or, Why Humanities Computing
+          Matters</titlePart>
+      </docTitle>
+      <docAuthor>Lou Burnard</docAuthor>
+      <docImprint>Humanities Computing Unit, Oxford University</docImprint>
+      <docDate >November 1999</docDate>
+    </front>
+    <body>
+      <div org="uniform" sample="complete" part="N">
+
+        <head>Is Humanities Computing an Academic Discipline?</head>
+
+        <p>You have had the benefit of hearing many, and wiser, remarks on this topic already;
+          coming as I do at almost the very end of the parade, I feel a little like the clown who
+          comes in to release the tension and dispell the pent up emotions after the matador has
+          done his heart-in-mouth stuff. So I will be blunt, and perhaps unscholarly. You have all
+          maybe made up your minds already about the answer to the eponymous question posed by this
+          seminar: moreover if the answer were really and truly "no", you'd hardly have stayed the
+          course so far; indeed, I think my hosts might be feeling a little sheepish at having
+          suckered you into doing so. So let's be clear about what the question is really asking. </p>
+
+        <p>Like many questions (such as "Can you reach the salt?"), this one has an implicature
+          which demands more attention and a better answer than does either of the two comparatively
+          unimportant and uninteresting questions it seems to ask <q>What is an academic
+            discipline?</q> and <q>What is humanities computing?</q>. But before turning to that
+          more interesting implicature, let me rapidly dispose of the unimportant ones. </p>
+
+        <p>An academic discipline is, in my view, best defined as an institutionalised subdivision
+          of the various activities making up an academy. It is thus an organizational, bureaucratic
+          concept, effectively determined by socio-politcal considerations. Some of my colleagues
+          find this an insufficient definition: for them a discipline must also have some underlying
+          theoretical framework, some inner truth illuminating and unifying its intellectual
+          achievements. I'm as fond of such frameworks as the next philologist, but I also note that
+          there is almost as much evidence of successful theory-free disciplines as there is of
+          grand unifying theories that have failed to achieve institutionalization. Perhaps it would
+          be safer to say that the presence of a theory predisposes towards institutionalization,
+          rather than the reverse. So I conclude that an academic discipline is a purely social
+          construct and propose that one might equally well call it a <q>gang</q>, a <q>social
+            network</q>, a <q>peer group</q> or a <q>posse</q>. Of course there are a number of
+          interesting topics to discuss about why some such posses come into being rather than
+          others, and much to be said about their histories and inner dynamics, but those of the
+          Academy are in no significant respect different from those out on the streets. In
+          particular, it may often appear easier to join an existing one than to start a new one. </p>
+
+        <p>The nature of Humanities Computing has been exhaustingly discussed at various times and
+          in various places familiar to you from your reading list. I am tempted to say that I like
+          best Matt Kirschenbaum's definition of it as <q>what we do in the intervals of writing
+            grant applications</q> (Humanist, recently), since it is at least unambiguous. Computing
+          must develop a methodology and a discrete theory to justify its existence; the view that
+          Humanities Computing is no more than a rag bag of techniques and methods; that Humanities
+          Computing is purely an accidental consequence of divers social and (primarily) funding and
+          administrative decisions; and of course you have also encountered the view that Humanities
+          Computing is a true renaissance art which has the potential to heal the divisive wounds
+          currently afflicting the academy and re-establish the traditional humanities at the centre
+          of our culture rather than at its periphery. If this sounds an overly dismissive summary,
+          I hope you will forgive me. My purpose here is not to support one or other of these
+          definitions (I have some sympathy for most of them), but to get you to ask why we feel the
+          need to provide them. </p>
+
+        <p>After all, I run something variously known as a (Humanities Computing) Unit, and a
+          Humanities (Computing Unit). Whichever it is, in my neck of the woods, I am clearly not
+          doing my job if the essential constituents of Humanities Computing are not co-extensive
+          with the activities of that Unit, current, planned, and accidentally forced upon us by
+          parochial conditions. I am sure that at other institutions, there will be similar equally
+          appropriate and operationally determined definitions of the term. Do we have anything in
+          common other than the simple fact of using digital technologies in the traditional
+          humanities departments of our universities? Moreover, as the use and presence of computing
+          equipment per se becomes increasingly quotidian, uninteresting, increasingly a part of
+          everyone's life, what distinctive qualities can we point to in our uses of it that
+          distinguish our usage from that of anyone else? </p>
+
+        <p>Before returning to that, which I take to be the real question of this seminar, let me
+          simply discuss some of the characteristic features of Humanities Computing which other
+          speakers in this seminar have more eloquently argued for: for me, as for most of them,
+          humanities computing is <list>
+            <item>intrinsically interdisciplinary</item>
+            <item>methodologically focussed</item>
+            <item>socially necessary</item>
+            <item>historically grounded</item>
+          </list></p>
+
+        <p>Its <hi>interdisciplinarity</hi> is partly a consequence of the fact that digital
+          technologies now interweave almost every aspect of our cultural life, but perhaps more to
+          do with the simple observation that the digital medium both facilitates and encourages the
+          breaking down of artificial barriers between studies which focus on the visual, aural, or
+          linguistic aspects of artefacts, and thus the emergence of a new holistic vision of such
+          objects. It also has much to do with the fact that both the underlying technical problems
+          and the opportunities afforded by the use of digital technologies are identical, whether
+          one is dealing with ancient, medieval or modern materials, whether those materials
+          originate in European, American, or Asiatic cultures, and (almost) for whatever cultural
+          role such materials were designed. The community of scholars and others now engaged in the
+          production, dissemination, assessment, analysis, and conservation of what we now like to
+          term <term>digital resources</term> is correspondingly huge and diverse, both
+          professionally and socially. In particular, the collapse of the boundary between consumers
+          and producers of digital media is something of a commonplace in this field: not that the
+          two roles are not distinct, but rather that the transition from one to another is far
+          easier than was the case in most earlier mass media. </p>
+
+        <p>By saying that Humanities Computing is <hi>methodologically focussed</hi>, I mean chiefly
+          that it values results and favours empirical approaches above introspective ones. This is
+          not to say that introspection is without value in this field, but rather that the
+          practitioner of Humanities Computing is more interested in its consequences than its
+          performance. The systems we design and build must work, and we spend a lot of time not
+          only making sure that they do, but also in determining what exactly constitutes "working"
+          for us. Our interdisciplinary focus also predisposes us to prefer general mechanisms above
+          specific ones, to aim for well designed and coherent solutions rather than the ad hoc or
+          idiosyncratic, and to ground our interpretations in an objective framework rather than an
+          idealistic one. I am well aware that this pragmatic attitude occasionally leads us to
+          endure the odium of some incorrigibly or constitutionally anti-realistic colleagues, but
+          on balance I think the price is worth paying.</p>
+
+        <p>In stressing the <hi>social necessity</hi> of Humanities Computing, I perhaps run the
+          risk of invoking some kind of intellectual imperialism, of sounding as if I believed we
+          had a moral duty to save our poor benighted non-computerate brethren from the perils of
+          marginalization -- as if evangelism for things digital was a latter day white man's burden
+          to be shouldered at all costs. I hope that is not the case. All the evidence to hand
+          suggests that the proper application of computing methodologies in the Humanities can have
+          an enriching effect rather than a reductive one, that the traditional humanist can do
+          more, achieve better results, gain richer but still essentially humanistic insights by
+          applying digital technology to their traditional concerns. Our task is to make that proper
+          application more accessible to more people, since if we do not do it, there is a very real
+          danger that those traditional concerns and values may disappear or be subverted. Let me
+          invoke here another rhetorical threat to put against that of scientific imperialism: that
+          of the Mickey Mouse University, a term used by Derek Law in the opening plenary at this
+          year's DRH Conference to describe the danger of entrusting the preservation of digital
+          culture to Microsoft or to Walt Disney. And let us be under no illusions about the length
+          of the spoon needed to sup with such forces if we are to do so. </p>
+
+        <p>Finally, by insisting that Humanities Computing should be <hi>historically grounded</hi>,
+          I am of course taking advantage of the right that I (like everyone else over the age of
+          25) have of rewriting history to accomodate my experience of it. Nevertheless, I continue
+          to be best satisfied by an explanation of Humanities Computing which traces its emergence
+          to a purely empirical response to the existence of the two cultures debate that
+          characterized much educational theorizing during the fifties and sixties. In those distant
+          times, new technology was an occasion for unbridled enthusiasm, not only amongst
+          politicians but also in lesser role models like Nigel Molesworth -- author, let it not be
+          forgotten, of a book called <title>Whizz for Atoms</title>. And later in the sixties,
+          enthusiasm for technology migrated underground along with everything else: some of you may
+          have parents who remember for example Stewart Brand's <title>Whole Earth Catalog</title> a
+          wonderful compendium of applied technologies which only lacks a section on humanities
+          computing because no-one had yet invented a way of getting computers to work on solar
+          energy.</p>
+
+        <p>The founding fathers of Humanities Computing also responded to that enthusiasm, and did
+          so in a way that I think we should continue to emulate, now that there are signs of a
+          re-emergence of enthusiasm for technology. When in 1949 Father Busa approached IBM Italia
+          for help in his preparation of a scholarly edition of the works of Aquinas, he did not
+          consider that he was betraying traditional academic goals. On the contrary, he saw the
+          potential that new technology offered to enhance the pursuit of those goals. In his case,
+          it was the ability to lemmatise, collate, and organize the lexis of Aquinas as manifest in
+          the surviving written records, more efficiently and on a grander scale than had ever
+          previously been possible. In the same way, when at the beginning of the sixties, Henry
+          Kucera and Nelson Francis initiated the creation of the Brown <title>Corpus of Modern
+            English Adapted for the Use of Digital Computers</title>, they were responding to a need
+          for evidence of language usage on a scale that only new technology could supply. In
+          neither case were they attempting to redefine their respective disciplines. In both cases,
+          the technology served to support and enhance such traditional scholarly goals as the
+          widespread sharing and exchange of information; the creation of reusable resources; the
+          enhancement of pedagogic practice; and even the preservation of cultural values. </p>
+
+        <p>We ignore the importance of these four traditional scholarly goals at our peril; more
+          significantly, perhaps, the business of Humanities Computing should be to assess how well
+          those four goals may now be served by current digital technologies. Not to labour the
+          point: digital technologies have transformed scholarly communication; have enormously
+          facilitated effective sharing of scholarly resources; have immense potential for enhancing
+          the practice of teaching; and offer us new cost-effective means of preserving (or failing
+          to preserve) all manner of cultural artefacts. In short, we would do well to focus on
+          continuity, while remaining aware of change.</p>
+
+      </div>
+      <div>
+        <head>Continuity and change in Humanities Computing</head>
+
+        <p>I have already made reference to several key <soCalled>issues</soCalled> (in the rather
+          specialised sense of <q>things we worry a lot about</q>) surrounding Humanities Computing
+          but there are, I suggest, a number of such concerns that appear regularly throughout the
+          literature, and which it might therefore be reasonable to regard as part of the context in
+          which we are all going to have to continue to operate. One of them is the underlying theme
+          of this seminar: whether our activities may be regarded as fitting within an academic
+          discipline or rather as belonging with a range of specialised professional services. The
+          case is not as simple as it may appear; from the point of view of career development, the
+          establishment of Humanities Computing as a (rather specialised) professionalism rather
+          than as (yet another) academic discipline might well have much to recommend it. </p>
+
+        <p>Other familiar tensions all have in common a fundamental anxiety about the position of
+          Humanities Computing with reference to the unregenerate non-computing Humanities. How far
+          should we be driven by an evangelism, and how far by perceived and immediate relevance to
+          existing academic concerns? Is technological pull being applied in areas where there is
+          pedagogic push -- in other words, to quote the title of a recent conference paper,
+            <title>If we build it, will they come</title>? And how far is it our business to deal
+          with the entirely unreasonable expectations that the non-computerate have of the medium? </p>
+
+        <p>From a historical point of view, Humanities Computing has embraced a number of topics. It
+          begin with an obsessive interest in concordancing, indexing, and lexical analysis, with
+          applications in the mechanistic determination of style and authorship;
+          <!-- a backwater
+which is still producing the occasional
+<foreign>canard</foreign>-->.
+          During the seventies and eighties, it flirted with a number of topics, in response to the
+          changing capabilities and availability of the technology -- word-processing in non-Roman
+          fonts; computer-aided learning; expert systems; database analysis and design; statistical
+          techniques spring to mind; a quick search through the titles of the back run of any of
+          your favourite journals will reveal others. </p>
+
+        <p>The key technologies which HC needs to teach at present are <list>
+            <item>information retrieval</item>
+            <item>multimedia technologies</item>
+            <item>digitization technologies</item>
+            <item>text encoding and textuality</item>
+          </list>
+        </p>
+        <!--
+What HC has tended to define itself against
+<item>computational linguistics/ AI/ NLP
+<item>database analysis, information retrieval
+<item>computer science
+<item>applications of IT in the creative arts
+<item>mathematical modelling
+<item>sociological/statistical approaches
+<item>word processing, CALL
+-->
+
+        <p>To conclude this analysis of the distinctive features of Humanities Computing offer, I
+          will try to imagine myself answering a question from someone I like but who is unaware
+          that a computer might be used to do something other than (say) provide access to megabytes
+          of soft porn. The question is <q>What use is this thing to my academic concerns?</q> and
+          here are some of the answers I would not be ashamed to offer. Perhaps you can think of
+          some others. <list>
+
+            <item>computing offers a means of communication which cuts across traditional social
+              structures in unpredictable, occasionally infuriating, but generally beneficial ways.
+              As an example, I would cite the number of internet based research projects which would
+              otherwise simply have been unable to achieve significant presence in the world because
+              of the accidents of geographic dispersal. </item>
+
+            <item>digital systems foster, embody, and support a fragmented, nonlinear, decentred,
+              view of text and textuality which seems strangely congruent with current thinking
+              about such phenomena: which is cause and which effect I would not presume to judge,
+              but current cultural perspectives are inherently digital. If evidence were needed I
+              would point to any one of hundreds of academic websites, not a few of them apparently
+              emenating from Mr Jefferson's University. </item>
+
+            <item>perhaps related to the former point, the computer offers those interested in the
+              use of language itself incomparably better tools than we have had hitherto; in
+              particular, they enable new kinds of evidence and new methods for their assessment and
+              incorporation into language teaching; particularly in Europe, where multilinguality is
+              a major political desideratum, this means that language processing technologies are
+              central to the concerns of the state as well as those of the academy. </item>
+
+            <item>Finally, I would remind my interlocutor that digital techniques offer us a cheap
+              and universal medium for the description, distribution, and analysis of all kinds of
+              pre-existing cultural artefacts. If we, in the Academy, do not bring our expertise in
+              these areas to the table, do we seriously imagine that others will hold off from doing
+              so? Or that we will be pleased with the results? </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head>What's the real question?</head>
+
+        <p>I implied at the start that the question under discussion was not the real subject of
+          this seminar. Perhaps by now I have said enough to indicate what I believe that subject to
+          be: put in crude terms, it seems to me that there is an agenda behind asking such a
+          question now, and in such a context. We are all, I think, agreed that the Humanities can
+          benefit from the application of computing technologies, and that Humanities Computing,
+          whether socially or theoretically defined, is therefore here to stay. As you heard from
+          Geoffrey Rockwell last week, the real question is how to organize the administrative
+          structures which will support it productively. This is a question which exercises many
+          Europeans as well: for example, there is an ongoing effort to define the components of a
+          trans-national masters degree in "Advanced Computing in the Humanities" (the AcoHum
+          project). Coincidentally, also last week, I participated in a conference at the University
+          of Rome where a number of distinguished speakers addressed this same topic. I would like
+          to conclude by discussing two particular issues which seem to emerge from this kind of
+          debate, wherever it is located. </p>
+
+        <p>Firstly, the interdisciplinary nature of Humanities Computing has very difficult
+          implications for the highly discipline-specific administrative structures which
+          characterize European universities. One of the more successful components of the Oxford
+          HCU is the CTI Centre for Textual Studies: this has for many years performed highly
+          regarded outreach activities in inculcating best practice in teaching with computing and
+          communication technologies across a broad range of academic disciplines. As my colleague
+          Mike Fraser has noted elsewhere, not the least curious thing about this success is that it
+          has been obtained under the name of "Textual Studies", which, if it exists at all as a
+          recognised discipline, should be a rather obscure subset of literary studies focussing on
+          the transmission of written materials, rather than (as Mike and his predecessors have
+          successfully made it) a glorious amalgam of all forms of culture, in all languages,
+          embracing linguistics, media studies, film, and performance as well as the strictly
+          written. This eclecticism is one of the strengths and the glories of our activities, yet
+          it is hardly one facilitated by the UK's recently established Arts and Humanities Research
+          Board (our version of the NEH) which has nine subject-oriented review boards. Nor is it
+          likely to be facilitated by the new Learning and Teaching Support Network Centres, each of
+          which also has a rigidly defined subject focus.</p>
+
+        <p>Secondly, there is much concern about the need to equip the next generation of humanities
+          scholars with relevant skills, which will enable them to participate in what Brussells
+          likes to call the emerging Information Society; specifically, there is much (often
+          justifiable) skepticism about the ability of existing bureaucratic structures to adapt in
+          response to that need. This skepticism is often perceived (sometimes justifiably) as
+          administrative luddism driven by populist anti-clericalism, but that does not make it go
+          away. A more creative response might be indeed to tackle the unspoken question behind this
+          debate and propose a reorganization of the traditional humanities disciplines which could
+          take advantage of the opportunities presented by new technologies, providing an articulate
+          response to the challenges implied by the applications of that technology in society at
+          large, while remaining true to the original goals of the humanities. That is a task too
+          large for this paper, or for this seminar, but I would like to make a few gestures towards
+          specifying some of the components of such a reorganization. </p>
+
+        <p>We might begin by extrapolating from current discernible trends in the creation,
+          consumption, and distribution of those artefacts which have either already made the
+          transition to digital media or are beginning to do so. We should ask ourselves how well
+          our existing structures can cope with an enormous expansion in the numbers of those able
+          to access, and anxious to understand an equally enormously expanded base of primary
+          cultural artefacts; we should also ask how well they will cope with an enormously
+          increased divergence in kinds of accessors (in terms of language, age, social class, and
+          other factors) and kinds of resource. And we should ask how well we think our existing
+          structures prepare learners for dealing with a fragmented digital world in which
+          everything may be linked, but the sense it all makes has to come from within. </p>
+
+        <p>Being incurably optimistic, I believe that traditional humanistic skills are going to be
+          increasingly valuable, not less, in that world, but we cannot take for granted that it
+          will be easy to apply them. As a trivial example, consider the ways we try to encourage
+          students to cite sources, to question over-simplified assertions, to seek independent
+          corroborative evidence, to take little on face value, to sift dispassionately through
+          available documentary evidence. What techniques will students need to learn in order to
+          maintain those intellectual habits in a digital world? It seems to me that they will need
+          a lot more information about how the digital world is constructed, and by whom, than is
+          currently available to anyone but a few. We urgently need to develop new ways of analysing
+          and comprehending the demographics and sociology of digital culture, appropriate to the
+          coming media meltdown.</p>
+
+        <p>Equally, from the opposite point of view, because the digital world so greatly increases
+          access to original unmediated source material (or at least a simulation thereof), the
+          esoteric techniques developed over the centuries in order to contextualise and thus
+          comprehend such materials will need to be made accessible to far more people. We urgently
+          need to develop new methods of doing textual editing and textual exposition, appropriate
+          to the coming digital textual deluge. </p>
+
+        <p>Our traditional humanities masters degrees have always combined training in methodology
+          with training in hermeneutics: generations of Oxford DPhil students have had to learn how
+          books were printed, as well as what was printed in them. And the final outcome of the
+          traditional masters degree has traditionally been yet another book to add to the stacks,
+          for future generations to interpret. At present, if humanities computing fits anywhere, it
+          fits inside the methodological component of such degrees, with the natural consequence
+          that if the implications of digitization are addressed at all, they are done so from a
+          purely pragmatic viewpoint uninformed by theory. But there is a theory that could help us
+          here: as Robinson, McGann, and many others have insisted time and time again, the
+          preparation of a digital edition has more in common with the preparation of a traditional
+          critical edition than with the preparation of a facsimile. Let me express deep gloom at
+          the amount of effort currently being sunk into preparation of digital facsimiles,
+          unbalanced by any more ambitious project of true digital encoding. I would like to propose
+          an alternative agenda, which I will call "Towards the uncritical edition". An uncritical
+          edition is one which does not attempt to settle controversy, but to ignite it. It invites
+          the exercise of the insights of critical editing and edition philology, re-applying them
+          in a new context. It uses the tools and techniques we have developed in thirty years of
+          applying computers to the processing of human language in order to problematize the
+          textuality that a traditional critical edition tends to gloss over. Its creation thus
+          implies a fruitful synergy of insights from semiotics, from textual study, and from
+          hermeneutics. </p>
+
+        <p>At the very heart of this enterprise lies the process of transferring text, text
+          interpretation, text analysis, and context to digital form in such a way as to make
+          accessible and amenable to processing all of these ontologically distinct facets of a
+          cultural object. Another word for that process is markup. And you will not therefore be
+          surprised if I conclude with a brief sermon on that topic.</p>
+
+        <p>The term <q>markup</q> covers a range of interpretive acts. Like other semiotic systems,
+          markup has its own lexis and its own syntax. The former determines which features are
+          available for marking, the latter how those features co-exist; we focus here on the
+          former. It seems clear that no violence is done to the term <term>markup</term> if we give
+          it a rather wide ranging scope. We may use it to describe the process by which individual
+          components of a writing or other scheme are represented, and for the simple reduction to
+          linear form which digital recording requires. We can also use it for the more obvious acts
+          of representing structure and appearance, whether original or intended. And markup is also
+          able to represent characterizations such as analysis, interpretation, the
+            <term>affect</term> of a text, or the contexts in which it was or is to be articulated
+          -- the metadata associated with it. Since the range of such features is now more or less
+          co-extensive with the range of interesting things one might want to say, the term is
+          probably in need of some subcategorization. I therefore propose here three broad classes
+          for the myriad textual features which text markup may make explicit: <list>
+            <item>compositional features</item>
+            <item>contextual features</item>
+            <item>interpretive features</item>
+          </list>
+        </p>
+        <p>Some typical compositional features include the formal structure of a text -- its
+          constituent sections, chapters, headings etc., as well as its linguistic structure -- its
+          constituent sentences, clauses, words, morphemes etc. From a different perspective, we
+          might identify as compositional features the components of a text's discourse structure --
+          its exchanges, moves, acts, etc. A third view concerns itself more with the ontological
+          status of a text's composition: its constituent revisions, deletions, additions etc., or
+          its history as a shifting nexus of discrete fragments. </p>
+        <p>Some typical contextual features include a consideration of the agencies by which a text
+          came into being or is identified as such (its author, title, publisher...) and of the
+          situation in which it is experienced (the intended or actual audience, the mode of
+          performance itself, the predefined category of text to which it explicitly or implicitly
+          belongs...). Some may be identifiable only externally (its subject, text-type, mode),
+          while others are internal (size, encoding, revision status) </p>
+        <p>Some typical interpretive features include linguistic properties such as morpho-syntactic
+          classifications, lemmatization, sense-disambiguation, identication of particular semantic
+          or discourse features, and in general all kinds of annotation and commentary, for example
+          associating passages in one text with passages in another, or citing instances of a more
+          abstract knowledge structure. </p>
+        <p>Despite the convenience of this kind of triage, it has to be stressed that at bottom all
+          markup is interpretive. In most encoded texts, features of all three kinds typically
+          co-occur. For example, a textual emendation may be proposed on the basis of both
+          morphological information (a plural noun is appropriate) and semantic information (the
+          sense "fish" is inappropriate here); its ontological status as an emendation is also
+          important. </p>
+        <p>It now should be apparent why the availability of a single encoding scheme, a unified
+          semiotic system, is of such importance to the emerging discipline of digital
+          transcription. By using a single formalism we reduce the complexity inherent in
+          representing the interconnectedness of all aspects of our hermeneutic analysis, and thus
+          facilitate a polyvalent analysis. </p>
+        <p>Markup has however another function, in some ways a more critical one. By making explicit
+          a theory about some aspect of a document, markup maps a (human) interpretation of the text
+          into a set of codes on which computer processing can be performed. It thus enables us to
+          record human interpretations in a mechanically shareable way. The availability of large
+          language corpora enables us to improve on impressionistic intuition about the behaviour of
+          language users with reference to something larger than individual experience. In rather
+          the same way, the availability of encoded textual interpretations can make explicit, and
+          thus shareable, a critical consensus about the status of any of the textual features
+          discussed in the previous section for a given text or set of texts. It provides an
+          interlingua for the sharing of interpretations, an accessible hermetic code. </p>
+        <p>If we see digitized and encoded texts as nothing less than the vehicle by which the
+          scholarly tradition is to be maintained, questions of digital preservation take on a more
+          than esoteric technical interest. And even here, in the world of archival stores and long
+          term digital archiving, a consideration of hermeneutic theory is necessary. The continuity
+          of comprehension on which scholarship depends implies, necessitates indeed, a continuity
+          in the availability of digitally stored information. Digital media, however, are
+          notoriously short lived, as anyone who has ever tried to rescue last year's floppy disk
+          knows. To ensure that data stored on such media remains usable, it must be periodically
+            <soCalled>refreshed</soCalled>, that is, transferred from one medium to another. If this
+          copying is done bit for bit, that is, with no intervening interpretation, the new copy
+          will be indistinguishable from the original, and thus as usable as the original. </p>
+        <p>In that last phrase, however, there lurks a catch. Digital media suffer not only from
+          physical decay, but also from technical obsolescence. The bits on a disk may have been
+          preserved perfectly, but if a computer environment (software and hardware) no longer
+          exists capable of processing them, they are so much noise. Computer environments have
+          changed out of all recognition during the last few years, and show no sign of stabilizing
+          at any point in the future. To ensure that digital data remains comprehensible therefore,
+          simple refreshment of its media is not enough. Instead the data must periodically be
+            <soCalled>migrated</soCalled> from one computer environment to another. Migration, in
+          this context, is exactly analagous with the processes of decoding and encoding carried out
+          by a human being when copying from one stored form of a text to another: there is a
+          potential for information loss or transformation in both decoding and encoding stages. </p>
+        <p>Where digital encoding techniques may perhaps have an advantage over other forms of
+          encoding information is in their clear separation of markup and content. As we have seen,
+          the markup of a printed or written text may be expressed using a whole range of
+          conventions and expectations, often not even physically explicit (and therefore not
+          preservable) in it. By contrast, the markup of an electronic text may be carried out using
+          a single semiotic system in which any aspect of its interpretation can be made explicit,
+          and therefore preservable. If moreover this markup uses as metalanguage some scheme which
+          is independent of any particular machine environment (for example international standards
+          such as SGML, XML, or ASN1), the migration problem is reduced to preservation only of the
+          metalanguage used to describe the markup rather than of all its possible applications.</p>
+      </div>
+      <div>
+        <head>Conclusions</head>
+        <list type="ordered">
+          <item>Humanities computing is as much of a discipline as anything else in the
+            academy.</item>
+          <item>Recognizing it as such may involve some reassessment and readjustment of existing
+            administreative structures</item>
+          <item>Humanities computing is nothing to be ashamed of: in fact, it's more important to
+            more people now than it has ever been before</item>
+          <item>We need to articulate a new theory of the "uncritical edition", at the heart of
+            which lies an understanding of the importance of textual studies (in the traditional
+            sense).</item>
+          <item>Such a theory should provides us with a single semiotic system for expressing the
+            huge variety of scholarly knowledge now at our disposal, through which, by means of
+            which, and in spite of which, our cultural tradition persists.</item>
+          <item> Text markup is currently the best tool at our disposal for ensuring that the
+            hermeneutic circle continues to turn, that our cultural tradition endures. </item>
+        </list>
+        <!--
+text-focus
+Strategic directions for HC
+ integration
+ *  subject-focussed training
+ *  collaborative research
+- evaluation
+ *  development of effective metrics
+- standardization
+ *  in resource production, delivery, preservation, and 
+discovery
+towards a theory
+The dyers hand effect
+- Technology is not neutral: it affects our view of the 
+achievable
+- Quantitative changes approximate to qualitative 
+effects
+- Two examples:
+ *  a new view of language
+ *  a new way of doing hermeneutics
+Corpus linguistics
+- the formal study of language-in-use
+ *  patterns of lexis  and other linguistic phenomena
+- a no-longer emergent discipline
+ *  "not a branch of linguistics: but a route into linguistics" (Hoey)
+- unthinkable without computers!
+Corpus linguistics
+- provides new kinds of evidence
+- not limited by individual intuition
+- of particular value in lexicography, and language 
+learning
+ *  we are all language learners
+- pragmatic, but not devoid of theory
+What will be the effects of widespread 
+digitization * 
+- new kinds of evidence
+
+Training for the digital age * 
+- Major components of existing  humanities masters:	
+ *  methodological issues
+ *  hermeneutic issues
+- culminating in the critical edition
+
+Some qualititative differences in our 
+interactions with digital resources (1)
+ *   decentred, non-linear, fragmented, and associative 
+modes of cognition are favoured
+ *   differences of scale
+Some qualititative differences in our 
+interactions with digital resources (2)
+ *   statistical apprehension of decontextualized 
+language use
+ *   plasticity of format and presentation
+
+Cultural objects (are those which) require 
+an explication
+- resources are invested with meaning by our use of 
+them
+- explication confers value  	
+- we need to interpret interpretations more than to interpret 
+things (Derrida, citing Montaigne)
+Digitization reifies an explication
+-  to encode a resource, it must first be decoded
+-  decoding implies selection of features
+- and their re-encoding in unambiguous terms
+
+Whose explication * 
+- the observer effect 
+ *   a novelty in the sciences
+ *   central to the humanities
+-  hermeneutics 'r us
+ *  computers are for symbolic manipulation, not just for 
+calculation
+Transmitting the hermeneutic
+- scholarship depends on continuity
+- it is not enough to preserve an encoding
+-  there must also be a continuity of comprehension
+Digital resources can only be preserved by 
+migration
+- this separation of medium and message implies 
+ *  selection
+ *   potential  information loss or transformation at each 
+step
+- hence the need for media-independent encodings
+Conclusions
+- Far from being peripheral or in opposition to the 
+humanistic endeavour, encoding and digitization are 
+central to it. 
+- Encoding is the best tool at our disposal for 
+ensuring that the hermeneutic circle continues to 
+turn, that our cultural traditions endure.
+-->
+      </div>
+
+
+    </body>
+    <!-- one of (body group) -->
+  </text>
+</TEI>

@@ -1,0 +1,331 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Report of Workshop on Text Encoding Guidelines
+                : published version</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>XML version for my archive</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Retagged in XML from OCR</p>
+                <p>Text originally published as 
+                    <bibl n="65"><date>1988</date>
+                        <title>Report of Workshop on Text Encoding Guidelines</title> in <title>Literary
+                            &amp; Linguistic Computing</title>, 3 (1988) </bibl>
+                    </p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2016-02-10">Initial conversion; added header</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+    
+<front><titlePage><docTitle><titlePart>Report of Workshop on Text Encoding Guidelines</titlePart>
+</docTitle>
+<docAuthor>L. D. BURNARD
+Oxford UniversitLy, UK</docAuthor>
+<titlePart>
+Correspondence: Lou D. Barnard, Oxford University Computing
+Service,13 Banbury Road, Oxford, OX2 6NN, UK.
+E-mail: LOU@VAX OX.AC.UK
+</titlePart>
+<titlePart>Literary and Linguistic Computing, Vol. 3. No. 2, 1988
+</titlePart></titlePage></front>
+<body>
+<p>This workshop, held at Vassar College, Poughkeepsie,
+New York, was funded by the American National
+Endowment for the Humanities (NEH) with support
+from Vassar College and organised by the Association
+for Computers and the Humanities (ACH). The ALLC
+as well as the Association for Computational Linguis-
+tics, was invited to participate at an early stage. The
+purpose of the workshop was to find some way of
+defining a consistent scheme for the encoding of textual
+data for use in humanistic research. To that end a small
+committee of the ACH had already thrashed out a
+proposed framework and agreed a list of delegates
+without whose participation (or at least recognition) no
+such scheme could stand a chance of survival. Most of
+the major European text archives were represented
+(Oxford, Bar-Ilan, Nancy, Oslo, Tubingen. Louvain-la-
+Neuve. Pisa) as were important North American re-
+search centres, including both those purely academic
+(Provo, Toronto, Pennsylvania) and some bodies with a
+more commercial affiliation (AAP, BELLCORE, IBM,
+OCLC). Three observers from the NEH also attended
+the meeting.
+</p><p>
+The proceedings began in an atmosphere of gritty
+resolution against adversity as the first snowstorm of
+the 1987-8 winter hit the Eastern seaboard of the United
+States just as delegates to this historic gathering were
+making their various ways there. This atmosphere con—
+tinued as the working hours were long (8 am. till 10 pm.
+with occasional short breaks for refreshment) and the
+topics of discussion not trivial (just how do you get 32
+different and highly individual delegates to agree on
+anything?). On the other hand, the organisers (chieﬂy
+Nancy Ide of Vassar and Michael Sperberg-McQueen of
+the University or Illinois at Chicago) had put a great
+deal of effort into organizing the workshop beforehand
+and even more into maintaining  some structure through-
+out the event, which together with the evident good will
+of all participants contributed a great deal to its un-
+usually successful conclusion.
+</p><p>
+The workshop consisted almost entirely of energetic
+discussion, the full details of which are beyond the scope
+of this report. Two delegates remarked on the fact that
+they had previously attended similar gatherings which
+had in both cases come to naught. Other than that of the
+Working Committee‘s proposed structure for text en-
+coding guidelines by its principal author (Michael Sper-
+berg-McQueen), there were no formal presentations
+although several position papers had been circulated
+before the meeting.
+</p><p>
+The ﬁrst session, appropriately enough, attempted to
+reach a consensus on the scope and nature of the
+<cb/>
+proposed guidelines. One major area of discussion was
+whether the guidelines were to be prescriptive setting
+out what features should be encoded and or
+descriptive setting out how those features that had
+been encoded could be described in a neutral way. A
+completely open syntax would provide no guidance for
+those capturing new texts. but a completely prescriptive
+set of rules would reader 90% of existing encoded texts
+useless. The audience for the guidelines was relevant
+here: many of those present clearly regarded secondary
+use of existing machine readable texts. (either from such
+sources as typesetting tapes or from established archives)
+as the norm where others were more concerned about
+new projects. and the provision of guides for the
+perplexed'. The consensus of this first and wide-ranging <!-- here -->
+discussion w s that sotnc kind of'mct anguage' should
+be deﬁned. ca tble both of formulating a recommended
+standard encoding scheme and of describing c,
+commonly used schemes almost by way ofillu. tttton.
+It was also agreed that the recommended scheme would
+be usable as an interchange format. with no itnplied
+necessity for retrospective conversions, though it was
+also pointed out. perhaps somewhat prematurely. that
+the existence of the Guidelines might be a powerful
+argument in persuading funding agencies to support
+such retrospective conversions.
+</p><p>
+During a very crowded afternoon session. eleven
+speakers were allowed ten minutes each to describe their
+own archive and points of view. Stig Johannsson (Oslo)
+described the work of ICAME. the Intern io ll Com—
+puter Archive of Modern English. an organisation with
+touch experience in documenting and distributing large
+corpora of machine readable text: Randall Jones
+(Brigham Young University. Provo) talked about his
+experience as head of a research support centre with
+a Kurzweil machine and also a little about the Brig im
+Young "Wordcruncher" program: Jacques Dendien
+(lNaLF) gave a valuable cautionary tale in the shape or
+a brief history of the development of the Trésor de la
+Langue Francaise database: Paul Tombeur (Louvain)
+described brieﬂy the CETEDOC Medieval Latin data-
+base and stressed the importance oftraditional cholarly
+virtues of ﬁdelity to source and accuracy of dt. cription:
+Robert Kraft (Pennsylvania) talked ofthe ongoing work
+of creating both the Thesaurus Linguae Graecae CD-
+ROM and its Latin counterpart. together with his own
+concern. ways of representing textual variation in a
+compact and comprehensible way: Yaacov Choueka
+(Bar-Ilan) gave a masterly presentation of the problems
+inherent in handling 100 million words of online
+Hebrew: I tried brieﬂy to give an idea ofthe sheer chaos
+which is the Oxford Text Archive in the absence of any
+standards; Antonio Zampolli (Pisa) described the evolu»
+tion of the various corpora of Italian and Latin texts
+(totalling some 80 million words) at Pisa. all ofwhich are
+<pb/>
+encoded and lemmatised to a consistent standard, touch-
+ing also on the development of the ‘linguistic database';
+David Barnard (Queens, Ontario) gave a brief introduc-
+tion to SGML, claiming that it was more than adequate
+to the tasks so far outlined for a text encoding standard;
+Frank Tompa (Waterloo) described brieﬂy the Century
+Dictionary Project, stressing how capturing the layout
+and typography of such works was usually adequate to
+capture the underlying structure, provided that the
+encoding could subsequently be extended and modiﬁed:
+and ﬁnally Carol Risher (American Association of Pub-
+lishers) described the process by which the AAP‘s
+SGML Guidelines had been created: this had involved
+industry-wide co-operation, large-scale funding (the
+standard had been drafted by an extemal consultancy
+and had cost 8450.000 so far) and continued testing,
+modiﬁcation and publicity.
+</p><p>
+After all this, a third discussion session was given over
+to the question of whether it was meaningful or politi-
+cally sound to distinguish ‘levels‘ of encoding. as the
+Working Party had proposed. For some. the use of levels
+implied a possibly invidious distinction between ‘recom-
+mended' and ‘optional' (where ‘recommended‘ implied
+‘obligatory for funding support' and ‘optional' implied
+‘not worth the eﬂ‘ort‘), while for others it implied a
+possibly unimportant distinction between ‘automatically
+veriﬁable or capturable‘ and ‘requiring scholarly effort
+to perceive‘. After a straw vote, it was agreed that the
+guidelines should not make proposals for minimal en-
+coding standards, but rather propose various taggable
+items under various categories (‘boxes‘). yet to be
+deﬁned.
+</p><p>
+The last session of the ﬁrst day was held in the library
+of Alumnae House in a slightly more relaxed atmosphere
+and conoemed itself largely with organisational matters.
+Several people pointed out the advantages of starting
+small and getting bigger, (particularly given the fact that
+some areas of encoding were still a matter of scholarly
+dispute) while others stressed the need for an overall
+framework. It was agreed that a small steering commit-
+tee should meet as soon as possible to set up a committee
+structure within which more technical discussion could
+take place and to seek ways of funding this.
+</p><p>
+After an initial summary of the previous day's pro-
+ceedings, the second day was taken up almost entirely
+with discussion of the scope and content of the Guide-
+lines, and the nature of its proposed ‘meta-language‘,
+concluding with the drafting of a set of recommenda-
+tions. As a point of departure, Stig Johansson provided a
+helpful set of statements: the scope of the Guidelines
+should be ‘pieces of extended natural discourse‘ rather
+than wordlists, concordanoes or linguistic surveys. After
+some discussion, it was agreed that monolingual diction-
+aries (the major interest of several of those present)
+should also be covered by the Guidelines. Their purpose
+should be to facilitate use of such texts in research more
+widely than by an individual project, rather than to aid
+conversion oftexts to (or from) printed form. Standardi-
+sation was needed in three distinct areas: documenta—
+tion, representation and interpretation. in each case the
+guidelines should propose what should be included
+together with indications of how it should be expressed,
+The end product would not be a formal standard but a
+
+<pb n="132"/>
+
+style manual and its production would necessitate work-
+ing groups in different subject areas.
+</p><p>
+There was some inconclusive discussion of whether or
+not SGML provided an appropriate syntax for the
+deﬁnition of the proposed description of encoding
+schemes; although no-one was able to propose an alter-
+native to the use of SGML, neither were many of the
+delegates conﬁdent enough in their knowledge to
+criticise (or defend) it, except at a fairly superﬁcial level.
+There was some consideration of a simpliﬁed ‘keyboard-
+ing‘ syntax which could be mapped to SGML, though
+this clearly had little to do with the standard as such.
+One criticism made of SGML was the diﬂiculty of
+supporting more than one hierarchy of structural infor-
+mation within a document, though it was claimed that
+the optional ‘concur‘ feature would support this; another
+was that the SGML notion of an exhaustive set of
+document type deﬁnitions was fairly inimical to schol-
+arly research, but that these need not be used. On the
+other hand, several delegates were strongly attracted to
+the notion of document-type deﬁnitions as a means of
+guiding the perplexed. One telling argument in favour of
+an SGML-style syntax was its extensibility.
+</p><p>
+The end product of the meeting was the following text,
+confected in full session with Michael Sperberg-
+McQueen at the keyboard, projecting the wordproeessor
+screen on the wall. Much argument about vocabulary
+and word order went into its production, but the ﬁnal
+product was universally accepted.
+</p><p>
+    <list>
+<head>The Preparation of Text Encoding Guidelines, Pough-
+keepsie New York 13 November 1987.
+</head>
+<item>1. The guidelines are intended to provide a standard
+format for data interchange in humanities research.
+</item><item>
+2. The guidelines are also intended to suggest prin-
+ciples for the encoding of texts in the same format.
+</item><item>
+3. The guidelines should
+<list><item>a. deﬁne a recommended syntax for the format,
+</item><item>
+b. deﬁne a metalanguage for the description of text-
+encoding schemes,
+</item><item>
+c. describe the new format and representative
+schemes both in that metalanguage and in prose.
+</item></list>
+4. The guidelines should propose sets of coding con-
+ventions suited for various applications.
+</item><item>
+5. The guideline should include a minimal set of con-
+ventions for encoding new texts in the format.
+</item><item>
+6. The guidelines are to be drafted by committees on
+<list><item>a. text documentation</item><item>
+b. text representation</item><item>
+c. text interpretation and analysis</item><item>
+d.  metalanguage deﬁnition and description of exist-
+ing and proposed schemes,</item></list>
+coordinated by a steering committee of represen—
+tatives of the principal sponsoring organisations.
+7. Compatibility with existing standards will be main-
+tained as far as possible.
+</item><item>
+8. A number of large text archives have agreed in
+principle to support the guidelines in their function
+as an interchange format. We encourage funding
+<!--
+Literary and Linguistic Computing, Vol. 3, No, 2, 1988
+-->
+agencies to support development of tools to facili-
+tate this interchange.
+</item><item>
+9‘ Conversion ofcxisting machine-readable texts to the
+new formal involves the translation of thcirconven-
+tions into the syntax of the new format. No require-
+ments will be made for the addition of information
+not already coded in the texts
+
+</item></list>
+    </p><p>In conclusion, I felt that this workshop had indeed
+established something. if only in bringing together and
+actually getting serious discussion out of a very broad—
+based but surprisingly interdependent constituency of
+research workers. in the past, there has been almost as
+much lip-service paid to the notion of a universally»
+agreed standard for text encoding as there has been to
+<!--
+Literary and Linguistic Computing, Vol. 3, No.2,1988
+-->
+that of an international directory of machine readable
+texts; with this workshop. for the ﬁrst time. a signiﬁcant
+proportion of those without whose support all such
+notions must founder had actually devoted their undi-
+vided attention to the issue and the problems it raises for
+at least two days, The organisers (and participants!)
+deserve every credit for this achievement, still more for
+having orchestrated a productive kind of consensus from
+which something more tangible may well eventually
+emerge,</p>
+<trailer>
+[A note from the ALLC Chairman on the planning of
+further stages of this project appears in the News and
+Notes section ol‘ this issue]</trailer>
+
+<pb n="133"/>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,606 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Encoding the Lampeter Corpus</title>
+        <author>Lou Burnard, Claudia Claridge, Josef Schmied, and Rainer Siemund</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>XML version for my archive</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Original source from presentations given at ICAME (Newcastle, April 1998) and DRH
+          (Glasgow, Sept 1998)</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <list>
+        <item><date>10 aug 2014</date>TEI P5 checks</item>
+        <item><date>22 Jul 99</date>revisions along with IE5 stylesheet</item>
+        <item><date>9 Jul 99</date>completed first draft, Frankfurt</item>
+        <item><date>31 Apr 1999</date>Added header to first draft</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+
+    <body>
+      <div type="foo">
+        <head>The Lampeter Corpus</head>
+        <note>Published in <bibl><title>DRH98: Selected Papers from Digital Resources for the
+              Humanities 1998, University of Glasgow, September 1998</title> eds. Marilyn Deegan,
+            Jean Anderson, and Harold Short. <idno type="isbn">ISBN 1 897791 13 5</idno> London:
+            Office for Humanities Communication 2000 </bibl></note>
+
+        <p>This paper describes the content and the creation of the Lampeter Corpus, which is an
+          unusual historical corpus, consisting of 120 unique English pamphlets from the period 1640
+          to 1740. The idea of building such a corpus began in 1991 when Prof. Dr. Josef Schmied and
+          Dr Eva Hertel were at Bayreuth University and moved with them to Chemnitz in 1993.
+          Creation of the corpus began in 1994, with funding from the Deutsche
+          Forschungsgemeinschaft (DFG), the German Research Association. Further grants from the
+          Deutscher Akademischer Austauschdienst (DAAD), the German Academic Exchange Service, made
+          possible research collaboration with the English Department at Helsinki University and the
+          Department of Linguistics and Modern English Language at Lancaster University on questions
+          of corpus compilation and annotation; they have also supported collaboration with the
+          Humanities Computing Unit at Oxford University on questions of text encoding and
+          archiving.</p>
+
+        <p>As visiting professor at the University of Wales, Lampeter in 1991, Prof. Schmied learned
+          of the resources available in the University's Founders Library (<ref
+            target="http://www.lamp.ac.uk/founders_library/"
+            >http://www.lamp.ac.uk/founders_library/</ref>) and worked out an arrangement with the
+          library staff for their collaboration in the building of a corpus of Early Modern English.
+          The main object of the project was to fill a gap in the availability of historical
+          corpora: specifically, the lack of balanced corpora made up of complete texts for
+          text-linguistic and stylistic analysis. </p>
+
+        <p>The bulk of the work of preparing and documenting the corpus was carried out at by
+          Claudia Claridge and Rainer Siemund at the University of Chemnitz. Assistance in the
+          conversion of the Corpus to a TEI-conformant form was provided by Lou Burnard of the
+          Humanities Computing Unit at Oxford University.</p>
+
+        <p>The corpus is now freely available from the Oxford Text Archive (see
+          http://ota.ahds.ac.uk/online/Lampeter) and is also included on the second ICAME corpus
+          collection (see http://www.icame.hd.uib.no).</p>
+
+      </div>
+      <div>
+        <head>Tracts and pamphlets</head>
+
+        <q>Am I really as dull as a tract my dear?</q>
+        <bibl>(G. Meredith, <title>Diana</title>, cited in OED sv <hi>tract</hi>)</bibl>
+
+        <p>The Lampeter Corpus mirrors a century that was crucial in the formation of British
+          English as we know it today, and provides a stretch of time long enough to permit
+          investigations into the process by which that came about. The beginning of the English
+          Civil War in 1642 marked the beginning of a new era in English history, one which was to
+          create new power structures in society, and to transform the economy, the conduct of
+          political life and religious thinking. The battles during these and later times were
+          fought not only with arms but also with words, however, and the sharpest weapons used in
+          the battlegrounds of public opinion were tracts and pamphlets.</p>
+
+        <p>This period saw the emergence of recognisably modern forms of political and social
+          discourse, ranging from religious controversies at its start to economic and social
+          concerns by its end; this period also saw the emergence of characteristically modern text
+          types as the scientific treatise. It does not seem too fanciful to see the linguistic
+          energies of popular vernacular as having been diverted from the theatres (closed at the
+          start of this period) to the popular tract; certainly it is remarkable how many of the
+          tracts from the start of this period take a dramatic or pseudo-dramatic form.</p>
+
+        <p>A major goal of corpus-based research is to improve upon such impressionistic judgments
+          by providing them with some statistically informed underpinnings. Without a conscious
+          theory of corpus design, however, it is hard to formulate such statistical information.
+          Almost any selection of material taken from this period should make it possible to observe
+          linguistic change across three generations. The Lampeter Corpus is not however made up of
+          randomly or opportunistically selected kinds of material: instead, its components embody
+          carefully selected and comparable types of discourse. Despite its comparatively modest
+          size, the Lampeter Corpus is intended to be representative of the variety of language
+          production surviving in the form of tracts. Its composition thus reflects a set of
+          deliberate choices rather than a purely random procedure.</p>
+
+      </div>
+      <div>
+        <head>Sampling criteria</head>
+
+        <p>In designing the corpus an attempt was made to meet the needs of both linguists and
+          historians. Texts were selected for inclusion in the corpus principally by <hi>date of
+            publication</hi> and by <hi>topic domain</hi>. The 120 distinct texts making up the
+          circa 1.2 million word corpus are spread evenly across these two dimensions. For purposes
+          of dating, the decade within which each text first appeared was selected. For purposes of
+          domain classification, the following broad categories were used: </p>
+        <list>
+          <item>Religion</item>
+          <item>Politics</item>
+          <item>Economy and Trade</item>
+          <item>Science</item>
+          <item>Law</item>
+          <item>Miscellaneous</item>
+        </list>
+
+        <p>Two titles were then chosen for each of the ten decades within each of the broad
+          categories. A closer reading of the selected titles enabled them to be further
+          subcategorised, as indicated in the following table, which gives the number of titles, and
+          approximate number of words for each sub-topic classification in each decade.</p>
+
+        <!-- insert table here 
+<table>
+</table>
+-->
+
+        <p>Although broad, these topic classifications are by no means easy to make. The line
+          between religion and politics is not so easy to draw during the English Civil War period. </p>
+
+        <p>In each case, the complete text was transcribed, including dedications, prefaces,
+          postscripts, etc. but excluding illustrations, figures, tables etc. Texts vary somewhat in
+          length, a few being as small as 3,000 or as large as 20,000 words in length, but most are
+          around 10-15,000 words long. In selecting titles, a conscious effort was made to select
+          each author only once, and to exclude major literary figures. Wherever possible, the first
+          edition of a text was chosen; later editions were used only when they were known to have
+          been revised by their author. In no case were modern editions transcribed.</p>
+
+        <p>One million words is, of course, a very small sample, when compared with the total
+          linguistic production during this period. By including complete texts we do at least offer
+          a wider choice of features for analysis than would otherwise be available, but it is clear
+          that for any but the most widespread of textual features (i.e. those which exhibit both
+          low variance and high frequency) a much larger reference corpus would be necessary.</p>
+
+        <p>The Lampeter Corpus consists of a single corpus header followed by 120 texts each with
+          its own descriptive header. Its component texts are structurally organized as a distinct
+          hierarchy (although many contain nested texts such as quoted letters etc.). We may
+          represent a well-behaved example: <eg>
+            <![CDATA[
+<text id=ECA1688>
+<front> <!-- titlepage, preface, etc here --> </front>
+<body>
+ <div type="part" n='I'>
+  <head>Propos.1</head>
+    <p>...
+  <div n="II">
+        <!-- Proposition II here -->
+  </div>
+  <!-- a further 7 Propositions here -->
+</body>
+<back><div type="postscript">
+  <head>Postscript</head>
+ <p>...
+ <imprimatur>...
+</back></text>
+]]></eg>
+        </p>
+      </div>
+      <div>
+        <head>Encoding objectives</head>
+
+        <p>In choosing which features of a text should be encoded this project like any other
+          effectively made explicit some decisions and assumptions about likely uses of the texts
+          and hence the goals of the project which might otherwise have remained implicit. Every
+          reading of a text implies a kind of markup; the process of reading a texts may be
+          described as a mapping of visual signals onto irrelevant noise, letters, punctuation
+          marks, decorative marks, variant letter forms, or organizational signals (the white space
+          between paragraphs, the use of fonts and margins etc.) and meta-commentary: the tendency
+          of texts to comment on themselves and thus determine their possible readings. Once in
+          printed form, the range and ambiguity of this mapping is comparatively static, since the
+          number of symbols and the range within which they may be deployed is comparatively
+          limited. </p>
+        <p>The textual features identified by the markup used may be loosely categorised as
+          belonging to one of the following four groups:</p>
+
+        <list type="gloss">
+          <label>formal structure</label>
+          <item>In most cases, each pamphlet was regarded as a unitary text, with optional front and
+            back matter surrounding a single <gi>body</gi> element; in a small but significant
+            number, the <gi>body</gi> was regarded as comprising a <gi>group</gi> of more or less
+            automonous textual items, each treated as a distinct nested <gi>text</gi>
+            element.</item>
+
+          <label>written discourse markers</label>
+          <item>A variety of readily identifiable features such as headings, lists, notes (both
+            marginal and footnotes), quotations were selected. Language shifts, which occur
+            frequently in this material, were also classed under this heading, since the use of e.g.
+            Latin and Greek seemed to have a distinctive discourse function.</item>
+
+          <label>presentational features</label>
+          <item>As further discussed below, these were regarded as particularly significant, since
+            such features as typeface, type style, and type density per page all varied considerably
+            both between and within pamphlets.</item>
+
+          <label>contextual features</label>
+          <item>Where available, information about authorship, production, and distribution of the
+            pamphlets was included in the headers attached to each text both for purposes of
+            historical analysis and also to assist in the investigation of any correlation between
+            these factors and more linguistically motivated features.</item>
+        </list>
+
+        <p>An initial motivation for the selection of textual features was a rather imprecise notion
+          of "fidelity" to the original printed form. Thus, precisely because these texts exhibited
+          so much variation in this regard, it was judged important to maintain distinctions between
+          different fonts (italic, bold, gothic, roman) in different stretches of text. On the other
+          hand, changes in size of type although of an equal visual salience, were, for the most
+          part, ignored since there was less agreement on how to represent or analyse them. On
+          similarly pragmatic grounds, digitized versions of graphic material such as included
+          figures or diagrams were omitted, though their presence was indicated, and any contained
+          text was directly encoded. </p>
+        <p>A major objective was to maximize usability of the resulting resource so as to encourage
+          their wide dissemination: this was the initial motive underlying the project's desire to
+          convert to a TEI-based encoding scheme. It rapidly became apparent that the TEI scheme
+          offered many more facilities than it would be economically or practically feasible to
+          capture in addition to the formatting information mentioned above.</p>
+
+        <p>With the rather limited tools at its disposal initially, the project began simply by
+          retyping the texts from xerox copies using a proprietary word processor. As the need for
+          markup became clearer, and the kinds of markup to be used were clarified, a set of macros
+          was defined which inserted SGML tags (for the most part derived from the TEI scheme) at
+          appropriate points in the document. </p>
+
+        <p>The project at this stage had no Document Type Definition (DTD), however, and
+          consequently no easy way of checking that tags had been correctly inserted. After some
+          iterations, a DTD was agreed in early 1997, and all the texts automatically converted to
+          use its tags. Around this time, new SGML-aware tools became available to the project:
+          notably James Clark's sgmls parser, and Softquad's Author/Editor word processor. During
+          1997 we were therefore able to re-edit the entire corpus again: in the first pass checking
+          the texts for syntactic validity against the newly defined Lampeter DTD, and in the
+          second, checking the semantic validity of the tagging. The first step was carried out
+          using the emacs editor with SGML extensions developed by Lennart Staflin; the second using
+          Author/Editor. We found the emacs solution more appropriate for texts which were not yet
+          syntactically valid SGML and for which many global changes were needed; the second more
+          appropriate for detailed work on a valid document.</p>
+
+        <p>The full <title>TEI Guidelines</title> presents a somewhat daunting array of
+          possibilities, both for the novice encoder and for the expert with a small set of
+          well-defined requirements. Faced with the 1600 pages of TEI P3, many users have felt the
+          need for something much smaller and better adapted to their specific needs. To some
+          extent, this need is met by the very popular subset known as TEI Lite, which has been
+          extensively documented and is widely used. However, even TEI Lite is too heavy for many
+          applications, while many users of it have expressed a need to mark up features of texts
+          which it does not discuss. Like any other DTD, it contains both gaps and redundancies. </p>
+        <p>For the Lampeter project, we applied the modularization techniques defined in the TEI
+          system. These allow one to combine specific element and attribute definitions from
+          different TEI <soCalled>tagsets</soCalled> according to taste, and furthermore to add new
+          elements or remove unwanted ones, without losing the inbuilt features of the TEI scheme,
+          notably its extensive class system and parameterization facilities, which greatly simplify
+          the definition of a project-specific DTD.<note place="foot">An alternative approach would
+            have been to use the Architectural Forms mechanism as described in Gary Simons
+            paper(cite)</note>. We made use of the web-based TEI customization program at <ref
+            target="http://www.hcu.ox.ac.uk/TEI/pizza.html">
+            http://www.hcu.ox.ac.uk/TEI/pizza.html</ref>, which automates the process of TEI
+          customization or "pizza making". This system uses a special purpose DTD pre-processor
+          written by C.M. Sperberg McQueen, and has recently been upgraded to make possible the
+          automatic generation of an XML-compliant version of the DTD.</p>
+
+        <p>The basic TEI customization mechanism involves the addition of SGML definitions in two
+          places: new elements to be added to the DTD must be defined in the TEI extensions DTD
+          file, while any modifications to the SGML parameter entities which define the DTD must be
+          specified in a TEI extensions entity file. We give below examples of how this is carried
+          out in practice: for further explanation and discussion, refer to TEI P3, chapter 5.</p>
+
+        <p>The first step in defining a pizza (or a view of the TEI DTD) is to select the required
+          tagsets. For our purposes, we needed the basic structure provided by the TEI prose base,
+          together with additional elements for figures and graphics, for corpus description, and
+          for transcription of primary sources. Even with this set of tagsets, we would still
+          require our own modification files, to add a few new elementds (discussed below) and also
+          to undefine a large number of others. The TEI DTD subset we used in development thus
+          included the following set of declarations: <eg><![CDATA[
+<!ENTITY % TEI.prose          "INCLUDE">
+<!ENTITY % TEI.corpus         "INCLUDE">
+<!ENTITY % TEI.figures        "INCLUDE">
+<!ENTITY % TEI.transcr        "INCLUDE">
+<!ENTITY % TEI.extensions.ent SYSTEM "lampext.ent">
+<!ENTITY % TEI.extensions.DTD SYSTEM "lampext.DTD">
+]]>
+          </eg></p>
+
+        <p>As noted above, the major requirements for the project's DTD were a light presentational
+          tagging, recording changes of font and style, and in addition changes of language which
+          occur almost as often within these texts, but are not always co-terminous with them. A
+          second major requirement was for an accurate and non-controversial markup of text
+          structure, in particular of the units at paragraph level and above, since the
+          correspondence between formal text organization and discourse structure was of particular
+          interest in these comparatively short but highly organized texts. A third major
+          requirement was the provision of detailed demographic information and similar metadata
+          about the original context within which text was produced. </p>
+        <p>Alhough it was agreed that a reduced number of tags might ease the process of data
+          capture and validation, it was also found necessary to add a small number of elements. In
+          particular, six elements were provided as <soCalled>syntactic sugar</soCalled> to aid the
+          encoding of font changes. These were <gi>it</gi>, as a convenient abbreviation for <tag>hi
+            rend="IT"</tag> (stretch in italic font), and similarly <gi>ro</gi> (equivalent to
+            <tag>hi rend=RO</tag> i.e. stretch in roman font), <gi>sc</gi> (small capitals),
+            <gi>bo</gi> (bold face) and <gi>go</gi> (gothic or black letter). A similar mechanism
+          was initially used to mark superior letters, until it was decided to render these instead
+          as entity references in order to avoid the problems of token fragmentation introduced by
+          within-token tagging. </p>
+        <p>These six elements were defined in the TEI extensions DTD file as follows: <eg><![CDATA[ 
+<!ELEMENT (it|ro|sc|su|bo|go) - -
+(%phrase.seq)> 
+]]></eg>
+        </p>
+        <p>To make sure that these phrase level elements (in TEI terminology) appeared at the
+          appropriate place in the content model of a TEI document, the further additional
+          definition was needed within the TEI extensions entity file: <eg><![CDATA[
+<!ENTITY % x.phrase "it|ro|sc|su|bo|go|">
+
+]]></eg>
+        </p>
+        <p>A further major requirement mentioned above was the provision of more detailed metadata
+          about the context within which each text was produced. Although TEI Lite includes most of
+          the riches of the TEI Header it was still found lacking in some specific additional pieces
+          of information. Following the recommendations of the Guidelines, it was intended to encode
+          detailed information about the authors of each text within the <gi>person</gi> element,
+          treating these as <soCalled>participants</soCalled> in the creation of the text. This gave
+          access to a lot of the needed demographic information (birth date, socio-economic status,
+          level of education etc.), but unaccountably omitted a matter of some interest in the 17th
+          century: paternal socio-econonomic status. We therefore defined this additional element,
+          plus another more generic one to hold any other biographical information available:
+            <gi>biogNote</gi>. In similar vein, we found it necessary to supplement the existing set
+          of bibliographic elements with specific tags for book seller, printer, and publication
+          format (i.e,. quarto or folio), These elements were defined as follows: <eg><![CDATA[
+<!ELEMENT (persName|printer|pubFormat|bookSeller|biogNote|socecstatusPat) 
+  - - (%phrase.seq)>
+]]></eg>
+        </p>
+
+        <p>Those elements in the above list relating to description of autors were added to the
+          pre-existing TEI model class <ident>m.demographic</ident>, while those related to
+          bibliographic description were added to the bibl class, using the following definitions
+          within the tei extensions entity file: <eg><![CDATA[
+<!ENTITY % x.biblPart "printer|pubFormat|bookSeller|">
+<!ENTITY % x.demographic "socecstatusPat|biogNote|">
+]]></eg>
+        </p>
+
+        <p>As well as these additions, we found it necessary to modify slightly the standard TEI
+          content model in only one respect: for our purposes, the <gi>gap</gi> element should be
+          allowed to appear anywhere within a text, not solely within phrase level
+            elements.<note>This is a shortcoming of the original TEI DTD which has been rectified in
+            the new version of the TEI DTD made available in preliminary form during 1999</note>. To
+          accomplish this, we needed to add it the <gi>gap</gi> element to the global inclusion
+          class, which was also simply done by the following declaration within the TEI extensions
+          entity file: <eg><![CDATA[
+<!ENTITY % x.globincl "gap|">
+]]></eg>
+        </p>
+        <p>Finally within the TEI extensions entity file, we removed a large number of elements
+          (about 40) which were defined by the combination of TEI tagsets selected but which we did
+          not intend to use, with declarations of which the following are typical: <eg><![CDATA[
+<!ENTITY % analytic 'IGNORE' >
+<!ENTITY % biblStruct 'IGNORE' >
+<!ENTITY % cb 'IGNORE' >
+<!ENTITY % divGen 'IGNORE' >
+<!ENTITY % expan 'IGNORE' >
+...
+<!ENTITY % restore 'IGNORE' >
+<!ENTITY % space 'IGNORE' >
+<!ENTITY % supplied 'IGNORE' >
+]]></eg>
+        </p>
+
+        <p>As a final step, we used the pizza chef program referred to above to generate a one-file
+            <soCalled>compiled</soCalled> DTD from our extension files and the various other files
+          making up the TEI DTD. This DTD was then further processed by the Softquad Rules Builder
+          program to create the proprietary form of the DTD required for the use of the Softquad
+          Author-Editor program. </p>
+
+      </div>
+      <div>
+        <head>Encoding problems</head>
+
+        <p>In this section we review briefly some problems which arose during the TEI tagging of the
+          corpus, and our proposed solutions. We do not imagine either that our experience is
+          unusual, or that our solutions are those which every project should adopt; moreover, it is
+          clear in retrospect that several of these problems arose were a consequence of the limited
+          range of tools available to the project at its inception. However, details of this kind
+          are so rarely presented in this literature that we make them available here, if only to
+          encourage others in a similar position! </p>
+
+        <p>One very common class of problem is exemplified in the following extract: <eg><![CDATA[
+<p>because as the Apostle testifies, their Idolatrous 
+<corr sic="Confnsion"><it>Confusion</corr> 
+in Religion </it> was directly and manifestly 
+against the Light of Nature; 
+]]></eg>
+        </p>
+        <p>This is of course syntactically invalid (the <gi>corr</gi> and <gi>it</gi> tags are
+          improperly nested). The error arises becuse of the process by which markup was originally
+          inserted into the document by simple minded substitution of start and end-tags
+          corresponding with formatting codes in the original and is readily detected by any SGML
+          parser. Had an SGML-aware input system been available to the project throughout its life,
+          such errors would have been exceedingly rare. In practice, they were quite numerous;
+          moreover their correction took a disproportionate amount of time, since it could not be
+          entirely automated. </p>
+
+        <p>A rather different class of problem related to the inherent richness of the TEI scheme.
+          There is always more than one way to mark up a given phenomenon. Consider for example the
+          following sentence, in which the word <q>cerebellum</q> appears in italic font, presumably
+          either because it is a Latin word or because it is a technical term (or, most likely,
+          both).</p>
+
+        <q>The <hi>Cerebellum</hi> was in its natural state</q>
+
+        <p>Leaving aside the question as to whether this should be tagged as a foreign word or as a
+          technical term, our project design required us to mark shifts of both language and
+          rendition. Because we had previously decided to mark rendition shifts with an explicit tag
+            (<gi>it</gi> in this case), there were two equally plausible ways of encoding these
+          shifts: <eg><![CDATA[
+The <foreign lang=lat><it>Cerebellum</it></foreign> was in 
+its natural state
+The <foreign lang=lat rend=it> Cerebellum</foreign> was in 
+its natural state
+]]></eg>
+        </p>
+
+        <p>On the one hand, the second form seemed preferable, because of its greater economy of
+          expression. This is particularly true where (as is often the case) the whole of a textual
+          division, containing many distinct paragraphs, appears in italic. This choice also
+          facilitates the process of checking whether or not (for example) Latin words are always
+          represented in italics. On the other hand, the process of (say) selecting all words in an
+          italic font (irrespective of language) now becomes more difficult, since such words may
+          appear both within an <gi>it</gi> element and within any other element which has an
+          appropriate value for its <ident>rend</ident> attribute. With a true SGML-aware system,
+          this process is less cumbersome than this account makes it sound, but it is still an
+          additional complication in processing.</p>
+
+        <p>A further complication arises in the (very common) case where there are repeated font
+          shifts within a single item. In the following example, each list of italicised names has a
+          heading in Roman font: <eg><![CDATA[
+<LIST><HEAD> Sign'd thus,</HEAD>
+<ITEM REND="it">Claudius Amyand,</ITEM>
+<ITEM>
+  <LIST><HEAD>Apo&rehy;thecar,</HEAD> 
+    <ITEM REND="it">Isaac Garnier,</ITEM> 
+    <ITEM REND="it">Thomas Garnier,</ITEM>
+  </LIST>
+</ITEM> 
+<ITEM REND="it">John Reilliez,</ITEM> 
+<ITEM REND="it">John Dolignon.</ITEM>
+</LIST>
+]]></eg>
+        </p>
+
+        <p>If only for reasons of conciseness, it seemed better to mark the whole list as being in
+          Italic, with the headings being marked as deviating from this norm: <eg><![CDATA[
+<LIST rend=it>
+<HEAD rend=ro> Sign'd thus,</HEAD>
+<ITEM>Claudius Amyand,</ITEM>
+<ITEM>
+  <LIST><HEAD rend=ro>Apo&rehy;thecar,</HEAD> 
+     <ITEM>Isaac Garnier,</ITEM> 
+     <ITEM>Thomas Garnier,</ITEM>
+  </LIST>
+</ITEM> 
+<ITEM>John Reilliez,</ITEM> 
+<ITEM>John Dolignon.</ITEM>
+</LIST>
+]]></eg>
+        </p>
+
+        <p>Similar considerations lead us to reject the following encoding, where the whole of the
+          paragraph is in italic font, except for a few phrases: <eg><![CDATA[
+<p>Printer. <it>Then I'm like to make a very hopeful 
+Bargain this Morning; and grow Rich like a </it>
+Jacobite, <it>that would part with his </it>Property<it>, for
+a </it>Speculative Bubble.</p>
+]]></eg>
+        </p>
+        <p>Our confidence in discarding this encoding derives from the observation that it is the
+          words <emph>not</emph> in Italic which carry a distinctive discourse function, rather than
+          the surrounding text, and which therefore should be picked out and made explicit, as in
+          this revision: <eg><![CDATA[
+<p rend=it><ro>Printer.</ro>Then I'm like to make a very hopeful 
+Bargain this Morning; and grow Rich like a <ro>Jacobite,</ro> 
+that would part with his <ro>Property<ro> for
+a <ro>Speculative Bubble.</ro></p>
+]]></eg></p>
+
+        <p>In an ideal world, of course, we would wish to take this process a little further, by
+          identifying (and then making explicit in the encoding) the underling cause for the font
+          shift. In this particular case, it seems highly desirable to distinguish at least the
+          first word in Roman font from the rest, since it serves to mark the speaker of the
+          following text, and thus to show that we are dealing here with a piece of quasi-dramatic
+          dialogue rather than a simple sequence of prose: <eg><![CDATA[
+<sp><speaker>Printer.</speaker>
+<p rend=it>Then I'm like to make a very hopeful Bargain 
+this Morning; and grow Rich like a <ro>Jacobite,</ro> 
+that would part with his <ro>Property </ro> for a 
+<ro>Speculative Bubble.</ro></p></sp>
+]]></eg>
+        </p>
+
+        <p>Clearly, there is a great deal more one might wish to do along similar lines. A further
+          case, particularly common in this material, is that of the bibliographic citations and
+          references often associated with a quotation or cited authority. Where we find such items
+          as the following: <eg><![CDATA[
+<p>For shame let not <IT>English-Men</IT> longer say, 
+<IT>with</IT> Solomon's <IT>sloathful</IT> &rphand; 
+<Q REND="it">There is a <GO>Lyon</GO> in the Way.</Q> 
+Prov. 26.13.</p>
+]]></eg> it is easy to see the attraction of a more semantically-motivated tagging such as the
+          following: <eg><![CDATA[
+<p>For shame let not <IT>English-Men</IT> longer say, 
+<IT>with</IT> Solomon's <IT>sloathful</IT> &rphand; 
+<cit><Q REND="it">There is a <GO>Lyon</GO> in the Way.</Q> 
+<bibl>Prov. 26.13.</bibl></cit></p>
+]]></eg>
+        </p>
+        <p>It is not only sound economic reasons however that lead us to defer this further
+          enrichment of the tagging of the corpus. There are many cases in which the pampleteers use
+          of biblical or other quotations are less easily tied to their source, or where the source
+          is given as a marginal annotation, perhaps some distance removed, and many others in which
+          we cannot be certain that a quotation is actually being made, so closely interwoven is the
+          narrative voice with that of the authorities being cited. </p>
+
+        <p>This example also serves to illustrate two further characteristics of this material:
+          firstly the need to define a large additional set of entities to cope with the frequent
+          use of printers symbols (in this case a right-pointing hand); while many of these are
+          available from standard entity sets, many others such as astrological symbols and the like
+          are not. Secondly, it demonstrates how difficult it is to determine what exactly motivates
+          a font change: it is only by reference to the biblical passage cited that we can determine
+          whether the word <q>sloathful</q> above is italicised because it also is being quoted from
+          a passage close to the one actually marked as a quotation in our proposed tagging. </p>
+
+
+      </div>
+      <div>
+        <head>Future Plans</head>
+
+        <p>With the making available of the corpus in its present form, the current corpus project
+          has come to an end. However, there are several areas in which further work on it seems
+          highly desirable. Several experiments have already been undertaken to see whether existing
+          morpho-syntactic parsers such as the CLAWS system can automatically produce reliable part
+          of speech tagging for this kind of material, but so far with only disappointing results.
+          One problem is the extensive orthographic variation within the corpus; another is the lack
+          of any suitable training set for such material. While the corpus itself could profitably
+          used as such a training set, this would require an extensive amount of hand annotation,
+          resources to perform which have yet to be found. Such annotation would also result in the
+          definition of a uniform reference system for the whole corpus, additional to that derived
+          from the existing SGML structure, since all such taggers require the delimitation of
+          something analogous to the sentence. Work is continuing in this area.</p>
+
+        <p>A further programme of work is needed also to enhance the encoding of the corpus along
+          the lines already suggested: it seems likely that at least some of this work could be
+          automated, now that the corpus as a whole is in syntactically valid SGML. This would also
+          greatly reduce the many inconsistencies which remain in our use of the TEI encoding
+          scheme.</p>
+
+        <p>A further (and rather less ambitious) improvement planned for the corpus is the
+          incorporation of digital images, not only for the many pictures, printers ornaments and
+          diagrams which decorate some of the pamphlets, but also for the title pages and for other
+          typographically unusual pages. </p>
+
+        <p>A number of options are being explored for delivery of the Corpus in its present form. As
+          noted above, the full SGML text is already available both from the Oxford Text Archive and
+          also on a CD-ROM published by ICAME. In the latter case, the corpus is delivered with
+          simple search software developed at Bergen University which permits rapid access to the
+          lexis of these pamphlets and a number of other useful concordancing functions, but which
+          does not take full advantage of the detailed SGML tagging. A further possibility would be
+          to use a more SGML-aware browser or search engine, and several options have been explored
+          in this area. The texts as they stand can easily be read by an SGML browser such as
+          Softquad's Panorama, for which we have prepared a stylesheet that mimics the original
+          typographic diversity of the original quite effectively. This could be further developed,
+          once an XML version of the corpus is available, using either XSL or CSS to add formatting
+          via Internet Explorer 5. We have also started to explore the usability of three other
+          rather more sophisticated software systems with this corpus. </p>
+
+        <p>The Oxford Text Archive site referenced above now includes an indexed and searchable
+          version of the corpus which can be accessed via a simple forms interface over the World
+          Wide Web. Word searches and concordance output can be obtained, and results or complete
+          texts can be downloaded in a variety of different formats. This uses a widely-used text
+          retrieval engine called Open Text 5 which, for all its sophistication and power, is no
+          longer supported by the manufacturers and cannot therefore be ragarded as a long term or
+          general purpose solution for projects of this kind. Many potential users of this corpus,
+          moreover, are likely to want to access copies of it locally, without the need for an
+          internet connexion or other means of access to the large scale computing facilities which
+          systems such as Open Text require.</p>
+
+        <p>Such systems are not hard to find, but they tend to be expensive to licence, even for
+          noncommercial use. We have therefore started to investigate the usability of the SARA
+          application originally developed at Oxford for use with the British National Corpus, and
+          the Qwick program developed at the University of Birmingham. Both systems can readily take
+          advantage of the SGML tagging in the corpus and use it to provide more intelligent
+          searching facilities than would otherwise be possible, as well as presenting the corpus in
+          a readable and attractive way. Early experiments with both systems are extremely promising
+          and we hope to be able to provide an enhanced and indexed version of the corpus using
+          either or both of these in the near future.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

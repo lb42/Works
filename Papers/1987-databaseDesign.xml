@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Principles of Database Design : XML version</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>XML version for my archive</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Retagged in XML from old source file</p>
+            <p>Text later published in :  <bibl n="07"><date>1987</date>
+               <title>Principles of Database Design</title> in <title>Information Technology in the
+                  Humanities</title> ed. Rahtz. </bibl> </p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2014-10-16">Initial conversion; added header</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart>Analysing information for database design: an introduction for
+               archaeologists</titlePart>
+         </docTitle>
+         <docAuthor> Lou Burnard Oxford University Computing Service </docAuthor>
+      </front>
+      
+   
+       
+    <body>
+
+
+
+<!--
+CAUTION: LSSGML (Lou's Sort-Of SGML) markup is used in this
+document
+
+Text between <tag>  and <tag\> is to be treated as appropriate
+for the following tag descriptions. Tagged units are not nested.
+
+<title> Guess!
+<div1><head> Sub heading 
+<div2><head> Sub Sub Heading 
+<quote> Quoted text 
+<bibl> Embedded reference for quoted text
+<hi rend=b> Words for emphasis
+<hi>Words for a different sort of emphasis
+<fig>   Figure. Attributes are number, title.
+<note>  Footnote. Attribute is number. 
+-->
+
+<!--
+Lou Burnard
+
+Oxford University Computing Service
+</head>
+-->
+
+
+<p>Good database design involves the acquisition and deployment of
+skills which have a wider relevance to the educational process.
+From a set of more or less instinctive rules of thumb a formal
+discipline or "methodology" of database design has evolved.
+Applying that methodology can be of great benefit to a very wide
+range of academic subjects: it requires fundamental skills of
+abstraction and generalisation and it provides a simple mechanism
+whereby complex ideas and information structures can be
+represented and manipulated, even without the use of a computer.
+</p>
+<div><head>1. History of the term 'database'</head>
+
+<p>In the begining, (that is, around 1968 or so), the word 'data
+base', if used at all in a non-specialist context, referred
+simply to all those files of data which together formed the
+province of the 'data processing' department. The New Oxford
+English Dictionary <note n="[1]"> 
+At the time of writing, the text of the New OED's entry for the
+word "database" has yet to be finalised; owing to the kindness of
+the Dictionary's staff (gratefully acknowledged here) I am
+however able to quote the illustrative citations which will
+appear in this entry.
+</note>
+cites as an instance of this usage the following quotation :
+
+<q>A database is a generalised collection of data not
+linked to one set of functional questions</q>.  <bibl>[New
+Scientist, 4 Mar 1971, 498/1]</bibl>
+</p>
+
+<p>This definition introduces one fundamental characteristic of the
+database approach: the separation of processing from data. It now
+seems axiomatic that information should be stored in one place
+and in a way independent of any particular use to which it might
+be put. Only thus, we now assume, is it possible to develop the
+huge range of computer programs now perceived to be necessary for
+the administration, even the very existence,  of a modern
+business, given that all of these programs need to use as input
+overlapping and complementary information. Moreover, since the
+information being processed in a commercial context (stock
+levels, prices, goods on order, bills paid etc) typically changes
+very rapidly and fairly unpredictably during the course of a day,
+chaos would rapidly ensue if all of these programs operated on
+independent copies of data files taken at different times. The
+ability to  maintain information separately and independently of
+the programs which record and interrogate changes in it has many
+obvious advantages.  
+</p>
+<p>To meet this requirement, during the seventies much effort was
+expended within the computer science departments (and even more
+in the research departments of the major computer manufacturers)
+on the development of what became known as <hi rend="b">database
+management systems</hi> (dbms), that is, large general-purpose
+pieces of software which could be used to create and maintain
+large databases, as defined above. The term is first recorded by
+OED as the title of a report dated 1969 and cited in a technical
+bibliography of 1971. To get the best out of a dbms, more than
+simple data processing skills proved to be necessary; the
+science, or art (or mystification) of database design may be said
+to have its origins in the new demands placed upon the data
+processing community by these new tools. <note n="[2]"> 
+Typical of textbooks of this period is James Martin's Computer
+Data Base Organization (Prentice Hall, 1975) 
+</note>
+</p>
+<p>	A further illustrative citation used by the OED gives an
+admirably succint definition of these new skills as they were
+perceived and defined in a textbook dating from 1978.
+
+<q>Data base design starts with a definition of all an
+organisation's data resources, identifies key inter-
+relationships between individual elements of data and then
+puts the pieces together as an integrated whole rather than
+as a collection of separate and independent files.</q>
+<bibl> [W. S. Davis Information Processing Systems xii 271
+]</bibl>
+
+</p><p>As this citation indicates, database design requires both 
+analytic and synthetic skills. If the separation of data from
+process (data independence) is one cornerstone of the database
+approach, the integration of related and over-lapping data files,
+giving rise to data integrity, is a second cornerstone. It should
+be remembered that database management systems were developed
+initially to cope with the growing complexities of existing data
+processing practices. It is thus inevitable that they should
+place greater stress on the integration of existing data files
+and the development of techniques appropriate to this end than on
+the definition of optimal data structures as an end in itself.
+Nevertheless it soon became apparent that such integration
+necessarily involved the definition of a higher level model of
+the whole system, a process of abstraction which has a far
+ranging importance quite distinct from the short term goal of
+integrating existing dp applications. 
+</p>	
+<p>	The so-called "information revolution" of the early eighties
+probably should be attributed to a widespread commercial
+recognition that information was in itself a major commercial
+asset, too important to be left to the dp department. Awareness
+of the (sometimes imagined) capabilities of the new integrated
+databases encouraged an unprecedented demand for special purpose
+programs. The characteristic style of operation of most mainframe
+computers became increasingly interactive. Micros and desktop
+terminals began to proliferate on the desks of suitably
+privileged personnel. To cope with the resulting demand for what
+were called 'user-friendly' or 'end-user' systems, new styles of
+programming and new software support systems were developed,
+notably automatic program-writing programs, sometimes called
+"fourth generation language" (4GL) systems. These and other so-
+called "decision support" systems depend on the widespread use of
+<hi rend="b">data dictionaries</hi> - a special type of database, in
+which not data, but data about data is held. 
+</p>
+<p>Such data dictionaries are now seen as an integral part of the
+modern dbms: the same rules and procedures can be used to
+manipulate both the data held in the system and the definitions
+which give meaning to the data. In this sense, the database is
+now a repository of meaning as well as its representation: this
+final development of the sense of the word is apparent in the
+following citation given by NOED:
+
+<q>Data in the files is completely raw and has no
+meaning; we cannot tell what each field represents ... The
+database management system provides a solution to this
+problem. </q> <bibl>[Your Computer, July 21 1983, p
+21/3]</bibl>
+</p>
+
+<p>In this very sketchy history, I have proposed three important
+ideas as characteristic of the modern dbms. The first is
+<hi rend="b">data independence</hi>: the separation of the data from
+any process which uses it. The second is <hi rend="b">data
+integrity</hi>: the idea that particular pieces of information
+should be represented once and once only within a system. The
+third is <hi rend="b">data description</hi>: the recognition of the
+fact that data and meta-data should be represented and
+manipulated in the same way.
+</p></div>
+<div><head>2. From database to reality </head>
+
+<p>A proper account of the development of database management
+systems would of necessity involve a far more detailed discussion
+of many technical topics than is appropriate in the present
+context; the interested reader is therefore referred to any of
+the standard textbooks 
+<note n="[3]">  Probably the best standard work is C.J. Date's
+Introduction to Database Systems (1981, vol 2 1983). A good
+recent introduction is Jones J.A. Databases in theory and
+practice (Kogan Page, 1986) </note>  
+for more precise information on topics only adumbrated by the
+following discussion. The scope and purpose of books such as the
+present one is surely to encourage humanists to feel that
+standard textbooks, even in computer science, should not be
+closed to them. This is particularly true of database design,
+which involves  general-purpose problem-solving techniques, of
+equal utility and effectiveness whether you are trying to make
+sense of a mediaeval land registry, a killing on the stock
+exchange or even a credible nuclear defence policy. 
+</p>
+<figure n="1">
+<head>Database Architecture</head>
+</figure>
+<p>
+Figure 1 summarises what is sometimes known as the ANSI-SPARC
+architecture.<note n="[4]">
+The ideas presented informally here derive ultimately from the
+highly influential Study Group of the American National Standards
+Institute called ANSI-X3-SPARC. See for example its Interim
+Report 75-02-08 published in ACM SIGMOD Newsletter vol 7 no 2
+(1975), and Tschiritzis, D.C. and A. Klug (eds) The ANSI-X3-SPARC
+DBMS Framework: Report of a study group on database management
+systems. New York, AFIPS Press, 1977. Several tutorial accounts
+are also to be found e.g. Robinson, Hugh. Database analysis and
+design (Chartwell-Bratt, 1983)
+</note>
+It shows a three level mapping between the black box of the
+database at the top and the trees, people and houses of the real
+world at the bottom. At the first and most primitive level, we
+might regard and hence describe the contents of the black box in
+terms of computer-specific constructs (such as addresses on disc
+or tape, block counts, byte offsets etc) Such representations are
+more usually described by one or more <hi rend="b">external
+schemata</hi>: that is, definitions of the data structures
+which the computer-specific representation is meant to support:
+these schemata define the second level of mapping. These data
+structures (typical examples include records, networks,
+hierarchies, tables) are not of any importance in themselves, but
+provide a convenient means to the end of representing information
+about the real world. The third and final level of mapping is
+thus between an external schema and some structure expressive of
+all meaningful perceptions of the reality with which this
+database is concerned. This latter structure is called a
+<hi rend="b">conceptual schema</hi>, and its definition is of crucial
+importance in the process of database design.
+</p>
+<p>Being entirely independent of any specific computer
+representation, the conceptual model provides a conveniently
+neutral meeting place for the end-user of a system and the
+database designer to articulate their common concerns. There is a
+natural tendency to think of information-modelling problems in
+terms of some notion of the way a computer might represent them.
+This is, in my view, analogous to the tail wagging the dog. Even
+for a single user system, construction of a conceptual model as a
+preliminary to database design enforces the discipline of
+considering a problem on its terms. Since for any given
+conceptual schema, there may exist many different external
+schemata, it is possible to define the problem and then assess
+the various solutions which different data models might provide. 
+</p>
+<p>Of course there are many different ways in which a structure may
+be imposed on information about the real world; the one proposed
+here is simply one that has been found by general consensus to be
+of particular usefulness in the definition of database systems.
+Other approaches, notably that based on predicate logic, have
+also been proposed. <note n="[5]"> For a discussion of various
+formalisms and a full account of the approach sketched here see
+Griethuysen, J.J. Van (ed) Concepts and terminology for the
+conceptual schema and information base. ISO (TC97/SC5/N695) 1982.
+The approach proposed here derives ultimately from Chen, P.P. The
+entity-relationship model: towards a unified view of data ACM
+TODS 1.1 (1976)
+</note>
+In this approach, the real world is described in terms
+of<hi rend="b">entities</hi>, which are said to have
+<hi rend="b">attributes</hi> and <hi rend="b">relationships</hi>. The
+definition of the entities and relationships appropriate to a
+given purpose (or universe of discourse) is often an iterative,
+and non-deterministic process, in which there may be no definite
+conclusions. However, it will always produce a model which
+accurately reflects a state of understanding of the real world,
+independent of any particular computer implementation. Conceptual
+analysis may be performed top-down (by intuition) or bottom-up
+(by normalisation of existing data structures). Usually both
+approaches are necessary. 
+</p></div>
+
+<div><head>3. Building the conceptual model </head>
+
+<p>The object of conceptual analysis is to define a particular neck
+of the woods, not the whole forest. That neck is sometimes
+called, rather grandly, the <hi rend="b">Universe of Discourse</hi>;
+the term means simply the context within which all other
+definitions are meant to be understood. It is important to
+remember that (say) a "Ship" as defined in one Universe of
+Discourse (concerned perhaps with 17th century port records)
+might have very different attributes and relationships from one
+defined in another, concerned perhaps with modern military
+manoeuvres. 
+</p>
+<p>The process of conceptual analysis consists of the identification
+of the <hi rend="b"> entities </hi> which exist in a given Universe of
+Discourse and the meaningful <hi rend="b"> relationships </hi> which
+can be defined between them. The result of conceptual analysis is
+usually a network diagram like that of figure 5, representing the
+entities which have been identified and the relationships amongst
+them, and a descriptive list of the attributes identified for
+each entity. The process is essentially one of defining and
+clarifying a set of internally consistent categories, a taxonomy
+of experience.
+</p>
+
+<div><head> Attributes and entities </head>
+
+<p>An entity is usually defined as being any object of interest
+concerning which information is held. Each distinct category of
+the information held about a particular entity is regarded as an
+<hi rend="b"> attribute </hi> of the entity. 
+</p>
+<p>For example, <hi>Ship, Voyage</hi> and <hi>Merchant</hi>
+might be regarded as entities, with attributes such as
+<hi>Ship_Name, Registered_Port, Date_Registered, Tonnage,
+Voyage_Date, From_Port, Duration, Merchant_Name, Nationality,
+Hair_Colour</hi> etc.  respectively. A relationship
+<hi>Undertakes</hi> would be defined to indicate that
+<hi>Ship</hi>s and <hi>Voyage</hi>s can be meaningfully
+associated (a ship undertakes a voyage).
+</p>
+<p>In this approach, it is important to note that attributes are the
+most elementary items and cannot therefore be sub-divided. A
+given attribute should not contain multiple occurrences of the
+same sort of information, nor should it be used to group
+different but related pieces of information. For example, for the
+entity <hi>Merchant</hi>, rather than defining a single
+attribute <hi>Name</hi>, in most situations it would be
+better to define at least two distinct attributes <hi>Family-
+Name</hi> and <hi>Forenames</hi>, since it is likely that
+these are two aspects of a person's name which we will wish to
+treat differently. If we are particularly interested in
+Merchant's names, forenames should be treated as entities in
+their own right, since a Merchant may have more than one of them.
+</p>
+<p>Every attribute is said to have a <hi rend="b">Domain</hi> which
+defines the range of values or states which are meaningful or
+legal for that attribute. For example, <hi>Tonnage</hi> must
+be either null (unknown) or some number of tons within a known
+range. <hi>Voyage_Date</hi> must be a valid date later than
+<hi>Date_Registered</hi>.  A domain may be infinite (the set
+of natural numbers, for example) or very large, but still closed
+(the set of meaningful ship names, for example). The same domain
+may be occasionally be used for many different attributes:
+<hi>Ship_Colour</hi> and <hi>Hair_Colour</hi>, for
+example. The two attributes are still regarded as completely
+distinct. It is often the case that an entity can be defined
+which corresponds with such a domain: in this case, Colour.
+Similarly, the attributes  <hi>From_Port</hi> and
+<hi>Registered_Port</hi> both have values drawn from the same
+domain, composed of valid Port names. It might well be preferable
+to treat Port as an entity in its own right.
+</p>
+<p>Attributes are said to be <hi rend="b">identifying</hi> attributes if
+a particular value or state of that attribute is sufficient to
+identify a particular occurrence of the entity in which that
+attribute appears. For example, a ship's name might uniquely
+distinguish it from all other ships. More usually, a combination
+of attributes uniquely identifies an entity occurrence; for
+example, a particular voyage might be uniquely identified by a
+combination of <hi>Voyage_Date</hi> and
+<hi>From_Port</hi>. Identifying such combinations has very
+important ramifications when carrying out the next stage of
+database design: the construction of an appropriate data model. 
+</p>
+<p>As implied above, distinguishing attributes from entities is not
+always easy. Entities normally (but not always) correspond with
+some real object in the world, such as a ship or a voyage. They
+may also be thought of as convenient loci around which specific
+attributes (that is, categories of information) always cluster.
+Thus a voyage always involves a <hi>Voyage_Date</hi>, a
+<hi>From_Port</hi> etc.; together these form the definition
+of a particular 'Voyage'.  However, as soon as an attribute
+begins to be a focus of attention in its own right it becomes
+more 'entity-like'. Attributes cannot exist independently of an
+entity; if they appear to, they are probably better treated as
+entities. This is clearly the case for the two Port attributes
+mentioned above. <note n="[6]">  These and other problems are
+addressed in some detail in W. Kent Data and Reality (North
+Holland, 1978) </note>
+</p></div>
+<div><head> Relationships </head>
+
+<p>For simplicity's sake, only binary relationships are permitted in
+the conceptual modelling technique described here. A binary
+relationship states that entity occurrences at one end of the
+relationship may be meaningfully associated in some way with
+entities at the other end of the relationship. For example,
+voyages can meaningfully be related to ships because ships
+undertake voyages. Ships cannot, on the other hand, be
+meaningfully associated with merchants' names. 
+</p>
+<p>Two aspects of the relationships between entities are of
+particular importance: their <hi rend="b">cardinality</hi> and their
+<hi rend="b">optionality</hi>. By cardinality is meant the number of
+entity occurrences which may participate at either end of the
+relationship; by optionality whether or not participation in the
+relationship is a necessary condition for existence of an entity
+occurrence. 
+</p>
+<p>It is conventional to represent the conceptual model by a simple
+network, in which labelled nodes represent entities and arcs
+joining them represent relationships. Cardinality is indicated by
+a crows-foot symbol at the 'many' end of a relationship;
+optionality is marked by a dotted line.
+ 
+<figure n="2"><head>A one-to-many relationship</head>
+</figure>
+
+The cardinality of a relationship is said to be one-to-many (1:n)
+if one instance of one entity may be related to many instances of
+another. For example, a ship may make many voyages, but each
+voyage can be associated with only one ship. The
+<hi>undertakes</hi> relationship in figure 2 is thus 1:n. The
+optionality of the relationship is also considered at either end
+independently: a ship can exist without undertaking a voyage, but
+a voyage cannot exist without being related to the ship
+undertaking it. 
+
+<figure n="3"><head>A many-to-many relationship</head>
+</figure>
+</p>
+
+<p>It is quite often the case that many-to-many (m:n) relationships
+are identified during conceptual analysis, that is relationships
+in which many instances of an entity are involved at either end
+of the relationship. For example, Figure 3 shows a many-to-many
+relationship <hi> has_lived_in </hi> between entities
+<hi>Port</hi> and <hi>Merchant</hi> . A given Merchant
+might have lived in many different Ports on different occasions,
+while many different Merchants might be related in this way to
+the same Port.
+</p>
+
+<figure n="4"><head>Resolution of a many-to-many relationship</head>
+</figure>
+
+<p>When many-to-many relationships have been defined, it is nearly
+always possible to resolve them into a simpler structure
+involving an additional entity. In examining the relationship,
+one usually finds that some information is associated with the
+relationship itself (<hi>Dates_of_residence</hi> for example
+in the case of <hi>has_lived_in</hi>). This is clearly not an
+attribute either of a Merchant nor of a Port; its presence
+indicates the need for a third entity <hi>Residence</hi> (as
+in figure 4). Note that this is a general rule; in figure 5, the
+information conveyed by the two relationships
+<hi>undertakes</hi> and <hi>voyage_from</hi> together
+with the entity <hi>Voyage</hi> is exactly the same as the
+information we might have represented as an n:m relationship
+<hi>has_sailed_from</hi> between the entities Port and Ship.
+
+<figure n="5"><head>A simple conceptual model</head>
+</figure>
+</p>
+<p>Once such a model has been defined, it should be rigorously
+tested to see whether any meaningful question or statement within
+the given Universe of Discourse can be answered or represented by
+a traversal of the network. Figure 5 for example is intended to
+represent a Universe of Discourse concerned with port book data.
+It supports such questions as "Which ships have made voyages to
+German ports?", "What is the total value of goods imported
+subdivided by port?", "Which merchants owned cargoes containing
+French lace?". It will not however support queries such as "Which
+merchants own ships?" or "What cargoes are imported for merchants
+with French names?" because these involve entities and
+relationships not represented in the model. Construction of such
+a model is thus a very helpful stage in begining to understand
+how a given collection of data can meaningfully be interpreted. 
+</p></div></div>
+<div><head>4. From conceptual schema to database</head>
+
+<p>The conceptual model defines those entities and relationships
+which are meaningful for a given Universe of Discourse. It
+provides, in terms independent of any particular computer
+representation, a map of our chosen problem area. The next stage
+in designing a database is to re-define the conceptual model as a
+<hi rend="b">data model</hi>.  This model defines which entities and
+relationships are useful (as well as meaningful) for a particular
+set of applications, in terms which are appropriate to a
+particular computer representation of data. It is thus perfectly
+possible to develop several different data models (views of) the
+same conceptual model, for different purposes or using different
+software.</p>
+
+<p>The data models supported by currently available dbms are usually
+categorised as <hi rend="b">hierarchic, network </hi> or
+<hi rend="b">relational</hi>. 
+</p>
+<p>The first generally available dbms used a hierarchic data model,
+in which the basic data structure is a hierarchic tree. Entities
+are represented by records, and records are associated by chains
+of pointers going from "master" to "slave". Such systems (IBM's
+IMS or the statistical package SIR are examples) are still used,
+although their comparative inflexibility has made them rather
+unfashionable.
+</p>
+<p>The typical mainframe dbms of the seventies uses a 
+generalisation of the hierarchic data model, known as the network
+or  (from the influential body which first defined it) CODASYL
+<note n="7">The CODASYL (Conference on Data Systems Languages)
+proposals were first published in its Data Base Task Group Report
+of 1971, and its Journal of Development 1978. They were later
+standardised as the current ANSI Proposed Network Database
+Language (ANSC X3H2-84-48, 1984). Olle, T.W. The CODASYL approach
+to database management (Wiley, 1978) provides a detailed
+description. 
+</note>
+model. Such systems (for example Cullinane's IDMS) represent data
+in a network very similar to the conceptual model sketched above,
+with different record types corresponding to the entity types,
+and constructs called 'sets' corresponding to the relationships. 
+</p><p>
+Although capable of supporting arbitrarily complex conceptual
+structures, network systems are comparatively difficult to design
+and maintain. Two reasons commonly given for this are firstly
+that they tend to place on the programmer the onus of maintaining
+the pointer chains on which the structure of the system depends
+and secondly that recovering data from such a system typically
+involves a navigation around the network recovering small amounts
+of data in several discrete steps. Because of the use of pointer
+chains, CODASYL systems also tend to be very inflexible and
+difficult to extend.
+</p><p>
+Most modern dbms are, or claim to be, relational systems. Such
+systems derive ultimately from research carried out largely by
+Codd <note n="8"> The relational model was first described in
+E.F. Codd A relational model of data for large shared data banks
+CACM 13 (6) June 1970. Numerous books and articles have since
+been published on it. A simple tutorial account is given in C.J.
+Date A Database Primer (Addison Wesley 1984). Aspects of the
+relational model are currently being standardised by ANSC as A
+draft proposed relational database language (ANSC X3H2-84-24,
+1984). </note> 
+and others; not all of the original principles advanced in such
+research are in fact implemented in currently available systems,
+which has lead to some heated disagreements about their right to
+the description 'relational'. <note n="9">
+The controversy was initiated by a series of articles by E.F.
+Codd published in the journal Computer World during 1986
+</note> Examples of relational dbms currently popular include
+Oracle, Ingres and SQL/DS. As in other fields, the relational
+language favoured by IBM, SQL (Structured Query Language)
+provides a de facto standard to which other manufacturers are
+increasingly, if reluctantly, conforming. 
+</p><p>
+For our purposes, a relational system is one in which data is
+represented by tables, as shown in figure 6. Each table consists
+of a defined set of columns comprising zero or more unordered
+rows, and each row contains exactly one value for each defined
+column. There are thus obvious points of close similarity between
+the entities and attributes of the conceptual model and the
+tables and columns of this data model, to which we will return.
+
+<figure n="6"><head>Two example tables</head>
+<eg><![CDATA[
+SHIP
+
+Ship_No 	Ship_Name			Tonnage	Reg_Port
+1		Mary George		420		London
+22		Wildman			399		Hamburg
+12		Elizabeth			250		London
+14		Elizabeth			400		Rouen
+
+VOYAGE
+Ship_No	Voyage_date	Voyage_from	Voyage_Length
+1		1 Dec 1623	Hamburg		12
+1		12 Jan 1630	Hamburg		15
+22		10 Feb 1619	Rouen		22
+12		10 Feb 1619	Princetown	240
+]]></eg>
+</figure>
+</p><p>
+Unlike network or hierarchic systems, relational systems do not
+require that anything other than data be included in the model.
+There are no pointer chains or hierarchies. Relationships are
+represented explicitly by data, as we shall see.  New tables can
+be added and the structure of existing tables modified very
+simply.
+</p><p>
+In a relational system, all operations carried out on a table or
+set of tables always result in a new table (though this may
+contain only one row - or none at all). Three primitive
+operations are possible: <hi rend="b">select</hi>, which extracts a
+subset of the rows in a table using some procedure that can be
+evaluated against each row in isolation; <hi rend="b">project</hi>,
+which extracts a subset of the columns in a table eliminating any
+duplicate rows; and <hi rend="b">join</hi>, which combines two tables
+to form a third by means of some shared column. It has been
+demonstrated that these three operations are sufficient for the
+construction of a complete relational algebra and that query
+languages (such as IBM's SQL) which implement them are therefore
+mathematically complete. <note n="10"> Codd E.F. Relational
+completeness of data base sublanguages in Courant Computer
+Science Symposium 6, Prentice-Hall, 1972</note>
+</p><p>
+Referring to figure 6, it should be easy to find out, for
+example, how the "Select" operation would be used on the  ship
+table to determine the names of all ships of a certain tonnage,
+the "Project" operation to determine all ports from which
+journeys have been made, and the "Join" operation to find the
+dates of the two voyages carried out by the Mary George.  
+</p>
+<div><head> Relational relationships </head>
+
+<p>Much of the debate about whether or not a given system can be
+described as truly relational often centres on the question of
+what is known as <hi rend="b">referential integrity</hi>. In simple
+terms, this principle requires that a system provide mechanisms
+to enforce the optionality of the relationships defined in
+conceptual model. A more detailed discussion of how relationships
+are implemented in the relational model may therefore be helpful.
+ </p>
+<p>As mentioned above, it is important to distinguish identifying
+attributes from non-identifying ones. The relational model
+requires that there should be some column (or group of columns)
+for every table, the values in which uniquely identify the row in
+which they appear: this is known as the <hi rend="b">primary key
+</hi>of the table. In the port book example, I have invented
+arbitrary numbers to identify rows in the Ship table, for the
+Voyage table, the primary key might be a combination of the
+Ship_Number and Voyage_Date. Note that although the Ship_Number
+column occurs in both tables, it is the primary key only in the
+Ship table (where its values are unique). In the Voyage table,
+the Ship_Number is called a <hi rend="b">foreign key</hi>, because its
+values match (i.e. are drawn from the same domain as) those of
+the primary key of another table, the Ship table. Because the
+Ship_Number is sufficient to identify any row in the Ship table,
+it may be used (in the Voyage or any other table) to stand for
+the whole row. 
+</p>
+<p>In the relational model the relationships of the conceptual model
+are represented by relational joins between primary and foreign
+keys. For every relationship defined in the conceptual model,
+which is to be supported in the data model, it is necessary to
+identify some attribute which can act as a foreign key in the
+table corresponding with the entity at the "many" end of the
+relationship. Usually this will be the primary key of the table
+corresponding with the entity at the "one" end of the
+relationship. 
+</p>
+<p>An important principle of referential integrity states that, if a
+column is defined to be a foreign key, then every value in that
+column must either be null or must exist as a primary key in the
+appropriate table. In this way, the optionality constraint of the
+conceptual model can also be expressed in the relational model;
+for example, voyages may not exist without being associated with
+some ship because of the need to include a valid Ship_number as
+part of the identifier for a row in the Voyage table.  
+</p>
+<p>In this section, I have attempted to indicate how a conceptual
+schema may be expressed in terms of relational tables. There are
+now several fuller discussion of relational database techniques
+to be found in the literature.<note n="11"> Examples include
+the Date references already cited; Maier, D. The theory of
+relational databases, Computer Science Press 1983; .
+</note></p></div></div>
+<div><head>5. Conclusions </head>
+
+<p>Databases have, in a sense, always been with us. Such monuments
+of the last century's scholarship as the OED or the Dictionary of
+National Biography and even manuscripts such as Henslowe's Diary
+or the original Domesday Book, all used the technology of their
+era to present an internally coherent universe of discourse in
+such a way that its constituent entities and their relationships
+could be understood and used.  The technology of our era gives us
+new, and perhaps more flexible ways of representing the
+complexity of human knowledge. The contention of this chapter is
+that we should not aim for anything less: computer databases
+should not simply perpetuate atavistic cataloguing procedures,
+still less introduce arcane mystification of their own.  In
+attempting to design, even the simplest such system, I have
+argued that a necessary first step is to consider the information
+which the system is eventually to contain in terms quite
+independent of that final form. The classical distinction between
+'material' and 'form' is still with us. 
+</p></div></body>
+<back>
+<div><head>Appendix:  What components should you look for in a
+dbms?</head>
+
+<p>The first database management systems were designed for the vast
+mainframe computer systems of major commercial and administrative
+undertakings. The rapid expansion of the software marketplace,
+which now includes both small businesses and even domestic
+consumers, inevitably lead to a vast influx of products only
+dubiously describable as of the same type. In 1986, the price of
+such software database management systems, even for smaller
+machines, can vary from under £50 to more than £800, and it is
+not always the case that the consumer gets what he or she pays
+for. The following short check list may therefore be helpful. It
+lists features which (for this author at least) should be present
+and supported correctly in any software worthy the name of
+database management system.
+</p>
+
+<p>A DBMS normally includes components to (a) create and amend data
+definitions independently from data (b) define forms or screens
+for data entry and update (c) compile and format reports on the
+contents of the database, using a simple programming language (c)
+carry out ad hoc interactive searches of the database, preferably
+using a general purpose enquiry language such as SQL. For more
+specialist use, the dbms should also be accessible from a
+conventional high-level programming language such as COBOL,
+Fortran or C. Where databases are to be shared by many users, or
+contain rapidly changing data, the dbms must also provide
+adequate facilities to ensure that the data is secured against
+accidental or malicious corruption. 
+</p><p>
+There should be no unrealistic restrictions on the scale of
+database which the dbms can support (e.g. number of distinct
+tables, rows in a tables, columns in a row etc) nor on the range
+of values (character data, binary data in various forms, correct
+handling of dates etc.). Support for variable length character
+strings (text) in particular is often conspicuously absent.
+</p><p>
+There should be a single system definition and manipulation
+language, (such as SQL) which can be used to interrogate, extend
+and manipulate both data and data definitions. The full
+capabilities of the relational model should be supported,
+including tools to enforce referential integrity. The system
+should conform to emerging international standards.
+</p></div></back>
+  
+  </text>
+</TEI>

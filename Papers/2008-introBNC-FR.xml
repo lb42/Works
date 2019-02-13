@@ -1,0 +1,1558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>UNE INTRODUCTION AU BRITISH NATIONAL CORPUS DANS SON ÉDITION XML* </title>
+                <author>Lou Burnard</author>
+                <respStmt><resp>traduction francaise</resp><name>Nathalie Dugales</name><name>D. Seguin</name></respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2008-08-22</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <p>unknown</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application xml:id="doxtotei" ident="TEI_fromDOCX" version="2.15.0">
+                    <label>DOCX to TEI</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change><date>2014-12-15T16:01:08Z</date><name>xpthalie</name></change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p rend="Titre_JLC">UNE INTRODUCTION AU <hi rend="italic">BRITISH NATIONAL CORPUS</hi>
+                DANS SON ÉDITION XML<hi rend="Footnote_Characters_Footnote_Anchor"><note
+                        place="foot" xml:id="ftn2" n="2"><p rend="note_JLC"> Pour faire référence à
+                            cet article : Burnard Lou, « Une introduction au British National Corpus
+                            dans son édition XML », revue électronique <hi rend="italic">Texte et
+                                corpus</hi>, n°3 / août 2008, Actes des Journées de la linguistique
+                            de Corpus 2007, p. 17-34 (disponible sur <ref
+                                target="http://web.univ-ubs.fr/corpus/jlc5/ACTES/ACTES_JLC07_burnard.pdf"
+                                    ><hi rend="Internet_Link"
+                                    >http://web.univ-ubs.fr/corpus/jlc5/ACTES/ACTES_JLC07_burnard.pdf</hi></ref>).</p></note>*</hi><hi
+                    rend="Caractère_de_note_de_bas_de_page_Footnote_Anchor"><note place="foot"
+                        xml:id="ftn3" n="3"><p rend="note_JLC"> Une première version de cet article
+                            (en anglais) a été publiée sous le titre « The BNC: Where did we go
+                            wrong », in : Kettemann B. &amp; Markus G., <hi rend="italic">Teaching
+                                and learning by doing corpus analysis</hi>, Amsterdam : Rodopi,
+                            p. 51-71.</p><p rend="note_JLC"> La traduction de cet article a été
+                            réalisé par N. Dugalès et D. Seguin, avec la collaboration de C. Millon
+                            et G. Williams.</p></note></hi></p>
+            <p rend="auteur(s)_JLC">Lou Burnard</p>
+            <p rend="affiliation_JLC">Oxford University Computing Services</p>
+            <p >Le <hi rend="italic">British National Corpus</hi> (<hi rend="italic"
+                    >BNC</hi>) a eu au cours de la dernière décennie une influence considérable sur
+                la construction des corpus de langue, au moins comme point de référence majeur. Ce
+                corpus est, pour ainsi dire, le point culminant d’une tradition de recherche
+                remontant à 1964 et au corpus Brown d’un million de mots. Mais sa structuration et
+                ses techniques de production à une échelle industrielle permettent surtout
+                d’envisager un nouveau monde, où l’ingénierie centrée sur le langage et le
+                développement de logiciels est enfin au cœur de la société de l’information, plutôt
+                que de s’enferrer dans des développements théoriques stériles.</p>
+            <p>Cet article revient sur les problèmes de conception et de gestion,
+                ainsi que sur les options prises lors de la construction du <hi rend="italic"
+                    >BNC </hi>; il justifie enfin la pertinence toujours actuelle de sa version la
+                plus récente, au format XML.</p>
+            <div><head>1 QU’EST-CE donc, LE <hi rend="italic">BNC</hi> ?</head>
+            <p >Le <hi rend="italic">BNC</hi> est un corpus de cent millions de mots
+                d’anglais britannique moderne, produit au départ, entre 1990 et 1994, par un
+                consortium regroupant des éditeurs de dictionnaires et des chercheurs
+                universitaires. Le consortium réunissait les Presses Universitaires d’Oxford,
+                Longman et Chambers, en qualité d’éditeurs de dictionnaires, ainsi que les centres
+                de recherche des universités de Lancaster, d’Oxford et de la <hi rend="italic"
+                    >British Library</hi>. Le projet fut au départ conçu dans le cadre du
+                « Programme commun pour les Technologies de l’Information », une initiative
+                partiellement subventionnée du gouvernement britannique, dont l’objectif était de
+                faciliter la coopération entre le monde de l’entreprise et celui de la recherche
+                universitaire. Pour cela, partenaires commerciaux et recherche universitaire étaient
+                financés par le Ministère Brittanique de l’Industrie et du Commerce et par celui de
+                «Science and Engineering Research Council », respectivement à hauteur de 50 et 100
+                %. </p>
+            <p>L'histoire sociale a qualifié ces années 1990 de diverses manières ;
+                puisque notre propos est lié à l'équipement informatique, je suggère quant à moi de
+                leur attribuer le qualificatif de « néotoniques ». Il est utile de se souvenir que,
+                dans les magazines informatiques du début des années 1990, la discussion principale
+                comparait les mérites relatifs des traitements de textes <hi rend="italic"
+                    >WordPerfect</hi> (version 5) et <hi rend="italic">WinWord</hi> (un ancêtre de
+                l’omniprésent <hi rend="italic">Microsoft Word</hi> actuel). Si vous étiez
+                raisonnablement pourvu par votre université, vous pouviez alors avoir sur votre
+                bureau un ordinateur personnel doté du rapide processeur Intel 386, avec au moins 50
+                Mb de mémoire disque – juste assez somme toute pour lancer le <hi rend="italic"
+                    >Windows 3.1</hi> de <hi rend="italic">Microsoft</hi>. Mais le traitement
+                informatique réel était réalisé par votre laboratoire ou par le service informatique
+                central, sans soute pourvu d’un système Unix, quel qu’il fut, ou d’un ordinateur
+                VAX. À cette époque également, certaines personnes commencèrent à parler d’un
+                nouveau concept d’hypertexte, nommé « <hi rend="italic">World Wide Web »</hi>, et à
+                tester une nouvelle et impressionnante interface graphique appelée <hi rend="italic"
+                    >Mosaic</hi>…</p>
+            <p>Malgré tout, l’art de construire un corpus était déjà bien maîtrisé
+                dans ces années 1990, tout au moins par les Européens. C’est avec une indéniable
+                surprise que Leech déclare, dans la préface des <hi rend="italic">Actes de
+                    l’ICAME</hi> de 1990 : « Les corpus sont en train de devenir le courant
+                principal ». Nous pouvons distinguer trois courants intellectuels, ou trois
+                approches distinctes, émergeant alors : l’école traditionnelle, initiée par le
+                corpus Brown, institutionnalisée à travers le <hi rend="italic">LOB</hi> (<hi
+                    rend="italic">Lancaster-Oslo/Bergen corpus</hi>) et perpétuée à travers l’<hi
+                    rend="italic">ICAME</hi> (<hi rend="italic">International Computer Archive of
+                    Modern and Medieval English</hi>) ; l’École de Birmingham qui, participant au
+                projet <hi rend="italic">Cobuild</hi> (<hi rend="italic">Collins Birmingham
+                    University International Language Database</hi>) vers la fin des années 1980<hi
+                    rend="Caractère_de_note_de_bas_de_page_Footnote_Anchor"><note place="foot"
+                        xml:id="ftn4" n="4"><p rend="note_JLC"> Pour un résumé de ce travail,
+                            préfigurant en bien des aspects le <hi rend="italic">BNC</hi>, voir
+                            Renouf (1986) et les nombreuses autres publications de son mentor, J. Mc
+                            H. Sinclair (ex. Sinclair 1987).</p></note></hi><hi
+                    rend="Caractère_de_note_de_bas_de_page">,</hi> construit des collections
+                toujours plus importantes de matériaux textuels ; et l’approche américaine dont
+                l’expression la plus célèbre a été celle de Mitch Marcus : « there’s no data like
+                more data » (« rien de tel que toujours plus de données »). La naissance de la
+                lexicographie assistée par ordinateur est la conséquence la plus visible de la
+                combinaison de ces différentes traditions de recherche, bénéficiant non seulement de
+                la mise à disposition de dictionnaires traditionnels - tels que le <hi rend="italic"
+                    >Dictionnary of Contemporary English </hi>de Longman et, bien sûr, la
+                numérisation du <hi rend="italic">Oxford English Dictionnary</hi> lui-même, mais
+                aussi d'un intérêt sans cesse croissant, au sein de la communauté des linguistes,
+                pour la linguistique computationnelle (Atkins, 1992).</p>
+            <p>Par ailleurs, ce début des années 1990 constitue une période
+                particulièrement stimulante au regard de la synergie existant alors au sein de la
+                recherche d’applications pour les technologies de l’information. Les « sciences
+                humaines computationnelles » et la « linguistique computationnelle » remportèrent en
+                ce temps-là leur premier (et à ce jour, unique) succès commun : l’établissement
+                d’une norme de balisage des textes appropriée à la naissance de l’ère digitale<hi
+                    rend="Caractère_de_note_de_bas_de_page_Footnote_Anchor"><note place="foot"
+                        xml:id="ftn5" n="5"><p rend="note_JLC"> L’introduction de l’ouvrage de
+                            Zampolli (1994) explicite cette connexion. </p></note></hi>. Les termes
+                d’« ingénierie du langage » ont été utilisés non pour décrire une douteuse forme de
+                politique sociale, mais une nouvelle technologie en quelque sorte plus « sexy ».
+                C’est dans ce contexte que la création du <hi rend="italic">BNC</hi> fut financée
+                trois années durant, avec un budget d’environ 1,5 million de livres sterling.</p>
+            <p>Ce projet d'établissement du <hi rend="italic">BNC</hi> est né d'une
+                convergence inhabituelle d’intérêts entre lexicographes, éditeurs, chercheurs et
+                gouvernement. Parmi les éditeurs, les Presses Universitaires d’Oxford et Longman
+                envisageaient déjà les potentiels bénéfices de l’utilisation d’un corpus. Le succès
+                des dictionnaires <hi rend="italic">Collins COBUILD</hi> (le premier, publié en
+                1987, fut probablement le premier dictionnaire majeur pour apprenants entièrement
+                acquis aux principes du corpus) stimula également fortement la motivation de ces
+                éditeurs rivaux que sont OUP et Longman. Pour le gouvernement, un facteur clé était
+                le désir de stimuler l’industrie en ingénierie de la langue anglaise, dans le
+                contexte d’un intérêt croissant pour ce domaine en Europe. Nous détaillerons un peu
+                plus bas que, pour les chercheurs d’Oxford et de Lancaster, cette synergie fortuite
+                était également l'occasion inespérée de pousser encore plus loin les limites de la
+                construction de corpus. Pour la <hi rend="italic">British Library</hi>, le corpus
+                était enfin l'un de ces projets exploratoires permettant d'expérimenter les nouveaux
+                médias à l’aube de l’ère des bibliothèques numériques (pour trouver d’autres
+                exemples, <hi rend="italic">cf</hi>. Carpenter, 1998).</p>
+            <p>Les buts prescrits du projet <hi rend="italic">BNC</hi> étaient dès
+                le départ clairement explicites : il s’agissait de créer un corpus de langue au
+                moins aussi grand que tout ce qui était librement utilisable jusque-là<hi
+                    rend="Caractère_de_note_de_bas_de_page_Footnote_Anchor"><note place="foot"
+                        xml:id="ftn6" n="6"><p rend="note_JLC"> Bien qu’incontestablement plus
+                            grand, le corpus <hi rend="italic">Bank of English</hi> développé au
+                            cours du projet <hi rend="italic">Cobuild</hi> n’a pas été créé à
+                            l’origine pour la distribution ou l’utilisation à l’extérieur du projet.
+                            À ce jour, les droits de propriétés intellectuels et autres restrictions
+                            en limitent effectivement l’accès.</p></note></hi>. Ce nouveau corpus se
+                devait d’être synchronique et contemporain, et constituer un échantillonnage
+                conséquent de l’ensemble de la langue anglaise, à la fois parlée et écrite. Les
+                débats et discussions ont beaucoup porté sur cette notion d’échantillon, en
+                particulier pour la construction du corpus. À la différence d’autres collections de
+                données langagières alors populaires, on peut définir le projet du <hi rend="italic"
+                    >BNC</hi> comme « non opportuniste », sa conception ne visant pas directement
+                des objectifs de rentabilité économique. Afin de créer un corpus utilisable par
+                tous, il devait être entièrement étiqueté - de manière automatique, et contenir de
+                plus une information contextuelle très détaillée. Ces trois caractéristiques,
+                ajoutées à sa grande taille et à sa disponibilité générale, rendaient le <hi
+                    rend="italic">BNC</hi> unique au sien des autres collections de données
+                langagières, et justifiaient par ailleurs le « national » de son titre (ce
+                qualificatif ne fut initialement inclus qu’en compensation de son partiel
+                financement public).</p>
+            <p>D'autres visées existaient, mais ces dernières n'étaient pas
+                clairement définies même si elles étaient présentes de manière implicite dès la
+                conception du projet. Pour les partenaires commerciaux, la raison principale de leur
+                investissement substantiel, en temps et argent, était bien sûr la production de
+                meilleurs dictionnaires pour apprenants ainsi que, peut-être, l’espoir de gains en
+                terme de reconnaissance. Pour les partenaires universitaires, un objectif implicite
+                était d’établir un nouveau modèle de développement de corpus, au sein d’une
+                industrie des langues alors en pleine émergence en Europe. Il s’agissait également
+                de tester des idées nouvelles quant à la standardisation du balisage des textes et
+                son interprétation. Mais, plus que tout cela, il y avait le simple souhait de
+                construire un très, très gros corpus !</p>
+            </div><div><head>2 l'ORGANISATION DU PROJET</head>
+            <p >Cette coopération entre industriels et chercheurs a eu une
+                conséquence inattendue et intéressante, celle de souligner la nécessité de trouver
+                un accomodement entre désir de perfectabilité des chercheurs et impératifs financier
+                et de temps des partenaires commerciaux (pour plus de détails, <hi rend="italic"
+                    >cf.</hi> Burnard, 1999). Par la mise en place d’un système de production de
+                texte à une échelle industrielle, l’instauration du projet lui-même fut
+                inévitablement l'objet de compromis tant aux niveaux conceptuel que exécutif. La
+                Figure 1 illustre la chaîne de production du <hi rend="italic">BNC</hi>, surnommée
+                par le manager du projet, Jeremy Clear, « <hi rend="italic">the BNC Sausage
+                    Machine</hi> » (<hi rend="italic">La machine à saucissonner du BNC</hi>)</p>
+            <figure>
+                <graphic n="1001" width="11.324166666666667cm" height="7.027333333333333cm"
+                    url="media/image1.png" rend="inline">
+                    <desc/>
+                </graphic>
+                <head rend="légendes_JLC">Figure 1 : « The BNC Sausage Machine » (la machine à saucissonner
+                    du BNC)</head> </figure>
+           
+            <p>Comme le montre cette figure, la production des différents types de
+                matériau était répartie entre les différents acteurs du projet. Longman était chargé
+                de la collecte et de la transcription du matériau oral. Les OUP se concentraient
+                quant à elles sur la transcription du matériau écrit, soit par l'utilisation de
+                différents systèmes de reconnaissance optique de caractère, la saisie informatique
+                ou bien encore en utilisant des données déjà disponibles sous forme numérique. Le
+                rôle des services informatiques de l’Université d’Oxford, Oxford University
+                Computing Services (OUCS), était ensuite d’effectuer la conversion de tous ces
+                matériaux en un seul et même format, et d’en valider la structure. OUCS maintenait
+                également à jour une base de données, renseignant sur les sources et flux de
+                travail. Les annotations linguistiques du matériau étaient effectuées par l’équipe
+                de Lancaster, qui a utilisé pour cela l’étiqueteur déjà bien connu <hi rend="italic"
+                    >CLAWS</hi> (<hi rend="italic">cf. infra.</hi> et Garside, 1996). Aux textes
+                ainsi obtenus fut finalement associée une description normalisée des méta-données,
+                extraite de la base de données sous la forme d’un document conforme aux
+                recommandations de la TEI (<hi rend="italic">Text Encoding Initiative</hi>)
+                (Sperberg &amp; McQueen, 1994).</p>
+            <p>Bien entendu, la « machine à saucissonner du <hi rend="italic"
+                    >BNC</hi> » n’a pas tourné à vitesse constante tout au long du projet, et il y
+                eu d’inévitables interruptions ou blocages. Le développement du corpus était réparti
+                entre cinq groupes de travail, auxquels participaient de manière variable les
+                équipes de chaque membre du consortium. Nous pourrions résumer le travail de chacun
+                de ces groupes de la façon suivante : </p>
+            <p rend="citation_JLC">- autorisations : conception (et envoi) de courriers standards
+                pour l’autorisation d’inclure dans le corpus tous les documents protégés par des
+                droits de propriété intellectuelle ;</p>
+            <p rend="citation_JLC">- critères d’élaboration : définition des différents types de
+                textes à intégrer au corpus et dans quelles proportions ;</p>
+            <p rend="citation_JLC">- enrichissement et annotations : mise en œuvre de l’annotation
+                linguistique et contextuelle des textes du corpus ;</p>
+            <p rend="citation_JLC">- Encodage et l’étiquetage : définition de la structure de
+                balisage, servant de référence à l’ensemble du corpus final, et des procédures
+                permettant de l’appliquer aux différents formats de collecte des textes.</p>
+            <p rend="citation_JLC">- Logiciel d’extraction : définition et mise en œuvre d’un
+                logiciel d’extraction simple de l’ensemble des informations encodées dans le
+                corpus.</p>
+            <p>Chacun de ces sujets sera abordé de façon plus détaillée dans les
+                sections suivantes.</p>
+            <p rend="Titre2_JLC">2.1 Le problème des autorisations.</p>
+            <p >Comme indiqué ci-dessus, le <hi rend="italic">BNC</hi> était le
+                premier corpus de cette taille conçu pour être largement accessible. Ceci n'a été en
+                grande part possible que grâce au travail fourni par ce groupe de définition d'un
+                contrat d’utilisation qui fasse l'unanimité, entre les propriétaires des droits, le
+                consortium et les utilisateurs. Pour les propriétaires des droits, ceux-ci devaient
+                non seulement autoriser l'intégration de leur matériau au corpus sans exiger pour
+                autant de compensation financière, mais également accepter une licence d’utilisation
+                encore en vigueur aujourd’hui. Le caractère innovant du concept et le prestige
+                associé au projet ont peut-être, dans une certaine mesure, facilité un tel accord.
+                Tous les propriétaires contactés n’ont cependant pas, loin de là, accepté
+                immédiatement une cession gracieuse pour un usage, sans limitation de durée, des
+                versions numérisées. Certains préférèrent éviter de s’engager de quelque façon que
+                ce soit ; d’autres refusaient tout accord gratuit. </p>
+            <p>En matière d’autorisation, le matériau oral soulevait deux problèmes
+                spécifiques. Les participants ayant été assurés que leur identité demeurerait
+                secrète, d’importants efforts durent être déployés afin de trouver le meilleur moyen
+                pour préserver l'anonymat des contributions sans compromettre outre mesure leur
+                utilité linguistique. Des allusions trop explicites à l'identité des personnes
+                furent en de nombreux cas supprimées et, si la possibilité d’employer des
+                pseudonymes (linguistiquement semblables) fut un temps envisagée, cela s’est avéré
+                pratiquement impossible. </p>
+            <p>Un problème plus embarrassant est venu du fait que, pour les
+                personnes qui furent interviewées dans l'objectif d'intégrer leur discours à
+                l’échantillon conversationnel du corpus<hi
+                    rend="Footnote_Characters_Footnote_Anchor"><note place="foot" xml:id="ftn7"
+                        n="7"><p rend="note_JLC"> Dans l’objectif de rendre compte de l’ensemble des
+                            discours oraux produits, le <hi rend="italic">BNC</hi> ne pouvait
+                            limiter son corpus oral à la seule retranscription de matériaux
+                            conversationnels recueillis auprès d'une part représentative de la
+                            population brittanique (« <hi rend="italic">the demographically sampled
+                                part of the corpus</hi> »). Un second sous-corpus fut donc élaboré
+                            afin de prendre en compte les situations plus cadrées, l'échantillon de
+                            discours produits en contexte dirigé («<hi rend="italic"> the
+                                context-governed sample part of the corpus</hi> »). <hi
+                                rend="italic">Cf</hi>. Section 2.2 [ndt].</p></note></hi> (« <hi
+                    rend="italic">The demographically sampled part of the corpus</hi> », composante
+                principale du corpus oral du <hi rend="italic">BNC</hi>), ne fut demandée (et
+                accordée) que l’autorisation d’inclure les versions retranscrites de leurs discours,
+                non ce discours lui-même. Il eu fallut demander cette autorisation aux locuteurs
+                originaux eux-mêmes ; l’efficacité de l’anonymisation des procédures a rendu ensuite
+                la chose beaucoup plus complexe.</p>
+            <p>Deux facteurs supplémentaires ont freiné l’empressement des
+                détenteurs de droits à nous donner leur accord : tout d'abord, le fait que le corpus
+                n’intégrerait aucun texte complet et ensuite, que l’exploitation, ou la
+                distribution, des matériaux du corpus n’était l’objet d’aucune intention
+                commerciale. Ceci n’excluait toutefois pas l’utilisation commerciale de produits
+                dérivés, créés pour permettre l’accès au corpus. Cette distinction, explicite dans
+                la licence utilisateurs, est essentielle pour permettre à la fois une disponibilité
+                à long terme du corpus pour la recherche, et un emploi dans le secteur commercial
+                par exemple comme plateforme d’expérimentation d’autres projets, du modeste
+                correcteur orthographique à la plus sophistiquée mémoire de traduction. Pour
+                souligner ce positionnement initial de ne pas distribuer le corpus lui-même sur une
+                base commerciale, l’un des membres universitaires du consortium, OUCS, a été nommé
+                comme l'unique agent à même de fournir les licences, et de rapporter en outre tout
+                cas litigieux au consortium lui-même. Initialement limitée à l’Union Européenne, la
+                distribution du corpus en dehors de l’Europe fut finalement possible à partir de
+                1998.</p>
+            <p rend="Titre2_JLC">2.2 Les critères de conception.</p>
+            <p >Le caractère « non opportuniste » du <hi rend="italic">BNC</hi> est
+                rapidement évoqué ci-dessus (<hi rend="italic">supra.</hi> Section 1) ; un retour
+                sur le contexte historique de l'époque permettra de réellement percevoir cette
+                spécificité comme remarquable et distinctive. Durant les années 1990, même si toutes
+                sortes de supports textuels faisaient l'objet d'une maquette au format numérique
+                avant leur impression sur papier, l’idée que cette forme numérique elle-même pouvait
+                avoir une quelconque valeur n’était pas monnaie courante. En outre, la numérisation
+                était à cette époque précédant le commerce électronique encore loin d’être une
+                constante, tant dans sa couverture que dans les formats. La conséquence était que
+                les chercheurs succombaient à une tendance, bien compréhensible, de sauter sur
+                n'importe quel texte électronique disponible sans prendre plus en compte leur statut
+                spécifique par rapport à la langue en générale. Pour prendre un exemple célèbre, une
+                grande partie du <hi rend="italic">Wall Street Journal</hi> était alors déjà
+                disponible sous forme numérique et guettait le danger suivant : celui de s'appuyer
+                sur cet unique type d’écrit, d’un registre bien spécifique, pour servir de base à la
+                linguistique computationnelle naissante et en déduire ainsi des généralisations
+                abusives à l’ensemble de la langue. </p>
+            <p>Pour corriger ceci, le projet <hi rend="italic">BNC</hi> s’appuya
+                dès sa conception sur le respect d’un certain nombre de critères précis, pas
+                uniquement leur disponibilité sous forme numérique, pour collecter ses échantillons
+                de la langue. Ces critères (judicieusement résumés dans Atkins, 1992) ont défini les
+                caractéristiques exactes des textes ainsi que leur proportion, pour la constitution
+                de l'échantillon de matériaux écrits du corpus. L'objectif premier du <hi
+                    rend="italic">BNC</hi> était de permettre de dire quelque chose sur la langue en
+                général. Mais cette langue est-elle ce qui est réceptionné (lu ou entendu) ou ce qui
+                est produit (écrit ou parlé) ? En bons pragmatiques anglo-saxons, les concepteurs du
+                    <hi rend="italic">BNC</hi> ont décidé d’ignorer la traditionnelle dichotomie
+                Saussurienne en tentant de tenir compte des deux perspectives. </p>
+            <p>L’objectif était de définir un échantillon à plusieurs niveaux
+                répondant aux différents critères choisis. Même s'il est délicat de déclarer le
+                corpus statistiquement représentatif de l’ensemble du langage, en terme de
+                production ou de réception, le <hi rend="italic">BNC</hi> ambitionne cependant de
+                représenter des variabilités reconnues de la langue, définies selon certaines
+                dimensions spécifiques telles que le mode de production (oral ou écrit), le média
+                (livre ou journal, etc.), le domaine (fiction, scientifique, loisirs etc.), le
+                contexte social (formel, informel, entreprenorial, etc.) et ainsi de suite. </p>
+            <p>Cet article n’a pas pour propos de répéter en détail les raisons
+                ayant guidé les choix opérés dans le <hi rend="italic">BNC</hi><hi
+                    rend="Caractère_de_note_de_bas_de_page_Footnote_Anchor"><note place="foot"
+                        xml:id="ftn8" n="8"><p rend="Footnote"> Ceci est abordé de façon exhaustive
+                            dans Atkins (1992) pour le matériau écrit, et dans Crowdy (1995) en ce
+                            qui concerne le matériau oral. Des commentaires et tableaux détaillés
+                            sont également fournis dans le « BNC User Reference Guide » (Burnard,
+                            1995, revu en 2000,
+                        http://www.natcorp.ox.ac.uk/docs/userManual/)</p></note></hi> pour la
+                classification des textes. Par exemple, les « textes oraux » peuvent être
+                caractérisés soit par l’âge, le sexe, ou la classe sociale (de la personne
+                collectant ces données, non de son interlocuteur), soit par le domaine, la région ou
+                le type de discours enregistré ; les « textes écrits » de leur côté seront également
+                être caractérisables selon leur auteur (âge, sexe ou type), leur public (diffusion,
+                statut) ou encore, comme nous l’avons déjà vu ci-dessus, le média ou le domaine.
+                Certaines de ces catégories relevaient de critères initiaux de sélection, exigeant
+                donc de respecter des valeurs et des proportions prédéfinies ; d’autres critères
+                n’auront qu’une valeur descriptive, puisqu'aucune proportion particulière n’était
+                recherchée si ce n’est une volonté de maximiser les variables au sein de chaque
+                catégorie. Il est essentiel de remarquer que ces indications ont pour seul objectif
+                d’améliorer plus encore la documentation du corpus, non d’en faciliter l’accès ou de
+                créer des sous-corpus en lien avec quelque théorie que ce soit. </p>
+            <p>Les objectifs poursuivis, qu'une telle conception du projet
+                justifiait, ont en tout état de cause du être tempérés au regard des réalités de la
+                vie économique. Pour résumer grossièrement cette conjecture, il suffit d’indiquer
+                que le coût de la retranscription d’un matériel oral est 10 fois plus important que
+                celui de l’ajout de textes, de proportion équivalente en nombre de mots, en
+                provenance d’un quotidien. La proportion entre matériaux écrit et oral est ainsi de
+                dix contre un, même si nombreux sont ceux qui suggéraient que, l’oral et l’écrit
+                ayant selon eux la même importance en terme de signification dans la langue, ils
+                devaient être présents en quantité égale dans le corpus. Au sein du corpus oral, il
+                fut tout de même tenté de représenter à la fois différents types de discours
+                élaborés dans un cadre normé (« <hi rend="italic">The context-governed sampled
+                    part</hi> ») et différentes formes d’anglais conversationnel (« <hi
+                    rend="italic">The demographically sampled part</hi> »).</p>
+            <p>Ce sont, de manière similaire, des questions pragmatiques qui
+                conduisirent à la présence prédominante, au sein du corpus écrit, de livres publiés
+                et de périodiques. Si cependant ce type de textes - publiés sous la forme de livres,
+                de magazines, etc. - ne peut être totalement représentatif de la langue écrite
+                produite (puisque écrire en vue d'une publication est une activité relativement
+                spécialisée, dans laquelle finalement peu de personnes s’engagent), il demeure tout
+                de même largement représentatif de la langue écrite telle qu’elle est reçue par la
+                plupart des personnes. Une quantité non négligeable d’autres productions textuelles
+                fut en outre ajoutée au corpus (notamment des matériaux non publiés, lettres ou
+                littérature grise). Enfin, au sein d’un type de textes aisément accessible comme les
+                journaux, nous avons pris tout de même le soin de constituer des échantillons,
+                intégrant différents quotidiens et tabloïds, à la fois nationaux et régionaux, et
+                faisant en sorte que les plus faciles à collecter (les quotidiens nationaux) ne
+                noient pas les autres sous leur nombre.</p>
+            <p>Dans sa version actuelle, l’édition XML du <hi rend="italic"
+                    >BNC</hi> (<hi rend="italic">BNC XML Edition</hi>) intègre 4 049 textes pour
+                environ 4.5 Gb (balisage XML inclus). Il contient au total un peu moins de cent
+                millions de mots (il y a 98 363 784 éléments lemmatisés, soit un peu plus de six
+                millions (6 026 284) de segments, tels qu’identifiés par <hi rend="italic"
+                    >CLAWS</hi>). Le corpus se décompose de la façon suivante (<hi rend="italic"
+                    >cf</hi>. <hi rend="italic">Tableau 1</hi>) : </p>
+            <table rend="rules">
+                <head rend="légendes_JLC">Tableau 1 : Le Corpus BNC actuel par type de textes.</head>
+                <row>
+                    <cell rend="Normal background-color(F3F3F3)"/>
+                    <cell rend="Normal">Texts</cell>
+                    <cell rend="Normal">W-units</cell>
+                    <cell rend="Normal">%</cell>
+                    <cell rend="Normal">S-units</cell>
+                    <cell rend="Normal">%</cell>
+                </row>
+                <row>
+                    <cell rend="Normal"><hi rend="italic">Spoken demographic</hi><lb/>(Anglais
+                        conversationnel représentatif de la population brittanique)</cell>
+                    <cell rend="Normal">153</cell>
+                    <cell rend="Normal">4 233 955</cell>
+                    <cell rend="Normal">4,30</cell>
+                    <cell rend="Normal">610 557</cell>
+                    <cell rend="Normal">10,13</cell>
+                </row>
+                <row>
+                    <cell rend="Normal background-color(F3F3F3)"><hi rend="italic">Spoken
+                            context-governed</hi><lb/>(Paroles énoncées en contexte dirigé)</cell>
+                    <cell rend="Normal">755</cell>
+                    <cell rend="Normal">6 175 896</cell>
+                    <cell rend="Normal">6,27</cell>
+                    <cell rend="Normal">427 523</cell>
+                    <cell rend="Normal">7,09</cell>
+                </row>
+                <row>
+                    <cell rend="Normal background-color(F3F3F3)"><hi rend="italic">Written books and
+                            periodicals</hi><lb/>(Ecrits en provenance de livres publiés ou de
+                        périodiques)</cell>
+                    <cell rend="Normal">2 685</cell>
+                    <cell rend="Normal">79 238 146</cell>
+                    <cell rend="Normal">80,55</cell>
+                    <cell rend="Normal">4 395 581</cell>
+                    <cell rend="Normal">72,94</cell>
+                </row>
+                <row>
+                    <cell rend="Normal background-color(F3F3F3)"><hi rend="italic"
+                            >Written-to-be-spoken</hi><lb/>(Ecrits destinés à être énoncés)</cell>
+                    <cell rend="Normal">35</cell>
+                    <cell rend="Normal">1 278 618</cell>
+                    <cell rend="Normal">1,29</cell>
+                    <cell rend="Normal">104 665</cell>
+                    <cell rend="Normal">1,73</cell>
+                </row>
+                <row>
+                    <cell rend="Normal background-color(F3F3F3)"><hi rend="italic">Written
+                            miscellaneous</hi><lb/>(Ecrits divers)</cell>
+                    <cell rend="Normal">421</cell>
+                    <cell rend="Normal">7 437 168</cell>
+                    <cell rend="Normal">7,56</cell>
+                    <cell rend="Normal">487 958</cell>
+                    <cell rend="Normal">8,09</cell>
+                </row>  
+                
+            </table>
+            <p rend="citation_JLC">« texts » : indique le nombre d’échantillons distincts, chacun
+                n’excédant pas les 45 000 mots.</p>
+            <p rend="citation_JLC">« S-units » : indique le nombre de segments identifiés par le
+                système CLAWS (correspond globalement au nombre de phrases)</p>
+            <p rend="légendes_JLC"><hi rend="italic">« W-units » : indique le nombre d’éléments
+                    « w » identifiés par le système CLAWS (correspond globalement au nombre de
+                    mots).</hi></p>
+            <p>Au sein de la partie écrite du corpus, étaient définies au préalable
+                les proportions désirées dans la répartition entre les différents types de médias et
+                les différents sujets. Le <hi rend="italic">Tableau 2 </hi>en détaille
+                quelques-unes : </p>
+            <table rend="rules"> <head>Tableau 2 : Répartition des différents types d’écrits dans le
+                corpus.</head>
+                <row>
+                    <cell rend="Normal background-color(F3F3F3)"/>
+                    <cell rend="Normal background-color(F3F3F3)">Texts</cell>
+                    <cell rend="Normal background-color(F3F3F3)">W-Units</cell>
+                    <cell rend="Normal background-color(F3F3F3)">%</cell>
+                    <cell rend="Normal background-color(F3F3F3)">S-Units</cell>
+                    <cell rend="Normal background-color(F3F3F3)">%</cell>
+                </row>
+                <row>
+                    <cell rend="Normal background-color(F3F3F3)">imagination</cell>
+                    <cell rend="Normal">476</cell>
+                    <cell rend="Normal">16 496 420</cell>
+                    <cell rend="Normal">18,75</cell>
+                    <cell rend="Normal">1 352 150</cell>
+                    <cell rend="Normal">27,10</cell>
+                </row>
+                <row>
+                    <cell rend="Normal background-color(F3F3F3)">Instruction : sciences dures et
+                        naturelles</cell>
+                    <cell rend="Normal">146</cell>
+                    <cell rend="Normal">3 821 902</cell>
+                    <cell rend="Normal">4,34</cell>
+                    <cell rend="Normal">183 384</cell>
+                    <cell rend="Normal">3,67</cell>
+                </row>
+                <row>
+                    <cell rend="Normal background-color(F3F3F3)">Instruction : sciences
+                        appliquées</cell>
+                    <cell rend="Normal">370</cell>
+                    <cell rend="Normal">7 174 152</cell>
+                    <cell rend="Normal">8,15</cell>
+                    <cell rend="Normal">356 662</cell>
+                    <cell rend="Normal">7,15</cell>
+                </row>
+                <row>
+                    <cell rend="Normal background-color(F3F3F3)">instruction : sciences
+                        sociales</cell>
+                    <cell rend="Normal">526</cell>
+                    <cell rend="Normal">14 025 537</cell>
+                    <cell rend="Normal">15,94</cell>
+                    <cell rend="Normal">698 218</cell>
+                    <cell rend="Normal">13,99</cell>
+                </row>
+                <row>
+                    <cell rend="Normal background-color(F3F3F3)">instruction: monde des
+                        affaires</cell>
+                    <cell rend="Normal">483</cell>
+                    <cell rend="Normal">17 244 534</cell>
+                    <cell rend="Normal">19,60</cell>
+                    <cell rend="Normal">798 503</cell>
+                    <cell rend="Normal">16,00</cell>
+                </row>
+                <row>
+                    <cell rend="Normal background-color(F3F3F3)">instruction: commerce et
+                        finance</cell>
+                    <cell rend="Normal">295</cell>
+                    <cell rend="Normal">7 341 163</cell>
+                    <cell rend="Normal">8,34</cell>
+                    <cell rend="Normal">382 374</cell>
+                    <cell rend="Normal">7,66</cell>
+                </row>
+                <row>
+                    <cell rend="Normal background-color(F3F3F3)">instruction: arts</cell>
+                    <cell rend="Normal">261</cell>
+                    <cell rend="Normal">6 574 857</cell>
+                    <cell rend="Normal">7,47</cell>
+                    <cell rend="Normal">321 140</cell>
+                    <cell rend="Normal">6,43</cell>
+                </row>
+                <row>
+                    <cell rend="Normal background-color(F3F3F3)">instruction: croyances et
+                        opinions</cell>
+                    <cell rend="Normal">146</cell>
+                    <cell rend="Normal">3 037 533</cell>
+                    <cell rend="Normal">3,45</cell>
+                    <cell rend="Normal">151 283</cell>
+                    <cell rend="Normal">3,03</cell>
+                </row>
+                <row>
+                    <cell rend="Normal background-color(F3F3F3)">instruction: loisir</cell>
+                    <cell rend="Normal">438</cell>
+                    <cell rend="Normal">12 237 834</cell>
+                    <cell rend="Normal">13,91</cell>
+                    <cell rend="Normal">744 490</cell>
+                    <cell rend="Normal">14,92</cell>
+                </row>
+               
+            </table>
+           
+            <p>La partie orale du corpus est elle-même composée de deux sous
+                parties. Une première moitié (approximativement) comprend des conversations
+                informelles enregistrées auprès d’environ 200 volontaires, recrutés pour le projet
+                par une agence privée d’étude de marché. Ce premier ensemble (« <hi rend="italic"
+                    >the demographically sampled part</hi> ») forme un échantillon représentatif
+                selon des critères d’âge, de sexe, de zone géographique, et de classe sociale. Cette
+                méthode d’échantillonnage reflète la répartition démographique de la langue parlée,
+                mais en raison de sa taille modeste, il exclut probablement du corpus de nombreuses
+                variations linguistiquement significatives relatives au contexte. Pour compenser
+                cela, l’autre moitié du corpus oral (« <hi rend="italic">the context-governed
+                    sampled part of the corpus</hi> ») se compose de discours enregistrés dans
+                diverses situations prédéfinies, des réunions publics ou semi-publics par exemple,
+                des interviews professionnelles, des débats (semi-)formels en contexte
+                universitaire, entreprenorial ou de loisirs, ...</p>
+            <p>On peut regretter après coup que certaines catégorisations
+                (l’origine ethnique de l’auteur, par exemple) aient été trop partiellement définies.
+                La précision et la constance avec laquelle toutes ces variables sont en réalité
+                présentes dans les en-têtes des textes ont sérieusement souffert à la fois des
+                contraintes de production et du manque d’informations disponibles. Même le concept
+                apparemment aussi neutre que celui de la datation n’était pas sans poser problème
+                pour les textes écrits : devions-nous prendre en compte la date de la version
+                utilisée ou bien celle de la première édition ? De la même façon, quand nous
+                parlions de « l’âge de l’auteur », devions-nous considérer son âge au moment de la
+                publication ou bien celui à l’impression de l’ouvrage ? </p>
+            <p>D’autres corpus avant le <hi rend="italic">BNC</hi> ont bien sûr été
+                conçus selon des méthodes semblables, quoiqu’à une moindre échelle. Néanmoins, les
+                méta-données accompagnant ces corpus étaient alors généralement considérées comme un
+                élément strictement distinct du corpus lui-même, pouvant être consulté par quelques
+                curieux dans le <hi rend="italic">Manuel d’information</hi>. La TEI impliquait une
+                innovation, adoptée par le <hi rend="italic">BNC</hi> : celle d’intégrer à chaque
+                fichier texte du corpus un en-tête distinct certes mais respectant une convention
+                unique pour l'ensemble du corpus. Cet en-tête contient des informations
+                d’identification et de classification de chaque texte ; il caractérise par exemple
+                les locuteurs ou bien encore fournit des informations plus techniques quant à la
+                taille, les dates de mises à jour, etc. Suivant toujours les principes de la TEI,
+                toutes les définitions à jour de ces catégorisations du corpus <hi rend="italic"
+                    >BNC</hi> ont été renseignées dans un unique fichier d'en-tête applicable à
+                l'ensemble du corpus, permettant la lecture des en-têtes spécifiques de chaque texte
+                    individuel<hi rend="Appel_note_de_bas_de_p.1_Footnote_Anchor"><note place="foot"
+                        xml:id="ftn9" n="9"><p rend="note_JLC"> Pour une description plus détaillée
+                            de la manière dont les en-têtes furent utilisés dans le BNC, <hi
+                                rend="italic">cf.</hi> Dunlop, 1995.</p></note></hi>.</p>
+            <p>Durant le proces de production, les différents protagonistes,
+                ci-dessus mentionnés, ont tout naturellement considéré le travail de classification
+                et l’emploi des autres méta-données comme partie intégrante de leur tâche de
+                collecte. Chaque texte individuel fut donc stocké comme tel. Ce n'est qu'ensuite que
+                OUCS a compilé l'ensemble de ces informations dans une unique base de données, à
+                partir de laquelle furent générés les en-têtes conformes aux normes de la TEI. Avec
+                toute la meilleure volonté du monde, il était donc difficile d’éviter les
+                incohérences dans la saisie des méta-données et, en conséquence, d’assurer avec une
+                complète certitude, au moment de leur intégration, leur uniformité. </p>
+            <p>À la suite d'une réévaluation approfondie sur l'ensemble du corpus
+                des catégorisations appliquées à chaque texte individuel, un étudiant de Lancaster,
+                David Lee, procéda à la vérification de toutes les classifications en place et
+                proposa également une taxonomie plus détaillée des types de textes. Cette recherche
+                systématique (Lee, 2001) nous a certes permis de fiabiliser nos critères de
+                catégorisation initiaux, mais aussi et surtout d'adopter une classification
+                totalement nouvelle agrémentée d’une taxonomie infiniment plus précise, telle que
+                définie par Lee. À la même époque, tandis que pour le <hi rend="italic">BNC-1</hi>
+                l'association de mots-clefs thématiques à chaque texte ne se faisant de manière
+                aussi systématique, dans la nouvelle version un ensemble de mots-clefs descriptifs,
+                inspirés de la nomenclature des bibliothèques<hi
+                    rend="Appel_note_de_bas_de_p.1_Footnote_Anchor"><note place="foot"
+                        xml:id="ftn10" n="10"><p rend="note_JLC"> Ces mots-clefs sont issus du
+                            COPAC, catalogue des librairies universitaires et nationales de Grande-
+                            Bretagne, pour l’intégralité des matériaux publiés.</p></note></hi>, est
+                automatiquement associé à chaque texte écrit. Ces multiples codes de classification
+                ont été simplifiés, de façon à permettre la partition du corpus selon 8 types
+                principaux de textes (<hi rend="italic">Tableau 3</hi>).</p>
+            <table rend="rules">  <head>Tableau 3 : Le BNC XML par type de texte.</head>
+                
+                <row>
+                    <cell rend="Normal"/>
+                    <cell rend="Normal">Texts</cell>
+                    <cell rend="Normal">W-units</cell>
+                    <cell rend="Normal">%</cell>
+                    <cell rend="Normal">S-units</cell>
+                    <cell rend="Normal">%</cell>
+                </row>
+                <row>
+                    <cell rend="Normal">Ecrits universitaires</cell>
+                    <cell rend="Normal">497</cell>
+                    <cell rend="Normal">696 038</cell>
+                    <cell rend="Normal">11.55</cell>
+                    <cell rend="Normal">15 781 859</cell>
+                    <cell rend="Normal">16.04</cell>
+                </row>
+                <row>
+                    <cell rend="Normal">Fictions et vers</cell>
+                    <cell rend="Normal">452</cell>
+                    <cell rend="Normal">1 323 573</cell>
+                    <cell rend="Normal">21.96</cell>
+                    <cell rend="Normal">16 143 913</cell>
+                    <cell rend="Normal">16.41</cell>
+                </row>
+                <row>
+                    <cell rend="Normal">Journalisme et information</cell>
+                    <cell rend="Normal">486</cell>
+                    <cell rend="Normal">508 609</cell>
+                    <cell rend="Normal">8.43</cell>
+                    <cell rend="Normal">9 412 174</cell>
+                    <cell rend="Normal">9.56</cell>
+                </row>
+                <row>
+                    <cell rend="Normal">Autres écrits publiés</cell>
+                    <cell rend="Normal">711</cell>
+                    <cell rend="Normal">1 021 633</cell>
+                    <cell rend="Normal">16.95</cell>
+                    <cell rend="Normal">17 970 212</cell>
+                    <cell rend="Normal">18.26</cell>
+                </row>
+                <row>
+                    <cell rend="Normal">Ecrits non publiés</cell>
+                    <cell rend="Normal">251</cell>
+                    <cell rend="Normal">303 078</cell>
+                    <cell rend="Normal">5.02</cell>
+                    <cell rend="Normal">4 466 681</cell>
+                    <cell rend="Normal">4.54</cell>
+                </row>
+                <row>
+                    <cell rend="Normal">Conversation</cell>
+                    <cell rend="Normal">153</cell>
+                    <cell rend="Normal">610 558</cell>
+                    <cell rend="Normal">10.13</cell>
+                    <cell rend="Normal">4 233 962</cell>
+                    <cell rend="Normal">4.30</cell>
+                </row>
+                <row>
+                    <cell rend="Normal">Autre anglais parlé</cell>
+                    <cell rend="Normal">755</cell>
+                    <cell rend="Normal">427 523</cell>
+                    <cell rend="Normal">7.09</cell>
+                    <cell rend="Normal">6 175 896</cell>
+                    <cell rend="Normal">6.27</cell>
+                </row>
+            </table>
+            <p rend="Titre2_JLC">2.3 Annotations.</p>
+            <p >Les mots du <hi rend="italic">BNC</hi> ont été étiquetés
+                automatiquement avec <hi rend="italic">CLAWS 4</hi>, étiqueteur développé à
+                l’Université de Lancaster à partir de <hi rend="italic">CLAWS 1</hi> qui fut à
+                l’origine conçu pour le corpus <hi rend="italic">LOB</hi> de un million de mots. Le
+                système est décrit de manière détaillée dans Leech (1994), les aspects théoriques et
+                pratiques dans Garside (1997), et une documentation technique complète de son
+                utilisation pour le <hi rend="italic">BNC</hi> est fournie dans le manuel
+                accompagnant <hi rend="italic">BNC World Edition </hi>(Leech, 2000). </p>
+            <p><hi rend="italic">CLAWS 4</hi> est un système d’étiquetage hybride,
+                mêlant techniques probabilistes et non-probabilistes. Chaque mot du corpus se voit
+                par lui attribué un (parfois deux) code POS (« <hi rend="italic"
+                    >part-of-speech </hi>») résultant de 4 processus distincts :</p>
+            <list type="ordered">
+                <item>La segmentation du discours en mots (habituellement identifiés par les
+                    espaces) et phrases orthographiques (marquées par la ponctuation) ; Les verbes
+                    enclitiques (comme « <hi rend="italic">’ll</hi> » ou « <hi rend="italic"
+                    >’s</hi> » pour l’anglais), et les particules négatives (comme « <hi
+                        rend="italic">n’t</hi> ») sont ici des exceptions, tout comme certaines
+                    formes contractées telles que « <hi rend="italic">dunno</hi> » (qui a été
+                    symbolisée par « <hi rend="italic">do+n’t+know</hi> »).</item>
+                <item>L’attribution initiale du code POS : tous les codes POS qui peuvent être
+                    assignés à un <hi rend="italic">token</hi> sont extraits, soit par l’examen d’un
+                    lexique de 50 000 mots, soit par l’application de quelques procédures
+                    morphologiques simples. Quand plus d’un code est assigné à un mot, la
+                    probabilité relative pour chacun est fournie de la même manière. Les
+                    probabilités sont également ajustées sur la base de la position du mot au sein
+                    de la phrase. </item>
+                <item>La désambiguïsation ou sélection d’un unique code est ensuite opérée en
+                    utilisant l'algorithme d'alignement de Viterbi, qui recherche les probabilités
+                    associées à chaque code pour déterminer la meilleure voie à suivre à travers une
+                    séquence de codes ambigus, fonctionnement similaire à celui de l’écriture
+                    intuitive dont sont équipés de nombreux téléphones portables aujourd'hui. À la
+                    fin de cette étape, les différents codes possibles sont classés par probabilité
+                    décroissante pour chaque mot, en contexte. </item>
+                <item>L’étiquetage des expressions idiomatiques est un raffinement supplémentaire de
+                    la procédure, pour lequel à chaque groupe de mots, avec leurs étiquettes, est
+                    apparié un patron idiomatique prédéfini qui ressemble à un réseau d’associations
+                    limitées.</item>
+            </list>
+            <p>En procédant de cette manière, <hi rend="italic">CLAWS</hi> atteint
+                un taux de précision de plus 95 % (<hi rend="italic">i.e.</hi> absence
+                d’indétermination) dans l’assignation de codes POS sur chaque mot du corpus. Pour
+                améliorer ceci, l’équipe de Lancaster a davantage développé l’idée essentielle
+                d’« étiquetage d’expression idiomatique », en utilisant un étiqueteur de patron
+                idiomatique capable de prendre en compte des règles contextuelles bien plus
+                sophistiquées, dérivées en partie de procédures semi-automatiques extraites d’un
+                échantillon de textes désambiguïsé manuellement (<hi rend="italic">cf</hi>. <hi
+                    rend="italic">BNC User Reference Guide</hi>, 1995/2000).</p>
+            <p>Les annotations linguistiques du corpus ont été enrichies pour
+                l’édition XML du <hi rend="italic">BNC</hi> de façon à respecter trois choses :</p>
+            <list type="unordered">
+                <item>les unités multi-lexicales et leurs composants sont étiquetés de façon
+                    explicite en utilisant les éléments XML « mw » et « w » ;</item>
+                <item>sur la base du C5, jeu d’étiquettes développé pour le logiciel CLAWS, une
+                    annotation complementaire et simplifiée des codes de POS est déployée ;</item>
+                <item>la lemmatisation est réalisée automatiquement à partir de règles définies
+                    manuellement.</item>
+            </list>
+            <p>Par unités multi-lexicales, nous entendons le fait qu’au moins deux
+                mots orthographiques fonctionnent selon <hi rend="italic">CLAWS</hi> comme une
+                entité avec une catégorie grammaticale unique. Les exemples les plus communs sont
+                les locutions adverbiales telles que « <hi rend="italic">of course</hi> » (<hi
+                    rend="italic">bien sûr</hi>) ou « <hi rend="italic">in short</hi> » (<hi
+                    rend="italic">en bref</hi>), et les séquences prépositionnelles comme « <hi
+                    rend="italic">in spite of</hi> » (<hi rend="italic">en dépit de</hi>) ou « <hi
+                    rend="italic">up to</hi> » (<hi rend="italic">jusqu’à</hi>). Décider si une
+                séquence orthographique est ou n’est pas une unité multi-lexicale exige parfois
+                l’interprétation (par exemple « <hi rend="italic">in short</hi> » - <hi
+                    rend="italic">en bref</hi>, n’est pas une unité multi-lexicale dans « <hi
+                    rend="italic">in short sharp bursts</hi> » - <hi rend="italic">de courtes
+                    explosions aiguës</hi>) ; de telles situations ont nécessité d’aller au-delà des
+                seules règles idiomatiques. </p>
+            <p>Dans l’édition XML du <hi rend="italic">BNC</hi>, ces unités
+                multi-lexicales ont donc été indiquées à l’aide d’un élément XML supplémentaire
+                (« mw ») indiquant la catégorie grammaticale assignée à toute la séquence. Au sein
+                de l’élément « mw », les mots orthographiques sont également individuellement
+                étiquetés, par un usage similaire à toutes les autres parties du texte de l’élément
+                « w ». L’entité « <hi rend="italic">of course</hi> » est ainsi étiquetée de la
+                manière suivante :</p>
+            <p>&lt;mw c5="AV0"&gt; &lt;w c5="PRF" hw="of" pos="PREP"&gt;of
+                &lt;/w&gt; &lt;w c5="NN1" hw="course" pos="SUBST"&gt;course &lt;/w&gt;
+                &lt;/mw&gt;</p>
+            <p>La catégorie grammaticale des composants de l’unité multi-lexicale
+                est insérée automatiquement, en utilisant un tableau construit à partir du corpus.
+                L’étiquette assignée le plus fréquemment pour un mot est ainsi sélectionnée, puis
+                les aberrations sont manuellement corrigées, même si quelques erreurs peuvent
+                perdurer. Le jeu d’étiquettes simplifié, employé pour cet enrichissement, est
+                structuré à partir de la réduction ordonnées des étiquettes de <hi rend="italic"
+                    >CLAWS 5</hi> (dont le jeu d’étiquettes est nommé C5) qui nous a permis de
+                passer de 65 étiquettes à douze classes de mots basiques, tel que le montre le <hi
+                    rend="italic">Tableau 4</hi> ci-contre.</p>
+            <p><anchor xml:id="index.xml-cell-id2316144"/><anchor
+                    xml:id="index.xml-cell-id2316153"/><anchor xml:id="index.xml-cell-id2316163"
+                    /><anchor xml:id="index.xml-cell-id2316172"/><anchor
+                    xml:id="index.xml-cell-id2316181"/><anchor xml:id="index.xml-cell-id2316190"
+                    /><anchor xml:id="index.xml-cell-id2316200"/><anchor
+                    xml:id="index.xml-cell-id2316209"/><anchor xml:id="index.xml-cell-id2316219"
+                    /><anchor xml:id="index.xml-cell-id2316229"/><anchor
+                    xml:id="index.xml-cell-id2316243"/>La procédure de lemmatisation adoptée
+                s'inspire du travail présenté dans Beale (1987), et fut raffinée subséquemment par
+                le groupe de Lancaster, expérimenté par un large éventail de projets tels que le
+                programme <hi rend="italic">JAWS</hi> (Logiciel pour déficient visuel, Fligestone
+                    <hi rend="italic">et al</hi>., 1996) ou le livre <hi rend="italic">Word
+                    frequencies in written and spoken english</hi> (Leech <hi rend="italic">et
+                    al.</hi>, 2001). L’approche générale est d’appliquer un certain nombre de règles
+                morphologiques, combinant des règles simples de dépouillement des suffixes POS avec
+                une liste des exceptions les plus courantes. Ceci fut opéré au moment de la
+                conversion XML, en utilisant le code et un ensemble de fichiers de règles
+                gracieusement fournis par Paul Rayson.</p>
+            <table rend="rules">
+                <head>Tableau 4 : Le jeu d’étiquettes simplifié</head>
+                <row>
+                    <cell rend="Normal background-color(DAF2F1)">Valeur de l’étiquette
+                        simplifiée</cell>
+                    <cell rend="Normal background-color(DAF2F1)">Signification</cell>
+                    <cell rend="Normal background-color(DAF2F1)">Etiquettes détaillées
+                        associées</cell>
+                </row>
+                <row>
+                    <cell rend="Normal">ADJ</cell>
+                    <cell rend="Normal">adjectifs</cell>
+                    <cell rend="Normal">AJ0, AJC, AJS, CRD, DT0, ORD</cell>
+                </row>
+                <row>
+                    <cell rend="Normal">ADV</cell>
+                    <cell rend="Normal">adverbes</cell>
+                    <cell rend="Normal">AV0, AVP, AVQ, XX0</cell>
+                </row>
+                <row>
+                    <cell rend="Normal">ART</cell>
+                    <cell rend="Normal">articles</cell>
+                    <cell rend="Normal">AT0</cell>
+                </row>
+                <row>
+                    <cell rend="Normal">CONJ</cell>
+                    <cell rend="Normal">conjonctions</cell>
+                    <cell rend="Normal">CJC, CJS, CJT</cell>
+                </row>
+                <row>
+                    <cell rend="Normal">INTERJ</cell>
+                    <cell rend="Normal">interjections</cell>
+                    <cell rend="Normal">ITJ</cell>
+                </row>
+                <row>
+                    <cell rend="Normal">PREP</cell>
+                    <cell rend="Normal">prépositions</cell>
+                    <cell rend="Normal">PRF, PRP, TO0</cell>
+                </row>
+                <row>
+                    <cell rend="Normal">PRON</cell>
+                    <cell rend="Normal">pronoms</cell>
+                    <cell rend="Normal">DPS, DTQ, EX0, PNI, PNP, PNQ, PNX</cell>
+                </row>
+                <row>
+                    <cell rend="Normal">STOP</cell>
+                    <cell rend="Normal">ponctuation</cell>
+                    <cell rend="Normal">POS, PUL, PUN, PUQ, PUR</cell>
+                </row>
+                <row>
+                    <cell rend="Normal">SUBST</cell>
+                    <cell rend="Normal">substantifs</cell>
+                    <cell rend="Normal">NN0, NN1, NN2, NP0, ONE, ZZ0, NN1-NP0, NP0-NN1</cell>
+                </row>
+                <row>
+                    <cell rend="Normal">UNC</cell>
+                    <cell rend="Normal">Non classifiés, incertains ou mots non lexicaux</cell>
+                    <cell rend="Normal">UNC, AJ0-AV0, AV0-AJ0, AJ0-NN1, NN1-AJ0, AJ0-VVD, VVD-AJ0,
+                        AJ0-VVG, VVG-AJ0, AJ0-VVN, VVN-AJ0, AVP-PRP, PRP-AVP, AVQ-CJS, CJS-AVQ,
+                        CJS-PRP, PRP-CJS, CJT-DT0, DT0-CJT, CRD-PNI, PNI-CRD, NN1-VVB, VVB-NN1,
+                        NN1-VVG, VVG-NN1, NN2-VVZ, VVZ-NN2</cell>
+                </row>
+                <row>
+                    <cell rend="Normal">VERB</cell>
+                    <cell rend="Normal">verbe</cell>
+                    <cell rend="Normal">VBB, VBD, VBG, VBI, VBN, VBZ, VDB, VDD, VDG, VDI, VDN, VDZ,
+                        VHB, VHD, VHG, VHI, VHN, VHZ, VM0, VVB, VVD, VVG, VVI, VVN, VVZ, VVD-VVN,
+                        VVN-VVD</cell>
+                </row>
+            </table>
+            <p rend="Titre2_JLC">2.4 Encodage.</p>
+            <p >L’élaboration de la TEI (« <hi rend="italic">Text Encoding
+                    Initiative</hi> ») et le modèle initial de balisage utilisé pour le <hi
+                    rend="italic">BNC</hi> ont été définis à la même période (et de surcroît par les
+                mêmes personnes) ; c’est donc sans surprise que les deux schémas sont très proches
+                malgré quelques différences. Ce modèle a été depuis largement employé et bien
+                documenté, nous ne le discuterons pas ici en détails. </p>
+            <p >En guide d’indice sur l’ampleur et la nature du balisage dans le <hi
+                    rend="italic">BNC</hi>, voici le début d’un texte écrit typique (A0A) :</p>
+            <p >&lt;<hi rend="color(000080)">wtext type</hi>="<hi
+                    rend="color(FF0000)">OTHERPUB</hi>"&gt;</p>
+            <p >&lt;<hi rend="color(000080)">div level</hi>="<hi
+                    rend="color(FF0000)">1</hi>"&gt;</p>
+            <p >&lt;<hi rend="color(000080)">head type</hi>="<hi
+                    rend="color(FF0000)">MAIN</hi>"&gt;</p>
+            <p >&lt;<hi rend="color(000080)">s n</hi>="<hi rend="color(FF0000)"
+                    >1</hi>"&gt;</p>
+            <p >&lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >NP0</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)"
+                >camra</hi>" <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)"
+                >SUBST</hi>"&gt;CAMRA &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p >&lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >NN1</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">fact</hi>"
+                    <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)">SUBST</hi>"&gt;FACT
+                    &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p >&lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >NN1</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)"
+                >sheet</hi>" <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)"
+                >SUBST</hi>"&gt;SHEET &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p >&lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >NN1</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">no</hi>"
+                    <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)">SUBST</hi>"&gt;No
+                    &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p >&lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >CRD</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">1</hi>"
+                    <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)"
+                    >ADJ</hi>"&gt;1&lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p >&lt;<hi rend="color(000080)">/s</hi>&gt;&lt;<hi rend="color(000080)"
+                    >/head</hi>&gt;</p>
+            <p >&lt;<hi rend="color(000080)">head rend</hi>="<hi
+                    rend="color(FF0000)">it</hi>" <hi rend="color(000080)">type</hi>="<hi
+                    rend="color(FF0000)">SUB</hi>"&gt;</p>
+            <p >&lt;<hi rend="color(000080)">s n</hi>="<hi rend="color(FF0000)"
+                    >2</hi>"&gt;</p>
+            <p >&lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >AVQ</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">how</hi>"
+                    <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)">ADV</hi>"&gt;How
+                    &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p >&lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >NN1</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">beer</hi>"
+                    <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)">SUBST</hi>"&gt;beer
+                    &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p >&lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >VBZ</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">be</hi>"
+                    <hi rend="color(000080)">pos=</hi>"<hi rend="color(FF0000)">VERB</hi>"&gt;is
+                    &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p >&lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >VVN</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">brew</hi>"
+                    <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)"
+                    >VERB</hi>"&gt;brewed&lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p >&lt;<hi rend="color(000080)">/s</hi>&gt;&lt;<hi rend="color(000080)"
+                    >/head</hi>&gt;</p>
+            <p >&lt;<hi rend="color(000080)">p</hi>&gt;</p>
+            <p >&lt;<hi rend="color(000080)">s n</hi>="<hi rend="color(FF0000)"
+                    >3</hi>"&gt;</p>
+            <p >&lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >NN1</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">beer</hi>"
+                    <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)">SUBST</hi>"&gt;Beer
+                    &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p >&lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >VVZ</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">seem</hi>"
+                    <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)">VERB</hi>"&gt;seems
+                    &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p >&lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >DT0</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">such</hi>"
+                    <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)">ADJ</hi>"&gt;such
+                    &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p >&lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >AT0</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">a</hi>"
+                    <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)">ART</hi>"&gt;a
+                    &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p >&lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >AJ0</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)"
+                    >simple</hi>" <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)"
+                    >ADJ</hi>"&gt;simple &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p >&lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >NN1-VVB</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)"
+                    >drink</hi>" <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)"
+                    >SUBST</hi>"&gt;drink &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p >&lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >CJT</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">that</hi>"
+                    <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)">CONJ</hi>"&gt;that
+                    &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p >&lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >PNP</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">we</hi>"
+                    <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)">PRON</hi>"&gt;we
+                    &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p >&lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >VVB</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">tend</hi>"
+                    <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)">VERB</hi>"&gt;tend
+                    &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p >&lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >TO0</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">to</hi>"
+                    <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)">PREP</hi>"&gt;to
+                    &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p >&lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >VVI</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">take</hi>"
+                    <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)">VERB</hi>"&gt;take
+                    &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p >&lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >PNP</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">it</hi>"
+                    <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)">PRON</hi>"&gt;it
+                    &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p >&lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >PRP</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">for</hi>"
+                    <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)">PREP</hi>"&gt;for
+                    &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p >&lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >VVN</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)"
+                >grant</hi>" <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)"
+                    >VERB</hi>"&gt;granted&lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p >&lt;<hi rend="color(000080)">c c5</hi>="<hi rend="color(FF0000)"
+                    >PUN</hi>"&gt;.&lt;<hi rend="color(000080)">/c</hi>&gt;</p>
+            <p >&lt;<hi rend="color(000080)">/s</hi>&gt;</p>
+            <p >…&lt;<hi rend="color(000080)">/p</hi>&gt;…&lt;<hi
+                    rend="color(000080)">/div</hi>&gt;…&lt;<hi rend="color(000080)"
+                >/wtext</hi>&gt;</p>
+            <p>Ce texte démarre avec un élément « wtext » (pour texte écrit) qui
+                porte l’attribut « OTHERPUB » indiquant le type de texte selon la taxonomie
+                simplifiée évoquée ci-dessus. Il se compose ici de différents prospectus
+                publicitaires, correspondant chacun à un élément « div ». Le prospectus représenté
+                ci-dessus débute par deux intitulés, représentés chacun par un élément XML « head »
+                (pour titre), suivi d’une séquence d’éléments « p » (pour paragraphe). </p>
+            <p>La segmentation du texte opérée avec CLAWS est préservée par les
+                éléments « s », présents dans l’ensemble du texte et individuellement identifiés par
+                un nombre. Au sein de chaque « s », tous les mots (ou tokens) identifiés par CLAWS
+                sont indiqués par un élément « w » qui contient l’étiquette spécifique attribué par
+                CLAWS C5 (ex. c5="VN"), l’étiquette simplifiée en dérivant (ex. pos="VERB") et la
+                forme lemmatisée de ce mot (ex. hw="grant").</p>
+            <p>La portée et la signification de ce système de balisage fait l’objet
+                d’une discussion dans le <hi rend="italic">User References Guide</hi> accompagnant
+                le corpus.</p>
+            <p>De nombreuses questions techniques ont été abordées au moment du
+                balisage de la partie orale du corpus. Comme nous l’avons noté plus haut, c’était la
+                première fois qu’un marquage détaillé de discours transcrit était tenté à une telle
+                échelle. La transcription elle-même était réalisée par une équipe non spécialiste de
+                linguistique (mais qui était cependant familière des variations régionales devant
+                être retranscrites – une équipe recrutée dans l’Essex, par exemple, n’était pas
+                sensée transcrire un matériau en provenance d’Irlande du Nord). Les transcripteurs
+                ajoutaient une forme minimale (non SGML) de balisage sur le texte, qui était ensuite
+                normalisée, convertie en format SGML, et validée pour les besoins logiciel
+                spécifiques (<hi rend="italic">cf</hi>. Burnage, 1993). La structure de balisage
+                permet de mettre en évidence un certain nombre de caractéristiques, notamment les
+                changements de locuteurs et le détail des chevauchements, les mots utilisés tels que
+                le transcripteur les percevaient, les faux départs, troncatures ou hésitations,
+                certaines caractéristiques de l’exécution comme les pauses, les mises en scène, etc.
+                En outre, les informations détaillées concernant les locuteurs et contextes de
+                discours ont bien sûr été enregistrées dans l’en-tête, lorsqu’elles étaient
+                disponibles. </p>
+            <p>Voici un échantillon d’un texte oral retranscrit : </p>
+            <p>&lt;<hi rend="color(000080)">u who</hi>="<hi rend="color(FF0000)"
+                    >PS04U</hi>"&gt;</p>
+            <p>&lt;<hi rend="color(000080)">s n</hi>="<hi rend="color(FF0000)"
+                    >1297</hi>"&gt;</p>
+            <p> &lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >VBZ</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">be</hi>"
+                    <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)">VERB</hi>"&gt;Is
+                    &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p> &lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >PNP</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">he</hi>"
+                    <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)">PRON</hi>"&gt;he
+                    &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p> &lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >XX0</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">not</hi>"
+                    <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)">ADV</hi>"&gt;not
+                    &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p> &lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >VVG</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">go</hi>"
+                    <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)">VERB</hi>"&gt;going
+                    &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p> &lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >AV0</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">home</hi>"
+                    <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)">ADV</hi>"&gt;home
+                    &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p> &lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >AV0</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">then</hi>"
+                     <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)"
+                    >ADV</hi>"&gt;then&lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p> &lt;<hi rend="color(000080)">c c5</hi>="<hi rend="color(FF0000)"
+                    >PUN</hi>"&gt;?&lt;<hi rend="color(000080)">/c</hi>&gt;</p>
+            <p>&lt;<hi rend="color(000080)">/s</hi>&gt;</p>
+            <p>&lt;<hi rend="color(000080)">/u</hi>&gt;</p>
+            <p>&lt;<hi rend="color(000080)">u who</hi>="<hi rend="color(FF0000)"
+                    >PS04Y</hi>"&gt;</p>
+            <p>&lt;<hi rend="color(000080)">s n=</hi>"<hi rend="color(FF0000)"
+                    >1298</hi>"&gt;</p>
+            <p> &lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >ITJ</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">no</hi>"
+                    <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)">INTERJ</hi>"&gt;No
+                     &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p> &lt;<hi rend="color(000080)">pause dur</hi>="<hi
+                    rend="color(FF0000)">8</hi>"<hi rend="color(000080)">/</hi>&gt;</p>
+            <p> &lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >CJC</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">and</hi>"
+                    <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)">CONJ</hi>"&gt;and
+                    &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p> &lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >UNC</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">erm</hi>"
+                    <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)">UNC</hi>"&gt;erm
+                     &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p> &lt;<hi rend="color(000080)">pause dur</hi>="<hi
+                    rend="color(FF0000)">7</hi>"<hi rend="color(000080)">/</hi>&gt;</p>
+            <p> &lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >PNP</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">i</hi>"
+                    <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)"
+                    >PRON</hi>"&gt;I&lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p> &lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >VBB</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">be</hi>"
+                    <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)">VERB</hi>"&gt;'m
+                    &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p> &lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >VVG</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)"
+                >leave</hi>" <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)"
+                >VERB</hi>"&gt;leaving &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p> &lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >AT0</hi>" <hi rend="color(000080)">hw</hi>=<hi rend="color(000080)">"</hi><hi
+                    rend="color(FF0000)">a</hi>" <hi rend="color(000080)">pos</hi>="<hi
+                    rend="color(FF0000)">ART</hi>"&gt;a &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p> &lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >NN1</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)"
+                    >turkey</hi>" <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)"
+                    >SUBST</hi>"&gt;turkey &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p> &lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >PRP</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">in</hi>"
+                    <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)">PREP</hi>"&gt;in
+                    &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p> &lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >AT0</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">the</hi>"
+                    <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)">ART</hi>"&gt;the
+                    &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p> &lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >NN1</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)"
+                    >freezer</hi>" <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)"
+                    >SUBST</hi>"&gt;freezer&lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p> &lt;<hi rend="color(000080)">c c5</hi>="<hi rend="color(FF0000)"
+                    >PUN</hi>"&gt;,&lt;<hi rend="color(000080)">/c</hi>&gt;</p>
+            <p> &lt;<hi rend="color(000080)">trunc</hi>&gt;</p>
+            <p> &lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >UNC</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">an</hi>"
+                    <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)">UNC</hi>"&gt;an
+                    &lt;<hi rend="color(000080)">/w</hi>&gt;&lt;<hi rend="color(000080)"
+                >/trunc</hi>&gt;</p>
+            <p> &lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >NP0</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">paul</hi>"
+                    <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)">SUBST</hi>"&gt;Paul
+                    &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p> &lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >VBZ</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">be</hi>"
+                    <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)">VERB</hi>"&gt;is
+                    &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p> &lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >AV0</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)"
+                >quite</hi>" <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)"
+                >ADV</hi>"&gt;quite &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p> &lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >AJ0</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">good</hi>"
+                    <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)">ADJ</hi>"&gt;good
+                    &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p> &lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >PRP</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)">at</hi>"
+                    <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)">PREP</hi>"&gt;at
+                    &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p> &lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >VVG-NN1</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)"
+                    >cook</hi>" <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)"
+                    >VERB</hi>"&gt;cooking  &lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p> &lt;<hi rend="color(000080)">pause/</hi>&gt;&lt;<hi
+                    rend="color(000080)">align with</hi>="<hi rend="color(FF0000)">KBFLC07U</hi>"<hi
+                    rend="color(000080)">/</hi>&gt;</p>
+            <p> &lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >AJ0</hi>-<hi rend="color(FF0000)">NN1</hi>" <hi rend="color(000080)"
+                    >hw</hi>="<hi rend="color(FF0000)">standard</hi>" <hi rend="color(000080)"
+                    >pos</hi>="<hi rend="color(FF0000)">ADJ</hi>"&gt;standard &lt;<hi
+                    rend="color(000080)">/w</hi>&gt;</p>
+            <p> &lt;<hi rend="color(000080)">w c5</hi>="<hi rend="color(FF0000)"
+                    >NN1</hi>" <hi rend="color(000080)">hw</hi>="<hi rend="color(FF0000)"
+                    >cooking</hi>" <hi rend="color(000080)">pos</hi>="<hi rend="color(FF0000)"
+                    >SUBST</hi>"&gt;cooking&lt;<hi rend="color(000080)">/w</hi>&gt;</p>
+            <p> &lt;<hi rend="color(000080)">c c5</hi>="<hi rend="color(FF0000)"
+                    >PUN</hi>"&gt;.&lt;<hi rend="color(000080)">/c</hi>&gt;</p>
+            <p>&lt;<hi rend="color(000080)">/s</hi>&gt;</p>
+            <p>&lt;<hi rend="color(000080)">/u</hi>&gt;</p>
+            <p>Les mots et phrases sont étiquetés de la même manière que pour les
+                textes écrits, tel que décrit ci-dessus. Les phrases sont cependant ici groupées par
+                déclaration (ou flux de discours). Chaque déclaration est balisée par un élément
+                « u » (pour « utterance » / paroles), qui marque donc une partie continue de
+                discours, et qui comporte en son sein un attribut « who » dont la valeur donne la
+                clef pour accéder à des informations plus détaillées concernant le locuteur,
+                enregistrées dans l’en-tête TEI du texte de la retranscription (ex. u who="PS04Y").
+                Les éléments « pause » et « event » (événement) sont aussi utilisés pour indiquer
+                toute caractéristique paralinguistique du discours ainsi retranscrit.</p>
+            <p>Comme le montre l’exemple ci-dessus, l’intention du transcripteur
+                était de fournir une version du discours plus proche de l’écrit, que du signal audio
+                immédiat. L’indication orthographiée des différentes pauses fut ainsi normalisée
+                    (« <hi rend="italic">erm</hi> », « <hi rend="italic">mmm</hi> »), de même que
+                celle de l’intonation interrogative que des caractères conventionnels de ponctuation
+                servent à marquer comme questions de manière constante. Pour une étude plus
+                détaillée de la rationalité sous-jacente à ces pratiques, ainsi que d’autres aspects
+                de la transcription de discours, voir Crowdy (1994).</p>
+            <p rend="Titre2_JLC">2.5 Logiciels et distribution.</p>
+            <p >En 1994, la manière de diffuser, à des fins non-lucratives, un
+                corpus de la taille du <hi rend="italic">BNC</hi> n’allait pas de soi. L’envergure
+                des données excluait d’office l’usage d’options à bas coût telles que les protocoles
+                de communication anonymes (ftp). Notre décision initiale fut de distribuer une
+                version compressée du corpus, tenant sur un ensemble de trois CDs, avec un logiciel
+                d’exploitation simple qui pouvait être installé par un personnel raisonnablement
+                qualifié, afin de permettre à chaque individu participant au réseau d’obtenir une
+                copie locale du corpus. Le développement d’un tel système fut entrepris la dernière
+                année du projet grâce à des fonds supplémentaires de la <hi rend="italic">British
+                    Library</hi>. Le logiciel qui est maintenant fourni avec le corpus est connu
+                sous le nom de <hi rend="italic">XAIRA</hi> (<hi rend="italic">XML Aware Indexing
+                    and Retrieval Architecture</hi>) et dérive de l’outil initial nommé <hi
+                    rend="italic">SARA</hi> (<hi rend="italic">SGML Aware Retrieval
+                Application</hi>). <hi rend="italic">XAIRA</hi> a été développé, grâce à des fonds
+                de la fondation Andrew Mellon, dans le but de fournir un outil <hi rend="italic"
+                    >open source</hi> au format XML, destiné à l’étude de corpus de langue de toute
+                taille (pour plus de détails, <ref target="http://www.xaira.org/"><hi
+                        rend="Internet_Link">http://www.xaira.org</hi></ref>).</p>
+            <p>Il était évident depuis le départ que l’accès au <hi rend="italic"
+                    >BNC</hi> ne devait pas nécessiter l’usage d’un logiciel spécifique – c’était,
+                après tout, ce que sous-tendait l’usage de la norme internationale SGML pour encoder
+                le corpus original, plutôt que de créer un système taillé pour un outil logiciel
+                spécifique. </p>
+            <p>Le <hi rend="italic">BNC</hi> précède l’ère du <hi rend="italic"
+                    >World Wide Web</hi><hi rend="Appel_note_de_bas_de_p.1_Footnote_Anchor"><note
+                        place="foot" xml:id="ftn11" n="11"><p rend="note_JLC"> La locution « <hi
+                                rend="italic">World Wide Web</hi> » n’apparaît en effet qu’à deux
+                            reprises dans le corpus et toutes deux dans un bref échange, se dé<hi
+                                rend="note_JLC_Car">r</hi>oulant dans une liste de discussion par
+                            courriels en janvier 1994, au sujet de la promotion d’un club de
+                            football, The Leeds United Football Club. Les plus fréquents collocats
+                            du mot « <hi rend="italic">web</hi> » dans le corpus sont « <hi
+                                rend="italic">spider</hi> » (<hi rend="italic">araignée</hi>), « <hi
+                                rend="italic">tangled</hi> » (<hi rend="italic">enchevêtré</hi>),
+                                « <hi rend="italic">complex</hi> » (<hi rend="italic">complexe</hi>)
+                            et « <hi rend="italic">seamless</hi> » (<hi rend="italic">sans
+                                faille</hi>). De ce point de vue, au moins, le <hi rend="italic"
+                                >BNC</hi> ne peut décidément pas être considéré comme un miroir de
+                            la langue anglaise actuelle.</p></note></hi>. Cependant, au cours de sa
+                première année de diffusion, il est apparu que le Web serait la voie de mise à
+                disposition idéale, ne serait-ce que pour permettre aux chercheurs non Européens d’y
+                avoir accès, ce que les restrictions de licences leur empêchaient jusque-là. À cette
+                fin, La <hi rend="italic">British Library</hi> a généreusement offert au projet un
+                serveur, et une interface Web du corpus fut alors développée. Ce service, toujours
+                disponible à l’adresse <ref target="http://sara.natcorp.ox.ac.uk/"><hi
+                        rend="Internet_Link">http://sara.natcorp.ox.ac.uk</hi></ref> permet à
+                quiconque de réaliser des recherches élémentaires sur le corpus, avec des options de
+                visualisation restreintes. Les personnes souhaitant davantage de possibilités et des
+                fonctions plus sophistiquées peuvent également télécharger une copie de l’interface
+                client du programme <hi rend="italic">SARA</hi> qui permet d’accéder au même
+                serveur : est uniquement demandée une modeste contribution financière qui permet de
+                proroger une première période d’essai gratuite. </p>
+            <p>Pour compléter ce service, et répondre à une forte demande d’aide
+                dans l’utilisation du <hi rend="italic">BNC</hi> de la part d’enseignants, un
+                tutoriel détaillé fut élaboré (Aston, 1999) afin d’initier tout à chacun aux
+                diverses possibilités et fonctionnalités du logiciel, grâce à des exercices orientés
+                sur la linguistique. Le service en ligne demeure encore très populaire et reçoit
+                chaque mois plusieurs milliers de requêtes.</p>
+            </div><div><head>3 les rÉvisions successives du <hi rend="italic">BNC</hi></head>
+            <p >Comme nous l’avons déjà indiqué ci-dessus, le <hi rend="italic"
+                    >BNC</hi> n’a jamais été conçu pour être un corpus de suivi (monitor corpus).
+                Néanmoins, il fut l’objet de deux révisions majeures depuis sa première apparition,
+                et une troisième pourrait être jugée nécessaire dans le futur si la demande reste
+                aussi forte pour cet instantané détaillé et unique de la langue anglaise. Dans cette
+                partie, nous parlerons de certains des changements apportés au corpus, et des
+                principes généraux délimitant le champ des possibles. </p>
+            <p>La deuxième édition du <hi rend="italic">BNC</hi>, aussi connue sous
+                le nom de <hi rend="italic">BNC World Edition</hi> a été publiée en décembre 1999,
+                cinq années après la première apparition du <hi rend="italic">BNC</hi>. Afin que le
+                corpus puisse être diffusé au niveau mondial, seul un petit nombre de textes (moins
+                de cinquante), pour lesquels l’obtention de droits d’usage internationaux s’est
+                avérée impossible, ont été enlevés du corpus </p>
+            <p>Bien que souhaitable, l’envergure du <hi rend="italic">BNC</hi>
+                excluait toute relecture complète des épreuves. Essayer de corriger les erreurs dans
+                le <hi rend="italic">BNC</hi> reviendrait à balayer entièrement le sable d’une
+                plage, comme cela a été imaginé par le Morse et le Charpentier de <hi rend="italic"
+                    >Alice in Wonderland</hi> :</p>
+            <p rend="citation_JLC"><hi rend="italic">"If seven maids with seven mops / Swept it for
+                    half a year / Do you suppose," the Walrus said, / "That they would get it
+                    clear?" / "I doubt it," said the Carpenter, / And shed a heavy tear. </hi><hi
+                    rend="Footnote_Characters_Footnote_Anchor"><note place="foot" xml:id="ftn12"
+                        n="12"><p rend="note_JLC"> Poème de Lewis Caroll (le Morse et le Charpentier
+                            marchent au bord de la plage : « "Si sept femmes de chambre, de sept
+                            balais armées / Le balayaient durant, tout entière, une année, /
+                            Supposes-tu, s'enquit ingénument le Morse, / Qu'elles viendraient à bout
+                            de ce tas de poussière ?" / "J'en doutes", répondit le Charpentier, /
+                            Tout en laissant couler quelques larmes amères. »)</p></note></hi></p>
+            <p>Dans un certain sens, toute transcription de texte oral est
+                inévitablement approximative. Même pour les textes écrits, décider de ce qui est ou
+                non une erreur n’est pas toujours évident : des mots mal orthographiés peuvent
+                apparaître dans le matériau publié, et l’on pourrait en conséquence s’attendre à ce
+                qu’ils apparaissent tel quel dans un corpus. Quand des corrections ont eu lieu dans
+                la phase d’élaboration du corpus, les erreurs furent parfois l’objet d’une
+                indication en balise, de manière à préserver l’erreur initiale et sa correction.
+                Ceci nous fournit au moins des indications sur le type d’erreurs qu’il est possible
+                de rencontrer. Il est cependant impossible d’expertiser sérieusement l’importance de
+                telles erreurs, ni même d’en repérer l’origine exacte du fait de la variété des
+                traitements imposés aux textes sources. En principe, il est impossible de distinguer
+                une erreur résultant (par exemple) d’un logiciel de reconnaissance optique de
+                caractère (OCR) non approprié, d’une erreur déjà présente dans le texte original, à
+                moins bien sûr de procéder à une expertise minutieuse et comparative des épreuves et
+                des textes sources<hi rend="Appel_note_de_bas_de_p.1_Footnote_Anchor"><note
+                        place="foot" xml:id="ftn13" n="13"><p rend="note_JLC"> Un tel travail reste
+                            cependant possible puisque l’intégralité des matériaux textuels
+                            originels est conservée au service informatique de Université d’Oxford
+                            (OUCS).</p></note></hi>; quant à l’utilisation de correcteurs
+                orthographiques automatiques, elle n’aura pour conséquence que d'assombrir un peu
+                plus une eau déjà trouble. </p>
+            <p>Et pourtant, un certain type de correction automatique était
+                possible et fut appliqué au <hi rend="italic">BNC World Edition</hi>. En grande
+                partie grâce à la fiabilité de l’échantillonnage du <hi rend="italic">BNC</hi>, les
+                règles utilisée par <hi rend="italic">CLAWS</hi> ont pu être notablement
+                perfectionnées, ce qui a permis de réduire de manière significative le taux
+                d’erreurs et le degré d’indétermination des étiquettes POS de cette édition du <hi
+                    rend="italic">BNC</hi>. Ce travail, effectué à Lancaster avec des fonds du
+                Ministère Britannique de la Recherche en Ingénierie et Sciences Physiques
+                (Financement de recherche n° GR/F 99847), est décrit en détail dans le manuel
+                fournit avec le corpus (Leech, 2000). Ce manuel estime que, à la suite de cette
+                opération de traitement automatique, le taux d’erreur pour tous les mots a été
+                réduit à environ 1,15%, tandis que la proportion de codes ambigus est réduite à
+                approximativement 3, 75%<hi rend="Appel_note_de_bas_de_p.1_Footnote_Anchor"><note
+                        place="foot" xml:id="ftn14" n="14"><p rend="note_JLC"> Ces estimations ont
+                            été obtenues après l’examen manuel d’un échantillon de 50 000 mots
+                            prélevé sur le corpus, ainsi que le précise le manuel cité.
+                    </p></note></hi>. </p>
+            <p>Dans le même temps, un certain nombre d’erreurs systématiques furent
+                identifiées. Cette gamme de doublons ou erreurs de balisages a servi de base à une
+                vérification complète des données démographiques associées aux locuteurs de chaque
+                texte oral, partie du corpus dans laquelle nombres d’erreurs furent identifiées pour
+                la première version du <hi rend="italic">BNC</hi>.</p>
+            <p>La troisième édition du <hi rend="italic">BNC</hi>, connue sous le
+                nom de <hi rend="italic">BNC XML Edition</hi>, est parue en mars 2007. À notre grand
+                étonnement, alors que les technologies sur lesquelles il reposait avaient changé
+                quasiment du tout au tout, la demande pour le <hi rend="italic">BNC</hi> n’a montré
+                aucun signe de faiblesse au cours des cinq années qui suivirent la sortie du <hi
+                    rend="italic">BNC World Edition</hi> : le SGML avait laissé place au XML comme
+                langage de codage, tandis que l’arrivée de l’Unicode et du <hi rend="italic">World
+                    Wide Web</hi> résolvaient nombre de problèmes soulevés dans les années 1990,
+                notamment en rendant possible une autre organisation logicielle. Dans les années
+                1990, les pratiques usuelles de développement de logiciel conduisaient à élaborer
+                des applications monolithiques, sophistiquées mais idiosyncrasiques ; dans les
+                années 2000, les concepteurs universitaires de logiciels peuvent se reposer sur
+                quelques centaines d’utilitaires de coopérations à petites échelles et d'outils
+                développés pour des objectifs divers sur des interfaces normalisées. </p>
+            <p>Pour l’édition XML du <hi rend="italic">BNC</hi>, la documentation
+                concernant de la structure d’annotation, le schéma utilisé pour la valider et le
+                balisage lui-même ont été entièrement revus. Les objectifs premiers de cette
+                révision étaient :</p>
+            <list type="unordered">
+                <item>réduire la complexité du balisage, en particulier en supprimant les
+                    comportements indiqués de manière incohérente ou rare ; </item>
+                <item>améliorer l’utilisation du corpus avec des outils XML génériques en utilisant
+                    seulement les caractéristiques normées du XML ;</item>
+                <item>accroître la conformité de la structure d’annotation utilisée avec les normes
+                    internationales telles que la TEI.</item>
+            </list>
+            <p>La conversion du corpus de SGML à XML fut réalisée de manière
+                quasi-automatique ; mais avec des balises plus malléable et accessibles, il
+                apparaissait plus aisé d’aborder certains des moins fréquents ou des plus
+                excentriques aspects du balisage du <hi rend="italic">BNC</hi>.</p>
+            <p>Le <hi rend="italic">BNC World Edition</hi> indiquait par exemple
+                une correction éditoriale du corpus de deux manières différentes, quand cette
+                indication était présente. Aucune tentative d’harmonisation ne fut engagée vis-à-vis
+                de la description des caractéristiques extra-linguistiques des textes oraux ou de
+                celle des codes employés pour caractériser des traits saillants dans les textes
+                écrits. Nous avons tenté d’aborder ces inconvénients par une homogénéisation de ces
+                descriptions, en recodant par exemple « <hi rend="italic">baby cries</hi> » (<hi
+                    rend="italic">pleurs de bébé</hi>), « <hi rend="italic">baby screams</hi> » (<hi
+                    rend="italic">cris de bébé</hi>), « <hi rend="italic">baby noise</hi> » (<hi
+                    rend="italic">bruits de bébé</hi>), etc. en un unique « <hi rend="italic">baby
+                    cries</hi> » (<hi rend="italic">pleurs de bébé</hi>). Pour prendre un autre
+                exemple, le pays Bahreïn («<hi rend="italic"> Barhain </hi>» en anglais) figure 174
+                fois dans le <hi rend="italic">BNC </hi>; en 9 occurrences, il est orthographié
+                Bahrein. Sur ces 9 orthographes erronées, seules deux sont balisées comme erreur, de
+                façons différentes qui plus est. Ce genre de pseudo-précision contribue simplement à
+                plonger l’utilisateur dans la confusion. Nous avons aussi tenté de simplifier
+                plusieurs aspects du balisage, en particulier la façon dont étaient représentés les
+                discours simultanés. </p>
+            <p>À chaque nouvelle révision du BNC, l’environnement type
+                d’utilisation du corpus était profondément modifié. À l’époque du <hi rend="italic"
+                    >BNC World</hi>, il semblait évident que le corpus devait maintenant pouvoir
+                être installé à bas coût, pour un usage personnel, sur un simple ordinateur équipé
+                d’un système d’exploitation <hi rend="italic">Windows</hi> quel qu’il soit : nos
+                licences et notre politique de distribution ont été corrigées pour rendre ceci
+                possible. Avec le <hi rend="italic">BNC XML</hi>, cette évolution se confirme, mais
+                en modifiant le logiciel permettant d’accéder au corpus, nous avons également tenté
+                de prendre en compte le mode de distribution qui caractérise l’informatique basée
+                sur le Web. La dernière version de <hi rend="italic">XAIRA</hi> a été conçue pour
+                supporter les prestations du Web et ainsi, cet accès au corpus peut facilement
+                s’intégrer à d’autres applications basées sur le Web. Les contraintes des licences
+                limitent certes le domaine des possibles, mais on peut désormais de manière sûre et
+                sans plus d’effort obtenir très rapidement un aperçu du corpus sur d’autres
+                applications basées sur le Web. Ceci poursuit l’orientation initiée par le
+                développement du service en ligne du <hi rend="italic">BNC</hi>, par une
+                disponibilité accrue du corpus pour une communauté d’utilisateurs toujours plus
+                large.</p>
+            </div><div><head>4 Les LECONS de l'expÉrience du <hi rend="italic">BNC</hi></head>
+            <p >Tout le monde sait qu’il faut faire une étude de marché avant de
+                commencer la distribution d'un projet, en particulier quand on atteint le niveau
+                d’investissement initial requis par le <hi rend="italic">BNC</hi>. Mais, comme tant
+                d’autres choses que tout le monde est censé savoir, cette sagesse populaire s’avère
+                finalement trompeuse dans le cas du <hi rend="italic">BNC</hi>. Quand les
+                partenaires initiaux du projet discutèrent du marché potentiel des copies du <hi
+                    rend="italic">BNC</hi>, il semblait évident qu’il ne pouvait qu’être restreint
+                en taille. Dans le milieu des années 1990, il était manifeste que seule une
+                communauté de chercheurs spécialisés en traitement automatique de la langue
+                naturelle, TAL, et, bien entendu, les départements de R&amp;D des entrepreneurs
+                engagés dans le TAL ou la lexicographie pouvaient être, au moins, intéressés par une
+                collection de cent millions de mots d’anglais, sous une forme alors encore dénommée
+                de « lisible par ordinateur » (<hi rend="italic">machine-readable</hi>). L’évidence
+                de ce modèle se reflétait dans les options retenues pour le cadre juridique de
+                diffusion du corpus, comme pour les méthodes de distribution : la licence que tout
+                acquéreur potentiel devait signer (en deux exemplaires) mentionne par exemple des
+                « groupes de recherche » et s’oppose farouchement à tout contrôle d’un usage en
+                réseau du corpus à l’intérieur d’une institution – mais nulle part n’y est envisagée
+                la possibilité d’un achat pour un usage individuel ou avec un groupe d’étudiants. </p>
+            <p>Les faits nous ont cependant rapidement démontré que le marché en
+                question était bien plus important et de nature très différente. Les principaux
+                utilisateurs du <hi rend="italic">BNC</hi> se révélèrent être des personnes
+                travaillant en linguistique appliquée et non dans les linguistiques
+                computationnelles, en particulier des individus que concernaient l’apprentissage et
+                l’enseignement de la langue. Leurs compétences informatiques étaient moindres que
+                prévues, mais leur enthousiasme sans commune mesure plus vaste. Ils comprenaient non
+                seulement des linguistes computationnels ou des chercheurs en TAL, mais également
+                des historiens de la culture, et même des apprenants en langue. </p>
+            <p>Rétrospectivement, le projet <hi rend="italic">BNC</hi> a connu les
+                mêmes angles morts technologiques que d’autres projets de la même époque.
+                Bizarrement, nous ne nous attendions pas du tout au succès rencontré par la
+                révolution du XML ! Nous avons donc perdu énormément de temps en conversion de
+                formats et compromis. De la même façon, parce que nous n’avions pas prévu que les
+                ordinateurs indépendants, fonctionnant à 1 Ghz avec des disques durs de 20
+                Gigabytes, deviendraient la norme de l’équipement des foyers, nous n’avons pas
+                anticiper le fait qu’un jour il serait possible de stocker, avec leurs
+                retranscriptions, les versions audio numériques des textes que nous transcrivions.
+                De ce fait, nous ne nous sommes jamais demandé s’il serait utile d’essayer d’obtenir
+                des droits pour distribuer ces versions audio. De même nos efforts de développement
+                logiciel se sont focalisés sur le développement d’une application client/serveur, un
+                système basé sur l’hypothèse que l’utilisation du <hi rend="italic">BNC</hi> serait
+                caractérisée par une unique ressource informatique partagée permettant plusieurs
+                points d’entrée, plutôt que par une massive reproduction sur des machines
+                individuelles. </p>
+            <p>Quelles autres opportunités n’avons-nous pas saisies ? Dans la
+                conception initiale, il y a clairement un perceptible déplacement de la notion de
+                « représentativité » à l’idée du <hi rend="italic">BNC</hi> comme d’une source de
+                corpus de spécialités. D’un échantillon de l’ensemble de la langue, le <hi
+                    rend="italic">BNC</hi> s’est rapidement mis en place comme dépositaire de la
+                variété de la langue. C’était, de façon rétrospective, un repositionnement assez
+                sensible : il est difficile d’envisager la compilation de matériaux plus divers que
+                le <hi rend="italic">BNC</hi>. Un rapide coup d’œil à des listes de discussion se
+                rapportant aux corpus montre que les questions les plus fréquentes sont des
+                questions du type « <hi rend="italic">Je suis en train de chercher un ensemble de
+                    textes de type X</hi> » (j’ai noté pour les questions les plus récentes que ce X
+                concerne des interactions docteur / patient, les débats juridiques, les
+                controverses, le flirt…) ; dans presque tous les cas, la réponse à une telle
+                question est « i<hi rend="italic">l y a ça oui, quelque part dans le BNC, mais c’est
+                    à vous de la trouver…</hi> ». La version XML du corpus rend ce genre de
+                démarches plus aisé, en assurant un meilleur accès à une série de méta-données qui
+                peuvent être recherchées en même temps que le contenu textuel lui-même. Nous pouvons
+                par exemple repérer les débuts de romans, catégorisés comme « fiction », en
+                cherchant un échantillon de textes intégrant des sections d’ouverture ; ou nous
+                pouvons sélectionner des sessions de formations en recherchant ces mots dans le
+                titre des textes catégorisés comme discours en contexte normé.</p>
+            <p>De façon très claire, la conception du <hi rend="italic">BNC</hi>
+                est totalement passée à côté de l’opportunité de monter un formidable corpus de
+                suivi, l’un de ceux qui aurait pu saisir l’écoulement du fleuve de la langue et
+                évoluer au fil du temps. Ce serait particulièrement déprimant si les linguistes de
+                ce siècle continuaient à étudier la langue des années 1990 durant autant de temps
+                que, ceux qui les ont précédés, ont eux-mêmes étudié la langue des années 1960.
+                Néanmoins, quand bien même cela serait évidemment intéressant, les chances restent
+                très maigres d’obtenir les fonds nécessaires pour construire une série de corpus
+                semblables au <hi rend="italic">BNC</hi>, à intervalles réguliers, disons toutes les
+                décennies. En revanche, nous pouvons déjà prévoir que dans un futur proche, nous
+                aurons à disposition différents corpus de langue d’une toute autre échelle. Comment
+                gérer au mieux la diversité et l’imprévisibilité du Web pour en faire notre source
+                future d’information linguistique est une autre, et tout à fait différente,
+                histoire.</p>
+            </div><div><head>5 BIBLIOGRAPHIE</head>
+            <bibl>Aston G. and Burnard L. (1998). <hi rend="italic">The BNC
+                    handbook: exploring the British National Corpus with SARA</hi>. Edinburgh :
+                Edinburgh University Press.</bibl>
+            <bibl><anchor xml:id="index.xml-bibl-id2317532"/>Atkins B.T.S., Clear
+                J., and Ostler N. (1992). « <hi rend="Q">Corpus Design Criteria »</hi>,<hi
+                    rend="italic"> Literary and Linguistic Computing</hi>, 7, p. 1-16.</bibl>
+            <bibl><anchor xml:id="index.xml-bibl-id2317550"/>Atkins B.T.S. &amp;
+                Zampolli A. (1994). <hi rend="italic">Computational Approaches to the Lexicon</hi>,
+                Oxford : Oxford University Press.</bibl>
+            <bibl><anchor xml:id="index.xml-bibl-id2317561"/>Burnage G. &amp;
+                Dunlop D. (1992). « <hi rend="Q">Encoding the British National Corpus »,</hi> in :
+                Aarts <hi rend="italic">et al.</hi> (eds). <hi rend="italic">English language
+                    corpora: design, analysis and exploitation,</hi> Amsterdam : Rodopi, p 79-95 </bibl>
+            <bibl><anchor xml:id="index.xml-bibl-id2317579"/>Burnard L. (ed)
+                (1995). <hi rend="italic">Users' Reference Guide for the British National Corpus,
+                    version 1.0</hi>. Oxford : Oxford University Computing Services.</bibl>
+            <bibl><anchor xml:id="index.xml-bibl-id2317590"/>Burnard L. (1999).
+                    « <hi rend="Q">Using SGML for linguistic analysis : the case of the BNC »,
+                </hi>in : <hi rend="italic">Markup languages theory and practice</hi>, vol. I.2,
+                Cambridge, Mass: MIT Press, p. 31-51 (également publié en 2001 dans <hi
+                    rend="italic">Maschinelle Verarbeitung altdeitscher Texte,</hi> vol. V,
+                Tuebingen : Max Niemeyer, p. 53-72).</bibl>
+            <bibl><anchor xml:id="index.xml-bibl-id2317615"/>Carpenter L., Shaw S.
+                &amp; Prescott A. (eds) (1998). <hi rend="italic">Towards the Digital Library: the
+                    British Library's Initiatives for Access programme,</hi> London : British
+                Library. </bibl>
+            <bibl><anchor xml:id="index.xml-bibl-id2317628"/>Clear J. H. (1993).
+                    « <hi rend="Q">The British National Corpus »,</hi> in : Delany P. &amp; Landow
+                G. (ed). <hi rend="italic">The Digital Word : text-based computing in the
+                    humanities,</hi> Cambridge (Mass) : MIT Press, p. 163-187. </bibl>
+            <bibl><anchor xml:id="index.xml-bibl-id2317645"/>Crowdy S. (1994).
+                    « <hi rend="Q">Spoken Corpus Transcription », </hi><hi rend="italic">Literary
+                    &amp; Linguistic Computing,</hi> vol. 9:1, p. 25-28. </bibl>
+            <bibl><anchor xml:id="index.xml-bibl-id2317664"/>Crowdy S. (1995).
+                    « <hi rend="Q">The BNC spoken corpus », </hi>in : Leech G., Myers G. &amp;
+                Thomas J. (eds). S<hi rend="italic">poken English on computer: transcription,
+                    mark-up and application,</hi> Harlow : Longman, p. 224-235. </bibl>
+            <bibl><anchor xml:id="index.xml-bibl-id2317682"/>Dunlop D. (1995).
+                    « <hi rend="Q">Practical considerations in the use of TEI headers in large
+                    corpora »,</hi> in : Ide N. &amp; Veronis J. (eds). <hi rend="italic">Text
+                    Encoding Initiative: background and context,</hi> Dordrecht : Kluwer, p. 85-98. </bibl>
+            <bibl><anchor xml:id="index.xml-bibl-id2317699"/>Garside R. (1995).
+                    « <hi rend="Q">Grammatical tagging of the spoken part of the British National
+                    Corpus: a progress report »,</hi> in : Leech G., Myers G. &amp; Thomas J. (eds).
+                    <hi rend="italic">Spoken English on computer: transcription, mark-up and
+                    application, </hi>Harlow : Longman, p. 161-167.</bibl>
+            <bibl><anchor xml:id="index.xml-bibl-id2317716"/>Garside R. (1996).
+                    « <hi rend="Q">The robust tagging of unrestricted text : the BNC
+                    experience »,</hi> in : Thomas J. &amp; Short M. (eds). <hi rend="italic">Using
+                    corpora for language research: studies in the honour of Geoffrey Leech,</hi>
+                Harlow : Longman, p. 167-180. </bibl>
+            <bibl><anchor xml:id="index.xml-bibl-id2317734"/>Garside R., Leech G.
+                &amp; McEnery T. (1997) <hi rend="Q"><seg rend="italic">Corpus Annotation:
+                        Linguistic Information from Computer Text Corpora,</seg></hi> London :
+                Longman, chapters 7-9.</bibl>
+            <bibl><anchor xml:id="index.xml-bibl-id2317748"/>Ide N., Priest-Dorman
+                G. &amp; Véronis J. (1996) <hi rend="italic">Corpus Encoding Standard</hi>.
+                [disponible sur <ref target="http://www.cs.vassar.edu/CES/"><hi rend="Internet_Link"
+                        >http://www.cs.vassar.edu/CES/</hi></ref>]</bibl>
+            <bibl><anchor xml:id="index.xml-bibl-id2317764"/>Lee D. (2001) « <hi
+                    rend="Q">Genres, registers, text types and styles : clarifying the concepts and
+                    navigating a path through the BNC Jungle »,</hi>
+                <hi rend="italic">Language Learning and Technology</hi>, vol. 5.3 [disponible sur
+                    <ref target="http://llt.msu.edu/"><hi rend="Internet_Link"
+                        >http://llt.msu.edu/</hi></ref>]</bibl>
+            <bibl><anchor xml:id="index.xml-bibl-id2317789"/>Leech G., Garside R.
+                &amp; Bryant M. (1994). « <hi rend="Q">CLAWS4: The tagging of the British National
+                    Corpus »,</hi> in : <hi rend="italic">Proceedings of the 15th International
+                    Conference on Computational Linguistics</hi>, Kyoto : COLING 94, p. 622-628.</bibl>
+            <bibl><anchor xml:id="index.xml-bibl-id2317809"/>Leech G &amp; Smith
+                N. (2000) <hi rend="italic">Manual to accompany The British National Corpus (Version
+                    2) with Improved Word-class Tagging,</hi> Lancaster : UCREL [disponible sous
+                forme numérique comme élément du <hi rend="italic">BNC World Edition</hi>].</bibl>
+            <bibl><anchor xml:id="index.xml-bibl-id2317822"/>Lehmann H., Schneider
+                P. &amp; Hoffmann S. (1999). « <hi rend="Q">BNCweb »,</hi> in : Kirk J. (ed). <hi
+                    rend="italic">Corpora galore: analysis and techniques in describing
+                    English,</hi> Amsterdam : Rodopi, p. 259-266. </bibl>
+            <bibl><anchor xml:id="index.xml-bibl-id2317840"/>Renouf A. (1986)
+                    « <hi rend="Q">Corpus development at Birmingham University »,</hi> in : Aarts J.
+                &amp; Meijs W. (eds). <hi rend="italic">Corpus Linguistics II : New Studies in the
+                    Analysis and Exploitation of Computer Corpora</hi>, Amsterdam : Rodopi, p.
+                7-23</bibl>
+            <bibl><anchor xml:id="index.xml-bibl-id2317860"/>Sinclair J. McH.
+                (1987). <hi rend="italic">Looking Up</hi>. London : Collins.</bibl>
+            <bibl><anchor xml:id="index.xml-bibl-id2317870"/>Sperberg-McQueen C.M.
+                &amp; Burnard L. (1994). <hi rend="italic">Guidelines for electronic text encoding
+                    and interchange </hi>(TEI P3), Chicago et Oxford : ACH-ALLC-ACL Text Encoding
+                Initiative. </bibl>
+            <bibl><anchor xml:id="index.xml-bibl-id2317882"/>Zampolli A.,
+                Calzolari N. &amp; Palmer M. (eds) (1994). « <hi rend="Q">Current Issues », in :
+                        <seg rend="italic">Computational Linguistics: In Honour of Don
+                    Walker</seg></hi> (<hi rend="italic">Linguistica Computazionale</hi> IX-X),
+                Pisa : Giardin</bibl></div>
+        </body>
+    </text>
+</TEI>

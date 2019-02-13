@@ -1,0 +1,572 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>From two cultures to digital culture: the rise of the digital demotic</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>XML version for my archive</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Retagged in XML from old source file</p>
+            <p>Text later published as <bibl n="36"><date>2001</date>
+      <title>From two cultures to digital culture: the rise of the digital demotic</title>.
+      Presented at CLIP, Alicante, 2000. in <title>Informatica umanistica. Dalla ricerca all'insegnamento.
+         a cura di Domenico Fiormonte. </title> Roma: Bulzoni Editore. 2003. Also published in
+      translation as <title level="a">Dalle “due culture” alla cultura digitale: la nascita del
+         demotico digitale</title>trad. di Federico Pellizi. <title>il verri 16: "nella
+         rete"</title>, Milano: Edizioni Monogramma. pp 9-22.</bibl></p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2014-12-15">Initial conversion; added header</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+<!-- not sure where the slides are -->
+<body>
+<p>
+<title>From two cultures to digital culture: the rise of the digital demotic</title>
+</p>
+
+<div><head>The Two Cultures</head>
+<p>I take my title from an odd but highly resonant moment in English
+academic life, one of those explosions of public rancour that
+occasionally rocks the calm of academe. In 1959, the then well-known
+novelist and former civil servant Sir Charles Percy Snow gave an
+invited lecture at Cambridge entitled <title>The two cultures and the
+scientific revolution</title> in which he put forward the view that
+English cultural life was unevenly divided between science and the
+arts, and that he for one was on the side of the former. The lecture
+was based on an article he had published in the New Statesman a few
+years earlier, but after its presentation it took on a life of its
+owen, being reprinted in Encounter, and in book form with seven
+printings up till 1961, the year in which it apparently <q></q>"came to the
+notice" of the great humanist critic F.R.  Leavis. In a lecture
+reprinted as an article called <q></q>Two cultures: the significance of cp
+snow" in the Spectator 1962, and subsequently in "Nor shall my sword,
+1972) Leavis attacked Snow and all his works with a venom and a degree
+of personal animosity that is hard to comprehend: "It is ridiculous to
+credit him with any capacity for serious thinking about the problems
+on which he offers to advise the world". While Leavis may have had
+right on his side, the opinion of the Grub Street of the day (on which
+the subsequent controversy sheds much amusing light) was that he had
+not expressed himself correctly. No less a personage than Dame Edith
+Sitwell (surely no friend to the corridors of power) was heard to
+remark that"Dr Leavis only attacked Charles because he is famous and
+writes good English"
+</p>
+<milestone unit="slide"/>
+<p> Certainly, Snow's actual argument in 2 cultures doesn't bear much
+investigation. Its tone veers disconcertingly between cozy anecodote
+and apocalyptic call to action. It identifies a "gulf of mutual
+incomprehension" between scientist and "literary intellectuals" (later
+equated with "traditional culture" ), but falls straight into the gulf
+of his own ignorance about the relative states of advancement of
+scientific education in the Soviet Union, the US, and Europe. It
+demonizes one kind of intellectual tradition as "naturally Luddite",
+"not only politically silly but politically wicked", while
+uncritically praising another as "having the future in its bones".</p>
+
+<p>As an example of argument by anecdote: at a literary party, he
+discovers that no-one but himself can explain the second law of
+thermodynamics "yet I was asking something which is about the
+equivalent of Have you read Shakespeare". An equivalence which Leavis
+reasonably disputes: one is a piece of specialised knowledge of use in
+certain contexts, whereas the other "provides a window into the soul
+of humanity". Interestingly, four years and ten printings later, in
+Snow's revision of the essay, the touchstone has become "molecular
+biology", which must have greatly annoyed any humanist persuaded by
+Snow's argument into boning up on thermodynamics in the interim, only
+to find the goal posts moved.</p>
+<p>It seems clear that the unforgiveable sin for which Leavis attacked
+Snow was that Sir Charles epitomized the tendency to trivialize
+culture by reducing it to a form of entertainment. Not that
+entertainment is a bad thing, but it is not the same as high
+culture. Confusing the two necessarily leads to the trivialisation of
+art, never to the elevation of entertainment. For Leavis, of all
+critics, such trivialization is unforgiveable.</p>
+<p>More profoundly, and more disturbingly, Snow's views are deeply
+materialistic and anti-individualist. His metric for social success is
+"standard of living" (what he calls "jam tomorrow"); literary and
+artistic culture are merely an extra, providing no moral challenge or
+insight. For him, the only serious questions are how to keep
+increasing and then effectively distributing the world's wealth --
+which are questions far removed from what he perceives to be the
+cultural agenda. This seems a curiously limited view. As Leavis says
+"The upshot is that if you insist on the need for any other kind of
+concern, entailing forethought, action and provision about the human
+future -- any other kind of misgiving -- than that which talks in
+terms of productivity material standards of living, hygeinic and
+technological progress, then you are a Luddite".
+</p>
+<milestone unit="slide"/>
+
+<p>Leavis's argument reminds us that (by this definition at least)
+science is amoral: its province is the definition of means, its
+weakness that it cannot help us identify ends. As Blaise Pascal noted
+several centuries earlier (pensees no 23) "Knowledge of physical
+science will not console me for ignorance of morality in a time of
+affliction, but knowledge of morality will always console me for
+ignorance of physical science." (or, as the fabulous furry freak
+brothers put it more recently "dope will get you through times of no
+money better than money will get you through times of no dope")</p>
+  
+<p>It's a pleasing irony that in 1882 Matthew Arnold also gave a Rede
+lecture at Cambridge, and also pronounced on the two cultures topic in
+a lecture called "Literature and Science" -- but expressed a viewpoint
+somewhat the opposite of Snow's. Arnold's famous essay was originally
+conceived as a response to T. H Huxley's claim, quoted by Arnold, that
+"for the purpose of attaining real culture, an exclusively scientific
+education is at least as effectual as an exclusively literary
+education".  It re-asserts with great rhetorical skill that dominant
+Victorian ideology of the necessity for literary and classical
+(especially Greek) art as both an expression of and a satisfaction for
+innate human characteristics and desires. For Arnold, "humane letters"
+-- "the best that has been thought and uttered in the world" -- "have
+a fortifying and elevating and quickening and suggestive power capable
+of wonderfully helping us to relate the results of modern science to
+our need for conduct, our need for beauty."</p>
+
+<p>Snow's presentation of the same opposition now seems at least as
+deeply rooted in its historical period, the early sixties, as does
+Arnold's in its. Re-reading Snow and Leavis reminded me of the extent
+to which their views were already institutionalized, for example in
+the choice that I had to make at a certain age between the "arts" and
+the "sciences". (At my school, where the science 6th formers were
+routinely referred to by the senior master as "beaker boilers", the
+choice wasn't difficult, though I have always regretted being denied
+the study of chemistry just as I was beginning to grasp its
+fundamental principles.). Re-reading Arnold however reminded me of the
+deeply moral concerns of that great Victorian thinker, and how large a
+influence they continue to have over our fundamental assumptions about
+society and social welfare. And how difficult it seems to re-assert
+those values in the face of neglect, indifference, denial, or open
+hostility. The certainties of Arnold and Leavis have taken quite a
+pasting over the last thirty years, deservedly so in the reduced form
+with which we encounter them as presented by arts barons and
+administrators, but I would like to assert that Arnold's insistence on
+the existence of cultural value, whether or not we ground that in
+morality, is one we cannot ignore. And I would also like to argue that
+it is by making the transition from "two cultures" to "digital
+culture" that we are empowered to rediscover cultural value of a kind
+more appropriate to our decentred, fragmented, and indeterminate
+world.</p>
+</div>
+
+<div><head>Reclaiming the machine</head><milestone unit="slide"/>
+
+<p>First, however, my rewriting of history. A compensation for the
+approach of senility is the licence to rewrite history, and in my 55th
+year I see no reason not to employ it.  The computing environment I
+first encountered, in the mid 1970s, was of course very different from
+that of today in its technology. I will not drone on on this occasion
+about punch cards, teletypes or paper type, nor contrast George III
+with its 64 Kwords of memory and megabytes of disk shared amongst a
+dozen interactive sessions with Windows 2000, its gigabyte of RAM and
+terabytes of data storage, all for me. I won't even say much about the
+contrast between the competition for resources amongst logged on users
+of a mainframe, and the distributed anarchy of a network of world wide
+users, though there is an interesting sociological contrast to be
+drawn between those two kinds of community. Instead, I would like to
+focus on the history of humanities computing, with which I find myself
+roughly contemporaneous. For different presentations of roughly
+overlapping material, I recommend to you both  Mike Fraser's web
+pages at (http://info.ox.ac.uk/ctitext/history/, and the database
+maintained by Geoffrey Rockwell at http://www.cheiron.mcmaster.ca/history/)</p>
+
+<!-- In those distant times, new technology was an occasion for
+unbridled enthusiasm, not only amongst politicians but also in lesser
+role models like Nigel Molesworth - author, let it not be forgotten,
+of a book called <title>Whizz for Atoms</title>. And later in the
+sixties, enthusiasm for technology migrated underground along with
+everything else: some of you may have parents who remember for example
+Stewart Brand's <title>Whole Earth Catalog</title> a wonderful
+compendium of applied technologies which only lacks a section on
+humanities computing because no-one had yet invented a way of getting
+computers to work on solar energy.</p> --> 
+
+<p>One pleasing thing we learn from studying either of these resources
+is that the founding fathers of Humanities Computing were pragmatists
+who responded enthusiastically to the new technology, while at the
+same time regretting its limitations.  When in 1949 Father Busa
+approached IBM Italia for help in his preparation of a scholarly
+edition of the works of Aquinas, he did not consider that he was
+betraying traditional academic goals. On the contrary, he saw the
+potential that new technology offered to enhance the pursuit of those
+goals. In his case, it was the ability to lemmatise, collate, and
+organize the lexis of Aquinas as manifest in the surviving written
+records, more efficiently and on a grander scale than had ever
+previously been possible. In the same way, and indeed at the same time as Snow and Leavis were bickering, when Henry Kucera and Nelson Francis initiated the creation of
+the Brown <title>Corpus of Modern English Adapted for the Use of
+Digital Computers</title>, they were responding to a need for evidence
+of language usage on a scale that only new technology could supply. In
+neither case were they attempting to redefine their respective
+disciplines. In both cases, the technology served to support and
+enhance such traditional scholarly goals as the widespread sharing and
+exchange of information; the creation of reusable resources; the
+enhancement of pedagogic practice; and even the preservation of
+cultural values.  </p>
+
+<p>These heroic pioneers aside, it is probably true to say that the history of
+HC in the UK begins in the mid seventies, with the decision of the
+govt to centrally fund provision of computing facilities to all
+universities, and the consequent suspicion of those universities with
+a predominantly humanities bias (like my own) that these facilities
+might be used not just by serious chaps in white overalls.  The
+difficulties, then as now, were infrastructural: so deeply
+institutionalised was the boundary between arts and sciences that the
+application of any kind of technology from one domain in another was
+necessarily marginal and deeply suspect. In such a situation, endless
+debate about disciplinarity, about methodology, and all manner of
+other purely contingent issues was bound to dominate. Yet it also
+seems clear that from the start, the primary usefulness of the
+computer lay in its apparent ability to digest text. In 1980, the
+first two introductory books in this field (if field it was) appeared:
+a glance down the contents pages shows how much the field was
+dominated by the mechanical quantification of style and by the
+production of lexical concordances, and by simple technical problems
+of adequately representing the vagaries of the world's ancient and
+modern writing systems and languages . There is also a striking
+desire to avoid too much compromise of the simple humanistic
+perspective by hard formal sciences such as computational linguistics
+or formal logic, although quite complex non-parametric statistical
+techniques are apparently appropriate grist to the mill.  
+</p>
+<p>Perhaps because it has defined itself largely by technology rather
+than by theory, the central concerns of HC (as a social phenomenon)
+have been subject to the same vagaries of progress as the rest of
+society. Thus,  the appearance of cheap personal computers in the
+mid 80s was followed by a (mercifully short lived) upsurge of
+enthusiasm for the idea that computing had something to offer
+educational theory, just as the sudden take off of computing networks
+in the mid 90s was followed by an upsurge of enthusiasm for the idea
+that computing had something to offer communications theory. Which is
+not to say that the application of computers in those fields is
+theory-neutral or without effect, but simply that in neither case is
+such effect specific to the humanities, and therefore not an argument
+for the existence of specifically humanities computing.
+</p>
+</div>
+<div><head>What is humanities computing</head>
+
+<p>I have always enjoyed arguing against Willard that there is no such
+thing as humanities computing: the fact that I currently run something
+called a HC Unit may seem to slightly weaken the claim, since clearly
+HC does exist as a social phenomenon if nothing else. But if it exists
+as anything more, it is remarkable to me how often it defines itself
+negatively, as something distinct from any number of other things it
+might be presumed to be.<milestone unit="slide"/>
+
+ Here is a short list of things which I have
+read articles asserting that HC is not
+<list>
+<item>computational linguistics, artificial intelligence, or NLP;</item>
+<item>database analysis, information analysis,m formal nodelling;</item>
+<item>computer science in general;</item>
+<item>use of computers in the creative or plastic arts;</item>
+<item>statistical-based analyses</item>
+<item>word processing</item>
+<item>computer aided language learning or pedagogy</item>
+</list>
+</p>
+<p>In which case one might well ask, what is it about the application of
+digital techniques to the humanities that merits special attention?
+To put this point less aggressively,, I will try to imagine myself
+answering a question from someone I like but who is unaware that a
+computer might be used to do something other than (say) provide access
+to megabytes of soft porn. The question is <q>What use is this technology
+to my academic concerns?</q> and here are some of the answers I would
+not be ashamed to offer. Perhaps you can think of some others.
+
+<list>
+
+<item>computing offers a means of communication which cuts across
+traditional social structures in unpredictable, occasionally
+infuriating, but generally beneficial ways. As an example, I would
+cite the number of internet based research projects which would
+otherwise simply have been unable to achieve significant presence in
+the world because of the accidents of geographic dispersal.
+</item>
+
+<item>digital systems foster, embody, and support a fragmented,
+nonlinear, decentred, view of text and textuality which seems
+strangely congruent with current thinking about such phenomena: which
+is cause and which effect I would not presume to judge, but current
+cultural perspectives are inherently digital. If evidence were needed
+I would point to any one of hundreds of academic websites<!--, not a few
+of them apparently emenating from Mr Jefferson's University. --></item>
+
+<item>perhaps related to the former point, the computer offers those
+interested in the use of language itself incomparably better tools
+than we have had hitherto; in particular, they enable new kinds of
+evidence and new methods for their assessment and incorporation into
+language teaching; particularly in Europe, where multilinguality is a
+major political desideratum, this means that language processing
+technologies are central to the concerns of the state as well as those
+of the academy. </item>
+
+<item>Finally, I would remind my interlocutor that digital techniques
+offer us a cheap and universal medium for the description,
+distribution, and analysis of all kinds of pre-existing cultural
+artefacts. If we, in the Academy, do not bring our expertise in these
+areas to the table, do we seriously imagine that others will hold off
+from doing so? Or that we will be pleased with the results?
+</item>
+</list>
+</p>
+
+<p>Whether or not you agree that digital techniques and methods have
+something to offer the humanities, it is clear that they are not going
+to go away. And it is also clear that the interdisciplinary nature of
+Humanities Computing has very difficult implications for the highly
+discipline-specific administrative structures which characterize
+European universities.
+</p><milestone unit="slide"/>
+
+
+<p>There is much concern about the need to equip the next
+generation of humanities scholars with relevant skills, which will
+enable them to participate in what Brussells likes to call the
+emerging Information Society; specifically, there is much (often
+justifiable) skepticism about the ability of existing bureaucratic
+structures to adapt in response to that need. This skepticism is often
+perceived (sometimes justifiably) as administrative luddism driven by
+populist anti-clericalism, but that does not make it go away. A more
+creative response might be indeed to tackle the unspoken question
+behind this debate and propose a reorganization of the traditional
+humanities disciplines which could take advantage of the opportunities
+presented by new technologies, providing an articulate response to the
+challenges implied by the applications of that technology in society
+at large, while remaining true to the original goals of the
+humanities. That is a task too large for this paper, or for this
+seminar, but I would like to make a few gestures towards specifying
+some of the components of such a reorganization. </p>
+
+<p>We might begin by extrapolating from current discernible trends in
+the creation, consumption, and distribution of those artefacts which
+have either already made the transition to digital media or are
+beginning to do so. We should ask ourselves how well our existing
+structures can cope with an enormous expansion in the numbers of those
+able to access, and anxious to understand an equally enormously
+expanded base of primary cultural artefacts; we should also ask how
+well they will cope with an enormously increased divergence in kinds
+of accessors (in terms of language, age, social class, and other
+factors) and kinds of resource.  And we should ask how well we think
+our existing structures prepare learners for dealing with a fragmented
+digital world in which everything may be linked, but the sense it all
+makes has to come from within. </p>
+
+<p>Being incurably optimistic, I believe that traditional humanistic
+skills are going to be increasingly valuable, not less, in that world,
+but we cannot take for granted that it will be easy to apply them. As
+a trivial example, consider the ways we try to encourage students to
+cite sources, to question over-simplified assertions, to seek
+independent corroborative evidence, to take little on face value, to
+sift dispassionately through available documentary evidence. What
+techniques will students need to learn in order to maintain those
+intellectual habits in a digital world? It seems to me that they will
+need a lot more information about how the digital world is
+constructed, and by whom, than is currently available to anyone but a
+few. We urgently need to develop new ways of analysing and
+comprehending the demographics and sociology of digital culture,
+appropriate to the coming media meltdown.</p>
+
+<p>Equally, from the opposite point of view, because the digital world
+so greatly increases access to original unmediated source material (or
+at least a simulation thereof), the esoteric techniques developed over
+the centuries in order to contextualise and thus comprehend such
+materials will need to be made accessible to far more people. We
+urgently need to develop new methods of doing textual editing and
+textual exposition, appropriate to the coming digital deluge. </p>
+
+</div>
+<milestone unit="slide"/>
+
+<div><head>Towards the uncritical edition</head>
+
+<p>Our traditional humanities masters degrees have always combined
+training in methodology with training in hermeneutics: generations of
+Oxford DPhil students have had to learn how books were printed, as
+well as what was printed in them. And the final outcome of the
+traditional masters degree has traditionally been yet another book to
+add to the stacks, for future generations to interpret. At present, if
+humanities computing fits anywhere, it fits inside the methodological
+component of such degrees, with the natural consequence that if the
+implications of digitization are addressed at all, they are done so
+from a purely pragmatic viewpoint uninformed by theory.  But there is
+a theory that could help us here: as Robinson, McGann, and many others
+have insisted time and time again, the preparation of a digital
+edition has more in common with the preparation of a traditional
+critical edition than with the preparation of a facsimile. Let me
+express deep gloom at the amount of effort currently being sunk into
+preparation of digital facsimiles, unbalanced by any more ambitious
+project of true digital encoding. I would like to propose an
+alternative agenda, which I will call "Towards the uncritical
+edition". An uncritical edition is one which does not attempt to
+settle controversy, but to ignite it. It invites the exercise of the
+insights of critical editing and edition philology, re-applying them
+in a new context. It uses the tools and techniques we have developed
+in thirty years of applying computers to the processing of human
+language in order to problematize the textuality that a traditional
+critical edition tends to gloss over. Its creation thus implies a
+fruitful synergy of insights from semiotics, from textual study, and
+from hermeneutics. </p>
+
+<p>I am encouraged in the belief that this is a viable project by the
+pronouncements of those whose business it actually is. Discussion of
+electronic textuality is increasingly commonplace, not just amongst
+the pioneers and the specialists (Bolter, McGann, Robinson) but
+amongst other leading figures within the textual editing
+profession. So, for example the distinguished 17th c editor Leah
+Marcus writes "To centre an edition on textual differences and
+instability is to respond to a new set of paradigms by which texts
+have recently been redefined... the best format for such a display is
+the online edition". [renaissance text vol]
+</p>
+<milestone unit="slide"/>
+
+<p>In the introduction to a recent special issue of LLC ("Making texts for the next century, LLC 15.1 Apr 2000), Peter Robinson distinguishes
+three kinds of electronic edition. The first, of which he cites
+his own ongoing Canterbury Tales project as an example, is the kind
+of digital archive with which we are increasingly familiar. It
+delights in the facility never before offered for the reader to have
+access to all available witnesses of a text, without privileging any
+one of them. It empowers the reader who must make his or her own
+judgments about the text, on the basis of the empirical evidence
+presented by an ostensibly neutral medium. The second, of which he
+cites the new Dante edition as exemplar, resembles a traditional
+edition in which a primary authorial text is painstakingly established
+by complex editorial procedures; here the great contribution of the
+electronic medium is the sophistication and complexity of the methods
+by which that text can be established: nevertheless it remains a
+fundamentally recognizable product of the same philogical traditions
+as those with which we are all familiar. But it is editions of the
+third type, for which Robinson cites as exemplar the work of Parker and Wachtel
+on the Greek Newt that I would like to close by commending to
+you. Texts such as the New Testament really are the product of
+centuries of rewriting, and re-reading, and their editing therefore
+requires presentation not just of many hundreds of versions of a
+text, but also explication and guidance as to how given texts and
+readings have interacted to produce the versions that survive. This
+kind of edition has a clear editorial intention: to present a reading
+of the history of a text and in that sense it is a guided tour, with a
+quasi-moral agenda; at the same time it eschews final statements about
+what the text really is, other than the history of its reading, and in
+that sense it is amoral or "scientific".
+</p>
+
+<milestone unit="slide"/>
+
+
+ <p>The computer, I suggest, facilitates what we might call an
+archaeological perspective in our investigations of textuality. The
+archaeologist is concerned with data, not as an object in itself but
+because of the explications that may be inferred from it, in service
+of the business of archaeology which is the explication of the
+cultural development of some people. In the same way, the digital
+philologist is concerned with texts not as a sequence of graphemes,
+but as a system composed of many other systems (graphetic, semiotic,
+social etc), from which new explications and new cultural values may
+be derived. In Eco's words "a text... is a machine conceived in order
+to elicit interpretations".  [Interpretation and over interpretation,
+p85]. In the eighties there were those who believed that computer
+technology could facilitate the production of such interpretations
+unmediated by human agency, despite the demolition of such ideas by
+Stanley Fish amongst others (see his "What is stylistics and why are
+they saying such terrible things about it" 1980 for a locus
+classicus). Nowadays we are more likely to observe that while computer
+technology undoubtedly facilitates the production of greater
+quantities of evidence, more data requiring hermeneutic explanation,
+it seems likely that its greatest strength is in the recording of such
+explanation. Which is, perhaps, the same thing, since explanation
+generates more explication in the continuing hermeneutic circle.</p>
+
+
+<p>In conclusion, I return to the question of value judgments in
+literature with which we began. What place can there be for the kind
+of cultural value that Arnold asserts in a world of endless
+re-evaluation?  Northrop Frye (Anat of Criticism, 1957, p17) famously
+discredited the view of a literary work as being a kind of "pie" into
+which the author "has diligently stuffed a specific number of beauties
+or effects" for the critic to pull out like Little Jack Horner. Frye
+characterizes this as "one of the many slovenly illiteracies that the
+absence of systematic criticism has allowed to grow up". By
+"systematic" we assume Frye meant a poetics that attempts to "describe
+the conventions and strategies underlying the effect of a literary
+work".  But from where is such a poetics to come if not a close
+understanding of the mechanics by which (for example) literary effects
+are obtained, an understanding that can only be obtained by a close
+reading of texts, and the re-readings of texts that constitute
+cultural history?
+</p>
+
+<p> Wayne Booth (Literary Understanding: the powers and limits of
+pluralism, 1979, p243, cited in Culler p115) makes a helpful
+distinction here, between "understanding" and "overstanding". In the
+case of "Once upon a time there were three little pigs", understanding
+is asking the questions that the text expects and "insists" (Culler)
+on asking -- eg what happened next? how did the third little pig
+triumph? -- whereas "overstanding" involves asking questions the text
+does not explicitly address, such as "why three" or "why pigs". Such
+questions can be very productive. Indeed many of the most
+interesting forms of modern criticism ask not what the work foregrounds but what it glosses over, not what it says, but what it takes for
+granted.  Discussing this distinction, Jonathan Culler remarks "just as
+linguistics does not seek to interpret the sentences of a language,
+but to reconstruct the system of rules that constitutes it and enables
+it to function, so... overstanding is an attempt to relate a text to
+the general mechanisms of narrative of figuration, of ideology, and so
+on."  </p>
+
+<p> The obvious danger with such "overstanding" is, in bald terms,
+knowing when to stop. As Morris Zapp, In David Lodge's novel "Small
+World" (1984, p25) famously remarks "To understand a message is to decode
+it. Language is a code. <hi>But every decoding is another
+encoding</hi>". Lodge's intention is satirical, but it expresses a
+very real anxiety about the limits of explication which deserves an
+answer. Here is Eco's response:
+<q>
+"In spite of the obvious differences in degrees of certainty and
+uncertainty, every picture of the world (be it a scientific law or a
+novel) is a book in its own right, open to further interpretation. But
+certain interpretations can be recognised as unsuccessful because
+they are like a mule, that is, they are unable to produce new
+interpretations or cannot be confronted with the traditions of the
+previous interpretation. "
+[Eco  p150]
+ </q>
+</p>
+<milestone unit="slide"/>
+
+
+<p>In this response, taken from a symposium on "Interpretation and over
+interpretation" also held in Cambridge, Eco I think gives us a useful
+hint as to the method by which we could reintroduce a kind of
+Arnoldian certainty into the world. If some interpretations are more
+"successful" than others, do we not have good grounds for preferring
+them? And in what does that success consist?
+</p>
+
+<milestone unit="slide"/>
+
+<p>Eco continues <q>The force of the Copernican revolution is not only
+due to the fact that it explains some astronomical phenomena better
+than the Ptolemaic tradition, but also to the fact that it -- instead
+of representing Ptolemy as a crazy liar -- explains why and on which
+grounds he was justified in outlining his own interpretation.  </q>
+Or, if I may paraphrase the master, an interpretation which makes
+sense not only of previously inexplicable phenomena, but also of their
+previously less satisfactory explications, is surely preferable to one
+which does not. I suggest that it is with this assertion of the
+greater value of greater explicatory power we seem to be able at last
+to re-insert a sense of value into our hermeneutic wanderings, to
+rediscover "our need for conduct, our need for beauty".
+</p>
+</div>
+
+
+</body>
+
+   </text></TEI>
+

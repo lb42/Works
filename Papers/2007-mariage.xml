@@ -1,0 +1,643 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Un mariage fait aux cieux</title>
+<author>Lou Burnard</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2006-02-26T14:38:32</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<authority/>
+</publicationStmt>
+<sourceDesc>
+<p>Written by OpenOffice; then edited extensively by emacs</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+</profileDesc>
+<revisionDesc>
+<change>
+<date>2006-04-18</date>
+<respStmt>
+<name>Lou</name>
+</respStmt>
+<item>expand a bit more on train to Besancon</item>
+</change>
+<change>
+<date>2006-03-05</date>
+<respStmt>
+<name>Lou</name>
+</respStmt>
+<item>expand a bit one panicky weekend</item>
+</change>
+<change>
+<date>2006-03-01T00:13:56</date>
+<respStmt>
+<name>Lou</name>
+</respStmt>
+<item>draft from  OO slides used at nanterre Nov 2005</item>
+</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+
+<front>
+<title>TEI+XML: un mariage fait aux cieux.</title>
+<author>Lou Burnard</author>
+<p>Comment utiliser aujourdhui la Text Encoding Initiative pour
+numeriser les documents en lettres et en sciences. </p>
+</front>
+
+<div><head>Pourquoi numériser un texte?</head>
+
+<p>On peut constater plusieures motivations pour la numérisation des
+textes.  La numérisation offre la possibilité d'un enrichissement
+complémentaire et progressif d'un texte imprimé, écrit, ou oral, en
+fournissant (éventuellement) des annotations ou des explications
+supplémentaires; elle offre également la possibilité de remplacer tout
+à fait le texte imprimé. En numérisant on risque aussi
+l'extrême opposé -- la réduction d'un texte dans un simple ensemble
+de mots ou de codes lexiques, dépourvu de sa complexité et de toutes
+ses richesses originelles. On peut se servir d'un texte numérisé,
+d'ailleurs, de plusieurs manières fort diverses -- pour faciliter la
+recherche, pour support à la formation, ou comme partie intégral d'un
+cours d'enseignement, sans parler des loisirs. Les buts, et donc
+les procédures de numérisation considérées adéquates seront bien
+différentes dans chacun de ces domaines. De la même manière, un texte
+informatisé prenant en charge les besoins et les priorités du grand
+public ne ressemblera guère à un texte créé pour une application
+scientifique ou minoritaire. </p>
+
+<p>Assurément ces différences s'appliquent également aux textes non
+informatisés -- aux livres et aux journaux. Mais il me semble que
+quelques uns de nos collègues producteurs de textes informatisés
+croient vraiment que tout le monde se servira de leurs produits de la
+même manière. Pire encore, il me semble de temps en temps que les
+modes d'accès favorisés sont toujours pareilles, manifestant un
+timidité assez curieux, en restant toujours sur un terrain tres bien
+connu, en se servant des modes d'accès classiques et quotidiens. Pourquoi
+numériser un texte, si cela ne servira qu'à remplacer un text imprimé?
+Ne vaudrait-il mieux d'essayer de profiter de ces technologies en
+faisant quelque chose de nouveau, ou au moins en faisant des choses
+anciennes d'une manière plus efficace?</p>
+
+<p>Du point de vue académique, me semble-t-il, la numérisation nous offre
+des possibilités fort intéressants, dont je fais mention ici que de
+trois. D'abord, elle nous offre la possibilité d'intégrer des
+ressources diverses -- des images, des sons, des mots -- sous un même
+format identique, un vrai "digital demotic" (un demotique numerique). A
+part cela, elle nous offre l'opportunité d'intégrer dans un même
+oeuvre: textes, commentaires, sources, variations, discussions
+intertextuels, critique et contre-critique.</p>
+
+<p>Une fois numerisées, il devient facile d'intégrer les médias
+diverses pour faire un texte “composé”. En études philologiques, par
+exemple, on peut pour la première fois unir l'édition critique, avec
+ces manuscrits principales, en forme d'images de page et en forme de
+transcriptions diplomatiques. En études littéraires, on peut présenter
+un oeuvre de théatre ui réunit le texte de l'auteur avec plusieurs 
+réalisations classiques de ce texte; ou combiner un poème avec l'ensemble des
+critiques là-dessus, et avec sa lecture. Secundo, la numérisation
+nous offre une façon nouvelle de préserver les ressources. C'est vrai
+que les médias sur lesquelles on stock aujourd'hui les données sont
+périssables, beaucoup plus périssables que les materiaux d'antan, mais
+on peut transferer les données numerisées d'une media sur une autre
+sans perte d'information.  A quoi bon un media (comme le papier ou la
+pierre) d'un perennité sûr, si les informations stockées là-dessus ne
+sont plus compréhensibles? Dans le monde d'informatique, ce sont les
+média qui s'envolent, et les données qui restent. Et en plus, les
+données numerisées gagnent cette perenniteà cause de la facilite avec
+laquelle on peut les copier. Jefferson a dit en faisant l'eloge de
+l'imprimerie qu'elle faisait possible une "<emph>multiplication beyond
+the reach of accident</emph>" et donc faisait possible la perennité
+des informations. C'est un aperçu qui convient parfaitement le monde
+informatisé, où on est en train d'éprouver un vaste élargissement en
+l'accessibilité des ressources, un changement qui semble être et
+quantitative <emph>et</emph> qualitatitive. </p>
+
+<p>Du point de vue informatique, la numérisation des textes et des
+autres object  culturels semble offrir d'opportunités pareils. Elle
+pose, bien sûr, toute une gamme de problèmes techniques, mais elle
+offre aux informaticiens un défi serieux: comment assurer la
+conservation du patrimoine et de la culture contemporaine, qui
+d'ailleurs, s'expriment de plus en plus dans un forme numerique? On
+apporte à ce défi des outils bien compris et pratique (je pense a la
+semiotique, au linguistique, et surtout à l'encodage); n'empêche que
+cet union des connaissances informatiques et des sensibilités
+culturelles reste difficile et mal compris. </p>
+</div>
+
+<div><head>Qu'est-ce qu'on fait en numérisant un texte?</head>
+
+<p>Numériser, c'est encoder. Dans le monde informatique, un
+<emph>langage d’encodage</emph> sert à specifier les caractères d’un
+texte; à expliciter la ou les structures y aperçue/s ; à linéariser le
+texte; et à specifier des méta-informations, des renseignements
+contextuels etc. Il est donc question de specifier, et ensuite de
+représenter, d'un moyen de plus en plus formel, les constituants
+aperçues dans le texte. Il s'agit d'un procedure d'enrichissement
+progressive, informé par un modele formel, représenté dans la
+figure suivante:
+<figure><graphic url="model.png"/><head>Informatiser c'est modeler</head></figure></p>
+
+<p>Il nous reste un problème grave: même si on se met d'accord sur
+l'existence des constituants avec lesquels on va enrichir un texte
+numerisé, les gens sont loins de les représenter de la meme
+manière. Comment donc savoir si le <gi>p</gi> d'un encodage quelconque
+soit pareil au <gi>para</gi> d'un autre?</p>
+
+<p>Considérons, par exemple, le premier mot du premier chapitre du
+roman <title>Moby Dick</title> de Herman Melville: Loomings. Ce mot
+constitue le titre du chapitre, et on le trouvera donc, dans la
+plupart des versions imprimées, centralisé, en gras, ou distingué des
+mots qui suit d'un autre moyen. Comment représenter ce mot dans une
+edition numérique? Enfin, on n'a pas besoin de théories -- ce roman
+étant très populair, il en existe plusieurs versions numerisées, parmi
+lesquelles on peut distinguer, sans trop d'effort, les variations
+suivantes:
+
+<list>
+<item>on evite tout à fait de représenter le mot ou sa fonction, sauf en forme
+d'image de page</item>
+<item>on donne avec le mot des codes qui controllent la façon de
+ réaliser ce mot, soit sur l'écran, soit sur un imprimeur
+quelconque</item>
+<item>on fait mention du commencement d'un chapitre, avec
+une annotation facultative, p.e. le chiffre 1, le texte "Loomings"
+etc.</item>
+<item>on supprime ce mot parce qu'il ne fait pas partie du "texte"; il
+ne sert qu'à initialiser un système de référence pour la position de
+lecture.</item>
+</list>
+La figure <xptr url="#mobyfig"/> démontre quelques exemplaires que j'ai
+trouvés "in the wild"...
+<figure><graphic url="moby.png"/><head>Comment encoder le premier
+mot d'un roman?</head></figure></p>
+
+<p>Il va sans dire qu'on peut trouver (ou créer) des passerelles
+informatiques, des logiciels qui permettent de transformer entre des
+centaines de differents formats de données: c'est la bonne
+nouvelle. La mauvaise nouvelle? c'est qu'on en a besoin. Un peu
+d'arithmetique démontrera que, pour n formats differents, il faut
+n*n-n traductions pour atteindre un intéroperabilité totale; donc,
+pour 5 formats de données il nous faut 20 passerelles. Par contre,
+avec un seul format d'échange employé en format pivot, on peut faire
+pareil avec 2n (i.e 10) passerelles.
+</p>
+
+<p>La Text Encoding Initiative, vise à aider ce processus en nous
+offrant une choix de conceptes precises, sur laquelle on peut baser ce
+format pivot. Ses <title>Guidelines</title> font des “lignes
+directrices” qui nous pourvoient un vocabulaire consensuel pour
+exprimer des distinctions valorisées par les experts; elles ne nous
+absolvent pas de tout du besoin de choisir entre ces distinctions
+celles qu'il nous faut pour achever un but specifique.</p>
+
+
+<p>Tout projet de recherche, y compris tout projet de création de
+ressource textuel, passe par les mêmes étapes. On commence par la
+definitions des buts de la recherche; on passe ensuite à decider ce
+qu'il vaut la peine de baliser dans les textes pour soutenir ces
+recherches, pour atteindre à ces buts. Puis, bien-sur, on fait des
+expériences, qui sont à valider contre les enjeux dits... et on repète,
+jusqu'à ce que ou bien les buts soient réussis, ou bien les financements du
+projet s'épuisent. </p>
+</div>
+
+<div><head>Un cas d'étude: le sonnet</head>
+
+<p>Pour démontrer un peu ce procedure, imaginons un projet specifique:
+la création d'une ressource multilingue qui réunira l'ensemble d'un
+forme tres specifique: le sonnet. On peut distinguer, grosso modo, des
+besoins evidents pour un tel projet: on vise à la pérrenité, et à la
+réusabilité de cette ressource; on cherche donc à supporter et la
+formation litteraire et la recherche sur les propriétés soit
+linguistiques soit culturels de ce format important. On s'interesse
+également donc aux propriétés formelles de structuration -- les vers,
+les strophes, les rimes, etc. -- et aux propriétés paratextuelles, par
+exemple les auteurs, l'époque et la manière de sa production et de sa
+reception, son intertextualité, etc. Mais il faut choisir...</p>
+
+<p>Une manière efficace de décider serait donc de créer un modèle
+conceptuel, autrement dit un ontologie, des traits qui nous
+interessent. Ensuite, on peut comparer ce modèle avec celui de la TEI
+pour savoir à la fois comment exprimer ces concepts en TEI et si notre
+analyse soit complet. Cela fait, on peut créer une personnalisation de
+TEI selon ses besoins, d'où sortira presqu'automatiquement et le
+schéma informatise qu'il nous faut pour gerer les textes informatisé,
+et même une documentation complète pour expliquer ce qu'on a fait. Une
+chose -- on doit se méfier de “markup voodoo”-- cette notion
+curieuse qu'il faut tout baliser. </p>
+
+<p>Comme j'ai déjà dit, il me semble qu'on peut distinguer quatre axes
+different sur lequel on peut sommariser les especes d'annotation
+pertinentes à notre projet de modeliser les sonnets:
+<list>
+
+<item>les traits structurels et formels, tels la structuration de
+texte, sa division en vers et ensembles des vers, les proprietes
+formels de ce genre d'ecrit p.e. les rimes et les rhythmes (tres
+important pour la poesie bien sûr). Et parce que les textes literaire
+nous viennent de lointain avec des problemes de transmission et de
+compréhensibilité, il faut aussi confronter des questions de normalisation
+ou de correction -- les problèmes essentiellement philologique -- pour
+decider exactement de quels mots il s'agit et comment les
+représenter</item>
+
+<item>les traits linguistiques, proprement dit, sont à distinguer pour
+certains genres d'analyse -- le syntaxe, la morphologie, etc. </item>
+
+<item>les traits paratextuels, p.e. authorship, genre, transmission,
+availability, social context...</item>
+
+<item>les traits interpretatifs qui vont finalement valoriser nos
+efforts, en faisant témoin des analyses experts des texts d'une
+manière quasiment concrète. </item>
+</list>
+</p>
+
+<p>Pour démontre un peu ce procédure je vous presente un petit
+exemplaire d'un sonnet de Shakespeare bien connu, balisé de manière
+TEI. On commence par un balisage purement structural:
+
+<eg><![CDATA[<text xml:id="son1609-141" xml:lang="EN-x-17c" decls="#shak">
+<lg type="quatrain">
+<l>My Mistres eyes are nothing like the Sunne,</l>
+<l>Currall is farre more red, then her lips red</l>
+<l>If snow be white, why then her brests are dun:</l>
+<l>If haires be wiers, black wiers grow on her head:</l>
+</lg><lg type="quatrain">
+<l>I have seene Roses damaskt, red and white,</l> 
+<l>But no such Roses see I in her cheekes,</l>
+<l>And in some perfumes is there more delight,</l>
+<l>Then in the breath that from my Mistres reekes.</l>
+</lg><lg type="quatrain">
+<l>I love to heare her speake, yet well I know,</l>
+<l>That Musicke hath a farre more pleasing sound:</l>
+<l>I graunt I never saw a goddesse goe,</l>
+<l>My Mistres when shee walkes treads on the ground.</l>
+</lg><lg type="couplet">
+<l>And yet by heaven I think my love as rare,</l>
+<l>As any she beli'd with false compare.</l>
+</lg>
+</text>]]></eg></p>
+
+<p>On commence par delimiter le texte lui même, entre balises
+<gi>text</gi> et <gi>/text</gi>. Imbriqués dedans vous voyez
+facilement la division de ce texte en vers (<gi>l</gi>), et le
+groupement des vers en strophes (<gi>lg</gi>), chacun desquels possède
+d'ailleurs un type formel: le sonnet anglais de cet époque se divise
+par convention en trois quatrains et un distique. Avec ce balisage on
+peut désormais délimiter ses requetes selon la structuration: par
+exemple, on peut rechercher les mots dans un même vers, on peut
+analyser la vocabulaire des distiques distincts des quatrains, on peut
+lier les occurrences à leur position formelle etc.</p>
+
+<p>Vous avez sans doute déjà remarqué que ce texte se sert de
+l'orthographie du 17e siecle, un époque où la manière d'écrire les
+mots était moins figée, et bien differente d'aujourd'hui. Sans doute,
+cela pose autant de problemes pour le lecteur d'aujourd'hui qu'il ne
+présente d'interêt pour le philologue ou le linguiste historien.  On
+serait bien tenté de moderniser un tel texte, p.e. en changeant
+"currall" en "coral" (corail), "farre" en "far" (loin) etc. Mais on
+désire également maintenir l'état du texte tel qu'il est, ou au moins
+démontrer d'un façon honnete les infidelités qu'il nous a fallu
+comettre! On peut faire tout les deux avec un balisage comme le suivant:
+
+<eg><![CDATA[<lg type="quatrain">
+<l>My Mistres eyes are nothing like the
+ <choice>
+  <reg>sun</reg>
+  <orig>Sunne</orig>
+ </choice>,</l>
+<l><orig>Currall</orig> is <reg>far</reg> more red,
+  <reg>than</reg> her lips red</l>
+<l>If snow be white, why then her <orig>brests</orig> are dun:</l> 
+<l>If haires be <reg>wires</reg>, black <reg>wires</reg> 
+   grow on her head:</l>
+</lg>]]></eg>
+Cet échantillon manifeste un mélange d'approches -- dans le cas vrai,
+bien sûr, on n'en prendrait qu'un: c'est à dire, ou bien en marquant les
+formes jugés anormales mais originelles  avec la balise
+<gi>orig</gi>, ou bien en marquant les formes  regularisées, en
+se servant de la balise <gi>reg</gi>. On peut même avoir le beurre et
+l'argent de beurre en se servant de la balise <gi>choice</gi> pour marquer
+chaque lieu dans le texte où il faut choisir entre plusiers
+lectures; cette balise réunit tous les lectures prévues.
+ </p>
+<p>Ensuite, on peut baliser les rimes:
+
+<eg><![CDATA[
+<lg type="quatrain">
+<l>My Mistres eyes are nothing like the <rhyme>Sunne</rhyme>,</l>
+<l>Currall is farre more red, then her lips <rhyme>red</rhyme></l>
+<l>If snow be white, why then her brests are <rhyme>dun</rhyme>:</l> 
+<l>If haires be wiers, black wiers grow on her <rhyme>head</rhyme>:</l>
+</lg>]]></eg>
+
+Cet exemple simple ne manifeste pas la petite complication qui vient
+du fait que les rimes ne sont pas forcément des mots simples, mais on
+pourrait marquer de même manière le ou les syllabe/s homophones
+independement des mots. Il est peut-être plus important pour l'analyse
+des rimes dans ce genre d'oeuvre de noter qu'il existe un système
+formel de rime, duquel chaque mot rimant fait partie:
+
+<eg><![CDATA[<lg type="quatrain" rhyme="ABAB">
+<l>My Mistres eyes are nothing like the <rhyme label="A">Sunne</rhyme>,</l>
+<l>Currall is farre more red, then her lips <rhyme label="B">red</rhyme></l>
+<l>If snow be white, why then her brests are <rhyme label="A">dun</rhyme>:</l>
+<p><l>If haires be wiers, black wiers grown on her <rhyme label="B">head</rhyme>:</l>
+</lg> ]]></eg></p>
+
+<p>Dans ce quatrain, la schéma des rimes peut être sommarisé comme
+"ABAB", et  on peut en plus spécifier le rôle du chaque rime dans ce
+schéma. Dans ce texte, par exemple, tous les rimes "A" sont homophones --
+"sunne" et "dun". Bien sûr dans un ensemble de plusieurs textes
+on aura besoin d'une manière plus complexe de marquer de telles
+correspondences, mais le principe est pareil. </p>
+
+<p>Enfin, on peut baliser le système metrical de la même manière:
+une schéma metricale représentée par un patron encodé de manière
+conventionelle en "-+" (je n'insiste pas sur les détails) au niveau du
+strophe; et une segmentation en pieds ("foot") au niveau inferieur:
+
+<eg><![CDATA[<lg type="quatrain" met="-+-+-+-+-+">
+<l><foot>My Mis</foot>
+  <foot>tres eyes</foot> 
+  <foot>are no</foot>
+  <foot>thing like</foot> 
+  <foot>the Sunne</foot>,
+</l>
+</lg>]]></eg>
+</p>
+
+<p>Avec ce dernier exemple, j'espère que vous devenez un peu
+inquiet. Le XML, on le sait bien, ne peut représenter un seul
+hiérarchie des composants textuels. Tout élément balisé doit être bien
+emboîté dans un autre: les frontières des éléments ne peuvent pas être
+franchis. Mais un analyse lexical ou linguistique et un analyse
+metrical ne sont pas fait en termes des mêmes unités: les structures
+linguistiques (les phrases p.e.) ne respectent pas de tout les
+frontières des vers. Il faut donc choisir entre les deux. Dans
+l'exemple qui suit j'ai privilégié l'analyse linguistique:
+
+<eg><![CDATA[<s><lineStart/>
+<seg type="np">
+<w ana="POS">My</w> 
+<w ana="SBG">Mistres</w>
+<w ana="SBP">eyes</w>
+</seg> 
+<seg type="comp">
+ <w ana="VBX">are</w>
+ <w ana="JJN">nothing</w>
+ <w ana="ADC">like</w>
+ <w ana="DET">the</w>
+ <w ana="SBC">Sunne</w>
+</seg>
+<c ana="COM">,</c>
+<lineEnd/></s>]]></eg></p>
+
+<p>Ce genre d'etiquettage -- tres répandu dans le monde de TALN -- commence
+par la segmentation d'un texte en mots, et continue avec l'addition
+d'un code morphosyntaxique (pe. DET, determinant; SBP substantif
+pluriel etc). Ensuite, on regroupe les mots selon leur fonction syntactique,
+marquée dans cet petit exemple avec un élément <gi>seg</gi>. Pour
+résoudre le problème de croissance de hiérarchies, j'ai transformé les balises qui
+marque le commencement et la fin d'un vers dans un élément
+<gi>lineStart</gi> et <gi>lineEnd</gi>: c'est un astuce, mais un
+astuce performant. <note place="foot">Ce  problème de "multiple hierarchies" a
+provoqué un  débat continuel et un variété d'astuces pour s'en
+échapper. Voir, par exemple,  Steven
+DeRose<title>Markup Overlap: a review and a horse</title> (Extreme
+Markup Languages, 2004: disponible à <xptr
+url="http://www.mulberrytech.com/Extreme/Proceedings/xslfo-pdf/2004/DeRose01/EML2004DeRose01.pdf"/>).</note>
+</p>
+
+<p>Passons maintenant aux traits paratextuels: les annotations qui
+décrivent l'origine de notre texte, son auteur, son titre, sa contexte
+sociale etc, Evidemment, il y a un grand tas de choses à specifier à
+ce sujet. La système TEI nous propose un élément assez riche et assez
+complexe pour l'ensemble de ces meta-renseignments, le "TEI Header"
+(entête) sur lequel je ne vais
+pas me tarder 
+<note place="foot">Un équipe de l'INIST est en train de traduire les
+Guidelines et a déjà mis à jour une
+traduction francaise complète du chapitre "TEI Header", qui sera
+disponible prochainement sur le site TEI </note>. Dans l'entête TEI
+on trouvera tout ce qu'il faut pour décrire un texte de façon
+bibliographique classique (titre, auteur, editeur etc) avec des
+balises standardisés et consistents avec d'autre systems de
+metadonnées. En plus, on trouvera des balises interessants pour définir
+d'autre aspects d'un text numerisés, p.e. les participants et les
+contextes; et même les systèmes d'encodage ou d'analyse
+employés. C'est dans l'entete que l'on trouvera cherchera  une explication des
+codes d'analyses linguistique (tel DET, SVC etc) ou analytique:
+
+<eg><![CDATA[<taxonomy>
+<desc>Rhetorical tropes</desc>
+<category xml:id="sim"> 
+<catDesc>Simile</catDesc></category>
+<category xml:id="simx">
+<catDesc>Negated simile</catDesc></category> ....
+</taxonomy>]]>
+</eg>
+</p>
+<p>Je n'insiste pas sur les détails: mais avec ce genre de
+définition, il devient possible de spécifier, par exemple les figures
+de style que l'on aperçoit dans les vers: 
+<eg><![CDATA[<lg type="quatrain">
+<l ana="#simx">My Mistres eyes are nothing like the Sunne,</l>
+<l ana="#simx">Currall is farre more red, then her lips red</l>
+<l ana="#simx">If snow be white, why then her brests are dun:</l> 
+<l ana="#simx">If haires be wiers, black wiers grown on her head:</l>
+</lg>]]></eg>
+c'est à dire: chacun des vers peut servir comme exemplaire de la
+figure de style <q>comparaison negative</q> ici
+encodée <code>simx</code> et définie dans l'entête. Un mot sur le syntaxe:
+le # indique que c'est un pointeur. Dans ce cas, on 
+pointe sur l'entête du même document, mais rien n'empêche un pointer
+comme 
+<eg><![CDATA[<lg type="quatrain">
+<l ana="http://truc.dictionnaire.fr#simx">My Mistres eyes are nothing like the Sunne,</l>
+]]></eg>
+dans le cas où on désire profiter d'un lexique des figures
+de style construit ailleurs, ou centralisé dans un projet distributé)
+</p>
+
+
+</div>
+<div><head>Est-ce possible d'encyclopédier le balisage?</head>
+
+<p>Avec ce petit tour d'horizon j'espère vous avoir indiqué un peu les
+possibilités de un encodage TEI. Maintenant je voudrais donner un peu
+de contexte. Les enjeux de la TEI depuis sa création à la fin des années
+80 -- avent l'existence du web -- jusqu'à présent restent toujours
+pareilles. La TEI sert à faciliter la <emph>création</emph>,
+l’<emph>échange</emph>, et l’<emph>intégration</emph> des données
+textuelles informatisées, et s'occupe donc de toute sorte de texte, de
+toutes les langues et de toute provenance temporelle ou culturelle. 
+La TEI s'addresse également aux débutants, cherchant des solutions
+bien connues et consensuelles et aux experts, cherchant à créer de
+nouvelles solutions. <note place="foot">Il existe depuis longtemps
+un simple tutoriel sur un sous-ensemble performant de la TEI, qui est
+d'ailleurs disponible en français: le TEI Lite. Voir 
+<xref url="http://www.univ-rennes1.fr/pub/GUTenberg/publicationsPS/24-teilite.ps.gz">La TEI simplifiée: une introduction au codage des textes
+électroniques en vue de leur échange</xref>
+(<title>Cahiers GUTenberg</title>, numéro 24, juin 1996, pp23-151). Ce
+petit tutoriel a été traduit en plusieurs langues, y compris le
+russe, le japonais, le chinois, l'espagnole, et l'italien. Pour ce
+dernier, voir Fabio Ciotti et al,<title>Il manuale TEI Lite</title>
+(Ed. Bonnard, 2004)</note>
+</p>
+
+<p>L'envergure TEI est ambitieux: il vise à codifier la structuration
+fondomentales des textes continues; la transcription, le diplomatique,
+les images, les annotations etc..... La TEI s'occupent d'un vaste
+ensemble de propos: comprenant les données formelles telles dates,
+noms d'endroits ou personnages; les données paratextuelles et “meta";
+les analyses linguistiques à tout niveau, y compris la documentation
+de balisage elle-même.  Comment, il faut le demander, est-ce possible
+d'encyclopedier d'un seul manière toutes les sujets d'interet aux
+scientifiques? il nous manque un Diderot!</p>
+
+<p>Avant de repondre à cette question, je vous rappelle la mention ci
+dessus du fait que la TEI comprend un system de balisage pour les
+systèmes de balisage. C'est necessaire, en effet, parce que les
+<emph>Guidelines,</emph> et ses schemas,sont tous produits d'un seul
+ressource XML qui contient:</p>
+<list type="unordered">
+<item>une grande masse de prose descriptive</item>
+<item>plusieurs  exemples d'usage</item>
+<item>des declarations formelles pour les constituents du modele abstrait de TEI</item>
+<item>les éléments et leurs attributs</item>
+<item>les modules</item>
+<item>les classes, et les macros</item>
+</list>
+
+<p>On appelle cette resource un <emph>ODD</emph>, abbréviation de "One
+Document Does-it-all" (un document fait tout), bien qu'elle consiste
+en des centaines de petits fichiers. Cette recursivité -- une
+documentation XML sur la documentation XML -- est important, et non
+seuleument pour donner plaisir aux informaticiens (gourmands de la
+recursivité, comme on le sait). L'importance dérive du fait que, vu
+son envergure ambitieux, on ne peut se servir du système TEI qu'en le
+personnalisant -- et les personnalisations s'expriment en langue
+ODD.</p>
+
+<p>Par exemple:
+<eg><![CDATA[
+<schemaSpec ident="myTEIlite" 
+            xmlns:rng="http://relaxng.org/ns/structure/1.0">
+<desc>This is TEI Lite with simplified heads</desc>
+  <moduleRef key="tei"/>
+  <moduleRef key="core"/>
+  <moduleRef key="textstructure"/>
+  <moduleRef key="header"/>
+  <moduleRef key="linking"/>
+  <elementSpec ident="head" mode="change">
+  <content><rng:ref name="text"/></content>
+  </elementSpec>
+</schemaSpec>
+]]></eg>
+
+Ce petit document TEI définit un schema (un système d'encodage)
+conformant aux normes TEI. Il précise que dans ce schéma on se sert
+des <term>modules</term> TEI nommés tei, core, textstructure, header,
+et linking. Parmi ces modules il y a un élément <gi>head</gi> dont on
+va changer un peu la definition. </p>
+
+<p>Un des grandes avantages de XML est l'existence de plusieurs outils
+murs et performants pour gerer et transformer les documents XML: en
+particulier, par exemple, on trouve facilement des outils TEI,
+exprimés souvent en langage standardisé XSLT pour transformer ce petit
+document en documentation standardisé (en XML, HTML, PDF ou même DOC),
+et d'en faire ressortir un schema exprimé dans les langages formels
+RelaxNG, DTD, or W3C schema. Bien sûr, on s'en sert pour la gestion et
+l'edition des Guidelines. On peut se servir des mêmes outils donc pour
+generer doc, et schema -- et pas forcément en anglais.</p>
+
+<p>Pour comprendre cette système de personnalisation il faut revenir
+un peu sur les principes du balisage (voir figure <ptr
+target="#classpic"/>). Dans un text balisé les balises servent à
+représenter des <term>éléments</term>, et chaque élément correspond à
+un concept abstrait. Dans le système TEI, les éléments sont regroupés
+de deux manières diverses. D'abord, et plus facile, il sont regroupés
+physiquement en modules. Tout élément apartient a un seul module:
+c'est sa location. Mais les éléments sont aussi regroupés en classes:
+un même élément peut apartenir à plusieurs classes, et les classes
+sont indépendentes des modules. Comme déjà demontré, un
+système de balisage se fait en combinant des références à module avec
+des déclarations de balises additionelles ou modifiées. </p>
+
+<figure xml:id="classpic"><graphic
+url="classpic.png"/><head>Constituents de la systeme de classe</head></figure>
+
+<p>Les classes facilite la compréhension du système -- evidemment il
+est plus facile de rappeler et de comprendre (des douzaines de)
+classes que (des centaines d') éléments. Mais la fonction des classes
+est surtout d'identifier les éléments qui sont pareils ou
+comparables. Ce niveau de description rend possible la
+personnalisation. Pour ajouter un élément nouveau il faut spécifier sa
+ou ses classes, c'est à dire il faut decider à quel élément existant
+il resemble, ou de quel élément existant il fera partie.  Faire des
+spécializations des structures génériques TEI devient un jeu facile de
+déclaration. </p>
+
+<p>En sommaire, la système TEI comprend 20 modules, quelque centaines
+d'éléments, et des douzaines de classes. Un projet typique aura donc
+besoin de faire son choix des modules; d'affiner l'ensemble d'éléments
+obtenus des modules choisis; d'ajouter des contraintes spécifiques aux
+types de données (peut-être); d'ajouter des éléments spécialisés ou
+localiser les balises (peut-être); et (assurément) de produire des
+documents spécifiques au projet.  Tout cela s'effectue avec un ODD.
+<note place="foot">Pour en savoir plus, voir
+p.e. Burnard et Rahtz (2004): <title>RelaxNG with the Son of
+ODD</title> (Extreme
+Markup Languages, 2004: disponible à <xptr
+url="http://www.mulberrytech.com/Extreme/Proceedings/xslfo-pdf/2004/Burnard01/EML2004Burnard01.pdf"/>)
+</note></p>
+
+</div>
+<div><head>Open TEI</head>
+
+<p>La TEI s'est lancé à la fin du vingtième siècle comme projet de
+recherche internationale, avec financement européen, américain, et
+canadien. Mais elle n'est plus un projet de recherche: elle fait
+partie de l'ambience informatique, au moins pour les sciences
+humaines. A mon avis, elle doit donc se redéfinir comme entreprise
+communautaire, ou disparaître, ses travaux achevés.
+</p>
+
+<p>En 2001, la TEI s'est relancé en Consortium. Elle est maintenant
+soutenue par les cotisations d'un centaine de sites academiques ou
+industriels, des grands et des petits, en Europe, aux Etats Unis, au
+Japon et ailleurs. Il faut noter que cette cotisation reste et
+restera facultative pour ceux qui profitent des travaux de
+l'Initiative: tous ses deliverables sont distribués sous licence GPL.
+Sa gestion et son évolution se font en publique, sur Sourceforge,
+comme tout logiciel libre, et la TEI s'associe de plus en plus avec le
+mouvement "open source". N'empêche que la mention “TEI" reste
+protégé, et ces évolutions techniques sont toujours autorisées par un
+Conseil Technique, élu chaque année par les membres du Consortium.</p>
+
+<p>Je me sers de la phrase "Open TEI" donc pour signaler que la TEI
+devient une initiative communitaire: gerée et conduite selon les
+besoins des membres de sa communauté, en particulier ceux qui
+s'inscrivent au Consortium. Mais ce qu'il nous faut pour maintenir la
+TEI c'est surtout un élargissement de sa communauté technique: pour
+maintenir son évolution technique il nous faut des enthusiastes. Comme
+on dit en anglais: <foreign>This means you!</foreign> Si la TEI vous
+interesse, si la TEI vous semble manquer quelque chose, si vous
+desirez nous aider à l'améliorer -- inscrivez vous au Consortium ou
+participer à nos débats <note place="foot">Pour ceux qui aiment le
+discours des forums éléctroniques, il suffit de faire mention
+du forum tei-l@listserv.brown.edu; il existe d'ailleurs un forum
+francophone tei-fr@listserv.inist.fr</note>. Il n'y a pas d'autre
+moyen.
+
+</p></div></body></text></TEI>

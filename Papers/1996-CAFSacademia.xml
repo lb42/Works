@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="jtei-schema/jtei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="jtei-schema/jtei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="jtei-schema/jtei.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">CAFS and Text: the view from Academia</title>
+        <author>
+          <name><forename>Lou</forename>
+            <surname>Burnard</surname></name>
+          <affiliation>Oxford University Computing Service</affiliation>
+          <email/>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>TEI Consortium</publisher>
+        <date><!-- the publication year --></date>
+        <idno><!-- the jTEI issue in which this article will be published ('Issue [0-9]+') --></idno>
+        <availability>
+          <p>TEI Consortium 2014 (Creative Commons Attribution-NoDerivs 3.0 Unported License)</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Originally published in ICL Technical Journal, 1996</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en">en</language>
+      </langUsage>
+      <textClass>
+        <keywords xml:lang="en">
+          <!-- a list of keywords, each in its own <term> -->
+          <term/>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div type="abstract" xml:id="cafsac_abstract">
+        <p>Text processing is not confined to the electronic office. Machine-readable text is also
+          of growing importance for researchers in the Humanities. This paper describes some
+          experiments with, and user reaction to, CAFS as a text processing tool. In one major
+          project, a corpus of Shakespearian drama totalling 15 Mb has been made CAFS-searchable;
+          the other project described concerns the Bodleian Library&#x2019;s free text catalogue of
+          over one million entries. Some difficulties inherent in the current CAFS hardware are
+          described and software solutions proposed.</p>
+      </div>
+    </front>
+    <body>
+      <div>
+        <head>Introduction</head>
+        <p>The scholarly application of computing to literary and linguistic research is by no means
+          as eccentric a procedure as it once appeared. The micro has moved from the world of the
+          electronics enthusiast to that of the colour supplement, and the word processor has ousted
+          the typewriter from the study; it is not surprising to find that the scholar&#x2019;s
+          characteristic mode of interaction with a text has become increasingly mechanised. Even in
+          the comparative calm of Oxford University, the last decade has seen a major expansion of
+          interest in such facilities as OCR-based data entry, high quality computer typesetting,
+          and all the software and other resources needed to support large free-text databases.
+          During the same period, the support offered by Oxford University Computing Service (OUCS)
+          for work in this area has expanded correspondingly. Specialist hardware has been acquired
+          (the Kurzweil Data Entry Machine and the Lasercomp photo typesetter on which a national
+          service is offered) and specialist software produced, notably the Oxford Concordance
+          Program which now has an international reputation. Specialist services such as the Oxford
+          Text Archive are also provided.<ref target="#cafsac_note1"> [1]</ref> CAFS is seen as
+          complementing these facilities. </p>
+        <p> A CAFS-ISP engine was installed at OUCS in April 1984, as part of an upgrade of the
+          service&#x2019;s 2988 system. The role of CAFS was initially seen as primarily to improve
+          the performance of Querymaster when accessing large IDMS and PDS databases.<ref
+            target="#cafsac_note2">[2]</ref> However, with the availability of DCI in early 1985, it became
+          possible to develop software more appropriate to our users&#x2019; needs, particularly in
+          the fields of text processing and information retrieval.</p>
+        <p> This paper describes two experimental applications of CAFS as a text searching
+          engine.</p>
+        <p> The first is typical of many research projects in which a large textual database is to
+          be searched for words, patterns of words or punctuation. Without CAFS many such
+          requirements are prohibitively expensive: the Oxford Concordance Program, for all its
+          other merits as an indexing aid, can take as much as ten OCP minutes to produce a modest
+          concordance to a few hundred lines of text. It is thus far too expensive to be run as a
+          retrieval tool for any non-trivial size of data file.</p>
+        <p> The second is typical of the many free-text retrieval applications in which a definite
+          structure can be assigned to the data: in this case, that of a library catalogue. Here,
+          the alternative to CAFS would be a standard information retrieval package such as STATUS.
+          At OUCS, however, the only true database management system available is IDMS. Constraining
+          textual data to fit this, though feasible, is not an appealing prospect.</p>
+        <p> The software used for both these applications is described in section three below; user
+          reactions, problems encountered and future developments being summarised in section four.
+        </p>
+      </div>
+      <div>
+        <head>Beyond the concordance</head>
+        <p>As long ago as 1969 <ref target="#cafsac_note3">[3]</ref> the pioneers of literary and
+          linguistic computing were publishing articles pronouncing the imminent demise of the
+          concordance as a respectable scholarly activity. When all the great works had been
+          captured in machine readable form, it was confidently asserted, the scholar would be at
+          liberty to search amongst them, untrammelled by the dictates of any particular indexing
+          scheme. Many great projects were undertaken, (the Tresor de la Langue francaise, the
+          Toronto Dictionary of Old English project, the Thesaurus Linguae Graecae <ref
+            target="#cafsac_note4">[4]</ref>) whose full potential is only now begining to be realised, as
+          the hardware and software tools to exploit these vast corpora of painstakingly assembled
+          machine readable texts become available. Our experience seems to indicate the importance
+          of CAFS as a means of exploiting these resources.</p>
+        <p> Our largest textual database consists of the text of several early printed editions of
+          the works of Shakespeare. These texts were originally prepared by Trevor Howard-Hill, for
+          use in a series of one volume concordances to Shakespeare&#x2019;s plays prepared on
+          Oxford University&#x2019;s KDF-9 machine and published by OUP between 1969 and 1972.<ref
+            target="#cafsac_note5">[5]</ref> The original KDF-9 format tapes were converted to a rather
+          more portable format at the National Physical Laboratory between 1978 and 1980, and the
+          texts deposited in the Oxford Text Archive for use by other scholars. An article in the
+          ALLC Bulletin <ref target="#cafsac_note6">[6]</ref> describes how they were subsequently
+          re-edited and re-formatted by staff working on the preparation of a new edition of
+          Shakespeare under the general direction of Stanley Wells, to form a new Shakesperean
+          corpus.</p>
+        <p> In 1984, a CAFS-searchable form of the texts was prepared, initially simply to evaluate
+          the CAFS system; however, it has since proved an invaluable tool for scholars working with
+          the texts. </p>
+        <p> The corpus currently comprises the complete First Folio (1623) and all substantive
+          quarto texts, a total of about fifty plays, occupying over fifteen megabytes. Each play is
+          regarded as a distinct text, and is divided into contexts corresponding with the printed
+          lines of the original. Each context is tagged with codes indicating its status according
+          to a number of criteria. These criteria include the author to whom the context has been
+          attributed (some of the quarto plays are of multiple authorship), the text status (that
+          is, whether or not it is regarded as an authoritative reading of the base text), the type
+          of copy and the compositor believed to be responsible for it as well as the play title,
+          line number and normalised form of speaker&#x2019;s name.</p>
+        <p> In the case of the First Folio, CAFS was seen as a valuable way of substantiating
+          compositorial hypotheses. At least 12 different compositors are believed to have worked on
+          the first folio. Whichever of these is responsible for a particular section of the folio
+          can be of crucial importance for establishing the type of copy used, and hence its
+          authenticity. Compositorial identity is determined largely by the occurrence of various
+          spellings, typographical mannerisms etc. For example, passages set by compositor I contain
+          over twice as many semi-colons as passages set by any other compositor.</p>
+        <p> An important requirement of the database was thus the analysis of typographical features
+          of the original, notably the use of punctuation and different typefaces. The markers
+          indicating these features in the original text were processed during the conversion of the
+          text to SIF records as follows. A one byte SIF identifier was used for each token and
+          punctuation sequence defined in the text. The least significant four bits of each byte
+          indicate the status of the associated token according to the following table: <table>
+            <row>
+              <cell>bit </cell>
+              <cell> set </cell>
+              <cell> clear </cell>
+            </row>
+            <row>
+              <cell> 0 </cell>
+              <cell> Punctuation </cell>
+              <cell> Word </cell>
+            </row>
+            <row>
+              <cell> 1 </cell>
+              <cell> Italic </cell>
+              <cell> Roman </cell>
+            </row>
+            <row>
+              <cell> 2 </cell>
+              <cell> Stage-direction </cell>
+              <cell> Speech </cell>
+            </row>
+            <row>
+              <cell> 3 </cell>
+              <cell> Speech prefix </cell>
+              <cell> Speech</cell>
+            </row>
+          </table> Bit 4 is always set, and the remaining bits are always clear. Thus, a word in
+          italics will have an identifier with a bit value of 0001 0010 (hexadecimal 12), and an
+          italic word in a speech prefix one of 0001 1010 (hexadecimal 1A). By applying a suitable
+          mask to such identifiers, CAFS searches may be performed for only words which are in
+          italics, or stage directions, or stage directions in italics, and so forth.</p>
+        <p> Because of the need to search punctuation, the text was converted to Single SIF format,
+          using the MOVETOCAFS procedure. The current version of the file is an ordinary sequential
+          file, thus enabling addition and deletion of records using standard software.</p>
+      </div>
+      <div>
+        <head>The Bodleian pre-1920 Catalogue</head>
+        <p>The Bodleian Library at Oxford, founded in 1602, is one of the six copyright or deposit
+          libraries in Great Britain. Its long-time users have perhaps grown accustomed to the form
+          of what remains the only reliable means of access to its riches. Three sides of the noble
+          quadrangle taken over by the library in 1619 and still in use are taken up with the Lower
+          Reading Room, within which are kept about 2000 stout leather bound volumes, each measuring
+          42 by 30 cm and weighing more than 5 kg. These (known as the <soCalled>Guard
+            Books</soCalled>) constitute the only generally accessible complete catalogue of the
+          library&#x2019;s holdings. Into these volumes, generations of librarians have pasted,
+          corrected and re-corrected an estimated five million paper slips, some specially printed,
+          some typed on antique typewriters, others handwritten in a variety of styles, ranging from
+          Victorian copper plate to Edwardian illegible. A steady flow of new acquisitions (about
+          80,000 each year) still keeps them busy producing new slips and incorporating them into
+          this magnificent testimony to the durability of manual cataloguing methods.</p>
+        <p> The catalogue is arranged by alphabetical order of author or other heading, in some
+          cases book or periodical titles, or the names of institutions, being used as the primary
+          key. (All government papers, for example, are to be found under the heading
+            <soCalled>Great Britain</soCalled>). Within this key, there is a well defined, if not
+          intuitively obvious, sequence: thus for a single author, volumes of collected works are
+          given first, followed by individual volumes in order of first publication, sometimes
+          followed by biographical or critical works. In the case of authors such as Shakespeare or
+          Dickens, who may have a guard book or two to themselves, a different method of sequencing
+          is used which is simpler (but incompatible). Bodley&#x2019;s cataloguing rules are well
+          defined, but (like the rules of many other venerable Oxford institutions) very much sui
+            generis.<ref target="#cafsac_note7">[7]</ref></p>
+        <p> An estimated twenty percent of the slips in the catalogue are cross-references, some of
+          which simply point from one form of a name to another, while others refer from the subject
+          of a book (where this is a person or institution) to its author or editor. There is no
+          other form of subject indexing, since the function of this catalogue is simply to enable
+          users of the library to discover the shelf mark of a given book. This is a code enabling
+          library staff to locate the book on the approximately 77 miles of shelving currently in
+          use throughout the library. Only 20% of the books are stored on immediately accessible
+          shelves, the remainder being held on eleven floors of book stacks beneath the library. A
+          further mile or so of shelving is used up each year. </p>
+        <p> Ever since the Shackleton Report first proposed it in 1968, the library has recognised
+          the need to convert its catalogues into machine readable form. At present, the Guard Books
+          are divided into two major sections, one, containing about one and a quarter million
+          slips, describing books published before 1920 (about 2000 of which are still acquired
+          annually), and the other for books published after that date. The post-1920 section exists
+          at present in the Guard Books only and plans for its conversion or even replacement are
+          still very much under discussion. This paper is concerned therefore exclusively with the
+          pre-1920 section of the catalogue.</p>
+        <p> The process of typing and correcting the whole of the pre-1920 catalogue began in 1969
+          on the University&#x2019;s KDF-9, but moved in 1971 to the library&#x2019;s own mini, a
+          Digital PDP 11/20.<ref target="#cafsac_note8">[8]</ref> It was decided very early on that any
+          editorial work on the catalogue slips (for example, to make them conform to any particular
+          proforma or structured record such as the British Library&#x2019;s MARC format) would
+          prolong the task beyond what was practicable, a decision which had important repercussions
+          when CAFS came into the picture. Only a minimal amount of consistency was imposed on the
+          structure of each record, and it was encoded using conventional punctuation. Sophisticated
+          parsing programs were written to check the internal consistency of the records generated,
+          largely by the late John Jolliffe, at that time Keeper of Catalogues and subsequently
+          Bodley&#x2019;s Librarian, without whose skill and enthusiasm the conversion process would
+          never have achieved critical mass.</p>
+        <p> Typing and correction of the bulk of entries in the pre-1920 catalogue was completed in
+          1984. The complete catalogue will be made by merging this main file with a supplementary
+          file of about 70,000 slips generated during revision of the main file and four other
+          smaller files in various stages of completion, together totalling a further 150,000 slips.
+          It should be emphasized that what is thereby created will remain what information
+          scientists (perhaps rather disapprovingly) call <soCalled>unstructured text</soCalled>,
+          because its structure is implicit in punctuation and layout rather than in tagged fields
+          or a hierarchically organised database. The original purpose of embarking on the
+          conversion process had been the production of a new printed or microform catalogue, not a
+          database. Indeed, as a first step, production of an interim printed catalogue was begun in
+          1976, using a Diablo printer driven by the PDP-11; 73 volumes of this catalogue, covering
+          the letters DOWN to MACZ, had been produced by 1983, when the project was suspended
+          pending a fresh supply of Diablo printers.</p>
+        <p> After more than a decade of data capture, the Library is now starting to consider ways
+          of making available the information held in this catalogue. The economics of producing a
+          new printed catalogue are the subject of considerable debate, while the use of microform
+          publishing would not be regarded as an acceptable alternative by a sizeable proportion of
+          library users. A third possibility, that of providing on-line access to the catalogue, now
+          seems rather less futuristic than it might have at the start of the conversion process,
+          for a number of reasons. One is the begining of a long term project to create an on-line
+          union catalogue for all the other libraries within the University. The first stage of this
+          project will involve the implementation of a common automated cataloguing and maintenance
+          system at three of the Faculty libraries, and its inception has already had a remarkably
+          galvanising effect on the librarian community.<ref target="#cafsac_note9">[9]</ref>. Another is
+          the rapid proliferation of terminals and word-processors throughout the University which
+          is in this respect no different from any other British university. But perhaps the most
+          significant recent development in this context has been the arrival of CAFS at OUCS, which
+          has enabled the Library to assess for itself the facilities that could be offered using a
+          CAFS searchable form of their existing data file, at a minimal conversion cost.</p>
+        <p> As early as 1983, the Bodleian Library had been investigating the use of specialised
+          hardware for library purposes. A MEMEX engine, a device in some respects quite similar to
+            CAFS,<ref target="#cafsac_note10">[10]</ref> was temporarily installed for one year, but for
+          technical reasons was unable to demonstrate its full potential before being withdrawn in
+          1984. Following the cancellation of government funding, and in the absence of any other
+          substantial R&amp;D funding, the Library&#x2019;s investigations remain largely dependent
+          on the willingness of manufacturers to use its unique database as a testbed for such
+          hardware. This situation was somewhat improved when the OUCS CAFS unit became available
+          for experimental purposes, but funding for the provision of any long term or full scale
+          facility has still to be obtained, and will involve the resolution of many political
+          issues (to say nothing of the difficulties of rewiring the current library premises).</p>
+        <p> A small sample (900 slips) of the pre-1920 catalogue file was converted to SIF in March
+          1985, using a simple Algol68 program. Coincidentally, a different project began at about
+          the same time to revise and update a specialist catalogue of early printed books held in
+          Oxford libraries other than the Bodleian. Since this file was in the same format as the
+          pre-1920 catalogue, it was also converted and librarians evaluating the use of CAFS given
+          access to both catalogues. In practise, most testing and demonstrating was carried out on
+          the latter catalogue which was rather larger (some 33,000 slips, total size six and a half
+          megabytes).</p>
+        <p> Some sample Bodleian format records are show below. <eg><![CDATA[
+
+EN46: Catcott (Alexander Stopford).|
+The court of love, a vision from Chaucer.|
+Oxf., 1717, 8^o.|
+$Bliss B 153(2).#cafsac_
+EN666: +|
+Another ed|Oxf.,1986, 12^mo.|
+$Gloom G 14256.#cafsac_
+AA11: 6 ABANO (Petrus de).|
+See|
+PETRUS de Abano.#cafsac_
+AA12: 6 ABARBANEL (Isaac).|
+See|
+ISAAC ABARBANEL.#cafsac_
+AA13: ABBONDANTI (Antonio).|
+Tre capitoli piacevoli.|
+Ven., 1627, 12^o.|
+$Tay.#cafsac_
+AA14: +|
+Viaggio di Colonia.|
+Ven., 1627, 12^o.|
+$Tay.#cafsac_
+EO1011: Cawthorn (James).|
+The poetical works of James Cawthorn. To which is
+  prefixed, the life of the author. (Complete ed. of the
+  poets of Gt. Brit., vol. 10).|
+Edinb., 1794, cm.23.|
+$2804 d. 37.#cafsac_
+EP696: 4Censor.|
+The Censor [ed. by J.H. Friswell]. Vol. 1, no. 20-25.|
+Lond., 1868, cm.30.|
+$Per. 3974 d. 476(5).#cafsac_
+EP804: 73Cento novelle.|
+Le ciento nouelle antike [ed. by C. Gualteruzzi].|
+Bologna, 1525, 4^o.|
+$Mason FF 462;|
+-[Another ed., entitled] Libro di nouelle et di bel
+  parlar gentile., [3 copies].|
+Fiorenza, 1572, 4^o.|
+$Douce MM 555; Mortara. 837; Toynbee 705;|
+-[Another ed.].,|
+Firenze, 1724, 8^o.|
+$Toynbee 727;|
+-[Another ed.]. con annotazioni di D.M.M. 2 tom.,|
+Firenze, 1778,82, 8^o.|
+$Toynbee 728;|
+-6a ed.,|
+Torino, 1802, cm.20.|
+$Toynbee 765;|
+-[Another ed.] con note dal dott. G. Ferrario., (Raccolta
+  di novelle dall' orig. della ling. ital., vol. 1).|
+Milano, 1804, cm.20.|
+$4 <GC> 233;|
+-[Another ed., entitled] Le cento novelle antiche., [3
+  copies].|
+Milano, 1825, cm.21.|
+$Douce G 221; Mortara 684; Toynbee 747.#cafsac_
+ER1056: 54Champion.|
+The Champion, or, British Mercury [afterw.] The Champion,
+  or The Evening advertiser, by capt. Hercules Vinegar.|
+-No. 20-24, 26-38, 40-63.|
+$Hope fol. 106;|
+-No. 64-158.|
+$Hope fol. 10;|
+-No. 187.|
+$Smith newsb. b. 2(5);|
+-no. 196,409.|
+$Don. c. 72;|
+-No. 509.|
+$Hope fol. 106;|
+Lond., 1739542, fol. & 4^o.#cafsac_
+ER1071: Champion (Joseph) 1709-c.1765.|
+An introduction to the counting house, or a collection of
+  the various forms of business, as used in the merchants,
+  or the tradesman's counting-house, performed, in their
+  proper hands, by mess. Champion, Bland, & other emin.t
+  masters, engr. by J. Howard.|
+Lond., 1802, cm.18<'x'>27.|
+$Don. d. 152.#cafsac_
+ET111: 2Chariton; of Aphrodisias.|
+Di Caritone Afrodisieo de' racconti amorosi di Cherea e
+  di Callirroe libri otto, tr. [by M.A. Giacomelli].|
+[Rome], 1752, 4^o.|
+$Vet. F5 d. 31.#cafsac_
+ET1200: 22Charles I; king of Gt. Britain.|
+His majesties declaration; the reasons of his proceedings
+  ... mentioned in severall letters, the proposals ... for
+  a settled peace. Dec.20.|
+Lond., 1647, 4^o.|
+$C 14.12(35) Linc.#cafsac_
+EV1141: 7Chaucer (Geoffrey) $Canterbury tales, clerk's
+  tale.|
+Gualtherus and Griselda: or, The clerk of Oxford's tale,
+  from Boccace, Petrarch, and Chaucer. [In verse]. To which
+  are added, A letter to a friend [&c.]. By G. Ogle.|
+Lond., 1739, 4^o.|
+$G.Pamph. 1698(1);|
+-[Another ed., 2 copies, the 2nd issued as part of vol. 2
+  of The Canterbury tales, 1742].|
+Dubl., 1741, 12^o.|
+$Douce O 38; Vet. A4 f. 1702.#cafsac_
+EW37: Chavassius (Balthasar).|
+Professio ver{ae} et orthodox{ae} fidei, additis
+  commentariis.|
+Ingolstadii, 1613, 4^o.|
+$C 3.8 Linc.#cafsac_
+EX617: Chiari (Pietro).|
+La filosofessa italiana, o sia Le avventure della
+  marchesa N.N. scritte da lei medesima. 3 tom.|
+Ven., 1753, 8^o.|
+$Fic. 27424 f. 2-4.#cafsac_
+EY217: 3China; inspectorate gen. of customs.|
+Special catalogue of the Chinese collection of exhibits
+  for the International fisheries exhibition, London,
+  1883.|
+Shanghai, 1883, cm.27.|
+$[Radcl.].#cafsac_
+EZ1135: 3Christians.|
+An inquiry into the miracle said to have been wrought in
+  the fifth century upon some orthodox Christians, in
+  confirmation of the doctrine of the Trinity, in a
+  letter.|
+Lond., 1730, 8^o.|
+$8^o U 170(5) Th.#cafsac_
+]]></eg> The minimal mark up policy referred to above is evident. Each record begins with a unique
+          six-character slip-number, optionally followed by a numeric code defining the format of
+          the record, and consists of a variable number of variable-length lines, separated by
+          vertical bars. These indicate where the record may be divided for presentation purposes.
+          The whole record is terminated by a single #cafsac_ character. Within each record four main
+          structural elements may be identified: the heading under which it is catalogued, the
+          title, the imprint (that is, where the book was published and when) and the shelf mark
+          (that is, where it is currently stored). The exact sequence in which these components
+          appear and the number of times they are repeated are both defined by the record&#x2019;s
+          numeric code. Punctuation is also used to distinguish further subdivisions within these
+          main components: thus within headings, parentheses are used to separate forenames from
+          surnames, while the imprint component can be subdivided into place of publication,
+          publisher&#x2019;s name, date of publication and published size qute simply using only the
+          existing punctuation and a small degree of knowledge about the valid possibilities for
+          these fields. All cross referencing citations were simply discarded from this initial
+          file, but it seems probable that they would be equally easy to decompose, thus enabling
+          extensive cross checking of the whole file to be performed.</p>
+        <p> In the absence of CAFS, our next step, having identified the structure of the catalogue
+          records, would presumably have been to attempt to normalise this structure and then to
+          devise a suitable stored record format to support as many as possible of the fairly
+          unpredictable demands that might be made of it. No doubt we would still, six months later,
+          be arguing about the relative merits of author, title or publication date as primary
+          access keys, about which words should feature in which indexes, and so forth. After much
+          re-invention of wheels and re-formatting of data, we would have a system optimised for
+          certain types of access at the expense of others, probably also endowed with an albatross
+          like burden of indexing maintenance. </p>
+        <p> Instead, we took the line of least resistance and simply built up a single SIF record
+          for each slip, using the slip number as its key so as to preserve the original alphabetic
+          sequence of the file. Within the record, different SIF identifiers are used to distinguish
+          the categories of information mentioned above but their order of appearance is unchanged,
+          so that on conversion from SIF to legible format, the record looks identical with what was
+          originally typed in. </p>
+        <p> The SIF identifiers used are chosen so as to enable searches to be made over groups of
+          categories as well as within individual ones, using the DCI masking facilities. For
+          example, identifier X12 marks a word as being part of a surname, while X14 marks it as a
+          forename. Our software can thus support searches for (say) <soCalled>Lesley</soCalled> as
+          surname, forename or either with equal efficiency. The full SIF structure is as
+          follows:</p>
+        <table>
+          <row role="label">
+            <cell> Hex-Identifier </cell>
+            <cell> Function</cell>
+          </row>
+          <row>
+            <cell> 12 </cell>
+            <cell> Surname</cell>
+          </row>
+          <row>
+            <cell> 14 </cell>
+            <cell> Forenames</cell>
+          </row>
+          <row>
+            <cell> 16 </cell>
+            <cell> Qualifier on name (e.g. Saint, Bishop etc)</cell>
+          </row>
+          <row>
+            <cell> 18 </cell>
+            <cell>Institutional name</cell>
+          </row>
+          <row>
+            <cell> 1A </cell>
+            <cell> Periodical name (as author)</cell>
+          </row>
+          <row>
+            <cell> 1C </cell>
+            <cell> Rubric (i.e. subdivision within main heading)</cell>
+          </row>
+          <row>
+            <cell> 10 (mask XF0) </cell>
+            <cell> Any part of heading</cell>
+          </row>
+          <row>
+            <cell> 20 </cell>
+            <cell> Title</cell>
+          </row>
+          <row>
+            <cell> 24 </cell>
+            <cell> Parenthetic matter in title [e.g. editorial comment]</cell>
+          </row>
+          <row>
+            <cell> 32 </cell>
+            <cell> Place of publication</cell>
+          </row>
+          <row>
+            <cell> 34 </cell>
+            <cell> Date of publication</cell>
+          </row>
+          <row>
+            <cell> 36 </cell>
+            <cell> Size</cell>
+          </row>
+          <row>
+            <cell> 30 (mask XF0) </cell>
+            <cell> Any part of title</cell>
+          </row>
+          <row>
+            <cell> 40 </cell>
+            <cell> Shelf mark</cell>
+          </row>
+          <row>
+            <cell> </cell>
+          </row>
+        </table>
+        <p>The slip number (an arbitrary six byte code assigned during the cataloguing process) is
+          used as the key for the file, to maintain the correct sequence of records within the file,
+          although user access by this key is fairly unlikely. Multiple-format SIF is used to save
+          space, although we were disappointed to find that the conversion routines supplied as a
+          part of the DCI-100 product are more wasteful in this respect than they need be. </p>
+      </div>
+      <div>
+        <head>Retrieval software</head>
+        <p>A simple interactive enquiry program, written in Algol68, is used to search all the CAFS
+          text files described above. This program supports all but a few of the facilities
+          available through the DCI, including quorum conditions, counts, fuzzy matching and
+          retrieval functions. It is currently command driven, using a language similar to that of
+          DCI itself <ref target="#cafsac_note11">[11]</ref>. It is recognised that any eventual enquiry
+          software must have a simpler user interface; at this stage however our objective was
+          primarily to provide access to as much as possible of the DCI in a relatively
+          straightforward and extensible way. A more user-friendly interface could be set up quite
+          rapidly using Application Master, we are assured.</p>
+        <p> The field definition used by DCI to determine the structure of the records to be
+          searched is held as a job space string, which is initialised to an appropriate value by
+          the VME procedure used to invoke the search program. The user has the option to redefine
+          this string (to suppress or rename some of the fields, or to change the interpretation of
+          particular SIF identifiers), but this option has not as yet been exercised.</p>
+        <p> Searches are expressed using DCI&#x2019;s simple relational syntax and full Boolean
+          logic, as mentioned above. Search expressions may be pre-defined and stored for subsequent
+          re-use. The first time that any particular named search expression is actually evaluated,
+          the count of hit records found (obtained automatically by the DCI count function) is also
+          stored away, whether or not any hit records are actually returned. These counts, and the
+          associated text defining the search, are available for display to the user on request at
+          any time while the program is running.</p>
+        <p> Hit records are either displayed on the screen, or output to a file for post processing.
+          A number of different output formats are available, again under user-control. In the case
+          of the Bodleian file, for example, it will be possible to return hit records in a tagged
+          format suitable for editing on a word processor, or in a standard MARC format for export
+          to other catalogue processing software.</p>
+        <p> The partial limit function is used to restrict the number of hit records actually
+          returned to a user-defined maximum. We have not found any use for the other CAFS retrieval
+          functions, nor have we as yet found any application for CAFS trailers. The former offer
+          only numerical functions of little interest in this application, while the usability of
+          the latter is severely restricted. The <soCalled>search units</soCalled> they delimit can
+          neither be nested within each other nor cross record boundaries. </p>
+      </div>
+      <div>
+        <head>Initial results</head>
+        <div>
+          <head>Performance</head>
+          <p>In common with other CAFS users we have experienced hardware problems when a retrieval
+            limit function is run in conjunction with a very high hit rate, and we have also had two
+            minor hardware faults on the supporting disc drives. In all other respects however the
+            performance of the CAFS unit has lived up to expectations. The determing factors in the
+            response to any query were found to be the number of records actually output and the
+            degree of concurrent activity on the machine (the OUCS 2988 supports a heavily-used MAC
+            service as well as a large batch load; no TP service is currently run). The resources
+            absorbed by CAFS aided searching were comparatively trivial, averaging less than one OCP
+            second for each ten megabytes scanned through, irrespective of the complexity of the
+            query. An unaided CAFS search through our biggest file, the Shakespearean corpus, takes
+            about a minute of elapsed time during normal machine loading. </p>
+        </div>
+        <div>
+          <head>User reaction</head>
+          <p>The performance benefits of CAFS for text searching are well known and need no further
+            elaboration here, except perhaps to underline the importance of its browsing
+            capabilities. In an academic environment, where research is speculative and result
+            driven, the speed of CAFS is of importance because of the changes it makes possible in
+            the characteristic mode of enquiry. The attitude to computing of the researcher for whom
+            every search for a particular combination of words requires an over-night batch job is
+            quite different from that of the researcher who performs such searches at an interactive
+            terminal. Hypotheses can be tested as they are formed; searches can be determined by the
+            results of previous searches. Our experience so far suggests that for users unaccustomed
+            to interactive working CAFS has a qualitative effect as well as a quantitative one. </p>
+          <p> By contrast, users with experience of conventional fully indexed text retrieval
+            systems, such as STATUS or STAIRS, are accustomed to what might be called the
+              <soCalled>stepwise refinement</soCalled> method of text searching. For such users the
+            fact that CAFS could not return a count of records satisfying some criterion without
+            actually performing a search was a source of constant concern; it also appeared to have
+            a qualitative effect on the way in which enquiries were framed. </p>
+          <p> For more naive users, the inability of CAFS to perform context-sensitive collocation
+            searches (distinguishing the <q>blind Venetian</q> from the <q>Venetian blind</q>, to
+            use a time honoured example) was very hard to understand, as was the absence of any
+            efficient means of searching with left hand (as opposed to right hand) truncation of the
+            search term. The first of these requirements is of such importance that the search
+            program is now being modified to support it by software. Requests for records containing
+            term a followed by term b (which may be another occurrence of term a) separated by a
+            user-specifiable number of other terms will be converted into a CAFS search criterion
+            returning a superset of the required records for further discrimination by the software.
+            One early requirement of the Shakespearean database was a list of occurrences of <q>that
+              that</q> as opposed to <q>that which</q>, which would have been quite difficult to
+            produce without this enhancement. </p>
+          <p> The two other areas of user-dissatisfaction most frequently reported were the
+            inability of the CAFS hardware to support indexing functions, (that is, to provide a
+            list of all the different terms appearing in a particular field) and its poor support
+            for non-Roman alphabets. </p>
+          <p> Almost the first requirement of the larger of the two Bodleian files converted was a
+            list of all the different library codes used in the shelf mark field. The inability of
+            CAFS to produce this is, of course, an architectural limitation of the current engine,
+            which it is to be hoped will disappear like a bad dream with the availability of the
+            File Correlation Unit. For users accustomed to conventional indexed retrieval systems,
+            in which such a facility is obviously and inevitably provided, this restriction was both
+            bothersome and bewildering. The software solution to the problem is simple enough, if
+            not susceptible of improvement by CAFS. </p>
+          <p> The other major perceived weakness of the system was also particularly significant in
+            the Bodleian catalogues, which contain large amounts of material in Greek and Hebrew, as
+            well as all the European languages, to say nothing of various special symbols such as
+            astrological signs, Latin abbreviations etc. Because these features have all been
+            encoded with a view to reproducing them accurately rather than to searching for them,
+            such simple requirements as accent-blind retrieval are almost impossible to specify. In
+            the Bodleian files, angle brackets are used to distinguish words in non-Roman alphabets
+            (&lt;G and > enclose Greek words; &lt;H and > Hebrew ones) and accents or diacritics are
+            represented by an escape sequence comprising an underline character followed by a digit
+            indicating the accent to be applied to the preceding character. Thus the Greek word
+            λογοϛ (word) might appear with an accent as <code>&lt;Glo-1gos></code> or without as
+              <code>&lt;Glogos></code>. An accent-blind search thus needs to know the potential
+            position of any accents in order to replace each one with two
+              <soCalled>phantom</soCalled> characters. While workable, this is clearly an
+            impractical solution to the general problem, particularly where words may have many
+            accents.</p>
+          <p> Again, this problem is partly caused by the nature of the current CAFS engine, which
+            cannot be instructed to ignore arbitrary sequences within terms or to process escape
+            sequences correctly. Two software solutions exist, both of which depend on the
+            flexibility offered by the SIF record structure. The simpler of the two involves storing
+            an accent free version of each accented word (either in the same file with a different
+            SIF identifier or in a separate search file) as well as the accented, or display format,
+            version of the word. The more complex solution is to recode the text completely, in such
+            a way that suitable masks can be constructed to make searches accent-sensitive or blind
+            as required. </p>
+          <p> The first solution is the more general, in that it could be extended to cater for
+            texts using a variety of complex mark-up codes; the separation of <soCalled>searchable
+              format</soCalled> from <soCalled>display format</soCalled> also has many ancillary
+            benefits beyond the scope of this discussion. The second solution less simpler
+            pre-processing of the text during conversion to SIF, but is less extensible. It would
+            require that different SIF identifiers be used for words in different alphabets (which
+            might cause problems for texts containing chemical or mathematical formulae) and that no
+            alphabet contain more than 190 distinct characters. It would also obviously complicate
+            conversion of recovered records for display purposes, which is already the most
+            expensive part of the software. </p>
+        </div>
+        <div>
+          <head>Future plans</head>
+          <p>Our plans for the next year are firstly to continue development of our own text
+            retrieval software, in the current absence of any alternative, probably simplifying its
+            user interface drastically by the provision of a screen-driven front end. A major new
+            project about to begin involves the conversion of a large sample of ancient Greek texts
+            (obtained from the Thesaurus Linguae Graecae archive in California) into SIF format. It
+            is probable that we will use this database as a test bed for the accent blind searching
+            solution described above. </p>
+          <p> Amongst the many developments currently underway in the field of library automation at
+            Oxford will be the provision of routines for converting between the current SIF format
+            and the portable MARC format required for integration with other library catalogues.
+            This opens the door to a number of interesting possibilities such as the extraction of
+            specialist bibliographies, drawing on the resources of many university libraries for the
+            primary data, and local CAFS power for subsequent analysis. </p>
+          <p> As regards the Bodleian pre-1920 catalogue, we now have sufficient confidence in the
+            capabilities of CAFS to convert a much larger sample which will be used as a testbed for
+            the use of secondary indexing. Our current guess at the size for the entire catalogue is
+            somewhere between 200 and 250 Mb. A straightforward CAFS-assisted free text search of
+            files of this size might take as much as 20 OCP seconds which, however impressive by
+            comparison with non-CAFS based systems, would probably still be too slow for an online
+            system. We are therefore planning to produce a CAFS-searchable secondary index, keyed by
+            author name and date, as a means of focussing such searches to a smaller section of the
+            file. One of the attractive features of CAFS-assisted indexing techniques is that the
+            resolution of the index can be quite coarse, thus greatly reducing its maintenance
+            overheads as well as its size. <ref target="#cafsac_note12">[12]</ref>. The first two
+            characters of each slip number should delimit a search to a maximum of 9000 records -
+            less than 10 Mb. Since these two characters are also the most significant part of the
+            primary key in the main file, defining the restricted search should be simple, using the
+            DCI <code>ANDTHEN</code> facility. </p>
+        </div>
+        <div>
+          <head>Conclusions</head>
+          <p>There can be no doubt that CAFS provides an alternative to conventional index based
+            text retrieval systems which is at once cheaper to implement and more efficient in
+            performance. It also offers facilities which would be impossible to provide by other
+            means in our environment. It is not however a panacea: some essential text processing
+            functions cannot easily be performed using CAFS. Nevertheless our users initial
+            reactions have been on the whole sufficiently impressed to justify further work on
+            overcoming these problems. </p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div>
+        <head>Notes</head>
+        <note xml:id="cafsac_note1">
+          <bibl>Susan Hockey, <title level="a">Computing in the Arts at Oxford University</title>,
+            in <title>The computer in literary criticism: Proceedings of a conference held at the
+              University Of Victoria B.C., January 1984.</title> (forthcoming)</bibl>
+        </note>
+        <note xml:id="cafsac_note2"><bibl>Lou Burnard, <title level="a">Database or Knowledgebase?</title>
+            in <title>Towards a Computer Ethnology</title>. Osaka, Senri Ethnological Studies
+            (forthcoming).</bibl></note>
+        <note xml:id="cafsac_note3">
+          <bibl>Joseph Raben, <title level="a">The Death of the Handmade Concordance</title>.
+              <title>Scholarly Publishing</title> 1 (1969) 61&#x2013;9.</bibl> See also <bibl>T.H.
+            Howard-Hill, <title>Literary Concordances</title>. New York: Pergamon Pr. 1979</bibl>
+          and <bibl>William Ingram, <title>Concordances in the Seventies</title>. <title>Computers
+              and the Humanities</title> 8 (1974) 273&#x2013;7.</bibl>
+        </note>
+        <note xml:id="cafsac_note4"> Information on the T.L.F. is available from the Institut National de
+          la Langue Francaise, C.O. 3310, 54014 Nancy CEDEX. On the Old English Corpus, see
+            <bibl>Roberta Frank and Angus Cameron, eds, <title>A plan for the Dictionary of Old
+              English</title>. Toronto, 1973</bibl>. The T.L.G. publishes an occasional
+            <title>Newsletter</title>, available from T. Brunner, State University of California at
+          Irvine, Irvine, Ca. </note>
+        <note xml:id="cafsac_note5"> T.H. Howard-Hill, <title level="a">The Oxford Old Spelling
+            Concordances</title>. <title>Studies in Bibliography</title>, 22 (1969) 143&#x2013;64. </note>
+        <note xml:id="cafsac_note6"><bibl>
+            <title>Shakespeare and the Computer</title>. <title>ALLC Bulletin</title>, 8 (1980) 72
+          </bibl></note>
+        <note xml:id="cafsac_note7"> The Bodleian&#x2019;s <title>Cataloguing Rules</title> were first
+          defined by Nicholson in 1883, and subsequently revised by George Wheeler (1933, 1939). </note>
+        <note xml:id="cafsac_note8"> J.W. Jolliffe, <title level="a">Retrospective conversion: the long
+            haul</title>
+          <title>Catalogue and Index</title> (forthcoming) </note>
+        <note xml:id="cafsac_note9"> The Libraries Automation project was announced in the
+            <title>University Gazette</title>,in Hilary Term, 1985. </note>
+        <note xml:id="cafsac_note10">
+          <bibl>F.G. Heath and J.G. Woyka, <title level="a">Memex : an Information Engine</title>.
+              <title>IUCC Bulletin</title> 4 (1982) 116&#x2013;9</bibl>. See also Geoffrey Neate,
+            <title>Interim report to the British Library R&amp;D Department on Project
+            SI/G/627</title>. Oxford, Bodleian Library, 1985. </note>
+        <note xml:id="cafsac_note11">
+          <title>Direct CAFS Interface: Programming Guide</title>. Technical Publication R00421.
+          ICL, 1985. </note>
+        <note xml:id="cafsac_note12"> J.W.S. Carmichael, <title level="a">Application of ICL&#x2019; CAFS
+            to text storage and retrieval</title>. <title>Protext</title>, Dublin, 1984 </note>
+      </div>
+      <div type="bibliography">
+        <!-- the bibliography for the article, organized as a series of <bibl> elements inside <listBibl> -->
+        <listBibl>
+          <bibl xml:id="cafsac_bloggs13"/>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

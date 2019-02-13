@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_jtei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_jtei.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="jTEI">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Markup and Markup Languages</title>
+            <author>
+               <name>
+                  <forename>Lou</forename>
+                  <surname>Burnard</surname>
+               </name>
+               <affiliation/>
+               <email/>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Elsevier</publisher>
+            <date>2006</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>No source, born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Article contributed to the Elsevier Enclopaedia of Language and Linguistics</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">en</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term/>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="abstract" />
+      </front>
+      <body>
+         <head>Markup and Markup Languages</head>
+         <p>The word <term>markup</term> was originally used to describe annotation or other marks
+            introduced into a manuscript, for example by a copy&#x2013;editor, in order to instruct
+            a compositor or typist how a particular passage should be printed or laid out.
+            Underlining of various kinds might be used to indicate boldface, special symbols to
+            indicate passages to be re&#x2013;arranged, omitted, or printed in a particular font,
+            and so forth. As the production of texts was automated, the term came to be used also to
+            describe the special codes inserted into electronic texts to govern analogous tasks in
+            the formatting and printing of documents. The rapid growth in the development of
+            computer text processing systems during the 1980s lead also to the development of
+            increasingly formalised markup systems. Notable early examples include the roff and
+            troff systems developed for the Unix operating system, a document management system
+            called Scribe developed by Brian Reid originally for IBM mainframes, and of course the
+            TeX language developed specifically for the typesetting of mathematics by Donald E
+            Knuth. These systems all greatly influenced the transition from ad hoc or proprietary
+            systems of conventional codes to the highly influential Standard Generalized Markup
+            Language (SGML). This ISO standard, which defined a metalanguage for the definition of
+            specific markup vocabularies and grammars for their deployment, had an influence far
+            beyond its original remit of simplifying production and maintenance of technical
+            documentation.</p>
+         <p>A key feature of SGML was its recognition that the concepts instantiated by a given
+            document’s markup might usefully relate not to its physical appearance but to its
+            significance. This insight was seized upon by early theoreticians of markup (notably
+            Renear et al) who argued forcefully that markup should be used to encode the
+               <soCalled>real</soCalled> structure of a document, independent of how that might be
+            realised in some specific instance or version of it. It was held to be more useful (for
+            example) to mark that a stretch of a document was a <soCalled>heading</soCalled> than to
+            state that it should be printed in boldface and centred, on both practical grounds
+            deriving from the inherent re&#x2013;usability and plasticity of electronic documents
+            and theoretical grounds relating to the nature of text itself. </p>
+         <p>Early adopters of the SGML standard included some rather strange bed&#x2013;fellows,
+            with little in common beyond a major investment in computer&#x2013;held text: the US
+            Department of Defense and the American Association of Publishers, for example. In 1987,
+            an international research project known as the Text Encoding Initiative also adopted the
+            standard as the means of expressing a set of Guidelines for those preparing
+               <q>machine&#x2013;readable texts</q> in literary and linguistic research. During the
+            nineties, the notions of markup embodied by SGML became particular influential with the
+            development of the World Wide Web and its associated markup languages HTML (ref) and XML
+            (ref), both of which derive from SGML. The development of the World Wide Web to its
+            current pre&#x2013;eminent position can be attributed partly to its reliance on a simple
+            descriptive markup language which, moreover, was defined independently of any of the
+            software used to produce or process it. The transition from the limited semantics of
+            this HTML language to the more flexible and well&#x2013;designed
+               <soCalled>extensible</soCalled> markup language XML is further demonstration of the
+            power of the ideas originally put forward in the SGML standard. At the time of writing,
+            XML is the de facto standard for the representation of complex textual data in almost
+            every new system, and is also the channel of preference when data of any kind is to be
+            communicated between systems. </p>
+         <p>If the function of markup is to describe what a text really <soCalled>is</soCalled> (or
+            is thought to be), the process of marking up a text is essentially one of annotating its
+            constituents with some indication of how they should be identified and interpreted,
+            which can then be used by a subsequent <soCalled>user</soCalled> of the text, such as a
+            piece of software displaying or analysing it. As such it is a fundamentally linguistic
+            and interpretive process. At a banal level, all printed texts are marked up in the sense
+            that punctuation marks, use of capitalization, disposition of letters around the page,
+            even the spaces between words, function as a way of helping the human reader determine
+            where one word ends and another begins, or how to identify gross structural features
+            such as headings, and syntactic units such as dependent clauses or sentences. Encoding a
+            text for computer processing may simply formalize these visual signals in a more
+            rigorous manner; more generally however it will enrich them by providing
+            non&#x2013;obvious annotations representing (in some sense) the results of an
+            interpretive process, by marking up the <emph>reading</emph> of a text, rather than its
+            visually salient features.</p>
+         <p>This tension between what are (for some) self&#x2013;evident structural features of a
+            text, and the potentially contentious interpretations or classifications of those
+            features which others identify in them, or in their interstices, is at the heart of the
+            whole mark&#x2013;up enterprise, as it is (in a sense) at the heart of any other
+            hermeneutic endeavour. One advantage of using a formal markup language such as XML is
+            that its expressivity is precisely delimited, and can be automatically validated. XML
+            markup has a very shallow semantics, expressing little more than labelled bracketting of
+            content within a single hierarchy. Because the interpretion of the labels (the element
+            names) used within an XML vocabulary does not form part of XML itself, the creator of an
+            XML document is effectively required to define all the distinctions made within it,
+            either explicitly or by reference to some pre&#x2013;defined standard such as that of
+            the TEI. </p>
+         <p>At the most primitive level, texts are composed simply of streams of encoded data
+            (characters or bytes of data, marks on a page, graphics, etc.): these are known as
+               <term>entities</term> in SGML. At a higher level of abstraction, a text is composed
+            of representations of <term>element</term>s of various kinds, linguistically or
+            functionally defined. Elements do not appear randomly within a text: coherence demands
+            that particular types of element appear in specifiable relationship to others — they may
+            be included within each other, linked to each other by reference or simply presented
+            sequentially, for example. The rules defining how elements may legally be combined in a
+            particular class of texts is known as a <term>document type</term> or
+               <term>schema</term>. </p>
+         <p>An XML markup language comprises a list of named <term>element</term>s, each of which
+            has a unique identifier, and may also bear a set of named <term>attribute</term>s,
+            together with rules stating how element occurrences may legally be combined. A valid XML
+            document is a single element (the <term>root</term> element) containing either unmarked
+            textual data, or a mixture of other elements, each properly nested within its parent.
+            For example, a <gi>conversation</gi> element might contain a series of
+               <gi>utterance</gi> elements, each of which might carry a <ident>speaker</ident>
+            attribute. Within each utterance element, individual words or phrases might also be
+            marked, perhaps with attributes to indicate their syntactic or morphological function. </p>
+         <p>In an XML document, the start of each element occurrence is marked by a
+            start&#x2013;tag, which contains the name of the element type and also specifies any
+            attributes applicable to the element. The end of an element occurrence is also marked
+            explicitly by means of an end&#x2013;tag. XML defines a simple invariant syntax for the
+            representation of XML occurrences. For example: <eg><![CDATA[
+<conversation>
+<utterance speaker="Mutt">My dog’s got no nose.</utterance>
+<utterance speaker="Jeff">How does it smell?</utterance>
+<utterance speaker="Mutt">Terrible.</utterance>
+</conversation>
+]]></eg></p>
+         <p>The schema for this document would indicate that the element <gi>conversation</gi> may
+            be used as the root of a document and that it must contain one or more
+               <gi>utterance</gi> elements. It would also indicate that the <gi>utterance</gi>
+            element may contain unmarked text and that it bears an attribute called
+               <ident>speaker</ident>, the possible values for which might also be constrained, for
+            example by reference to some other element (say, <gi>person</gi>). </p>
+         <p>XML markup is thus topologically very similar to other forms of labelled bracketing
+            commonly used in linguistic formalisms to represent tree&#x2013;structured or data in
+            linear form, and an XML document may be thought of as a special case of a directed
+            acyclic graph, in which the nodes represent element occurrences and the edges define
+            containment relations. </p>
+         <p>It is easy to see how this markup might be further extended to include, for example,
+            specification of word class for the individual words, or their grouping into functional
+            units: <eg><![CDATA[
+<utterance speaker="Mutt">
+<s><np>
+   <w class="POS">My</w> <w class="N">dog</w>
+   </np>
+   <vp>
+    <v>
+     <w class="BE">’s</w> <w class="VB">got</w> 
+    </v>
+    <np>
+     <w class="NEG">no</w> <w class="N">nose</w>
+    </np>
+   </vp>
+</s>.</utterance>
+]]></eg>
+         </p>
+         <p>Less obviously, it is also possible to represent arbitrary links or alignments between
+            parts of an XML structure by means of <term>pointers</term>. For example, in the example
+            above, to represent the word <code>it</code> has an anaphoric relation to the word
+               <code>dog</code>, one could add an identifier to the latter and point to it from the
+            former, like this: <eg><![CDATA[
+   <w class="POS">My</w> <w class="N" xml:id="w123">dog</w>
+....
+   <w class="PN" ref="#w123">it</w> <w class="V">smell</w>
+...
+]]></eg>
+         </p>
+         <p>Two problems are commonly identified with this approach to the representation of
+            full&#x2013;scale linguistic analysis. Firstly it becomes difficult to represent
+            multiple analyses of the same phenomenon, if these fall foul of the requirement that the
+            markup structure be well&#x2013;nested. For example, in the analysis above, the price of
+            making explicit that <mentioned>’s got</mentioned> functions as a single verb is that
+               <mentioned>dog’s</mentioned> disappears as a single orthographic unit. If one wished
+            to add also (say) a prosodic analysis, or a discourse function analysis, the components
+            of either of these would almost certainly not align exactly with utterance or word
+            boundaries, nor with each other. Simple XML markup requires that one single hierarchic
+            analysis of the text be privileged above others, and thus is not well suited to the
+            direct representation of multi&#x2013;tiered analyses. To overcome this problem, a
+            number of varyingly unsatisfactory mechanisms have been proposed, of which the most
+            popular at present is the so&#x2013;called <soCalled> stand off</soCalled> style of
+            markup, in which distinct analyses are represented by free standing elements linked into
+            the text by pointers. While comparatively lacking in robustness and also requiring
+            special purpose programming beyond the remit of standard XML software, it is claimed
+            that such methods are sufficient to represent almost any kind of multiple analysis.</p>
+         <p>Secondly, and more fundamentally, many practitioners have questioned the wisdom of
+            formalizing linguistic analyses in the same way as structural analysis. There is little
+            consensus as to the linguistic features which should be marked up, and less as to their
+            inter&#x2013;relations. The representation of an analysis in formal markup however at
+            least enables the user to test it. </p>
+      </body>
+      <back>
+         <div type="bibliography">
+            <listBibl>
+               <bibl>Barnard, D.T., R. Hayter, M. Karababa, G. Logan, and J. McFadden. <title
+                     level="a">SGML&#x2013;Based Markup for Literary Texts: Two Problems and Some
+                     Solutions.</title>
+                  <title>Computers and the Humanities</title> 22 (1988): 265&#x2013;276.</bibl>
+               <bibl>Barnard, D.T., L. Burnard, J.&#x2013;P. Gaspart, L.A. Price, C.M.
+                  Sperberg&#x2013;McQueen, and G.B. Varile. <title level="a">Hierarchical Encoding
+                     of Text: Technical Problems and SGML solutions.</title>
+                  <title>Computers and the Humanities</title> 29 (1995): 211&#x2013;231.</bibl>
+               <bibl>Barnard, D.T., Burnard L., Gaspart, J&#x2013;L. et al. (1995) <title level="a">
+                     Hierarchical Encoding of Text: Technical Problems and SGML Solutions </title>
+                  <title>Computers and the Humanities</title>, 29: 211&#x2013;31.</bibl>
+               <bibl>Bray, T., Paoli, J. and Sperberg&#x2013;McQueen, C.M. eds (1998)
+                     <title>Extensible Markup Language (XML)</title> World Wide Web Conbsortium <ptr
+                     target="http://www.w3.org/TR/1998/REC-xml-19980210"/></bibl>
+               <bibl>Coombs, J.H., Renear, A.H., and DeRose, S.J. (1987) <title level="a">Markup
+                     Systems and the Future of Scholarly Text Processing</title>.
+                     <title>Communications of the ACM</title>, 30: 933&#x2013;47.</bibl>
+               <bibl>Garside, R, Leech G. and Sampson G. eds (1987) <title>The Computational
+                     Analysis of English: A Corpus&#x2013;Based Approach</title>. London:
+                  Longman.</bibl>
+               <bibl>Goldfarb, C.F. (1990) The SGML Handbook. Oxford: Clarendon Press.</bibl>
+               <bibl>Reid, B., (1980), <title level="a">A High&#x2013;Level Approach to Computer
+                     Document Formatting</title>, in <title>Proceedings of the 7th Annual ACM
+                     Symposium on Programming Languages</title>, New York, ACM Press.</bibl>
+               <bibl>Renear, A., D. Durand, and E. Mylonas. <title level="a">Refining our Notion of
+                     What Text Really Is.</title>
+                  <title>Research in Humanities Computing 4: Selected Papers from the 1992 ALLC/ACH
+                     Conference</title>. Ed. S. Hockey and N. Ide. Oxford, 1996.
+                  263&#x2013;280.</bibl>
+               <bibl>Sampson, G. (1993) <title>English for the Computer: The SUSANNE Corpus and
+                     Analytic Scheme</title>. Oxford: Clarendon Press.</bibl>
+               <bibl>SGML. <title>Information Processing: Text and Office Systems Standard
+                     Generalized Markup Language (SGML)</title>. ISO 8879&#x2013;1986. International
+                  Organization for Standardization, Geneva 1986.</bibl>
+               <bibl>Sperberg&#x2013;McQueen, C. M., and Lou Burnard, ed. <title>Guidelines for Text
+                     Encoding and Interchange</title>. Chicago and Oxford:
+                  ACH&#x2013;ALLC&#x2013;ACL Text Encoding Initiative, 1994. </bibl>
+               <bibl>Sperberg&#x2013;McQueen, C.M. and Huitfeldt, C. <title level="a">Concurrent
+                     Document Hierarchies in MECS and SGML</title>
+                  <title>Literary and Linguistic Computing</title>, 14:29&#x2013;42</bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

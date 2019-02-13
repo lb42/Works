@@ -1,0 +1,331 @@
+<?xml version="1.0"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Primary to Secondary: Using the Computer as a
+Tool for Textual Analysis in Historical Research
+</title>
+   </titleStmt>
+   <publicationStmt>
+<p></p>    
+   </publicationStmt>
+   <sourceDesc>
+<bibl>
+<title>History and Computing</title>
+<editor>Denley, Peter</editor>
+<editor>Hopkin, Deian</editor>
+<publisher>Manchester University Press</publisher>
+<date>1987</date>
+</bibl>
+   </sourceDesc>
+  </fileDesc>
+ </teiHeader>
+<text><body>
+<pb n="229"/>
+<div n="35">
+<head type="auth">Lou Burnard
+</head><head>
+Primary to Secondary: Using the Computer as a
+Tool for Textual Analysis in Historical Research
+</head>
+
+<p>One assumption underlying this paper is that historians are, like the
+rest of us, primarily interested in reality. As a database designer,
+it is my task to attempt to define two distinct mappings: firstly that
+between the reality of the external world and the information which we
+wish to hold and consider about it; secondly the mapping of that
+information on to the sort of data structures and functions which a
+computer can deal with. The most effective way of accomplishing this
+involves the definition of a conceptual model (to use the jargon),
+representing real world objects, events and their relationships
+independent of their representations. The subsequent process of
+redefining that model in data processing terms - that is, choosing the
+data structures and processes which will most effectively support the
+entities and relationships dcfined to be meaningful within the
+conceptual model - is one which is well understood (by data processing
+people, at least!) and on which I will not linger. It is the prior
+process of defining the conceptual model that is of major importance.
+	</p>
+
+<p>
+In a very similar way, the historian must distinguish between
+information and its representation. The historian, perhaps uniquely
+among researchers, has to maintain a double focus: as well as
+<soCalled>conceptual level</soCalled> information about events, people
+and places in the real world, he has to deal with the
+<soCalled>data</soCalled> which has been used to represent that
+information in the pre-electronic past. Understanding the past
+involves both the assessment of <soCalled>primary</soCalled> data,
+insofar as that can be determined, and the interpretation of the mass
+of <soCalled>secondary</soCalled>data through which it has percolated
+to us. If that double focus is not to become blurred vision, it is
+obviously crucial to distinguish the two, <pb n="229"/>while retaining
+the ability to integrate them. The task of the historian is thus very
+like that of the data analyst, above all one of defining a
+satisfactory abstraction from seemingly ambiguous and unstructured raw
+materials, many of which are themselves earlier abstractions from the
+same rich vein.  The raw material of the historian is more frequently
+the representation of information than information itself.
+	</p>
+
+<p>
+Before the advent of computers, another and simpler word for
+<soCalled>representation of information</soCalled> was text; an analysis of the nature of text is
+thus appropriate here. In interpreting text, the trained human brain operates
+quite successfully on three distinct levels; not surprisingly, three distinct types
+of computer software have evolved to mimic these capabilities. The case I
+wish to argue here is for the integration of these three levels.
+At the first and most primitive level, we may consider a text as an image on
+a physical medium. At this level of description, sequences of character strings
+and other symbols have as much significance as other visible entities such as
+paragraphs, changes of typeface or layout etc. Most current standardisation
+effort in data processing is concerned with text at this level, with the
+establishment of standard generalised mark up languages, document format
+languages etc. Typically, in describing text at this level, we enter the realm of
+the word processor and the typesetter.
+	</p><p>
+At the second level of description, we may consider a text as composed of
+specifically linguistic constructs. Here we are concerned with the
+identification of lexical items and syntactic structures, irrespective of their
+physical appearance or the function they perform in a particular context.
+This is the realm of the simple-minded <soCalled>information retrieval</soCalled> package.
+At the third level of description, we are concerned with the intentional
+aspects of a text: the identification of those real world entities and
+relationships which constitute the <soCalled>meaning</soCalled> of the text. This is (or should be)
+the preserve of the database management system.
+	</p><p>
+As a simple example, consider any monumental inscription. At the first
+level, we might be concerned with the manner in which the inscription was
+made, the size of its letters and their spacing, and similar concerns, all with
+the ultimate aim of being able accurately to reproduce the appearance of the
+inscription and relate it to others of a similar appearance. At the second level,
+we would be concerned with the words of the inscription, the language in
+which they are couched, their root forms and variants and similar concerns.
+We might wish to identify contracted forms of words and identify
+inscriptions using similar turns of phrase. Finally, at the third level, we are
+concerned with the intentions of the producers of the inscription. Whom or
+what does it commemorate? From what historical context does it come?
+What other evidence do we have for the assertions it appears to make about
+the past? To answer such questions it is necessary to identify entities and
+relationships independently of the inscription itself, although this may be the
+only evidence for their existence.
+	</p><p>
+Of course, in answering such questions, we will frequently wish to use
+insights implied by second or first level considerations: a particular style of
+inscription or use of language may well be associated with particular real
+world events or people. In the same way, aspects of a text which appear to
+function purely physically (for example, the layout of text on a page or its
+<pb n="230"/>punctuation) often have an intimate connection with the meaning which we
+create when reading it. It is only with difficulty that the computer can be
+persuaded to be equally flexible. Corresponding with the three levels of text
+description outlined above, present day computer systems offer us word
+processing systems, what I call rather loosely information retrieval (IR) or
+word-searching systems and true database management systems (DBMS),
+each of which tends to be optimised for use at one particular level alone.
+Some word processors offer rudimentary information retrieval functions
+such as the ability to search for specific strings of characters or to consult a
+simple thesaurus or spelling dictionary, in much the same way as some
+information retrieval packages often include a simple screen editor. Some
+database management systems (though very few) grudgingly recognise the
+existence of text as a rather curious datatype, usually assumed to be a variable
+length string of bytes. Vanishingly few include ready-made tools for the
+manipulation of text which even approach the flexibility and power of the
+tools available for the processing of <soCalled>real</soCalled> data such as numerical values, part
+numbers or employee codes.
+	</p><p>
+These differences are reinforced by the implementation techniques
+typically adopted by these three flavours of software. Because word
+processing systems are primarily interested in the capture and formatting of
+whole texts, their basic unit of storage is a document, which will typically
+have an internal structure peculiar to that particular system. The expensive
+parts of such software are usually concerned with transforming this fairly
+esoteric internal structure into a variety of external appearances (and vice
+versa). Because information retrieval systems are primarily interested in
+searching and displaying syntactically-defined subsections of text, their basic
+storage mechanism is the inverted file or index. In both cases, the software
+tends to be of the <soCalled>black box</soCalled> variety, with its own internal structure
+inaccessible directly to the outside world. By comparison with these,
+database management systems offer a far wider range of storage techniques
+and access methods. Moreover, because standards exist for such systems, it is
+possible to implement a database on one machine with a reasonable
+expectation of being able to re-implement it on another. Also unlike word
+processing or information retrieval systems, a database management system
+will generally offer great flexibility in the types of object that can be
+manipulated. With a true relational database management system, it is at
+least theoretically possible to represent almost any arbitrarily complex
+information structure, not excluding the predicates and rules which
+characterise <soCalled>fifth generation</soCalled> or expert systems.
+	</p><p>
+For the historian, or anyone else, attempting to process text at all three
+levels by computer this separation and specialisation can lead to serious
+problems. If the word processor seems the obvious toot to use for the
+preparation and display of text, the information retrieval system seems
+equally essential for the manipulation and exploration of its lexicon. To
+make any sense of the results, a database management system is necessary for
+all but the most trivial of applications. If all three are to be used, the user must
+maintain independently a document store (access to which is available only
+by the word processor) a lexical store or text base (access to which is restricted
+to the IR system) and a database. Shunting information between all three
+<pb n="231"/>components becomes a complex and messy task, involving many ad hoc
+solutions and much special purpose programming, for which the unlovely
+term <soCalled>data massage</soCalled> seems appropriate.
+	</p><p>
+What is needed is some way of integrating all three stores into a single
+integrated information base, accessible by software which is capable of
+functioning at all three levels. No such system exists as yet, to my knowledge,
+although there are several postulants. In its absence, the most practical
+course seems to be to extend the range of applications for which the database
+management system (surely the most flexible of the tools at our disposal)
+would be a natural choice to include at least an IR or lexical searching
+function and also perhaps a document control system.
+Integrating database and textbase is not just a matter of finding a database
+management system which will support variable length records (though this
+is itself by no means a trivial task); it requires that the sort of distinction
+which I have presented above as characteristic of the historical method must
+be directly modelled in the database structure. The conceptual model must
+include both objects and their representations.
+	</p><p>
+As a simple example, consider the ways in which we might hold
+information about people in a conventional database. We would start by
+attempting to define all those attributes which together constitute the entity
+<soCalled>person</soCalled> and all the meaningful relationships that might exist between this
+entity and others. Any database management system will allow us to redefine
+such a model in terms of records and sets or relational tables. However, this
+simple model will rarely be adequate to deal with the realities of historical
+data.
+One particularly significant attribute of a person might be his name; every
+person has one, although we might not know what it is. The fact that the same
+person might have different names, or that the same name might be
+associated with different people is one which a traditional database
+management system would prefer to ignore. But the name by which a person
+is known in a particular context may well be of the utmost importance, as
+might the problem of determining to which of several candidates a particular
+name is believed to refer. This indicates that our conceptual model must
+include the entity <soCalled>name</soCalled> independently of <soCalled>person</soCalled>, with some other entity
+recording the association (in some given context) between a <soCalled>person</soCalled> and a
+<soCalled>name</soCalled>. Such a conceptual model will thus seek to represent both real world
+entities and their representations. The great strength of a database
+management system is that its primitive constructs are sufficiently abstract
+for this to pose no special problems (see Figure 1).
+	</p><p>
+As a further example, we might wish to include the notion of
+      <soCalled>place</soCalled> within
+our database. Leaving aside the problems of associating a physical place with
+a particular name (in itself no different from the problem of people's names
+already discussed), we will also have to contend with the fact that place names
+are hierarchically organised. A reference to <soCalled>Europe</soCalled> implies (probably) a
+reference to <soCalled>France</soCalled> and <soCalled>England</soCalled>, just as a request for information about
+events in <soCalled>London</soCalled> should probably include information about events in
+<soCalled>Wapping</soCalled>. The conventional database approach might be to normalise all
+place references, thus requiring of the user an exact mapping of every place
+name to some neutral set of geographical co-ordinates. This is clearly
+<pb n="232"/>
+
+<figure>
+<graphic url="media/relational-1.png"/>
+<head>Representing nominal linkage by a relational join</head>
+</figure>
+<!--
+<eg>
+
+
+
+                              N E
+PERSON                                                           ITNUM  NY
+PNUM     PNAME             BORN
+_________________
+
+	'I	ALFRED THE GREAT	800		N2	A
+		ALFRED TENNYSON	1841		N3	Alfi.
+	P3	ALFRED NOYES	lB92
+
+
+
+	ASSOCIATION
+
+               PNUM    NNUM     ASSTYPE
+               ________________________
+
+	Pi	Nl	PRIMRY
+	Pi	N2	VMIANT
+	P2	NI	FMILIAR
+
+	p 3	NJ	EMILIAR
+	P3	NJ	JOCOSE
+
+-->
+
+<figure>
+<head>Relational implementation of a simple hierarchy of terms</head>
+<graphic url="media/relational-2.png"/>
+</figure>
+
+<!--
+                    PLACE
+                   Europe
+                    France            Germany
+
+          London          Blanchester
+
+
+     Wappi,,g
+
+
+
+
+     PLACE                                         HIERARCHY
+
+     ID FORM                                       PARENT CIIILD
+    ________________________________
+ 
+	NI	El,,,,,	H2
+	t42	E", @ ""@	t3
+
+	NJ	F,,,.@@	H4
+
+	N4	@,.""y	NS
+	N5		t;6
+
+	N,		N7
+	HI
+	  </eg>
+
+-->
+
+impractical for historical data, where often all this is known of a
+place is that it is <soCalled>near</soCalled> or <soCalled>a part of</soCalled> some other place. The text
+processing approach is to treat place names in the same way as
+indexing terms are treated in an associative thesaurus: terms are
+related to other terms in a number of ways (<soCalled>broader than</soCalled>, <soCalled>narrower
+than</soCalled>, <soCalled>synonym of</soCalled> etc.); this too can be modelled <pb n="233"/> very
+simply in a relational database system (see Figure 2).  These two
+examples indicate, I hope, that it is possible to use ordinary
+database techniques to implement such apparently purely <soCalled>text
+processing</soCalled> functions as the handling of polysemy or the construction
+of thesauri, normally regarded as the province of the IR
+system. Equally, given suitable tools, there is no reason why a
+conventional database should not include straightforward running text,
+as produced by and for a word processing system. Of particular
+interest here is the availability of specialised hardware such as
+ICL's <soCalled>content addressable filestore</soCalled> (CAFS)<note n="1" place="end">I
+have described in more detail some of the implications of CAFS for
+free text searching in <title>CAFS: a new approach to an old problem</title>,
+Literary and Linguistic Computing, vol. 2 no. 1, 1987.  </note>, which
+solves many of the technical difficulties normally associated with the
+storage and manipulation of large amounts of text. In particular, CAFS
+makes it possible to maintain in one single integrated system a
+display form of a text, a searchable form of the same text, accessible
+in terms of its constituent tokens, and tables of abstract data
+derived from both.  In both data analysis and historical research, a
+clear statement of the problem is sometimes as close as we may get to
+a solution. In this paper, I have tried to examine some underlying
+causes for the reluctance of current computer systems to process large
+amounts of text with anything approaching the sophistication of those
+much under-valued pre-electronic data management tools, the eye, the
+pen and the brain. I have also indicated the kind of initial
+adjustments that need to be made if our current electronic systems are
+to begin to emulate them.  </p>
+</div></body></text></TEI>
+
+

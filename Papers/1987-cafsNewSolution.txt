@@ -1,0 +1,765 @@
+ 
+
+CAFS: A New Solution to an Old Problem
+
+LOU BURNARD
+Oxford University Computing Service, U.K.
+
+Correspondence: Lou Burnard, Oxford University Computing Ser-
+vice, 13 Banbury Road, Oxford, 0X2 6NN, UK.
+
+Literary and Linguistic Computing, Vol. 2, No. 1, 1987
+
+Abstract
+
+CAFS (Content Addressable File Store) is a hardware search
+engine available on all ICL mainframes. It offers radically new
+solutions to a familiar problem: how best to search through
+very large quantities of unstructured textual data. Traditional
+software techniques rely on extensive indexing or sorting as a
+means of accessing complex text structures: CAFS uses
+specialised hardware to perform many of the required func-
+tions. At Oxford University, software is being developed to
+exploit these capabilities as a means of providing wider
+access to the Text Archive’s extensive corpora of literary and
+other materials.
+
+Introduction
+
+Computers, like any other sort of machinery, are de-
+signed for one type of activity rather than another. Yet.
+while no one expects a word processor to be much good
+at calculating fast Fourier transforms, the poor text-
+processing capabilities of the average mini or mainframe
+often come as a surprise. I am not thinking here of
+software (such deficiencies are relatively easily remedied)
+so much as of intrinsic architectural limitations conse-
+quent on the localisation of all processing power in a
+single central processor unit (cpu). CAFS (Content
+Addressable File Store) is a new tool available to
+designers of text processing systems who wish to over-
+come these limitations. Before assessing its importance it
+may be appropriate to summarise brieﬂy the nature of
+the problems concerned.
+
+Text and its structure
+
+The structure of a piece of text may be described at three
+levels. At the simplest level, we may regard it as a string
+of characters representing an image on a page. The
+majority of text processing  (i.e. document-preparation)
+systems operate at this level only. At the second, we may
+regard it linguistically, as composed of lexical and
+syntactic units such as words or sentences: this is the
+level corresponding with the computational linguists'
+paradigm. At the third level we are concerned with its
+intentional and semantic aspects, seeking to identify
+those real world entities and their relationships which
+the text conveys to an intelligent reader. Both traditional
+database management systems and the most advanced
+expert AI systems may be said to operate on text at this
+level.
+
+Mappings between the three levels are far from precise
+or well understood. Many components of a text have
+significance at all three levels (conventional punctuation
+for example),  while others have to be brought to the text
+by the act of interpretation and are not explicitly present
+in it (those parts of meaning conferred by an individual
+<cb/>
+text's relationship to a corpus for example). Entities
+which are unambiguous at one level (tokens delimited by
+punctuation, for example) become ambiguous at another
+(homographs. for example).
+
+Text structures are thus very different from the struc-
+tures of the materials which computers were originally
+designed to process. The structure of a numerical data
+set is usually well defined (it might contain X observa-
+tions of y variables in the range rl to r2 ...) while the
+representation of a numerical value is always isomorphic
+with its meaning, that is, a given pattern of bits always
+and only has a particular numerical value, which is
+always and only represented by the same pattern of bits.
+Conventional database management systems (dbms) at-
+tempt to confer this isomorphism of representation and
+meaning by insisting on precise and unchanging repre-
+sentations for data derived in a defined way from real
+world entities. By contrast. the components of a text and
+their referents are hard to define (how long is a sentence?
+which tokens are lexical? which refer to people, which
+to places?)
+
+Problem areas
+
+it is not surprising therefore if the conventional wisdom
+has long been to regard text processing as a totally
+distinct operation from conventional data processing,
+with its own special purpose tools and techniques. The
+main problems can be categorised as follows:
+
+Problems of size
+
+All computers have limits: for any machine there will
+always be some quantity of data too large to be handled
+directly in memory, some other quantity too large to be
+handled in backing store, a third quantity too large for
+off line disc capacity and so on. What determines these
+thresholds may have as much to do with user expectation
+as with technology. One particularly important factor in
+determining user reaction is the time taken to locate and
+process any given part of a text, the search-response
+time. Today's text processing systems aim to minimize
+this to the point that the user can operate on his text
+interactively, the result of one enquiry giving fuel to the
+formulation of the next. For non-trivial amounts of data
+(that is, more than can easily be held in core or rapid
+access memory) this necessitates careful consideration of
+disc access methods and sophisticated software design.
+What is appropriate for a word processor operating on
+one ﬂoppy disc's worth of data is hardly appropriate for
+a system interrogating the Brown Corpus. The time
+taken to recover a specific piece of data from an off line
+store is determined by a combination of factors,  notably
+the time taken to determine the whereabouts of the data
+required on the off line store. the delivery rate of data
+from the device and the speed at which the data can be
+<pb/>
+processed by the CPU. In calculating the effect of all of
+these, except perhaps the first, the amount of data
+involved will clearly be highly signiﬁcant
+
+Problems of context definition and storage
+
+Text has to be stored and retrieved by the available
+hardware in fixed length units. Nearly every access to it
+however will require to retrieve and process variable
+length search units of various kinds: corresponding (at
+one level) with units such as documents or paragraphs or
+lines of text or (at another level) with such units as
+sentences or speeches in a play. Furthermore in some
+cases it may be necessary to operate on the same data set
+using many different types of search unit. some of which
+may not he hierarchically organised. For example, in
+parallel with the hierarchy document — paragraph —
+section — sentence,an application may wish to structure
+text into verse-lines, if only for reference purposes.
+
+Problems of categorisation
+
+A given search unit may he categorised in more than one
+way. A sentence may be any or all of prose or verse, of
+some authorship, belonging to some stylistic category
+etc. The same sentence may have many such attributes.
+It is rarely the case that all the text in a corpus is of the
+same category. Similar considerations apply to smaller
+components (eg, lexical items).
+
+Problems of access
+
+Sometimes, though rarely, the tokens present in a text
+will correspond exactly with the tokens to be processed.
+More often, access will he required to a group of related
+tokens — different spellings, syntactic variations, syn-
+onymous terms etc. In one case, access to all different
+tokens may be required: this is called a concordance.
+
+Problems of enrichment
+
+The process of analysing a corpus of text is essentially an
+iterative one. In some cases. the body of the corpus itself
+may be constantly expanding: more usually. the results
+of one analysis are ‘ploughed back' to provide further
+criteria by which new retrieval units or other compo-
+nents may be identiﬁed.
+
+Some typical solutions
+
+In conventional text-processing systems. the five catego-
+ries of difficulty outlined above are generally met to a
+greater or lesser extent by the use of a combination of
+two very powerful techniques: tagging and indexing.
+
+By tagging is meant any system in which descriptive
+markers are introduced into a transcribed text to indi-
+cate its structure, appearance, or signiﬁcance. Tags can
+be used to delimit structural units within a text, to
+categorise particular tokens or to control access to
+different types of token. Their introduction into an
+existing text is no more difficult than the creation or
+amendment of the text itself; indeed they form a part of
+the text. Their usefulness is limited only by the subtlety
+and ingenuity of the system designer — which can
+unfortunately sometimes lead to unanticipated problems
+of portability and resilience to change.
+
+Every tagging system is intimately related to the
+<cb/>
+software used to process it. Despite welcome efforts
+towards standardisation on at least the first of the three
+levels of text description mentioned above [1] there is little
+sign of an emergent ‘text description language‘ anala-
+gous to the 'data definition ianguages' now standardised
+for database management systems.[2] Perhaps the pursuit
+of such languages is in any case chimerical. In their
+absence, all text processing systems develop afresh ad
+hoc solutions and correspondingly non-portable and
+idiosyncratic software. Tagging systems in particular,
+because of the absence of any generally agreed meta-
+language, tend to operate promiscuously at each of the
+three levels of description outlined above, thus further
+complicating the already vexed problem of integrating
+existing textual databases. Very few text processing
+systems include a component to perform the function of
+a data dictionary, while few existing data dictionaries
+offer usable facilities for storing information about
+textual data.
+
+Aside from these standardisation problems. over-
+reliance on tagging as a means of structuring textual
+data can be very costly. Any software capable of hand-
+ling a reasonably wide variety of different coding and
+tagging systems is thereby rendered very expensive to
+run. Even packages designed to run on one tagging
+system alone will typically convert the tagged format to a
+more efficiently-stored internal form during a first pass.
+This internal form will generally (but by no means
+always) imply some kind of inverted file structure, using
+B-tree or other indexing techniques. Such techniques rely
+on the computer‘s ability to locate data very rapidly by
+means of its physical address on the storage medium. In
+this respect, such indexes are exactly analagous to the
+printed indexes at the back of a book. which rely on the
+human ability to locate data rapidly by means of page
+numbers.
+
+Indexing techniques solve many text processing prob-
+lems and are widely used for that reason. Nevertheless.
+their use can introduce new problems. Any index, how-
+ever efficiently organised, must take up space for each
+occurrence of each item indexed. In an extreme case,
+supposing that 4 bytes are needed for each reference to a
+token and that each token-occurrence is indexed, then,
+assuming an average token length ofaround 4 bytes, the
+size of the index will be greater than the size of its text, as
+it will need to include the actual tokens as well as
+references to them! This seems a ridiculous situation.
+
+Customarily ‘insigniﬁcant' tokens are excluded from
+an index. This is very effective in many cases, particu-
+larly since the highest frequency tokens are commonly
+regarded as having least signiﬁcance. This is not however
+always the case; indeed. the very reason for adopting a
+computer may have been to cope with such otherwise
+unmanageable searches as the relative rates of occur-
+rence of 'of' followed by ‘the' and ‘of followed by ‘a‘.
+
+An alternative approach is to store all of the text in a
+compressed form, or to store only the index in a
+compressed form. Dramatic savings in space can be
+achieved where a relatively small vocabulary is used
+throughout a text by simply encoding each distinct
+token; if a text contains less than 16,356 distinct tokens,
+for example, only two bytes are needed to encode each
+one. Several researchers have reported even greater
+<pb/>
+savings by encoding not distinct lexical tokens but
+‘ngrams‘ — arbitrary ﬁxed length sequences of charac-
+ters. The only drawback to this approach is of course the
+cost of encoding the text when it is stored, and decoding
+it when it is displayed. Software used to search a
+compressed text will also need to be considerably more
+sophisticated, and some types of retrieval (for example
+fuzzy matches) may not be possible.
+
+The need to categorise tokens implies a need for more
+than one index, thus compounding the size problems.
+Computer-held indexes (like printed ones) are usually
+designed for optimal access by one key and in one order
+only, so indexes must be provided for each category by
+which access is envisioned. Within an index, categorisa-
+tion is necessary as a means of distinguishing say
+‘Birmingham‘ (the city) from ‘Birmingham‘ (the writer).
+
+As well as taking up space, indexes take a lot of time
+to construct, while their maintenance in a dynamic
+system (that is, one to or from which data is continually
+being added or removed) can be very expensive. Adding
+new indexes to a large corpus to reflect requirements not
+originally anticipated is not a task to be undertaken
+lightly. Data enrichment as deﬁned above thus becomes
+quite difficult.
+
+CAFS — a new solution
+
+A radical solution to some of these wearisomely familiar
+problems is to employ special purpose hardware. Data-
+base 'engines‘ have been the subject of much research
+effort over the last few years. but are only now beginning
+to become commercially available. One such system is
+lCL‘s Content Addressable File Store (CAFS).[3] The
+purpose of adding indexes to a text is primarily to
+address it in terms of its content rather than by its
+physical location. The index is simply a map. indicating
+how ‘content‘ (a particular token in a particular cate-
+gory) should be transformed into a series of physical
+addresses. In conventional systems this map reading is
+performed by software. which then initiates the neces-
+sary hardware accesses. CAFS by contrast uses hard-
+ware to identify the content directly, thus doing away
+with the need for any map reading.
+
+The C A F S hardware
+
+Full technical details of the operation of CAFS are
+beyond the scope of this paper: a brief summary may
+however be of interest to those not too intimidated by
+technology.[4]  The CAFS engine comprises four distinct
+processors, represented diagrammatically in Fig. 1
+above. It is an additional component built into all
+standard disc controller units supplied with all ICL
+mainframes running under the VME operating system.
+The same disc controller and the same disc can thus be
+used in CAFS or non-CAFS mode. even from within the
+same piece of software.
+
+The four components of the CAFS engine interact as
+follows:
+
+(a) Logical Format Unit (LFU). This identiﬁes logical
+records and subdivisions of records within the byte
+stream as it is read from the disc. The record
+structure is defined by the user at run time. the
+firmware in the LFU being passed the information
+<cb/>
+<figure>
+<graphic url="1987-cafsNewSolution-fig.png"/>
+Fig. 1 The CAFS engine
+</figure>
+necessary to split up the byte stream before the ﬁrst
+CAFS search is initiated. The structure is deﬁned in
+terms of byte aligned ﬁxed ﬁelds or special ‘Self
+Identifying Format‘ ﬁelds. described further below.
+
+(b) Retrieval Unit (RU). This converts the input byte
+stream into a series of records as they are to be
+passed back to the CPU. Some ﬁelds or SIF types
+may be omitted from the retrieved record. This
+process is carried out simultaneously with the opera-
+tion of the Search Evaluation Unit.
+
+(c) Search Evaluation Unit (SEU). This comprises six-
+teen key channels (KCs) and one Search Evaluation
+processor (SEP). The formatted data is multiplexed
+across the sixteen key channels. each of which is
+loaded with data sufﬁcient to perform a single test
+(e.g. ‘Is there a token of type x with value y'?') and an
+optional mask. The data deﬁning the text is loaded
+in by the user at run time. in the same way as the
+record structure is loaded into the LFU. Each KC
+then signals the outcome of the condition it has
+evaluated to the SEP. This combines the sixteen
+results to determine whether the record is to be
+retrieved or not, using either normal Boolean or
+special ‘quorum' logic. The operation of this unit is
+carefully synchronised with that of the retrieval unit.
+
+(d) Retrieval Processor (RP). This contains a 24 Kb
+buffer store in which hit records can be accumulated
+for some simple arithmetic functions to be per-
+formed on them (e.g. calculation of maxima, total-
+ling etc.). It is also possible at this stage to compare
+the value of two ﬁelds within the same record as a
+further retrieval criterion.
+
+A crucial point about this architecture is that the
+overall data throughput is limited primarily by the speed
+at which the data is read from the disc. This is rather
+better than 2.2 Mb/second on current discs: the through-
+put of the current CAFS engine itself is over 3.5 Mb/
+second. The only component of the system which poten-
+tially interrupts the ﬂow of data is the RP. Since this is
+normally operating on only a small fraction of the data
+processed by the whole unit, the effect of its internal
+buffering is negligible.[5]
+
+CAFS data formats
+
+The CAFS system can recognise and hence process most
+ﬁxed format record structures. Its greatest strength
+however lies in its ability to recognise and process a
+tagged structure known as Self Identifying Format
+(SIF). This format requires that each individual token
+<pb/>
+within a text be tagged, at least with its length and also
+(depending on the variant of SIF in use) with its type.
+Utilities are available to convert between SIF and dis-
+play formats, but where non-standard alphabets, or
+more than very simple tagging schemes, are concerned, it
+is usually necessary to write one’s own conversion
+routines.
+
+Groups containing any number of such tagged tokens
+can be stored in records of arbitrary length, ﬁxed or
+variable, restricted only by the size of the physical blocks
+in which they are stored on disc. During a CAFS search.
+the system can identify tokens of any type or types; a
+search can specify independently the types to be searched
+for and the types to be recovered. It is also possible to
+specify a mask to be applied to each tag as it is
+processed, so that the same tag can function at different
+hierarchic levels. With suitably chosen tags, the CAFS
+unit can thus be instructed (for example) to search for
+any sort of name, a name of some particular type, any
+sort of surname, a surname of some type, a forename
+and so forth. The complexity of the tagging system
+employed is limited only by the length of the tag chosen
+(usually 16 bits of which one is reserved, though 4 or
+even 8 bytes can be used if necessary). SIF is thus a very
+powerful means of solving the categorisation problems
+described above.
+
+In an earlier paper.[6] I have described some applica-
+tions where the ability to distinguish parts of a text by
+their token category has been of major importance. In
+the Shakespearean database which was the ﬁrst major
+application of CAFS at Oxford, the ability to distinguish
+(for example) type font changes was of particular im-
+portance in what was fundamentally an application in
+textual criticism. Similar considerations apply to the
+Bodleian Library’s pre-l920 Catalogue. where it is
+clearly essential that searches for ‘London’ distinguish
+occurrences of that word in the Author ﬁeld from
+occurrences in the Imprint or Title ﬁelds.
+
+For applications where normalisation or other re-
+quirements imply that the form of a token as it appears
+in a search request may differ from its form on display.
+masking may be used to group distinct but related
+tokens. For example. in the same ﬁle tag X10 might be
+used for ‘searchable only’ forms of the token and tag
+X20 for ‘display only’ forms,  tag X30 being used for
+tokens in which the search and display forms are identi-
+cal, and where both forms therefore need not be stored
+in the ﬁle; a search for tokens having the tag X10 after
+application of mask XDF will then check only the
+searchable forms,  but can be made to retrieve only
+displayable forms. It is planned to use this technique as a
+means of making accessible the many words in non-
+Roman alphabets to be found in such texts as the
+Bodleian catalogue.
+
+Where the display format of a text is very different
+from the searchable format, perhaps because it contains
+formatting information intended for use by a document
+processing system, it may be more convenient to main-
+tain two distinct versions of the text, using CAFS to
+search through one to recover hit records, which are then
+displayed from the other. using some internal record key
+to ‘join‘ the two ﬁles. This approach is obviously more
+appropriate where the searchable form of a document is
+<cb/>
+signiﬁcantly smaller than the display format; it has been
+employed in at least one major ofice-automation sys-
+tem[7] and has also been used at Oxford in experimental
+work with the Thesaurus Linguae Graecae corpus.
+
+In this experiment, major works of Xenophon, Homer
+and other Greek authors were each converted to two SIF
+ﬁles, one of which retained all the accents, formatting and
+layout information embedded in the TLC ‘Beta format’
+texts, while the other contained only the unaccented words.
+In each case, the text was split into sentences, each being
+tagged with a unique number. Searches were then per-
+formed on the text of the second (unaccented) ﬁle. but only
+the identifying number of any hit records found was passed
+back to the program. This number was then used to access
+the hit records from the ﬁrst (display format) ﬁle, which
+was indexed by this number.
+
+One important application of tags in a conventional
+system is to indicate structural divisions within a text. The
+SIF tags so far described serve mainly to categorise the
+tokens within structural units deﬁned by other means.
+Fundamentally the CAFS engine cannot extend evaluation
+of a search beyond the boundary of the physical units in
+which data is transferred to and from disc; these units.
+known here as blocks are normally large enough to hold a
+substantial amount of text (6 to 9 Kb being customary).
+Within each block. standard operating system mechanisms
+are used to delimit smaller units (records) of ﬁxed or
+variable length. Normally therefore. the CAFS unit evalu-
+ates a search condition at the end of each record, returning
+all or part of it to the CPU if it satisﬁes the criteria deﬁned
+in the search. The record is thus the basic search and
+retrieval unit as well as the unit of storage. This lack of
+ﬂexibility can to some extent be countered by the use of
+special tags known as trailers.
+
+Up to ﬁfteen different types of trailer can be used in
+SIF text to delimit search and retrieval units which can
+span records (but not blocks). If for example, trailer 8 is
+used to indicate ‘end of paragraph', trailer 6 for ‘end of
+sentence’ and trailer 4 for ‘end of phrase’ in a text in
+which each record contains one sentence, then the CAPS
+unit can be requested to evaluate searches either within
+phrases, returning part of a record, or within para-
+graphs, returning several records.
+
+In one experiment, a ﬁle of several thousand grave-
+stone and other inscriptions from the Protestant Ceme-
+tery at Rome was converted to SIF, using different
+trailers to indicate the end of an inscription and the end
+of line of the inscription. This enabled the user to search
+for word phrases either within the whole of an inscrip-
+tion or within one line of it. A major drawback of this
+approach was found to be the need to repeat positional
+information (stone number. grave number etc.) within
+each trailer-delimited unit. Another drawback is that
+trailers must be distinguished hierarchically; as sug-
+gested above. this may not always be appropriate. e.g.
+for verse-lines and sentences.
+
+CAFS search facilities
+
+The CAFS unit determines whether or not a particular
+record or trailer-delimited fragment is to be returned to
+the CPU by inspecting its content. Up to 15 distinct tests
+can be made. using the 16 key channels of the current
+design.[8] Each test compares a particular data item in the
+<pb/>
+record, or every SIF token of a speciﬁed type, with a
+supplied literal value, returning a ﬂag indicating the
+result of the comparison (GT, LT or EQ). These results
+are then combined using Boolean or quorum logic to
+determine the fate of the whole record. Masks can be
+applied to data items in the same way as to SIF tags,
+thus giving some fuzzy-matching capability. Bits may be
+masked from each byte to give case sensitive or insensi-
+tive matching; bytes may be masked out of string
+comparisons to give an ‘omnibus character‘ effect. To
+achieve elastic matching however it is necessary to
+perform several comparisons. For example (using * to
+stand for any other character, and ? to stand for any
+other character or nothing) the test ‘word eq “?ing“ ' has
+to be expanded into ‘word eq “ing” or word eq “*ing" ’,
+thus using two key channels rather than one. This
+expansion is performed by the software used to drive the
+CAFS unit. Right (but not left) truncation of the search
+term is supported by each key channel. Because all data
+is treated as a stream of bytes, numerical data in ﬂoating
+point or other encoded formats may need special treat-
+ment, as do texts in which multi-byte characters such as
+escape sequences are used.
+
+Each key channel can operate independently of its
+neighbours and also of the ﬁnal outcome of the search.
+This means that distinct counts for the numbers of
+records satisfying several different criteria can be ob-
+tained in one pass through the data, as well as reason-
+ably complex combinations of criteria. The quorum
+processor also provides an unusual way of combining
+criteria: it operates by treating the outcome of each test
+as a ‘vote‘ for the record, summing the ‘votes‘ given. and
+comparing the result with a given threshold to determine
+whether or not a record is to be recovered. Weights can
+be associated with each test independently to make some
+criteria more signiﬁcant than others.
+
+When the search is evaluated, the SEP has no way of
+knowing in what order (or how often) particular criteria
+were satisﬁed by a record. Consequently. searches can-
+not be made for say ‘blind‘ and ‘venetian’ which will
+include references to window coverings but exclude
+disabled Italians. Searches for repetitions of a given
+word within one search unit are also impossible. Such
+requirements can only be met with the assistance of an
+additional software check on the batch of potentially
+relevant records returned by the CAFS unit.
+
+The software package used for interactive retrieval
+from CAFS text ﬁles at Oxford was designed primarily
+to test the facilities of the CAPS hardware. Conse-
+quently it adds very little to the hardware capabilities
+outlined above; in particular, searches for phrases are
+not possible, and the interface requires that the user
+formulate his enquiry in terms of quasi-Boolean expres-
+sions. It has however been used extensively by non-
+computational users without much apparent difﬁculty.
+Applications additional to those described in [6] include a
+third library catalogue, the corpus of ancient Greek texts
+referred to above and the novels of Hardy.
+
+Designing for CAFS
+
+The design of a computer system invariably necessitates
+some horse-trading. If a system is designed for speed of
+<cb/>
+response and indexes are used to achieve this. then it
+will usually be necessary to compromise on the com-
+pleteness of the indexing. Consequently such systems
+tend to offer two classes of access — ﬁrst class (via the
+index) which is rapid, and second class (via a sequential
+search) which is not. By some specious rationale, users
+and designers alike are persuaded that access via the
+words of a title (for example) is less ‘important‘ or less
+‘probable' than access via an author or subject index.
+Yet the whole purpose of using computers is surely
+to surpass manual indexing methods. not to perpetu-
+ate their weaknesses (inlexibility of access methods.
+difﬁculty of update).
+
+The use of CAFS forces the system designer to re-
+evaluate the cost-beneﬁt equation of adding an index to
+a large text. lf the only reason for indexing is to speed up
+access, then an unaided CAFS search will be at least as
+fast as an indexed search. provided that the amount of
+data involved does not exceed some threshold. (The
+exact size of this threshold will depend primarily on the
+rate of delivery of data from the disc and on the rate at
+which the CPU interacts with the user: at OUCS. using a
+heavily loaded 2966 and FD5640 discs, ﬁles of up to
+20 Mb have been searched with response times under a
+minute.) lf however the main reason for adding an index
+is to improve access via keywords not explicitly given in
+the text, the designer should at least consider the option
+of adding the keywords into the text, perhaps using
+different SIF identiﬁers for them. and performing an
+unaided CAFS search.
+
+This does not imply however that indexes have no
+place in a CAFS-based system. On the contrary they are
+essential when the text to be searched is too large for the
+brute force algorithm advocated above. The secondary
+indexes proposed for large text searching systems by
+Carmichael[9] and others[10] are not however quite the
+same as those used in conventional systems. Their
+function is to indicate, not hit records as such, but rather
+those portions of a very large data set in which it is
+worth performing a CAFS scan for hits. The function of
+a CAFS secondary index is simply to provide a ﬁrst level
+reduction of the amount of scanning needed, to the point
+that this can be accomplished within the required re-
+sponse time. Consequently. the resolution of the index
+can be coarse, in terms of both the keywords indexed
+(perhaps just the ﬁrst four or ﬁve characters of the token
+concerned in most languages) and the size of the ‘search
+cell‘ to which the index entries point (a minimum size of
+around 1 Mb).
+
+Search cell size can most easily be adjusted to tune the
+performance of such an index if entries in the index are
+held as ﬁxed length bit maps. If each bit in the map
+corresponds with a given cell, and cell size is to be
+doubled, all that is necessary to update the index is to
+OR together adjacent bit pairs.[11] Bit maps can also
+easily be combined for complex criteria and will also
+contain sufﬁcient information for the system to predict
+with a high degree of accuracy the likely length of a given
+CAFS scan, so that the user can be asked to reﬁne his
+search to an acceptable degree of precision.
+
+Keeping secondary indexes of this nature up to date in
+a dynamic system can pose some problems. though
+considerably fewer than are posed in conventional infor-
+<pb/>
+mation retrieval systems. which tend to close down for
+the weekend when new data is being added. New data
+entering a search cell obviously changes the state of
+several bit maps in a fairly trivial way: it would not be
+impossible to update such an index at the same time as
+the datafile. Deletion of data from a search cell is more
+problematic. It cannot be assumed that the removal of
+a record necessarily implies any alteration in the state
+of the bitmaps which refer to its search cell. Conse-
+quently, in a highly dynamic system. the performance
+of bitmapped indexes of this type will tend to degrade
+over time as the number of ‘false drops‘ increases. The
+only solution to this problem is simply to remake the
+index.
+
+Conclusions
+
+In 1945 Vannevar Bush published a remarkable vision-
+ary paper describing a non-existent machine called a
+‘Memex’.[12] This machine combined in essence all the
+functions which are only now beginning to cohere in the
+new generation of powerful text-processing work sta-
+tions.[13]  It was to be an intelligent word and symbol
+processor, with access to a database of documents and
+concepts, which could be searched and selected from
+associatively in terms of content or topic. The inﬂuence
+of Bush‘s paper has been acknowledged explicitly by
+many researchers in information retrieval and can be
+detected in many promising new developments in text
+processing. Each of the distinct technologies that Bush
+envisaged has been developed and even exceeded, yet no
+Memex has yet been built. In this paper I have attempted
+to summarise some of the more intransigent problems
+that a Memex would have to be capable of dealing with
+in the relatively well understood field of free text search-
+ing. It seems evident that specialised hardware of some
+kind is the only adequate solution to the bulk of these
+problems. At present. ICL's CAFS appears to be the
+most ﬂexible of such systems to be made commercially
+available[14] and l have therefore described in some detail
+its current features and how they may be exploited in
+designing new systems. If the Memex should ever materi-
+alise. it seems more than likely that one of its many
+components will look remarkably like a CAFS engine.
+
+Notes
+
+[1.] For example the two draft proposals before ISO/T C 97/SC
+18 on mark-up languages and document structures.
+
+[2.] Parsing systems such as those of TOSCA which use the
+formalisms borrowed from linguistics to express text-
+structure might form the basis of such a standard.
+
+[3.] ICL's technical publication R30053 Guide to CAPS Ex-
+ploitation (I985) gives detailed technical information.
+
+[4.] Macphail. N. ‘Development of the CAFS—ISP controller
+product for Series 29 and 39 systems' ICL Technical
+Journal. IV no. 4 (I985). pp. 393-401.
+
+[5.] Figures taken from CAFS In Action (ICL CUA CAFS
+Working Party Report. November I985) Section 5.
+
+[6.]  Burnard. L. ‘CAFS and text: the view from academia'
+ICL Technical Journal. IV. no. 4 (I985). pp. 468—482.
+
+[7.] Kay. M. H. ‘TEXTMASTER —— Document ﬁling and
+retrieval using ODA' in Proceedings of the International
+Conference on Text Processing and Document Manipula-
+tion. ed. J. C. van Vliet. (BCS Workshop series. I986).
+
+[8.] These are limitations of the current engine: it seems
+highly probable that when the CAPS device is reengi-
+neered using VLSI techniques. the number of key chan-
+nels will be greatly increased.
+
+[9.] Carmichael. J. W. S. ‘Application of ICL’s CAFS to text
+storage and retrieval‘ in Protext 1: Proceedings of the ﬁrst
+international conference on text processing systems. ed.
+J. J. H. Miller (I984).
+
+[10.] Wiles. P. ‘Using secondary indexes for large CAFS
+databases'  ICL Technical Journal. IV. no. 4 (1985).
+pp. 419—440.
+
+[11.]. Carmichael. loc cit.
+
+[12.] Bush. V. ’As we may think‘ Atlantic Monthly. 176(1945),
+pp. 101—8.
+
+[13.] Rostck. L. and Fischer. D. ‘An author’s workstation
+visions views and aetivities.‘ (Presented at IUCC Infor-
+mation Services Group Conference. Birmingham.l986.)
+
+[14.] A comparable device, originally (and rather misleadingly)
+known as MEMEX is marketed by Gould under the
+name of Hypersearch; it lacks the ability to categorise
+tokens and operates on a compressed form of text. but is
+in other respects similar to CAFS.

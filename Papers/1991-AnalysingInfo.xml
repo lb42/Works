@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Analysing information for database design: an introduction for
+               archaeologists</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>XML version for my archive</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Retagged in XML from old source file</p>
+            <p>Text later published in : <bibl><date>1991</date><title>Analysing information for
+                     database design: an introduction for archaeologists</title><title>Computing for
+                     Archaeologists</title> eds. J. Moffett and S.Ross. (Oxford Committee for
+                  Archaeology, Monograph no 18) </bibl></p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2014-10-06">Initial conversion; added header</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart>Analysing information for database design: an introduction for
+               archaeologists</titlePart>
+         </docTitle>
+         <docAuthor> Lou Burnard Oxford University Computing Service </docAuthor>
+      </front>
+      <body>
+         <p> The business of archaelogy is the preservation and dissemination of information.
+            Information is produced as a consequence of the archaelogist's interpretation of a given
+            set of artefacts: it might thus be described as a recoding of pre-existing information
+            encoded in the material products of particular cultures [Gardin 1980]. This description
+            places the analysis of `primary' archaeological information on a par with `secondary'
+            information such as the catalogues, publications, card indexes, descriptive notes,
+            jottings, scholarly disputation, vague recollections and personal opinions which
+            together constitute the history of informed assessment of those objects. As such it
+            approximates as much to historiography as to history. </p>
+         <p>Of all the technologies which have so far been developed for the recording and analysis
+            of information in this broader sense, few approach the computer both for efficiency and
+            economy of storage and for sophistication of analytic techniques. Earlier descriptions
+            of computer applications in archaeology (for example, [Gaines 1981] [Richards 1985])
+            have tended to lay more stress on the former than the latter, understandably in that
+            their development has been a phenomenon of the last ten years only. This paper will
+            attempt to describe techniques of information analysis now widely used as a precursor to
+            detailed computer database design, emphasising their general utility as a means of
+            clarifying information handling problems and showing how these techniques can be used to
+            design simple but powerful database systems. </p>
+         <p>Computerisation should not be used as a pretext for the introduction of further arcane
+            mystification into a situation already over-loaded with specialist knowledge. Its
+            greatest virtue is the opportunity it gives for an escape from existing preconceptions
+            and from the design constraints inherent in pre- electronic systems. Existing manual
+            methods do not encourage the sharing of information, nor readily lend themselves to the
+            sort of multiple access paths taken for granted by the experienced computer database
+            user. When converting such systems to electronic form therefore, it is all the more
+            important that such constraints should not be perpetuated in a new and more insidious
+            form, by requiring of the user (for example) a detailed knowledge of the mechanics of a
+            particular computer's filing system before permitting access to the information it
+            contains. Neither should the computerised system simply mimic the manual system it was
+            designed to replace. The manual system was a means to an end, not an end in itself. </p>
+         <p>Fortunately archaeologists are not alone in their need to analyse and process large
+            amounts of complex information. The tools and techniques developed to assist business
+            and government in analysing the structure of their information independently of its
+            processing are sufficiently powerful and of sufficiently general applicability to cater
+            for many more application areas than those for which they were originally intended.
+            Database design, above all, involves general-purpose problem solving techniques, of
+            equal usefulness whether you are trying to make sense of an archaelogical excavation, a
+            set of historical manuscripts or a killing on the stock exchange. They are also equally
+            applicable to the recording of a tissue of interpretations and opinions. </p>
+         <p>The key to effective design, of any type, is abstraction. In the context of information
+            systems, what has to be abstracted is a structure representing the information content
+            of the system: that is, the real world entities and the relationships between them which
+            will eventually be represented by particular data structures or processes. This
+            representation of reality is often known as a {conceptual model}. Its definition is of
+            crucial importance in the process of database design, although it is entirely
+            independent of any particular database system. The process of defining has been
+            dignified with the name of {conceptual analysis}. </p>
+         <p>`Conceptual analysis is the work of philosophers, lawyers, lexicographers, systems
+            analysts and database administrators.' [Sowa 1984] Its result is best thought of as a
+            conveniently neutral meeting place for the end-user of a database system and the
+            database designer to articulate their common concerns. Most `user-unfriendly' systems
+            are the way they are as a result of a very human tendency to think of
+            information-modelling problems in terms of some notion of the way a computer might
+            represent them. Even for the simplest of systems, the construction of a conceptual model
+            enforces the discipline of considering a problem on its own terms. </p>
+         <p>The method of conceptual modelling advocated here is by no means the only one possible;
+            it is however that which has found widest acceptance within the data processing
+            community, if only for its simplicity. This approach requires that the information to be
+            modelled be represented in terms of {entities } which are said to have {attributes} and
+            {relationships}. Two important characteristics distinguish it from other methods of
+            analysis: firstly that the distinction between attributes and entities greatly
+            simplifies the process of design (if only because the number of items which need to be
+            considered or modelled is drastically reduced) and secondly that the use of
+            relationships to model semantic information greatly extends its general applicability. </p>
+         <p>Precisely because a conceptual model is intended to reflect an interpretation, (or set
+            of interpretations), it is particularly crucial to establish at the outset the framework
+            within which the model is intended to be used; this is sometimes rather grandly termed
+            the {Universe of Discourse}. The universe of discourse of a model concerning bronze axes
+            will differ considerably (though not entirely) from that of one concerning 19th century
+            paintings. Obviously the two will involve different attributes and entities (the makers
+            of bronze axes generally do not sign their works); they will also often attach different
+            significance to similarly- named attributes (the weight of an axe is probably more
+            significant than the weight of a painting). Even when the same attributes are involved,
+            it is possible that different information will be required in different contexts: for
+            example, in a Universe of Discourse concerned with storage or transport of museum
+            objects, all bronze objects less than a certain size might be classed together
+            irrespective of their typology; in an art- historical context the same objects might be
+            regarded as distinct entities, depending on their (presumed) function or provenance. A
+            model constructed for one purpose will not be appropriate for the other. (For a detailed
+            examination of the definitional problems inherent in conceptual analysis, see [Kent
+            1978].) </p>
+         <p>Having established the context within which it is meaningful to apply the model, it
+            remains only to construct it. This is an essentially iterative and non-determininistic
+            process of abstraction, which may be performed in two directions - top-down or
+            bottom-up: that is, by identifying attributes and grouping them into entities, or by
+            identifying entities and their constituent attributes. In practise, both approaches are
+            usually equally necessary. </p>
+         <p>An entity is usually defined as an object existing in the real world, about which
+            information is to be held: for example, an artefact, an excavation, a stratigraphic
+            context, a pottery fabric. Each distinct category of the information held about a
+            particular entity is regarded as an attribute of that entity: for example, the type,
+            weight or material composition of an artefact, the date, location or director of an
+            excavation, the name, details and site of a stratigraphic context, the name, definition
+            and date range of a pottery fabric. </p>
+         <p>It is important to note that attributes are the most elementary items in this taxonomy
+            and cannot therefore be sub-divided. An attribute should not be used to group different
+            but related pieces of information. If, for example, artefacts have been given excavation
+            numbers of which the first two digits indicate the year of their excavation, these
+            numbers should be treated as two distinct attributes. Information about the date of an
+            excavation may show up elsewhere in the course of the analysis (in which case it is
+            redundant here), or it may not (in which case it might otherwise be lost). Equally, an
+            attribute cannot contain multiple occurrences of the same sort of information. If, for
+            example, full details of the material composition of an artefact are to be recorded, it
+            is probable that several different material types will need to be recorded for a given
+            artefact. Rather than a multi-valued attribute `material-type', it would normally be
+            preferable to define `Material' as an entity in its own right. </p>
+         <p> Additional entities (sometimes known as {link entities}) may also be necessary to avoid
+            infringement of the rule that an attribute may not itself have attributes: should we
+            wish to record the exact proportion of an artefact's mass which is composed of some
+            material, a further entity (`Material-in-artefact' or `Composition') will be necessary.
+            Link entities are further discussed below. </p>
+         <p>There are two distinct types of attributes: {identifying} attributes and {descriptive}
+            attributes. The former can be used to distinguish and identify individual occurrences of
+            an entity type, whereas the latter simply describe particular occurrences. For example,
+            an artefact's Find-Number might uniquely distinguish it from all other artefacts,
+            whereas its weight or material composition might be the same as those of many others.
+            Sometimes artificial attributes such as serial numbers may be necessary to provide
+            unique identifiers for particular entities; more frequently however, some identifying
+            attribute such as the find number, an acronym, or a set of geographical co-ordinates
+            will be found ready for use in the real world. Often a number of different identifying
+            attributes may be found (for example, Find- Number, Inventory-Number,
+            Conservation-Number, Publication- Number...) A useful test is to determine whether or
+            not every occurrence of the entity concerned necessarily has such an attribute. If it
+            does, the attribute may be redundant as an identifier. If it does not, then the
+            candidate attribute should probably be considered as an attribute of some other entity,
+            such as `Inventory-Entry' `Conservation-Episode' or `Published- Reference', for example. </p>
+         <p>Distinguishing the two types of attributes can also be helpful in deciding whether to
+            classify a particular piece of information as attribute or as entity: entities can have
+            descriptive attributes, while attributes cannot. One reason for wishing to treat
+            Material as an entity rather than as an attribute of Composition would be the existence
+            of descriptive attributes such as specific gravity or chemical properties which relate
+            to the Material itself rather than to a particular mass of it found in some entity. </p>
+         <p> Every attribute is said to have a {Domain}, which defines the range of values or states
+            meaningful for that attribute. For example, the labels used for Contexts or Fabrics
+            might be drawn from a pre-determined set of codes, a date of acquisition must be either
+            null (unknown) or a valid date, and so forth. Identifying a domain has two purposes:
+            firstly it helps indicate where the same attribute has been given different names (for
+            example, `stratigraphic context' might be called 'find-context' as an attribute of an
+            artefact or 'strata' as an attribute of an excavation); secondly it draws attention to
+            the existence of entities and relationships which may have been overlooked. For example,
+            recognising that the domain of meaningful personal names applies both to
+            Excavation-Directors and Collection-Owners might lead to the conclusion that an
+            Excavator or Collector is of little relevance except as descriptive attributes providing
+            some additional information about an excavation or collection respectively. If however
+            our Universe of Discourse was particularly concerned with historical or social changes
+            in the role of the archaeologist, we would almost certainly wish to identify a Person
+            entity, one of the attributes of which would be Name. The association between a given
+            Person and one or more Excavations or Collections would then be represented by a
+            relationship, as discussed further below. </p>
+         <p>A relationship is a meaningful association between entity types. For example an Artefact
+            may meaningfully be associated with the Context in which it was found, an
+            Inventory-Entry with an Inventory to which it belongs and so on. Such associations can
+            often be expressed in two different ways in English: for example, the relationship
+            between Artefact and Context might be expressed as `provenance' from one perspective,
+            and `spoils' from another. A relationship in this model simply expresses the fact that
+            artefacts and excavations may be grouped together in some way, with no implication about
+            the particular meaning to be attached to the resulting groups. </p>
+         <p>When considering relationships, three characteristics need to be defined; these I refer
+            to as the degree, the cardinality and the optionality of the relationship. </p>
+         <p>The {degree} of a relationship defines the number of entity types involved. Unary or
+            reflexive relationships involve one entity type only. We might for example define a
+            relationship Copy_of associating one instance of an Artefact with another. Binary
+            relationships involve two entity types only and are by far the most frequent (if only
+            because other degrees of relationship can usually be re-expressed as relationships of
+            degree 2), and are the only ones discussed in this paper (for a detailed discussion of
+            this point see e.g. [Teorey 1986]). </p>
+         <p>The {cardinality} of a relationship defines how many entity occurrences may participate
+            at either end of the relationship; its {optionality} defines whether or not
+            participation in the relationship is a necessary condition for the existence of an
+            entity occurrence. The cardinality of a relationship is said to be one-to-many if one
+            instance of an entity may be meaningfully associated with many instances of another
+            entity type. For example, an Artefact may be associated with only one Context, but many
+            Artefacts will be associated with a given Context. The optionality of a relationship is
+            also considered at either end: a Context might exist without being associated with an
+            Artefact (if for example no artefacts have been discovered in it) but an Artefact may
+            not exist without being associated with the Context in which it was found. These rules
+            are of course determined by (and to a large extent determining of) the Universe of
+            Discourse. </p>
+         <p> The cardinality of a relationship is said to be many-to-many if more than one instance
+            of an entity may be involved at either end of the relationship. For example, we might
+            identify a many-to- many relationship between entities Artefact and Culture. A given
+            Artefact may have been considered as a product of several different Cultures at
+            different times by different people with different degrees of certainty, while
+            (evidently) a particular Culture will have been held responsible for many different
+            artefacts. It is usually possible to resolve such many-to-many relationships into a pair
+            of one-to-many relationships and a linking entity. A closer examination will usually
+            reveal some information associated with the relationship itself: for example,
+            Date_associated, Associator, Cause_of_association, Reliability in this case. These are
+            clearly attributes neither of the Culture nor of the Artefact; their presence indicates
+            the need for a third entity, called Association. </p>
+         <p>A convenient and conventional way of representing the structure of a conceptual model is
+            by a graph such as figure 1, in which some of the entity types discussed so far are
+            represented by labelled nodes, and the relationships by arcs joining them. A variety of
+            conventions are used to represent the latter: in figure 1 I have represented cardinality
+            by a crows-foot symbol at the `many' end of a relationship and optionality by a dotted
+            line at the optional end. Although they are not directly represented in the graph, a
+            full list of the attributes associated with each entity should also be produced, giving
+            a domain for each and indicating whether or not it is an identifier. </p>
+         <p>The universe of discourse represented by a conceptual model such as figure 1 makes
+            explicit a great deal of real world information, and should be rigorously tested. It
+            should be possible to express any meaningful question about the information it contains
+            as a traversal of the network. Figure 1 for example will support such questions as
+            `Which of the artefacts inventorised in 1956 come from excavations carried out before
+            1800?' or `In what stratigraphic contexts have artefacts composed of at least 50%
+            ferrous metals been found?' as well as more mundane requirements such as listing all
+            florid cruciform brooches from East Anglian contexts together with their contextual
+            details, or all materials used in the composition of artefacts inventorised at a certain
+            place. It will not however answer such questions as `Which artefacts have been loaned to
+            a given exhibition?', `Which excavations did not result in the discovery of any
+            artefacts?' or `Which bronze artefacts have been conserved with a particular chemical or
+            method?' since these involve relationships and entities not represented in the model.
+            The model can thus also be seen as a useful tool in helping us understand how a given
+            collection of data can meaningfully be interpreted. </p>
+         <p>The next and technically most demanding stage in creating a database is to consider how
+            the information structure described by the conceptual model should be represented by a
+            particular software package. This will necessarily involve a detailed examination of
+            many other matters not touched on here. To what uses will the system be put? What kinds
+            of program are required? How often and in what manner are new data items created or
+            modified? How many people will need to use the system and what will their pattern of use
+            be? In most research applications, this aspect of database design, loosely known as
+            functional analysis, is very difficult to carry out in advance; for that reason, it is
+            important to ensure that the database system chosen is of great flexibility, offering a
+            full range of re-organising, tuning and re-structuring facilities. The same conceptual
+            model may give rise to any number of different experimental data models, each designed
+            with different ends in view; the ability simply to reconfigure and redesign database
+            systems is therefore essential. </p>
+         <p>It is equally important that representing the basic constructs of the conceptual model
+            by the basic constructs of the software chosen should be a clearly defined and well
+            understood process. Only if this is the case can users of the new system be reasonably
+            confident that it will accurately support the Universe of Discourse identified by the
+            conceptual model. Fortunately there now exist a variety of general purpose software
+            tools, generically described as { relational database management systems}, which meet
+            both of these requirements. </p>
+         <p>In a relational database, data is organised as a number of {tables}, each consisting of
+            an indeterminate number of identically structured {rows}. Each row of a particular table
+            contains the same, pre-defined, set of { columns}. Each column contains a single,
+            atomic, data item. Relational tables and columns are thus very similar to the entities
+            and attributes of the conceptual model. </p>
+         <p>The relational data model also requires that there should be some column (or group of
+            columns) for every table, the values in which uniquely identify the row in which they
+            appear: this is known as the { primary key} of the table. Such columns clearly
+            correspond with the `identifying attributes' discussed earlier. </p>
+         <p>Unlike earlier types of database system, relational systems do not process anything
+            other than data held as tables. There are no pointer chains or hierarchies to maintain.
+            Relationships therefore must also be represented explicitly by data, as we shall see.
+            All operations in a relational system are carried out on, and result in tables. As well
+            as the the ability to add or remove table definitions and contents, and alter the
+            structure or contents of existing tables, relational database languages support three
+            primitive relational operations: { select}, which extracts a subset of the rows in a
+            table using some procedure that can be evaluated against each row in isolation; {
+            project}, which extracts a subset of the columns in a table eliminating any duplicate
+            rows; and { join}, which combines two tables to form a third by means of some shared
+            column. It has been demonstrated that these operations are sufficient for the
+            construction of a complete relational algebra and that languages (such as IBM's SQL)
+            which implement them are therefore mathematically complete. </p>
+         <p>Referring to figure 2, it should be easy to see how, for example, the `Select' operation
+            might be used on the Artefact table to produce a table containing only Artefacts of type
+            `axe' and weight less than 500 grams; in the same way, the `Project' operation would be
+            used to determine all the different types into which Artefacts have been categorised.
+            The `Join' operation might be used to combine columns from the Artefact table with
+            columns from the Inventory-Entry table, using equality of Artefact number (which is
+            present in both tables) as the criterion for determining which rows can be combined. The
+            resulting table (figure 3) will contain one row for every time an artefact has been
+            inventorised, and can in turn be the subject of further select, project or join
+            operations. For example, a selection might be performed to extract only the rows
+            concerning inventory-entries relating to a particular storage place or before a certain
+            date. A projection might be used to determine at what different locations an object has
+            been kept. Joining tables in this way is the natural way to express the relationships of
+            the conceptual model; the join just described represents the relationship between
+            Artefact and Inventory-Entry. </p>
+         <p>Note that although Artefact number appears as a column in both Artefact and
+            Inventory-entry tables, in only one of these (Artefact) does it function as a primary
+            key: in conceptual terms, it is an identifying attribute of the Artefact entity. The
+            Artefact number column in the Inventory-entry table does not contain unique values;
+            objects which have been inventorised more than once (Artefact number 12 for instance)
+            will have more than one entry in this table, while objects that have not been
+            inventorised (number 13 for example) do not appear in it at all. In the Inventory-entry
+            table the Artefact number column is called a { foreign key}, because its values match
+            (i.e. are drawn from the same domain as) those of the primary key of another table, the
+            Artefact table. Because the Artefact number is sufficient to identify any row in this
+            table it may be used to stand for the whole row. </p>
+         <p>Any relationship in the conceptual model can be represented by a relational join between
+            primary and foreign keys. All that is necessary is to identify some attribute which can
+            act as a foreign key in the table corresponding with the entity at the `many' end of the
+            relationship. Usually this will be the primary key of the table corresponding with the
+            entity at the `one' end of the relationship. For example, the relationship between a
+            Context and an Artefact is represented by incorporating the Context-tag (which uniquely
+            identifies rows in the Excavation table) as a foreign key in the Artefact table. </p>
+         <p>Any pair of suitable columns can be used to perform a join, which is one of the
+            characteristics that makes relational database systems so flexible. As a further
+            example, suppose we wish to test the hypothesis that there is some connexion between the
+            weight of surviving artefacts and the type of geological context in which they were
+            found. We need only join the Context and Artefact table on the Context-tag column to can
+            combine information about a context (geological information for example) with
+            information about the artefacts found in it (weight for example), as shown in figure 5. </p>
+         <p>An important principle of relational theory, known as {referential integrity} states
+            that, if a column is defined to be a foreign key, then every value in that column must
+            either be null (undefined) or must exist as a primary key in the related table. Whether
+            or not the value can be null will depend on the optionality of the relationship which is
+            being represented in this way. Obviously, an artefact number appearing in the
+            Inventory-entry table must identify an Artefact that already exists in the Artefact
+            table. Furthermore, because the relationship is marked as non-optional (at the
+            Inventory-entry end), the Artefact number column of the Inventory-entry table may not
+            take null values. In this way, the optionality constraint of relationships in the
+            conceptual model can also be expressed in the relational model. </p>
+         <p>Unary relationships can be represented in the same way as binary ones; the fact that the
+            relevant foreign and primary keys are present in the same table should make little
+            difference. For example, we could express the relationship Copy_of between one Artefact
+            and another, simply by including an Original_no column in the Artefact table, the values
+            of which would be drawn from the same domain as that of the Artefact number column, but
+            which would be null in the case of objects which were not copies. </p>
+         <p>Representing the conceptual model by relational tables should thus be a fairly
+            straightforward process. A number of procedures, ranging from rules of thumb to complex
+            mathematical decision trees, have been proposed as aids in determining which tables
+            should be used to represent which entities in the conceptual model. The technique
+            usually advocated, known as {normalisation}, is discussed in some detail in the paper by
+            Smith in the present volume. It is a more or less mechanical procedure, much of which
+            will have already been carried out in an accurately defined conceptual model. </p>
+         <p>As an example of the kind of process involved, consider the Context Table as shown in
+            Figure 4. This is not fully normalised because it contains one column (Site) which is
+            {functionally dependent} on another (City). In simple terms, this means that for any
+            given value of Site, the value of City will always be the same. Strict relational theory
+            would require that this unchanging association between (say) `Brook St' and `London' be
+            represented not (as here) in the Context table, but in a distinct Site table, containing
+            one row for each site, each with own identifier that could be used to replace both
+            `Site' and `City' columns in the Context table. </p>
+         <p>Aside from theoretical considerations, normalising the data in this way has clear
+            advantages with respect to space usage and enforcing consistency or referential
+            integrity. If more than one table needs to record that `Brook Street' is in `London', a
+            separate Site table will always be the right approach. On the other hand, strict
+            adherence to the tenets of normalisation can lead to an unnecessarily large number of
+            different tables, thus in turn leading to performance degradation. One simple rule of
+            thumb is to require that each table contain at least one useful descriptive column in
+            addition to its identifier; if it contains only an identifier, which appears also as a
+            foreign key in one other table, there is nothing to be gained by representing it as a
+            table in its own right; if it contains only an identifier, which appears as a foreign
+            key in several tables, it may be useful as a means of checking referential integrity,
+            but is otherwise unnecessary. </p>
+         <p>This paper has attempted to stress the importance of the conceptual model as a first
+            step in attempting to resolve the information handling problems we have inherited from
+            pre- electronic technologies and the infrastructures which have developed around them. I
+            have not attempted to give complete solutions but rather to emphasize the general
+            usefulness of the techniques proposed here, which offer an essentially neutral mechanism
+            for the expression of an organisation's information needs, quite independent of both
+            existing manual systems and proposed electronic ones. </p>
+         <p>More detailed information on relational database systems in general is provided by a
+            growing number of textbooks, see for example [Alagic 1986, Date 1981, Date 1986, Jones
+            1986]. A useful annotated bibliography is [Agosti 1986]. There is also an increasing
+            number of introductory works aimed at the general rather than the specialist reader,
+            [Oxborrow 1986, Date 1984]. For a recent statement of the virtues of the
+            entity-relationship approach to data modelling which I have found particularly helpful,
+            and which also includes a useful bibliography, see [Teorey 1986]. For a more detailed
+            description of some systems actually designed in the way proposed here, see [Burnard
+            1987]. </p>
+         <p>Goettingen, October 28, 1987</p>
+         <p>Revised, Oxford April 1988 </p>
+      </body>
+      <back>
+         <div> <listBibl>
+             <head>{Bibliography}</head>
+             
+            <bibl>{Agosti, M.} Database design: an annotated bibliography, Cambridge, 1986. </bibl>
+            <bibl>{Alagic, F. }Relational database technology, Berlin, 1986. </bibl>
+            <bibl>{Burnard, L.} `Database or knowledgebase?' {in} Raben, J. Sugita, S and Kubo,
+               M.(eds) Toward a Computer Ethnology (Senri Ethnological Studies 20), Osaka, 1987. </bibl>
+            <bibl>{Date, C.J. }Introduction to Database systems, Reading (Mass), 1981. </bibl>
+            <bibl>{Date, C.J.} A Database Primer, Reading (Mass), 1984. </bibl>
+            <bibl>{Date, C.J.} Relational database: selected writings, Reading (Mass), 1986. </bibl>
+            <bibl>{Gaines, Sylvia W.} Data bank applications in archaeology, Tuczon (Az), 1981. </bibl>
+            <bibl>{Gardin, J.-C. } Archaeological constructs, Cambridge, 1980. </bibl><bibl>{Jones, J.A.}
+               Databases in theory and practice, London, 1986. </bibl>
+            <bibl>{Kent, W.} Data and reality, New York, 1978. </bibl>
+            <bibl>{Oxborrow, E.} Databases and database systems, London, 1986. </bibl>
+            <bibl>{Richards, J.D. and N.S. Ryan.} Data processing in archaeology, Cambridge, 1985. </bibl>
+            <bibl>{Sowa, J.F.} Conceptual structures, Reading (Mass), 1984. </bibl>
+            <bibl>{Teorey, F. et al} `A logical design methodology for relational databases using
+               the extended entity-relationship model' ACM Computing Surveys vol 18 2 (June 1986) pp
+               197-222 </bibl>
+         </listBibl></div>
+      </back>
+   </text>
+   <!--
+Figure 1>
+
+          
+                      MATERIAL
+
+
+
+
+                      COMPOSITION              
+               
+
+
+
+  CULTURE                ARTEFACT                 CONTEXT
+
+
+
+                      
+
+                      INVENTORY-ENTRY
+
+
+
+                         
+          
+
+<figure2>
+
+Artefact Table
+Number    Weight    Type      Context-tag 
+12        456       axe       LEC592
+75        67        cup       LEC189 
+13        432       beaker    LEC592
+101       2400      sword     LEC593
+102       1200      dagger    LEQ67J
+
+Inventory-Entry Table 
+Artefact-no    Stored-at           Date      
+12             Case C Shelf 2      1983      
+12             BM Viking Exhibn    1986      
+101            bank vault          1955      
+102            Case C shelf 2      1984      
+
+
+<figure3>
+
+Inventorised Artefacts Table 
+
+Number    Weight    Type      Context   Stored_at           Date
+12        456       axe       LEC592    Case C Shelf 2      1983
+12        456       axe       LEC592    BM Viking Exhibn    1986
+101       2400      sword     LEC593    bank vault          1955
+102       1200      dagger    LEQ67J    Case C Shelf 2      1984
+     
+
+
+<figure4>
+
+Context table
+Tag       Description              Site      City      
+LEC592    Brown sandy loam         Brook St  London
+LEC593    Yellowish clay           Brook St  London
+L67Q68    Yellowish clay           Strand    London
+LEQ189    Brown sandy loam         Brook St  London
+
+
+<figure 5>
+
+Description              Weight
+Brown sandy loam         456
+Yellowish clay           2400
+Brown sandy loam         57
+
+
+
+           - - - - - - - -CONCLUSION OF THE FOREGOING- - - - - -
+     - -
+-->
+</TEI>

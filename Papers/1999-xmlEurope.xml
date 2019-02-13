@@ -1,0 +1,296 @@
+<?xml version="1.0"?>
+<!-- europe99: the wrap-->
+<!--?xml-stylesheet href="teixlite.css" type="text/css"?-->
+<!-- DOCTYPE TEI.2 PUBLIC "-//TEI//DTD TEI Lite 1.0x//EN" "teixlite.dtd"-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+	 <fileDesc>
+		<titleStmt>
+		  <title>XML: the dream and the reality</title>
+		  <author>Lou Burnard</author>
+		</titleStmt>
+		<publicationStmt>
+		  <p>Distributed by the author</p>
+		</publicationStmt>
+		<sourceDesc>
+		  <p>Derived from the closing plenary address given at the XML Europe 99
+			 conference, held in Granada, May 1999.</p>
+		</sourceDesc>
+	 </fileDesc>
+	 <revisionDesc>
+		<list>
+		  <item>
+			 <date>22 Jun 1999</date>First draft</item>
+		</list>
+	 </revisionDesc>
+  </teiHeader>
+  <text>
+	 <body>
+	 <head>XML: the dream and the reality</head>
+	 <head>Closing Plenary Address at XML99, Granada, May 1999</head>
+	 <div type="foo">
+	 <head>Introduction</head>
+	 <p>Only the Brits in the audience (and maybe not all of them) will
+		appreciate why I feel like Swiss Tony, standing here. Because, you know, coming
+		to a conference like this really <emph>is</emph>a bit like making love to a
+		beautiful woman. On day one, everything is new and wonderful: her laugh, the
+		way she does her hair, that special dress sense of hers, the way she wants to
+		get to know all about you: there's dancing on the rooftops and permanent
+		sunshine. That's day one. On day two, you're starting to feel at home: you know
+		how to make her laugh, you recognise her favourite outfits, she understands
+		your jokes: you recognise the gurus, and the learners; maybe they've got your
+		number too; you're beginning to see how it all fits together. And that's day
+		two. But then comes day three and her giggle is beginning to get on your
+		nerves; she finishes your sentences for you; you wish she'd dress her age...
+		there are people whose eyes you now know to avoid, and maybe you've sucked this
+		experience dry, at the end of the third day. </p>
+	 <p>But this is a four day conference! And that's why I'm here to remind you
+		why you came, what the dream was, and maybe to revive it. </p>
+	 </div>
+	 <div>
+	 <head>The dream story</head>
+	 <p>Let me start by reminding you about the SGML dream. It had three chief
+		ingredients: 
+		<list>
+		  <item>the ability to share data between applications </item>
+		  <item>the ability to regain and retain control of our data</item>
+		  <item>and, putting those together, the ability to proceed towards a
+			 seamless integration of data resources, in a new kind of processing
+			 interlingua, a digital demotic.</item>
+		</list></p>
+	 <p>But the way was hard, and the path was only for the upright in spirit
+		until round about 1994 or 1995, when something rather unusual happened to an
+		obscure experiment in scientific documentation methods at a well known European
+		Research Centre in Switzerland, and then before anyone quite understood what
+		was happening, we were all suddenly ensnared in a world wide web.</p>
+	 <p>I think it took a while for people to realise what this meant: for
+		example, at the last SGML Europe conference I attended in Munich, in 1996, the
+		key events were not the decision (taken a year earlier) to open up the internet
+		to commercial competition, not the publication of HTML 3.2, but rather the
+		publication of DSSSL; and some reorganization and realignment of various
+		competing areas of HyTime and DSSSL activities, notably the definition of the
+		Standard Document Query Language and of the HyTime "general facilities" (aka
+		the useful bits: architectural forms, property sets, groves, formal system
+		identifiers etc).</p>
+	 <p>The web was mentioned of course, but am I alone in remembering that
+		there seems to have been a little reluctance invite this bad-mannered grubby
+		infant into the parlour? My visit report on the conference (see http:) quotes
+		Goldfarb's announcement of a "Purity Test" for so-called SGML-conformant
+		application and also remarks: 
+		<q>When titans meet, Dr Goldfarb opined, one should find another field --
+		  sound advice, with reference to web browser wars, but perhaps rather defeatist
+		  for those of us who think that the SGML community might have something to learn
+		  from the runaway success of the web.</q></p>
+	 <p>But then along came XML and the world changed forever. Of course, we all
+		know that XML has exactly the same goals as SGML: that's why it's such a great
+		way of re-purposing old SGML talks and training materials. And its
+		establishment followed a similar kind of mechanism (I sometimes wonder to what
+		extent the standardization processes now in place within the W3C were
+		influenced by the ISO procedures which were regarded as anathema by at least
+		some of the early heroic age of webheads). The <emph>really</emph>big
+		difference between HTML and XML was that the former was only retrospectively an
+		SGML application, whereas XML was to be driven, from the start, by true SGML
+		believers, and this time, this time, they were going to get it <emph>right.
+		</emph></p>
+	 <p>Even so, there was a slight but highly significant refocussing of
+		objectives for the XML effort. Its original goal was simply to enable the
+		delivery of SGML over the web. But in achieving this goal, almost accidentally,
+		Bosak's Boys and Girls found themselves refocussing the whole of web
+		development: effectively rewriting the rules of the game by adding intelligence
+		to data. And this time, this time, it worked! </p>
+	 <p>But can you touch pitch and not be defiled? In 1997, Jon warned us to be
+		ready for the big time: history since then has shown with what accuracy he at
+		least foresaw what was coming. I'd like to ask the question "who are we?" Is
+		there still such as thing as the SGML (or XML) community? I don't know how to
+		answer the question, but it needs to be asked, if only because it makes us ask
+		another difficult question: what makes a community anyway? Communities are
+		defined positively in a number of ways -- by sharing common goals, a common
+		language, or some shared experience. And they are also, very effectively
+		defined, by having a common enemy. Listening to the speakers at "our"
+		conference, I have found myself wondering to what extent we do constitute a
+		community.</p>
+	 <p>For some of our speakers it seems that the goals of XML are business as
+		usual: using XML, it has been said, will confer three benefits: 
+		<list>
+		  <item>reduce production time</item>
+		  <item>reduce time to market</item>
+		  <item>and improve quality</item>
+		</list>all of which sounds fine, until you start wondering whether the
+		points really should be placed in that order of priority. </p>
+	 <p>For others, I think there's a different agenda. After all, XML is not
+		just about exchanging data between machines. It's also about communication
+		between humans. XML is not just about the web. It's about information in
+		general. XML is not just about technology. It's also about the social and
+		political relationship between content creators and software vendors. </p>
+	 <p>As I said earlier, there is a key part of the SGML dream which has to do
+		with user ownership of content, and that is something which the social agenda
+		of XML has inherited. By enabling, in a practical and visible way, the elusive
+		freedom from proprietary data formats, vendor neutrality, platform neutrality,
+		and language neutrality, to which all Open systems vendors give lip service,
+		XML has brought back on to the agenda some rather interesting and important
+		economic and political considerations. </p>
+	 <p>Jon Bosak has pointed out that, if realised, the dream-team combination
+		combination of XML and XSL could easily replace all existing word-processing
+		and publishing formats. And even if you share Michael Leventhal's views on XSL,
+		or if you just think that XSL remains a good idea whose time has already been
+		and gone, it remains clear that some combination of XML, the DOM, and XQL is
+		already making several current database systems look to their laurels. </p>
+	 <p>This kind of change, the practical liberation of users from a
+		combination of proprietary formats, should mean an end to domination of the
+		market by a few big companies, and an end to domination of the market by a few
+		big countries. What can prevent that? Clearly companies whose business models
+		have been built on control through proprietary formats can be expected to
+		resist this, and we, the XML evangelists, must be ready to persuade them to
+		rethink those models, using a language that makes business sense. But what
+		shall we say to the users who are quite content to accept that domination?</p>
+	 <p>There is a problem here: to say that the XML agenda is one of
+		user-empowerment is easy enough. But empowerment is not so easily achieved.
+		It's not unusual to encounter significant resistance to the idea that the user
+		should be able to take control from users themselves: empowerment is not quite
+		such an easy sell when your clientele really wants a completely packaged
+		solution. That's why the production of cheap and easily customised tools should
+		be given a much higher priority within our community: only with tools that
+		offer the full power of XML to the mass market will that market be able to
+		develop. We should question marketing factoids about the need to dumb down our
+		software. Software for the mass audience doesn't have to be feature and
+		complexity free: you heard it here first.</p>
+	 <p>Among the many insights I gained at this conference was a possible
+		answer to a question which has been bothering me for a long time: why exactly
+		is it that SGML and XML have not been universally taken up as the technologies
+		of choice for the digital library? After all, librarians have been trying to
+		set information free from proprietary forms (that's books, to you and me) for
+		centuries; they were the first (some might say the best) infomediaries, and the
+		first to develop really powerful platform-independent metadata repositories
+		which could communicate in a reliable way. (that's catalogues and interlibrary
+		loan to you and me). So why do all librarians swear by (and occasionally at)
+		the decidedly non-standard MARC standard, developed in the 1970s, and
+		vigorously maintained ever since rather than migrate to more modern interchange
+		formats? The answer, of course, is that the conversion-cost is simply not
+		warranted once you have a tool that does the job -- however unfashionably. What
+		benefit is there in "going-XML" for the librarian who has already made massive
+		investment in a well tested and debugged solution to the same problems? Only by
+		focussing on the value-added, on areas where solutions don't already exist,
+		will XML will make its case: as witness the fact that the most enthusiastic
+		proponents of XML in the library community are those concerned with areas that
+		the traditional library systems handle only grudgingly or incompletely -- such
+		as full text electronic libraries, repositories of digitized images and
+		archival document descriptions. </p>
+	 <p>I came across a new term for something that XML makes easier this week: 
+		<term>data warehousing</term>. Now, like many other metaphors, this is an
+		insidious one: it sounds alluring, but it leads you astray. Data is not really
+		something you keep in a warehouse: a warehouse is designed to keep commodities
+		like bicycles or fruit safe until you decide to take them out and sell them.
+		Once out of the warehouse they are gone. But is that true of data too? if I
+		sell you an apple, I don't have it to sell to someone else anymore. But if I
+		sell you access to my data -- you have it and I <emph>still</emph>have it. Is
+		this metaphor helping us understand the way information should be managed in
+		the next millenium, or is it getting in the way?</p>
+	 </div>
+	 <div>
+	 <head>Some trends I spotted</head>
+	 <p>Walking around the impressive exhibition space here, it's clear that
+		there has been somewhat of a shakedown in the market place. One impressive
+		change from the last time I looked, is that we no longer have vendors offering
+		us "XML bolt ons" -- if a product offers XML support at all, it does it whole
+		heartedly, not as an afterthought, and not, generally, as one of a number of
+		alternatives. Like other maturing industries, we are seeing evidence of
+		consolidation, as the bigger players eat up the smaller ones. Yet this industry
+		continues to surprise us with the unexpected appearance of start-ups with
+		innovative new ideas: let us salute them, since they are what drives the XML
+		enterprise forward. As to the consultants, I overheard more than one person say
+		wistfully "I really have to start turning down more work", so something must be
+		going right.</p>
+	 <p>What trends are discernible? The gap between "data" and text" continues
+		to narrow. As we move increasingly into a wired world, we see systems which are
+		datacentric or docucentric rather than application focussed. We see more and
+		better descriptive language energing for graphics, for maths, and for other
+		multimedia. I am glad to be able to salute the decline of the blob as a
+		significant concept in information management: information wants, not only to
+		be free, but also to be intelligent.</p>
+	 <p>As the technology matures, and artificial boundaries between data types
+		decline, so new application areas are enabled : one particularly in evidence
+		here is in the healthcare profession, but all manner of new
+		<soCalled>infomedaries</soCalled>are beginning to come out of the woodwork,
+		looking for the value-added in the distribution of unchained information. </p>
+	 <p>One of the best features of this conference, for me, is its technical
+		component. So I hope you'll allow me to comment just briefly on a few of what I
+		perceived as the key technical issues. First off, I see that the use of
+		"document fragments" or "micro-documents" seems to have been re-invented again,
+		this time in the shape of data-centric or application-focussed groves which are
+		being extracted from large databases, document repositories, and those famous
+		data warehouses. We heard several striking case histories demonstrating the
+		viability of this approach. Secondly, we had a debate about whether or not DTDs
+		were good for you, which sadly failed to ignite controversy (maybe asking this
+		audience such a question is like asking an audience of priests whether prayer
+		is really beneficial). The debate never really addressed the question of
+		whether the second D is short for "definition" or for "declaration" -- whether
+		a DTD should contain more than a bald declaration of syntactic constraints. We
+		heard quite a bit of thought provoking material about the need for more than
+		that: in particular from the XML work groups trying to address the needs of
+		those W3C communities who are demanding a generally viable semantic model.
+		Whatever we get from this activity, it clearly won't be that particular
+		philosophers' stone: the best we can hope for from schemata will be DTD
+		grammars with new added datatypes. </p>
+	 <p>Semantics, you will recall from your Elementary SGML Class, are
+		expressly excluded from consideration by the standard. Letting them in by the
+		backdoor, we might consider semantics of link types, but a more promising line
+		of attack, which we also heard a fair bit about, concerns the usefulness of XML
+		in addressing the metadata issue: that is, the issue of how to talk about what
+		we are talking about. In RDF we see an XML application which addresses the
+		problem in terms familiar to many software developers (if no-one else), while
+		in topic maps we see another approach, using concepts familiar to
+		<soCalled>information professionals</soCalled></p>
+	 <p>Of course, there were a few things I missed. We still don't have enough
+		free software. We still don't have enough software which really supports 32-bit
+		pure Unicode. We still don't have software that runs equally well on multiple
+		platforms. And while many new important application areas for XML have
+		appeared, we don't hear about its importance in the preservation of our
+		cultural heritage, and we don't seem to hear much from people facing up to the
+		problems of preserving that culture heritage once transferred to the digital
+		medium. Maybe this really will be the first generation that leaves absolutely
+		no trace of itself behind it: particularly if all of our day to day
+		transactions, communications, and cultural activities have gone digital,
+		without our having developed any way of preserving digital information as
+		reliably and permanently as our ancestors were able to preserve scraps of paper
+		and parchment. Here surely XML has a lot to offer. </p>
+	 <p>Forgive me for stating the obvious, but technology alone won't help us:
+		we also need to remember the vision that informs and drives the technology. So
+		I would like to close with a couple of examples of great XML applications that
+		I think won't ever happen, not because they are technically infeasible or
+		undesirable, but for entirely other reasons. First: consider the wonderful
+		online version of the 
+	 <title>Oxford English Dictionary</title>which Oxford University Press has
+	 been developing over the last few years. Consider also the wonderful collection
+	 of full text literary databases which another British publisher,
+	 Chadwyck-Healey, has also been developing over the last few years. Both
+	 products between them cover a huge proportion of the English literature of the
+	 last 500 years, a central part of whatever we mean when we talk about our
+	 cultural heritage. Both products use SGML as the primary means of managing
+	 their data. But can you integrate them? Could you or I or any other ingenious
+	 and suitably-motivated researcher develop a nice little XML pointer-based
+	 application linking, for example, dictionary senses and discussions from the
+	 OED with a range of illustrative citations from 
+	 <title>English Poetry</title>? Well, no, or not until both publishers open
+	 the door of their data warehouse sufficiently for us to access that SGML
+	 structure. And if that example sounds too recherch&#233; or academic, consider
+	 your monthly grocery shopping bill. We all know that the supermarkets are
+	 rushing to join the e-commerce revolution, but here's an e-commerce application
+	 that I confidently predict will not get developed any time soon: the one which
+	 searches across the price lists of all available online stores to determine
+	 who's offering the best deal on baked beans or olive oil or coffee this week,
+	 constructs the appropriate orders and sends them in. With all the required data
+	 in XML format, I could develop that application today, and so could most of you
+	 -- but not so long as the doors of the data warehouse remain firmly shut. </p>
+	 <p>However, I dont want to finish on a carping note. I started with a
+		metaphor, and I suggested that metaphors can distract you from the truth as
+		readily as they express it. But for me, this conference really is a
+		long-lasting love affair, one that has matured into a real relationship,
+		indeed. It's about open systems, and intellectual rigour, but it's also about
+		the real world. That's why the conference offers a neutral platform-independent
+		venue, at which we can hear from the vendors as well as from the gurus, at
+		which the users have a platform as well as their advisers and consultants. And
+		every year it gets better -- so, see you next year in Paris! </p>
+	 </div>
+	 </body>
+  </text>
+</TEI>

@@ -1,0 +1,237 @@
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Historian and the Database</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>XML version for my archive</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Retagged in XML from old source file</p>
+            <p>Text later published in :   <bibl n=""><date>1990</date>
+      <title>The Historian and the Database</title>
+      <title>Historians, Computers and Data: applications in research and training</title> ed
+      E.Mawdsley, N. Morgan et al. Manchester: Manchester University Press </bibl>
+</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2014-12-15">Initial conversion; added header</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+
+<!--
+OK, here it is, in all its unvarnished glory: the very original
+text of my after dinner lucubrations as requested, unchanged from
+the form in which I first typed them, except that I've changed the
+spacing from double to single and converted from WP to ASCII. 
+What's Rich G. doing up there? Would he like to visit the Oxford
+Text Archive too? Would he like it to visit him? Give the man an
+email account.
+
+in haste
+
+Lou
+-->
+<body>
+<head>The historian and the database</head>
+<quote>
+<l>Hwaet! we Gar-Dena  in gear-dagum</l>
+<l>theod-cyninga thrym gefrunon,</l>
+<l>hu tha aethelingas  ellen fremedon.</l>
+<l>Oft Scyld Scefing  sceathena threatum</l>
+<l>monegum maegthum  meoda-setla ofteah;</l>
+<l>egsode Eorle, syththan aerest wearth</l>
+<l>feasceaft funden; he thaes frofre gebad:</l>
+<l>weox under wolcnum, weorth-myndum thah</l>
+<l>oththaet him aeghwylc thara ymb-sittendra</l>
+<l>ofer hron-rade hyran scolde,</l>
+<l>gomban gyldan:  thaet waes god cyning!</l>
+</quote>
+<p>These are the opening words of the Old English epic Beowulf, the
+earliest literary masterpiece of our language, probably composed
+in 8th century Mercia. When its unknown Christian author affected
+as I have just done the imagined manner of the scop in the
+ancestral mead-hall, he was of course almost as ignorant as I of
+living conditions in the 5th century pagan courts of Hrothgar or
+Hygelac, where the poem's action is set. He may even have been,
+like me, somewhat skeptical about the objective existence of the
+underwater monsters and dragon-guarded treasure-hoards which
+provide the poem's hero with so much excitement. Yet he and his
+audience still felt the need to take an ancient story and use it
+as a vehicle for articulating a contemporary opposition: the
+tension between atavistic pagan fatalism and optimistic Christian
+perfectibilianism; a clash marvellously condensed in the  much-
+quoted line "Wyrd oft neriath unfaegne eorl thonne his ellen
+deah" (Fate will often spare the undoomed man whose courage is
+good enough; though the ancient Germanic notion of Fate is not at
+all the same as the ancient Greek notion now inextricably bound
+up in the modern English word). </p>
+<p>But reading Beowulf today is not entirely an exercise in
+hermeneutics; to appreciate this poem, as to appreciate any epic,
+we need only to recognise its historical purpose. Beowulf was
+composed as a history book, even, I contend, a historical
+database: we do it an injustice to treat it as anything less.
+Its language is not that of everyday 8th century Mercia (as far
+as other evidence shows): it is formally arranged; it uses the
+metrical device of alliteration; it contains some phrases that
+seem to be fossilised metaphors (such as "hron-rade" "whale-road"
+for sea) and others that are clearly formulaic ("gomban gyldan"/
+gift-giving); it is rich in near synonyms (there are I forget how
+many different words for weapons and armour of various kinds); it
+even contains phrases we would like to interpret as grim jokes
+(in cataloguing Scyld's valorous deeds, the poet remarks that he
+"deprived many princes of their mead-stools"). The artifice of
+this language has two crucial functions: firstly it serves to
+mark this text as belonging to a specific body of linguistic
+productions, to categorise it, to locate it in another imagined
+world; and secondly, precisely because it is so different from
+the every-day tittle-tattle of 8th century Mercia, to make the
+text itself memorable. The heroic style seems to have a pragmatic
+function:  in  pre-technological, pre-literate society it
+preserves that most precious of cultural artefacts, a society's
+self-image. Orature prefigures literature as a way of preserving
+speech.</p>
+<p>In a somewhat mind-boggling book called "Worlds of Reference"
+published two years ago, the distinguished linguist Tom McArthur
+proposes that, provided we take a sufficiently broad perspective,
+we will see there have been four great communicative shifts in
+human history: each mediated by its characteristic enabling
+technology: that of speech, of script, of print and of
+electronics. Each of these technologies represents a better
+attempt to satisfy the same fundamental human desire: not to be
+forgotten, to step outside of time.</p>
+<p>In the begining, he argues, there was only functional speech -
+"Pass the burnt root dear" kind of stuff. But then, stuck as
+human intelligence is with a strong sense of things not-having-
+always-been quite as bad as they are now, (not to mention the
+dour suspicion that they may well get quite a lot worse) there
+evolved the concept of "Storage Speech" - language with quite
+another type of function: that of preserving information. Special
+techniques - such as the alliteration and kennings with which I
+began - were invented for this purpose, to ensure the accuracy of
+what was passed on. Other techniques, such as the shamanistic use
+of fetishes, beads, knots and other non verbal signifiers seem to
+have been less successful- at least in the European context -
+than that satisfyingly recursive method of changing the nature of
+the medium itself. And so, MacArthur says, the database came into
+being, long even before writing, as a formalised narrative, an
+oral repository of that information by which a culture defines
+itself. And, the claim is, successive paradigmatic shifts have
+not served to dislodge that primary atavistic function, of 
+tieing down the here and now, locating it in a temporal nexus,
+giving us a past, a present and a future. Instead they have
+emphasised or facilitated different aspects of that primary urge
+to a greater or lesser extent.</p>
+<p>We have not yet drunk deeply enough (perhaps) to be overwhelmed
+entirely by this sort of rapid canter through world history.
+There comes a point of elevation (whether metaphorical or actual)
+from which all details blur into one cosmic whole. And surely
+there are at least as many differences between the secret
+language of a priestly elite and the demotic of the electronic
+bulletin board as there are similarities. Quite a good case (but
+perhaps a bit too Marxist for this occasion) could be made for
+the view that the shift from oral to written to printed to
+electronic communication is a necessary consequence of the
+progressive alienation of the individual: the whole paraphernalia
+of copyright and ownership, the notion of authorship itself, seem
+to be inextricably intertwined with a particular political system
+rather than with any evolutionary necessity.</p>
+<p>But it does no harm to look for similarities: indeed, it is a
+very seductive notion, that of MacArthur's that "we have been
+this way before". I wish I had some explanation to offer for the
+pleasure with which I draw a parallel between the writer at his
+word-processor cutting and pasting choice phrases from previous
+compositions on the one hand, and the bard of yore picking and
+recombining kennings and genealogies from his word-hoard on the
+other. Is it an innate human characteristic, this desire to step
+outside of time? is it a peculiarity of some times rather than
+others? is it related to other phenomena? Before this audience I
+will not presume to provide answers to these essentially
+historiographical questions. </p>
+<p>Instead, let me focus more precisely on the topic of this
+conference: the use of this latest version of "storage speech" in
+making sense of the products of earlier versions of the same.
+When a new technology emerges, an under-valuing of its
+predecessor is commonplace. Thus, we are told that some
+renaissance printers, having set Carolingian manuscripts into
+type, tended to use the originals as fire-lighters. And the metal
+plates from which the last edition of the OED was printed     
+proved such an embarassment to the Oxford University Press that
+many of them have been given away as trendy ornaments.  As this
+last example shows, it is also easy to over-value an outmoded
+technology  - to be sentimental about steam trains or red phone-
+boxes is no less an intellectual weakness because it is an
+officially sanctioned one.  Let me parenthetically remark on how
+frequently we find various forms of sentimentality being
+officially sanctioned these days. As good historians, I hope you
+will all be on your guard against the current insidious attempts
+to manufacture national memory as a means of fuelling the
+xenophobia on which governments such as the present one depend.
+The word has gone out somewhere in the corridors of power that
+Britain is ripe for "theming-up" and we look to the professional
+guardians of the past (that's you lot) to thwart it: please read
+Robert Hewison's book on the Heritage Industry for further
+information.</p>
+<p>Surprisingly perhaps, the computer might just provide you with
+the tools to do it. Sentimentality is a form of storage speech in
+which all the rich awkwardnesses of actuality have been
+conveniently smoothed away, to serve some polemical end. It is
+typified by the artefact-free museum, the theme park, the digest.
+It avoids controversy and thrives on passive acceptance. But we
+don't have to be sentimental in our attitudes to the past. The
+past is actually still there to be discovered, encapsulated in
+all those other undervalued forms of storage speech, buried in
+local archives and other forms of distributed database such as
+human memory. What the computer gives us is a new way of gaining
+access to that information, efficient ways of storing it, of
+searching and re-presenting it. It enables us to combine
+information from a variety of sources in ways so quantitatively
+different as to approximate a qualitative change. And it enables
+us to add interpretations to the store of information,
+automatically or mediated by as many editorial processes as there
+are editors, without however significantly changing the original
+stored form of the data. Simply, it lets us form our own
+conclusions from the available data. As such, it is as potent and
+as subversive a tool as ever the printing press was. </p>
+<p>This may sound implausible to those whose view of this technology
+was formed in the days when the machine was called a "giant
+brain" and was tended by serious people in white coats. It may
+also sound absurdly optimistic to those who fear (perhaps justly)
+that deprivation of access to information will become a new
+instrument of class oppression. But the cat is already out of the
+bag. The micros are already in the classrooms - perhaps small,
+under-funded and over-used, but they are there; and what has once
+been learned cannot easily be unlearned. </p>
+<p>My title, "The historian and the database", suggests an
+opposition, but my theme is one of synthesis. Whether or not we
+accept the Californian millenarianism which loudly proclaims the
+death of the printed book, it is clear that the written word has
+at least found a new home. As a way of marshalling concepts and
+modelling our understanding of them, the formal structures of
+language have served us very well for centuries. But in order to
+store and analyse those linguistic productions themselves, it has
+become necessary to define a new sort of storage speech. Now, the
+most productive way of processing a text by computer turns out to
+entail additional interpretative information about it, either
+separately in some sort of database structure, or embedded within
+it as markup or tagging. It looks as if we are making up for the
+computer's lack of innate intelligence by supplying rules for
+interpretation and categorisation, sometimes of the most
+rudimentary sort - such as where one word stops and the next
+begins. But what we are actually doing is representing both data
+and meta-data: storing both information and guidance on its
+interpretation. Let me conclude by suggesting that this double
+focus has always characterised what I earlier called "storage
+speech" and that consequently to perceive it as a limitation is
+to miss the point - in rather the same way as it would be to miss
+the point to say of the storage speech with which I began that it
+is repetitive or cliche-ridden. </p>
+<p>
+---------------------------------------------------------------</p>
+<p>Lou Burnard is currently receiving therapy at a private
+institution on the South Coast.</p>
+</body></text></TEI>

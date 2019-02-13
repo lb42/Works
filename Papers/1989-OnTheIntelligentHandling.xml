@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>On the intelligent handling of free text retrieval</title>
+            <author>Lou Burnard <lb/>Oxford University Computing Service </author>
+         </titleStmt>
+         <publicationStmt>
+            <p>XML version for my archive</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from an email with header <code>From: VAX::LOU "Lou Burnard" 20-APR-1989
+                  18:50:27.79 To: CBS%RL.MAIL::UICVM::U35395 </code></p>
+            <p>Text published in <bibl><title>Informatics 10 : prospects for intelligent retrieval :
+                     proceedings of a conference jointly sponsored by Aslib, the Aslib Informatics
+                     Group and the Information Retrieval Specialist Group of the British Computer
+                     Society, University of York, 21-23 March 1989 / edited by Kevin P.
+                     Jones.</title>
+                  <note>(title page says King's College Cambridge).</note><publisher>London :
+                     Aslib, 1990</publisher>
+                  <biblScope>viii, 351 p. : ill. ; 30 cm. </biblScope>
+                  <idno type="isbn">0851422527 (pbk) </idno>
+               </bibl></p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2014-10-06">Remembered to add revisionDesc</change>
+         <change when="2014-08-06">Converted via word and oxyGen from old email</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>1. The textual trinity</head>
+            <p>Electronic texts challenge all three of the software paradigms that have evolved in
+               response to the ways we usually process non-electronic texts. The human eye and brain
+               switch unconsciously between seeing a text as a visual image, decoding it as a
+               linguistic construct, and extrapolating a meaning structure with some relationship to
+               (non-linguistic/extra- textual) events in the "real" world. Software is less flexible
+               and tends, when processing an electronic text, to limit its operations to only one of
+               these three levels.</p>
+            <p> Word processing software concerns itself only with marks on an medium, ink on paper,
+               dots on a screen: textual character sets, appearance and layout are consequently most
+               often expressed in functional terms (use this type face, in that point size, indent
+               so many mm here...). Even in the trend to descriptive markup the focus has so far
+               been to tag features already marked in non-electronic texts: the purpose of the
+               software being to produce more, and more visually pleasing, paper texts. </p>
+            <p> A second software paradigm sees texts as composed of primarily linguistic
+               constructs. Most present-day indexing and retrieval systems are even-handedly
+               uninterested both in presentational variation and in the meaning structure which a
+               text exists to convey. Texts are processed solely in terms of the lexical items they
+               contain, their relationship to each other, and to other texts containing the same
+               items. The identification and categorisation of lexical items in a text is a major
+               concern of such systems, and by no means a trivial one; it also has some theoretical
+               justification. To grossly simplify one influential school of linguistic theory: as
+               there is no way of expressing meaning without recourse to words, so meaning itself is
+               probably an emergent property of the way words are used, rather than an independent
+               conceptual structure. Parsers have been built that recognise syntax on purely
+               probabilistic principles, divorced from 'deep structure', or which employ a
+               'systemic' grammar, derived solely from what is legal in the lexicon. The success of
+               automatic document classification systems is further good empirical evidence for this
+               hypothesis. </p>
+            <p> By contrast, in the third software paradigm, texts are primarily vehicles for
+               conveying a meaning, which can also be expressed in terms of higher order
+               abstractions - a conceptual model. This model can then be represented by a database
+               management system, of some kind. Software of this kind naturally ignores both
+               presentational and linguistic features: equally naturally it is best suited to texts
+               which assert fairly simple propositions like "The Endeavour arrived at London from
+               Hamburg in 1558 with a cargo of train oil worth £12 for Otto Spinks". By creating a
+               formal model of the real world (in which ships leave ports, carrying cargo belonging
+               to people, all cargoes having names and values which are themselves categorised or
+               analysable in some way), the database designer effectively defines a universe of
+               discourse, in which a very large, but well defined, set of questions and answers can
+               exist. He or she is, in a sense, an ideal reader of the text. </p>
+            <p> This distinction (between the 2nd and 3rd paradigms) has an analogue also in the way
+               we partition research and expertise: considering why `data processing' and `natural
+               language processing' are regarded as distinct fields sheds much light on both as well
+               as on philosophical attitudes to the function of meaning. One obvious consequence of
+               the separation is that results from one field are rarely applied in the other, to
+               their mutual detriment. The tools developed by computer science to represent and
+               analyse complex data objects and processes are rarely applied to the equally complex
+               analysis of sentence structure or argument in real discourse. The insights offered by
+               natural language processing into the way human reasoning is performed and human
+               concepts are organised are often ignored in constructing such tools. Even within
+               computer science, a purely adventitious distinction between free-text indexing
+               systems and other sorts of data processing systems has resulted in the creation of
+               `information retrieval' as an academic sub- discipline in its own right. </p>
+            <p> A similar divide, between `linguistics' and `literary studies', has had equally
+               unfortunate results: practitioners of literary studies have had to re-invent a theory
+               of how texts are processed by readers and writers independently of linguists who have
+               been busily engaged in inventing such theories independently of any awareness of
+               their application in the real world of textual communication. The linguistic model
+               thus created is inevitably incomplete and reductionist, while the literary one is
+               inconsistent and computationally naive. </p>
+            <p> However there are hopeful signs of change in the way that disciplines, tools and
+               techniques are increasingly converging: there is a creative flow of energy advancing
+               on some of the hoarier problems of processing electronic text, the more creative
+               because it comes from several directions, synergistically. Mediating the gap between
+               word processing and database management systems a new understanding of the importance
+               of descriptive mark up is emerging; while the theme of this conference straddles the
+               gap between database and document retrieval system, between conceptual and linguistic
+               models of what text is. </p>
+         </div>
+         <div>
+            <head> 2. Structuring a text</head>
+            <p>Text is most unlike other data in the complexity of its structure: the phrase
+               "unstructured text" is as close to an oxymoron as could be wished. In non electronic
+               texts, we are familiar with structures defined in terms relating to each of the three
+               levels defined above which function independently; we also have no difficulty in
+               combining descriptions drawn from different domains. In a printed play, for example,
+               we are aware of the pagination (level 1), the sentence or verse structure (level 2)
+               and the dramatic structure implied by the alternation of speakers, the subjects of
+               which they speak etc. (level 3). We can reasonably hope to contrast the syntactic
+               structures employed by speakers on a given topic printed in one style with those
+               printed in another. In a manuscript, we can equally wish to compare the vocabulary
+               used by sections of a manuscript in one hand with those in another. </p>
+            <p> There are those who argue, almost as a point of dogma, that electronic texts should
+               be entirely innocent of structural indications or interpretation. This defeatist
+               position seems to ignore important facts about the way people actually use texts,
+               quite apart from undervaluing pragmatic considerations. Firstly any sort of storage
+               or representation of a text necessarily imposes some kind of structure, whether at
+               the gross level of files and bytes or the more advanced model of point to point
+               addressing postulated by Nelson's Xanadu and the increasing number of distributed
+               text architectures it has inspired. Secondly, in retrieval from texts, users
+               invariably wish to specify (often independently) the scope or context of their query
+               and of the sections of text to be returned by it: such queries are also frequently
+               qualified by categorisation of some kind. In a bibliographic or other catalogue it is
+               important to distinguish people's names from place names or topics (we do not want
+               all books published in or about London when seeking for books by Jack London), and
+               even to distinguish the roles of say author, illustrator or translator. Thirdly, in
+               the creation of electronic texts, it is of immense value to distinguish elements
+               which encode the matter of a text from those which encode its manner of presentation,
+               wherever possible. A text in which headings or lists are explicitly flagged as
+               headings or lists will be susceptible of many more uses than one in which the
+               existence of such elements is simply implied by the use of an arbitrary (and
+               polysemous) choice from the available typographic conventions for such things. Of
+               course, there will be cases where both types of tagging are necessary, for example to
+               answer such questions as `Which of the headings in this text are in italics?'. </p>
+            <p> The kinds of texts to which present day software systems are best suited are those
+               composed of discontinuous smaller texts, each with a set of attributes drawn from a
+               common pool. Examples include the lists and catalogues that make up most original
+               historical sources. Such things are easily decomposed into individual entries, each
+               of which can be further decomposed into smaller components, the relationships between
+               which will often be straightforwardly hierarchic. For example the port book entries
+               in figure 1, where each entry concerns the arrival of a single ship, each ship
+               carrying many cargoes, each cargo having a single owner and value, but many cargo-
+               items, each cargo-item having at least a description, and optionally a quantity and
+               units as well. In some cases, modelling the conceptual relationships between the
+               various components of such an entry may be far more difficult than this simple
+               example suggests. Figure 2, for example, is from a text in which each entry
+               summarises a number of incidents in a judicial system, an understanding of which is
+               essential before the roles associated with people's names or the judicial actions
+               mentioned can be correctly interpreted. To assess the probability that `Richard
+               Crouche' and `Richard Crowche' are references to the same person requires knowledge
+               not only of 17th century orthography and phonology, but also of the exact nature of a
+               `recognisance' </p>
+            <p> The model of text which underlies such systems is of a collection of distinct text
+               fragments, possibly ordered, each with identifiable and unambiguous subcomponents.
+               Regrettably there are many types of texts which will not fit this model without some
+               violence. As a transitional example, consider the kind of electronic text with which
+               many of us first come into contact: the electronic mail message. This clearly has
+               some identifiable and unambiguous subcomponents: its sender, perhaps the nodes
+               through which it passed en route to its destination, its date and time at each, and
+               its recipient. It is also conventional, but not obligatory, for a message to have an
+               associated topic line in which a summary of the message can be inserted for the
+               benefit of those e-mail systems which can use it, perhaps using a set of keywords
+               known to both sender and recipient. The structure of the message itself however is
+               not easily decomposable, except into a series of paragraphs or lines of 'free text',
+               structured only by the exigencies of the communications system and the assumption of
+               the recipient that it does in fact contain a meaning. Any electronic analysis of such
+               messages must be done in linguistic terms, by indexing the whole text at the very
+               least, before starting to look for higher level conceptual structures. </p>
+            <p> Still more difficult to fit into the simple document structures described so far are
+               the electronic versions of conventional texts which will (perhaps) one day replace
+               books and offprints in the studies and libraries of the world. Representing the
+               structure of a narrative text such as a play requires a consideration of many
+               independent, yet interacting, hierarchies of description. As a simple example,
+               consider the first scene of Hamlet, in which two sentries meet and discuss somewhat
+               nervously the events of the previous night on watch in Elsinore. A textual scholar
+               might wish to see a structure approximating as closely as possible to the original in
+               order to tabulate and analyse the differences between the memorially reconstructed
+               'bad quarto' text of 1603 and the edited text. Considerations of type fount and size,
+               lineation, manuscript addition, even inking would all be involved. A scholar
+               interested in the dramatic elements of the text would wish the text to be organised
+               as a series of speeches and stage directions, and would wish (for example) to know
+               that the speeches given to 'I' and '2' in the quarto are actually spoken by Barnardo
+               and Francisco respectively. A scholar interested in the literary elements of the text
+               would wish to know which parts of the text are prose and which verse. It is
+               impossible to conceive of a single hierarchic structure which can cater for all these
+               different viewpoints; and not easy to think of one which can cater for even those of
+               one of my hypothetical scholars, particularly given the close interaction between the
+               types of description involved. Plays may be divided into speeches, and speeches into
+               lines, but verse lines may be both smaller than and larger than either, and it is a
+               perfectly reasonable requirement to wish to select all speeches containing incomplete
+               verse lines. </p>
+            <p> A number of research projects have demonstrated the feasibility of representing such
+               structures by a formal grammar, describing both the appearance of the text and its
+               significance. Such a grammar can then be used to parse components of the text and tag
+               them appropriately for complex retrieval or updating . A notably successful recent
+               application of this approach has been the creation of the electronic version of the
+               Oxford English Dictionary, undertaken at the University of Waterloo, which has
+               permitted both the creation of a searchable electronic text and the automatic merging
+               of the supplements with the main body of that monumental work , but few commercial
+               products yet approach the sophistication of the tools developed for this purpose.
+            </p>
+         </div>
+         <div>
+            <head> 3. Access to text</head>
+            <p>In the absence of sophisticated grammars of this kind, which can guide the enquirer
+               in terms of the innate structure of a text, how do we manage to search electronic
+               texts at all? Fortunately, if we make a number of simplifying assumptions about
+               natural language, the question "what is this text about?" can be answered quite
+               simply for many of the types of electronic texts we wish to search. Document
+               abstracts, story headlines, title pages etc. are all intended to convey information
+               about the content, or at least the avowed topic, of the texts they identify;
+               exceptions to this rule are as easy to create as `garden-path sentences', and perhaps
+               equally relevant. For requirements such as literature searching - and wherever the
+               matter is more important than its manner - keyword-based searching will generally
+               offer excellent results. </p>
+            <p> A number of techniques have been used to resolve the familiar problems of
+               homography, ambiguity, polysemy etc. in natural language keyword-based searching
+               systems. A thesaurus can be used to define a structure within which inter-term
+               relationships such as generality, specificity, synonymy etc can be defined. A
+               dictionary can be used to suggest alternative candidate terms related by significant
+               overlaps in their defining vocabulary. A knowledge-based system can be used in which
+               the rules implicit in the more traditional resources of dictionary and thesaurus are
+               re-expressed in terms of predicate logic. Relevance feedback can be used to identify
+               clusters of related terms independently of any formal semantic structure. Outlining
+               techniques can be used to arrange texts into meaningful taxonomies derived from their
+               keywords. All of these techniques, many of which have been discussed at this
+               conference and in the literature are predicated on two assumptions: that the primary
+               reason for wanting to search an electronic textbase is to recover texts which are
+               'about' something, and moreover that whatever a text is 'about' can be summed up in a
+               few dozen, or even a few hundred, keywords, either added by the author, or derived by
+               some deterministic process from the text itself. Many in the humanities would
+               question both of these assumptions. </p>
+            <p> What (for example) is a novel `about'? Should it be keyworded to indicate its plot
+               and characters? the literary tropes or allusions it contains? the themes or topoi
+               identified by one or more schools of critics within it? the historical context within
+               which it was first created or within which it has been regarded particularly highly
+               (or poorly)? </p>
+            <p> To cater for such questions, all that the conventional wisdom can offer is to extend
+               the keywording principle to include the whole of the constituent tokens of the text
+               itself. The focus of interest thus shifts from the `topic' of a text to its actual
+               content. It is arguable that this approach introduces almost as many problems (by
+               degrading precision) as it solves (by improving recall). Neither does this approach
+               remove the need for both additional keywords (there is usually rather more to a text
+               than the words of which it is composed) and for structural indications, as discussed
+               above. Clearly, however, the same software tools can be used for either approach,
+               though with varying success. </p>
+            <p> Normally, in software-based systems depending on extensive file inversion
+               techniques, indexing the whole of a text instead of simply its `keywords' increases
+               the need for data compression or other ways of reducing the enormous storage
+               overheads that may be involved. Because of the statistical properties of token usage
+               in natural discourse great savings in storage may be made by suppressing high
+               frequency tokens from an index. However this may be undesirable on a number of other
+               grounds. In pathological cases, removing all `noise' words may have unexpected
+               effects ("To be or not to be, that is the question" would be indexed by the word
+               "question" only); in many cases, where indexing is undertaken to quantify variations
+               in style or authorship, several studies have shown that is precisely the very high
+               frequency terms whose relative frequencies are of most statistical significance . </p>
+            <p> In continuous texts, selecting the unit of retrieval, display and context may be
+               problematic. In stylistic investigations, for example, the ability to quantify term
+               occurrences within arbitrary units (rates per verse line, rate per paragraph, rate
+               per thousand tokens etc.) will not be catered for by software predicated on the
+               document retrieval model. In lexical investigations, the ability to simply list all
+               terms appearing before or after a given search expression, or to search for co-
+               occurrence within a flexibly defined context unit may be equally hard to satisfy. To
+               give one example, as a part of an evaluation carried out by a Working Party of the
+               Inter University Computing Council, a play of Shakespeare's was converted to a
+               textbase using each of three market leading commercial IR systems (BASIS, BRS/SEARCH
+               and STATUS). In each case, the task of defining what was a `document' (a speech? a
+               scene? the whole play?) involved compromises about the resulting searchability of the
+               system. None of the three provided a fully satisfactory solution to such
+               comparatively simple requirements as `Select all verse speeches of a given character
+               containing at least two of a list of given terms'. </p>
+            <p> To the list of methods of dealing with the ambiguity and imprecision of natural
+               language already given, it is customary to add in a free text retrieval system
+               extensive fuzzy matching capabilities. These will normally allow for retrieval by
+               groups of tokens related morphologically, while more sophisticated systems also
+               support retrieval by semantically related terms. A problem here, with continuous
+               texts, is that the sheer quantitative difference in the occurrence of some terms
+               approximates to a qualitative change in the effectiveness of such fuzzy matching
+               techniques. Improving the recall may degrade the precision of such searches to the
+               point of uselessness. It is also surprising how few commercial retrieval systems
+               support the converse (or perverse) requirement of precise matching: for the IUSC
+               report already alluded to we also attempted to make a text in Ancient Greek
+               searchable accent-sensitive or accent-blind, a task which only one of the packages
+               succeeded in doing satisfactorily. </p>
+            <p> The document retrieval model of a textbase also poses problems to those working with
+               very dynamic texts. The ability to annotate and tag texts on the fly, to add new
+               encodings or re- interpretations into the body of a text is crucial to its usability.
+               Few commercial document retrieval systems offer anything like the ability to cut and
+               paste comments into individual texts, largely because updating an inverted file
+               system is such a notoriously expensive operation. Indeed it has been shown that the
+               marginal cost of adding more entries into very large systems such as are typically
+               encountered in commercial online systems increases rapidly, to the point where it is
+               more cost effective to rebuild the entire system. </p>
+            <p> Hardware based systems typically aim to solve two major problems associated with the
+               scale of the conceptually simple operations of searching for needles in haystacks.
+               The first has to do with the simple logistics of identifying desired tokens in a
+               text. Several special purpose pattern-matching hardware devices have been designed to
+               perform such operations with varying capabilities. ; special purpose chips include
+               the PF47 while ICL's CAFS is a well known mainstream commercial product with at least
+               some pattern-matching capabilities. Unlike many other hardware search engines, CAFS
+               does not require the text to be compressed or otherwise converted, except in so far
+               as it requires the introduction of tags to identify and categorise individual tokens
+               in the input stream, a feature which permits a high degree of structural complexity
+               in the resulting textbase. </p>
+            <p> The second area where hardware assistance has been shown to be of benefit is in
+               exploiting parallel procesing techniques to rank texts by the extent to which their
+               defining vocabularies overlap. Where text content is adequately expressed as a vector
+               of terms occuring in the text, such vectors (or `fingerprints') can easily be reduced
+               to long bit strings, which can then be compared very efficiently by SIMD
+               architectures such as that of the DAP . It remains open to question whether such
+               architectures offer significant performance improvements over the use of well tuned
+               software indexes in the long term, and still more whether they are of any assistance
+               in handling the more fundamental structural problems of analysing text. </p>
+         </div>
+         <div>
+            <head> 4. Interacting with text</head>
+            <p> Most discussions of the problems of handling electronic text implicitly assume a
+               model in which the user interacts with the text only by selecting from it. The
+               textbase and its encoded meanings are essentially a passive cornucopia, which the
+               user prods into delivering up relevant nuggets of information. However practical such
+               a view may appear to be, it is essentially false to the experience of reading a
+               non-electronic text, in which meaning emerges only as a result of a complex series of
+               interactions between reader expectation and reader response, stimulated as much by
+               associations between the text under examination and others as by its content or
+               argument structure, and in which what is unstated may be as significant as what is
+               not. By permitting the rearrangement of textual elements, and making explicit
+               linkages between them, the infinite plasticity of electronic texts should encourage
+               rather than discourage this kind of reading. Hypertext systems offer this promise,
+               but have yet to fulfill it. </p>
+            <p> Hypertextual and object-oriented approaches to text-management software seem to be
+               rediscovering aspects of processing a text which scholars in the humanities have
+               known for centuries. The description of the process of scholarly interaction with
+               text given by Comenius in 1659 (figure 3) has many similarities with the process of
+               browsing through an interactive electronic text: the scholar who `picketh all the
+               best things out of them into his own Manual' (i.e. notebook) now `pastes them into
+               the clipboard' but only the technology has changed. The structure of Comenius' work
+               also has much in common with a hypertext, with its large macro-structure, and point
+               to point linkage between three separate windows (graphic, Latin and vernacular). It
+               can be read sequentially or by direct access. It contains pointers to other works and
+               other sections of this work. </p>
+            <p> In non electronic texts a whole series of conventions is already in place to cater
+               for the process of interacting with many combined texts, by way of such devices as
+               annotations, commentary and apparatus criticus (figure 4). Hypertextual analogues to
+               these conventions are still being defined: when they do emerge they will offer
+               exciting possibilities. As one example, consider the conventional apparatus criticus
+               in which a 'master text' is associated with a set of notes summarising the variant
+               states in other versions of the master text throughout the text. This complex textual
+               object could be represented as a network in which each node is a variant state and
+               the arcs represent the paths taken by one or more versions of the text through the
+               possible states. It would then be possible to generate each state of the text
+               independently (as a path through the network) and compare them side by side. It would
+               also be possible to group versions together in terms of the number of nodes they
+               share, automatically generating stemmata or minimum spanning trees.</p>
+         </div>
+         <div>
+            <head> 5. Conclusions</head>
+            <p> Information technology is not inherently reductionist; on the contrary it is only
+               the latest in a long series of methods used by applied hermeneutics, the explication
+               of stored knowledge . To realise the full potential of electronic texts, we need to
+               consider at least three aspects of a text in parallel: as well as concerning
+               ourselves with its physical appearance, we need to recognise its uniquely linguistic
+               properties and their semantics. Semantic considerations additionally imply a concern
+               with the ways in which texts are read, for which our existing electronic models seem
+               barely adequate. Market forces will doubtless insure that the electronic texts of the
+               future will be protean in appearance; the importance which will be attached to
+               considerations concerning their internal structure and functionality is less
+               predictable. </p>
+            <p> The meaning of a text is the product of a complex series of interactions between the
+               words of which it is composed and the social, historical and literary contexts in
+               which it was composed and is read. Combining texts with dictionaries and thesauri is
+               one way of enhancing the retrieval capabilities of existing systems which takes
+               advantage of this fact . Generalising this method to identify, for example, literary
+               allusions is more problematic, but poses no additional technical problems, with the
+               advent of cheap mass disk storage and efficient text search engines. </p>
+            <p> An analysis of the full structural complexity of a text requires recognition of
+               elements that may operate at many levels and sometimes simultaneously in many
+               different descriptive or structural hierarchies. Tagging which is descriptive rather
+               than narrowly functional is one step in the direction of supporting this requirement
+               for electronic texts. Some aspects of the kind of text processing generally
+               characterised as `object oriented', notably property inheritance, also facilitate
+               this process, by enormously reducing the burden of type definition. Indeed, the
+               object oriented approach, in which the processes that can be applied to an object are
+               regarded as a part of the semantics of its datatype, approximates very closely to the
+               way texts are read. This re-coupling of data and process may therefore prove to be of
+               more consequence in the evolution of electronic text systems than those systems which
+               require the definition of a `deep structure' or syntax for the texts to be processed
+               independent of the processes to be carried out on them. </p>
+         </div>
+      </body>
+   </text>
+</TEI>
