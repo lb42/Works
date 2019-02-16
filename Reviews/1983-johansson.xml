@@ -1,0 +1,81 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="johansson">
+<head>
+<title>Computer corpora in English language research</title> 
+ed. Stig Johansson. Bergen, 1982
+</head>
+ 
+<p>It is twenty years and more since the U.S. Office of Education first
+funded the production of a standard corpus of American English "for
+use with digital computers" (what a quaint ring that phrase now
+has!). If to nothing else, this volume testifies to the continuing
+value of that pioneering effort, both in its own right and as a model
+and an inspiration to other projects, many of which would be barely
+possible without it. The nine papers, mostly from a symposium held in
+Bergen in 1981, here reprinted contain a great deal of importance to
+anyone interested in the mechanical analysis of English 'performance',
+not least some excellent bibliographies, but for this reviewer the
+meat of the volume is contained in the four articles concerned with
+methods of automatically parsing or tagging free text in a corpus.
+The potatoes are represented by three very different papers on the
+various applications Brown has found for itself in Amsterdam and in
+Goteborg, while gravy is present in the shape of some more general
+remarks by Professors Sinclair and Francis which begin the volume.
+</p>
+<p>The addition of syntactic or functional markers of some sort to any
+computer-readable corpus immensely extends its usefulnes as a record
+of language in use, provided that the markers employed are derived
+from some consistent and objectively-verifiable linguistic model. In
+this context, the work of the TOSCA project at Nijmegen (described
+here by Aarts and van der Heuvel) deserves to be better known. This
+project uses the mechanism of an extended affix grammar (not entirely
+dissimilar to the augmented transition network popular in much AI work
+of the last decade) as a means of detecting syntactic structure in
+surface forms. The method has some far-reaching implications, notably
+in the flexibility with which it may be adapted for different
+grammars. At entirely the other end of the methodological spectrum are
+the two papers on the tagging of the Lancaster-Oslo-Bergen corpus, one
+from Garside and Leech at Lancaster, and the other by Johansson and
+Jahr (Oslo).  The authors of these two papers are to be commended for
+the clarity with which they review the somewhat murky workings of
+Greene and Rubin's original TAGGIT program (avatar of so many other
+so-called automatic parsers), expand on its weaknesses and detail the
+improvements made to it.
+</p>
+<p>It is perhaps a pity that the editors could not find space to complement
+the admirably full account of the suffix analysis part of their system
+with more details of its 3000 'context frame rules'.
+</p>
+<p>The third project described here is the tagging of the London-Lund
+corpus of Spoken English, described here by Svartvik and Eeg-Olofsson.
+Here a pragmatic approach involving a dynamic lexicon and much
+interaction between the linguist and a database of phrase rules has
+proved the only practicable method of tagging word classes and
+subequently identifying syntactic structures. A distinctive and
+unusual feature of their analysis is the use of the tone unit as the
+basic unit of analysis rather than the sentence which seems perhaps
+unsurprisingly to make the parsing process rather simpler.
+</p>
+<p>The great virtue of corpus linguistics is surely that it enables
+the linguist to make generalisations about 'normal' usage with some
+degree of confidence. Consequently it is not surprising to find the
+Brown Corpus being used increasingly in situations where linguists
+have felt a little uneasy about relying on the intuitions of native
+speakers or on the experience of other practitioners, notably in
+teaching English as a foreign language. Typical of such studies is
+that by Kjellmer (Goteborg) on the use of collocations, while Meijs
+(Amsterdam) presents a more computer-oriented account of the
+facilities available to linguists engaged in such research. Van der
+Steen describes the inner workings of a query processor developed to
+assist Dr Meijs and his colleagues in a paper which, while of obvious
+interest to anyone wishing to write such a processor, is of rather
+marginal use to computational linguists.
+</p>
+<p>This volume, together with the invaluable ICAME News, is a welcome
+demonstration of the continued vitality of corpus linguistics in an
+age where linguists seem to be becoming obsessed with paralinguistic
+social nuances and literary scholars are too busily engaged in
+deconstructing texts to relate them to their linguistic contexts.
+</p></div>
+
+
+

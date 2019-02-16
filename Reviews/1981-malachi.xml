@@ -1,0 +1,227 @@
+<div xmlns="http://www.tei-c.org/ns/1.0"  xml:id="malachi">
+<head>
+<title>Proceedings of the International Conference on
+Literary and Linguistic Computing, Israel,</title> Ed. Zvi Malachi,
+Tel Aviv, 1979.
+</head>
+<byline>By L.D. Burnard</byline>
+
+<p>For one week at the end of April 1979 the Katz
+Institute of the University of Tel Aviv was host to a special
+conference organized under the aegis of the
+ALLC. There were 38 participants, half of them from
+Israel, with smaller delegations from the Netherlands, the
+U.K. and the U.S.A. together with a handful of onlookers from
+the rest of Europe and one solitary Australian. 48 papers
+were presented, two-thirds of these being reproduced in the
+present volume. The academic receptions, cocktail parties,
+sight-seeing tours and other customary junketings are also
+noted therein, which is perhaps not inappropriate. For the
+function of this volume (I hope its editors will forgive me
+for dwelling on the point) is more to recall an occasion than
+to contribute overmuch to the state of knowledge. More
+souvenir than symposium, it resembles nothing so much as the
+contents of a particularily zealous delegate's briefcase on
+his return home. Here is Professor X's abstract, promising
+the philosopher's stone but not delivering it for lack of
+space — rather like Fermat's last theorem; here is Professor
+Y's sheaf of smudgy printout, demonstrating his newfound
+skill as a programmer; here is Professor Z's sales brochure
+for some new piece of exotic computer software. Above all
+here is evidence that the on-going preoccupations of the
+University of Laputa's Special Research Section on Computer
+Aided What Not are still going on, after a decade or more of
+faithful attendance at international symposia.
+</p>
+<p>In the circumstances it is not surprising that it should be the
+home team which fields the strongest side in this particular
+international encounter. Few would disagree that the production of the
+Historical Dictionary of the Hebrow Language is one of the most
+ambitious projects of modern lexicographical scholarship,
+computer-aided or otherwise. The sheer bulk of materials it is to
+describe — over two millennia of linguistic production —
+is awe-inspiring enough in it self, without the added complications
+inherent in the Hebrew language. As Professor Ben-Hayyim, the
+President of the Academy of the Hebrew Language, remarks in his
+opening address, the project has had to find its own way towards
+solving methodological problems "to which no solution had previously
+been sought". This is not of course to deny the value of earlier
+dictionaries (most notably Ben Yehuda's Thesaurus totius Hebraitatis)
+but simply to demonstrate how rapidly a difference of quantity fades
+into a difference of quality. Regrettably, not all of the Isracli
+contributions describing work in this field
+are here reproduced; particularly conspicuous by their
+absence are any account of the Responsa Retrieval Project
+(which has however been described in a recent report in
+<title>Computers and the Humanities</title>) or of the Complete Yiddish
+Dictionary Project. Of those which are reprinted, however,
+three papers, those by Yeivin (on the methods used in pre-
+editing ancient texts for lexiocographical analysis), Adler
+(on the implementation of an online Hebrow thesaurus) and
+Busharia (on methods of disambiguating unpointed Hebrew), are
+particularily worthy of attention by anyone interested in the
+problem of exactly how such tasks may be performed. It is also worth noting
+hat the method evolved by Busharia and his co-workers for
+disambiguating Hebrew has much in comon with the methods
+used by the Norwegians for lemmatizing Ibsen; whether the same
+method was used for lemmatizing the Belgian mediaeval Latin
+corpus described in this volume by Tombeur is less clear. Of
+course the method is hardly novel (it has been in use for ten
+years or more) but it has the real merit of being over 9O%
+accurate, unlike that presented in another paper on
+lemmatisation by Oldberg and Choueka. They take a more
+'information-theoretic' approach, presenting some highly
+sophisticated algorithms and measures of performance based on
+four rather dubious axioms concerning the relation between
+wordform ("word") and wordroot ("meaning"), with satisfyingly
+disappointing results.
+</p>
+<p>There is a great variety amongst the other contributions
+to this volume, reflecting no doubt the diversity of membership
+enjoyed by the ALLC. Thus we find cheek-by-jowl one article
+enthusiastically describing how paper tape and Snobol may be used
+to create Russian printout and another in which are ~unded the
+pros and cons of a state-based representation of adverbial
+modifers in an expanded sematic network. Such eclecticism,
+however admirable runs the serious risk of becoming an uncritical acceptance
+of any p-baked (O &lt; p &lt; 1) idea or proin which counting,
+logical formalisms or algorithmic methods are involved. Selection is invidious but two
+extreme examples of the type which I have in mind may be
+cited: one by on the counting of suffixes as a test for ncol
+
+	s in Rabelais and one by the perhaps bettern Melcuk on
+the "Meaning (=) Text" Model
+
+	of language. Tuttle is merely incomprehensible (a
+prize of 5Op is hereby offered for the best explication of
+the term "non-parallelicity of non-trivial total graph" which
+appears throughout his article) while Melcuk transcends
+comprehensibility in what I cannot resist dubbing a TBG
+(Tantalizingly Brief Glimpse) of the new SemRs (Semantic
+Representations) possible within "LMs (linguistic Models) of the Meaning (=) Text Type (MT models or MTMs)".
+</p>
+<p>Cercone and Slaby both report on projects already
+described in the proceedings of the previous ALLC Conference
+(<title>Advances in Computer Aided Literary and Linguistic Rescarch</title>,
+ed. Ager, Knowles and Smith; Aston, 1979); Slaby's article is
+more or less identical in the two publications, and Cercone's
+differs only in the stress given different aspects of the Al
+system described. The figures are better reproduced in the
+Israeli version, but the bibliography is missing, which is a
+pity, as it is a useful source of authoritative information
+about expanded semantic nets. Using another well-beloved
+formalism, Sallis attempts to represent formal argumentative
+prose by a context-free grammar. This attempt must have
+delighted Boot (whose paper here proposes such grammars as
+the new lingua franca of text analysis software) as much as
+it depresses this reviewer. A context-free argument is, I
+contend, no argument at all but an algorithm; irony has no
+place in such an analysis and is yet one of the most powerful
+tools of argumentative writing (see Milton's prose,
+passim). Marinov's paper seems to be SHRDLU revisited, but is
+well written and clearly argued enough to demonstrate the
+limitations of any system in which procedural knowledge
+cannot be acquired but must be represented.
+</p>
+<p>Of more practical interest are two papers which
+attempt to bridge the gap between data analysis and query
+processor: King's evaluation of three well-known database
+systems in terms of their using (or not using) the semantic 
+information held within the database structure, which
+opens up a promising line of rescarch; and Krause's account
+of USL, a query-processing system with a powerful linguistic
+component. As is often the case, however, more effort seems
+to have gone into evaluating the system than designing it.
+Tapper proposes another type of approach to the general
+problem of rendering accessible the information held in those
+glant databases of which the media have such horror: the use of
+citations rather than keyword as primary index to legal
+databases has much to attract the busy barrister but whether
+it is a technique of general applicability is more debatable.
+However, the popularity of such reference works as
+ScienceCitationAbstracts perhaps indicates that my doubts are
+ill-founded.
+</p>
+<p>Several papers deal with that branch of analysis which
+has acquired the name of stylometry, after the assidnous
+promulgation of the term by Morton and his followers. This
+technique, as Bailey's magisterial recension of Kenny's work
+on Aristotle correctly points out, remains a science in
+search of a theory. We still have no adequate theoretical
+model of linguistic behavior, and the process by which
+variables are selected to make one up inevitably seems
+somewhat arbitrary. Greatly needed is some method by which
+the seemingly ad hoc collection of variables available for
+statistical analysis of text can be clustered, discriminated
+and filtered. In this connection, two papers, one by Weil and
+another by Shore and Radday, touch upon the use of factor
+analysis, the latter rather more thoroughly than the former.
+Both papers deal with attempts to find quantitative evidence
+to support the seemingly intuitive and qualitative groupings
+of the books of the Bible which have been inherited from
+generations of biblical scholars, but neither can be said to
+be entirely successful.
+</p>
+<p>Shore &amp; Radday's case is perhaps more clearly argued,
+as is their method, but neither paper tackles the fundamental
+applicability of techniques which have been evolved for
+parametric statistics to statistics such as word frequency.
+It may be claimed that the relative frequencies of some
+syntactic markers or of high-frequency function words are
+(within the limits of experimental error) 'interval scaled',
+but with no theoretical underpinning to explain why this
+should be, the sceptic will remain unconverted. In
+particular, he will assert that the difference between a word
+frequency of O and a word frequency of 1 is not the same as
+that between frequencies of say 1O and 11, and that therefore
+word frequency is not strictly speaking a parametric
+statistic at all. Hamesse's paper on an attempt to identify
+an author's 'preferred language' independent of topos, by
+inspection of the relative frequencies of non-function words,
+is even more suspect. 'Least squares' analyses, where such
+tests as Student's t are used to establish degrees
+of significance, are worthless when applied to
+variables which are not normally distributed. Whatever else
+it may be, the distribution of lexical tokens in the works of
+St. Bonaventura (or of anyone else yet analyzed),
+particularly those of high semantic content, is not normal.
+</p>
+<p>The volume also contains a number of contributions
+which might be dignified by the title of semisemiotic
+analysis. Phelan on Chaucer's language is novel, if somewhat
+too enthusiastic and inaccurate for my taste. Weiss on the
+word "throne" in a short story by the Hebrew writer Agnon is
+more restrained in his language, but is still evidently
+reeling from culture shock. Bender on Conrad's vocabulary
+promises to substantiate one of the commonplaces of Conrad
+criticism, but does not deliver. This is a pity, because the
+proper study on vocabulary and in particular of vocabulary
+collocations should be an important adjunct to more purely
+'literary' criticism. A recent work by Lakoff and Johnson
+proposes metaphor as a fundamental part of perception; we
+should expect to find its analysis at the heart of literary
+studies instead of, on the present showing, its lunatic
+fringes.
+</p>
+<p>The volume has been assembled with commendable speed
+and a faithfulness to its authors' original typescripts,
+which this reviewer perversely refuses to commend. Leaving
+aside the somewhat pointless presence of a number of one-page
+abstracts, the volume crawls with elementary typing errors
+and linguistic solecisms which I believe it is the duty of an
+editor tactfully to correct. Of course such corrections would
+have delayed the publication of the work; they would also
+completely preclude a comparative study of the typing or
+linguistic skills of the distinguished contributors or a
+survey of the levels of secretarial technology at different
+universities. I count these small losses set against the
+number of times in this volume that a fairly murky argument
+is rendered utterly opaque by a simple error of transmission,
+an inverted page, or reference to a missing footnote.
+</p><trailer>
+Lou Burnard is a consultant at Oxford University
+Computing Service, where his chief responsibility is database
+management. He read English at Balliol Collegc, Oxford and
+has worked in computing since 1973.
+</trailer>
+</div>

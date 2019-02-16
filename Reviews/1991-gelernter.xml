@@ -1,0 +1,107 @@
+<!--
+From:	OXVAX::LOU          "Lou Burnard" 14-JAN-1991 10:10:31.68
+To:	CBS%UK.AC.CARDIFF.COMPUTING-MATHS::RALPH
+CC:	LOU
+Subj:	RE: Book Review
+
+Review to go under heading Software.
+Programming Linguistics, by D. Gelernter, S. Jagannathan
+(MIT Press, 1990). 
+Price #33.75 h/b; ISBN 0262071274; xx+411 pp.
+-->
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="gelernter">
+<head>David Gelernter and Suresh Jagannathan <title>Programming Linguistics</title>.
+Cambridge, Ma.: MIT Press 1990 </head>
+<p>
+The punning title of this book is only the first of the many
+small pleasures to be found in it by anyone who maintains in
+parallel interests in language, in programming and in programming
+languages — three very different topics, which only occasionally
+overlap. For this is also that rarity, a readable textbook. It
+can simply be used as the basis for a course on the historical
+development of programming languages, from Fortran to Occam. It
+can also be used as background reading for a course on compiler
+construction, as a way of providing a richer  understanding of
+the varieties of formal systems which modern compilers must
+implement. But its strength lies more in the way in which these
+essentially technological concerns are placed in a broader, more
+humanistic, perspective. Its authors have chosen to tackle head
+on the question of what <q>computer science</q> as an academic
+discipline is fundamentally about, relating their analysis of the
+evolution of modern programming systems to more fundamental
+concerns about design and about what sort of a machine a computer
+program is. Though presenting itself as history, the book has
+clear ideological designs upon us — which it is however honest
+enough to declare. 
+</p>
+<p>The authors begin by defining an <q>ideal software machine</q>, an
+abstraction from the reality of a running program, expressed as
+an intersecting <q>space map</q> and <q>time map</q>, showing how the
+constituent entities of any program can thus be described. Unlike
+mathematical or declarative models of what a program is, the ISM
+unifies in a simple way the opposition between program structures
+and data structures. The discovery, erection into dogma, and
+subsequent collapse of this opposition, termed here the <q>Algol
+Wall</q> is described as possibly the major event in the evolution
+of programming languages. </p>
+<p>
+To chart that evolution, the authors begin with a section dealing
+in some detail with Fortran, Algol60, and Lisp, which they
+characterise as the first of the <q>hero languages</q> which
+significantly advanced the art or craft or science of
+programming. In each case, enough of the language is described to
+make clear its principle features without encumbering the reader
+with over much detail. Useful pointers to further reading are
+also provided, most of which are original research papers rather
+than second or third hand digestions of them. Subsequent major
+sections introduce three other heroes:  Pascal; Simula67 and
+Scheme. Honourable mentions are accorded to other languages
+insofaras they are perceived as having addressed key blind spots
+in the Algol world-view: Cobol, PL/I and Algol68 for their
+identification of data structures and user-defined types;
+Smalltalk and Ada for their contributions to the object-oriented
+juggernaut which finally overthrew the Algol Wall. The book
+concludes with a section on two typical declarative languages
+(Miranda and Prolog), and another on concurrent languages,
+specifically Occam and Linda. For light relief, there are two
+pleasantly idiosyncratic chapters, apparently intended as
+starting points for general discussion: one addresses the
+question of what <q>complexity</q> means in a design, but at a very
+superficial level; the other, surely guaranteed to break the ice
+at computer science departmental parties, suggests that some
+aspects of software engineering have more to do with ideology
+than engineering.</p>
+<p>
+Inevitably, a book with so clearly stated an agenda — to present
+a particular interpretation of the past as a way of justifying or
+evaluating current concerns — runs the risk of offending those
+whose interpretations of the past (or the present) differ.
+Certainly, those who feel that programming is best regarded as a
+form of mathematics or logic will find the marginalisation of
+declarative languages in this book at best ill-judged, at worst
+pernicious. There are also some curious omissions: near-heroic
+status is accorded to Cobol for its discovery of data structures,
+but no consideration at all is given to subsequent developments
+in database languages; Snobol's CODE function anticipated by
+several years the ability of a Simula67 program to define
+procedures and data structures isomorphically, while its stress
+on pattern matching as a fundamental operation surely deserves
+some mention, as does the generator concept of Icon. More curious
+still is the presentation of Algol68 — surely the apotheosis of
+structural elegance — as essentially equivalent in needless
+complexity to PL/I.  And there is no doubt that the chattiness
+and informality of some of this text will serve only to irritate
+those teachers who do not wish to do their job wearing (as it
+were) jeans and humorously inscribed sweatshirts. </p>
+<p>
+Nevertheless, the book can be confidently recommended as a means
+of stimulating interest in an undeservedly neglected area of
+computer science, as a reliable source of information (at least
+for the topics it addresses) and as a thoroughly readable and
+provocative analysis of what programming is, and where it is
+going.</p>
+<trailer>
+Lou Burnard
+Oxford University Computing Service
+</trailer>
+</div>

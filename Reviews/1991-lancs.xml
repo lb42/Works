@@ -1,0 +1,213 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="lancs">
+<head>I. Lancashire and W. McCarty <title>The Humanities Computing
+Yearbook</title>. Clarendon Press, oxford, 1988.ISBN O-19-824442-
+8.396pp.£4O.
+</head>
+
+<p>In 1989 it is no longer possible to question the desirability,
+still less the existence, of 'humanities computing' as an academic
+discipline. At centres throughout the world new posts are being
+funded, as new journals flourish and new generations of students find
+new skills are expected of them. The computer wielding linguist,
+historian or textual critic is no longer pardonably eccentric; his/her
+method has been canonised. It was only a matter of time before that
+canon should be authoritatively documented, and this volume represents
+the first and, to date, most successful attempt at that process. True,
+there have been many no less worthy attempts to summarise
+comprehensively the state of this particular art (for example, Hockey
+and Oakman in 198O or Hughes in 1987) but these were all deliberately
+evangelical works, whose authors were perhaps a little parochial in
+their enthusiasms, a little uncritical in their acceptance of all
+things computational. As much hy its format as hy its provenance, this
+volume asserts that 'humanities computing' no longer needs to
+proselytise, is no 1onger a coterie pursuit, and hence need not fear
+rigorous examination or selfcriticism. It also clearly marks out a
+turf and an agenda which may not perhaps exactly coincide with others'
+definitions either of 'humanities' or of 'computing'.
+</p>
+<p>'Computing' (asserts the preface) 'is the "how-to" of
+any discipline made obvious', hefore going on to specify
+three 'kinds of methodology' for which computing seems
+appropriate. These are storage and information retrieval;
+statistical description; and linguistico-semantic analysis.
+The relevance and success of computing methods in at least
+the first two categories is not controversial, though the
+acceptability of (for example) computer-based content
+analysis, propositional logic or even computer simulation as
+a means of adequately describing the reading of texts is
+rather more debatable. It could he argued that computing
+methodologies in fact distort the true nature of a
+discipline, hy focusing attention in only those areas
+easily susceptible of computerisation, which are not
+necessarily those central to it. That is not a concern of
+the editors of this volume, for whom the discipline is only
+and exactly those aspects of it in which available computing
+methods can he shown to he productive. For the rest, one
+suspects, they feel like Jowett that 'what I don't know
+isn't knowledge'.
+</p>
+<p>Some readers may he surprised to discover that 'the
+humanities' include art history hut not art or design;
+philosophy, hut not law, politics or economics; and 'folklore
+studies' hut not ethnology or anthropology. The amount of
+space and the number of subdivisions allocated to what
+remains is also indicative of a very strong bias to
+linguistics, literature and history at the expense of music
+or archaeology. The editors claim no more for their taxonomy
+than that it follows from their 'fieldwork' in assessing
+what 'our colleagues have done and are currently doing' and
+from their own view that 'most computational work is
+methodological'; one might reasonably ask how they define
+their colleagues.
+</p>
+<p>The volume is large, containing nearly 4OO closely —
+and very well — typeset pages. Most of its bulk is taken up hy
+a mixture of helpfully annotated bibliographic citations and
+brief details of available software or similar resources,
+grouped by topic or discipline. For the most part (though by
+no means exclusively) the bibliographic citations are to
+articles published in interdisciplinary journals and
+conference proceedings, rather than from mainstream
+discipline-specific journals, which (presumably) the editors
+assume are already accessible to this volume's likely
+readership. Since one highly desirable effect of the maturity
+of 'humanities computing' must be its acceptance by the mainstream,
+one must question the wisdom (if not the practicality) of
+this assumption. Brief notes are attached to about
+threequarters of the citations — an exceptionally helpful
+feature of this volume. The software and other resources
+cited form a very mixed bag, ranging all the way from 'a
+generator of science fiction written in BASIC level 11 for a
+Radio Shack TRS-8O' up to detailed reports on the INGRES
+database management system. In most cases, developers,
+suppliers and references to fuller published descriptions are
+given. Inevitably many of these were out of date on the
+book's publication, if not before, such is the rate of change
+within the industry; nevertheless, the range and diversity of
+software now available is well indicated, and has the
+same sort of cumulatively dizzying effect as did the Software
+Fair from which this part of the Yearbook had its origins.
+If you want to know where you might find hieroglyphic fonts
+for the Apple Macintosh, a Modula-2 compiler for MS-DOS, or
+just a variety of Writers Tools for teaching 'composition
+skills', this is the place to look.
+</p>
+<p>There are also about sixty extended descriptions of
+software or resources felt to be of sufficiently general
+interest or major importance within particular fields. In
+such cases any editor must tread gingerly the boundary
+between advertising hype and detailed evaluation; the
+selection of which software deserves such trentment is also
+invariably contentious. Thus, for example, in the Historical
+Studies section the only product so singled out is the prize-
+winning 'Would be Gentleman', a historical simulation of
+seventeenth-century French social mobility; less
+eccentrically, in the section on Classics, the Thesaurus
+Linguae Graecae rates detailed attention as (however) do
+three assorted micro-based systems for drilling Latin grammar
+into computer-wise students.
+</p>
+<p>The book's twenty-eight unevenly-sized major sections
+are arranged alphabetically. Some sections are highly
+discipline-specific, while others are on topics of general
+interest. By far the largest section (8Opp.) is that on
+Languages and Literature, closely followed by two other
+related sections Text Analysis (33pp.) and Computational
+Linguistics (31pp.). Sections primarily of relevance to those
+with a linguistic or literary bent amount to about over half
+of the total. Sections of general interest (Hardware and
+Software Resources, Database systems, Bibliographic
+resources, People and Places, Programming Languages and
+Statistics) together amount to about a quarter. That leaves a
+total of about 5O pages for the also-rans, chief of which is
+Historical Studies (15pp.), followed by Philosophy (lOpp.),
+Music (6pp.) Archaeology (Spp.), Art History (3pp.), with
+Drama and Folklore getting a page each. Where a
+particular reference might be considered either of
+general interest or discipline specific, the latter generally
+takes priority. Thus Manfred Thaller's Kleio database system
+is discussed in the Historical Studies section rather than
+the database section; on the other hand, the Toronto old
+English Dictionary is discussed in the general section on
+lexicography rather than the section on old English.
+</p>
+<p>Medieval Studies get a section on their own, whereas
+the study of all other historical periods is subdivided by
+place, from I5.1 Austria to 15.15 Yugoslavia. Apart from
+being of little use to one searching guidance on, say,
+computer-aided work done in historiography, demography or
+urban history per se, this method of division gives a false
+impression of the coverage in this section, which is
+reasonably thorough, if not as complete as more specialised
+bibliographies such as those published hy the Cologne Centre
+for Historical Social Rescarch; although the journal
+Historical Social Research is cited in the reference
+hibliography at the start of the volume, it does not seem to
+have been as well abstracted as (for example) the
+publications of the Association for History and Computing,
+even in the section on German History. Equally conspicuous by
+their absence are Historical Methods and the Journal of
+Interdisciplinary Studies. Computational historians need to
+confront the epistemological issues raised in such journals
+and by such major works as Barzun's Clio and the Doctors or
+Fogel &amp; Engelman's Road to the Past, neither of which is
+mentioned here. Supplemented in this way, and preferably
+reorganised chronologically rather than topologically,
+this section would provide an excellent set of pointers to
+the current state of historical comptlting, at once thorough-
+going and non-partisan.
+</p>
+<p>The book's taxonomic eccentricities would not matter,
+of course, it it were adequately cross-referenced or indexed.
+Regrettably however there is no overall alphahetical index,
+even to authors cited. There is a 16-page reference
+bibliography, in itself an impressive catalogue of resources,
+and an alphabetical index of software and software
+developers, rather marred by some niggling inconsistencies in
+such matters as abbreviations and cross-references. OCP is
+indexed under OCP with a cross-reference from 'Oxford
+Concordance Program', but TLG is indexed under 'Thesaurus
+Linguae Graccae' only. There are two columns of references to
+universities, alphabetised under'University of. . .' (which
+is silly), and while Project Pallas is cross-referenced from
+that for Exeter, the entry for DISH stands proud of any
+association with the University of Glasgow.
+</p>
+<p>The most significant shortcoming of the Yearbook is
+the lack of any single alphabetical list of authors or
+projects cited. In its absence, the reader must guess into
+which section likely citations will have been placed,
+and then search the alphabetical lists of references and
+resources in that section for useful items. This means that
+it is easier to find, say, all the software published by
+Microsoft than all the articles written by, say, Martindale
+(except where he is cited as developer of software) — which
+surely cannot be right. It provides needless aggravation
+for those who do not share the editors' view of the
+structure of their field, or are simply unaware of the name
+used for it. In this volume, for example, 'Second language
+instruction' is a distinct field from 'English as a second
+language', while 'Creative Writing' is concerned with
+interactive fiction and poetry generation, not to be confused
+with the 'Text Generation' which is a subclass of
+Computational Linguistics, nor in any way associated with
+'Editing and Publishing'. Of course, establishing a subject
+classification for an emergent discipline is no trivial task
+and the editors deserve every credit for having attempted it
+(I find particularly felicitous their having reserved a
+section called'Visionary Devices'under'Computing Resources');
+however, until there is general agreement on the boundaries
+and internal divisions of the Yearbook, the absence of a
+proper index looks suspiciously like preemptive action,
+fossilising the potential of this new discipline at the point
+of take-off.
+</p>
+<p>Nevertheless, this volume is to be heartily recommended. There is no
+comparable publication, either in depth and breadth of coverage or
+overall accuracy. As a snapshot of the current ferment of activity in
+scholarly applications of information technology, and within its
+selfimposed limits, it has no equal and no research library is
+complete without it.
+</p><trailer>
+Lou Burnard Oxford University Computing Service
+</trailer></div>

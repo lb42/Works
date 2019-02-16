@@ -1,0 +1,191 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="hockey">
+<head>
+At home with the hardware</head>
+<byline>By L. D. Burnard</byline>
+<p><bibl>
+ROBERT L.  OAKMAN:
+<title>Computer Methods for Literary
+Research</title>
+235pp. University of South
+Carolina Press. $14.95.
+0 87249 381 4
+</bibl></p><p><bibl>
+SUSAN HOCKEY:
+<title>A Guide to Computer Applications in the Humanities</title>
+248pp Duckworth. £28 (paperback
+£8.50 ).
+0 7156 1315 4 (0 7156 1315 3)
+</bibl>
+</p>
+<p>The first agreeable discovery which the literary scholar makes when
+face-to-terminal with the computer of which popular culture makes so
+much is just how stupid the brute actually is. If you want it to
+search a text for words about colour, you have to tell it not only
+that "blue" and "green" are both relevant but also that "blue" and
+"Blue" are (probably) the same word, and indeed just what a "word" is.
+Its literal-mindedness and its inubility to originate instructions are
+perhaps a less agreeable discovery. If told to achieve your ends by
+inappropriate means, it is incapable of improving on them. Programming
+becomes the art of decking out the mindlessness of this automaton with
+the semblance of sanity, a task requiring logic and ingenuity, but
+also imagination. However, neither of these two books is directly
+concerned with programming though Robert Oakman's does include a
+somewhat unreliable chapter on the subject containing much that is
+guaranteed to raise a sneer among computer scientists. As Susan Hockey
+points out, programming is no longer necessary for the majority of
+literary applications, given the existence of easily used utility
+programs or packages at most major centres. Perhaps the third
+discovery that the novice in the art of literary computing always
+makes is that it all has been done before. The reinvention of the
+wheel, and its proud presentation at international symposia, is a
+familiar event.
+</p><p>
+	That two authors, both eminent in the field, shouid have
+indepedently decided to publish what is substantialy the same book
+at the same time is perhaps symptomatic of this. Of course, there are
+differences in style and emphasis (and a gross disparity in cost)
+between Mrs Hockey's book and Professor Oakman's, but by and large
+they both cover the same ground, reach the same conclusions and balk
+at the same hurdles. This is perhaps inevitable, because fifteen year
+(roughly the period of activity covered by both) though an aeon in the
+history of computing, is but the twinkling of an eye in the history
+oif literary studies. The ground is a gentle introduction to what
+computers are, not quite at the level of "See the Com-put-er. It has
+flash-ing lights on" (but perilously near it), and a panoramic survey
+of the uses to which they have been put in such fields as
+lexicography, indexing, textual information retrieval, and stylistic
+analysis. The conclusions are, predictably, that computers are
+basically a Good Thing,, and getting better all the time. Tbe hurdles
+balked at are, on the one hand, a proper critical perspective from
+which to view achievements in this curious hybrid fied and on the
+other a proper understanding of the wider areas of computing expertise
+to which much of what is reported on here is tangential.
+</p>
+<p>Mrs Hockey's brisk pragmatism comes perhaps a little closer to
+establishing a critical perspective than Professor Oakman's
+comparatively discursive and historical narrative. Her book is
+addressed more to the sorcerer's apprentice where his seems to be
+aimed at a convention of sorcerers. Both include bibliographies (to
+which all computer-related studies are much addicted) but Hockey's is
+highly selective and closely topic-related where Oakman's, though
+well-annotated, is too exhaustive and out of date to benefit tbe
+apprentice. A cut-off date of 197G simply will not do for a volume
+published in 1980. Hockey also includes useful glossaries of
+computer-jargon and acronyms, in which a touch of dry humour is just
+perceptible ("System" a general term almost everything connected with
+the computer). On more serious matters she remains ruthlessly
+pedagogic. When introducing punch cards, for instance, Oakman explains
+that the code used for the holes punched in them is named after Herman
+Hollerith, whereas Hockey gives us their dimensions and warns us that
+different machines use different codes.
+</p>
+<p>A less revealing difference of emphasis (except perhaps of the
+authors' respective eco-systems) is that for Oakman the chief problem
+with the use of punch cards is that <q>they often become warped
+because of moisture absorption</q> whereas for Hockey it is that
+<q>they occupy a lot of room for storage</q>. Both authors cover the
+same wellworn ground in their presentation of computer peripherals. It
+is surely unnecessary in the 1980s to introduce a device consisting of
+a keyboard and an electronic display screen as if it were some arcane
+and exotic piece of machinery Of more use and conspicuous by its
+absence from both texts, might have been some account of the perils
+and privileges of "personal computing", as it is known in the
+trade. The computing milieu which both authors assume is that of the
+University Computing Centre where a large main frame is shared among
+many different users, an assumption which becomes increasingly
+unrealistic as computers get cheaper (or as cheap computers get more
+powerful). The scholar curious to know whether his business friends'
+PET or APLE will be of any use to him, thc Department buying its own
+mini, wiII alike look in vain for guidance here. even as to the right
+questions to ask. Neither book for instance explains such concepts as
+virtual memory or why the fact that one computer is "smaller" than
+another does not just mean that it takes up less room.
+</p>
+<p>These technical preliminaries disposed of, both authors settle down
+to surveying the varyingly solid achievements of scholars who have
+succumbed to the lure of the computer. On many topics there is little
+to choose between them. Both begin by considering the making of
+concordances (which has also recently been the subject of a valuable
+monograph by Trevor Howard-Hill), both making the oft-repeated,
+oft-ignored, plaint that a computer-generated concordance is as crude
+or as subtle as its editor makes it. The fact that correct
+lemmatization and disambiguation of homographs cannot be be formed
+automatically should not absolve the editor from the responsibility of
+attempting tbem manually, but neither Hockey nor Oakman (nor indeed
+many of those wbo publish concordances today) appear to attach as much
+importance to this as they do to detailing the various formats in
+which contexts may be printed or to debating earnestly whether or not
+high frequency words should be included. Oakman, following Raben,
+speculates that the days of the pritited concordance are numbered --
+when we all have our computer terminals we will perform ad hoc
+inquiries of a computer-held text instead of browsing through fuddy-
+duddy old-hat pieces of paper with ink on them. This is a consummation
+to be wished for, if the alternative is the unusable mountain of badly
+reproduced line printer output of some American university presses
+</p>
+<p>On the topic of textual editing techniques and collation algorithms
+in particular, both our authors appear to be copying from the same
+source. This is either simple parochialism or more probably a
+reflection of the fact that textual scholars are less willing to admit
+to using computers than they might be. If either of the present books
+does no more than make such scholars realize that the computer can
+actually save them time and trouble, by preserving a version of their
+copy text which the cat cannot jump on nor milk be spilt over which is
+infinitely flexible and editable and from which A Real Book can be
+produced with no more exotic an intermediary than magnetic tape, then
+both authors will have accomplished much. Like lexicography (vide such
+projects as the Toronto Dictiorary of Old English) textual editing is
+an excellent instance of a field where the computer can simplify and
+improve the performance of a mindless chore on uhich human
+intelligence would be wasted.
+</p>
+<p>Computer applications in the fields of stylistic and morphological
+analysis are perhaps of more dubious value. Apart from a polite nod at
+the end of one of Mrs Hockey's chapters the work of computational
+linguists in narrowing the gap between natural and artificial
+intelligence has been largely ignored by workers in the fields covered
+by these books. Consequently "stylistic" analysis remains in practice
+morphological only, despite sporadic outbursts in the literature
+against the "New Criticism" mentality which computer-based stylistics
+embody. 1n nearly all the work covered here (though again Mrs Hockey
+makes a gesture in the direction of recognizing the value of the
+collocation analyses which characterize some recent French work), the
+mere counting of words, syntactic or phonetic items is regarded as an
+adequate means of characterizing style. The evidence that (say) the
+distribution of high frequency vocabulary tokens has a unique
+relationship with some particular author remains debatable.  Such
+evidence as exists is inevitably statistical and (humanists being even
+more likely to be misled by statistics than by computers) Mrs Hockey
+devotes the bulk of her chapter on this topic to a brisk introduction
+to such mysteries as the arithmetic mean, the standard deviation and
+the chi square test. She does not, in my view, lay enough stress on
+the fact that even real statisticians are unable to agree on such
+fundamentals as the nature of the frequency distribution of vocabulary
+items within a text, which invalidates well over half of the studies
+reported each year. One feels happier with mechanical analyses of
+style which attempt only to quantify observed or suspected
+characteristics of vocabulary though (as Oakman points out) one hardly
+needs a computer to distinguish between romance and novel. Even here
+there is a danger (typified in the uncritical way Oakman discusses the
+uses made of the General Enquirer package of forgetting that the act
+of criticism is about far more than the words on the page, which are
+all that the computer has been used to analyse.
+</p>
+<p>To the vast majority of computer users the topics discussed so far
+will appear extremely esoteric. When the terms "information retrieval"
+and "database" crop up, however, they might be forgiven for thinking
+they were on familiar ground. After all, computing literature proper
+has been discussing little else for the past few years.  Alas, very
+little of the discussion seems to have been noticed by literary
+scholars. To do her justice, Mrs Hockey has heard of database
+management systems, and even mentions one of the more successful as
+being possibly useful. Nevertheless, like Professor Oakman, she still
+clearly thinks of data as being held and processed within a computer
+as if it were organized in large filing cabinets, through which
+efficient electronic nymphs riffle to retrieve punched cards one at a
+time. Without wishing to belittle such achievements as Schneider's
+London Stage databank, the fact of the matter is that computing
+technologoy has now moved beyond such a self-image. Literary computing
+will not come of age until it recognizes this fact and adapts the new
+tools of data analysis and data modelling to its own ends.
+</p></div>

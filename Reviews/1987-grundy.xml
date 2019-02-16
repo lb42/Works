@@ -1,0 +1,52 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="grundy">
+<head>
+<bibl><title>Proceedings of the Fourth British National Conference on Databases</title>,
+edited by A. F. Grundy (Cambridge University Press, 1985). Price
+£25.00 h/b; ISBN 0 521 32020; 229 pp.
+</bibl></head>
+<p>The annual BNCOD conference is rapidly becoming an indispensable
+fixture; it remains the only regular forum for presentation of British
+research **ID the fundamentals of database systems, and as such is to be
+valued. The papers in this volume reflect a tendency for the
+conference to concentrate on theoretical issues at the expense of more
+practical matters, though this is not in itself a criticism.
+</p>
+<p>Two invited papers, from Schmidt, on higher level relational objects,
+and Pelagatti, on synthesizing relational and network models, typify
+the growing awareness of the limitations of the relational model,
+though Pelagatti's has little new to contribute. The BCS/CODASYL
+Database Administration (DBAWG) presents a new and characteristically
+thorough Access Control system, grasping a nettle which most
+standardization bodies have been reluctant to consider. Borges reviews
+existing discussions of the problems of concurrency control. Jiang and
+Lavington breathe new life into the binary relationship model by
+extending it to represent qualified knowledge, a necessary extension
+for the long-awaited Manchester Intelligent File Store.  Feldman and
+Fitzgerald present a novel graphic formalism for modelling actions, a
+part of information systems analysis which has always tended to be
+neglected. Atkinson and Stocker et al   report on the continued quest
+for that holy grail, the Abstract Conceptual Schema, and its
+associated mapping problems. Hitchcock et al. give a preliminary
+report on the Aspect 'toolkit' approach to the definition of
+*pses. Two short papers deal with user interface problems: Deen et
+al. describe (yet another) new relational database management system
+called PRECI/C, of interest perhaps in a teaching environment, while
+Newman and Sethi report some fieldwork into the effectiveness of
+various style of interactive help systems.
+</p>
+<p>Only two papers deal explicitly with particular application areas:
+Moore on the problems of maintaining integrity in a large real-time
+distributed database system for use in naval command and control
+provides ample food for thought for anyone seriously contemplating
+Star Wars research, while Jeffery attempts to synthesize some
+traditional DBMS and office automation systems into a single
+information system' using a fairly simple three level model.
+</p>
+<p>The book as a whole is well produced (conspicuously better than
+earlier ones in the series) and, as a snapshot of the current
+preoccupations of some British computer science departments, could not
+be bettered. Whether it has any wider usefulness is more debatable.
+</p>
+<trailer>L. Burnard University of Oxford</trailer>
+</div>
+

@@ -1,0 +1,88 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="conway">
+<head>[Review published in ALLC Bulletin 1980]</head>
+<bibl>Richard Conway and James Archer, <title>Programming for Poets: a Gentle
+Introduction using FORTRAN with WATFIV</title> (Cambridge, Mass:
+Winthrop Publishers, 1978)</bibl>
+
+
+<p>One has the impression reading this book that the authors
+would really rather have written quite a different one. Their
+goal, set out explicitly in the preface, is not to help the
+reader to write his own programs, but 'to achieve an
+understanding of the programming process'. No one would quarrel
+with their assertion that 'computing has a special
+responsibility to explain itself to the layman', nor with the
+good intentions apparent in their attempts to demystify that
+omnipresent bogey-thing the computer. Nevertheless,
+misconceptions and prejudice are rarely removed by half-truths
+and over-simplifications: on the contrary. It is quite true
+(even obvious) that computer error should be blamed on the
+programmer more often than the machine, that computer held
+databanks present opportunities for abuse of civil liberties
+unparalleled in history, that problems which cannot be stated
+algorithmically (probably) cannot be solved by computation and
+that machine translation is not as easy as it looks. Whether
+such startling aperçus form an adequate basis for a proper
+understanding of what computer programming is and where it is
+going is more debatable.
+</p>
+<p>Character manipulation in FORTRAN has been compared to
+shelling peas in boxing gloves; a simile which nicely conveys
+the frustrations of using the wrong tool for the job, if not
+exactly the nature of the difficulties. Apologists for the
+language fall into two irreconcileable camps - the
+extensionists, who point to the existence of various dialects of
+the language more or less well-suited to tasks for which FORTRAN
+was never intended, and the classicists, whose argument is
+essentially that ANSI FORTRAN is and always will be the nearest
+thing we have to a programming lingua franca. Some apologists
+(including, I fear, the present authors) try to have a foot in
+both camps, which clearly will not do. The language used
+throughout this book is a subset of FORTRAN IV, as implemented
+by the WATFIV compiler. The merits and demerits of this
+particular one apart, it seems somewhat unfair to present it to
+the novice as at all typical of the sort of FORTRAN compiler he
+is likely to encounter in his local computing centre. Some of
+the characteristics of the subset used can be applauded -
+explicit declaration of all variables, for example; others seem
+eccentric - particularly the relegation of any consideration of
+the nature and purpose of subroutines to a page in the appendix,
+along with such essential elements of the programming art as how
+to operate an IBM 026 keypunch (two pages).</p>
+<p>The first section of the book takes the novice carefully through
+such essential concepts as variables, loops, conditionals,
+substrings, and arrays (here confusingly called lists). Because the goal
+here is to explain everything, some distracting details peculiar to
+WATFIV (e.g. the representation of quote characters quoted
+literals) or to FORTRAN (e.g. the construction of DO loops) are
+given prominence, but the basic pedagogic method is sound and
+could profitably be used in any introductory programming course. The
+remainder of the book, in which the more elaborate programs are
+presented, is inevitably more sketchy. By choosing the simplest
+algorithm, rather than the most appropriate, they run the risk of
+setting budding programmers some very bad examples. The chapters on
+concordance programs, statistical programs, and information
+retrieval, for example, all use methods which no one would consider
+appropriate in the real world. The authors are not unaware of this, and
+caution the student to that effect, but this is no excuse for not
+having done the job properly to start with. Typical of the
+superficiality of this approach is the random number generator
+presented without comment on page 196. Disregarding the misprint in the
+code (which is guaranteed to blow up the most tolerant of compilers),
+the function is presented with no explanation of how it works - in
+particular with no warning that it will only work on machines which
+store integers as 32-bit words!
+</p>
+<p>This book contains much that is praiseworthy. It covers a lot of
+ground, is understandable and well written. It cannot however be
+recommended to anyone who really wants to learn how to program, nor
+even to anyone who wants to know what programming really is. The
+preface glosses the use of the word 'poets' in the title as arising
+from the practice of dedicating 'the least technical
+introductory version of a subject "to poets" '. I hope someone more
+gifted than I will be inspired to rebuff this slur on the intelligence
+of the followers of Apollo.</p>
+<trailer>L.D. Burnard
+University of Oxford
+</trailer></div>
+

@@ -1,0 +1,105 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="rudall"><head>
+B.H. Rudall and T.N. Corns: <title>Computers and literature. A practical guide.
+</title>Abacus Press. 0-85626-340-0</head>
+ 
+<p>When computers perform literary criticism, they will be belle-lettriste,
+pre-structuralist, post-structuralist, neo-Leavisite and Marxist. Despite
+appearances, this is not one of those counterfactual sentences which so
+delight the popularisers of computer science: the use of computers as
+heavy artillery to back up the more speculative slingshot afforded by
+linguistic intuition is rapidly becoming as routine in the various
+branches of theoretical linguistics as (in the form of the word-
+processor) it is already un-remarkable in the productions of traditional
+humanistic scholarship. An Association for Literary and Linguistic
+Computing (of which one of the present authors is Honorary Secretary) has
+been in existence for nearly fifteen years now; more recently both
+Historians and Art Historians have formed their own learned societies to
+promulgate the digital gospel. At annual international conferences and in
+the pages of learned journals, the joys and miseries of computer-aided
+textual analysis have long been the subject of discussion, regret,
+braggadocio and commiseration. Surely by now Computer Based Criticism
+(CBC we could call it) must be a pursuit whose Time Has Come. 
+</p>
+<p>In the old days, when users had to write their own programs and
+then get them transferred to paper tape or punch cards, there were
+perhaps a few giants who would think nothing of tossing off 5000 lines
+of KDF-9 ALGOL before lunch and an elegantly turned essay on the
+provenance of some Shakespearean foul paper after it. But for the
+majority, it must regretfully be said, it was labour enough to have
+persuaded the local mainframe to pay them any attention at
+all. Consequently, literary scholarship was not, despite early
+optimism and a few promising eccentrics, radically transformed by the
+cybernetic revolution, nor could it be, so long as the computer
+remained an object of curiosity in the study, and research done with
+its aid the subject of amused skepticism in the common room. The
+emergence of the home computer has done much to accomplish the
+demystification of the device itself; now there is the contrary danger
+that its full potential will be overlooked, unheard for the swelling
+demotic babble of the word processor. It remains depressingly
+difficult for the historian of criticism point to many major studies
+achieved, or even minor insights gained, by truly computational means.
+</p>
+<p>Corns, at least, may be presumed to be aware of this fact: it is
+the only charitable explanation I can find for the skimpiness of such
+few pointers to the available literature as exist in this remarkably
+slim volume. The absence of any index is harder to excuse,
+particularly when 17 pages are given over to a <soCalled>Glossary of
+terms</soCalled> of remarkable silliness. It is always easy to nitpick
+terminology (why should CHARACTER be present, but not BYTE, for
+example) and there is a pleasing serendipity in finding ALGORITHM,
+ALLITERATION and ANSI together, cheek by jowl. For the most part
+however, this glossary contains too many near synonyms too vaguely
+defined. Why gloss (for example) both PROBLEM ORIENTATED LANGUAGE and
+PROBLEM-SOLVING LANGUAGE — especially when the text for both is
+identically uninformative (<q>a programming language designed for the
+convenient expression of a problem</q>)?
+</p>
+<p>Those whose business is the study of language will find such things
+risibly unhelpful; they will be equally unimpressed by the three
+chapters of this book intended to provide some background information
+on the nature of computing. To the post-Sinclair generations, Rudall's
+description of how text is typed into a computer may have a certain
+antiquarian charm; they will also perhaps read much into the flurry of
+unnecessary quotation marks peppering the paragraph in which he
+grudgingly concedes that not everyone is as convinced as he of the
+old- fashioned virtues of <soCalled>flowcharting</soCalled>.  This is
+harmless enough, if dull; rather more pernicious is a grossly
+misleading chapter on programming.  This contains a list of
+<soCalled>widely used high level languages</soCalled> in which
+Fortran, Ada or Pascal are jumbled together with such nonce-tongues as
+NELLIAC, and in which COBOL — probably the most widely used
+programming language in the world — and SQL — probably the
+most useful — are both equally conspicuous by their absence. It
+was a good idea to "compare and contrast" a simple programming problem
+in two different languages, but the languages chosen (BASIC and
+PASCAL) are too similar for this to have been as instructive as a
+comparison with (say) PROLOG, LISP and SNOBOL solutions might have
+been. Along with an inexcusable number of misprints, this chapter also
+contains the astounding assertion that <q>SNAP has the only natural
+affinity to the (literary) problem area</q>.
+</p>
+<p>Fortunately, the rest of the book is less eccentric. One chapter is
+given to the well-worn theme of concordance-generation, on which Corns
+is non- controversial and practical, if a little uninspiring. It is
+hard to see the virtue in describing both the Oxford Concordance
+Program (OCP) and its predecessor COCOA, since the former has now
+almost entirely replaced the latter.  The space might have been better
+spent on OCP's major current rival: the Brigham Young University Micro
+Concordance program.  Another chapter makes a gesture towards
+providing guidance for those contemplating canonical investigation
+(that hoariest of computer applications); it contains very little but
+common sense and a short list of references.
+</p>
+<p>So long as topics such as these remain the norm for introducing the next
+generation of scholars to the new tools of their trade, CBC will never
+get out of the nineteenth century. The lexicographer and the historical
+linguist may well be content to deal simply and solely with the words on
+the page, but the critic  has a larger brief. Corns is also aware of this
+and by far the best parts of this book are two chapters concerning the
+rudiments of database design and usage. What is sadly lacking here is any
+awareness of the essential techniques of data analysis which provide an
+essential theoretical underpinning to the creation of structured
+databases. In its absence, his eminently practical accounts of such
+packages as SPSS or the ESTC online catalogue tend to be overwhelmed by
+the discouraging obscurity of these particular bits of software. 
+</p></div> 

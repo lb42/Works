@@ -1,0 +1,195 @@
+<div xml:id="date"  xmlns="http://www.tei-c.org/ns/1.0">
+<head>
+C.J. Date  (1)<title>Relational database : selected writings</title>
+Addison-Wesley, 1986. 0-201-14196-5; (2) <title>A guide to INGRES</title>
+Addison-Wesley, 1987. 0-201-06006-X; (3) <title>A guide to the SQL
+standard</title> Addison-Wesley 1987. 0-201-05777-8.1-8 </head>
+ 
+<p>Chris Date is, or should be, best known as author of both the
+standard textbook on relational database systems (<title>An
+Introduction to Database Systems</title>, volume 1 [1986] and volume
+2  [1983]) and one of the best of the many introductory texts
+on the same subject now available for the general reader
+(<title>Database: a primer</title> [1984]). Not content with resting on
+these laurels however he has now complemented them with the
+three books under review, the production of any one of which
+would have been more than adequate for most of us; to have
+produced all three in such rapid succession says much for his
+enthusiasm, his word processing skills and indeed his
+publishers' confidence. There is perhaps inevitably a sense
+of <foreign>déjà vu</foreign> when reading through all three of these
+volumes; several of the pieces in <title>Relational Database</title>,
+for example, are unabashed reworkings of earlier papers, one
+of which (the SQL critique) reappears again in <title>A guide to
+SQL</title>, and acknowledged as such. There is some substance in
+the charge that Date is continually re-writing the same book,
+getting it wrong in different ways each time; a charge which
+he attempts to defuse by making it himself in the preface to
+the <title>Guide to SQL</title>. Nevertheless, it would be very
+difficult to choose amongst these three if one were permitted
+only one of them.
+</p>
+<p><title>Relational Database: selected writings</title> is an anthology of
+seventeen papers most of which appeared in various varyingly
+inaccessible professional journals or conference proceedings
+during the past 15 years, together with two previously
+unpublished pieces and a lengthy interview. The formality of
+presentation naturally varies somewhat amongst these and
+there is also some repetition; however Date's style, even at
+its most formal, is never obscure and the complete tyro need
+not be put off by the book's provenance. On the contrary,
+Date has the rare ability to expound the most abstruse
+notions in a way not only comprehensible but also exciting,
+without compromising the technical complexity of his subject
+matter or fudging the issues. In many of these papers there
+is an urgency of polemic to which the least technically-
+minded can respond; such topics as the role of null values
+(somewhat of a King Charles's head for this author),
+integrity constraints, the outer join or updateable views in
+Date's hands cease to be arcane matters beyond the
+comprehension of those without a master's degree in computer
+science. And on some seemingly esoteric issues, such as the
+importance of orthogonality in language design, the reader
+with a humanistic background may find him or herself
+agreeably surprised by the closeness of Date's position to
+his or her own.  
+</p>
+<p>The book is divided into four major sections, on relational
+database systems in general, on the differences between them
+and non-relational systems, on the SQL language and on
+database design; within each section, individual chapters
+bear the full paraphernalia of abstract, preface,
+conclusions, comments on republication, bibliography etc. The
+effect of all this formal structuring is twofold: firstly it
+serves to control Date's exuberance — his willingness
+(manifest in the reprinted interview) to have an opinion on
+every database topic under the sun. Secondly, it makes the
+book more usable as a reference work, containing as it does a
+distillation of several of the debates (now largely settled
+for better or worse) which have been animating both academic
+and professional data processing communities over the last
+decade. Members of other communities, to which these debates
+have been as but distant rumblings, will derive
+correspondingly more profit from their summaries here, while
+some chapters (notably the chapter called "Some relational
+myths exploded") should be made compulsory reading for all
+those claiming to have any opinion on the subject of database
+systems at all.
+</p>
+<p>Amongst the "relational myths" most in need of explosion is
+the one that regards the academic (i.e. theoretical,
+impractical etc.) parentage of relational database systems as
+a weakness rather than a strength. Of the three or four such
+systems currently clamouring for control of the marketplace,
+it is therefore all the more pleasing that the system which
+at the moment dominates the non-IBM world should be directly
+descended from a prototype built at the University of
+California at Berkeley during the early 1970s. The design and
+construction of INGRES and its evolution into a highly
+successful commercial product have been described in some
+detail in a book  by Michael Stonebraker (<hi>The INGRES
+papers</hi> 1986); Date's volume <hi>A guide to INGRES</hi> is
+complementary, providing a fairly detailed and not entirely
+uncritical description of that commercial product, as
+currently marketed by Relational Technology Inc. for machines
+of all sizes from the IBM PC upwards.
+</p>
+<p>As far as possible this volume eschews polemic and (even)
+theory. Consigned to an appendix there are two chapters, one
+on the advantages of relational systems in general and INGRES
+in particular and the other a much condensed version of the
+paper on relational concepts also reprinted in <hi>Relational
+Database</hi>. Instead, the book is clearly intended as a
+teaching text. The same well-worn supplier and parts database
+is used as example throughout and there are useful exercises
+at the end of each expository chapter. Not all components of
+the INGRES system are treated with equal thoroughness
+however. In particular, QUEL (the original INGRES relational
+database language) gets very much more detailed treatment
+than SQL (the standard relational database language), and
+some features, most notably those peculiar to the current
+version of RTI's INGRES such as the various application
+development tools, are treated very patchily indeed. There is
+of course considerable overlap between the facilities of SQL
+and QUEL, and there are many who consider the latter to be a
+better and more powerful language than the former;
+nevertheless, if only for reasons of standardisation, it
+seems likely that most newcomers to INGRES will begin with
+SQL — and consequently find this book less useful than it
+might be. 
+</p>
+<p>Detailed descriptions of (say) the INGRES screen painting
+utilities would clearly be out of place in a text book. All
+the same it seems a pity that Date has not bothered to give,
+say, OSL (the INGRES "fourth generation language") the
+detailed critical attention it needs, both in its own right
+and as a fairly representative exemplar of the sort of high
+level glue to be found in most modern relational database
+systems. Similar considerations apply to the INGRES report
+writer and the EQUEL/FORMS interface. Just enough information
+is provided about each of these to give some idea of their
+capabilities, but for more detailed knowledge, the student or
+practitioner must refer to the manufacturer's manuals, where
+critical assessment is unlikely to be had, for all their
+other merits. 
+</p>
+<p>In his <hi>Guide to the SQL Standard</hi>, Date amply compensates
+for the lack of information on SQL in the INGRES volume. The
+<hi>Guide</hi> is really two books in one: one is a relatively
+informal but very thorough summary-cum-tutorial about the SQL
+standard itself; the other, which runs below the surface
+throughout, finally emerging in a 50 page appendix, describes
+the shortcomings, infelicities, inconsistencies and downright
+lacunae to be found in that standard — some of them far from
+trivial — together with some suggestions as to how they might
+be removed. The tutorial and expository parts are lucid,
+jargon-free and reliable. As in his other books,a single
+example database (yes, based on suppliers, parts and
+projects) is used throughout. This has the virtue of
+concentrating the reader's attention on the SQL feature being
+illustrated rather than the quiddity of the application, but
+the defect of requiring a certain imaginative effort on the
+part of the reader wishing to apply that language feature to
+a topic more relevant to his own concerns. There is also a
+particularly useful set of exercises (with model answers),
+the mastery of which may be taken as proficiency in the
+language.
+</p>
+<p>Readers of this journal may perhaps wonder why, if the
+standard is so flawed, it is worthy of their consideration at
+all, or question the need for any sort of standardisation in
+database languages in the first place. This is not perhaps
+the place to tackle either of these fundamental
+misconceptions. Some important differences between SQL and
+other computer languages should however be stressed. In the
+first place, SQL is based on a sound theoretical model (the
+relational model first defined by Codd in 1970) and as such
+demonstrably superior to other languages based on ad hoc
+perceptions of the way problems are or might be solved.  In
+the second place, SQL is a very high level language for
+defining, re-defining and manipulating database structures in
+terms which are entirely independent of their physical
+storage  or realisation. It thus becomes possible for your
+favourite database software package X running on machine A to
+manipulate data held by your worst nightmare package Y
+running on machine B, even to join it seamlessly with data
+held by a package Z of which you have never heard running on
+a machine C of the existence of which you are also ignorant.
+Now that SQL has made the difficult transition from de facto
+standard to official acceptance, more and more major database
+software suppliers are adding SQL interfaces to their
+existing systems to make this possibility a reality. It is
+already possible to develop small (and not so small) database
+applications on an off-the-shelf micro, secure in the
+knowledge that they can be moved to larger mainframes with no
+more effort than recompilation when they outgrow the micro's
+capacity, or to integrate separate parts of a distributed
+database held on a network of such micros. These are the real
+benefits of standardisation, and, for all its shortcomings,
+the SQL standard is a very important first step towards
+reaping them. Acquiring a detailed knowledge of that standard
+is of corresponding importance for all those wishing to make
+use of database technology in the years to come, and Date's
+works are amongst the best to be found for that purpose. </p>
+</div>
+

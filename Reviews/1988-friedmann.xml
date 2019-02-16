@@ -1,0 +1,59 @@
+<!--
+From:	VAX::ARCHIVE      10-FEB-1988 16:01
+To:	LOU
+Subj:	
+-->
+
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="friedmann">
+<head><title>The Little <hi>LISPer</hi></title>, by D.P. Friedmann and M Felleisen (MIT Press,
+1987). Price £9.95 p/b. ISBN 0-262-56038-0; 186 pp.
+</head> 
+<p>It is hard to believe that the first edition of this classic 
+introduction to the wonders of recursive list processing first 
+appeared over a decade ago. In this new and expanded version,
+nothing of the freshness and wit of the original has been lost,
+while  the  ingenuity with which exposition and drill are combined 
+by its catechitical form is no less impressive.  Above all,  
+the authors' enthusiasm for their subject remains no less infectious. 
+What is new in this volume, is a broadening of purpose: where 
+the first edition was primarily a self-teaching manual for the 
+then-modish LISP language, this new edition (coming into a sadder 
+and wiser world) has a larger purpose: to use the Ten Commandments 
+and Five Laws of Lisp as a vehicle for the teaching of recursive 
+techniques and their value in general-purpose problem-solving. 
+As an aim, this cannot be faulted. The value of LISP as a programming 
+language remains debatable (and hotly-debated); its elegance 
+and simplicity as an embodiment of some fairly crucial notions 
+of computer science surely much less so. 
+</p>
+<p>In its first incarnation, this book did a great deal to broaden 
+the appeal of the language. It really was possible (as the original 
+preface suggested you should) to sit down by the refrigerator,
+slog your way through the book and feel your mind being modified. 
+The importance of the refrigerator as mother / sustenance figure 
+in American culture is not entirely irrelevant in the present 
+context, for this book's curious obsession with food cannot be 
+ignored, if only because of its effectiveness as a way of gaining 
+that complicity between instructor and instructed on which a 
+good teacher always depends. At the end of the first chapter,
+for example, with the notions of ATOM, LIST, CAR, CDR, NULL and 
+EQ firmly under our belt, we are advised to make a "peanut butter 
+and jelly sandwich" - and provided with a blank page on which 
+to spill the jelly (anglicé, jam).  At the end of the seventh 
+chapter, there is a (fairly reliable) recipe for making that 
+staple of American cuisine, the chocolate chip cooky, unusual 
+only in that it is written in LISP.  
+</p>
+<p>As the preface warns, this book should not be read by those seriously 
+interested in dieting. Nor is it particularly suited as a classroom 
+text in either logic or LISP programming. But  as a painless 
+- even pleasant - form of mental exercise for those left feeling 
+flabby and out of condition by the more formal ways of grappling 
+with recursive principles, this book is a tonic heartily to be 
+recommended. At least some of the healthy state of logic programming 
+today must be due to the enthusiasm which the first Little Lisper 
+kindled in a past generation of students; the effects of this 
+new edition on a new generation will be all the more interesting 
+to watch for.
+</p></div>
+

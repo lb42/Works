@@ -1,0 +1,111 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="hockeyIde"><head>Review: Research in Humanities Computing 4 &amp; 5
+Lou Burnard
+    Humanities Computing Unit
+    University of Oxford
+    lou.burnard@oucs.ox.ac.uk</head>
+<head>
+Selected papers from the ALLC/ACH Conferences 1992 (eds. S. Hockey &amp; N.
+Ide) &amp; 1995 (ed. Giorgio Perissinotto). Clarendon Press, Oxford 1996.</head>   
+<p>
+These two volumes, the latest to appear in OUP's somewhat dilatory series of
+publications on Research in Humanities Computing, under the general editorships
+of Susan Hockey and Nancy Ide, offer the reader an interesting opportunity to
+review activities in this field over the last five years, and thus to compare
+progress on a rather longer time scale than usual. The first collects 14 papers
+from the ACH-ALLC conference held in Oxford in 1992, while the second presents a
+further 15, from the ACH-ALLC conference held in Santa Barbara, some three years
+later in 1995. Both bear a publication date of 1996.
+</p>
+<p>
+In 1992, the field was still dominated by literary statistics and quantitative
+methods. The papers by Burrows, Lancashire, Lessard and Hamm, and Opas might
+have been written at almost any time since the beginnings of humanities
+computing in the seventies: their dense tables of statistics, graphs, and
+diagrams bear witness to the continued vitality of a tradition that two decades
+of scepticism have not yet succeeded in dislodging. Whether their topic is
+language variation amongst writers of different nationalities (Burrows),
+automatic identification of phrasal collocations within a specific historic
+genre (Lancashire), or author (Lessard and Hamm), or multivariate statistical
+analysis of an author's style (Opas), these authors have all worked hard at the
+difficult problem of making mathematically-based reasoning accessible to a
+largely innumerate readership, and at clarifying their own methodological stance
+within an academically-respectable tradition. Whether any of the work can be
+said to have produced impressive new ways of reading, or provided anything more
+than confirmation of conclusions already reached by other methods, remain open
+questions. 
+</p>
+<p>
+In 1995 quantitative methods remain an important, almost an institutionalized,
+part of the field. Impeccable papers by Baayen, Frischer et al., and Tweedie et
+al. (the latter is cited as co-author in three of the papers in this volume:
+surely some kind of record) focus on ways of making sense out of the reams of
+statistical data which concordancers and the like throw up. Baayen and the
+Frischer team make distinct, and equally good, cases for continuing to be deeply
+sceptical about some of the claims of the stylometricians, while the papers from
+Tweedie and her collaborators continue the tradition of bending the latest new
+technology (here, multivariate analysis and neural nets) to the oldest problem
+(authorship identification).
+</p>
+<p>
+As this last example shows, the methods and techniques of humanities computing
+have always been characterized by a wide ranging eclecticism. In the 1992
+volume, for example, we find connectionism applied to poetic meter (Hayward);
+parser generator systems applied to Greek metrics (de Jong and Laan); NLP
+techniques developed for text understanding systems applied to reader response
+theory (Snelgrove); data modelling techniques applied to lexicography (Ide and
+Veronis) and a particularly productive application of the cladistic techniques
+developed in the biological and natural sciences to the analysis of manuscript
+variation (Robinson and O'Hara). In 1995, correspondence analysis is used to
+define a typology of computer mediated narrative (Aarseth), and also as a means
+for providing the raw data for visual presentation of a philosophical concept
+(Bradley and Rockwell); distributed database systems grapple with the problem of
+integrating text collections (Giordano, Goble and Källgren); and
+object-oriented systems represent complex humanistic analyses (Simons).
+</p>
+<p>
+Perhaps the most significant preoccupation for the field, to which these volumes
+bear ample witness, is a focus on basic issues of text representation (or
+encoding) and corpus construction. Methodological papers elaborating ever more
+sophisticated techniques of statistical analysis remain of little use or
+credibility if the data analysed derive from arbitrary or academically
+indefensible language samples. In providing a standard method for the creators
+of digital resources to document and make explicit their transcription and
+encoding practices, the Text Encoding Initiative has laid the ground work for a
+revolution in the field, as well as re-centering its attention on the
+hermeneutic issues that characterise the humanities. It has also greatly
+facilitated the transfer of techniques and methods between different groups of
+researchers, working often in quite different disciplinary fields.
+</p>
+<p>
+This 'cross-over effect' is particularly apparent in the way that the insights
+of corpus linguistics and other areas of applied linguistics have changed our
+notions of the enterprise of literary exegesis and analysis. The 1992 volume
+contains two particularly useful articles by van Halteren, on part of speech
+tagging, and Burr, on corpus design methods, both of which should be required
+reading for anyone interested in the construction of lexical corpora for
+whatever purpose. It also contains two nicely complementary articles on the
+inter-relationship between tagging and interpretation, from McCarty and Renear
+et al. In 1995, a year after publication of the TEI <title>Guidelines</title>, similar
+theoretical encoding issues are articulated in the context of a growing number
+of applications and realistically scaled projects. Examples include Hofland's
+practical description of an algorithm for automatic alignment of parallel
+corpora; Simons' description of an object-oriented implementation of the TEI's
+feature structure markup; and Calzolari and Monachini's account of the EAGLES
+proposals for standardization of morpho-syntactic analysis. The pragmatic force
+of such contributions is a pleasing counter-balance to the more speculative
+papers reviewing the limitations of the encoding enterprise, such as Neuman on
+manuscript transcription, or Källgren on the problems of automatically
+tagging Swedish.
+</p>
+<p>
+These volumes show that humanities computing is more than a ragbag of techniques
+and applied statistics. It is interdisciplinary and synergistic, in the best
+senses of those rather overworked words, bringing insights from many fields to
+bear on a common set of tasks. If these volumes are to be believed, it also has
+a defined focus: the traditional humanistic concern with textual integrity and
+explication. Those embarking on an exploration of how computer-based techniques
+can support, hinder, or enrich that mission will find substantial guidance and
+information in them, beyond the simple chronicling of continuity and change
+within the research field they document.
+</p>    
+</div>

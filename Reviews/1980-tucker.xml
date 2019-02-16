@@ -1,0 +1,110 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="tucker">
+<head>Allen B. Tucker Jr,<title> Text Processing: Algorithms, Languages and
+Applications</title>. (Academic Press, 1979; ISBN 0 12 702550 2. Price
+[9.40).</head>
+
+<p>As students of the humanities succumb to the lure of the computer
+with increasing frequency, so the perennial chestnut 'Which
+programming language is best suited to the job?' becomes ancillary to
+the more fundamental 'What shall we teach the rising
+generation?'. There is a growing tendency made manifest in the
+proliferation of books like this one, to provide an answer in the
+unlovely shape of 'Computer Appreciation' courses for humanities
+students. Such courses inevitably do much good in familiarizing
+students with the machine and its ways of 'thought', but also much
+harm in that they generally teach just enough to get the student to
+the point of being capable of making really significant blunders, and
+then abandon him or her.  One should (perhaps) drink deep or taste not
+the cybernetic spring. These dangers are particularly acute when what
+is being purveyed are so-called 'state-of-the-art' techniques or
+systems, such as text processing. Computer systems, like atomic
+particles, have a bad habit of mutating whilst one is appreciating
+them. Nevertheless, just as Literary Appreciation is frequently a
+compulsory soft option for hard-boiled science students, so we may
+expect Computer Appreciation to perform a symmetrical role for
+humanities students. The need for a sound introductory text book for
+such courses is evident, and the present volume is not the first to
+try to meet it. Neither, I fear, is it the first to fail dismally in
+the attempt. It covers very well-trodden ground in a perfunctory
+manner and is chiefly distinguished by one of the worst bibliographies
+I have ever seen on the subject.
+</p>
+<p>There is an introductory chapter on the basic concepts of the
+algorithm (erroneously presented here as an essentially sequential
+concept), a brief account of the sort of hardware likely to have
+been encountered at a University computing centre four or five
+years ago and its limitations, and an even briefer account of one,
+rather eccentric, method of encoding text — which is not made
+any less eccentric by misprints in the examples. Chapters 2 and 3,
+introducing the languages PL/1 and SNOBOL respectively, form the
+heart of the book. Neither chapter adds anything to the author's
+earlier and better treatment of them and of other matters in his
+Programming Languages (McGraw Hill, 1977), apart from a
+proliferation of prints a_nd syntactic solecisms, so great as to
+render the book occasionally intelligible and invariably
+illiterate. I remain unconvinced of the pedagogic soundness of
+teaching programming as if the language used were an integral
+part of task; students of the humanities in particular are well
+accustomed to the 'compare and contrast' discipline and should
+have correspondingly little difficulty learning about two or
+more languages in parallel. Such a treatment would also ensure
+that — say — the curiosities of PL/l's input/output system
+(which take up a disproportionate amount of Chapter 3) would not
+be seen by the student as an inescapable hurdle on the programming
+path. Such concepts as the nature of a table or a subprogram
+might actually become clearer if the different ways in which they
+were realized were presented in parallel.
+</p>
+<p>As a PL/1 ignoramus I cannot say that the chapter on this
+language did anything reduce my prejudice against the language,
+while the SNOBOL chapter includes no mention of the TABLE
+function, surely more important in SNOBOL than the ARRAY function,
+no mention of the effect of the anchor in pattern matching, and
+no discussion at all of user-defined datatypes — surely at least
+as important as PL/1's SQL-like record-structuring capabilities.
+The SNOBOL chapter is also particularly rife with misprints in the
+examples, a heinous crime in any text book. Angle brackets are
+used for parentheses so consistently as to cast doubts on Mr
+Tucker's knowledge of his subject; doubts reinforced by such
+barbarisms as the following, which occurs as a model answer to one
+of the exercises:
+<eg>
+NOUN DUPL(NOTANY('AEIOU'),2) RPOS(0) = NOUN 'ES'
+</eg>
+Spacing, which is notoriously crucial in SNOBOL code, is haphazard
+in the examples throughout. A prize specimen is the example on
+page 99, where 16 lines of SNOBOL code contain four different
+syntactic errors.
+</p>
+<p>Chapter 4 is called an 'Overview of Text Processing Packages and
+Applications'; the words 'currently available on the IBM 370 at
+Georgetown University' should be added. Four packages are described
+— a primitive concordance generator called KWIC (so primitive it
+considers the hyphen to be a word), the FAMULUS information retrieval
+package, the CMS Editor, and a text formatter called SCRIPT. (I would
+not class any Editor as a text processing package myself, but rather
+as part of any reasonably-sized computer's operating system, but this
+may be my own eccentricity.) The parochialism of this selection
+further appears in the astounding error which Mr Tucker perpetrates at
+least four times during the course of the book, (I quote) <q>this is
+true of most current text processing packages; none is so widely used
+that it has been implemented and supported on more than one computer
+species.</q> What about COCOA (a package of which mirabile dictu Mr
+Tucker knows nothing)? What about ROFF (another one, and surely a
+better-known text formatter than SCRIPT)? What about FAMULUS itself,
+which has to my knowledge been available on CDC 7600 and 6600, DEC 10,
+ICL 1900 and 2900, as well as IBM 370 for at least the last three
+years?
+</p>
+<p>But enough. It is embarrasingly clear from the bibliography
+and final chapter of the book that its author has only a
+perfunctory knowledge of his subject; enough perhaps for the
+humanities students of Georgetown University, Washington. But
+neither he nor they can expect to make much progress in the
+field without at least nodding acquaintance with what the rest
+of the world has been up to for the last few years.
+</p><trailer>L.D. Burnard
+Oxford University Computing Service
+</trailer>
+</div>
+

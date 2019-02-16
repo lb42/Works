@@ -1,0 +1,167 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="ennals">
+<head>RICHARD ENNALS and JEAN-CLAUDE GARDIN, eds. <title>Interpretation in the
+humanities: perspectives from artificial intelligence</title>.
+(Library and information research report 71, ISSN 02673-
+1709; 71) Boston Spa: British Library Board, 1990. xv, 367
+pp. £25. ISBN 0-7123-3186-7.
+</head>
+
+<p>This is a very unusual book, deriving from a rather unusual
+occasion, though of a type which, it is to be hoped, recent
+successfully completed engineering works beneath the Channel
+will increasingly facilitate. It represents a genuinely
+collaborative effort, involving practitioners of disciplines
+as seemingly far apart as literary theory, prosopography,
+philosophy, computer science and law, and cultural habits as
+distinct as Anglo-saxon empiricism and Gallic theory. Its
+subject is what should be at the heart of all the
+humanities: interpretation, that hermeneutical process which
+distinguishes true scholarship from academic scribbling. As
+a means of throwing some light on just what that process
+might involve, each of the contributors to this volume
+addresses the question of <q>computability</q>, that is, the
+extent to which the process of interpretation in a given
+field can be re-expressed in computational terms, without
+losing sight of creativity, that quasi-mystical process by
+which cognition and understanding come about. To what extent
+can literary, historical, philosophical or legal analyses be
+simulated in formal terms? Is there an inherent
+contradiction between the attempts which expert systems make
+to formalise the interpretative process and the stress which
+most of the humanities have traditionally placed on
+multiplicity of meaning, on the importance of ambiguity? </p>
+<p>
+The volume contains fifteen papers, four of them in French,
+with an English abstract, and the remainder in English, with
+a French abstract, together with a brief epilogue by the two
+editors. The papers derive from a Workshop jointly funded by
+the British Library and the French Government department
+responsible for museums and libraries (the Direction des
+Bibliothèques, des Musées et de l'Information Scientifique),
+organised by Dr May Katzen of the British Library's Office
+for Humanities Communication and held at Cawthorpe House in
+September 1988. Much of the keen intellectual pleasure the
+invited participants must have derived from this latter day
+symposium, as well as perhaps some of their occasional
+mutual bafflement, is well preserved in the edited texts,
+each of which deserves more careful and detailed analysis
+than this brief review can give them.  </p>
+<p>
+The volume begins with an introductory section, in which
+Margaret Boden presents an accessible but inevitably
+somewhat skimpy presentation of the nature and goals of
+Artificial Intelligence itself, Jean-Claude Gardin (whose
+distinguished aegis hangs over much of the volume) considers
+its applicability to the human sciences, and Richard Ennals
+places its insights in a historiographical context. Gardin's
+paper asks awkward questions in a characteristically
+charming way:  what defensible basis can be found for
+privileging (i.e. funding) some sorts of interpretation by
+some kinds of people over others?  Referring to Shennan's
+paper in the same volume, which argues that archaeological
+interpretations would be better based on formal reasoning
+than on the interpretive constructs of archaeologists, since
+the latter are inevitably influenced by their own
+culturally-determined interests, Gardin sketches an account
+of his own <q>logicist</q> approach to this fundamental
+epistemological problem, including several useful references
+for further reading. He concludes with an incongruously
+Thatcherite attack on the notion of <q>professionalism</q> as a
+means of validating scientific interpretation -- perhaps a
+result of the striking absence of the <q>cult of the amateur</q>
+in his own culture. Ennals rehearses a similar argument in
+favour of formal reasoning, which for him is what good
+historians have already been doing unawares (rather as M.
+Jourdain had been speaking French), if they have taken to
+heart the lessons of Collingwood, Wittgenstein and other
+theoreticians of language. His major concern is with <q>cross-
+cultural</q> fertilisation of ideas, (not only across the
+channel but also across disciplines), and with a view of
+interpretation as code-breaking: as such, he risks
+exemplifying the well-meaning amateur, as witness also his
+quirky fascination with the ways of Westminster. </p> 
+<p>
+The second part of the book consists of a number of well-
+focused papers on applications of Artificial Intelligence
+techniques in three specific subject areas: archaeology,
+history and letters. </p>
+<p>
+The papers of Stephen Shennan, Henri-Paul Francfort and John
+Wilcock present good accounts of the achievements so far of
+the <q>logicist</q> approach in archaeology, Wilcock's overview
+being particularly accessible for the novice. The section on
+history contains a bravura performance in which Jim Doran
+assesses the ability of <q>distributed artificial
+intelligence</q> to represent the complex semiotic models
+developed by Todorov in his magisterial <q>Conquest of
+America</q>; perhaps surprisingly, both semiotics and AI are
+shown to profit from this unlikely encounter, which is also
+certainly one of the most intellectually impressive in the
+book. Kevin Schurer's piece on possible applications of AI
+in historical demography seems initially rather pedestrian
+and inconsequential by comparison. Nevertheless, it is
+quietly subversive of some of the other articles in this
+work in its opposition to logical positivism and its stress
+on the practicalities of computing in history today, and
+repays careful study. </p>
+<p>
+David Miall's paper discusses reader response theory, the
+basic notions of which also seem somewhat removed from
+logicist modelling. Noting that what characterizes a
+literary text is its ability <q>simultaneously to establish a
+norm and to subvert it</q>; Miall uses statistical techniques
+borrowed from behavioural science to measure the <q>affect</q> of
+such texts rather than any underlying formal model.  Some
+more orthodox applications for AI are briefly described in
+the same section by Danielle Bourcier, who considers their
+very real potential in simplifying and making more effective
+local administration and law.</p>
+<p>
+The final section of the book contains five comparatively
+technical papers drawn from the disciplines which in some
+sense underlie artificial intelligence -- linguistics,
+logic, computer science and philosophy. Michel Charolles is
+not well served by the three page summary of his 33 page
+original, which includes a good summary of the emergence and
+history of discourse analysis, even handed criticism of the
+notions of text grammars and a discussion of why logicist
+analysis has nothing to offer it. This must be read in the
+original French, if only for the sake of the example
+sentences; it provides a persuasive instance of a kind of
+interpretation (the establishment of coherence in a
+discourse) which does not seem to be susceptible to
+formalisation by logicist rules. Jean Fargues fleshes out
+the introduction to AI provided by Margaret Boden, with some
+more specific discussion of its application in work towards
+language-understanding systems. Peter Stockinger provides a
+more detailed discussion of logicist analysis, from the
+perspective of formal logic. Judith Richards argues,
+briefly, for the importance of the so-called <q>strong</q> AI
+approach, and the possibility of rediscovering its radical
+potential which the direct modelling of human reasoning (or
+<q>qualitative simulation</q>) offers. Finally, in one of the
+longest, most thoughtful and thought provoking pieces of the
+volume, Pierre Jacob gives a philosophical perspective on
+the issue of what exactly <q>interpretation</q> is,
+distinguishing at the linguistic level interpretation as
+grammatical decoding from the kind of process defined by
+Grice as <q>implicature</q>. This second kind of interpretation
+is then related to cognition and intentionality, as a
+prelude to a discussion of the distinction between
+interpretation and explanation, specifically scientific
+explanation.</p>
+<p>
+A useful concluding summary by the two editors underlines
+the overall effect of this unusual collection: from whatever
+theoretical or pragmatic standpoint one approaches it, both
+computability and creativity are necessary <q>engines of
+knowledge</q> in both the arts and the sciences. This volume
+provides a vivid testimony to the effectiveness of
+conjoining rather than opposing them. </p>
+<trailer>
+                                                 LOU BURNARD
+                         Oxford University Computing Service
+</trailer>
+</div>
+
+

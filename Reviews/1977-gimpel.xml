@@ -1,0 +1,89 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="gimpel">
+<head>J. F. Gimpel, <title>Algorithms in SNOBOL4</title>, 
+Wiley, 1976, price £12.90,487pp.</head>
+
+<p>Books on specific programming languages tend to come in one of two
+flavours — the exhaustive or the evangelical. At one extreme, we
+have the formal language definition which expresses with rigorous
+abstraction a syntax and morphology as if so vulgar a thing as
+compiler or program were beneath consideration
+(<foreign>vide</foreign> Revised Report on Algol 68), and at the other
+we have the persuasive primer, demonstrating in embarrassing detail
+yet another way of discovering how many beans make five. Fortunately
+for those of us who actually have to do the job, there are a few books
+with a third flavour all of their own, which one can only call
+exemplary, and Gimpel's book is a leader amongst them. It is not
+enough to whet the appetite, nor yet hardly to state the facilities of
+a language like SNOBOL 4. For this language, perhaps more than others,
+a text providing a full range of concrete examples of 'how to do it'
+has been long overdue. The topics covered range widely over the
+spectrum of (basically) non-numeric computing, embracing with equal
+thoroughness compiler writing, pattern matching, sorting, text
+formatting, random sentence generation — not to mention a fully
+interactive poker game simulation.  The diversity of the applications
+which Gimpel so effortlessly demonstrates makes a powerful case for
+SNOBOL 4 as not just another cumbersome Markov language.  Because it
+is probably easier to write bad — by which I mean both
+inefficient and inelegant — code in SNOBOL than in almost any
+other language (except FORTRAN), it has often been assumed that
+efficient and elegant code is impossible in SNOBOL.  In this very
+journal<note n="1" place="foot"><bibl>A. M. Addyman <title>A Language
+for Linguistic data Processing - 1</title>. <title level="j">ALLC
+Bulletin</title>, 4 (1976), No. 2</bibl></note> it has been stated
+that SNOBOL is unsuited to linguistic data processing on grounds of
+lack of <q>efficiency, type- checking, and file-handling
+facilities</q>. This is not the place to go into the argument in
+detail, but probably anyone glancing through this book, certainly
+anyone who has actually used the language, will find Addyman's
+judgement a little sweeping. To complain of the lack of type-checking,
+for example, is simply to misunderstand the nature of the language. As
+tor 'efficiency' — the use of a language as rich in facilities
+as SNOBOL must surely increase it if we include 'person-time' as well
+as 'machine- time' in our calculations. Or must every application
+redesign such basic elements of linguistic data processing as an
+associative table facility, built-in functions to analyse strings at
+machine code speeds, and an efficient dynamic storage mechanism? Ihose
+attracted to SNOBOL by its inclusion, not just of these but of a whole
+range of rich and complex string handling facilities, have often found
+themselves floundering because of that very richness. Gimpel's book is
+a valuable corrective, inculcating good programming practice by solid
+example backed up by cogent explication. The hook is divided into
+eighteen sections, each of which contains an informal but thorough
+discussion of the relevant points of theory, code for SNOBOL 4
+functions to implement them, and a wide range of exercises to test the
+reader's understanding. The SNOBOL 4 code has been written with a
+conscientiously applied system of naming conventions which allows the
+functions to be simply 'plugged in' to existing programs with the
+minimum of upheaval. The book is more than simply a crib for the
+overworked programmer, however (but certainly not less); one is
+encouraged to understand the problem as well as its recommended
+solution. Since only a basic knowledge of SNOBOL is assumed, the book
+commends itself equally to the expert and to the novice
+programmer. Much of the information on the various implementations of
+SNOBOL is unavailable elsewhere, and the thoroughness of the two
+sections discussing pattern matching is particularly notable. In
+Gimpel's phrase, this has always been <q>one of the murkier aspects of
+the language</q>, and, if his discussion is at first blush a little
+forbidding, it is none the less indispensable. Another useful section
+provides efficient code for various common mathematical functions, the
+lack of which has often been considered a deficiency in the language,
+and the light-hearted programmer will derive much profit and
+entertainment from such functions as PHRASE (which delivers a random
+insult, or compliment, to enliven execution of any interactive game
+simulation) or RSTORY (which produces endless variants on a basic
+story syntax). The success of the section on text formatting may be
+gauged by the book itself, which was produced in its entirely on the
+computer. It says much for Gimpel's honesty, and his faith in his
+work, that he has left the occasional wart in the layout unretouched!
+No SNOBOL programmer's library is complete without a copy of this
+book, and even the most hardened FORTRAN user may learn something from
+the algorithmic sections of it.
+</p>
+<trailer>
+L. D. Burnard
+University of Oxford Computing Laboratory
+</trailer>
+</div>
+
+
+

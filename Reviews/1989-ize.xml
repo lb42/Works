@@ -1,0 +1,414 @@
+<!--
+From:	VAX::LOU          "Lou Burnard" 12-APR-1989 12:11:01.01
+To:	CBS%UK.AC.UCL.CS.NSS::EDU.UCHICAGO.GIDE::mark
+CC:	LOU
+Subj:	new improved ize review
+-->
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="ize">
+<head>
+Software Review: IZE version 1, March 1988. By Persoft Inc (
+
+Lou Burnard, Oxford University Computing Service
+</head>
+
+<p>These days it's getting harder and harder to find a really
+innovative idea in the creation and management of electronic texts.
+Most players are happy to follow the tried and tested route of
+stealing the best ideas from the competition and then lumping them
+all together. This can turn out disastrously like trying to build
+a racehorse by combining the wheels of a Maserati, the engine of
+Concorde and the guidance system of a fruit bat. What you get when
+you combine a word processor, a free form database system, a text
+retrieval engine, an outliner and a hypertext authoring system is
+arguably just such a chimera. But IZE has one good and original
+idea which might just catch on and which makes it well worth a
+second look: using keywords alone to structure, identify and store
+texts within a text base.
+</p>
+<p>IZE comes in a smartly designed box, containing a white package
+labelled "Opening your IZE" which has the installation disks etc.
+in it, a red package called "FamiliarIZE" which is a tutorial
+guide, a blue package called "Using your IZE" which is a reference
+manual, and a yellow one called "UtilIZE" which lists available
+printers and other mundane matters. (There is also the usual
+booklet of last minute updates to the manual, which is headed,
+groan groan, "ApologIZE"). I installed IZE on a Compaq DeskPro 386S
+with as much memory as DOS 3.3 can handle, but not unfortunately
+a colour monitor, so that I was unable to verify my suspicion that
+red, blue, yellow and white blocks also cohere to form the logo at
+the centre of the package's welcome screen. During the otherwise
+unremarkable installation process I was only once perplexed (by
+having to decide which 'hot link' drivers I wished to use, before
+I had any idea what a hot link driver might be). The package is not
+copy-protected and I was not asked to supply a licence number when
+installing it. The software alone takes up around 1.5 Mb of disc
+space, and needs 380 Kb of memory. It can be installed as a TSR
+(RAM-resident) program, if your system has enough spare memory for
+the purpose. 
+</p>
+<p>IZE looks as if it came from, or was designed for, the familiar
+Macintosh/Windows interface. It has pull down menus on which
+inaccessible choices are signalled in brackets. Arrow keys or
+initial letters can be used to select options, and there are built-
+in short cut keyboard commands (usually CONTROL plus an alphabetic)
+as  alternatives for some, but not all, menu options. This version
+of the software does not seem to provide any support for a mouse,
+which is rather odd in a package so clearly designed for a WIMPish
+environment. For those who dislike scanning through menus, it is
+possible to define 'keyboard macros' which allow a single keystroke
+to stand for a whole sequence of menu selections. Macro definitions
+cannot be edited (you have to retype them until you get them right)
+but can be named, grouped into named sets or exported to other IZE
+databases. It is also possible to specify a macro to be executed
+whenever a particular text is accessed. The richness of this set
+of facilities perhaps reflects IZE's parentage in that Persoft is
+best known for its extensive range of communications software.
+</p>
+<p>IZE is used to maintain one or more 'textbases', each composed of
+many (up to 32,000) separate texts. Texts can be created using
+IZE's own word-processor, or loaded in from other sources. They
+need have no common structure, either internally or viewed as a
+group: all that IZE requires is that each text have at least one
+keyword or other way of linking it with the rest of the textbase.
+</p>
+<p>The word-processing part of IZE is competent, if unexciting. It has
+all the usual features for moving through a text in terms of
+characters, words, lines sentences or pages, forwards or backwards;
+delete functions for similar units; block moves and deletes, cut
+and paste, automatic word wrapping etc. It allows visual attributes
+(emboldening, underlining or inverse) to be added to parts of the
+text in a fairly simple way and has an adequate range of re-
+formatting options to cope with changes in margins or page depths.
+Running headers or footers can also be added. Support for non-Roman
+alphabets is rudimentary and there is no spell checker or support
+for multiple fonts or point sizes. One interesting alternative for
+those too addicted to some other wordprocessor to contemplate using
+IZE's is to use the 'hotlink' facility referred to above. This
+stores in the IZE textbase a surrogate text which when accessed
+loads a nominated program (the wordprocessor of your choice) into
+memory, while retaining enough of IZE  for you to continue marking
+keywords etc. This is a good example of a neat idea made more or
+less useless by the hostility of an unfriendly operating system:
+I found it impossible to squeeze enough memory out of my system to
+load both WordPerfect version 5 and IZE without removing my RAM
+disk and reconfiguring my system entirely. The HotLink facility
+worked satisfactorily with the Norton Editor - which for all its
+other merits is not the word processor of my choice.
+</p>
+<p>Explicit links between texts may be created independently of the
+links implied by the fact that they share keywords: this enables
+complex hypertextual structures to be built up quite simply. It is
+less easy to view the whole of a structure as IZE provides no way
+of browsing such structures short of following each link in turn;
+instead you are expected you to browse the text in terms of a
+taxonomic arrangement of its keywords, known as an outline.  Links
+are point-to-point and typeless. If the text to which a link points
+is subsequently deleted, the starting point of the link is
+retained; attempting to follow it will generate a warning. If a
+backup still exists for the missing text, you can recover it, but
+its links will have been lost. If you try to delete a text which
+points to another text, and that link is the only access path into
+the second text, IZE will also warn you.
+</p>
+<p>Keywords are associated with a text in a number of different ways.
+You can simply hit F4 when the cursor is over a word, or CTRL-F4
+when over a highlighted block of words (but note that hyphenated
+words are treated differently in these two situations). You can hit
+ALT-F4 to open a scrolling window in which all the keywords so far
+defined are displayed, which can be added to or modified ad lib.
+You can use a keychanger (see below) to add keywords to a file as
+it is imported and to control the keywords you add yourself.
+Keywords can be up to 64 characters long, and there is no
+documented limit on the number you can use for a single text. There
+are no limitations on what counts as a valid keyword (other than
+those mentioned above), so it is usually advisable to have a filter
+(see below) in place to prevent high frequency words such as 'to'
+or 'the' dominating the keyword list, when this is being created
+on import. I found it a little surprising that no default stop word
+list is provided.
+</p>
+<p>Because all IZE links are typeless, there is no way of categorising
+the keywords used to index a text. I found this quite an
+irritation: in a textbase of electronic mail messages (from
+HUMANIST, of course) I wanted to add keywords relating to the
+sender and date of the message and also its subject, and to
+manipulate these independently. The only (and rather
+unsatisfactory) way I found of doing this was to use a filter (see
+below) to include or exclude specified  keywords. IZE is no
+substitute for a database system, though it would provide an
+interesting front end for one.
+</p>
+<p>A keychanger is a named process to be performed when a text is
+saved, when it is first imported from elsewhere into IZE, or
+optionally at any other time. A default keychanger can be nominated
+for use on import and on saving. Each keychanger can add a
+specified list of terms, unconditionally or only if they appear in
+the text, or can remove a specified list of keys already associated
+with the text. It can also mark as keywords any terms appearing
+between a pair of specified delimiters. Fuzzy-matching  cannot be
+used to specify the inclusion or exclusion list associated with a
+keychanger, and only one set of delimiting strings can be used.
+</p>
+<p>A filter is a way of specifying that some keywords are equivalent
+for searching purposes, or that others should be ignored when
+keywords are grouped into outlines.  As with keychangers, the fact
+that only one filter can be active at a time somewhat reduces the
+usefulness of this facility. Fuzzy matching cannot be used to
+specify a range of keywords to be ignored in this way.
+</p>
+<p>To search for texts, you hit F9 and then enter a search expression.
+At its simplest, this is a single word, but it can be a complex
+Boolean expression containing keywords,  free text strings in
+quotation marks, or fuzzy-matching terms. The Boolean operators 
+AND OR and NOT are used, with parentheses to resolve ambiguity. As,
+however, operators are not distinguished from keywords, the
+keywords 'and' 'or' and 'not' cannot be searched for correctly,
+though they can all be stored. Whatever part of IZE parses search
+expressions can easily be confused by requesting such things as
+'and and and' (which finds anything) or 'and or or' (which is
+syntactically invalid). Free text searching is a little slow, and
+the parser makes no attempt to optimise it: each part of a search
+expression containing a term in quotes requires a separate painful
+trawl through the entire textbase. A search expression can also
+contain pre-defined macros, identified by a dollar sign as their
+first character. Search macros can be nested but not recursive
+(though the program does not detect this until you attempt to
+execute one). And finally, search expressions can refer to the date
+a document was last modified. There is no way of restricting
+searches to particular parts of a text, 'fields' as it were, or
+restricting the range within text strings must co-occur. If some
+keywords identify the place from where a mail message comes and
+others its subject, there is no easy way of distinguishing texts
+about London from texts from London. But IZE does not claim to be
+a database management system nor a full-blown free text retrieval
+system like BRS/Search or even WordCruncher. Its searching
+facilities are there primarily to assist in the identification of
+the keyword strings which provide the only organising component of
+the textbase.
+</p>
+<p>Fuzzy-matching of keywords is done by prefixing the substring to
+be searched for with an ampersand. The exact algorithm used is not
+defined in the documentation, but seems to involve more than a
+simple stem-match, with both left and right truncation. A search
+for the keyword <code>&amp;ing</code> will be expanded to match not only all
+keywords which either begin or end with the string 'ing' (thus
+picking up both 'ingenious' and 'string') or which contain it (thus
+picking up 'Seringapatam'), but also those which have only a few
+characters distinguishing them from it, (thus also picking up
+'again' and 'in'). There is apparently no way of saying that only
+left (or only right) hand truncation is required, but the expansion
+of a fuzzy match term is available for editing before the search
+is performed. 
+</p>
+<p>String matching is always case-insensitive and also ignores some
+non-alphabetic characters such as apostrophes or hyphens. Other
+punctuation characters are treated as distinct alphabetics, so
+keywords <code>tea-pot tea_pot tea&lt;po&gt;t</code> and <code>tea'pot</code> are all permitted
+(and would be found by a search for <code>&amp;teapot</code> — but not by a search
+for <code>teapot</code>). These same characters are however ignored if they
+occur at the start or end of keywords: '-teapot' is indexed under
+'teapot'. Currency symbols are treated as punctuation of this kind,
+but not (for no apparent reason) brackets or parentheses:
+'Tea(po)t' or 'tea[po]t' are simply not permitted as keywords.
+According to the manual, spaces can be included in keywords
+('Desktop publishing' as a single term for instance) by typing
+CTRL-SPACEBAR; I was unable to get either this, or the alternative
+proposed by the manual, to work on my copy of the software.
+Characters from the top end of the ASCII character set (notably
+accented letters)  can be entered, using the ALT+numeric keypad
+method for example, and they are preserved on import. Fuzzy-
+matching will usually find both accented and unaccented forms of
+a word, where these differ in only one or two characters.
+</p>
+<p>For most users, there can be little doubt that the convenience of
+a single convention for fuzzy-matching which seems to meet most
+requirements of the kind 'give me words like "Smith"' will entirely
+outweigh the complaints of specialists who want to see all and only
+texts with keywords ending with the string "ation". Nevertheless,
+I feel that some precise description of the matching algorithm used
+should have been included somewhere in the documentation, as also
+of the character usage. It also seems rather strange that fuzzy
+matching should be possible only on keywords: the free text
+searching capabilities of IZE are severely constrained by the fact
+that no sort of wild-card is permitted and all matching must be
+exact. The other major limitation of the search facility is the
+absence of any non-string searching options: there is a date search
+but no means of comparing numerical values at all.
+</p>
+<p>Clearly, none of this is particularly novel. What distinguishes IZE
+from many other systems is that the result of a search is always
+structured not as a simple list of documents ordered alphabetically
+or in some other mechanical way, but as an outline based on all the
+keywords in the retrieved texts. For those unfamiliar with the
+concept, an outline is a hierarchic arrangement of keywords, like
+the following:
+<eg><![CDATA[
+	I.	Database software
+		A.	Relational
+			1. SQL/DS
+			2. Ingres
+			3. Oracle
+			4. Others
+		B.	Network
+			1. IMS
+			2. IDMS
+			3. Others
+		C.	Textual
+			1. Indexed
+			2. Unindexed
+			3. Hypertextual
+	II.  Database design
+		...
+]]></eg>	</p>
+<p>By default, IZE constructs such hierarchies by looking for co-
+occurring keywords. Texts using the keywords 'Database software',
+'Network' and 'IDMS' will all be grouped together under I.B.2 in
+the hierarchy.  If every text in the database uses some term 'A',
+that term will be at the top of the hierarchy. At the bottom will
+be all the terms which appear in only one text. In between will be
+all the terms which appear in more than one text. The assumption
+behind IZE (perhaps a debatable one) is that the more keywords
+texts share, the more probable it is that they should be grouped
+together. Each term in an outline can only appear at one point in
+the hierarchy, though of course the number of hierarchies that can
+be created is enormous.
+</p>
+<p>The outline returned by a query can be browsed using arrow keys in
+an intuitively obvious way. As you move down the tree (from I to
+A to 1 in my example above) new outlines are created automatically,
+until you reach the level at which only text pointers (terminal
+nodes) exist. Groups or subgroups of texts can also be browsed,
+printed, locked, unlocked or deleted. As a retrieval tool, it must
+be stressed, an IZE outline is only as effective as the keywords
+used to create it. If the keywords assigned to documents are
+ambiguous or incomplete (in that they don't correctly characterise
+the text at every hierarchic level of description required for a
+particular outline, for example) then clearly the outline produced
+will be fairly useless.
+</p>
+<p>Two tools are provided to make the ways in which keywords are
+assembled into outlines at once more flexible and more powerful:
+guidelines and filters. A guideline can be thought of as a template
+for creating an outline. It looks very like an outline, though it
+cannot be directly created from one, which is a nuisance. It may
+alternatively be thought of as a graphic representation for a
+Boolean expression limiting both the range of a query and the
+outline it is designed to return. Thus, a guideline like the one
+above could also be thought of as a search expression
+<eg><![CDATA[
+	(Database Software or Database Design) and (relational or
+network or textual) ...
+]]></eg>
+into which the texts that match are to be slotted. The cursor keys
+are used to step through the tree structure selecting different
+parts of this complex expression. Guidelines are named, created,
+edited and removed in much the same way as other objects, though
+there are some differences; for example, moving parts of a
+guideline around within it is simpler than doing a cut-and-paste
+operation, though that is also possible.
+</p>
+<p>A guideline can also be used as a template for new texts: by
+selecting a part of the guideline and pressing ALT-F5, you can
+create a new empty text with the keywords indicated by that part
+of the hierarchy already attached. The content of new texts can
+also be controlled by things called templates, which allow you to
+require for example that names and addresses are always added to
+texts at a certain point.
+</p>
+<p>Texts created in IZE can be exported to other systems, either in
+straightforward ASCII format, with no formatting codes at all, or
+in a special 'holding' format from which they can be loaded
+directly into a different IZE database. Texts can also be printed,
+using a variety of options to specify page headers, layout etc.
+Unfortunately, when files are exported to ASCII (and even when they
+are printed) the keywords associated with them are lost, which I
+regard as a serious defect in the system. It is supposedly possible
+to include keywords in the page heading when texts are printed out,
+but I was unable to get even this facility to work. A utility
+program is provided which unloads all the keywords in a textbase
+to an ASCII file, which can then be used for example as the basis
+of a keychanger for a new textbase, to enforce keyword consistency
+between textbases. 
+</p>
+<p>Like many ambitious programs, IZE is a little fragile. I found it
+quite easy to lock the keyboard up in a state where only a warm
+boot would get things moving again. So far as I can tell, this was
+usually caused by memory shortages, for example when trying to load
+WordPerfect 5, or after repeatedly loading new images of DOS into
+memory. Fortunately, the program does its best to protect you from
+the consequences of its running into a brick wall by itself
+automatically saving changed texts in a temporary file at regular
+intervals while it is running, and also by keeping backup copies
+of altered copies as they were before the most recent change. These
+two features can be disabled, independently, for those who like to
+live dangerously, or who find the performance penalty they imply
+unacceptable. I was tempted myself to disable at least the backup
+option when I noticed the difference in size between an IZE
+textbase and the raw ASCII texts from which it had been made: a
+factor of two or three seemed normal, especially if texts were
+repeatedly changed. A Regenerate option is available, which
+compacts the textbase by deleting deadwood and (presumably)
+rebalancing index trees; its regular use would seem essential in
+a live system. Performance can also be improved by using either
+expanded memory or a RAM disk for the disk swap file IZE uses when
+the number of texts currently held in memory gets too large. Even
+on a Compaq 386S, no slouch when it comes to disk access, the
+amount of time IZE takes to rewrite a section of its textbase is
+noticeable, but I could find no obvious way of improving this, and
+the manual gives no information on whether (for example) increasing
+the number or size of I/O buffers available to DOS would help the
+situation. 
+</p>
+<p>The inability of conventional record or relation based database
+management systems to cope with large quantities of seemingly
+unstructured text has long been recognised. In reacting against the
+discipline imposed by such systems, text retrieval packages have
+often been unable to offer satisfactory ways of representing the
+structure of the information carried by text, other than by ever
+more complex indexing schemes. Yet for many collections of text it
+is both possible and natural to wish to create descriptive
+taxonomies that enable that information to be accessed in a
+structured way. IZE seems to be setting a new trend in information
+management systems in its use of guidelines as an organising
+principle, which makes it well worth a second look.
+</p>
+<list>
+<item>  Title/Name of the product: IZE
+  Version, update number 1.0b (Dec 1988)
+
+  Copy protection (yes/no) No
+
+  System requirements : Needs approx 380 Kb memory and at least 1
+Mb free disk space
+
+  Operating System : MS/DOS; OS/2
+
+  Producer's name   (UK) 
+				(US)Persoft 
+          
+   Address and phone number for placing orders
+			(US) 465 Science Drive, Madison WI 53711
+				tel. (608) 273-6000
+			(UK)	Softsel House, Syon Gate Way, Great West Road,
+                    Brentford TW8 9DD
+				tel. 01-568 8866
+   List Price  (UK) £300 
+			(US) ?
+
+   Notes ( importance)
+			Needs a hard disk.
+   Equipment or software of particular importance used in
+           the evaluation ()
+	
+
+   Biographical information ( function).
+
+	Lou Burnard is a consultant at Oxford University Computing
+Service, where his responsibilities include the Oxford Text Archive
+and the development of textbase services. 
+</item></list>
+
+
+
+
+</div>

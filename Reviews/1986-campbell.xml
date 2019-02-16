@@ -1,0 +1,175 @@
+<div source="#r8607TLS"  xml:id="campbell" facs="pages:1986-campbell.jpg" xmlns="http://www.tei-c.org/ns/1.0"> 
+<head>More and more addressable</head>
+<byline>Lou Burnard</byline>
+<bibl>Duncan Campbell and Steve Connor: <title>On the Record. Surveillance, Computers and Privacy - The
+Inside Story.</title> 348pp. Michael Joseph. Paperback. £7.95 0719125762
+</bibl><!--, published in the TLS, 25 July 1986, p. 813--> 
+<p>If ever there was a ridiculous mouse born of a mountain it is the
+Data  Protection Act, which finally became law in July 1984 after nearly
+a quarter century of prevarication in Whitehall, although what is rather
+ grandly termed the <soCalled>appointed day</soCalled> for implementation of all of its 
+provisions is not due until next winter. It has taken Parliament one
+departmental committee report, one Royal Commission, two draft bills,
+three Private Members' bills, three White Papers and numerous official
+consultations to reach the point of enacting principles close to the
+letter if not the spirit of such contentious pronouncements as Article 8
+of the European Convention on Human Rights. Indeed, it is widely
+believed that only the signing of the Council of Europe's <title>Convention
+for the Protection of Individuals with regard to Automatic Processing of
+Data</title> in 1981 finally forced Whitehall's hand; a fact perhaps
+worth putting into the balance the next time that Strasbourg's
+Eurocracies are being belaboured in the public prints.   
+</p>
+<p>That the present government, not notorious for its concern for
+liberal causes, may go down in history as the one under which the
+concept of a right to privacy of information was finally enshrined in
+legislation is almost as pleasing an irony as the fact that Mrs
+Thatcher's administration was forced to espouse this wettest of causes
+by simple commercial pressures. As the 1982 White Paper in which the
+current legislation was first proposed makes clear, its primary purpose
+is to protect the United Kingdom's trading interests in Europe, which
+might well be compromised by the inability to transfer information
+across European frontiers consequent on a failure to ratify the
+Convention.   
+</p>
+<p>Whatever its parentage, perhaps the kindest judgement on the Act
+with which we now have to live is that at least it means well. However
+honourable its intentions, its weaknesses are rapidly becoming
+notorious. Its provisions cover only data held in machine-readable form:
+one simple way of evading the need to register a database you wish to
+keep secret is thus simply to print it all out, delete the online copy
+and invest in a good filing cabinet. The mechanism by which
+<soCalled>subject access</soCalled> (that is, access to one's own
+records) is to be implemented is vague in the extreme; there is no right
+to have inaccurate data corrected or removed, even where action is taken
+through the courts.  The powers of the Data Protection Registry itself
+are scarcely less well defined: violations of the Act must be stumbled
+upon to be detected, and what will happen when these are brought before
+the courts is anyone's guess. So far the chief sufferers from the Act
+appear to have been agencies such as Citizens' Advice Bureaux,
+reportedly unable to cope with the extra work of registering all their
+files of innocuous but protected information by the deadline earlier
+this month.    
+</p>
+<p>The Act has also been much criticised for the number and variety of
+exemptions from its provisions. An unconditional exemption applies to
+data <q>required to be exempt for the purpose of safeguarding national
+security.</q> Subject access is denied to a whole range of data,
+including police or taxation records as might be predicted, but also
+those of other statutory bodies more or less at the whim of the
+Secretary of State, many of which are precisely those government
+departments and agencies whose information gathering activities give all
+upright citizens most cause for concern: - the security forces, the
+Inland Revenue, the DHSS, the Customs and Immigration authorities, the
+television and vehicle licensing authorities. But perhaps the most
+alarming aspect of this <q>load of holes joined together</q> (as the
+BMA is said to have called the bill) is that certain bodies, themselves
+exempt from the Act's  regulatory provisions, are at liberty to force
+other (regulated) data holders to disclose information for
+non-registered purposes, without anyone being any the wiser. There is
+thus a sense in which this Act requires all sheep to be ready to report
+promptly to their local wolf.  
+</p>
+<p>This book is more than a detailed critique of the Data Protection
+Act however. It documents, dispassionately and with every appearance of
+accuracy, the sheer scope and intricacy of the vast accumulations of
+information currently at the disposal of our masters, and makes some
+informed speculations about their probable future. A web of databanks
+lies concealed behind such unlovely acronyms as LOP, NICS, NUBS, JUVOS,
+OCTA, COP, CODA, DCI, OPCS, IVAN, INDECS, MIRIAM, PNC  and CEDRIC; in
+describing these and other systems, Campbell and Connor also provide
+evidence of the extent to which their integration  into a gargantuan
+apparatus of surveillance and control may soon be upon us. One does not
+need to subscribe to any form of conspiracy theory to see a disturbing
+inevitability in the process; it is a natural consequence of the
+availability of better technology, in retrospect an almost Darwinian
+process. The problems of integrating the disparate data files of a
+commercial organisation is one which exercised the best brains of the
+computing industry during the early sixties; the database concept, in
+which a computer system deliberately aims to model the entire
+information structure of an organisation, is the fruit of that exercise.
+Within a commercial context, it is obviously appropriate. Whether the
+state's information needs should be modelled in exactly the same way as
+those of General Motors is more dubious.   
+</p>
+<p>Throughout the administrative infrastructure clerks and filing
+cabinets have already been replaced by online terminals and
+sophisticated database systems; what is recorded and for what purpose
+necessarily change more slowly. It would be the height of naivety to
+expect concern for the rights of the individual amongst the
+administrators and guardians of our society if those rights are
+threatened by a process which they perceive as simply helping them to do
+their job better. On the contrary, we can expect whatever currently
+characterises their mode of operation to be intensified. In whatever
+sphere it is applied, the computer invariably brings the ability to do
+more of the same thing, and faster; very rarely does it bring about a
+radical reshaping of the enterprise to which it is applied.  
+</p>
+<p>Consequently, we should not be surprised to find the DHSS readier to
+apply their new computers to the task of identifying  <soCalled>scroungers</soCalled>
+than that of identifying those to whom benefits are due, though both are
+technically equally feasible. Neither should we be surprised to find
+that the Police National Computer (PNC), originally intended to hold
+details of missing cars and persons, is also used as a repository for
+suppositious gossip, circumstantial evidence  and speculation: (the
+technical term is <term>intelligence</term>). What after all would we 
+expect the Inland Revenue to do with a magnificent invention like ICL's
+Content Addressable File Store (CAFS) but apply it to the task of
+finding out people's National Insurance numbers, given only parts of
+their names and addresses, the better to collate information from
+sources (such as banks) which cannot specify a NINO with those (such as
+their own records) which must?  Once the Home Office's list of
+undesirable immigrants has grown to such a length as to prevent its
+being memorized by even the most vigilant of immigration officers the
+only effective way of policing our frontiers will be to introduce
+machine readable passports (due in 1987) and use a computer (it is
+called INDECS) to finger those flagged in the Home Office's database.  
+</p>
+<p>Moreover, once such systems are in place, their expansion seems
+inevitable. Once INDECS is operational, the additional cost of logging
+every entrance and every exit of any suitably interesting subject is
+trivial. Once  the Inland Revenue has identified your National Insurance
+number, (the closest thing currently to a Universal Personal Indicator
+(UPI)), it would cost very little more to recover your employment
+records, your health records, details of the area in which you live, and
+of all the telephone calls you made to Dublin last month. Given that
+such information will be held in machine readable form somewhere, given
+that it is easier to keep it than to throw it away, given both the
+tremendous increases in ease of communication between otherwise
+unrelated computers, the technical means of implementing the omniscient
+computer of science (and other) fiction are already present. The
+database systems of the sixties already resemble the saurian manual
+systems they replaced in their inflexibility and cumbersomeness. The
+advent of really efficient free text searching systems and of deductive
+or "expert" rule-based systems at the front end of the next generation
+of computer systems will be complemented by developments such as CD-
+ROM, which allows several gigabytes of data to be stored in a compact
+disc accessible from a desk-top computer. Before technophoria overwhelms
+us all, we would do well to remember that however morally neutral
+informational technology itself may be, its applications (like those of
+any other technology) need constant policing.</p>
+<p>    Campbell and Connor, as good crusading journalists, are not
+concerned with philosophical issues. The nature of technology is not on
+their agenda, simply its effects and its applications. Their book is
+primarily a pre-emptive register of data banks, including many which are
+unlikely to come within the purview of the Data Registrar himself. Its
+secondary purpose is to make the case against all such information
+monoliths, a case that needs to be re-stated, perhaps a little more
+explicitly for the benefit of those well-heeled citizens who feel they
+have "nothing to hide". The case does not rest on anecdotes, though
+there are plenty of these to be found, but on a recognition of the fact
+that errors of judgement and observation, harmless in themselves, can
+become lethal when given the spurious authenticity of a computer. The
+authors also do the Data Protection Act the signal honour of taking it
+seriously, itemising those few areas in which it may have some
+significant effect on safeguarding civil liberties.   
+</p>
+<p>Despite its catchpenny title, this book is neither anecdotal nor
+journalistically sensational. It is, as they say, solidly researched.
+With its aid, the next time that you "come to notice" of the Police,
+perhaps by reporting a crime, or by parking your car round the corner
+from some political demonstration, you will at least know under what
+category you are likely to achieve immortality, and in what company you
+will be registered. 
+</p>
+</div>

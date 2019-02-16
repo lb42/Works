@@ -1,0 +1,78 @@
+<!--
+! 2 july
+ 
+ 
+Dear Mike
+ 
+There follows the first of my two book reviews for University Computing.
+I hope it is neither too late nor too savage. The second will follow
+within a week or so.
+ 
+Best wishes,
+Lou
+
+
+-->
+
+<div xmlns="http://www.teic.org/ns/1.0" xml:id="avison">
+<!--Published in <title>University Computing</title> 8, p. 159 <idno
+                  type="issn">0265-4385</idno><date>1986</date> -->
+<head>
+D.E. Avison <title>Information Systems Development: a database approach</title>
+</head>
+ 
+<p>This text provides an introduction to basic concepts in information
+systems design. It is clearly aimed at students of business studies or
+similarly non-technical courses where a nodding acquaintance with such
+topics as SSADM, 3NF or 4GLs is deemed necessary. It might also be
+useful in a fairly low-powered or introductory computer science course.
+The heart of the book is an orthodox and competent presentation of data
+analysis methods using both Entity-Relationship modelling and a
+simplified version of Codd's relational calculus. Other chapters cover
+related topics such as 'business analysis', logical schema design
+according to hierarchic, network or relational dogma, and some rather
+skimpy descriptions of how these are actually implemented by IMS, IDMS,
+dB2, ADABAS et al. All of this is adequate for an introductory text, but
+in no way superior to the more thorough expositions already available in
+standard text books (e.g. Date, Robinson).   
+</p>
+<p>The book attempts a more mobile target in its discussion of current
+fashions in structured systems analysis methodologies. This being a
+field in which jargon is everything, much of the discussion is little
+more than padding to surround explanations of such phrases as  <term>Integrated
+Programming Support Environment</term>, <term>analyst's workbench</term>,
+<term>report generator</term>,  <term>structured walk through</term>, 
+<term>prototyping</term>,  <term>functional description</term>,
+<term>stepwise refinement</term>, <term>dataflow diagrams</term> etc. 
+A keen student might get as good an understanding of most of these
+simply by reading the computer trade press for a week or two.
+Conspicuous by its absence in the chapter on systems design is any
+mention of Jackson structuring techniques: surely a more reliable (and
+more productive) systems design tool than  <term>structured english</term>
+which gets several references.   </p>
+<p>
+Superficial chapters on data storage techniques and on Data Dictionary
+systems together with an astonishingly inadequate chapter on micro-based
+DBMS, distributed databases and database machines are also included:
+apparently with little purpose other than to bring the book up to the
+required length. On database machines, Avison's description of ICL's
+CAFS is simply wrong, while to describe the IBM System 38 as a database
+machine because it has 'micro-coded database instructions' (unspecified)
+seems a little dubious. Distributed database systems get four pages (two
+of which are pictures) and micro dbms five. A text book should either
+discuss these issues properly or remain silent on them. 
+</p>
+<p>  The book is well produced and illustrated and its basic content is
+sound. There is also a good bibliography, which students might be better
+advised to choose from than to read the book itself. Avison writes  with
+a contempt for the English language which should not go unremarked,
+particularly in a book aimed at the educational market.   <q>Like most
+texts, however,</q>  he remarks
+<q>IMS will be equated with the database system</q> (he means <q>As
+do most texts, mine will treat IMS as a database system</q>  — I
+think). Or again,  <q>However there are severe limitations to retain
+flexibility unless the database is not very complex.</q>  Publishers
+surely have a duty to protect the public from sentences such as these,
+even if their authors have abnegated it.   
+</p>
+</div>

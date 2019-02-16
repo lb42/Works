@@ -1,0 +1,171 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="stein">
+<head>A passion for control</head>
+<bibl>Dorothy Stein: <title>Ada: A life and a legacy.</title> MIT Pr., 1986.</bibl>
+ 
+<p>The set of persons after whom computer languages have been named is not a
+large one and includes some very odd bedfellows: Blaise Pascal, William of
+Occam and Ada Byron, Countess of Lovelace all have this, if nothing else,
+in common. When the American Defense Department decided to honour the
+memory of Byron's daughter by naming its newly-designed general purpose
+programming language after her, it was presumably motivated more by the
+myth that has grown up around this unfortunate lady than by the fact that
+ADA actually sounds like an acronym, (as indeed do PASCAL and OCCAM). 
+Even in her own lifetime, Ada was surrounded by myth. Her mother, Byron's
+estranged wife and a woman of truly Dickensian awfulness, was obsessed by
+the  manufacture and control of her public image; her daughter's
+personality could not hope to escape manipulation as intense as that of
+any modern politician or media personality. Consequently, Ada's chief
+legacy is a dense tissue of intrigue, gossip and supposition,  which this
+fascinating book patiently unweaves and explicates, using as its raw
+material two main sources, firstly the archive of original letters and
+papers so carefully preserved and, we must assume, largely doctored by
+Lady Byron and her descendants to support her view of the case; secondly
+the papers of Charles Babbage and those few others of Ada's friends and
+confidants capable of resisting the demands of Ada's family lawyers. By
+thus going back to primary sources, Stein is able to debunk more myths
+than one. 
+</p>
+<p>Ada Byron was not quite two years old when first brought to public
+attention in the third canto of <hi>Childe Harold's Pilgrimage</hi>, where
+separation from her is presented as yet another instance of the terrible
+cost of being Lord Byron, <hi>poete maudit</hi>. Her mother's reaction to this
+celebrity was to shelter the child from all knowledge of her father for as
+long as possible, and to treat her childhood ailments with a regime which
+seems eccentric even for those leech-ridden days. Ada's childhood appears
+to have been dominated by lengthy periods of debility; Stein argues in a
+somewhat speculative appendix that she may have suffered from porphyria,
+although the psychosomatic explanation also presented is surely more
+persuasive. Needless to say, with adolescence the glamour of being Byron's
+daughter could no longer be resisted, neither by Ada herself nor by others
+(Disraeli's <title>Venetia</title> (1837)  for example is a wildly misleading novel
+about this aspect of her personality); nor, with marriage, could her
+mother's tutelage be maintained. Visiting Newstead Abbey, Ada expressed
+the wish to be buried with her father there, and although it must have
+annoyed her husband almost as much as her mother, in the event her request
+was honoured. Stein uncovers much evidence that Ada had, within the limits
+allowed, qualities as romantic and headstrong as might have been expected
+from Byron's daughter. As well as an early infatuation with a tutor (no
+more than might be expected from anyone similarly placed in time and
+social position), Stein uncovers evidence of an adulterous affair with the
+shadowy John Crosse, an experimental scientist of somewhat dubious social
+standing. Equally, Ada's weakness for betting on horses, and the desperate
+shifts to which her incompetence at it lead her, provide as scandalous a
+backdrop to her painful death as any silver fork novellist might desire. 
+</p>
+<p>The Byronic mythos was also Ada's chief attraction for her first
+biographer. Doris Langley Moore's book,  revealingly sub-titled <title>Byron's
+Legitimate Daughter</title> (1977), continually moved Ada off centre stage in
+favour of this or that Byronic association. Moore's (entirely just)
+distaste for Lady Byron also lead her to give that unspeakable harridan a
+misleadingly dominant role in Ada's life. For much of her short life, Ada
+was barely on speaking terms with her mother, and although the latter
+re-established her hegomony by influence over Ada's husband, Stein gives
+ample evidence of Ada's independence of will, until, in her last year, she
+was too weakened by disease to resist the domination of the woman whose
+virtues Byron had compared (unfavourably) to "thine 'incomparable oil',
+Macassar!". 
+</p>
+<p>Stein's Kings Charles's head, if she has one, is more contemporary. For
+Moore, as surely for Ada's contemporaries, Lady Lovelace's apparently
+passionate enthusiasm for mathematics and science was an interesting and
+quirky, if un-lady-like, hobby; for Stein perhaps, for some of her readers
+surely, it marks her as one of the great might-have-beens, denied the
+fruition of her talents by a represssive patriarchy. For evidence of the
+new Ada mythos, any popular introduction to the electronic computer may be
+consulted: somewhere in chapter one there will be a paragraph or two on
+the history of the subject, in which Charles Babbage's Engines will
+naturally appear, closely followed by the ghost of Lady Lovelace, 
+supposedly with Babbage one of the very few who understood the true nature
+and purpose of the unbuilt Analytical Engine, occasionally reputed
+Babbage's mistress, always billed as the world's first programmer. 
+</p>
+<p>Certainly, like her mother, Ada had a passion for mathematics.  (Stein
+drily supposes that the subject was first recommended to her in
+adolescence as an alternative to "objectionable thoughts"). However
+Stein's close analysis of Ada's surviving correspondence with such
+notables as Augustus de Morgan, Julia Sutherland and Babbage himself 
+shows her to have had stunningly little aptitude for the subject, being
+unable (for example) to understand the simple principle by which terms
+from one of a pair of simultaneous equations may be substituted in the
+other. In translating from French L.F. Menabrea's <title>Memoir</title> on Babbage's
+Analytical Engine, she followed a printer's error in the original which
+made mathematical nonsense, apparently blindly. The published <hi>Notes</hi> to
+this translation, on which her reputation as computer programmer <hi>avant
+la lettre</hi> must rest, were written very much under the guidance of
+Babbage himself. For him, the publication was a golden opportunity to
+renew his case for further funding, at a time when he was suffering from
+government neglect remarkably similar to that suffered by Daniel Doyce at
+the hand of the Circumlocution Office. As well as the occasion, the
+general tenor of Ada's <hi>Notes</hi> is also often mis-represented: today, the
+separation of the analytical engine into units supporting store, mill, and
+input and output functions can only prefigure the programmability of the
+modern computer. Ada however made this point only in passing and in order
+to stress the difference between the proposed engine and the existing
+difference engines. For Ada, and presumably also for Babbage, the truly
+remarkable feature of the analytical engine was its separation of data
+from process, and its consequent generality of applicability, . Stein
+demonstrates that (in the <title>Notes</title> as a whole) the thought underlying
+this distinction derives more from Manchester school economics translated
+to mechanics than from the sort of imaginative leap which now seems so
+remarkable in Ada's much quoted comparison "the Analytic Engine <hi>weaves
+algebraic patterns</hi> just as the Jacquard-loom weaves flowers and leaves".
+</p>
+<p>Ada's brilliant mathematical career was launched (and terminated) with the
+publication of her translation of Menabrea and its  <hi>Notes</hi> in 1843.
+Babbage was to pay her generous tribute in his autobiography, but this was
+written a decade after her death when the memory of the scandal that
+surrounded it and of his subsequent quarrel with the Lovelace family was
+presumably sharper than the truth of their working relationship some
+twenty years earlier.  At that time, her vague offer of further
+collaboration had been refused, firmly but politely. They had also
+quarrelled over a proposed preface summarising Babbage's funding
+difficulties, of which the Notes profess a somewhat ostentatious
+ignorance; Ada's delusions of grandeur cannot have greatly endeared her to
+the eminently practical Babbage either. In 1844, she abandoned mathematics
+for music, then for science and mesmerism. As to her mother, so to Faraday
+and others she wrote lengthy self-glorifying letters describing herself as
+"the Deborah, the Elijah of Science", but no further prophecies were
+vouchsafed her. 
+</p>
+<p>The last ten years of her life seem oddly empty. Her husband, the
+long-suffering Count of Lovelace, took up a brief literary career; over
+two years he published nine articles on suitably respectable issues of the
+day, such as the Suffrage,  Malthus and  Animal Husbandry on all of which
+he argued a solidly respectable point of view. In one of these, a review
+of Gasparin's <title>Course of Agriculture</title>, the need to grapple with the
+statistical problems of relating climate and crop size lead to a
+collaboration with his wife, and further consultations with Babbage and
+Sir John Herschel. Ada eventually contributed some Notes to the published
+Review containing a number of unexplained and probably inexplicable
+formulae; these form her only other published work.  Her disastrous
+passion for the turf dates also from this last decade of her life; Stein
+demonstrates persuasively both the absence of any involvement with Babbage
+in this and also that the Countess was at least as often the duper as the
+dupe in her gambling adventures. However, hard evidence for this, as for
+her liaison with Crosse, is necessarily scarce, since these were precisely
+the two subjects which lead to her mother's resuming control of Ada's
+public image, during her needlessly protracted and painful death from a
+cervical cancer in 1860. 
+</p>
+<p>Dorothy Stein is not primarily a  historian (at one point she remarks of
+historians that they are "a sentimental lot"), but a psychologist with a
+respectable understanding of physics and computer programming. As such she
+is as much interested in explicating the people around Ada as determining
+what their actions may or may not have been. Where Moore catalogues (say)
+the interminable misdeeds of Lady Byron rather in the manner of the
+village gossip, (pausing as it were only for the occasional "Well!" and
+"Did you ever?" from the reader), Stein seeks motivation and psychological
+patterns : "Her passion was for control, not care... Motherhood succeeded
+wifehood as the name of her propensity for self-justification, only to be
+replaced by grandmotherhood". To set against this sensitivity for the
+human and the universal, it must be noted that Stein is far weaker than
+Moore in her sense of period, occasionally and irrelevantly remarking in a
+shocked tone on her protagonists' extraordinary insensitivity to the
+plight of the working man in the 1840s, making very heavy weather of the
+financial basis of the Byrons' marriage, and solemnly remarking on the
+absence of antibiotics in the early 19th century.  Some rather more
+aggressive sub-editing (which would also have removed several typos)
+should have been invested in this altogether unusual and impressive book. 
+</p>
+</div> 
+ 

@@ -1,0 +1,161 @@
+<!--
+oucs friday
+ 
+Dear Gordon
+ 
+  Thank you for giving me the chance to tone down the following review
+rather than bowdlerising it yourself!  Just to put the record
+straight, I am fully aware of Coppen's status and reputation; my
+reference to breakfast was not intended to be derogatory but simply to
+point to the way in which such conferences yoke together the oddest of
+bedfellows. However, as this point clearly failed to come across, I
+have tried to do better below. Thank you for putting me right on the
+Nebraskans: they certainly read more like recently fledged BAs than
+Senior Lecturers. I have taken no notice of your attempt to change my
+punctuation: the double quotes indicate words quoted from the original
+I note you dont mind me being rude about Messrs Susskind & Strange, so
+have continued so to be. I beg to differ as to whether ICON is ICON or
+Icon: you as editor have the privilege of the last word on that as on
+the rest.
+ 
+ever yours
+ 
+ 
+  
+ 
+p.p. "Slasher" Burnard
+ 
+ 
+-->
+ 
+ 
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="johnson"><head> <title>ICEBOL 85 (Proceedings of the 1985
+International Conference on English Language and Literature
+Applications of SNOBOL and SPITBOL</title>, edited by Eric Johnson, Dakota
+State College) </head>
+ 
+<p>This trim volume contains 11 papers revealing an extraordinary range
+both in computing expertise and in application area. Of the more
+widely interesting papers, it should be noted that one is not about
+SNOBOL and another is not about English.  In his preface, Eric Johnson
+assures us that he at least has "never attended a conference where the
+conversations were so animated and engrossing". While warmly welcoming
+the advent of this new international forum, this reviewer is tempted
+to ascribe at least some of its animation to sheer mutual
+astonishment. What common ground can exist between say Peter-Arno
+Coppen (Catholic University of Nijmegen) and Wayne Tosh (St Cloud
+State University)?  Coppen describes GRASP, a parser-generator for
+context-free grammars which happens to be written in SNOBOL. Tosh's
+describes a number of undergraduate exercises which also happen to be
+written in SNOBOL. Both authors regard SNOBOL as an appropriate
+teaching vehicle, but the disparity between what is being taught is so
+extreme as to cast doubts as to the existence of any point of contact
+other than the accidental identity of the chosen language.
+</p>
+<p>It is equally hard to imagine any common ground between Ronald
+Susskind of the Antares Corporation in Minnesota, and William
+C. Strange of the University of Oregon's English department. Without
+undue disrespect, Mr Susskind's style leaves me gasping for breath,
+but as I understand it, the tenor of his argument is that the English
+language itself can be interpreted as if it contained only logical
+statements, provided the notion of what constitues logic is "slightly"
+extended (it could also be said to consist of purple anxieties,
+similar licence permitted, but let that pass).  Mr Strange, writing at
+a more even speed, contributes some good old fashioned practical
+criticism of three concrete or, in Strange's phrase, "computable"
+poems, leading him to the extraordinary and unsubstantiated assertion
+that "Poems and programs are surprisingly alike".
+</p>
+<p>Surely more typical of SNOBOL's current user population are two
+workmanlike contributions about real life applications of the
+language, one from Paul Bantzer (Startext GmbH, Bonn) about its
+usefulness in a photo-typesetting application, the other from Timothy
+Montler (North Texas SU) describing a whole suite of programs
+developed to assist in the linguistic analysis of a Northwest American
+Indian language corpus. The latter is particularly impressive, and
+deserves to be better known.  The book begins, as is only appropriate,
+with two contributions from Ralph Griswold, one, tantalisingly short,
+on the history of the language (which reveals that it was originally
+called SEXI for String Expression Interpreter) and the other
+describing ICON which, if people were as logical as their tools, will
+surely replace SNOBOL as effectively as the transistor replaced the
+thermionic valve.
+</p>
+<p> People being people, however, it seems probable that new
+generations will continue to cut their programming teeth on this
+magnificently eccentric and dangerously powerful language. Hard
+evidence of this continuity is provided not just by two earnest
+contributions from recent academic converts to SNOBOL at the
+University of Nebraska but also in the new SNOBOL and SPITBOL systems
+available for microcomputers. Only one of these (Catspaw's SNOBOL4+)
+is mentioned here, in the context of some interactive debugging
+utilities, the code for which is the most substantial part of Mark
+Emmer's paper. It would be interesting to see some comparison between
+the performance and facilities of the various SPITBOLs and SNOBOLs now
+available on small machines; perhaps this will come in ICEBOL 86,
+which we are assured will also take place in Madison, South Dakota.
+</p>
+</div>
+
+<!--
+ICEBOL 85 (Proceedings of the 1985 International Conference on English Language 
+and Literature Applications of SNOBOL and SPITBOL, edited by Eric Johnson, 
+Dakota State College)
+ 
+This trim volume contains 11 papers, of which, without exerting excessive 
+charity, only three could be regarded as of more than purely local interest. 
+Moreover, one of these is not about Snobol and another is not about English 
+language or literature. One can only assume that the event itself had 
+compensatory  advantages; its organiser assures us that he at least has "never 
+attended a conference where the conversations were so animated and engrossing". 
+Judging by the enormous disparities in expertise and attitudes to computing 
+revealed in the papers here published, some of this animation might be 
+attributable to sheer mutual astonishment.  One can only speculate as to the 
+breakfast-time  conversations between say Peter-Arno Coppen (Catholic 
+University of Nijmegen) and Wayne Tosh  (St Cloud State University). Coppen's 
+paper describes GRASP, a parser-generator for context-free grammars which 
+happens to be written in Spitbol. Tosh's describes a number of undergraduate 
+exercises which also happen to be written in Spitbol. Both authors regard 
+Spitbol as an appropriate teaching vehicle, but the disparity between what is 
+being taught is so extreme as to cast doubts as to the existence of any point 
+of contect other than the accidental identity  of the chosen language.
+In the same way, this reviewer would have liked to be privy to any conversation 
+between Ronald Sussman of the Antares Corporation in Minnesota, and William C. 
+Strange of the University of Oregon's English department. Without undue 
+disrespect, Mr Sussman's style leaves me gasping for breath, but as I 
+understand it, the tenor of his argument is that the English language itself 
+can be interpreted as if it contained only logical statements, provided the 
+notion of what constitues logic is "slightly" extended (it could also be said 
+to consist of purple anxieties, similar licence permitted, but let that pass). 
+Mr Strange, writing  at a more even speed, contributes some good old fashioned 
+practical criticism  of three concrete or, in Strange's phrase, "computable" 
+poems, leading him to the extraordinary and unsubstantiated assertion that 
+"Poems and programs are surprisingly alike".
+ 
+Surely more typical of SNOBOL's current user population are two workmanlike 
+contributions about real life applications of the language, one from Paul 
+Bantzer (Startext GmbH, Bonn) about its usefulness in a photo-typesetting 
+application, the other from Timothy Montler (North Texas SU) describing a whole 
+suite of programs developed to assist in the linguistic analysis of a Northwest 
+American Indian language corpus. The latter is particularly impressive, and 
+deserves to be better known.  The book begins, as is only appropriate, with two 
+contributions from Ralph Griswold, one, tantalisingly short, on the history of 
+the language (which reveals that it was originally called SEXI for String 
+Expression Interpreter) and the other describing ICON which, if people were as 
+logical as their tools, will surely replace SNOBOL as effectively as the 
+transistor replaced the thermionic valve.
+ 
+ People being people, however, it seems probable that new generations will 
+continue to cut their programming teeth on this magnificently eccentric and 
+dangerously powerful language. Hard evidence of this continuity is provided not 
+just by two somewhat embarassingly earnest contributions by recent graduates of 
+the University of Nebraska but also in the new SNOBOL and SPITBOL systems 
+available for microcomputers. Only one of these (Catspaw's SNOBOL4+) is 
+mentioned here, in the context of some interactive debugging utilities, the 
+code for which is the most substantial part of Mark Emmer's paper. It would be 
+interesting to see some comparison between the performance and facilities of 
+the various SPITBOLs and SNOBOLs now available on small machines; perhaps this 
+will come in ICEBOL 86, which we are assured will also take place in Madison, 
+South Dakota.
+ 
+ -->
