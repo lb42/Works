@@ -3,13 +3,13 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>My Bibliography</title>
+            <title>Lou Burnard : Opera omnia</title>
          </titleStmt>
          <publicationStmt>
-            <p>Publication information</p>
+            <p>Privately published by the author</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>Maintained online at https://raw.githubusercontent.com/lb42/Works/master/bibliography.xml</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -20,8 +20,9 @@
       <!-- 52 of 130 lack @n -->
       <body>
          <!-- the @n attribute supplies the number/shelfmark of the printed witness where available -->
-         <listBibl type="books">
-            <head>Books</head>
+         <div> <head>Books</head>
+            <listBibl type="books">
+           
             <bibl><date>2015 </date><title>Qu'est-ce que la Text Encoding Initiative ?</title>
                (translated by Marjorie Burghart) Open Edition books. <ref
                   target="http://books.openedition.org/oep/1237">Online version</ref></bibl>
@@ -29,18 +30,19 @@
                   target="http://books.openedition.org/oep/426">Online version</ref></bibl>
             <bibl><date>2007 </date> [ed. with Kiyong Lee and others] <title>ISO/IEC 24610-1
                   Language Resource Management -- Feature Structures -- Part One: Feature Structure
-                  Representation </title>(TEI version online at <ref
-                  target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/FS.html"/>)</bibl>
+                  Representation </title>( <ref
+                     target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/FS.html"> Online TEI
+                     version </ref>)</bibl>
             <bibl><date>2006 </date> [ed. with Katherine O'Brien O'Keefe and John Unsworth]
                   <title>Electronic Textual Editing</title>. New York: Modern Languages Association.
-                  <ref target="http://www.tei-c.org/Activities/ETE/"/></bibl>
+                  <ref target="http://www.tei-c.org/Activities/ETE/">(Online draft)</ref></bibl>
             <bibl><date>2000 </date> [ed. with Tony McEnery] <title>Rethinking language pedagogy
                   from a corpus perspective</title> Peter Lang <title>Lodz Studies in
                   Language</title>
             </bibl>
             <bibl><date>1998 </date> [with Guy Aston] <title>The BNC Handbook: exploring the British
                   National Corpus with SARA</title> Edinburgh: Edinburgh University Press. <ref
-                  target="bootlegPDF/%5BGuy_Aston,_Lou_Burnard%5D_The_BNC_handbook_explori(Bookos.org).pdf"
+                     target="http://corpus.leeds.ac.uk/teaching/aston-burnard-bnc.pdf"
                   >Bootleg PDF</ref></bibl>
             <bibl><date>1998 </date> [ed with Marilyn Deegan and Harold Short] <title>The Digital
                   Demotic</title> London: Office for Humanities Communication. </bibl>
@@ -50,42 +52,43 @@
                   target="Papers/1994-ahdsReport.xml">XML version of SGML source</ref></bibl>
             <bibl><date>1990 </date> [with C.M. Sperberg-McQueen] <title>Guidelines for the Encoding
                   and Interchange of machine-readable texts</title>: draft P1. Chicago and Oxford,
-               ACH-ACL-ALLC Text Encoding Initiative </bibl>
+               ACH-ACL-ALLC Text Encoding Initiative (This and subsequent versions are archived
+               at <ref target="https://www.tei-c.org/Vault/Vault-GL.html">the TEI-C website</ref>)</bibl>
             <bibl><date>1989 </date> [with Malcolm Bain et al] <title>Free Text Retrieval Systems: a
                   review and evaluation </title>. Taylor Graham. </bibl>
          </listBibl>
-         <listBibl type="articles">
+   </div>      <listBibl type="articles">
             <head>Journal Articles etc.</head>
             <bibl><date>2016</date><title type="main">La TEI pour les corpus linguistiques: un
                   standard qui se renouvelle</title>
                <ref target="Papers/2016-poitiers.xml">Source</ref>
             </bibl>
-            <bibl><date>2013</date>Rahtz, Sebastian, and Lou Burnard. <title>Reviewing the TEI ODD
+            <bibl><date>2013</date> Rahtz, Sebastian, and Lou Burnard. <title>Reviewing the TEI ODD
                   System</title>. In <title>Proceedings of the 2013 ACM Symposium on Document
                   Engineering. DocEng ’13.</title> ACM, 2013. <ref
-                  target="http://doi.acm.org/10.1145/2494266.2494321."
-                  >http://doi.acm.org/10.1145/2494266.2494321.</ref>; <ptr
+                  target="http://doi.acm.org/10.1145/2494266.2494321"
+                     >http://doi.acm.org/10.1145/2494266.2494321</ref>; <ptr
                   target="https://www.researchgate.net/publication/262328225_Reviewing_the_TEI_ODD_system"
                />; <ptr target="https://ora.ox.ac.uk/objects/pubs:434097"/>
             </bibl>
             <bibl><date>2013 </date><title>Resolving the Durand Conundrum</title>, <title level="j"
                   >Journal of the Text Encoding Initiative </title>[Online], Issue 6 | December
-               2013, URL : http://jtei.revues.org/842 ; DOI : 10.4000/jtei.842 <ref
-                  target="Papers/2013-resolvingDurand.pdf">PDF version from JTEI site</ref></bibl>
-            <bibl><date>2013 </date><title>The Evolution of the Text Encoding Initiative: From
+               2013, URL : <ptr target="http://jtei.revues.org/842"/> ; DOI : 10.4000/jtei.842 <ref
+                  target="Papers/2013-resolvingDurand.pdf">local copy of PDF</ref></bibl>
+            <bibl><date>2013 </date> <title>The Evolution of the Text Encoding Initiative: From
                   Research Project to Research Infrastructure</title> , <title level="j">Journal of
                   the Text Encoding Initiative</title> [Online], Issue 5 | 2013,
-               http://jtei.revues.org/811 ; DOI : 10.4000/jtei.811 <ref
-                  target="Papers/2013-evolutionTEI.pdf">PDF version from JTEI site</ref></bibl>
-            <bibl><date>2012</date>Cummings, James et al <title>Future Developments for ODD (panel
+               <ptr target="http://jtei.revues.org/811"/> ; DOI : 10.4000/jtei.811 <ref
+                  target="Papers/2013-evolutionTEI.pdf">local copy of PDF</ref></bibl>
+            <bibl><date>2012 </date> with Cummings, James et al <title>Future Developments for ODD (panel
                   at DH2012)</title><ptr
                   target="http://www.dh2012.uni-hamburg.de/conference/programme/abstracts/future-developments-for-tei-odd.1.html"/>
-               <ref target="Papers/2012-ODDfuture-panel.xml">XML source</ref><ref
+               <ref target="Papers/2012-ODDfuture-panel.xml">XML source</ref>; <ref
                   target="Papers/2012-ODDfuture-panel.pdf">PDF version</ref></bibl>
             <bibl xml:lang="fr"><date>2012 </date><title>Du literary and linguistic computing aux
                   digital humanities : retour sur 40 ans de relations entre sciences humaines et
                   informatique 2012</title> [with Pierre Mounier] in <title>Read/Write Book 2 : Une
-                  introduction aux humanités numériques</title> Open Edition Press <ref
+                  introduction aux humanités numériques</title> Open Edition Press <ptr
                   target="http://books.openedition.org/oep/242"/>
                <ref target="Papers/2012-LLCtoDH.xml">XML Source</ref></bibl>
             <bibl n="40" xml:lang="fr">
@@ -93,15 +96,15 @@
                <title>Une introduction au British National Corpus dans son edition XML</title>,
                revue electronique <title level="s">Text et Corpus</title>, no 3 aout 2008. Actes des
                Journees de la linguistique de Corpus, ed. Geoffrey Williams and Nathalie Dugales,
-               2007, p 17-34. <ref
-                  target="http://web.univ-ubs.fr/corpus/jlc5/ACTES/ACTES_JLC07_burnard.pdf"/>
-               <ref target="Papers/2008-introBNC-FR.xml">XML source</ref>; <ref
+               2007, p 17-34. <ptr
+                  target="http://web.univ-ubs.fr/corpus/jlc5/ACTES/ACTES_JLC07_burnard.pdf"
+               />;  <ref target="Papers/2008-introBNC-FR.xml">XML source</ref>; <ref
                   target="Papers/2008-introBNC-FR.pdf">local copy of PDF</ref></bibl>
             <bibl n="37" xml:lang="fr"><date>2007 </date><title>TEI+XSL : un mariage fait aux cieux.
-                  Comment utiliser aujourdhui la Text Encoding Initiative pour numeriser les
+               Comment utiliser aujourdhui la Text Encoding Initiative pour numériser les
                   documents en lettres et en sciences humaines</title>. <title level="j"> Revue
-                  LINX</title>, no special: corpora et questionnements du litteraire. sous la
-               direction de Denise Malrieu.<idno type="issn">0246-8743</idno> pp 57-69 (<ref
+                     LINX</title>, no spécial: corpora et questionnements du litteraire. sous la
+               direction de Denise Malrieu. <idno type="issn">0246-8743</idno> pp 57-69 (<ref
                   target="Papers/2007-mariage.xml">uncorrected XML draft</ref>)_</bibl>
             <bibl><date>2006 </date>
                <title>New tricks from an old dog: An overview of TEI P5</title> in Lou Burnard,
@@ -140,7 +143,7 @@
                   april 2005</ref>
                <ref target="Papers/2005-eziss-burnard.pdf">PDF preprint</ref></bibl>
             <bibl><date>2004 </date> (with Sebastian Rahtz): <title>RelaxNG with Son of ODD</title>.
-               Extreme Markup Languages. <ref
+               Extreme Markup Languages. <ptr
                   target="http://conferences.idealliance.org/extreme/html/2004/Burnard01/EML2004Burnard01.html"
                /></bibl>
             <bibl n="67"><date>2004 </date> Syd Bauman, Alejandro Bia, Lou Burnard, Toma Erjavec,
