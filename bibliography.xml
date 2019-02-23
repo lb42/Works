@@ -214,19 +214,19 @@
             <bibl><date>1999 </date>
                <title level="a">Is Humanities Computing an Academic Discipline? or, Why Humanities
                   Computing Matters</title>
-               <note>Presented at <ref target="http://www.iath.virginia.edu/hcs/">an
+               Presented at <ref target="http://www.iath.virginia.edu/hcs/">an
                      interdisciplinary seminar</ref> at Institute for Advanced Technology in the
-                  Humanities, University of Virginia, November 1999.</note>
+                  Humanities, University of Virginia, November 1999.
                <ref target="http://www.iath.virginia.edu/hcs/burnard.html">HTML version</ref>; <ref
                   target="Papers/1999-humanitiesComputing.xml">XML source</ref></bibl>
             <bibl><date>1999 </date>
                <title level="a">Using SGML for linguistic analysis: the case of the BNC</title> in
                   <title level="s">Markup languages theory and practice</title>. I.2 pp. 31-51.
-               Cambridge, Mass: MIT Press. <note>Also published as <bibl n="06"><date>2001 </date>
+               Cambridge, Mass: MIT Press. Also published as <bibl n="06"><date>2001 </date>
                      <title>Using SGML for linguistic analysis: the case of the BNC</title> in
                         <title>Maschinelle Verarbeitung altdeutscher Texte V</title>. <idno
                         type="isbn">3-484-10832-0</idno> pp 53-72. Tuebingen: Max Niemeyer Verlag
-                  </bibl></note>
+                  </bibl>
                <ref target="Papers/1996-usingSGML.xml">XML source</ref></bibl>
             <bibl n="17"><date>1999 </date> [with Michael Popham] <title level="a">Putting our
                   headers together: a report on the TEI Header meeting 12 September 1997.</title>
@@ -384,9 +384,9 @@
             <bibl n="35"><date>1987 </date><title>Report on the Computers and Teaching in the
                   Humanities Conference at Southampton University, 10-11 April 1987</title>.
                   <title>Literary &amp; Linguistic Computing</title>, 2 (1987) pp 185-6
-                  <ref>file:///home/lou/Dropbox/Solipsism/CollectedReports/Transcripts/1987-04-10.html</ref>;
-               page images at PageImages/1987-cath87-report.png and
-               PageImages/1987-cath87-report.png</bibl>
+               <ref target="Reports/collected.xml#Report-1987-04-10">XML source</ref>;
+            <!--   page images at PageImages/1987-cath87-report.png and
+               PageImages/1987-cath87-report.png--></bibl>
             <bibl n="12"><date>1987 </date>
                <title>CAFS: A new solution to an old problem</title> in <title>Literary &amp;
                   Linguistic Computing,</title> 2 (1987); also in <title>Corpus linguistics and
@@ -438,125 +438,126 @@
             <bibl><date>1975 </date>
                <title>Oxeye: a text-processing package for the 1906A</title> OUCS User Guide.
                Oxford: University Computing Services. </bibl>
-         </listBibl>
+         </listBibl></div><div><head>Book reviews</head>
          <listBibl type="reviews">
-            <head>Reviews</head>
+          
             <bibl><date>Unknown </date><title>[Review of Simmons, R.F. Computations from the
                   English]</title>
                <title>University Computing</title>7, p. 154 <idno>0265-4385</idno>
                <ref target="Reviews/collected.xml#simmons"/></bibl>
             <bibl n="38"><date>1997 </date><title>Review: Research in Humanities Computing 4 and
                   5</title><title>Computers and Texts</title>no 14,<date>April 1997 </date>
-               <ref target="http://users"/>
-               <ref target="Reviews/collected.xml#hockeyIde"/></bibl>
-            <bibl n="09"><title>[Review of Richard Ennals and Jean-Claude Gardin ,
-                  eds"/></title>.<title>Journal of Documentation</title>vol 47 no 2, pp 197-90
+               <ref target="http://users">XML source</ref>
+               <ref target="Reviews/collected.xml#hockeyIde">XML source</ref></bibl>
+            <bibl n="09"> [Review of] Richard Ennals and Jean-Claude Gardin ,
+               eds. <title>Interpretation in the
+                  humanities: perspectives from artificial intelligence</title>.<title>Journal of Documentation</title>vol 47 no 2, pp 197-90
                   <idno>022 0418</idno><date>1991 </date>
-               <ref target="Reviews/collected.xml#ennals"/></bibl>
+               <ref target="Reviews/collected.xml#ennals">XML source</ref></bibl>
             <bibl><title>[Review of David Gelernter and Suresh Jagannathan Programming
                   Linguistics.]</title><title>History and Computing</title>III.2 (1991) pp 129-30
                   <date>1991 </date>
-               <ref target="Reviews/collected.xml#gelernter"/></bibl>
+               <ref target="Reviews/collected.xml#gelernter">XML source</ref></bibl>
             <bibl>
                <title>[Review of I. Lancashire and W. McCarty The Humanities Computing Yearbook.
                   1988.] History and Computing</title>
                <date>1991 </date>
-               <ref target="Reviews/collected.xml#lancs"/>
+               <ref target="Reviews/collected.xml#lancs">XML source</ref>
             </bibl>
             <bibl n="24"><date>1989 </date><title>Software Review: IZE version 1, March 1988. By
                   Persoft Inc</title><title>Computers and the Humanities</title>23 (1989) pp 501-5C.
-                  <ref target="Reviews/collected.xml#ize"/>
+                  <ref target="Reviews/collected.xml#ize">XML source</ref>
             </bibl>
             <bibl n="11"><title>[Review of C.J. Date Relational database: selected writings, C.J.
                   Date A Guide to INGRES C.J. Date A Guide the SQL Standard
                   ]</title><title>Computers and the Humanities</title>22 (<date>1988 </date>) pp
-               161-3 <ref target="Reviews/collected.xml#date"/></bibl>
+               161-3 <ref target="Reviews/collected.xml#date">XML source</ref></bibl>
             <bibl n="08"><title>[Review of Friedmann, Daniel P. and Matthias Felleisen The Little
                   Lisper]</title><title>University Computing</title>10, p. 100 <idno type="issn"
                   >0265-4385</idno>
                <date>1988 </date>
-               <ref target="Reviews/collected.xml#friedmann"/></bibl>
+               <ref target="Reviews/collected.xml#friedmann">XML source</ref></bibl>
             <bibl n="13"><title>[Review of John J. Simon Jnr :From sand to circuits and other
                   inquiries</title><title>University Computing</title>10, p. 205
                   <idno>0265-4385</idno><date>1988 </date>
-               <ref target="Reviews/collected.xml#simon"/></bibl>
+               <ref target="Reviews/collected.xml#simon">XML source</ref></bibl>
             <bibl n="08"><title>[Review of Chris Naylor The PC Compendium, vol
                   1]</title><title>University Computing</title>10, p. 99 <idno type="issn">0265-4385 </idno>
                <date>1988 </date>
-               <ref target="Reviews/collected.xml#naylor"/></bibl>
+               <ref target="Reviews/collected.xml#naylor">XML source</ref></bibl>
             <bibl n="11"><title>[Review of B.H. Rudall and T.N. Corns Computers and literature: a
                   practical guide]</title><title>Computers and the Humanities</title>22 (<date>1988
-               </date>) pp 163-4 <ref target="Reviews/collected.xml#rudall"/></bibl>
+               </date>) pp 163-4 <ref target="Reviews/collected.xml#rudall">XML source</ref></bibl>
             <bibl><title>[Review of Grundy, A.F. Proceedings of the fourth British National
                   Conference on Databases]</title><title>University Computing</title>9, p. 33
                   <idno>0265-4385</idno><date>1987 </date>
-               <ref target="Reviews/collected.xml#grundy"/></bibl>
+               <ref target="Reviews/collected.xml#grundy">XML source</ref></bibl>
             <!-- Per. 1877 d. 689 : callno in RSL -->
             <bibl n="33"><title>[Review of D. E. Avison: Information Systems Development: a data
                   base approach</title><title>University Computing</title> 8, p. 159 <idno
                   type="issn">0265-4385</idno><date>1986 </date>
-               <ref target="Reviews/collected.xml#Avison"/></bibl>
+               <ref target="Reviews/collected.xml#Avison">XML source</ref></bibl>
             <bibl n="34"><title>ICEBOL 85 [Review of Eric Johnson Proceedings of the 1985
                   International Conference on English Language and Literature Applications of SNOBOL
                   and SPITBOL]</title><title>Literary and Linguistic Computing</title>I.1
-                  (<date>1986 </date>) p. 52 <ref target="Reviews/collected.xml#johnson"/>
+                  (<date>1986 </date>) p. 52 <ref target="Reviews/collected.xml#johnson">XML source</ref>
             </bibl>
             <bibl n="54"><title>Byt and myth [review of Robert Pinsky Mindwheel
                   ]</title><title>TLS,</title>7 Feb <date>1986 </date> p 150 <ref
-                  target="Reviews/collected.xml#pinsky"/></bibl>
+                  target="Reviews/collected.xml#pinsky">XML source</ref></bibl>
             <bibl n="14"><title>A passion for control [review of Dorothy Stein Ada: a life and a
                   legacy]</title><title>TLS,</title>7 March <date>1986 </date>p 242 <ref
-                  target="Reviews/collected.xml#stein"/></bibl>
+                  target="Reviews/collected.xml#stein">XML source</ref></bibl>
             <bibl n="51"><date>1986 </date><title>More and more addressable [review of Duncan
                   Campbell and Steve Connor On the record]</title><title>TLS, </title><date>25 July
-                  1986 </date>p 813 <ref target="Reviews/collected.xml#campbell"/></bibl>
+                  1986 </date>p 813 <ref target="Reviews/collected.xml#campbell">XML source</ref></bibl>
             <bibl n="01"><date>1985 </date><title>[Review of Sherry Turkle <title>The second self:
                      Computers and the human spirit</title>]</title><title level="s">Computers and
                   the Social Sciences</title> vol 1 no 2, p 107-9 <idno type="issn">0748 9269</idno>
                Osprey, Florida: Paradigm Press, Inc. <date>April 1985 </date>
-               <ref target="Reviews/collected.xml#turkle"/></bibl>
+               <ref target="Reviews/collected.xml#turkle">XML source</ref></bibl>
             <bibl n="56"><date>1984 </date><title>The devil's circuitry [review of Peter Large The
                   micro revolution revisited and Michael Shallis The silicon
                   idol]</title><title>TLS, </title><date>14 Dec 1984 </date>,p 1444 <ref
-                  target="Reviews/collected.xml#large"/></bibl>
+                  target="Reviews/collected.xml#large">XML source</ref></bibl>
             <bibl n="63"><title>[Review of Stig Johansson. Computer corpora in English language
                   research(Bergen 1982)]</title><title>ALLC Bulletin</title>X 3 (<date>1983 </date>)
-               p 109 <ref target="Reviews/collected.xml#johansson"/></bibl>
+               p 109 <ref target="Reviews/collected.xml#johansson">XML source</ref></bibl>
             <bibl n="57"><date>1983 </date><title>Into the dreaded database [review of David Burnham
                   Rise of the computer state</title>]<title>TLS, </title><date>25 Nov 1983 </date>p
-               1328 <ref target="Reviews/collected.xml#1983-burnham"/></bibl>
+               1328 <ref target="Reviews/collected.xml#1983-burnham">XML source</ref></bibl>
             <bibl><title>[review of Jürgen Schäfer Documentation in the OED: Shakespeare and Nashe
                   as test cases (Oxford, Clarendon Pr, 1980)]</title><title>ALLC Bulletin</title>IX
-               2 (<date>1981 </date>) p 30 <ref target="Reviews/collected.xml#schafer"/></bibl>
+               2 (<date>1981 </date>) p 30 <ref target="Reviews/collected.xml#schafer">XML source</ref></bibl>
             <bibl n="48"><date>1981 </date><title>[review of Zvi Malachi Proceedings of the
                   international conference on literary and linguistic computing, Israel
                   ]</title><title>Computers and the Humanities</title>15.2 pp 118-20<date>August
                   1981 </date>
-               <ref target="Reviews/collected.xml#malachi"/></bibl>
+               <ref target="Reviews/collected.xml#malachi">XML source</ref></bibl>
             <bibl n="62"><date>1980 </date><title>[review of Richard Conway and James Archer
                   Programming for poets: a gentle introduction using FORTRAN with WATFIV
                   ]</title><title>ALLC Bulletin viii 1 (<date>1980 </date>) 92-3</title>vol 7 <ref
-                  target="Reviews/collected.xml#conway"/></bibl>
+                  target="Reviews/collected.xml#conway">XML source</ref></bibl>
             <bibl n="74"><title> [review of Allen B Tucker Jr Text processing: algorithms, languages
                   and applications]</title><title>ALLC Bulletin</title>viii 2 (<date>1980 </date>)
-                  206-8<ref target="Reviews/collected.xml#tucker"/></bibl>
+                  206-8<ref target="Reviews/collected.xml#tucker">XML source</ref></bibl>
             <bibl n="49"><date>1980 </date><title>At home with the hardware: [review of Robert L
                   Oakman Computer methods for literary research and Susan Hockey A guide to computer
                   applications in the humanities]</title>
                <title>TLS, </title><date>9 May 1980 </date>,p 533 <ref
-                  target="Reviews/collected.xml#hockey"/></bibl>
+                  target="Reviews/collected.xml#hockey">XML source</ref></bibl>
             <bibl n="50"><date>1980 </date><title>Camp Conflicts [review of T. Coraghessan Boyle:
                   Descent of Man]</title><title>TLS, </title><date>20 Jun 1980 </date>,p 714 <ref
-                  target="Reviews/collected.xml#boyle"/></bibl>
+                  target="Reviews/collected.xml#boyle">XML source</ref></bibl>
             <bibl n="52"><date>1980 </date><title>Growing up in Ulster [review of Ian Cochrane:F for
                   Ferg]</title><title>TLS,</title><date>22 Aug 1980 </date>,p 943 <ref
-                  target="Reviews/collected.xml#1980-cochrane"/></bibl>
+                  target="Reviews/collected.xml#1980-cochrane">XML source</ref></bibl>
             <bibl n="53"><date>1980 </date><title>Set authors [review of Sally Emerson Second
                   sight]</title><title>TLS,</title><date>12 Sept 1980 </date>,p 984 <ref
-                  target="Reviews/collected.xml#1980-emerson"/></bibl>
+                  target="Reviews/collected.xml#1980-emerson">XML source</ref></bibl>
             <bibl n="55"><date>1980 </date><title>Trauchle in the but and ben [review of Fred
                   Urquhart A diver in China seas]</title><title>TLS,</title><date>19 Sept 1980
-               </date>,p 1044 <ref target="Reviews/collected.xml#urquhart"/></bibl>
+               </date>,p 1044 <ref target="Reviews/collected.xml#urquhart">XML source</ref></bibl>
             <bibl n="60"><date>1980 </date><title>[Review of FARRINGDON, MICHAEL AND FARRINGDON,
                   JILL A computer-aided study of the prose style of Henry Fielding and its support
                   for his translation of the Military History of Charles XII. [In Advances in
@@ -565,24 +566,24 @@
                   -105. See main entry CR 20. 11 (Nov 1979), 35.349.]</title><title>Computing
                   Reviews</title>March 1980, p.107 <ref target="Reviews/collected.xml#1980-farringdon"
                /></bibl>
-            <bibl n="58"><date>1977 </date><title><bibl><author>J"/></author><title>Algorithms in
+            <bibl n="58"><date>1977 </date><title><bibl><author>J Gimpel</author><title>Algorithms in
                         SNOBOL4</title>(Wiley, 1976)</bibl></title><title level="j">ALLC
                   Bulletin</title>
                <biblScope>V 2 (1977) p 211-2</biblScope>
-               <ref target="Reviews/collected.xml#gimpel"/>
+               <ref target="Reviews/collected.xml#gimpel">XML source</ref>
             </bibl>
             <bibl><date>1989 </date><title>Review of <title>Effective Documentation: What we have
                      learned from research</title></title>
-               <ref target="Reviews/collected.xml#doheny"/></bibl>
+               <ref target="Reviews/collected.xml#doheny">XML source</ref></bibl>
             <bibl><date>unknown </date><title>Review of <title>Basic facts: Computers</title> by
                   Brian Samways (Collins Gem, #1.50)</title>
-               <ref target="Reviews/collected.xml#samways"/></bibl>
+               <ref target="Reviews/collected.xml#samways">XML source</ref></bibl>
             <bibl><date>1991 </date><title>Review of <title>Hermes and the Golden Thinking
                      Machine</title>, by A. Tzonis (MIT Press, 1990). </title>
-               <ref target="Reviews/collected.xml#tzonis"/></bibl>
+               <ref target="Reviews/collected.xml#tzonis">XML source</ref></bibl>
             <bibl n="45"><date>unknown </date><title>Review of <title>Microcomputer software for
                      information management: case studies</title>, ed Mel Collier. </title></bibl>
-         </listBibl>
+         </listBibl></div>
       </body>
    </text>
 </TEI>

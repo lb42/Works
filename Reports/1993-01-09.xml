@@ -1,0 +1,163 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1993-01-09">
+   <head type="event">SALT Club
+      meeting</head>
+   <head type="location">[London]</head>
+   <head type="date">January 1993</head>
+
+   <p>The SALT Club is an informal group of researchers, from both academic
+and commercial sectors, with a common interest in Speech and Language
+Technology (nothing to do with Strategic Arms Limitation). It is
+organised and minimally funded by the UK Government's Department of
+Trade and Industry, as a side effect of the funding it provides for
+research work in this area together with the Science and Engineering
+Research Council (SERC), under something called the Joint Framework for
+Information technology (JFIT). Aside from a useful bulletin distributed
+to JFIT-funded projects, SALT organizes an annual workshop and provides
+a nexus of useful contacts. It also constitutes an expert group with
+some influence on government priorities for research funding in this area.
+</p>
+   <p>This year's SALT Club Workshop was concerned with Multimedia. Under the
+rather grand title "Paradigm Shift in Speech and Language Technology:
+Integrating with other Media", this two-day event combined a series of
+carefully-chosen plenary presentations and a number of small working
+group sessions, collectively addressing the issue of what, if anything,
+there might be of interest to SALT hackers in multimedia and vice
+versa.
+</p>
+   <p>
+The workshop began with a presentation from Graham Howard about the US Art
+of Memory project, which (due to the hostility of London Transport) I
+missed. I did however arrive in time to enjoy Barry Arons' (MIT Media Lab)
+round-up of work concerned with hypertext-like ways of interacting with
+recorded speech, ranging from intelligent telephone answering machines to
+'virtual conversations'. The technically interesting part of this
+concerned the design of an appropriate user interface for a database of
+sound bites accessible by voice only. The database consisted of
+13 minutes of monologue from five speakers, gathered over the telephone,
+which Arons had analysed into a network of some 80 discrete nodes,
+linked by 750 links of various types (e.g. 'summary', 'detail',
+'supporting argument' etc.). It could be queried using a simple 17 word
+command language. The technology was impressive and sophisticated but
+mechanically organized snippets of spoken language cannot really be said
+to be conversations, although Arons did make passing reference to Grice's
+work in discourse analysis as providing useful models for how 'reports'
+from such a database might be organized.
+</p>
+   <p>
+This was followed by a more low-key presentation from Paola Fabrizi of
+the RNIB about the Electronic Daily Newspaper. I found this easily the
+most impressive project described in terms of real world applications
+of multimedia. Every night while the compositors are busy setting up
+the printed text of the Guardian, an electronic version of the same
+text in a specially encrypted form is broadcast via the unusued lines
+in teletext transmissions.  Subscribers download the text into their
+pcs overnight, and can then `read' the paper at the same time as their
+sighted nbeighbours, using a voice synthesizer, large character display
+or transitory braille display. Paola demonstrated the system with a
+bottom end of the market speech synthesiser which came as somewhat of a
+shock after the realism of MIT's synthetic voice, but the simplicity of
+the interface had much to commend it. Users could scroll,  and search,
+switch betweeen paragraph, line, word and letter mode, the latter being
+useful to spell out unfamiliar words. Selected stories or prtions of
+them can be pasted  to a scrapbook etc.
+</p>
+   <p>
+Janet Cauldwell (OUP) presented the electronic OED of which any
+further praise would be otiose. I shall therefore remark only that this
+product is so wonderful its presentation and marketing could be safely
+left to idiots.
+</p>
+   <p>
+After lunch, we were organized into a five work groups, on a variety of
+occasionally overlapping topics (Organizational structures within
+language; database interfaces; use of nonlinguistic information in
+linguistics; educational applications; communications facilities). Each
+group had an assigned leader, a small number of thought-provoking
+presentations and a rapporteur charged with making proposals for ways
+in which new SALT-related activities could be realigned within a
+multimedia paradign. I joined the first group, and enjoyed brief
+presentations from Adam Kilgariff and Lynne Pemberton, both, in
+different ways, concerned with ways of structuring complex texts. The
+group invented an interesting application area: an intelligent agent
+capable of summarising or expanding the information content of
+individual components of a multimedia system as well as identifying and
+categorising the links between them. I waxed lyrical on the wonders of
+HyTime, TEI etc, and found myself appointed rapporteur for my pains.
+</p>
+   <p>
+Day two began with a brief hectoring from Gerry Gavigan of the DTI, the
+gist of which was that the SALT progrmme was likely to be axed if there
+was not a more enthusiastic response to its next call for proposals,
+provoking a certain amount of muttering about the difficulty of
+persuading hard-pressed commercial partners to join and the
+complexities of the application procedure. This was followed by a video
+presentation displaying results from an ESPRIT project called
+MMI-squared (for MultiModal Interfaces for Man-Machine Interaction)
+which I found slick but curiously uninventive. The previous day's
+workgroups then resumed.
+</p>
+   <p>
+Two further plenary presentations addressed topics of some relevance to
+TEI interests: one, from Arnold Smith (SRI) discussed the ubiquity of
+modelling techniques, (in  dbms, CAD, spreadsheets, robotics etc) and
+the need to achieve mapping between them, which, he opined, could be
+done by something called "abductive equivalential translation", of
+which I understood just about enough to see similarities with the use
+of SGML: translating models clearly requires the addressing of semantic
+issues rather than simple data format comnversion. It also facilitates
+re-use of encoded knowledge: as an unexpected application area he
+mentioned integrated manufacturing systems for which he claimed that
+language translation methiods were directly applicable. The second,
+from John Lee, (Edinburgh) talked at some length on the different
+communicative aspects of different modalities and appropriate bases for
+choosing amongst them, for which he proposed 'specivity' as an
+interesting metric. Like Smith (and others) he saw the significant
+contribution that SALT could makein terms of the application of a
+discourse model.
+</p>
+   <p>
+After lunch the rapporteurs were invited to present the findings of
+their groups. These are to be edited up into a report for the DTI,
+which I will circulate to anyone interested when it is completed. The
+information handling group had seemingly decided that linguistic
+description was a better way of querying large databases (specific
+instances included images and distributed dbs) than graphical methods.
+Re-expression of queries in different modes was a good way of checking
+that they were being correctly interpreted. Their new project was a
+voice input/recognition system for attaching annotation to large
+quantities of images or paperwork. The Education workgroup, on which
+Nick Ostler reported, had surveyed a number of interesting
+applications, but had chiefly highlighted a checklist of the problems
+of multimedia developmt (high cost, dangers of rigidity, difficulty in
+carryover, copyright problems etc). The workgroup on 'nonlinguistic
+issues' (Chris Mellish reported) had also identified a large number of
+problem areas and research opportunities, from which I recall as
+particularly interesting the following: combining automatic lip-reading
+with speech recognition (useful in noisy discos); research on the
+semantics of body language and gesture; application of linguistic
+anmalysis to existing graphical interfces etc. The telecoms group,
+reported on by Martin Crossley (BT), began by positing the widespread
+availability of a number of emergent technologies (wideband networking
+into the home, videophones, teleconferencing, teleworking, teleshopping
+etc). In the short term they predicted speech controlled telephones
+with more intelligent conversational interfaces; in the medium term,
+bettwer interactive educational tools (necessary for any expansion of
+distance learning). In the longer term they foresaw proper multimodal
+access to distributed computer systems, linguistic interaction with
+intelligent search agents, ways of intelligent topical indexing of
+video data.
+</p>
+   <p>
+The workshop wound up, like many others, with discussion of ways in
+which funding might be obtained for further SALT/Multimedia research,
+with five possible being proposed. The DARPA model, in which there is a
+predefined goal for which consortia are invited to compete, with
+payment contingent on their achieving specified targets, was liked by
+some as much as it was disliked by others. Alternatives included the
+notion of a centrally funded institute and more precisely defined
+contractual arrangements (as in LRE). There was a familiar call for
+outreach to other related communities. Ostler closed with a review of
+the current status of the SALT club itself, now no longer bankrolled by
+DTI, it transpired, but by his own company.
+</p>
+</div>

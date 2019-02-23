@@ -1,0 +1,68 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1985-10-15">
+   <pb facs="Pages/img489.jpg"/>
+   <head type="report">Visit
+Report</head>
+   <head type="location">Hotel Metropole, London</head>
+   <head type="event">For INDEPOL
+Launch</head>
+   <head type="when">15 Oct 85</head>
+   <p>INDEPOL (Intelligence
+Defence and Police) is the first ICL packaqe developed exclusively as
+a front end for CAFS; its name reflects the marketplace at which it is
+targetted, and also its origins. It was developed by ICL Defence
+Systems with funding from MoD, originally as a way of making CAFS-800
+(the hardware precursor of CAFS-lSP) usable outside Stevenage. It has
+had a lenqthy gestation, reflected notably in its complete
+independence of ICL's current strategic product line. Thus, it
+accesses CAFS facilities via the RSI to RECMAN directly; it has its
+own internal Data Dictionary; it enforces its own privacy mechanisms
+independently of VME. The only point of contact in fact is TPMS, which
+it relies on to handle concurrency, (see further below).</p>
+   <p>INDEPOL
+differs in several ways from the conventional static DP package, quite
+apart from the wonders of CAFS. Its data model is completely flexible;
+restructuring being unnecessary because of its reliance on SIF. The
+model contains only things called domains and relationships, the
+latter not explained in any detail; domains are more-or-less SIF data
+items, in the physical data model, as well as files and records (the
+latter containing mostly SIF items only though fixed length fields are
+supported) it has things confusingly called record sets which are
+actually dynamically created collections of record keys held in
+virtual store. They are also working on something like value-based
+sets between files. It has extensive access control mechanisms,
+implemented by additional predicates added invisibly to every
+query.</p>
+   <p>What sets it furthest apart from the query products we
+know and love however is its update facilities. Records are updated in
+situ, (hence the reliance on ISAM), any contention being handled by
+VME. A modified record is immediately available for searching. (I
+don't think this is is true even of DCI based systems, which cannot
+open files in read/write mode). </p>
+   <p>Its user interface is
+startlingly simple: you can use either (dynamically created; forms or
+a very simple command language which has minimal clutter. Fuzzy
+matching and quorum conditions are described by a syntax arguably
+closer to natural language than DCI's The same forms can be used for
+input and output. Macros can be defined both to abbreviate commands
+and conditions and also for record sets.</p>
+   <p>The launch was a very
+professional affair. We were treated to a dramatic slide show loosely
+derived from Raymond Chandler, in which various fragmentary clues were
+presented to a private eye. The online demonstration then used INDEPOL
+to solve the case by searching various files for leads indicated by
+said fragmentary clues, This was both entertaining and
+impressive. After lunch (passable pie, decent wine, unambitious
+salads, disgusting coffee), there were more demonstrations. The whole
+affair was very carefully stage managed; each group of punters
+(entirely from the military and the police, so far as I could tell)
+having its appointed ICL minder to fetch its drinks, introduce it to
+the right boffins and keep it apart from the other punters. P. Leggate
+from the English faculty library and I had our new salesman all to
+ourself, who revealed that he was hopeful of getting funds from DTI to
+get the package released to one University site, presumably either us
+or QMC. I may have blown it, by getting too embroiled in technical
+discussion with Jim May (main guru behind the software) to pay much
+attention to this heavy hint. I hope not: it looks like a very
+interesting opportunity. And, to round off a perfect day, neither of
+the trains I took broke down.</p>
+</div>

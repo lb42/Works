@@ -1,0 +1,26 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1979-11-21">
+   <pb facs="Pages/img420.jpg"/>
+   <head type="report">VISIT REPORT</head>
+   <head type="location"> ICL Euston</head>
+   <head type="event">ICL.DMUG.IDMS
+User Group Meeting</head>
+   <head type="when">21
+November</head>
+   <p>L. Burnard</p>
+   <p>This meeting was essentially a
+mopping-up operation. All twelve papers (bar one or two) are in their
+last or last but one draft. The chief area as yet unresolved is that
+of statistics: some discussion on how population stats and
+performance-monitoring stats could be collected and used to improve
+performance and diagnose needs for restructuring lead to some firm
+suggestions.</p>
+   <p>An interesting document was circulated on the
+subject of security of IDMS databases: it proposed that (after 5X32)
+IDMS inline code should be made to run at ACR9, thus preventing
+unauthorised access completely.</p>
+   <p>I have two sections of the
+report to revise; at the next meeting (December) all the sections will
+be collected and collated. ICL are to give a presentation on the next
+generation of IDMS (200); it should be the same as the one they
+recently tried to charge £250 for but is free </p>
+</div>

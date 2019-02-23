@@ -1,0 +1,33 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1980-11-14">
+   <pb facs="Pages/img424.jpg"/>
+   <head type="report">VISIT REPORT
+L. Burnard</head>
+   <head type="location">RNIB, London</head>
+   <head type="when">November 14 1980</head>
+   <p>I visited the RNIB Computing
+centre in London at the invitation of their chief systems analyst to
+discuss the possibility of co-operating in exchanges of
+machine-readable text. The RNIB now produce all new Braille titles on
+their GEC-based computer system. About half a dozen people are
+employed typing into terminals in the normal way, but they have also
+been using a KDEM (indistinguishable from ours) for the last six
+months. One copy of the text is pre-edited (i.e. marked up for
+homonyms, paragraph markers etc.), while another is scanned by the
+KDEM. Quite a lot of pre-editing is done directly on the KDEM as the
+text is scanned. The resulting text is then processed by a program
+developed at Warwick called DOTSYS. This outputs the text in a format
+which can be displayed as braille on a specially built terminal for
+further editing and is ultimately used to produce the zinc plates from
+which braille books are still embossed. The KDEM, I was told, worked
+far too fast for the DOTSYS processor to keep up, though it greeted my
+arrival by going into 'Panic' mode amidst familiar cries of "Where's
+Paul?”; judging by the amount of error correction going on on the
+braille terminal DOTSYS has shortcomings additional to its
+slowness. Of course the KDEM is only used on modern printed English
+texts (mostly pulp romances etc.).</p>
+   <p>We discussed copyright
+problems and agreed to exchange lists and other information;
+particular interest was expressed in database systems - they were
+considering Rapport - and in the possibility of using publisher's
+tapes as the basis of a new Braille dictionary.</p>
+</div>

@@ -1,0 +1,100 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1996-05-23">
+
+
+   <head type="location">Goteborg, Bergen, and Innsbruck</head>
+   <head type="when">May 1996</head>
+   <p>At the invitation of Daniel Ridings, I visited the Sprakdata Unit at
+Goteborgs University at the beginning of May. This unit, which is
+distinct from the Linguistics Dept, was set up originally by Swedish
+Acdemician Sture Allen, and is the major lexicographical and NLP
+research centre in Sweden. I gave a two hour lecture on the subject of
+the British National Corpus, followed by an extended demonstration of
+the capabalities of SARA to an audience of about 15 lexicographers and
+others, which seemed to be much appreciated. On the second day of my
+visit, I gave a boiled-down version of the standard TEI workshop to
+students on the second year of the University's Computational
+Linguistics course, with an emphasis on the implications of TEI markup
+for lexical data, at the invitation of Riding's colleague Pernilla
+Danielsson. Danielsson and Ridings are collaborating on a project
+called PEDANT, which is an aligned multilingual corpus, using TEI
+markup and the toolkit developed by Henry Thomson as part of the
+Multext project, which we discussed at some length. I also met Steffan
+Larsson and colleagues from the Linguistics Dept at Goteborg, who have
+developed their own complex annotation scheme for the markup of a
+spoken Swedish corpus, and with whom I discussed the possibility of
+converting their markup scheme to TEI conformance. My BNC lecture was
+also attended by Gary Ward, a systems programmer from the University
+of Vaxjo, which is also attempting to set up a SARA server. With
+assistance from technicians at Goteborg, we were able to make
+considerable progress in getting the current version working, to the
+point where we were able to determine that there really was a bug in
+the server  (since fixed by Scotty, I am glad to report).
+</p>
+   <p>The third day of my visit to Sweden, being Sunday, I spent visiting
+the Goteborg museum (splendid collection of late 19th century soft
+porn) and getting rained on in various picturesque locations, before
+heading to Bergen to participate in an encoding seminar being
+organized by the NCCH's Wittgenstein Archive. Part of the reason for
+this workshop, it was explained to me, was to prepare local staff and
+staff from other Norwegian centres for the forthcoming ALLC
+conference; I suspect it was also to field-trial the splendid new
+facilities being made available for said conference in Bergen's new
+Law Faculty building. Whatever the reason, I very much enjoyed the
+opportunity of re-running the boiled-down TEI workshop for the benefit
+of an intelligent and alert audience. In the time available, it was
+not possible to do a full hands-on session, but I was able to run
+through the exercises I had prepared (loading an untagged file into
+A/E, tagging it, building a header, exporting it, viewing it with
+Panorama, etc.) which seemed to be much appreciated.  After the
+seminar, Claus Huitfeldt, Peter Cripps and I discussed somewhat
+inconclusively how the TEI/MECS Workshop planned for the start of the
+ALLC conference should be organized. I think we decided that we'd do
+them in parallel, sort of. I also met Lars Johnsen, the new head of
+NCCH, a former corpus linguist turned administrator, as well as old
+friends from Bergen. The second day of the workshop was given over to
+Allen Renear, from Brown, who gave an intriguing historical overview
+of the development of what he called the ontology of texts, from
+platonism (as characterized by the Brownian OHCO model) through
+liberalism (the view that there are many possible hierarchies) to
+anti-realism (the view that text has no reality aside from that
+projected onto them). Renear characterized the last as being
+"fashionable", which I take to mean "wrong".
+</p>
+   <p>Committments in Oxford meant that I was regrettably unable to stay for
+the remainder of this Workshop, which was to include a discussion of
+MECS and how it differed from TEI, so I took the customary large lunch
+at Hotel Norge before returning home on Tuesday evening.
+</p>
+   <p>After two days' frenetic but parochial activity in Oxford, I set off
+for Innsbruck, via Munich, in the company of Mike Popham. Our
+objective was partly to find out what exactly the NOLA project might
+be or might become, and partly to get a little time quietly to discuss
+the two other meetings to which I had committed Mike's time this
+month. Once arrived in Innsbruck, I developed a streaming cold, not
+helped by the rain which had followed me from Goteborg, which
+may have somewhat coloured my view of the ensuing meeting.
+</p>
+   <p>The meeting was organized by Allan Janik, of the Brenner Archiv, and
+attended by Heinz Hauffe of the Innsbruck University Library, Donald
+Broady of the Royal Institute for Technoloy at Stockholm, Lars Johnsen
+from Bergen in addition to Mike and me. Its purpose was to review the
+the NOLA proposal for funding under the EU's Libraries Programme,
+recasting it in the light of criticisms received so far. There was a
+general feeling that much work needed to be done, particularly in
+recasting the relationship of the project to the TEI, and in involving
+more prominent library activities. I had hoped that the work being
+done at the Bodleian in extending the TEI Header to handle manuscript
+materials might be of some relevance here, but this remains to be
+seen. Mike Popham's excellent minutes (soon to be available from the
+NOLA web page at http://???) summarize the chief areas discussed and
+the future plans of the group. 
+</p>
+   <p>Mike and I then spent a very useful day preparing an initial position
+paper for the Oxford Text Archive to present at the first Service
+Providers Forum meeting of the AHDS, and in discussing Mike's
+presentation at the Princeton workshop on Software for the Humanities,
+before going our separate ways -- he back to Munich and thence to
+Princeton, I into the Tyrol and thence to Munich for 
+the SGML96 conference. It continued to rain.
+</p>
+</div>

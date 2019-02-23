@@ -1,0 +1,80 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1987-02-17">
+   <pb facs="Pages/img482.jpg"/>
+   <head type="report">VISIT REPORT</head>
+   <head type="location"> Novotel,
+Hammersmith </head>
+   <head type="when">17 February 1987</head>
+   <head type="event">The Sequent Lectures</head>
+   <p>Along with
+several thousand other punters I received an invitation to the first
+series of "Sequent Lectures" among the usual spring tide of junk mail;
+as did several hundred others, I decided it might be worth a visit,
+since it was free and featured most of the dbms I know and love. The
+event was held in the unspeakably awful Novotel, which is largely
+composed of multi storey car park, and had three parts. In part one,
+an earnest American salesman explained very slowly why Sequent
+machines are so fast (and reliable and wonderful and cheap). This I
+found mildly informative, never having paid the company much attention
+before; the parallel architecture (lots of stripped down VAXes hanging
+off a superfast bus) sounds remarkably sensible, providing that you
+can take advantage of it. To do this properly, however, you clearly
+need so pretty smart programmers. My jargon detector popped its dial
+on the phrase "We have architected that [i.e. Oracle's use of
+background processes] on the Sequent" and failed to function for the
+rest of the morning.</p>
+   <p>Part two came after coffee and comprised
+three two-stage sessions held in parallel (another case of Sequent
+architecting). These were supposed to be for Sequent's favourite
+software vendors to endorse the message by explaining how they'd taken
+advantage of the wonderful box in their implementations: predictably
+they turned out to be fairly low key sales pitches with only token
+gestures in this direction. Products featured were Ingres, Oracle,
+Informix, Unify and The Office Smith. I missed all of Unify (it's a
+supposedly high performance TP-type system hosted under UNIX), Oracle
+(heard it all before) and also all of the technical seminar on
+parallel programming (from which however I did steal a programming
+guide). The Ingres speaker seemed proudest about Ingres' Visual
+Programming (Trademark) and its "state of the art" query optimiser. It
+exploits the Sequent architecture by running front and back end
+processes on different processors, as does Oracle, I assume. The
+Informix speaker was proudest about their 4GL; he did however announce
+the new Informix-TURBO which can be used to beef up multi-user large
+scale UNIX implementations (not however noticeably using parallel
+programming techniques) amd also DATASHEET ADD-OM with which you can
+make your Informix-SQL database look just like Lotus 1-2-3. There's
+progress. Office Smith turns out to be fairly drab hierarchic text
+indexing system for UNIX boxes only. The speaker clearly felt rather
+defensive about this ("relational is just a small subset of database
+technology") and rightly so. It uses B-trees and compresses index
+terms rather like those speed-writing adverts (KN Y RD THS?); one
+thing in its favour is that it was designed to be bilingual, emanating
+as it does from the Canadian Government.</p>
+   <p>The main event of the
+day was Dr Rob Wilmott's Vision of the Future, an inspirational little
+number, featuring lots of graphs showing sharply divergent lines with
+labels such as "Shipped MIPs", "Price/Performance<pb facs="Pages/img483.jpg"/> Learning Curve" (and only 3 spelling
+mistakes) etc etc. Fortunately for the innumerate, the lessons Dr
+Wilmott wished us to take home were not too difficult: (1) lots of
+small machines is better value for money than one biggie (2) progress
+is being impeded by fuddy-duddy conservatism and the deadweight of
+current software investment (3) OSI standards are a Good Thing, and
+are Happening. Likewise, UNIX, C etc. These messages were all dressed
+up rather fetchingly with the usual sort of stuff about the imminent
+collapse of the British non-manufacturing industry and the appalling
+levels of ignorance in British management. To fill the latter gap, our
+Rob has -surprise- started a new management consultancy called OASIS
+which will help you "go multi-vendor" and transform your software
+productivity before the astonished eyes of the competition breathing
+down your neck. Question time provoked an unexpected smear on
+government collaborative ventures, and (with reference to whether IBM
+would ever get involved in parallel architectures), quite the best
+mixed metaphor of 1987, so far, viz "Once the benchmarks are on the
+table, you will see all Hell break loose".</p>
+   <p>A nominal lunch was
+provided, after which I trekked across London to visit the British
+Library's Research &amp; Development Division, deep in the heart of
+Soho. It is possible that they would be willing to fund a one year
+research post here to assess the actual and potential uses of machine
+readable texts, which would also help keep the Text Archive on its
+feet. I spoke to Terry Cannon, who was encouraging.</p>
+</div>

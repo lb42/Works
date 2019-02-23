@@ -1,0 +1,41 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1981-02-09">
+   <pb facs="Pages/img435.jpg"/>
+   <head type="report"> 9 Feb
+81</head>
+   <head type="location">ICL UK
+Systems Centre, Putney </head>
+   <head type="event">PDS
+Demonstration</head>
+   <p>ICL had arranged a hands-on demonstration of
+the new Personal Data System (a relational system developed at
+Sputhampton) largely for our benefit; attendees were: R.Stratton,
+L.Burnard, S.Hockey (OUCS), S.George (QMC) C.Massey (SWURCC) and
+D.Doulton (Southampton).</p>
+   <p>There was a preliminary briefing
+session on PDS concepts - tables, fields, etc. The system manages to
+give a full relational capability without the jargon. It is used
+entirely interactively. The user defines one or more tables, which
+have names and fixed attributes. Each attribute is defined by name and
+value (possible values are integer, decimal, character string, date
+and century date) . Checking rules may be specified to validate data
+further on input. At present all input is interactive, but plans for
+bulk loading of data were murmured about.</p>
+   <p>The command syntax is
+quite simple to use and, after some initial problems with the computer
+(a 2903 pretending to be a 1902) three of us were able to get a
+reasonable impression of the system in operation. It seemed flexible
+and intelligble to the naive user, in most important respects. We all
+were able to create and update tables without difficulty, and to make
+some simple enquiries. There was of course no way to investigate the
+performance of the machine when more heavily loaded.</p>
+   <p>There was
+some discussion of facilities we felt to be lacking: chielfy more
+sophistication in its handling of character sets, more flexible
+sorting options, more sophisticated conditionals and a macro facility
+closer to that of Data Display. Compatibility with IDMS was also
+mentioned as an important requirement. ICL are not of course in a
+position to give any firm dates, or even weak ones, but around the end
+of this year it might be worth complaining about the product's
+non-availability on VME/B again. Meanwhile, there is an excellent
+manual, and the product is running on 2903 and ME29.</p>
+</div>

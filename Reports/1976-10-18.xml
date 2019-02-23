@@ -1,0 +1,48 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1976-10-18">
+   <pb facs="Pages/img387.jpg"/>
+   <head type="location">Edinburgh Regional Computing Centre</head>
+   <head type="when">18/10/76</head>
+   <head type="event">1) Attend ICL IDMS User
+Group Meeting; 2)Discuss data management facilities on 2900 and
+exchange experience.</head>
+   <p>Minutes of the User Group meeting will
+be circulated within the next month,when they become available: a
+brief summary only is given here. The meeting was attended by
+representatives from MOD, BBC, GPO, HSA, BNF, UKAEA, Pirelli, ICL and
+other interested parties. Reports on the current status of 2900 IDMS
+implementation were given by ERCC, MOD, HSA and BBC. Several other
+representatives had recently implemented 1900 IDMS as well, with
+little difficulty.</p>
+   <p>A discussion was held on a working paper from
+MOD about proposed enhancements to the inline software of the next
+version of ICL IDMS (B150). A paper was also circulated giving -
+unofficially - ICL's planned enhancements. MOD confirmed that ICL had
+committed itself to supplying them with at least two of the major
+enhancements 'by mid 1977'. The discussion was fruitful, but
+technical. Copies of the paper discussed are available. Topics
+discussed included a fast-load utility (to be implemented in the next
+Cullinane release), and the need for a report generator/queue
+language. With the exception only of myself and the ERCC
+representative the User Group favoured an interface between IDMS and
+the FILETAB system.</p>
+   <p>Reports were made on the European and
+U.S. IDMS User Groups. A representative from Cullinane Corporation
+reported on the develop­ments planned for their IDMS, and confirmed
+that compatibility with the ICL product remained a high
+priority.</p>
+   <p>Unfortunately few of the people I met at ERCC had had
+much experience of the Data Management facilities on 2900, nor did
+they anticipate that there would be great user demand for any but the
+more rudimentary of the DMUS, not, at least, until the package had
+been more rigorously tested. This view was shared by the others at the
+IDMS UG, in particular MOD Bureau West, one of whose representatives
+told me he had used the DMUS extensively but found the facilities too
+restrictive to be of much use. At ERCC, there was considerable
+enthusiasm for FAMULUS as a hierarchical file-handling package
+alternative to IDMS; the conversion to 2900 from the IBM version at
+UCL would be undertaken by the PLU.</p>
+   <p>I also managed to discuss in
+some detail a proposed application of IDMS at Oxford with
+Dr. G. Stacey, which was of great use to me, and hopefully to the user
+concerned as well.</p>
+</div>

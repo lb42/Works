@@ -1,0 +1,34 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1979-04-12">
+   <pb facs="Pages/img413.jpg"/>
+   <head type="report">VISIT REPORT L. Burnard</head>
+   <head type="location"> ICL
+Computer House</head>
+   <head type="when">12 April 79</head>
+   <head type="event">ICL/DMUG End User Facilities Sub Group (79) 3rd
+Meeting</head>
+   <p>Brief presentations on the conceptual views supported
+by some existing front ends to IDMS systems. R.Haydock (Plessey)
+described the structure supported by their homegrown interface to 1900
+IDMS; Ed Dee (ERCC) summarised work done by M.Kay on a relational
+subschema and two speakers from ICL gave short accounts of the FAME
+('hierarchic') interface and of the FORAL ('binary') interface
+respectively. The MOD (OPCON) spec for a query language mentioned at
+the last meeting was distributed and I have a copy if anyone is
+interested. C.Chang of ICL also spoke on GPLAN, a simple interface to
+IDMS which however makes some unwarranted assumptions about the
+structures represented. Of these presentations, only that on the
+relational view seemed to me to be of much use, the others being
+somewhat perfunctory and ad hoc. The Plessey product was also of
+interest in that it had evolved q</p>
+   <p>uite naturally from software
+originally written to support their conventional flatfiles during
+their changeover to IDMS. Dataskil were ^elieved to be marketing a
+similar product.</p>
+   <p>There was some (fairly murderous) criticism of
+the draft section-headings for the final report proposed by J.West
+(Oxfordshire CC); much of this was re-worded and re-ordered. Various
+people were nominated to write sections describing the conceptual
+views discussed at the meeting: I got stuck with the binary view, as a
+prize for having read the article in question more recently than the
+ICL speaker.</p>
+</div>

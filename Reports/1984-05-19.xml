@@ -1,0 +1,158 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1984-05-19">
+   <pb facs="Pages/img537.jpg"/>
+   <head type="location">Low Wood Hotel (Windermere)</head>
+   <head type="date">19-23 May 1984</head>
+   <head type="event">Lancaster University Conference (ICAME)</head>
+   <p>This was the fifth in a series of annual conferences on Computers
+in English Language Research run by a small group of like-minded
+linguists from the universities of Oslo and Bergen in Norway, Goteborg
+and Lund in Sweden, Nijmegen and Amsterdam in Holland and Lancaster
+and Birmingham in England. The like-mindedness consists chiefly in a
+concentration on the methodology of corpus linguistics, in particular
+the use of computers to analyse large (more than a million words)
+chunks of running text. The British Council, ICL, IBM and even a Royal
+were also sponsoring the event. This being the first time that Oxford
+had been represented at the conference in any form (while we do have
+lots of corpora we don't have any linguists), I spent quite a lot of
+time explaining that the Computing Service and the University Press
+were not the same thing at all, mainly to delegates excited by the
+news of NOED, the computerised OED announced the week
+before.</p>
+   <p>The conference was held in a hotel on the banks of Lake
+Windermere, because Lancaster had been unable to find room for it
+during term time. It was in fact quite a small conference (about 50)
+covering a broad range of varieties of delegate, as well as of
+English. (See attendance list).</p>
+   <p>Proceedings began on Monday with
+a talk by Henry Kucera (a Grand old man of Corpus Linguistics) from
+Brown University. He reported some fairly unsurprising discoveries in
+the now lemmatised and tagged Brown corpus (e.g. that nouns and verbs
+have more inflected forms than do other part of speech). More
+interesting was his brief account of work done using a computerised
+form of Roget's Thesaurus as the basis of a synonym generator. One
+clever part of the design is that it operates on inflected rather than
+base forms: you say 'running* and it obligingly gives you 'rushing',
+'flowing', 'zooming' etc rather than 'rush1, 'flow' etc. The other
+clever part is that definitions are also included so that when offered
+'fountain' as a synonym of 'spring', the user can specify that he
+actually meant the sort found in mattresses and hence get a different
+set of synonyms. The obvious application is in really classy word
+processing systems, which is why this particular Roget database is not
+currently available.</p>
+   <p>Jan Svartvik, who heads the research team
+at Lund University which has been working for some time on that
+portion of the venerable 'Survey of Spoken English' which has been
+made machine-readable, reported on the pauses between speech chunks,
+which together account for nearly half of all utterance time,
+speculating as to their semantic function and the mapping (if any) of
+these chunks to tone units on the one hand, and syntactic units on the
+other. His colleagues Anna-Britta Stenstrbm developed further the
+importance of pauses as markers of semantic units in speech, a feature
+of language the importance of which some of the
+<pb facs="Pages/img538.jpg"/>
+non-native speakers here did not seem to have assimilated, while Mats
+Eeg-Olofsson reported on the dp problems involved in the analysis of a
+tagged corpus of 5000 tone units (or whatever they are) using a 16 bit
+micro. He presented an intriguingly vague sort of conceptual analysis
+based on a methodology attributed to Winograd which looked like a
+confused version of entity analysis as practised in the real
+world. They are lumbered with dBASE2 to implement the design on, so I
+don't think they will get very far for a while.</p>
+   <p>Afternoons and
+evenings were given over to parallel sessions and I was therefore
+unable to hear Peter Littlechild (Camerino) explain how to squeeze one
+Mb of text onto a 5 inch floppy, nor yet Mahavir Jain (Delhi) on the
+construction of a corpus of Indian English (though I did interest the
+latter in the Text Archive and in OCP over dinner next day), nor even
+Mette-Cathrine Jahr (Oslo) on relative preferences for the 's and 'of
+genitive formations in everyone's favourite corpora. Instead I plumped
+for the session supposedly on computer aided lexicology where both
+Jacques Noel (Liege) and Willem Meijs (Amsterdam) discussed the
+difficulty of automatically parsing dictionary text. The former are
+now using STAIRS to generate KWIC indexes to LDOCE and to CED,
+primarily (I later learned from prof. Engels) to generate ELT
+exercises. Meijs'; project was only announced in March; it will use
+the software developed as part of the TOSCA project to transform the
+OALDCE text (supplied by the Text Archive) into a database and I have
+already asked for a copy.</p>
+   <p>The rest of this day was somewhat of a
+miscellany: Dirk Geens (Brussels) had nothing much new to say about
+his corpus of modern drama; Yang Hui-zhong (Shanghai) on a 1 million
+word corpus of scientific/technical English in the making was another
+candidate for OTA/OCP; Rodolpho Delmonte (Venice) on complex noun
+phrases had no discernible connexion with computing. While attending
+to these I missed Matti Rissanen and Ossi Ihalainen's account of work
+begining at the University of Helsinki where a large corpus of English
+is to be assembled on faintly dubious historical principles (also with
+the assistance of the Oxford Text Archive), which I had already heard
+all about on the journey up.</p>
+   <p>At dinner we were addressed by the
+Chancellor of Lancaster University who read a pithy greeting from HRH
+Prince Philip and by Nelson Francis (the other Grand old Man of corpus
+linguistics) who told one very good joke, alas unrepeatable. I was
+sitting next to Henry Kucera and probably annoyed him intensely by
+suggesting it was time they started to use predicate logic to express
+their grammars.</p>
+   <p>Next day's plenary session included Stig
+Johansson (Oslo) on types of ambiguity detected during automatic
+parsing and Willem Meijs (again) with some rather unsurprising
+evidence that people recognise units larger than individual words in
+speech, but was mainly given over to reports on the progress of the
+Lancaster tagging system.</p>
+   <p>Roger Garside (a computer scientist)
+typified their grammar as one of 'constituent likelihood'; it works by
+generating every possible parse of a group of tagged words as a number
+of trees. Probabilistic weighting, <pb facs="Pages/img539.jpg"/>derived from other trees already present in
+the corpus, is then assigned each tree using some fairly fancy sums
+and the winner added to the corpus once it has been verified by a
+linguist. This process now has a claimed accuracy greater than 95%
+Geoffrey Sampson (a linguist) gave more details of the tagging system
+used and likened their approach to that of case law. Finally, Eric
+Atwell described the use of their tagging programs as a spelling
+checker superior to (e.g.) the UNIX Writers Workshop in that it would
+fault such sentences as "Fill in the pink from" on syntactic
+grounds. To test this he needs a corpus of one million words
+guaranteed to contain typing errors which he is attempting to get out
+of ICL (Portman Rd); I offered to see whether we could contribute any
+as well.</p>
+   <p>During the afternoon's parallel sessions, I managed by
+adroit switching of location to avoid two Belgian papers on CALL, a
+lady from Jerusalem on pronominal uses of the word "one" and a loony
+who claimed to be able to index abstracts automatically by paying
+attention solely to the punctuation. Instead I was able to contrast
+British (Fanny Leech) and Dutch (Gert van der Steen) approaches to
+writing automatic tagging programs; I think the Dutch win and hope
+that I have persuaded van der Steen to let us try out his software
+here. Remaining speakers that evening were real linguists: Kjellmer
+(Goteborg) on collocations was sound but dull; Tottie (Uppsala) on
+types of negation both sounder and duller; John Kirk (a fairly happy
+KDEM user from Belfast) rounded off the evening with a scattering of
+sample scurrilous Scotticisms, much to the delight of the native
+speakers present.</p>
+   <p>The conference ended with two plenary
+sessions, one covering research at Birmingham and the other at
+Nijmegen. John Sinclair (whom I have been trying to meet for approx 5
+years) made a forthright statement of the pragmaticist's position on
+lexicographic evidence: dictionaries should reflect usage as it is
+found to exist in a representative corpus (they have 7 million words
+at Birmingham), in terms of both vocabulary and syntax, rather than
+historical evidence or linguistic introspection. If this position had
+been given more than lip service by the compilers of CED and LDOCE
+(both of whom were present looking gloomy and minder-like) then those
+dictionaries would look very different. Antoinette Renouf described
+work she had been doing on attempting to elicit usage patterns by
+tape-recording unscripted encounters between students : this sounded
+fun, but methodologically highly suspect. From Nijmegen, Jan Aarts and
+Theo van den Heuvel summarised, with justifiable pride, six years of
+work on developing high quality software tools for the use of corpus
+linguists (somebody had to) and the conference ended with an
+impressive demonstration of their culmination: a video (complete with
+glamorous dutch lady demonstrator) of the LDP analysis program which
+allows happy linguists to page up and down and roundabout sentences in
+tree form on a classy graphics terminal.</p>
+   <p>In summary this was a
+most enjoyable and unusual gathering: Oxford is not renowned for its
+linguistics department, nevertheless the effort that we do put into
+facilities like the Text Archive and the OCP are much appreciated by
+scholars outside the University.</p>
+</div>

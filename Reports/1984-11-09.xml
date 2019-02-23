@@ -1,0 +1,73 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1984-11-09">
+   <pb facs="Pages/img469.jpg"/>
+   <head type="report">VISIT REPORT</head>
+   <head type="location">CEGB
+Stockport</head>
+   <head type="event">CUA CAFS SIG WP</head>
+   <head type="head">9 Nov
+84</head>
+   <p>This was the second meeting of a small (about 10) working
+party set up to produce a second report on the exploitation of
+CAFS-ISP. The first one was circulated in April this year, since when
+some new bits of software have been "productized" and several more
+eager guinea pigs appeared. Membership of the group is predominantly
+from the public sector (N Thames Gas, N.WGas, Southern Water, OEGB,
+Northampton Borough Council) except for a pair of odd balls (Burton's
+Management Information Systems and OUCS)</p>
+   <p>In time honoured
+manner, membership gives access to early information about ICL
+thinking and an ICL elbow to twist (Guy Howarth) about our
+requirements, in return for a reasonable amount of flag waving on
+behalf of the company</p>
+   <p>CEGB reported on their recently completed
+trial of the GM/CAFS</p>
+   <p>combination using huge ISAM files and a
+test ICM5 database The former application concerns both routine and
+unanticipated maintenance of each of half a dozen power stations, each
+of which involves upwards of 100 MB of detailed information Ad hoc and
+rapid access to the information by (non-computing) engineers is
+clearly essential; it is also used by the Radiological Protection
+Board The IEM5 database was a mere 40 Mb development system Full
+details of the trial are</p>
+   <p>available in a report; broadly
+speaking, it entirely endorses ICL's confidence in the QM/CAFS product
+as an end-user system, while repeating several of our own minor
+usability niggles. They do not use output record types, and they
+define macros for their end users; CAFS</p>
+   <p>searchable text is not
+used because the file containing it is too large and volatile (about
+40 Mb/site updated daily); but they planned to use it on a different
+system, which they were confident would fit onto only one FD6640 when
+completed They did use CM within a TP service, where it slowed things
+down, but not much (Southern Water here reported that use of TPMS and
+CAFS was causing them great mental anguish largely due to the infamous
+software notice QM43 which should not be applied)</p>
+   <p>After lunch,
+the Working Party's questionaire and the format of its</p>
+   <p>report
+were discussed in more detail About 30 replies had so far been
+received, mostly indicating that actual usage of CAFS is still very
+low, although once converted users never look back Several responses
+indicated dislike of CM and a need for better
+software</p>
+   <p>interfaces before CAFS would even be considered; one
+(the Inland</p>
+   <p>Revenue) opined that CAFS was "too slow". It was
+agreed that details</p>
+   <p>extracted from respondants who had expressed
+a willingness to co-operate would form a significant part of the new
+report, together with detailed accounts of the WP members'
+applications I therefore agreed to write up our own eccentric usage of
+the beast by the next</p>
+   <p>meeting, which will be held in Northampton
+at the end of this month.</p>
+   <p>I obtained (but subsequently lost) a
+copy of the draft specification</p>
+   <p>of QM 250 and a useful tip about
+getting diagnostics out of QM. I also travelled back with the lady
+from Northampton BC, who confirmed all our trepidation about PDS110
+and added more. They have vast numbers of huge boring old EtE type
+files from old systems which they just put through ADRAM and into CM;
+while development of new systems seems to go on within user
+departments using PDS!</p>
+</div>

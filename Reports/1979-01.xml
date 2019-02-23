@@ -1,0 +1,80 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1979-01">
+   <pb facs="Pages/img403.jpg"/>
+   <head>QUARTERLY REPORT Lou Burnard
+Applications Programmer January 1st - March 31st 1979</head>
+   <p>2900
+Software</p>
+   <p>About six weeks were spent producing a new 10 system
+for Kent's 2900 Snobol interpreter, which involved some tinkering with
+the goodies SIMPLEIO module and much pestering of those (not a few)
+who know more S3 than I do. The new 10 system can halve the execution
+time of IO-bound programs, largely because the old version used
+FORTRAN for all IO. Thorough testing of the interpreter revealed two
+or three bugs which were reported to Kent. New documentation for 2900
+Snobol was written and then ROFFed.</p>
+   <p>An Algol 68/GHOST interface
+was written and appeared to work.</p>
+   <p>Work on OXMTREAD
+continued. Facilities for reading 7-track tapes and tapes written with
+Fortran formatted writes were added.</p>
+   <p>IDMS</p>
+   <p>The Wytham
+database went operational in March, after some extensive tuning and
+recoding, following consultations with ICL. Fifteen years worth of
+private life of Parus Major was loaded into a 10 megabyte database
+over one week in February and I wrote a short report on the
+experience.</p>
+   <p>I discussed a new project, to do with Roman burial
+sites, with two people from the External Studies Dept., and designed a
+schema for them.</p>
+   <p>I chaired two meetings of the Fortran Users
+DMUG sub-group here, at which ERCC unveiled plans for the new improved
+FISS product, and various proposals for enhancements (chiefly in the
+area of usability) were discussed. FISS is apparently still only being
+used by ourselves, ERCC and British Aerospace, (Liverpool will have
+the 1900 version shortly), though copies have been sold to various
+other ICL customers. A valuable side effect of all this was that we
+now have a pre-pre-release of FISS FI120, which allows Fortran access
+to IDMSX, the extended version of IDMS with many more bells, whistles
+and coloured streamers. This is the version which the Assize Court
+database will use. I wrote and tested an IDMSX schema for the latter
+at the end of March.</p>
+   <p>Archive</p>
+   <p>Plans to obtain Websters
+Dictionary were knocked on the head by a point blank refusal from the
+publishers; prospects of obtaining the new A.L.D. however look much
+more promising. The last of the <pb facs="Pages/img404.jpg"/>Howard-Hill Shakespeare tapes arrived at
+the beginning of March, closely followed by the man himself. OUP are
+interested in using the texts as the basis of a new edition, and will
+be correspondingly helpful when it comes to giving us copies of other
+texts, we hope. I did some preliminary work on re­formatting the
+Shakespeare texts using 2900 Snobol, and discovered that the folio
+text of Julius Caesar appears to have been mislaid. Richard Sabido
+(OUP) handed over three tapes, one of which was unreadable (they
+couldn't read it either), the other two being the OUP General
+Catalogue and the African Encyclopaedia. These are readable on the
+1906A but not yet on the 2980. Susan's indefatigable girls continued
+to plod through some minor English classics for me, completing
+Wordworth's Lyrical Ballads and Akenside's Pleasures of the
+Imagination in a record two weeks. We received a new copy of the Gill
+Corpus from the University of Warwick, which has aroused the interest
+of a lexicographer working for Heinemanns. Enquiries about texts were
+received from the USA, Holland, Germany and Newcastle; a sampler tape
+was issued to the Tyneside Linguistic Survey.</p>
+   <p>1900
+Software</p>
+   <p>Birmingham uncovered one bug and suggested one
+enhancement in Famulus, both of which were acted upon. New versions of
+the package and documentation were released to various places,
+including the Royal Greenwich Observatory and the D.E.S. Aston
+reported a gross error in Oxeye, which was corrected; new version
+released to Aston and to Nottingham.</p>
+   <p>Any Other Business</p>
+   <p>I
+re-joined the DMUG End User Facility Sub-Group: a dedicated band which
+plans to define a really usable interface to IDMS for ICL to
+implement, by the end of 1979, (see visit reports). I submitted a
+paper on our experience using IDMS to ICCH/4, which was accepted, and
+wrote a second article on Snobol for publication in the ALLC
+Bulletin.</p>
+</div>

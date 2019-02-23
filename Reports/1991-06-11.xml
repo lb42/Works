@@ -1,0 +1,182 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1991-06-11">
+   <head type="event">
+Social History: the challenge of Technology
+</head>
+   <head type="location">University of Essex</head>
+
+   <p>The University of Essex hosted an interesting one day workshop
+with the title `Social History: the challenge of Technology' on
+June 1st. It adopted a format new to me, in which ten invited
+speakers were allowed a maximum of five minutes to highlight key
+issues in their previously-circulated papers, followed by a a 15
+minute commentary on each pair of papers by an invited
+`discussant' and a general discussion. The programme was
+carefully arranged to include five complementary pairs of papers,
+and the whole affair proved remarkably successful in generating a
+fruitful and stimulating exchange of views amongst the hand-
+picked participants, most of whom were computing historians, data
+archivists or similar.
+</p>
+   <p>The first session dealt with the creation of `public use data
+sets' with two speakers (Steven Ruggles from Minnesota and Liam
+Kennedy from Queens, Belfast) presenting basically similar
+projects in the integration and harmonisation of large scale
+existing data sets for re-use, in Ruggles' case derived from US
+census data over a large number of years; in Kennedy's a whole
+spectrum of 19th century Irish statistical data. Both called
+attention to the very practical difficulties of harmonising the
+differing analytic preconceptions of the original data
+collectors, while stressing the need to make the datasets (which
+Ruggles described as a `national treasure') more accessible and
+user friendly. Prof Michael Anderson (Edinburgh) in commenting,
+made several practical points from the ESRC viewpoint, which he
+characterised as sceptical about the usefulness of secondary
+analyses. He stressed the need to set realistic and achievable
+targets as well as the importance of making explicit the
+theoretical basis for combining datasets, the need for long term
+institutional support and the difficulties of making such data
+sets user-accessible for casual enquiry. The discussion indicated
+wide support for these concerns, though Ruggles stoutly defended
+the general usefulness of public use datasets in social science,
+claiming that in the few cases where available they were the most
+widely used resources. Several of the historians present
+expressed anxiety about the difficulty of linking datasets using
+different `codebooks'. Kennedy noted the `spurious consistency'
+of terminology such as `general labour' in occupational
+classifications; Bob Morris (Edinburgh) pointed out that this
+variability reflected important historical differences; Dan
+Greenstein (Glasgow) noting that historical sources provided an
+`opaque window onto the past' as well as being objects of
+interest in their own right, stressed the need for explicit data
+modelling of the researcher's interpretations of them.  It
+occurred to me that many of these problems were strikingly
+similar to those faced by linguists trying to unify different
+linguistic annotation schemes and might therefore benefit from
+the kind of approaches currently being discussed within TEI AI1.
+</p>
+   <p>The second session dealt with the need for standardisation in
+data collection and interchange. My paper gave a brief summary of
+the TEI, stressing its attempts to avoid prescriptivism, and
+promising great things for SGML as a powerful notation system.
+Manfred Thaller (Gottingen) distinguished four levels of
+description appropriate to historical material: numerical data,
+factual data, running text and bit-mapped images. Interpretation
+differed at each level but all had a common core of problems. He
+shrewdly observed that standardisation was becoming more
+difficult as researchers tended to define themselves by a
+particular technology. A successful standard must be descriptive,
+based on a conceptual analysis rather than any technology, but
+could only succeed if it was backed up by well-designed and
+acceptable technology. Responding, Peter Denley (Westfield)
+stressed that standardisation was not a mere abstraction, and
+deplored the lack of recognition given in research culture
+to collaborative effort. While the TEI's proposals needed to be
+made more accessible to the non-professional, there was a danger
+that computing historians were about to propose a `third pope' if
+they continued to ignore the very real and highly relevant
+progress made by other research communities, while their datasets
+would be increasingly marginalised. This view seemed to have
+general acceptance, though some, notably Anderson, insisted that
+quick and dirty methods would always prevail in the long run.
+</p>
+   <p>The third session dealt specifically with the role of data
+archives in historical research, with papers from Paul de
+Guchteneire (Steinmetz Archive, Amsterdam) and Hans-Jorgen Marker
+(Danish Data Archive, Odense) and a particularly useful synthesis
+of them from Bridget Winstanley (ESRC Archive, Essex). De
+Guchteneire remarked on the highly skewed usage distribution of
+archived material (very small numbers of items being used very
+frequently), the archives' reluctance, through lack of resources,
+to provide ancillary support facilities, the need to preserve
+data sets currently being produced by government and other
+agencies, and on the need to formalise citation of datasets.
+Marker, picking up Thaller's four-fold characterisation of
+historical datasets, agreed that most archives were really only
+capable of dealing with survey type material, and that their
+methods might not be generalisable. Winstanley reiterated the
+need for standardisation in citing and cataloguing datasets;
+addressing the palpable discomfort of historians for the social
+science model of archiving, she stressed the need for proper
+bibliographic description and control. In the ensuing discussion,
+I drew attention to the TEI's recommendations for bibliographic
+description, and noted the interesting contradiction between an
+archive's dual role as repository (foregrounding idiosyncrasy)
+and as source of reusable resources (foregrounding integration).
+Anderson made the good point that traditional social science
+archives were about to be engulfed with the results of
+`qualitative' surveys which could mean a narrowing of the
+distinction between textual and numeric data.
+</p>
+   <p>In the fourth session, dealing with the use and potential of
+online historical databases, Humphrey Southall (QMW) described
+the trials and tribulations of providing JANET-wide access to a
+large Ingres database of information  about local labour markets
+via a Hypercard-based front-end and Heiko Tjalsma (Leiden) a
+project called Chronos which provides integrated access to a
+variety of SAS datasets and their documentation. Both talks
+tended to concentrate overmuch on the technical details of
+networking, which also dominated the discussion. The rapporteur,
+Don Spaeth (Glasgow) contrasted traditional mainframe-based
+online services with the workstation model, the provision of
+networked access to CD-ROMs etc. and the discussion tended to
+drift into rather ill-informed speculation about likely
+technological changes, though Eric Tannenbaum (Essex) (who was
+unfortunately present only for this session) did make the
+interesting observation that it would be the need of
+environmental and other researchers for terabytes of data within
+seconds which would determine the likely development of new
+networks.
+</p>
+   <p>The last session of the day dealt with the topic of IT in the
+teaching of history. Frank Colson (Southampton) gave an
+optimistic acount, based on the impressive success record of his
+HIDES system, which is designed to complement rather than replace
+traditional library resources. Deian Hopkin (Aberystwyth) was
+less sanguine: his analysis concentrated on the impossibility of
+funding new IT-based teaching methods without proper
+institutional and financial support. As Rick Trainor (Glasgow)
+pointed out, the papers were nicely complementary, in that the
+teaching methods described by one were precisely those which
+present funding arrangements made it difficult or impossible to
+provide. Hides had been justly praised for the way it enhanced
+the traditional teaching role by providing students with the
+opportunity to carry out systematic analysis of major problems,
+on their own terms, while the National Curriculum appeared to
+wish to undermine or undervalue that very potential by using IT
+as a low-cost way of providing transferable skills. Computer-
+based teaching was an effective way of bringing a closer
+rapprochement between teaching and research as well as in
+breaking artificial discipline-based distinctions. He felt that
+it was better to focus on the institutional problems preventing
+its wider acceptance than on the purely technological ones, and
+that the methodological differences between social science and
+history had been overstated.
+</p>
+   <p>In the following discussion, Morris probably spoke for several
+when expressing disquiet at the way the morning's discussions of
+the technical possibilities and the intellectual challenge that
+they posed seemed to have gone adrift. He feared that
+technophoria would distract from the fact that only some models
+of enquiry were well served by IT. For Hopkin, IT was of
+importance because it enforced a `confrontation with the data'
+and reminded historians of the need for a methodology to handle
+that confrontation. Greenstein agreed on the crucial importance
+of a formalised model of enquiry (for which he gracefully gave
+credit to the TEI), and noted that without one teaching history
+(as opposed to transferable skills which could be got anywhere)
+was very difficult indeed. Spaeth remarked that revolutionary
+fervour had been the downfall of the quantifying school of
+historians and agreed that the misuse of IT for its own sake lead
+to poor teaching practice.
+</p>
+   <p>I came away very favourably impressed by the format of the day:
+tightly-focussed small group discussions can sometimes be a
+little incestuous, but the programme had been carefully arranged
+to provoke ample scope for controversy and some fruitful argument
+had ensued. From the TEI perspective, I was particularly
+encouraged by the evident willingness of the computing historians
+to confront standardisation problems at the heart of the TEI
+agenda, and to restate them in their own terms.
+</p>
+   <p>LB June 6th 91</p>
+</div>

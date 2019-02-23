@@ -1,0 +1,38 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1987-03-13">
+   <pb facs="Pages/img494.jpg"/>
+   <head type="report"/>
+   <head type="location">Leeds </head>
+   <head type="when">19 March
+1987</head>
+   <head type="event">IUSC Working Party on Free Text
+Retrieval</head>
+   <p>Membership of this new working party is a little
+more broadly based than that of the previous IUSC gesture in this
+direction; i.e. in addition to J. Duke (Leeds), D. Lindsey (Aberdeen)
+and me, it has Peter Willett (Sheffield), who is a real information
+scientist, Colin Edwards (Ag &amp; Food Research Council) and Anne
+Ford (Leeds Poly). It is chaired by Richard Bland (Stirling), who is
+ESRC representative at IUCC and a recent convert from sociology to
+computer science.</p>
+   <p>The first meeting necessarily accomplished
+little besides delineating an area of interest and possible
+activity. The fact that at least one major directory of all software
+in this area already existed (unbeknownst to the previous working
+party) meant that most of the usual spadework has already been done;
+it was agreed that some background reading was needed by all members
+before manufacturers should be approached. There was some agreement
+for the proposal that a clearer idea of possible application areas for
+the software were needed; little for the suggestion that we would do
+better to wait on/ contribute to the emergence of text facilities in
+SQL-2. It was also agreed that something like the forthcoming INGRES
+deal would be highly desirable, if feasible.</p>
+   <p>Other tidbits I
+picked up:- Leeds have been very happy with their version of Status,
+but would still rather have bought Basis. Sheffield obtained ASSASSIN
+(which has now been completely re-written and is supposed to be very
+good) virtually free. F.N.Tesky, now at Brighton Poly, has developed a
+low level software interface to Status. Strathclyde has an Alvey
+project looking into text searching hardware.</p>
+   <p>It was agreed that
+the next meeting would be in London, thank God.</p>
+</div>

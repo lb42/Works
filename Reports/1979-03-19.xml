@@ -1,0 +1,52 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1979-03-19">
+   <pb facs="Pages/img419.jpg"/>
+   <head type="report">VISIT REPORT L. Burnard</head>
+   <head type="location"> ICL
+Computer House</head>
+   <head type="when">19 March 1979</head>
+   <head type="event">ICL DMUG/ End User Facilities Sub Group (79) Second
+Meeting</head>
+   <p>This Sub Group has recently reconstituted itself to
+investigate primarily the sort of conceptual view end users
+should/would like to have of databases supported by ICL software. The
+meeting was well attended (about 25 people from organisations such as
+BBC, Post Office, CAA, Plesseys, Sainsburys, West Midland Gas, an
+Insurance Company, Oxfordshire County Council and the Ministry of
+Defence in various forms.</p>
+   <p>The terms of reference proposed at the
+last meeting were discussed and a rewording which removed some
+wooliness from the original draft agreed. Some discussion of Data
+Display (the query facility currently supplied for IDMS) indicated
+that it would not fall within the province of this group but rather
+within that of the IDMS group.</p>
+   <p>Harry Ellis responded on behalf
+of ICL to the terms of reference, thus giving some weight to the
+proceedings.</p>
+   <p>After lunch it was agreed to begin by considering
+existing types of conceptual view (relational, binary, hierarchic
+&amp;c), in particular the interfaces proposed by recent articles in
+the literature fo between a relational conceptual view and an IDMS
+structured internal view. Links between IDMS and other pieces of
+software (STATS, FAME &amp;c) were also suggested as possible areas
+for exploration. This seemed a more profitable starting point that the
+description of yet another all purpose query language, parameters for
+which had already been defined by the last EUFSG. A part of MOD called
+OECON (theyfight phantasy wars for NATO) had a document on the setting
+up of such a query language which might be made available to the
+group; so had CAA produced a report.</p>
+   <p>The most interesting
+revelation of the day was that ICL are 'productizing' (Mr Ellis's
+word) the relational database system RDBMS designed by Andrew Hutt at
+Southampton and implemented experimentally on their 1900 some time
+ago. Whether this would be a stand-alone product (linked into the DDS
+of necessity but discrete from IDMS) or whether it could be made to
+'front-end' onto (existing?) IDMS databases was not yet clear. ICL
+were aware of the requirements Universities and others had for
+simplicity of access to databases, and appeared to think that the
+relational view was the answer. If this is the line taken, most if not
+all, of the problems currently being experienced with IDMS usability
+(4 month learning process etc.) should disappear. The relational view
+is also (unlike the Codasyl structures) academically respectable. The
+work of this subgroup as a pressure group on ICL seems to me to be
+very important, and its effects may be far-reaching.</p>
+</div>

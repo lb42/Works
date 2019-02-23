@@ -1,0 +1,82 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1979-09-10">
+   <pb facs="Pages/img388.jpg"/>
+   <head type="event">[IUCC Symposium]</head>
+   <head type="location">[University of Warwick]</head>
+
+   <p>About 300 people from over 70 different
+British Universities and Polytechnics attended this year's IUCC
+Symposium at the University of Warwick. OUCS was represented by FAS
+(this years chairman), LH, SL and LB (who contributed a paper on
+IDMS). As at most such gatherings, there was ample opportunity to
+exchange important gossip, horror stories and absurd boasts with
+colleagues from other computing centres, quite apart from the
+scheduled sessions. There were five of these, on micro-computers,
+distributed and large scale computing, databases and graphics. Each
+session consisted of a keynote address by an invited speaker, and four
+or five shorter presentations of varying quality. Of the invited
+speakers, Dr Jim Alty (Liverpool) was probably the most impressive. He
+described in some detail the range and quality of support offered to
+micro users at Liverpool. Liverpool run quick practical courses for
+Intel 8080, 8085, Motorola, TI 9900 and the ubiquitous PET machines,
+programming in BASIC and PASCAL. Applications include data capture
+(often in inhospitable regions such as the Sahara), control systems,
+communications and data processing. Dr Alty mentioned in passing that
+only one tenth of the £2 m allocated to the DES for micro-supported
+research was used last year.  Other papers in this session included
+one by D.Holdsworth (Leeds) describing a new Pascal interpreter, which
+occupies 1K on the 6800, and one by S.Jameson (Aston) on the
+programming of an.intelligent terminal to interface with a standard
+commercial (i.e. unintelligent) information retrieval system.  The
+session on distributed computing was opened by C. Whitby-Strevens
+(INMOS) who, quoting extensively from Jensen, urged us to forget
+everything we already knew about computing, stressed that conventional
+algorithmic languages (except maybe ADA) and souped-up sequential
+algorithms were more hindrance than help, and generally annoyed
+everyone. Of the other speakers in this session only J.C.Boarder
+(Oxford Poly) appeared to agree; he described a language, LZ, with
+some novel parallel features based on work by Dijkstra. I The session
+on large scale computing was opened by Dr G.R.Field (UMRCC) who, after
+a brief political history of university computing, asked several
+questions (are 60 micros in a ring worth 2/3 of a CRAY-1? how many
+Atlases do you need to lay end to end in order to make a Cyber 203? is
+it a meaningful exercise anyway? and above all Is it worth the money?)
+but provided no answers. In the same session, P.Gray (European Centre
+for Medium Range Weather Forecasts) gave an interesting account of
+experience with the CRAY-1. Mean time between faults is it was
+revealed over 60 hours, which happens to be crucial for the
+Weathermen, one of whose applications runs for over 6 hours. To some
+extent confirming Whitby-Strevens, he stressed that to get the best
+out of the machine, some re-design of the algorithms employed was
+necessary - doing more arithmetic could actually reduce processor
+time. The database session was opened by Dr M.Atkinson (Aberdeen)
+substituting at very short notice for a speaker from Grenoble, with
+the heretical propositions that 'databases are for programmers' and
+that a fully generalised Database Management System was
+impossible. His main interest was in Computer Aided Design systems,
+for which existing dbms are undeniably <pb facs="Pages/img389.jpg"/>cumbersome. He described a system
+currently being designed which included a component called the Data
+Curator to control data security and integrity and handle transmission
+of it to and from various CAD micros on a ring. Other speakers at this
+session included H.Robinson (Hatfield Poly) on data modelling
+techniques; M.Newton and A.Gawronski (Open) on a new relational system
+to be used in the new (&amp; highly recommended) OU database course;
+and L.Burnard (Oxford) who, asserting that IDMS is after all only a
+package, attempted to describe how to set up a database in 10 minutes
+and was suitably penalised by being cut off in mid-example. The
+session on graphics was opened by K.Brodlie (Leicester) with a
+comprehensive survey of the various systems available. He pointed out
+that standard general purpose software tended inevitably to lag behind
+the capabilities of new hardware and also gave a flavour of the new
+NAG graphics chapter promised for Mark 8. This final session also
+included another screening for a rather fine piece of computer
+animation made using GHOST in 1965, and accounts of two;interesting
+applications. One (Owen &amp; Earnshaw, Leeds) uses an interactive
+graphic display as a means of rapidly inputting musical scores in any
+of the various internal foirmats commonly used. These can then be
+displayed or printed on conventional staves. The other (Best, Aston)
+uses a composite eliptical graph to display the interaction of eight
+pathological parameters as an aid in diagnosis. The system is used
+experimentally at the patients bedside. Full details and abstracts of
+the papers given at the event are available on request ,
+</p>
+</div>

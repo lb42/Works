@@ -1,0 +1,58 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1986-03-21">
+    <pb facs="Pages/ahc-report-1.jpg"/>
+    <head type="report"> VISIT REPORT </head>
+    <head type="location"> TO Westfield College March </head>
+    <head type="when">21-23 March 1986 </head>
+    <head type="event">History and Computing: The inaugural conference of the Association for
+        History and Computing. </head>
+    <p> This conference aimed to bring together as many as possible of those currently using
+        computers as primary research tools or as teaching aids in the historical disciplines, with
+        a view to establishing a new learned society, the AHC, with a wide ranging membership
+        including universities, research bodies, polytechnics, and local government bodies
+        responsible for secondary education. This Catholicism may be one reason for the evident
+        success of the event: there were nearly 300 delegates, including several from Germany France
+        and Italy, and ten sessions each of four or five short papers, of extraordinary richness and
+        variety, with only a few duds. There was also a more or less permanent but changing
+        exhibition room featuring assorted micro manufacturers and software publishers as well as
+        lots of online demos, mostly on the ubiquitous BBC micro or via JANET at the exhibitor's
+        home base. I was alas unable to show off the wonders of CAFS due to the continued absence of
+        weekend working on the 2988. </p>
+    <p> There were too many papers to summarise individually (it is probable that some sort of
+        publication will emerge eventually) so this report simply describes over all trends and
+        memorabilia. </p>
+    <p> Predictably, there were large numbers of home grown quasi-DBMSs on display, ranging in
+        sophistication all the way from data entry systems in BBC BASIC tailored to a particular
+        type of historical document up to the all-singing all-dancing current market-leader, the
+        German CLIO package. I had previously met this in Gottingen; it is still being re-written in
+        C but now has satisfied customers in Austria and France as well, and is stimulating interest
+        here. Others mentioned included -yes- Famulus?? which got blush-making praise from a
+        Nottingham group and Oracle which was mentioned by several speakers as the obvious choice
+        for dbms, despite the presence of a strong SIR-fancying contingent. In fact the conference
+        revealed a very healthy eclecticism as far as software is concerned, both Prolog supporters
+        and one renegade APL fanatic being given if not equal time at least equal respect. </p>
+    <p> Aside from methodological manifesto, some real historical research was reported, largely by
+        groups of economic historians. In this category, I found Turner (using multi-dimensional
+        scaling to analyse 19th c House of Commons voting practice - which rings a bell) and Riehl
+        (using predictive mathematical models to analyse the emergence of the Greek city state)
+        particularly interesting. At quite the other end of the educational spectrum, there were
+        sessions devoted to methods of introducing computational methods into the undergraduate
+        syllabus, and to novel applications of computers in the secondary and below classroom. These
+        were very interesting, and oddly complementary. One speaker compared the university teacher
+        addressing the post-micro generation to a hunter-gatherer trying to teach neolithic man how
+        to increase agricultural productivity - a simile whch seemed to strike several chords. One
+        novel CALL application is <pb facs="Pages/ahc-report-2.jpg"/> about to be marketed by
+        Longmans: it is a role-playing game in which children are introduced to decision making
+        procedures and the role of chance in historical events, by simulating the Palestine
+        agreement of 1947. It seemed a good way of teaching people to "think historically" - an
+        activity which the charismatic Richard Ennals (who jetted in to chair one session and then
+        jetted out again) assured us was worth big bucks in pushing back the frontiers of AI. </p>
+    <p> I noted two major trends: <list type="ordered">
+            <item> The biggest problem area is still data capture. There is now a widespread
+                recognition of the need to capture original sources and to integrate them to some
+                extent with a relational dbms. Few seem to doubt that relational is right and
+                hierarchic has had it. </item>
+            <item> There is a growing awareness of the possibilities for IKBS. Nevertheless for most
+                people, the topic of computational history MLE (is more or less equal to)
+                quantitative analyses. </item>
+        </list></p>
+</div>

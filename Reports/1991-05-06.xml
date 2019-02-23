@@ -1,0 +1,176 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1991-05-06">
+   <head type="event">ICAME Conference Report</head>
+   <head type="location">Craiglands Hotel, Ilkley, Yorks</head>
+   <head type="date"> 6-12 May 1991</head>
+
+   <p>ICAME is the annual get together of corpus linguists. This year's,
+(the twelfth) was hosted by Leeds University at a rather nice decayed
+Victorian hotel on the edge of Ilkley Moor and enjoyed excellent
+weather, the usual relaxed atmosphere and the usual extraordinary array
+of research reports, which can only be very briefly noticed in this
+report. As usual, there were about 50 invited delegates, most of whom
+knew each other well, and a few rather bemused looking non-Europeans,
+notably Mitch Marcus (Penn State) and Louise Guthrie (New Mexico SU).
+The social programme included an outing to historic Haworth by steam
+train which, alas, your correspondent had to forgo in order to attend to
+other TEI business, and large amounts of good Yorkshire cooking, which
+he did not.
+</p>
+   <p>
+For the first time, the organising committee had included a so- called
+open day, to which a number of interested parties, supposedly keen to
+find out what this corpus-linguistics racket was all about, had been
+invited. As curtain raiser to this event, I was invited to present a TEI
+status report, which I did at break neck speed, and Jeremy Clear (OUP)
+to describe the British National Corpus project, which he did at a more
+relaxed pace. The open day itself included brief presentations from Stig
+Johansson (Oslo), on the history of ICAME since its foundation in 1973,
+from Antoinette Renouf (Birmingham) on the basic design problems of
+corpus building, from Sid Greenbaum (London) on the design and
+implementation of the new co-operative International Corpus of English
+project, from Eric Atwell (Leeds) on the kinds of parsing systems which
+corpus linguistics made possible, from Jan van Aarts (Nijmegen) on the
+Nijmegen approach to computational linguistics, from John Sinclair
+(Birmingham) on the revolutionary effect of corpus linguistics on
+lexicography and on language teaching, from Gerry Knowles (Lancaster) on
+the particular problems of representing spoken language in a corpus and
+from Knut Hofland (Bergen) on the technical services provided for ICAME
+at Bergen. While none of these speakers said anything particularly new,
+several of them (notably van Aarts, Renouf and Sinclair) managed to
+convey very well what is distinctive and important about the field. As
+far as I could tell, most of the ICAME community was a bit dubious about
+the usefulness of the Open Day. For outsiders wishing to get up to speed
+on why corpus linguistics is interesting and why it matters however, I
+would judge it a notable success. 
+</p>
+   <p>
+Corpus linguistics is, of course, all about analysing large corpora of
+real world texts. To do this properly, you probably need a good lexicon,
+and you will certainly finish up with one, if you do the job properly.
+Not surprisingly therefore, the conference proper began with a series of
+papers about electronic lexica of various flavours, ranging from the
+CELEX database (Richard Piepenbrock, Nijmegen) in which a vast array of
+information about three languages (Dutch, English and German) is stored
+in a relational database, to the experimental word-sense lattices traced
+by Willem Meijs' Amsterdam research teams from the LDOCE definitions.
+Work based on this, surely by now the most analysed of all mrds, was
+also described by Jacques Noel (Liege) and by Louise Guthrie (NMSU). The
+former had been comparing word-senses in Cobuild and LDOCE, while the
+latter had been trying to distinguish word senses by collocative
+evidence from the LDOCE definition texts: although well presented and
+argued, her conclusions were rather unsurprising (highly domain specific
+texts are easier to disambiguate than the other sort), and to base any
+conclusions about language in general on the very artificial language of
+the LDOCE definition texts seems rather dubious.
+</p>
+   <p>
+The traditional ICAME researcher first quantifies some unsuspected
+pattern of variation in linguistic usage and then speculates as to its
+causes. Karin Aijmer (Lund), for example, reported on various kinds of
+`opener's in the 100 or so telephone conversations in the London-Lund
+Corpus, in an attempt to identify what she called routinisation
+patterns. In a rather more sophisticated analysis, Bent Altenberg (Lund)
+reported on a frequency analysis of recurrent word class combinations in
+the same corpus, and Pieter de Haan (Nijmegen) on patterns of sentence
+length occurrences within various kinds of written texts. 
+</p>
+   <p>
+Although attendance at ICAME is by invitation only, an honourable
+tradition is to extend that invitation to anyone who is doing something
+at all related to corpus work, even a mere computer scientist like Jim
+Cowie (Stirling) who began his very interesting paper on automatic
+indexing with the heretical assertion that restructing the type of text
+analysed was essential if you wanted to do anything at all in NLP. The
+object of his research was to identify birds, plants etc. by means of
+descriptive fragments of text and his method, which relied on
+identifying roles for parts of the text as objects, parts, properties
+and values, both highly suggestive for other lines of research and
+eminently pragmatic. A similarly esoteric, but only potentially
+fruitful, line of enquiry was suggested by Eric Atwell's report on some
+attempts to apply neural networks to the task of linguistic parsing. 
+</p>
+   <p>
+Another nice ICAME tradition is the encouragement of young turks and
+research assistants, who, when not acutely terrified, are often very
+good at presenting new approaches and techniques. This year's initiates
+included Simon Botley (Lancaster), who presented a rather dodgy
+formalism for the representation of anaphoric chains, Paul Gorman
+(Aberystwyth) who had translated CLAWS2 into ADA and almost persuaded me
+that this was a good idea, Christine Johansson (Uppsala) who had been
+comparing `of which' with `whose' - almost certainly not a good idea and
+Paul Rayson &amp; Andrew Wilson (also Lancaster) who had souped up General
+Enquirer to do some rather more sophisticated content analysis of market
+research survey results by using Claws2 to parse it.
+</p>
+   <p>
+Two immaculately designed and presented papers concerned work at the
+boundary between spoken speech as recorded by an acoustic trace and by
+transcription: Anne Wichmann (IBM) presented an analysis of `falls' in
+the London-Lund corpus, a notorious area of disagreement between
+transcribers. Her elicitation experiment tended to show that there was a
+perceived continuity between high and low falls which transcribers could
+not therefore categorise. Gerry Knowles (Lancaster) proposed a model for
+speech transcription, in which perceived phonemic categories formed an
+intermediate mapping between text and acoustic data. Speech
+transcriptions require a compromise between patterns that can be
+computed from text and interpretations derived from acoustic data.
+</p>
+   <p>
+High spots of the conference for me were the presentations from
+O'Donoghue (Leeds) and Marcus. If there is anyone around who still
+doesn't believe in systemic functional grammar, Tim O'Donoghue's
+presentation should have converted him or her. He reported the results
+of comparing statistical properties of a set of parse- trees randomly
+generated from the systemic grammar developed by Fawcett and Tucker for
+the Polytechnic of Wales Corpus with the parse trees found in the same
+(hand-)parsed corpus itself. The high degree of semantic knowledge in
+the grammar was cited to explain some very close correlations while some
+equally large disparities were attributed to the specialised nature of
+the texts in the corpus. 
+</p>
+   <p>
+Mitch Marcus (Penn State) gave a whirlwind tour of the new burgeoning of
+corpus linguistics (they call it `stochastic methods') in the US, and
+made no bones about its opportunistic  nature or  or funding priorities.
+Incidentally providing the conference with one of its best jokes, when
+remarking of the ACL/DCI, the Linguistics Data Consortium etc.  "People
+want to do this work extremely badly, and they need syntactic corpora to
+do it",  he described the methods and design goals of the Penn Treebank
+project, stressing its engineering aspects and providing some very
+impressive statistics about its performance. 
+</p>
+   <p>
+Several presentations and one evening discussion session concerned the
+new `International Corpus of English' or ICE project. Laurie Bauer
+(Victoria University) described its New Zealand component in one
+presentation, while Chuck Meyer (UMass) described some software
+developed to tag it (using Interleaf) in another. The most interesting
+of these however was from And Rosta (London) who is largely responsible
+for ICE's original and, for my taste, rather baroque encoding scheme:
+itvtook the form of a detailed point by point comparison between this
+and the TEI scheme with a view to assessing the possibility of
+converting between them. The verdict was largely positive, though he
+identified several points where TEI was lacking, some of which (notably
+the inability to tag uncertainty of tag assignment and a whole raft of
+problems in tagging spoken material) should certainly be addressed and
+all of which provided very useful and constructive criticisms. 
+</p>
+   <p>
+There was a general feeling that standardisation of linguistic
+annotation (which corpus linguists confusingly insist on calling
+`tagging') was long overdue. Marcus pointed out that the LOB corpus had
+used 87 different tags for part of speech, LOB had upped this to 135,
+the new UCREL set had 166 and the London Lund Corpus 197. In Nijmegen,
+the TOSCA group has an entirely different tagset of around 200 items
+which has been adopted and, inevitably, increased by the ICE project. It
+seems to me that someone should at least try to see whether these
+various tagsets  can in fact be harmonised using the TEI
+recommendations, or at least compared with the draft TEI starter set
+described in TEI AI1 W2. I also think that someone should at least try
+to see how successful the feature-structure mechanisms are at dealing
+with systemic networks of the POW kind.
+</p>
+   <p>
+LB, 14 May 90 
+</p>
+</div>

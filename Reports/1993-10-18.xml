@@ -1,0 +1,113 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1993-10-18">
+   <head type="event">NSC93: Second Network Services Conference</head>
+   <head type="location">Warsaw</head>
+   <head type="when">October 1993</head>
+
+   <p>The Network Services Conference is an annual get together organized by
+the European Association of Research Networks (EARN, aka the European
+end of Bitnet). I was invited to the first NSC, held last year in
+Pisa, but was unable to attend; I therefore felt morally bound to
+accept the invitation to this year's conference, held last week in
+Warsaw.  Poland has recently (in the last six months) become a full
+member of EARN and has good connexions with the outside world, though
+not, as yet, much of an internal communications infrastructure. For
+the duration of this conference however, happy networking nerds from
+the whole of Europe, including many from countries of the former
+Soviet Union, were to be found pumping email messages from the room
+full of terminals thoughtfully provided by a number of local computer
+firms, through Polands new's 60 megabit gateway and thence to homes in
+Georgia, Russia, Belarus, the Ukraine, Germany, Italy, France, the
+Netherlands, the UK and even the US.
+</p>
+   <p>The need for "quality" networked information was one recurrent motif of
+the conference; another (intimately linked with it by some) was the need
+for commercialization of network facilities. To quote the first speaker
+I heard: "we need to find a way for people to be paid for putting
+information on the internet". By contrast, there was mercifully little
+gung-ho technobabble, though the closing speaker did assure us that
+"every human being on the planet" would have access to the network by
+the end of this century, and that future conferences would require the
+use of virtual reality helmets. In its place, there was a surprisingly
+stubborn anglo-saxon stress on "bringing services to end-users".
+</p>
+   <p>The session on training began with a presentation on the UK's mailbase
+service, funded by JISC and hosted at Newcastle: its un-surprising
+conclusion was that electronic communities need a lot of hand-nurturing
+and training, a theme picked up by another speaker from Newcastle, who
+described an ITTI project which is producing generic training materials
+for network awareness. How not to do it was well exemplified by the
+third paper in this session - which described a protoype international
+EARN helpdesk: having relied on member states to provide publicity for
+its services, this was singularly underused.
+</p>
+   <p>Favourite software of the conference was undoubtedly Mosaic, which was
+demonstrated live in a bravura display of networking nerve by Robert
+Cailliau from CERN: pointing and clicking from Honolulu to Oslo to
+Israel before our very eyes.  Mosaic is also probably the nearest thing
+we currently have to the "User network interface to everything (UNITE)"
+which was proposed by an equally charismatic speaker from Northern
+Ireland, while mention of it also elicited my favourite mixed metaphor
+of the conference from the speaker (George Brett) who said that although
+it was essential to keep pushing the envelope and going in at the
+deepend, it was necessary at the same time to keep the VT100 user on
+board (who is this user? I think we should be told).
+</p>
+   <p>Yet another Newcastle speaker (Jill Foster) drew a rather neat analogy
+between the current state of network publishing and the Sorcerer's
+Apprentice episode in Walt Disney's Fantasia. In this analogy, the
+techies currently trying to cope with the unmanageable explosion of
+networked information are Mickey Mouse contending with all those mops
+and buckets of water, while the librarians are the sorcerer deus ex
+machina who will finally restore order, by applying their
+classificatory, cataloguing, filtering, and archiving skills.
+</p>
+   <p>Other sessions I attended included a German speaker on something called
+UDINE which sounded like another universal interface, but with the added
+attraction that it would take advantage of ATM (nothing to do with holes
+in the wall, this stands for 'asynchronous transfer mode' and is
+apparently the very next thing in broadband ISDN). A Norwegian speaker
+described an interesting experiment in creating a distributed archive of
+photographs. An American speaker droned on about the problems of running
+a Listserv discussion group. In the same session, I missed
+(unfortunately) hearing the legendary Eric Thomas who was promoting a
+new user guide explaining why Listserv is the true and only path to
+righteous network communication. Rich Giordano flew in from Manchester
+just in time to give a thoughtful paper about the need for interactivity
+in information generating communities, and how poorly current models of
+electronic libraries supported it, which had the unusual distinction of
+citing some real evidence.
+</p>
+   <p>I spoke third in a session on "publishing on the network", shared with
+Terry Morrow (who runs the BIDS service at Bath) and Ann Mumford (who
+chairs the UK SGML Project and is a CGM whizz). The SGML banner, in
+particular the TEI flavour, seemed to go down reasonably well --
+everyone agreed that the best way of improving the "quality" of
+networked information was to improve the richness of its markup.
+</p>
+   <p>On the whole, however, I did not find the papers presented here
+particularly impressive. The real business of the conference was
+evidently being conducted in a number of official and not so official
+networking special interest groups and workgroups meeting there. Not
+being a member of RARE or IETF or ISUS or others, there wasn't much
+opportunity for me to participate in these politickings; I was also
+disadvantaged by the fact that I had been placed in a monstrous hotel
+some 20 minutes walk from the conference venue.  I did however spend
+some time impressing on George Brett (from CNIDR) the importance of the
+TEI Header as a starting point for one Internet Task Force which is
+supposedly coming up with proposals to improve Gopher's usability by
+providing associated documentatioon files. If the TEI Header can't be
+used for that purpose, there's something seriously wrong with it -- and
+likewise, if the IETF Task Force so charged completely ignores the TEI
+proposals. This is something which perhaps others in the Steering
+Committee with the ear of CNIDR might like to pursue (this means you
+Susan H!).
+</p>
+   <p>Secondly I spent some time bending the ear of Robert Cailliau
+(apparently a largeish cheese --or spider?-- in the World Wide Web) on
+the subject of what's wrong with HTML. Unlike most HTMLers I've met,
+this one at least was ready to listen, and something may just come of
+it.
+</p>
+   <p>Lou
+</p>
+</div>

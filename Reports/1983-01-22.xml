@@ -1,0 +1,62 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1983-01-22">
+   <pb facs="Pages/img452.jpg"/>
+   <head type="report">VISIT REPORT
+L.Burnard</head>
+   <head type="location"> UMRCC</head>
+   <head type="when">January 22</head>
+   <head type="event">Famulus
+meeting</head>
+   <p>This meeting, convened by Richard Field under the
+aegis and instructions of the IUSC , set out to review the status and
+future prospects of Famulus as a package widely used for
+bibliographical and quasi-bibliographical research. It was quite
+well-attended, sites represented being ULCC , Aberdeen, York, Warwick,
+Atlas, Edinburgh (PLU), UMRCC Southampton, UCL and Trent
+Poly. Versions of Famulus were now available on CDC 6600/7600, Dec 1O
+and 20, IBM361/370, Honeywell, GEC 4020, Burroughs B6700, ICL 2900
+&amp; 1900 at least, each version having slightly different parentage
+and features. The Ur-Famulus, which was developed for the US
+Department of Forestry in Los Angeles some years ago, had been updated
+somewhat since its invasion of Europe (and New Zealand, which is where
+the Burroughs version came from); Aberdeen had been in touch with its
+originators but the changes appeared to be purely cosmetic and they
+did not seem willing to make them generally
+available.</p>
+   <p>Discussion centred initially on what role Famulus
+played in the spectrum of text processing packages. It was necessary
+to distinguish it clearly from full text searching packages like
+Status, Quill, Sift, 3ip etc. Such packages were currently under
+consideration by SPC anyway. Famulus had an unusually clear user
+interface which was widely admired and liked; moreover the Ossify
+program meant that an equally clear 'system interface' format was
+available for transferring between versions. Nearly all sites reported
+that the package was used chiefly for maintaining bibliographies or
+similar catalogues; most sites reported about a dozen to twenty
+users. The largest applications mentioned were the Manchester Museum's
+catalogue and the Oxford Onomasticon project. It was suggested that
+the function of KWIC/INDEX was better performed by a full text
+searching system or by OCP .</p>
+   <p>Amongst enhancements proposed
+were:- full character-handling facilities analagous to those of OCP;
+ability to define some fields as being numeric and ability to do some
+simple arithmetic on them (sums, averages, distributions, comparison
+etc); ability to define date fields; data validation, perhaps by a
+stand-alone input utility; extending the formatting options of Galley,
+particularly to include hierarchically sorted data and tabular output;
+There was general agreement that the present internal format was
+wasteful of space and could profitably be reorganised e.g. to use
+variable length records, or even ISAM files where these were
+available.</p>
+   <p>The meeting discussed briefly the problems of getting
+funding for a complete rewrite of the system, or the possibility of
+evaluating all the currently available software against
+Famulus-requirements. It was concluded that a working party should be
+set up to draw up a detailed report of what facilities currently
+existed in all the known versions of the package, and what
+enhancements were generally needed. An interface to support these
+requirements would be defined, in terms of the existing Famulus
+command language, and those sites which wanted to implement any of the
+proposed goodies would do so. R.Field would report back to IUSC which
+would then set up a working party and co-opt members onto
+it.</p>
+</div>

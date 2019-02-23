@@ -1,0 +1,74 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1982-05-18">
+   <head type="event">Information Dimensions User Group Meeting</head>
+<head type="location">Hotel Intercontinental (London)</head>
+   <head type="date">18 May 1988</head>
+   <p>
+More than 50 happy BASIS users attended this first official meeting
+of the newly constituted UK User Group. After constitutional
+discussion, elections of officers etc., there was an hour and a half
+presentation concerning Release L of BASIS, due for beta test in
+January of 1989. Somewhat to my surprise, this new release promises
+to rectify lots of the more irritating fundamental shortcomings of
+the package. For a start, somewhere in Dublin (Ohio) a nettle had
+been grasped, and the internal format of BASIS files will never be
+the same again: this means that true proximity matching will be
+possible in release L (i.e. the index postings will give word
+position as well as context position within document); it also means
+that minor irritations such as the horrendous updating process are
+completely removed, and that the system changes necessary to
+facilitate real-time update in a future release are already in place.
+</p>
+   <p>
+Other encouraging trends are:- a committment to support more
+"document architecture" type facilities (sections within full text
+documents; extensions to the current 'hidden string' features to
+support non textual objects; support for SGML markup on input;
+increases on all current limits ) and a variety of improvements to
+the user interfaces to the package. Three levels of interface are
+identified: at the corporate level, specialist programming will
+continue to use high-level languages, for which COBOL and FORTRAN
+preprocessors will be provided in addition to the current "CALL"
+facilities; at the departmental level, the current facilities will be
+maintained, expanded somewhat so that for example the VT100 based
+screen handling available with Long Text is available with all data
+types; at the individual end-user level a new module called EXPRESS
+will offer a PC-style interface with somewhat reduced capabilities,
+using ring menus, full screen working (for VT100s) and integrated
+query and update of documents. And the really good news is that all
+of this comes free for existing customers as an incentive to migrate
+databases from K to L. 
+</p>
+   <p>
+After an excellent lunch, (during which I met fellow academic users
+from Imperial and Aston) we were entertained by a man from Wapping
+describing how News International had eventually decided to build up
+their own in house story database, rather than relying on bureau
+services (too expensive and too slow) or old fashioned cuttings
+libraries (too heavily picketted). Two interesting things emerged
+from this: firstly that it had at first been thought cheaper to have
+the copy re-keyed in the West Indies than to use the stuff typed in
+by the journos themselves; secondly that even on The Times it was
+necessary to add keywords to identify story contents, since headlines
+were increasingly too jokey and elliptical for the purpose.  Other
+fields added to each story during the hectic 12 hours between its
+appearance in print and its inclusion in the database include any
+corrections advised by the legal department; these will both
+presumably be of greater importance when the Sun is included in the
+database later next year. I also learned that, new technology or not,
+post-printout editing (a practice still carried out at Wapping) is
+known as  "cutting on the stone". News International is also keenly
+aware of the commercial potential of their database and is already
+considering licensing such spin-offs as an online sports service,
+law reports on CD-ROM etc.
+</p>
+   <p>The remainder of the day was given over to very dull self-
+congratulatory salesmanspeak, listing all the new customers gained
+over the year (of which News International was probably the most
+significant, though Oxford University also featured, I regret to
+say). When John Townsend began droning on about the importance of
+addressing the marketplace in terms of the way he drove product, I
+slunk away. But the news about release L was worth hearing: if only
+half of it is true (and most of it is "committed") BASIS does have a
+real competitive edge.
+</p>
+</div>

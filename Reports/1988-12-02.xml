@@ -1,0 +1,143 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1988-12-02">
+   <head type="event">SGML Users Group</head> 
+   <head type="location">BSI London</head>
+   <head type="date"> 2 December 1988</head>
+   <p>
+The SGML Users Group is an informal pressure group with (as yet)
+a fairly small membership drawn largely from software vendors,
+universities and the publishing industry. It distributes a useful 
+Newsletter containing SGML-related news, product annoucements
+etc., organises regular meetings, of which this was presumably
+typical and is entitled to sell standards documents at a knock-
+down price to members only. 
+</p>
+   <p>
+Nigel Bray, md of the British end of a Dutch software house
+consultancy  called MID Information Logistics Group Ltd, spoke
+first. MID distribute and support Datalogics products, which are
+targetted on large scale publishing requirements, typically
+involving lots of pictures, publications often derived from an
+online database and much revision. He described in some detail
+products called WriterStation and Pager and gave an overview of
+the production process using such systems. WriterStation is a
+conventional word processor running under MS/DOS except that it
+knows about document type definitions (DTDs) against which it
+validates input, inserting SGML tags as appropriate, and which
+are also used by its context-sensitive editor. The DTD for a
+given application is held in a sort of runtime module called  the
+type definition file; a similar runtime file is used to provide a
+viewing format for the text. The latter uses only standard PC
+facilities and is thus some way short of WYSWYG, but still
+provides helpful (and tag-free) visual feedback to the user. It
+does not support any character set other than the standard IBM
+set. Pager is a batch pagination system, which can integrate
+text produced by WriterStation with graphic images of all kinds
+via a GREP look-alike rather optimistically described as an
+"omniscient conversion system". This lead to some discussion of
+the problems of converting from other typesetting markups to SGML
+(a process the chairman characterised as "fundamentally akin to
+alchemy") and much bickering from the floor about how (for
+example) such systems could possibly handle tables and diagrams.
+In conclusion, Bray remarked that a typical system should support
+input and maintenance of text via SGML workstations into a
+database management system (he mentioned particularly DM and
+Oracle), which could provide job tracking and page control
+facilities as well as the ability to restructure text into
+different presentations. Publication on paper or even on CD-ROM
+was no longer seen as the primary purpose of such systems.
+</p>
+   <p>
+This was followed by an intriguing (if rather pointless)
+discussion about the feasibility of using SGML to mark up
+mathematical text in a meaningful way given by Paul Ellison from
+Exeter University's Computing Centre. He is active on the BSI
+Technical Committee dealing with text and office systems, which
+is currently reviewing among other things Clause (i.e. chapter) 8
+of the current ISO Technical Reference paper 9573 Techniques for
+using SGML. This aims to produce a DTD capable of dealing with
+mathematics. He began (as SGML presentations tend to) by
+attempting to answer the question "Why not use TeX?",
+immediately conceding that if the object of the exercise was a
+document in the house-style preferred by the American Math
+Society, there was really nothing to be gained by not using TeX.
+If however continuity of markup was desired, and suitability for
+a syntax-directed editor, and especially if the markup was to
+reflect something of the computability of the mathematics, then
+an accurate DTD would surely be preferable, despite its
+verbosity, of which he gave ample illustration. As a
+mathematical ignoramus I was reassured to find that written
+mathematics contains almost as many ambiguities as written
+English: for example x with a little n to the right and slightly
+above it could mean x &lt;power&gt; n or x &lt;superscript&gt; n; and dx
+above dy with a line between does not represent a fraction of
+some sort. It was suggested that coping with this was a
+particular instance of something more general, dubbed by Ellison
+"the secretary problem" - TeX had (after all) been designed for
+use by mathematicians.  Mike Clarke (Imperial) remarked that
+Mathematica provided means of solving all of these problems and
+could be made to generate SGML, but did not elaborate. 
+</p>
+   <p>
+Over lunch, I re-met a Dutch acquaintance called Gerd Van Der
+Steen, formerly attached to the University of Amsterdam where he
+had been developing parsing systems for historical (and other)
+documents, who now works for the Dutch end of MID. After lunch,
+Martin Bryan (SOBEMAP) stepped into the breach left by the
+defection of one of the advertised speakers (Neil Morley) who
+was to have spoken on the subject "What the Publishers
+Association is doing about SGML". Since this appears to be "not a
+lot", this was not probably not too tasking; a booklet
+introducing the concepts of SGML had just been distributed to all
+PA members; unlike the American Association of Publishers no DTD
+specification was envisaged, but publishers were recommended to
+use a recently published book (by Bryan as it happens) SGML: an
+authors guide as a source for models. Something called a
+"management awareness campaign" was also underway. 
+</p>
+   <p>
+The last speaker of the day, a M. Moricon from a French software
+house called Advanced Information Systems, had expected to be
+invited to speak on hypertext and SGML but (due to another last
+minute defection) had to prefix this with a brief rundown of
+events in France. The French Publishers Association had set up a
+working group chaired by Dominique Vignot, which had taken the
+AAP's DTD and translated and adapted it for the French market.
+Some major publishers (Lefevre, Hachette) and printers (Maury,
+Jouve) were known to be using SGML. The French Electricity Board
+was reportedly considering its use as a way of coping with the
+tons of documentation relating to the Nuclear Energy programme;
+the scientific community was also interested but not at a
+sufficiently high level to enforce standards.  Of more interest
+than this third hand gossip was the remainder of the presentation
+in which Moricon talked about the conversion of the CSTB's
+Building regulations into an SGML-based hypertext. These
+regulations, which have statutory force in France, are being
+converted from printed form to an electronic database, from which
+they can be extracted for printing or excerpting as well as
+electronic browsing in a hypertext published on CD. There is
+about 15 Mb of running text, into which tags will be
+automatically introduced by a combination of YACC and LEX
+(rapidly) and then corrected manually (slowly). A prototype
+hypertext had been developed from some sample entries using
+Hypercard, modified in some unexplained way to support buttons in
+scrolling fields. The experience had shown that it was quite
+difficult to get trained drafters of document to understand the
+difference between implicit and explicit `anchorage' of sections;
+that SGML tagsets making extensive use of attributes required a
+lot of complex programming; that a DTD created with hypertext in
+mind was a good way of identifying all potential linkages; that
+SGML was useful as a way of defining data entry conventions; that
+because a DTD identified semantic components it was analogous to
+an information model.
+</p>
+   <p>
+In a final roundup of European SGML events, Martin Bryan
+mentioned a recent EEC-funded training session held at Ghent.
+SGML training should aim to satisfy three distinct groups:
+management, end-users and document designers. The latter group
+required similar skills to those needed in database design or
+systems analysis. A special interest group of the working group
+was being set up concerned with the interface between SGML and
+databases proper, in which I expressed an interest.
+</p>
+</div>

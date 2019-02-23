@@ -1,0 +1,197 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1988-09-07">
+   <head type="event">Report on the Cologne Computer Conference</head>
+   <head type="location">Koln</head>
+   <head type="when">7-10 Sept 1988</head>
+
+   <p>This conference brought nearly 500 delegates, chiefly European, to
+the beautiful city of Koln in Western Germany, currently celebrating its
+600th anniversary. Three international associations combined forces for
+the occasion: the International Conference on databases in the
+Humanities and Social Sciences (ICDBHSS); the Association for History
+and Computing (AHC); and the International Federation of Data
+Organisations for the Social Sciences (IFDO). The preoccupations of
+these three organisations clearly having considerable overlap, a joint
+conference should not have been an altogether bad idea: there are many
+important respects in which the interests and skills of the social
+science data archivist or analyst and those of the historian are
+complementary. The organisation of the conference did not, however,
+encourage  inter-disciplinary discussion, let alone cross-fertilisation.
+Indeed, the complexity and rigidity of the timetable gave very little
+scope for discussion of any sort - though of course, there were ample
+opportunities  for private argument over large quantities of echte
+koelsch. 
+</p>
+   <p>Somewhere between 150 and 200 papers were timetabled, with on
+occasions as many as six parallel sessions spread across the three days.
+It would be nice to report that this density reflected the richness and
+variety of the scholarship on display, but honesty does not permit me
+such politeness. The fact of the matter is that (judging only by the
+sessions I attended) a good third of the papers were either almost
+entirely innocent of intellectual content, or had nothing to say that
+had not been said a thousand times before, usually more concisely. There
+was also an unusually high number of scheduled papers which simply did
+not appear - perhaps mercifully. All of this had a dispiriting effect,
+which no amount of software demonstration, nor even the excellent buffet
+dinner provided by IBM, could dispell. The following biassed and
+idiosyncratic account should of course be read only as an expression of
+my personal reactions, and makes no claim to impartiality or
+omniscience, or even accuracy. 
+</p>
+   <p> Proceedings began with a plenary panel session, in which six
+speakers were due to expatiate on the subject of "databases and the
+future of electronic scholarship"; in the event there were only three.
+First off was Joe Raben, who, as originator of the journal Computers &amp;
+the Humanities, and of the ICDBHSS conference series as well as much
+else, has every right to rest on his laurels and refrain from stating
+more than the obvious: this he did, and at some length. He was followed
+by Nicoletta Calzolari, deputing for Antonio Zampolli, from the Istituto
+Linguistica Computazionale in Pisa, whose brisk precis of trends in
+computational linguistics (the shift from grammar, to lexical studies,
+to analysis of corpora) and the technological and social changes
+heralding the emergence of the polytheoretic linguists' workbench
+deserved better attention than it received from an audience already half
+asleep. As the third speaker, I tried (unsuccessfully) to provoke
+disagreement about the different paradigms within which databases are
+used, and to mediate an opposition between the hermeneutics of
+scholarship and the certainties of information technology by saying
+"look you, there is models in both". 
+</p>
+   <p>
+After lunch, given a choice of sessions on Content Analysis, Computer
+Aided Instruction, Regional history and Data protection, (two other
+sessions were also timetabled, but did not apparently happen), I opted
+for the first, where I was first stupefied by an authorship study which
+had not progressed much beyond the smart idea of typing the text into a
+computer, and then amazed by a stylish stylistic analysis of crime
+fiction.  Volker Neuhaus (Germisches Inst.,Koln) readily agreed that a
+highly formalised narrative such as the classic detective story "of the
+golden age" was that much easier to analyse using an small number of
+exhaustive taxonomies than other perhaps less ritualised material, but
+this by no means invalidated the methodological interest in his paper.
+Later in the same session, Peter Mohler gave an interesting presentation
+about the venerable General Inquirer program, now available from ZUMA at
+Mannheim in a PC version, and its use for classifying or codifying
+narratives for statistical thematic analysis. This session also included
+an impressive paper from Robert Oakman (USC) which demonstrated how
+frequency counts could be manipulated to cluster sections of Jane
+Austen's prose meaningfully, using an algorithm originally developed for
+clustering geological specimens according to the proportions of their
+component minerals. It is hard to see what this was doing in the same
+place as the other paper in this session, which supposedly concerned
+whether or not computing had anything of relevance to modern literary
+critical concerns, and proved to be of quite extraordinary crassness.
+</p>
+   <p> I began the second day of the conference by chairing a tiny session
+on expert systems, (someone had kindly volunteered me for this honour
+without first ascertaining whether I actually knew anything about the
+topic), made tinier by the fact that only two of my four speakers
+materialised, but larger by the fact that one of them had brought most
+of his research team with him. The team came from the University of
+Grenoble, and had developed an expert system for use by urban planners,
+to assist in decision making. Their paper had a strong theoretical
+content, but remained impressive. The other paper was more superficial,
+and consisted of some meditations about the applicability of expert
+systems to legal databases. 
+</p>
+   <p> My obligatory presence in this session meant that I was unable to
+listen to the opening papers in the session devoted to Manfred Thaller's
+Historical Workstation project, notably his own presentation of the
+workshop concept, Gerhart Jaritz (Krems) on an iconographic project
+using Kleio and Peter Becker (Gottingen) on family reconstitution. I did
+however arrive in time to hear Kropac (Graz) describe his Kleio-based 
+prosopographical database, Muller (Salzburg) on 15th-16th century
+patterns of migration as deduced from the Salzburg "Burgerbuch" with
+Kleio's aid, and Bozzi (Pisa) on the Latin lemmatisation routines which
+are now incorporated into Kleio. I was impressed by all the databases
+presented in this section; what I felt lacking was any sense of quite
+where the research based on their use was heading. However, the
+collaborative and non-commercial ethos of the Historical Workstation
+project has much to recommend it, as does Kleio itself. 
+</p>
+   <p>
+After lunch, I first listened to someone expounding how Pascal programs
+could be used to list all the names of people who might perhaps have
+been around on a given day in the Middle Ages at a particular court,
+but, finding it hard to understand why this was either useful or
+methodologically valuable, subsequently decamped to a session on data
+archives. This proved to be unexpectedly interesting. I arrived too late
+to hear Marcia Taylor and Bridget Winstanley present the work of the
+Essex Data Archive's Seminar Series on the cataloguing of computer
+files, but in time to hear an excellent summary of the 'Trinity'
+proposals concerning the standardisation of historical datasets from
+Hans- Joergen Marker (Danish Data Archive). This was followed by two
+further papers concerning current standardisation efforts, one national,
+describing the framework being set up in the Netherlands for a
+Historical Data Archive (Van Hall and Doorn); the other international,
+on the work of the ALLC/ACH/ACL Text Encoding Initiative
+(Sperberg-McQueen). I found all three papers interesting and important;
+the session was also exceptional in that it provoked (and permitted)
+much useful discussion. For those who find the subject of data standards
+marginally more exciting than watching paint dry let me add that the
+discussion centred on such matters as the social history of research
+(what datasets exist? what were they created for?) and consequently was
+far more concerned with interpretative issues (what does this codebook
+actually mean?) which are at the heart of the
+quantititative/qualititative divide in much current debate, rather than
+on whether to use square brackets or curly ones, ASCII or EBCDIC etc. 
+</p>
+   <p>
+The last full day of the conference offered sessions on a variety of
+topics: those I missed included art historical and archaeological
+applications, legal sources, incomplete data, and time series analyses.
+Instead I stayed with a session on more or less straight historical
+database applications: this included a French genealogical system using
+dBase, tweaked sufficiently to cope with the intricacies of the Bourbon
+dynasty (Selz-Laurier, LISH, Paris); a fascinating analysis of networks
+of influence in German state-sponsored research institutions using
+Oracle and multi-dimensional scaling (Krempel, Max Planck Inst. fur
+Gesellschaftsforschung, Cologne); and a rather less fascinating
+discussion of the difficulties of handling orthographical and semantic
+variance in a standardised historical dataset (Haertel, Graz). Dan
+Greenstein (Oxford) gave one of the more thoughtful and
+thought-provoking papers in this session, pointing out the conventional
+historian's uneasy relationship with "the bitch goddess quantification"
+and attempting to assess the extent to which (for example) the multiple
+encodings possible with true relational database management systems
+succeed in restoring the historian's intimate dialogue with his sources
+with reference to his own work with the History of the University's
+enormous INGRES database. This was followed by an interesting re-telling
+of a paper originally written by Frances Candlin (Glasgow) as a
+programmers' eyeview of the historian's activities, but presented -with
+much embedded commentary- by Nicholas Morgan, of the DISH project at
+Glasgow. These two papers alone offered ample opportunity for serious
+methodological debate, which was not, however, taken.
+</p>
+   <p>
+A large international conference of this kind is of course much more
+than a collection of research papers. This one also provided a shop
+window for an impressive panoply of software systems and books as well
+as the obligatory gossip and politicking. The latter being inappropriate
+material for a report of this nature, I shall conclude with the former.
+Systems demonstrated included a full colour art historical image
+retrieval from laser disk developed for the Marburg Institute, the BBC
+Domesday Project and IBM's famous Winchester Cathedral graphics model as
+well as a host of pc-based software  nearly all of academic origins
+(TuSTEP, Kleio, TextPack, ProGamma, HIDES, DISH, CODIL and a Hungarian
+concordance package called MicroDIC stay in my mind). 
+</p>
+   <p>
+I concluded my stay in Cologne by attending the annual general meeting
+of the Association for History and Computing. The Association now has
+around 500 members from 23 predominantly European countries, only 60% of
+these being in the UK. Three new "branches" (one of the hottest
+political issues of the conference concerned what exactly a "branch"
+was) had been set up, in Italy, Portugal and France. A fat volume, based
+on the first Westfield conference, had appeared and, despite a
+devastating review in Histoire et Mesure (a journal edited by the
+President of the Association, it should be noted), would be followed by
+a second volume later this year. The British, Portuguese, French,
+Austrian and (newly created) Nordic Branches reported on their
+activities. Manfred Thaller reported that his standardisation work was
+progressing, and that another workshop might be organised next spring in
+Goettingen. The Archive group was sending out a questionnaire in
+collaboration with the Essex Data Archive. Ambitious plans to expand the
+Association's journal  were announced, as were plans for a series of
+other publications.
+</p>
+</div>

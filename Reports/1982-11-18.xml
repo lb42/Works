@@ -1,0 +1,35 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1982-11-18">
+   <pb facs="Pages/img443.jpg"/>
+   <head type="report">VISIT REPORT L
+Burnard</head>
+   <head type="location">ICL Bracknell</head>
+   <head type="event"> BCS/CODASYL DBAWG</head>
+   <head type="when"> On 18-19
+November 82</head>
+   <p>This meeting was similar in style and content, if
+not in surroundings, to the one I attended in the Highlands two
+months ago, except that there were three or four faces new to me
+present. On day 1 I applied for and was granted official
+membership of the Group as Oxford's representative. Reports of liason
+with other groups of similar interests followed, in particular
+a Pascal working party which has expressed interest in the
+continuing work of standardisation of what ANSI now wish us to
+call dbcs. Another interesting indicator of future trends was
+the DBAWG's agreement that its distributed DB architecture was
+not predicated on an exclusively Codasyl (or indeed ANSI)
+architecture. As before the real work of the group continued in its
+two subgroups and I stayed with the 'Access Control'
+subgroup. After having at our last meeting failed to agree on a
+definition of 'action' within an information system, we spent
+most of this one failing to a.gree on what a 'rule1 was anyway. On day
+1, it had a rather hierarchic element (of, Asimov's laws of robotics);
+but on day 2 this was discredited in favour of the view that it was
+just a boolean expression 'action X is permitted to role Y if
+(arbitrarily_complex_expression) ' A discussion about 'rights' and
+'revoking' of rights led to the assertion that rules could also be the
+subjects of (meta) rules and indeed attempts to define meta-meta-rules
+(which define what happens when the meta-rules defining which rules
+currently apply are changed). It was also agreed that the subgroup
+needed a dictatorial chair person, which role I was reluctantly
+coerced into.</p>
+</div>

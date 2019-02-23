@@ -1,0 +1,109 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1996-05-30">
+   <head type="location">Munich</head>
+   <head type="event">SGML Europe 1996 Conference</head>
+
+   <p>SGML Europe 96 was held this year in a very large and expensive
+hotel in Munich, adjacent to what would have been very pleasant park
+if the weather had been less damp. I travelled there from the Tyrol by
+train, thus missing the opening ceremonies (by all accounts a rather
+lachrymose affair, this being the first major conference since the
+death of Yuri Rubinsky to whose memory the event was dedicated), but
+saving the TEI the cost of an extra night's stay in said hotel. I did
+arrive in time to hear Charles Goldfarb give his "Inventor's Keynote",
+from which I learned that Charles has been thinking about the World
+Wide Web, and perhaps regretting that he didn't take the chance to set
+Tim Berners-Lee right about SGML when he had it. When titans meet, Dr
+Goldfarb opined, one should find another field -- sound advice, with
+reference to web browser wars, but rather defeatist for those of us
+who think that the SGML community might have something to learn from
+the runaway success of the web. Key events of the year were the
+publication of DSSSL; and some reorganization and realignment of
+various competing areas of HyTime and DSSSL activities, notably the
+definition of the Standard Document Query Language and of the HyTime
+"general facilities" (aka the useful bits -- architectural forms,
+property sets, groves, formal system identifiers etc). Charles also
+proudly announced his "Purity Test" for so-called SGML-conformant
+applications, on which see <ref target="http://www.SGMLsource.com/Goldfarb/purity.html">http://www.SGMLsource.com/Goldfarb/purity.html</ref>,
+if you care about such things.
+</p>
+   <p>The real function of conferences like this one is not however to listen
+to presentations, however inspirational, but to hobnob with the vendors,
+who were there in force. There were three exhibition halls full of
+variously sized booths to do this in, with almost all major players
+represented (conspicuously absent were Microsoft and Novell) and many
+minor ones, throughout the proceedings, pausing only for the evening
+reception (on the 24th floor, commanding magnificent views of some very
+damp tree tops). I duly hobnobbed, to the point of exhaustion, as did
+most of the other 300 or so delegates, when not drifting in and out of
+sessions.
+</p>
+   <p>Here are a few of the software products that made some impression on me:
+some newish SGML authoring tools, notably InContext (the new version is
+now reduced in price to the point where we could actually afford it),
+and Stilo, which is nearly available -- and both of which successfully
+processed the TEI dtds under my suspicious gaze. Folio Views had put a
+lot of money into free mugs and pads proclaiming "Folio does SGML" (I am
+told that this is somewhat economical of the truth). Astoria, the new
+SGML object database from Xerox, had an immense and very busy stand. At
+the STEP booth, they were busily producing a daily news bulletin
+directly from an online news feed, converting it automagically to SGML
+and formatting and printing it in real time. Synex, makers of Panorama,
+are now actively marketing their Viewport engine at a price we certainly
+cannot afford. Jouve have a (comparatively) cheap and cheerful CD-ROM
+production system called GTI publisher which could give DynaText a run
+for its money. AIS have a new version of Balise (with a new logo) and a
+new English manual on the stocks. At the cheaper end of the market, two
+new application development toolkits were in evidence, one called
+SGML-C, from Bruce Hunter, and the other, called NSL originally
+developed for the Multext project by Henry Thompson. Both worth hunting
+down on the net.
+</p>
+   <p>Even had I not been somewhat pre-occupied with getting my part of the
+closing plenary session ready, it would have been impossible to take in
+all this as well as the three parallel tracks, so my report is
+necessarily somewhat fragmentary. I listened to a session on document
+management systems, which included a good overview of issues in document
+database design from John Chelsom, and a characteristically pragmatic
+discussion of ways of building hybrid distributed document databases
+from John McFadden (see http://www.exoterica.com/pres/hddb). I dipped in
+and out of a major overview of SGML software tools organized by Steve
+Pepper (Falch) and Robin Tomlin (SGML Open), in the hope that this would
+stop defining criteria and start evaluating products (it didn't -- but
+the overview was very thorough). I attended a session about the role of
+SGML on the internet, which featured Eric van Herwijnen and Martin
+Bryan, neither of whom had anything new to say on the subject (though
+Eric had some nice pictures); Jon Bosak, in a different session, also
+addressed the web and had some rather sharper comments to make: (see
+http://www.sgmlopen.org/sgml/docs/library/dssslo.htm).  I was rather
+disappointed to find that no-one apparently had anything to say about
+the importance of SGML as an archival format, or a metadata format, and
+I don't think I heard the phrase "digital library" mentioned once in
+four days, which seems odd. The conversations I heard in the halls were
+all about document production and document management, the intranet and
+improving your organization's information flow. I heard nothing about
+ICADD or the TEI, or how SGML might be of use to the rest of us, which
+was all rather depressing.
+</p>
+   <p>The final plenary began with Dale Waldt explaining at some length just
+why commercial publishers love (or should love) SGML, which somewhat
+reinforced my prejudices against them. I found myself speaking up for
+academia and reminding the conference that maybe SGML had a more
+significant role to play than just helping publishers and consultants
+get rich, and that its true Destiny was to preserve our cultural
+heritage. I also suggested that it really shouldn't be so difficult to
+get started with SGML, the basic notions of which can be jotted down on
+the back of an envelope, a theme which I was glad to see Tim Bray pick
+up in his masterly wrap up of the whole proceedings (see
+http://andor.opentext.com/~tbray/SGML-Europe/index.html). Tim stopped in
+the middle of his presentation (done like almost everyone else's with
+Powerpoint), exported it as an HTML file with one click of the mouse,
+and asked the question the SGML Industry really needs to answer: why is
+it so difficult for vendors to build true SGML support in with
+comparable user friendliness and simplicity?
+</p>
+   <p>Outside the conference, for the first time since I arrived in Germany,
+the sun came out. It was a public holiday, so the park was full of
+cheerful Bavarians drinking beer and eating sausages to the
+accompaniment of an oom-pa band. Time to go home...
+</p>
+</div>

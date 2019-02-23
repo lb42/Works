@@ -1,0 +1,69 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1978-01">
+   <pb facs="Pages/img399.jpg"/>
+   <head>QUARTERLY REPORT L. Burnard January 1st
+- April 1st 1978</head>
+   <p>IDMS</p>
+   <p>The quarter began promisingly
+with me commuting to Bracknell in a suit to get some hands-on
+experience of using FISS (the Fortran interface to IDMS) and indeed of
+5x27 on a 2980 which worked more often than not as well. The swan
+schema was successfully implemented there and one test program run
+before pressure of other work recalled me to Oxford. At the end of the
+quarter I gave a talk to the Zoology Dept. on database techniques and
+the use of IDMS which seemed to arouse considerable
+enthusiasm.</p>
+   <p>2980 Initial Service</p>
+   <p>I did my best to make a
+lot of noise about the Initial User Service, drafting a User Notice,
+rewriting much of the Initial Use documentation and delivering a
+well-received if inaccurate present­ation to the User Group Meeting. I
+wrote various macros to make life a little easier for package-users
+(and others), viz OXCAF, OX-CARD-INPUT, SNOBOL and
+FAMULUS. Documentation on Snobol and on Famulus was written and
+delivered to User Liaison last week. Initial testing of SNOBOL
+indicates considerable scope for improvement particularly as regards
+the I/O. A disturbing number of bugs in the first release of Famulus
+also surfaced and were reported to Edinburgh: a new release is due
+shortly.</p>
+   <p>Archive</p>
+   <p>This quarter the number of words in the
+Archive passed the 3 million mark, largely as a result of our
+acquiring a large corpus from Warwick, containing a most extraordinary
+mischmasch of newspaper articles, committee reports, recipes,
+instruction leaflets etc. I also received from the University of
+Manchester a partial transcript of the A.L.D. and another of written
+speech. Negotiations with the firm L. Urdang Inc. are progressing; if
+successful they should lead to our acquiring not only a complete
+transcript of a new English dictionary but also of various other
+reference works. Texts of Keats and Hopkins are expected to arrive by
+September, when the Coleridge corpus should also be
+completed.</p>
+   <p>1900 Software</p>
+   <p>Much time was spent on VERA, a
+new program for analysing variant states in texts which interfaces to
+the cluster analysis routines of GENSTAT. This was finished and tested
+in time for Susan to advertise it at an International Meeting on
+Textual Criticism in Paris, just. Much time was also spent on programs
+for analysing the movements of giant tortoises on the Isle of
+Aldabra. Apart from this, and routine software maintenance, the 1906
+did not see much of me this quarter. I tested the new version of CLOC,
+and found a few restrictions and one bug, which were duly reported to
+Birmingham. I have also just obtained a copy of the Bradford 1900 LISP
+system.</p>
+   <p>Any Other Business</p>
+   <p>I continued to write superb
+minutes for the Programmers Meeting, and also designed a somewhat less
+superb form for logging the activities of Advisory Service. I was
+involved (together with Susan and the Professor of General
+Linguistics) in the organisation of a series of seminars on
+Computational Linguistics to take place next Michaelmas term. My main
+extramural activity was attending the ALLC International Symposium at
+Aston at the beginning of April, which (despite the highly uncongenial
+surroundings) proved to be one of the more successful of the series to
+date. I was invited to write a series of articles on Spitbol
+programming, recommended to produce a machine-independent Oxeye,
+engaged in a full and frank exchange of views on the organisation of
+machine-readable archives with both American and Norwegian experts in
+the field, and I also picked up some interesting new techniques in
+collocation analysis.</p>
+</div>

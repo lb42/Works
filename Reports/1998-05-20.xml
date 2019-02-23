@@ -1,0 +1,381 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1998-05-20">
+   <head type="event">ICAME 19</head>
+   <head type="location">Slieve Donard Hotel, Newcastle, Co. Down.</head>
+   <head type="date">&gt;20-24 May</head>
+   <p>
+      <ref target="http://nora.hd.uib.no/whatis.html">ICAME</ref>, the annual
+get together for corpus linguists, was held this year in <ref target="http://www.hastingshotels.com/frames.asp?url=hotel_slieve.htm">
+a luxurious Victorian hotel</ref> in Newcastle, Co. Down, where the
+mountains of Mourne come down to the sea (and they do), organized with
+great panache by John Kirk from Queens University Belfast. The food
+was outstanding in both quantity and quality, there were magnificent
+sea views, the weather was splendid, and the conference programme was
+full of substance and variety.  With about a hundred participants, the
+conference was not too big to allow for plenty of interaction and
+socializing, even with a fairly crowded programme of sixty formal
+papers and a dozen posters spread across three days. Also, I counted
+nearly twenty presentations of one kind or another explicitly derived
+from work using the BNC, <ref target="http://www.geocities.com/Athens/2694/fast.html">which was (as they say) nice.</ref> In what
+follows, I summarize briefly only those sessions I attended, passing
+over in silence a few I could not attend either through an inability
+to be in two places at once, or through conference-fatigue.
+</p>
+   <p>For the third time, it had been decided to hold a separate one-day
+<mentioned>Historical corpora Workshop</mentioned> as a curtain raiser to the main
+event. This was opened by <ref target="http://www.eng.helsinki.fi/doe/staff/rissanen.html"> Matti
+Rissanen's</ref> annual survey of projects and resources for diachronic
+corpus studies, now available or underway, in which he also said some nice
+things about the <ref target="http://ota.ahds.ac.uk">Oxford Text Archive</ref>.
+Irma Taavitsainen from Helsinki reported on a study of what
+she termed "metatextual" comments in a <ref target="http://www.eng.helsinki.fi/doe/projects/eemw/">corpus of Early English
+medical texts</ref> dated 1375 to 1550: the claim was that both form and
+incidence of such comments as <mentioned>It is to be seen that</mentioned>, <mentioned>I will
+now demonstrate</mentioned> etc change over this period to reflect other
+changes from personal to impersonal modes of narrative, or from an
+oral to a literary style. Terttu Nevalainen, also from Helsinki,
+presented <ref target="http://www.eng.helsinki.fi/doe/projects/ceec/corpus.html">CEEC</ref>, an
+interesting attempt to apply sociological criteria in the design of a
+Collection of Early English (1417-1681) Correspondence. Of necessity,
+the 6000 letters making it up had all been taken from published
+editions, (thus introducing a rats-nest of copyright problems), and
+also thus to some extent reflecting modern editorial practices in such
+matters as spelling or selection procedure (less than a sixth of the
+letters are from women, for example).  Nevertheless, the corpus is
+clearly of immense interest as a way of quantifying and detailing
+hypotheses about such phenomena as the social distribution of you/ye
+forms, or the changes from <mentioned>-s</mentioned> to <mentioned>-th</mentioned> verbal forms, or
+the use of <ref target="http://www.eng.helsinki.fi/doe/projects/ceec/recent.html"> multiple
+negation.</ref>
+   </p>
+   <p>In the first of two papers about the <ref target="http://www.tu-chemnitz.de/~ehe/real/lampr.htm">Lampeter
+corpus</ref>, I rattled through <ref target="http://users.ox.ac.uk/~lou/wip/Lampeter/">an account of its
+design and encoding</ref>, focussing mostly on the problems of getting
+from a semi-SGML form of markup to one which actually validated
+against a TEI dtd, before Claudia Claridge (Chemnitz) reported on some
+real work done using it as a source of information to substantiate
+theories about the development of scientific thought; for example, the
+lexical patterns typifying the empirical approach, and the gradual
+replacement of active voice reporting forms by passive constructions
+over the century that this corpus samples.
+</p>
+   <p>After our first experience of a Slieve Donard lunch, Douglas Biber
+(Arizona) author of <ref target="http://www.cup.cam.ac.uk/scripts/webbook.asp?isbn=0521496225">a
+recently-published book on corpus linguistics</ref>, described an
+application of factor analysis techniques to 18th century
+English. Unlike <ref target="http://www.itri.brighton.ac.uk/~Adam.Kilgarriff/biber.asc">
+previous work</ref> in which the parameters studied had been derived
+from 20th century material, this work began by constructing a number
+of specifically 18th century "dimensions" along which the rates of
+occurrences for a wide range of linguistic features were shown to
+cluster in different ways in texts taken from ARCHER corpus. Different
+genres are then identifiable by their location along these dimensions.
+</p>
+   <p>Ann Curzan (Michigan) reported on a study of the shift from
+grammatical to natural gender agreement for anaphoric pronouns across
+the period 1150-1215 in the <ref target="http://nora.hd.uib.no/helinfo.html">Helsinki corpus</ref>: her study shows that this
+was by no means a simple transition, involving both factors relating
+to both lexis (some nouns remaining stubbornly gendered) and syntax
+(eg distance between anaphor and antecedent). Christer Geisler
+(Uppsala) presented a mass of data relating to postmodified clauses in
+the tree-banked version of the Helsinki corpus, the purpose of which
+went straight over my head. <ref target="http://eisv01.lancs.ac.uk/staff/gerry/gerry.htm">Gerry
+Knowles</ref> (Lancaster) was also fairly recondite as to methodology,
+but the purpose was plain enough: to identify the origins of northern
+varieties of English by analysis of evidence from dialect maps rather
+than on the assumption that they derived from some homogenous Middle
+English dialect.
+</p>
+   <p>The Historical Workshop closed with a discussion as to whether or not
+it was A Good Thing, or whether it would be better to roll its
+contributions in with the rest of ICAME. Since ICAME's expansion is
+now officially <mentioned>International Computer Archive of Mediaeval and Modern
+English</mentioned>, I felt that it probably should; others, perhaps more
+territorially minded, disagreed, and we all adjourned to the bar.
+</p>
+   <p>Next day ICAME proper began with John Kirk explaining the structure of
+the event: there would be a a series of themed sessions, focussing on
+major corpus development initiatives: today ICE, tomorrow the BNC,
+then Birmingham, and so on.  He'd also planned a session on
+dialectology, but the dialectologists had not co-operated. John
+reminded us that the result of the Northern Ireland Referendum would
+be due around tea time on Saturday, and that we all had a copy of the
+consultation document in our packs, so that we could consider whether
+or not the verbs <mentioned>exercise</mentioned> and <mentioned>discharge</mentioned> were in fact used
+synonymously. A special excursion in the evening would take us to a
+secret location near Belfast where the joint Anglo-Irish secretariat
+would ply us with drink before the Referendum result hopefully removed
+it (the secretariat, not the drink) from existence.
+</p>
+   <p>The ICE session began with a presentation by Baz Arts and Sean
+Wallis from UCL of the <ref target="http://www.ucl.ac.uk/english-usage/corpus-query/index.htm">
+ICECUP</ref> annotation and search software.  This is a classy piece of
+Windows software which allows you to search the completely parsed <ref target="http://www.ucl.ac.uk/english-usage/ice-gb/index.htm">ICE-GB
+corpus</ref> of one million words in terms of its linguistic
+annotation. The interface looked a bit like the SARA query builder
+screen, or the Linguistic Database (LDB) searching software developed
+by Hans van Halteren for the <ref target="http://iris1.let.kun.nl/TSpublic/tosca/index.html">TOSCA</ref>
+project many years ago -- but on steroids.  The idea is that the user
+defines <mentioned>fuzzy tree fragments</mentioned> -- templates for nodes which are
+to be matched in the complete syntactic tree. Each node has three
+parts (function, POS category, feature) and the arcs can be
+directional, or non-directional.  The system performed well and looked
+good, but Sean spent rather a lot of his time explaining how model
+based systems query front ends like this were an improvement on those
+based on logical expressions, which whether true or not was fairly
+uninteresting to non computer-scientists. There were promises of an
+enhanced and extended ICE-GB corpus to be developed later, with the
+software bundled, presumably contingent on grants coming through.  I
+asked how the system handled contextual queries (since metadata wasn't
+included within the nodes) but didn't understand the answer.  Chuck
+Meyer, a real linguist, then reported his experience of using the new
+system, and in particular of comparing its usability with his analyses
+of the same corpus published in 1996: he focussed however on minutiae
+of the results rather than usability issues which meant that I rapidly
+fell asleep.
+</p>
+   <p>I awoke (briefly) to hear Atro Voutilainen and Pasi Tapainenen from
+Finnish language engineering company <ref target="http://www.conexor.fi/company.html#1">Conexor</ref>, newly formed
+to exploit the run away success of their English Constraints Grammar
+Parser, probably the most widely used and amongst the most successful
+of current automatic tagging systems for English. A new version called
+<ref target="http://www.conexor.fi/np-parser.html#1">Englite</ref> is
+now available on the web. Most of the technical detail of the Finnish
+team's impressive work is available in publications elsewhere, to
+which he gave <ref target="http://www.conexor.fi/analysers.html">several
+useful pointers</ref> He also demonstrated some Unix tools for
+processing the parser output, for example to produce new groupings of
+idiomatic phrases. The tools look good, but you have to be a true
+believer in dependency grammar to get the best out of them.
+</p>
+   <p>
+      <ref target="http://crl.nmsu.edu/Lab/Personnel/jcowie.html">Jim
+Cowie</ref> from New Mexico State repeated some fairly well-worn
+observations about the role of corpora in improving automatic
+translation, citing some nice examples (how to distinguish storms of
+ice cream from snowstorms in a Spanish text) and also showing some
+nice software. He said there was a need to enhance the lexica used by
+your average MT system with frequency and contextual information,
+which is as true now as it was when <ref target="http://www.purl.net/NET/lesk">Mike Lesk</ref> said it in 1986.
+Ylva Berglund presented <ref target="http://clwww.essex.ac.uk/w3c/corpus_ling/about.html">
+         <mentioned>World
+Wide Web Access to Corpora</mentioned>
+      </ref> from Essex, a JTAP project which
+aims to demonstrate how corpora can be used in language teaching.  Her
+presentation was meticulous but the project remains seriously
+underwhelming from my point of view. Its future remains unclear and
+there were some politely critical remarks from the floor about the
+need for such a project to be a little less self-promoting, and maybe
+more extensive in its coverage.  The afternoon was given over to
+software demos, which went without a hitch: I demonstrated some of the
+spiffier bits of <ref target="http://info.ox.ac.uk/bnc/sara.html">Sara</ref>, in particular how
+to use it to examine differing usage patterns for the word
+<mentioned>pretty</mentioned> as an adverb by men and women; the Zurich team
+demonstrated their <ref target="http://escorp.unizh.ch/">impressive web front end</ref> to SARA, which they
+promised we could distribute for them when it was ready; and I went
+for a walk along the beach with Tony Mcenery. As to the secret
+reception, we went by bus for miles along twisty Northern Irish roads
+to a place surrounded with barbed wire which looked rather like a
+converted school hall, where everyone had a lot to drink, and I
+explained at least seven times to different people what the state of
+the BNC currently was.
+</p>
+   <p>Next morning began with an hour of deeply statistical discussion by
+Professor Nakumura and colleagues from Tokushima University, concerned
+with various methods of automatically identifying text-type within the
+LOB corpus. The rest of the morning was largely devoted to papers
+reporting work done with the BNC.  It began however with two serious
+papers from Douglas Biber and <ref target="http://www.ling.lancs.ac.uk/staff/geoff/geoff.htm">Geoffrey
+Leech</ref> both derived from their Corpus Grammar work.  Biber's was
+mostly on the ways lexical patterns explained explain different usage
+rates in different registers for apparently interchangeable
+constructions, in this case complement classes (verb+<mentioned>that</mentioned> vs
+verb+<mentioned>to</mentioned>). Leech's focused on conversation, and proposed some
+interpretations for the characteristic patterns of difference found
+amongst the four basic genres analysed in their grammar. Speech is
+characterized by shared knowledge, an avoidance of elaboration, a
+plethora of interactions, a need to express emotion and stance,
+freqent repetition of set phrases and (because of its time-based
+nature) frequent front or back loading of syntactic structures. All of
+these can be shown to underly the significantly different syntactic
+patterns found in speech.
+</p>
+   <p>After coffee, <ref target="http://www.ling.lancs.ac.uk/staff/tony/tony.htm">Tony
+McEnery</ref> lowered the tone of the proceedings by reporting with
+relish his investigations into the naughty words used throughout the
+BNC. He produced a number of examples to demolish various intuitive
+claims about who swears about what to whom published by one G. Hughes,
+and also remarked in passing how odd it was that the Norwegians came
+in for so much invective in the spoken part of the BNC.
+</p>
+   <p>
+      <ref target="http://www.es.unizh.ch/es/infoss98/info98byewelcome.htm#Lehmann">Hans
+Martin Lehmann</ref> and <ref target="http://www.es.unizh.ch/es/infoss98/staffbio98.htm#Tottie">Gunnel
+Tottie</ref> from Zurich reported a technique and some results for the
+automatic retrieval of adverbial relatives (e.g. <mentioned>this is the place
+where/at which/that/0 he found it</mentioned>) and for investigating their
+different usage patterns. Automatically retrieving zero-marked
+relatives is particularly tricky, even for the ingenious Lehmann,
+involving running the untagged text through the Helsinki parser, to
+identify potentially appropriate patterns, which are then manually
+checked. Apparently, the manual search missed 20% of the cases found
+by the automated process -- but the program was entirely at the mercy
+of tagging errors in the parser.
+</p>
+   <p>Sebastian Hoffman, also from Zurich gave a thoughtful presentation
+about the collocational evidence available from the BNC. Most people
+believe that native speakers know many complex lexical items: but
+empirical evidence showed that for relatively infrequent words there
+were disparities between predicted collocates and those actually
+attested in the corpus (using log-likelihood measurement of the
+collocational strength). The question of how speakers recognize such
+combinations in rare words remains open.
+</p>
+   <p>At this point, and in a major departure from ICAME norms, the
+conference split into two parallel strands. I sat tight for two more
+presentations on the BNC.  Roberta Facchinetti (Verona) presented a
+study of preferences for <mentioned>will</mentioned> vs <mentioned>going to</mentioned> in speech and
+writing, somewhat marred by the observation that the written part of
+the BNC did not reliably distinguish reported speech. Jurgen Gerner
+(Berlin) discussed the increasing use of <mentioned>they</mentioned> as what should
+grammatically be a singular pronoun, used anaphorically to refer to
+<mentioned>everyone</mentioned> or <mentioned>somebody</mentioned> (as in <mentioned>everybody should do what
+he/they can</mentioned>): there seemed to be a preference for the singular
+only with the <mentioned>some-</mentioned> form.
+</p>
+   <p>After the usual extravagant and irresistible lunch, we settled down
+for an afternoon of presentations from Birmingham. <ref target="http://www.csee.umbc.edu/~rkrish3/">Ramesh
+Krishnamurthy</ref> briefly described TRACTOR, a research archive for the
+various corpora and resources being created by and for the <ref target="http://www.ids-mannheim.de/telri/">TELRI</ref> project, which has
+recently obtained a further three years funding for its pioneering
+work in corpus-ifying the languages of Eastern and Central Europe. The
+archive will include a number of interesting tools, integrated into a
+single framework, as well as the various corpora already produced and
+in production by TELRI member sites. Ramesh was at pains to
+distinguish the project from <ref target="http://www.lpl.univ-aix.fr/projects/multext-east/index-en.html">Multext East</ref> (less specific) and <ref target="http://www.ilc.pi.cnr.it/euro.proj/parole.html">Parole</ref>
+(more specific), but TELRI still sounds more of a club than a project
+to me. Not that there's anything wrong with clubs (especially if they
+will admit me as a member, which I did my best to persuade them they
+should).
+</p>
+   <p>Geoff Barnbrook made deprecating remarks about the Bank of English
+and <ref target="http://titania.cobuild.collins.co.uk/">COBUILD</ref>,
+briefly touching on the political fallout from the recent massive
+"downsizing" of the latter, before giving a fairly anodyne description
+of a parsing system under development for the definition texts of the
+COBUILD dictionaries. He was followed by <ref target="http://www-clg.bham.ac.uk/oliver/">Oliver Mason</ref>, who again
+discussed the notion of <mentioned>lexical gravity</mentioned> in collocation together
+with some useful techniques for its automatic calculation: this
+remains no less impressive than when I saw it presented at <ref target="Http://users.ox.ac.uk/~lou/Reports/9704lodz.htm">PALC</ref> last
+year, but does not seem to have advanced much since then.  Sue
+Blackwell discussed how the words <mentioned>look</mentioned> and <mentioned>well</mentioned> are used
+as markers of discourse function in a range of examples from the Bank
+of English; Willem Meijs gave a fairly thorough overview of national
+stereotypes as revealed by mutual information scores, but came to no
+firm conclusions that I noticed, perhaps because my attention was
+beginning to flag by this stage of the day. </p>
+   <p>Revived by tea, I plumped for the parallel session for
+annotation-dweebs (thus regrettably missing three papers on the
+slightly unlikely topic of dialect studies in the BNC) and managed to
+follow quite a lot of <ref target="http://agora.leeds.ac.uk/scs/public/staff/eric.html">Eric
+Atwell</ref> and <ref target="http://agora.leeds.ac.uk/scs/public/staff/cs.html">Clive
+Souter</ref>'s discussion of the problems of mapping between the outputs
+of different parsing systems. As part of the <ref target="http://www.scs.leeds.ac.uk/ccalas/amalgam/amalghome.htm">Amalgam</ref>
+project, they had attempted mappings between nine different parsers
+and (despite the best efforts of <ref target="http://www.ilc.pi.cnr.it/EAGLES/home.html">Expert Advisory
+Groups for Language Engineering Standards</ref>) concluded that for
+syntactic analyses at least there simply is no obvious or even
+non-obvious interlingua. Even something as simple as labelled
+bracketting is controversial if you happen to be mapping an analysis
+based on a dependency rather than a phrase structure grammar. This
+dispiriting news was followed by an interesting paper from Yibin Ni
+(Singapore) who had been trying to make explicit by tagging some
+fairly recondite co-referential relations in discourse, but who did
+not seem to have hit on any notational scheme adequate to the
+purpose. Final paper in the session was from <ref target="http://www.cogs.susx.ac.uk/users/geoffs/">Geoff Sampson,</ref>
+presenting with characteristic clarity some of the problems in trying
+to define an annotation scheme that can guarantee consistency if
+application across corpora of transcribed speech: such common features
+of speech as repair and truncation wreak havoc with the best designed
+syntactic tagging schemes, to say nothing of the gaps in an analysis
+caused by <gi>unclear</gi> elements. The day concluded with a
+mammoth session in which each of the poster presenters got five
+minutes to announce themselves, and a reception at which John Kirk
+tried to explain some salient features of Northern Irish linguistic
+history. I think.
+</p>
+   <p>My notes on the next day begin with <ref target="http://www.nus.edu.sg/NUSinfo/FASS/ELL/Vincent/">Vincent Ooi</ref>
+(Singapore) who promised to explore the different "reality" evidenced
+by collocational data from Singaporean and Malaysian English, but
+instead gave only what I found a rather impressionistic account of
+some multi-word phrases in English as she is spoke in the Straits. I
+did however learn that Singaporean lifts are equipped with devices
+which sound an alarm should anyone be taken short whilst inside: these
+are rather unimaginatively known as <mentioned>urine detectors</mentioned>.
+</p>
+   <p>
+      <ref target="http://www.comp.lancs.ac.uk/computing/users/eiamjw/martin.html">Martin
+Wynne</ref> (Lancaster) presented the results of an interesting
+comparison between two part-of-speech taggers: CLAWS, from Lancaster,
+and <ref target="http://www-clg.bham.ac.uk/QTAG/description/tagger.html">QTAG</ref>,
+from Birmingham. The comparison was effected by running both parsers
+on the same corpus (the written half of the BNC sampler), mapping the
+results into the EAGLES recommended annotation scheme, and comparing
+the results. Martin conceded that this was grossly unfair on several
+counts: the EAGLES scheme is much closer to CLAWS in the first place;
+CLAWS was trained on the BNC; in cases of ambiguity, CLAWS uses
+portmanteau tagging, whereas QTAG gives a prioritized list from which
+they always took the first. He also spent a lot of time saying that he
+didn't regard the results (in a corpus of over a million words, CLAWS
+disagreed with the reference scheme 2% of the time, and QTAG about
+15%) as proving anything, in which case one couldnt help wondering why
+they were being presented.
+</p>
+   <p>Antoinette Renouf (Liverpool) reported on the next phase of her
+unit's continuing and (I think) unique work on neologisms. The AVIATOR
+project, which monitored the appearance of <ref target="http://www.rdues.liv.ac.uk/newwds.html#menustart">new words</ref>
+in newspaper texts over a four year period, demonstrated that such
+words tended to have very low frequencies, thus requiring the
+development of rather rarefied statistical techniques for their
+detection and classification. Such techniques having been developed in
+collaboration with Harald Baayen from Nijmegen, Antoinette announced
+the arrival of a new project called Analysis and Prediction of
+Innovation in the Lexicon (APRIL), the aim of which is to develop a
+system of automated classification, accounting qualitatively and
+quantitatively for the features found in huge amounts of text, and
+then extrapolate from this to predict the structure of the future
+lexicon.  Allegedly.
+</p>
+   <p>
+      <ref target="http://www.vuw.ac.nz/lals/staff/Graeme_Kennedy.html">Graeme
+Kennedy</ref> (Victoria University of Wellington), author of <ref target="http://www.awl-he.com/titles/02648.html">the other
+newly published book on corpus linguistics</ref>, presented an intriguing
+paper on Maori borrowings into contemporary New Zealand English,
+couched largely as a comparison between those reported in the new
+dictionary of NZ english and those attested in a recently compiled <ref target="http://www.vuw.ac.nz/lals/wgtn_crps_spkn_NZE.htm">corpus of
+spoken New Zealand English</ref>. Apparently, 77% of the words in the
+dictionary are not attested in the corpus, while 86% of forms found in
+the corpus don't appear in the dictionary.
+</p>
+   <p>Under the title <mentioned>It's enough funny, man</mentioned>, Anna-Brita
+Stenström reported on some features of teenage talk familiar to
+those with teenage daughters (e.g. use of <mentioned>enough</mentioned> and
+<mentioned>well</mentioned> as adjective pre-modifiers) but maybe not to others. In
+traditional ICAME fashion, she presented a mass of useful and
+interesting evidence for these usages, and their typical contexts
+based on searches of the <ref target="http://www.hd.uib.no/colt/">COLT</ref>
+and the BNC; she had also used the <ref target="http://www.oed.com">online
+OED</ref> as a source of comparative diachronic information, enabling
+her to reveal that <mentioned>enough</mentioned> as a premodifier appears about 800
+times in OED citations, while <mentioned>well</mentioned> is well frequent in Old
+English, thus suggesting that teenagers have merely rediscovered an
+enough established feature of Early Modern English.
+</p>
+   <p>Due to other committments, I had to make my excuses and leave at
+this point, thus missing amongst other things a report on the <ref target="http://www.comp.lancs.ac.uk/computing/research/ucrel/projects.html#multimedia">Lancaster
+multimedia corpus of children's writing</ref> as well as the closing
+celebrations. Despite this sacrifice, I still somehow managed to
+missed my flight home and had to spend an extra night at the Belfast
+airport hotel. Even this did not dampen my enthusiasm for the event:
+one of the best of a long series, and a hard act to follow.
+</p>
+</div>

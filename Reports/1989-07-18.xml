@@ -1,0 +1,358 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1989-07-18">
+   <head type="event">Information Technology and the Research Process.
+    </head>
+   <head type="location">Cranfield Institute of Technology</head>
+   <head type="date">18-21 July 1989</head>
+
+   <p>All academic communities define themselves partly by regular
+gatherings dedicated to self examination; the community of <soCalled>information
+scientists</soCalled>, i.e. those skilled in the management and exploitation of
+library and analogous resources in research, is no exception.  During
+the seventies there had been a regular series of such gatherings known
+as the Cranfield Conference.  These having now fallen into desuetude,
+when Brian Perry, head of the British Library's Research and
+Development Department, welcomed us to this reborn version he
+naturally proposed that it should be called <soCalled>Not the Cranfield
+Conference</soCalled>.  The four day event, jointly sponsored by the British
+Library, the University of Pittsburgh's Department of library Science,
+and the UK Computer Board, attracted a small but agreeably
+heterogenous audience.  Attendance at sessions averaged 60 from a
+total registration of just under a hundred, largely composed of
+information science professionals, computerate librarians, human-
+factors computing theoreticians, a sprinkling of civil servants and
+various other varieties of professional research support people, drawn
+fairly even handedly from universities and polytechnics, with even a
+few token representatives of industrial concerns such as Shell.
+Although the British formed the majority, followed by the Americans
+and the French, several other countries were represented including
+Sweden, Eire, Canada, Netherlands, Turkey and Bophutatswana.  The
+conference bore every sign of having been carefully arranged to
+maximise opportunities for informal contact and discussion: there were
+no parallel sessions, and the timetable was not a tight one, with five
+keynote speakers, one panel session and a paltry 20 presentations
+spread over four and a half days.  The venue, Cranfield Institute of
+Technology, notorious for its sybaritic charm as a conference centre,
+contributed something to this end.  As befits experts in the
+research process, the organisers had gone out of their way to create a
+stimulating, agreeable, thought-provoking envirorunent in which
+creativity and information flow would flourish.  But what were we
+supposed to talk <emph>*about*</emph>?
+	</p>
+   <p>
+In the initial session, Jack Meadows (Loughborough) surveyed several
+recurrent themes of the conference: the types of application found by
+researchers for IT, which he viewed historically as shifting from
+storage and retrieval, to communication and in the future to
+creativity itself.  He asserted that take-up of any new technology
+lasted for about a decade between the first 10% of potential users and
+the last 10%, and pointed out that because acceptance of IT must be a
+communal decision it would necessarily be a slow one.  He said that
+good human interfaces implied a loss of computational efficiency;-
+that researchers required different levels of information; that IT
+facilitates informal communication better than formal and various
+other varyingly "untenable generalisations" (his phrase), presumably
+in order to provoke discussion.
+
+	</p>
+   <p>
+The panel discussants were Richard Rowe (FAXON) who had brought a four
+pound $4000 NEC portable with built in modem to show us (this was
+instantly eclipsed by Brian Shackel who had brought his two pound
+f:200 Cambridge Z88); he also remarked on the importance of
+serendipitous browsing.  John Clements (National Academy of Sciences,
+Washington) drew our attention to the importance of information
+processing expertise in the synthesis which characterised such major
+new endeavours as the human genome project, and also said we were
+within five years of making a completely detailed computer simulation
+of a living organism of the complexity of E Coli.  Ted Herbert
+(Computer Board) saw JANET and its future development as crucial to
+scientific communication.  He identified a trend towards simulation
+over actual experimentation in science; and a window of opportunity
+where unit cost of computer power was dropping faster than the demand
+was rising; he also summarised rather amusingly some of the
+difficulties inherent in negotiating with Whitehall.  Gérard Losfeld
+(Université de Lille) had had to leave shortly before the discussion
+but in an impressive demonstration of IT in action, had FAXd his
+comments on Meadows' paper from the airport.  These cast doubt on the
+likelihood that better software necessarily meant better research and
+made a good case for the fear that bibliographic databases encourage
+productivity at the expense of creativity.  Finally, Nicholas Ostler
+(Department of Trade and Industry) drew a rather curious parallel
+between IT and money as a store of value, medium of exchange and a
+unit of account before making some rather Vague generalisations about
+computing in linguistics and drawing an even more curious parallel
+between librarianship and espionage.
+	</p>
+   <p>
+
+The discussion following this panel was largely focused on browsing
+methods. Creativity and innovation is based on hitting on the
+unexpected, but the narrowing focus research means that less and less
+is unexpected.  IT should open up possibilities ways of reducing the
+information overload, perhaps by automating the filtering process
+needed for intelligent browsing.
+	</p>
+   <p>
+
+The first full day of the conference was concemed with that elusive
+feature of the best research: creativity.  Proceedings began a
+remarkable keynote speech by Yves Le Coadic of the Conservatoire
+Nationale des Arts et Métiers, Paris, substituting for Jean Claude
+Gardin.  He began by dismissing the common notion that, viewed
+diachronically, there is a close connexion between scientific
+development and prevailing political ideologies.  It turns out science
+has always had a central theoretical core, few arts people ever
+penetrate to the inner workings of a scientific community and return
+to explain them. The manufacture of scientific ideas depends on
+networks of communication and Baconian deduction, in contrast with the
+notion of scientific inspiration popularised by Koestler. Turning to
+the Humanities, Le Coadic identified a shift from the use of IT for
+information storage to its use as a means classifying information, and
+finally as an integrative force, a means of extracting the rules
+implicit in a given universe of discourse.  Ideas, he concluded, are
+created or manufactured by precisely the kinds of social and technical
+networks which IT facilitates.
+	</p>
+   <p>
+
+After this heady Gallic stuff, the remaining presentations seemed
+somewhat tame. Michael Brittain, of the NHS Training Authority, listed
+six influences of IT on research, ranging from time-saving to re-ordering the
+canonical pattern of the research process.  He had noticed that most
+researchers were unaware of the process of research as such and closed
+with some rhetorical questions about whether there were areas  that
+couldn't be done without benefit of IT (several members of the audience
+quickly identified some for him) and whether not its application was
+always cost effective. No one had any ideas on that, but it sparked off a very
+interesting discussion concluded that social processes (such as
+co-operation) were often more important technological aids.
+	</p>
+   <p>
+
+Goodier (Department of the environment) provided a management perspective
+on the research process, based on his own experience at the Agricultural
+and Food Research Council.  Much of his paper was a plea for proper
+documentation of research activities in progress, which, he thought,
+would benefit from the sort of controlled keywording that typifies
+bibliographic databases, and for some sort of quality control
+mechanism more effective than simple peer review — or at least the
+appearance of one.
+	</p>
+   <p>
+
+Chris Turner (Brighton Poly) had an uncomplicated answer to the
+problem of increasing creativity in his own IT faculty: the creation
+of a uniform IT environment, based on Macintosh hardware, with Sun
+workstations for intensive numerical work and a VAX which was
+increasingly regarded as a giant disk used for archival backup
+purposes.  He restated two crucial elements in a creative IT strategy:
+high connectivity, and an awareness of HCI factors.
+
+	</p>
+   <p>
+John Weiner (University of Southern California, Department of
+Medicine) gave a very impressive paper which argued an unfashionable
+view: that information processing can be formalised and that the
+creative process is definable.  The methods he outlined — for
+'ideas-analysis' in clinical trials concerned with paediatric oncology
+were based on a knowledge representation intended to capture 'ideas'
+from the literature, which could then be manipulated by a rulebased
+deductive system to simulate creativity without (in his phrase) <q>any
+need for the wine or the hot tub</q>.  Some of the success he reported
+may have derived from the 'ideas' involved between a given given
+outcome) but the paper was very well presented and provocatively
+argued.
+	</p>
+   <p>
+
+The next speaker (Johan van Halm, an independent consultant) thus had
+a somewhat punch drunk audience with which to engage.  His paper on IT in
+Library Science, effectively a summary of a report prepared for the
+Dutch Library Council last year and recently published in English, was
+uncontentious and its conclusions (that widespread acceptance of IT
+depends on such factors as public acceptability and a satisfactory
+communications infrastructure) unsurprising.
+	</p>
+   <p>
+
+The next session was on 'Collection and analysis of information'.  The
+keynote speaker, Harold Borko (Graduate School of Library and
+Information Science, University of California at Los Angeles ) gave a
+rather 'gee-whizz' style overview of the history of IT developments in
+the library community up to circa 1970, which so dispirited me that I
+played truant from the next two papers, given by Chris Batt (a real
+librarian, from Croydon) and Lisbeth Bjoerklund (University of
+Linkoping, Sweden) to check my e-mail and inspect the Poster session
+in the adjoining room.  Batt's paper, as given in the PrePrints, seems
+to consists of speculations about matters of library management, while
+BiOerklund has hit on the notion of hyper-textualising an OPAC, but
+not apparently done a great deal about it.  I returned in time to hear
+Andrew Dillon, the first Of three speakers from the HUSAT Research
+Centre at Loughborough, present some results of an analysis of
+reading behaviour undertaken as part of project Quartet.  It
+demonstrated that researchers placed different kinds of texts at
+different points along three axes (how it is to be read, why it is
+worth reading, and what it is likely to contain), with clear design
+implications f6r optimal reading and retrieval software.
+	</p>
+   <p>
+
+After tea, Mike Lynch described some of the basic 'information
+studies' research carried out at Sheffield's prestigious Department of
+same, ranging from automatic indexing algorithms to heuristics for
+analyzing threedimensional chemical structures, and the increased
+. complexity made possible by ,advances in computer hardware and
+software.  Though' interesting, this seemed only marginally relevant
+to the rest of the Conference: it was followed by a paper by Patricia
+Wright (Medical Research Council) which almost caricatured the poor
+image that 'information studies' has in some quarters.  Dr Wright had
+asked about 200 research workers (nearly all psycholinguists) whether
+they used Computers to work on at home and if so what for. The
+mind-boggling results of her survey were that most people did, and
+mostly for word processing.  Another revelation provided by this
+fundamental research was that far fewer people in the UK used email
+from home computers than did North Americans.  Dr Wright suggested this
+might be because telephone charges were higher on this side of the
+pond, or then again, it might not.  The questionnaire design was good;
+the paper was well presented and well argued, but almost entirely
+pointless.  Most delegates promptly adjourned to Cranfield's
+exceptionally well-appointed bar (over 120 different single malts) for
+lengthy if inconclusive discussions about creativity and the research
+process.
+	</p>
+   <p>
+
+The next day began with a good session on Information Exchange within
+      the research community.  The keynote speaker, Prof Brian
+      Shackel, head of the HUSAT research team at Loughborough,
+      resisted the temptation to speculate about the future,
+      availability o ia' or Zlirec cantered at a various modes o
+      (mail, conferencin comparing tiona     and    versionsfunctional
+      and Pragmatic terms.  There was good possibility that email
+      would supplant the conventional variety entirely, but he was less
+      sanguine about electronic conferencing or journal publishing.  
+    </p>
+   <p>The acceptability of new technology, as much else, hinged on human
+	factors problems, for which he recommended some specific
+	solutions: at least A4 and preferably A3 sized screens,
+	hypertextual structures; ways of filtering junk mail;
+	standardisation of formats and protocols; integrated
+	international networks... Many of these had been the subject
+	of the basic research carried out within Project Quartet, but
+	there was no reason to assume that all its results could be
+	transferred from research into reality.  Maintaining the
+	<soCalled>invisible college</soCalled>, for example, implied a
+	need for local IT expertise; a novel way of funding this might
+	be by a small with-holdable surplus on all research grants.
+	Lapsing eventually into futurology, Shackel advised us to
+	watch out for high-definition TV and ISDN, and keep an eye on
+	the <soCalled>electronic campus</soCalled> project at Aston
+	University. 93% of Loughborough academics already have a PC on
+	their desk, so the future may be nearer than we think.
+	</p>
+   <p>
+
+Elaine Davis-Smith, IR specialist for a scrupulously un-named chemical
+company, then gave what was regrettably an almost inaudible paper
+about Potential applications of IT within large (un-named) Chemical
+companies concerned with hazardous chemicals, which provided an
+object lesson in unsuccessful communication.
+	</p>
+   <p>
+
+Constance Gould (Research Libraries Group) then described how a survey
+of American scholarly users' needs had - indicated two major areas
+where bibliographic information was conspicuously lacking: data about
+research  progress and data about machine in readable data files.  In
+both cases, the need was crucial in all disciplines, and particularly
+acute in inter-disciplinary fields.  There was a widening professional
+gap between the unpublished research in progress was 'haves' and the
+'have-nots' as far as access to concerned.  The difficulties of
+getting reliable access to and bibliographic control of
+machine-readable datafiles were even worse: files are not catalogued
+or encoded in any consistent way, so researchers often don't even know
+they exist.  The paper gave a clear presentation of the problem area,
+and it is od to equally ready to clean these, particular gean stables
+is less certain.
+
+Lindsay (Kingston Poly) then provided intriguing, and in some ways view of the problems of n-nation management from a third world based on a project undertaken for the Development Planning Unit of College London.  He described the political and organisational fficulties involved in bringing together access	to the scattered 'gray literature' in this His conclusions were cautious: the new Is	made available by IT in some ways existing social, financial and iti( problems more than the ysolved
+
+hn Richardson, the second HUSAT speaker, a well argued and very detailed survey the available wisdom on the efficacy of ectronically	mediated           conferencing, highlighting	some problems with which readers (among others) are famliar.  Although         a high degree of mmunication was clearly a necessary ition for a productive research irom-nent, the low bandwidth of most tror,ic communications oft@,n introduced, as complications as their greater speed distribution removed.  Electronic mail to be less affected by these problems, successful electronic discussion groups, he ncluded, need a skilled moderator, strong motivation and opportunities for face face contact.
+
+s Reynolds (CODIL Language Systems) scussed some of the more lunatic lications of the Data Protection Act with to electronic communications.  He stulated various unlikely scenarios, in hich the usual business of acaden-dc mmunication n-dght well fall foul of the much to the bemusement of all present.
+	</p>
+   <p>
+
+The remainder of this third day of the conference was given over to relaxation, in form of visits to various IT based mpames in the Milton Keynes area, of which British Telecom was reportedly most popular, because it was air conditioned, and of course to the conference banquet, for which Cranfield's cooks excelled themselves. It was enlivened by an occasionally coherent dinner speech from Murray Laver, who said (as a good after dinner speaker should) several things we would all like to say but t, notably that IT was silting up the search process by making it more difficult
+	</p>
+   <p>
+
+I had the dubious privilege of giving the keynote address to the final
+session of the conference, the morning after, which concerned
+publishing, presenting and archiving the results of research.  My
+paper began by casting fashionable doubts on the notion of research as
+a process, and stressed the importance of decoupling data both from
+its containing media and the processes applied to it, before expiring
+in a flurry of humanistic verbiage about multiple interpretations,
+hypertext etc. I also questioned whether the library community was in
+fact capable of responding to the challenges offered by the new
+technologies, an issue directly addressed by Michael Buckland (School
+of Library and Information Studies, University of California at
+Berkeley)'s paper, which outlined the radically different constraints
+and possibilities inherent in the application of IT to library
+services.  He argued persuasively that the dispensing role of
+collections, and the relationships between catalogues, bibliographies
+and library materials allke needed rethinking.
+	</p>
+   <p>
+David Ellis (Department of Information Studies, University of
+	Sheffield) presented the results of a very detailed analysis
+	of the information seeking habits of a sample of academic
+	researchers in four social science research groups at
+	Sheffield, with a view to deriving a general behavioural model
+	which could be used to optimise the design of retrieval
+	systems.  Key features of the model included the ability to
+	<soCalled>chain</soCalled>, that is, to follow links from one citation to another and
+	to differentiate sources in terms of their relevance.  No
+	existing software seemed to offer the full range of desired
+	features, but hypertext systems seemed to offer most promise.
+	</p>
+   <p>
+
+Marcia Taylor (University of Essex) traced the development of the
+Essex Data Archive, from its origins 25 years ago as a survey databank
+to its current pre-eminence as an archive for, and source of, social
+science data, both deposited by individual researchers and provided by
+central government.  She summarised some of the services it offers,
+and gave a brief overview of the research it undertakes, notably its
+initiative in formulating guidelines for the standardisation of
+descriptions of machine readable datasets.
+
+	</p>
+   <p> The most unusual paper of the conference was given by
+Micheline Hancock-Beaulieu (City University) and concerned the
+creation of a database of information about The Athenaeum, a leading
+19th century review and the richness of its contents as a source for
+19th century literary history, but in the existence of a 'marked file'
+in which each of the approximately 140,000 anonymous reviews it
+contains is tagged with a short form of the author's name.  An
+interdisciplinary team of librarians, computer scientists and
+historians at City is now constructing a relational database to hold
+this invaluable source material in an integrated way, using a package
+called TINman.
+
+	</p>
+   <p>
+Cliff McKnight (the last of the HUSAT speakers) gave the last formal presentation, which returned to the major concern of the conference: the reading of scholarly journals.  As part of Project Quartet, they had converted an eight year run of a journal called Behaviour and Information Technology into a hypertext usmg GUIDE to provide good quality searching and browsing capabilities as well as the usual ability to @ parts of texts, pop up figures and references etc.  Although the formal structure of acaden-dc discourse typically mimics a linear process (introduction, methods, results, discussion), there was abundant evidence that skilled readers use this framework only as a point of departure, hopping from point to point in a way easily supported by hypertext, nrovided that the @ underlying ; @ctural metaphors (cross reference, citation, etc.) are clearly marked.
+  </p>
+   <p>
+As a coda to the event, Brian Perry chaired a discussion at which participants were invited to comment on the success of the conference as a whole.  Most of us however were feeling too limp from the heat to do more than agree that parallel sessions were not a good idea and that the @g and content had indeed encouraged a satisfactory exchange of views.  The idea was floated that pre-prints should have been made available early enough for participants to have read them before the event, so that formal presentations might be replaced by informal seminars, but did not gain much support, though several felt that there had been insufficient time for discussion in the sessions.  As a case study in how to organise acaden-dc conferences, I felt that "Not the Cranfield Conference' could not easily be faulted.  The progranune, which at first glance looked rather dull, was unusually varied containing many unexpectedly stimulating papers and only a few dodos.  My only quahn is that too great a success may lead to yet more research into research, a depressingly incestuous and unproductive activity.
+	</p>
+   <p>
+
+Lou Burnard
+
+Oxford Univenity C@ng Service
+
+	</p>
+</div>

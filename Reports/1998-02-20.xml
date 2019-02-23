@@ -1,0 +1,177 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1998-02-20">
+   <head type="event">Language Learning and Computers</head>
+   <head type="location">Chemnitz University of Technology, 20-23 Feb</head>
+
+   <p>
+      <ref target="http://www.tu-chemnitz.de/chemnitz/chemnitz.html">Chemnitz</ref>
+is a large town in Saxony (you may have heard of it under the name of
+Karl-Marx-Stadt, when it was a large town in the DDR) notable for a
+well-established University, which has just had the good sense to
+elect as its pro-vice-rector (sounds less implausible in
+German)Prof. Dr. Josef Schmied, director of the <ref target="http://www1.tu-chemnitz.de/~ehe/real/real.htm">REAL English
+language centre.</ref> Josef is also a corpus nut, and the originator of
+the <ref target="http://www1.tu-chemnitz.de/~ehe/real/lamphome.htm">Lampeter
+corpus project</ref>, which is why I was pleased to receive an
+invitation to visit his centre for a two day workshop on language
+teaching with computers.  funded by the <ref target="http://www.britcoun.de">British Council in Germany</ref>.
+</p>
+   <p>I was one of four invited Brits, each of whom was allocated 90
+minutes talk on the first day; the audience consisted of about 40 
+assorted teachers from other German Universities and Language Centres
+some of whom were allowed to speak (but only for 20 minutes each) on
+the second day, before a round up discussion session.
+</p>
+   <p>Before all this began, however, there was a little ceremony in
+which a Very Important Person from the British Council in Berlin and
+the Vice Rector himself signed a renewed cultural exchange agreement
+which would ensure that Chemnitz students might continue to enjoy
+partnership arrangements with a variety of UK universities in the
+interests of greater mutual understanding, the spread of the true
+British language, and so on. We also had a little talk from Frank
+Frankel, now retired from the Council but retained as a consultant in
+co-ordination of language centres throughout Germany, and a long-time
+enthusiast for CALL, as to how its wider use might change the roles of
+teacher and learner.
+</p>
+   <p>Josef Schmied gave a brief overview of curent projects at TUC
+involving language-learning with computers (LLC), of which probably
+the most interesting is the Internet Grammar project: a web-based
+system for language learners, teachers, and linguists to collaborate
+in developing a kind of translator tool for the teaching of English
+grammar.  Unlike the UCL project of the same name, which is
+monolingual, the Chemnitz project is aimed very specifically at
+translators' syntactic needs; it also aims to synthesize inductive and
+deductive procedures to establish rules.
+</p>
+   <p>Hilary Nesi, from Warwick, gave a well focussed and informative
+review of the pedagogic usefulness (or otherwise) of a range of
+English language dictionaries available on CD-ROM; she also waxed
+lyrical on the potential classroom usefulness of the humble hand-held
+dictionary-type device, if only their manufacturers could be induced
+to give them more linguistically-oriented features instead of
+overloading them with electronic organizer type facilities.
+</p>
+   <p>Geoffrey Leech, from Lancaster, gave a very interesting talk about
+the grammar of spoken English, derived from a major new work on which
+he is collaborating with Stig Johansson, Doug Biber, Ed Finegan and
+others. The corpus underlying this is a 20 million word corpus
+comprising the spoken part of the BNC and a parallel corpus of
+American spoken material, collected according to the same principles
+by Longman, but not (so far as I know) available to anyone outside the
+project. Beside presenting and analysing an impressive mass of
+comparative data, with far more detailed examples than I can present
+here, he made some very cogent suggestions about their potential
+relevance to language teaching. The availability of well based
+frequency information for various syntactic constructions could be
+used not just to determine actual usage, and thus to provide authentic
+examples of usage, but also perhaps to help determine which
+grammatical structures should be taught, and which were most
+appropriate for different varieties of English, or types of discourse
+-- both areas in which language learners have most difficulty -- thus
+(to use Geoff's phrase) "maximizing communicative payoff" both in
+production and reception.
+</p>
+   <p>I gave <ref target="http://info.ox.ac.uk/bnc/using/papers/burnard96a.htm">the
+standard talk</ref> about the BNC again, including a live demonstration
+of the BNC Sampler, and a little coda stolen from <ref target="http://www.sslmit.unibo.it/bertabs.hatm/guypage.htm">Guy Aston</ref> about how
+the BNC can be used by learners to challenge their teachers, which
+seemed to go down well.
+</p>
+   <p>Gary Motteram from Manchester's <ref target="http://www.man.ac.uk/CELSE/">Centre for English Language Studies
+in Education</ref> discussed some of the pedagogic issues in using IT
+for language teaching, based on his extensive experience in running a
+Masters degree in TESOL, which is now done entirely online, and
+sounded to my relatively untutored ear like a model case study in
+IT-based distance learning. He demonstrated, and advocated, the use of
+Toolbook as a low price, easy access, tool kit for the construction of
+powerful courseware.
+</p>
+   <p>At the end of this long day, the British Council took us all to an
+a rather unusual performance at the Schauspielhaus. <title>Das
+Ballhaus</title> is a kind of musical-cum-ballet, presenting fifty years
+of German history through the device of a dance hall, in which a
+massive and highly skilled cast waltzed, tangoed, drank, and generally
+overacted through the terrible twenties, the even worse thirties, the
+unspeakable forties, and the unbelievably depressing fifties, before
+succumbing to the degenerate sixties, the cacophonous seventies, and
+the incomprehensible eighties. The piece lasted three and a half
+hours, with an interval, and the theatre was unbearably hot, but it
+was oddly compelling, being full of humour and incident, and quite the
+most extraordinary display of really bad tailoring I have ever
+seen. Although entirely non-verbal, and although almost all of the
+music was entirely familiar and accessible, it also demonstrated how
+far shared knowledge and experience is essential to understanding a
+culture -- the second half in particular being full of incidents which
+the East German contingent found riotously funny or touching but which
+left the rest of us entirely bewildered.
+</p>
+   <p>The next day was given over to a mixed bag of presentations from
+other happy recipients of the British Council's bounty (in the shape
+of exhange agreements with UK universities). Regrettably I missed the
+first of these -- a group from Rostock describing a proposed
+diachronic newspaper corpus comsisting of samples of high, middle, and
+low brow British newspapers from three centuries.  Speakers from
+Magdeburg's Otto von Guericke University and from various units of
+Potsdam University described their experiences in setting up IT-based
+learning resource centres, aka Self Access Centres or SACs, and in
+using the internet as a source for such things. There were also brief
+consumer reports on a various workshops attended (thanks to British
+Council funding) at a number of UK institutions. Sound principles
+(teachers should act as guides not experts; teach how rather than what
+etc.) were articulated and many favourite web sites cited.
+</p>
+   <p>Dr Thomas Bellman, from Leipzig's Hochschule fur Technik Wirtschaft un
+Kultur, demonstrated some nice software for cataloguing ELT resources:
+it looked like your standard bibliographic database, but included hot
+links which would start up bits of courseware directly from the
+record, screens which enabled you to pre-define subsets of records
+according to ELT-relevant categories, and buttons for access to a web
+browser, a wordprocessor, ond even a virus checker, all embedded
+within the same interface. I did not have the heart to murmur "OLE?"
+</p>
+   <p>Dr Jurgen Martini (also from the Otto von Guericke University in
+Magdeburg, but a different part of it) gave a defiantly non-IT-based
+presentation about the difficultiues of teaching cultural studies
+which kept promising to open up a new area of discussion, but didn't
+quite do so. The courses he teaches sound very interesting though.
+</p>
+   <p>The Workshop's final speaker, Bernd Rueschoff (from Karlsruhe), has
+the unusual ability to make CALL-theory sound interesting, as well as
+knowing how to make a very impressive presentation. He covered a very
+wide range of pedagogic issues, ranging from the need for authenticity
+in language learning and cultural studies, the use of technology as a
+means of enriching rather than replacing the traditional learning
+environment, and the drive towards active participation in learning
+rather than passive acquisition of information. He also had some
+practical advice to offer on how exactly to achieve these motherhoods,
+based on substantial experience.
+</p>
+   <p>I concluded from all this that, like the rest of us, German
+institutions have both Language Centres and Linguistics Departments,
+and are not quite sure whether IT has a role to play in either,
+neither, or both. They are also rather vague about whether corpus
+linguistics belongs in linguistics or cultural studies, or both, or
+somewhere else. All of these constituencies were represented, eying
+each other somewhat nervously, at the workshop; and if there wasn't a
+lot of rapprochement, there was a respectable amount of talk.
+Recurrent topics in the discussion included the impact of
+"self-access" as a way of learning rather than simply as a means of
+doing pre-set assignments, and doubts as to its general applicability
+for all students; anciety was also expressed about the possible
+dangers of allowing students access to politically incorrect notions
+over the internet, and the need for reliable assessment of networked
+resources, at which I felt a plug for <ref target="http://users.ox.ac.uk/~humbul">Humbul</ref> would not be out of
+place.
+</p>
+   <p>I stayed on for an extra day after the workshop ended in order to
+show the Chemnitz team what I had been doing with their Lampeter
+corpus, and to discuss plans for future collaboration. This took so
+long that I never got round to doing any respectable amount of sight
+seeing, which is why this report is regrettably deficient in my
+reactions to the new Germany, the architectural oddities of Chemnitz
+(yes, Karl Marx's head is still there, just across the road from
+McDonalds) and Dresden (wonderful palace -- shame about the traffic
+system), or the delights of Saxon cookery. But it's probably long
+enough as it is.
+</p>
+</div>

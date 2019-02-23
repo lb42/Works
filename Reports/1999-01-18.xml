@@ -1,0 +1,218 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1999-01-18">
+   <head type="event">The 1999 EBTI, ECAI, SEER and PNC Joint Meeting</head> 
+   <head type="location">Academia Sinica, Taipei</head>
+   <head type="date">18-21 January</head>
+   <head type="report"> an unofficial report</head>
+      <p>Maybe I should  start with the acronyms...
+<list>
+	        <item>
+            <label>EBTI</label>
+            <ref target="http://www.human.toyogakuen-u.ac.jp/~acmuller/ebti.htm">The Electronic Buddhist Text Initiative </ref> is a loose international confederation dedicated to converting into electronic form the immense canon of Buddhist teachings and literature, currently surviving in all manner of exotic languages and formats.
+	  </item>
+         <item>
+            <label>ECAI</label>
+	           <ref target="http://www.ias.berkeley.edu/ecai/">The Electronic Cultural Atlas Initiative </ref>
+is a similarly unstructured group of scholars aiming to set up a distributed database of information about <q>cultural heritage</q> sites relating chiefly but not exclusively to Asian cultures and accessible via an integrated GIS interface; 
+</item>	  
+         <item>
+            <label>SEER</label>
+	  apparently stands for <ref target="http://titus.uni-frankfurt.de/seer/index.htm">Scholars Engaged in Electronic Resources</ref> , and is another loose federation of scholars interested in Asian literatures and languages, particularly ancient ones, with a broader and more library-oriented focus than EBTI; 
+	  </item>	  
+         <item>
+            <label>PNC</label>
+	           <ref target="http://www.sinica.edu.tw/info/event/pnc/htdocs/home.html">The Pacific Neighborhood Consortium </ref> is a rather more technologically-focussed collaboration amongst a number of academic computing centres located in the "Asian Tiger" countries which has already established an effective regional wide area network and is now looking for content. 
+	  </item>	
+      </list>
+   </p>
+   <p>Presiding genius and visionary of both ECAI and EBTI is Lewis
+Lancaster from the Department of East Asian Studies at UC Berkeley, but both
+groups have an extraordinary roster of distinguished and energetic
+scholars and institutions scattered around the Pacific rim,
+co-operating in a number of equally impressive digitization
+projects. This was the third of their international conferences at
+which I have had the honour of being invited to present a TEI
+Workshop; previous events were held at Haiensa Monastery in Korea in
+1994, and Otani University in Kyoto in 1996, and the next will be at
+Berkeley in California next year. The sheer scale of EBTI's interest,
+embracing canons of ancient texts in Pali, Sanskrit, Tibetan, Korean,
+Chinese, Japanese, and other less well-known languages, makes for a
+pretty rigorous test of the TEI's claimed ability to cope with all
+texts in all languages of all times. Put this together with a
+characteristically Buddhist atmosphere of mutual tolerance and
+altruistic scholarship (to say nothing of the lure of their exotic
+locations) and it is understandable why such invitations are hard to
+resist.
+</p>
+   <p>The 1999 event was hosted by <ref target="http://www.sinica.edu.tw/index.shtml">Academia Sinica</ref>, a
+Taiwanese government funded research institution and the Taiwanese
+Ministry of Education. Academia Sinica has a long history of interest
+in SGML and XML; one of its chief luminaries being Professor
+Ching-chun Hsieh, architect of (amongst other things) the
+modifications to Unicode needed for it to handle the full range of
+ancient Chinese characters.  Indeed, should the TEI decide that it
+needs a host organization in this part of the world, I think that
+Academia Sinica would be a natural first choice for a site to
+approach.  Also in Taipei, at the National Taiwan University but in
+close contact with Academia Sinica, the CBETA project, is creating a
+TEI-conformant corpus of the Chinese Tripitaka.  involving Christian
+Wittern, inventor of the 
+      <ref target="http://www.gwdg.de/~cwitter/kanjibas/cefintro.htm">Kanjibase</ref>
+is a recent recruit to Academia Sinica, and is converting several
+large structured-text databases to TEI.  Both Christian and Rick are
+enthusiastic promoters of the TEI.
+</p>
+
+   <p>The conference proper was preceded by four tutorial workshops on
+Metadata and the Dublin Core, by Helen Jarvis (University of New South
+Wales); TEI (me); GIS by Lawrence Crissman (Griffith University); and
+Image Data by Jan Glowski (Ohio State). I missed all of these except
+my own, owing to a pressing need to revise my overheads and drink
+as much of the Academia Sinica's excellent coffee as I could afford,
+but the handouts indicate that they all provided a useful technical
+overview of these four key topics. After the workshops, Rick Jelliffe
+kindly shepherded a group of us long-noses around the famous
+night-markets of downtown Taipei, where I bargained furiously for
+brass ornaments, and eat lots of tasty sausages, and freshly cooked
+chestnuts. My appetite for exploration thus whetted, I must confess to
+taking a whole day off to wander around Taipei on my own which was an
+exhausting but extraordinary experience.
+</p>
+   <p>The conference itself spread over four days, with up to four
+parallel sessions running throughout, each devoted to progress reports
+and position papers about text creation projects, networking and
+digital library projects, and GIS applications in Asian studies. Most
+of the presenters came from Taiwan, Japan, USA, Australia or Korea,
+but India, Nepal, Thailand, Russia, Germany, France, Mexico, and the
+UK were also represented. We were fed at regular intervals with
+excellent Chinese buns and other goodies, quite apart from plentiful
+Chinese lunches, and there was much extra-session activity and
+discussion, involving the exchange of business cards. There was also a
+splendid Chinese banquet, held in the Taipei Business Club (a building
+that has to be experienced to be believed), complete with witty
+meditations on the approaching millenium from a very distinguished
+Taiwanese professor and a welcoming speech from the newly elected
+mayor of Taipei, whose election pledges apparently include Internet
+access for one in three inhabitants of the city, quite apart from
+finishing the rapid transit system that Taipei desperately needs. I'm
+not sure what we eat (apart from the Sharks Fin Soup) but it was all
+very tasty, and plentiful.
+</p>
+   <p>An opening plenary by Roy Weber from AT&amp;T gave a taste of some of
+AT&amp;T's more futuristic products, based on close integration of
+internet and conventional telephony systems: these included WISL,
+allowing for management of distributed telephone sales staff (did you
+know that nearly half of all calls to AT&amp;T are to 800 numbers?); a
+deluxe form of video-conferencing called "virtual presence"; and the
+endearingly-titled "cyber fridge", (named after the fridge on which all
+good US families post family-oriented information) which we will all
+use to keep in touch when our homes have permanently active
+internet connexions, and flat display panels are built into
+refrigerator doors. 
+</p>
+   <p>One of the two other Brits at the conference, Susan Whitfield,
+reported progress on the <ref target="http://idp.bl.uk">International
+Dunhuang Project</ref> at the British Library, home of the "sponsor a
+sutra" digitization scheme.  Not content with digitizing this
+extraordinary collection of 20,000 manuscripts and manuscript
+fragments, all now catalogued, the project is now developing an
+integrated catalogue of the Stein photo archive. This links extracts
+from Stein's diary of his turn of the century travels along the Silk
+Road with the photographs he took; its use of a geographic or spatial
+metaphor as a way of accessing disparate collections of digital
+resources seemed genuinely innovative to me and was a recurrent theme
+of the conference.
+</p>
+   <p>Tom Duncan, from the <ref target="http://www.mip.berkeley.edu/">Museum
+Informatics Project</ref> at Berkeley, described some of the technology
+underlying their project, based on the use of Sybase as a data manager
+for 50,000 images, delivered via JTIP compression, and also as a means
+of providing full text retrieval from the Korean Buddhist text
+canon. They deploy a traditional thesaurus style access to these
+resources via a Sybase implementation of a range of standard
+thesauri. Howie Lan, also from Berkeley, gave an overview of other
+Digital Library research activities at Berkeley, but ran out of time
+before getting down to much real detail of his advertised topic of <ref target="http://elib.cs.berkeley.edu/ib/about.html">"multivalent
+documents"</ref> (I think this is mostly about combining digital images,
+transcriptions, and other views of a document)
+</p>
+   <p>I attended a business meeting of ECAI, my curiosity about which had
+been sparked by an introduction to the power of GIS systems which <ref target="http://www.archaeology.usyd.edu.au/people/staff_pages/ij.html">Ian
+Johnson </ref> kindly gave me during a long conversation about the
+relative merits of XML and RDBMS for organizing data. ECAI has an
+active technical group apparently largely driven by said Johnson and
+other Australians, and an interesting programme of work. The plan
+appears to be to collect metadata describing any and all datasets
+relating to Asian cultural materials using a modified (surprise!) set
+of Dublin Core descriptors, and to provide access to the corresponding
+distributed datasets via a new desktop mapping system called <ref target="http://www.archaeology.usyd.edu.au/research/time_map/index.html">Timemap</ref>.
+I muttered about <ref target="http://ssdoo.gsfc.nasa.gov/nost/isoas/overview.html">OAIS</ref>
+and the Warwick framework, and perhaps more significantly infiltrated
+a late night drinking session hosted by the imperturable Helen Jarvis
+(who is, incidentally, co-author of the <ref target="http://www-cgp.silas.unsw.edu.au/paper.htm">definitive study of
+Cambodian atrocities </ref>) and a frock-coated <ref target="http://www.ciolek.com">Matthew Ciolek</ref> (of WWW Virtual
+library fame).  I hope to persuade some of those involved in <ref target="http://www.ias.berkeley.edu/ecai/tech/ECAITech.html">ECAI's
+technical group </ref> to present a session at this year's DRH
+conference, since I think we have much to learn from the scale and
+scope of ECAI, quite apart from its intrinsic interest.
+
+</p>
+   <p>A recurrent theme of the EBTI sessions on ancient Chinese and
+Japanese texts concerned the difficulty of encoding such texts in a
+standard way resulting from the Unicode Consortium's decision to
+"unify" CJK scripts. <ref target="http://www.bekoame.or.jp/i/moro">Shigeki Moro</ref>, for example, reported that in
+encoding the Taisho Tripitaka (which includes both ancient Japanese
+and Chinese marterial) they had so far needed 5840 distinct
+charavcters, of which 1264 were unavailable in JIS and 338 were
+missing from Unicode. These so-called Gaiji have to be represented by
+SGML-like entity references, using numbers assigned by inventories
+such as Wittern's Kanjibase; when their textbase is converted to XML,
+they propose to use empty elements for the purpose. In the same
+session I learned of the existence of the <ref target="http://www.mojikyo.gr.jp">Mojikyo Font Center
+</ref>, an admirable organization which provides free
+Truetype fonts for over 80,000 Japanese and Chinese characters.
+</p>
+   <p>Technical solutions to linguistic diversity was a recurrent theme
+in the EBTI sessions I attended. Amongst many others, I noted the
+following: Jost Gippert presented the TITUS (Thesaurus
+Indogermanischer Text- und Sprachmaterialien) project at the
+University of Frankfurt, demonstrating alignment of several texts
+from this immense collection using WordCruncher; the <ref target="http://titus.uni-frankfurt.de">TITUS site
+</ref> also includes an ingenious set of
+pages for testing the ability of your system to deal with Unicode.
+Dhanajay Chavan from the Vipassana Research Institute in India
+demonstrated the new version of the <ref target="http://www.tipitaka.org/cscd/overview.htm">Chattha Sangayana CD
+</ref> which allows the entire
+Pali canon to be viewed in Devanagari, Roman, Myanmar, Thai,
+Sinhalese, Cambodian or Mongolian scripts. Marvin Moser from Lucent
+Technologies in Chicago presented an <ref target="http://www.tibet.dk/tibetan_clipart/mmoser.htm">input system for Tibetan script
+</ref> which (I learned) has similar "stacking" problems to classical
+Arabic. The <ref target="http://acip.princeton.edu/r3p2.html">Asian Classics Input Project </ref>, with which the OTA already
+has links, continues to create and distribute a vast library of
+Indo-Tibetan literature, recently expanded to include digital images
+of collections of such material in St Petersburg.  Meanwhile, a team
+from Dongguk University in Korea has been quietly developing their own
+XML-aware Unicode editor for inputting the Korean Tipitaka, which may
+well turn out to have wider application, if it ever gets out of Korea; unfortunately I couldn't find out as much about this as I wanted to:  <ref target="http://pdalgo.dongguk.ac.kr/~sadwolf/paper/paper.html">this paper</ref> describing it is in Korean.
+</p>
+   <p>In another tribute to the lure of XML, Charles Muller (Toyo
+Gakuen University) recounted his experience in converting his <ref target="http://www.human.toyogakuen-u.ac.jp/~acmuller/bdict.htm">Dictionary of East
+Asian Buddist terms </ref> into XML, using XSL to render it via Internet
+Explorer 5. The possibilities thus opened up of linking this
+dictionary with other resources such as the <ref target="http://home.earthlink.net/~rangjung/rypub/ry-dic.htm">Rangjung Yeshe Tibetan English dictionary of Buddhist culture </ref> attracted much interest. Christian
+Wittern gave an excellent account of how encoding projects like CBETA
+could make use of the TEI which last he described in a memorable
+phrase as being "a travel guide not a catechism"; he uses <ref target="http://www.geocities.com/Paris/3871/ue.html">UltraEdit</ref>, a
+programmable two-byte aware editor, to input and tag the Chinese
+corpus according to a modified TEI Lite, and delivers the result for
+browsing via Microsoft's free HTML Help wizard (an ingenious idea I
+propose to steal).
+</p>
+   <p>My account necessarily omits whole strands ofthe conference
+devoted to broader non-textual collections of cultural artefacts, and
+much discussion of the opportunities afforded by the fusion of
+networking and digital library, as well as some of the more specialist
+topics discussed, simply because one cannot be in two places at
+once. Nevertheless, I hope I have given some sense of the diversity
+and richness of this exceptional conference. 
+</p>
+</div>

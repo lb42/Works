@@ -1,0 +1,120 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1980-11-19">
+   <pb facs="Pages/img425.jpg"/>
+   <head type="report">VISIT REPORT L. Burnard</head>
+   <head type="event">Data Management: an ICL User Group Conference</head>
+   <head type="location">Cavendish Hotel,Eastbourne.</head>
+   <head type="when"> 19-21 November 1980</head>
+   <p>The keynote of these
+proceedings was ICL Hospitality, a curious commodity which was
+supplied in various forms and large quantities at regular
+intervals. Forms in which ICL Hospitality is supplied include
+psychedelic slide shows, online demonstrations and outbursts of
+fervent patriotism, but it usually comes in a bottle. The patriotism
+was largely concentrated in my first encounter with Dr Peter Aylett
+who, perhaps feeling rather tired and emotional after paying for so
+much ICL Hospitality, embraced me warmly before the proceedings began
+and then tore my ear off for having mentioned some disquiet with the
+current serviceability of our 2980. This to the point of alarming an
+innocent bystander from RACAL.</p>
+   <p>The next day's presentations
+might be divided into three categories: polemic (Aylett, Ellis),
+apologetic (the three user presentations) and summary (the rest). Of
+the user presentations (as one delegate rather sharply pointed out),
+one only used data management techniques because of deficiencies in
+VME/B (Murphy), one had a user population most of whom had no data to
+manage (Burnard) and the other had written their own DBMS and was now
+regretting it (Philbrick) . Murphy's account of the problems of
+managing the literally thousands of megabytes of data pouring from the
+monitoring devices used in fusion experiments at Culham, had a
+familiar ring to it. IDMSX is used to keep track of their file usage
+and archiving facilities, while they plan to use STATUS to analyse the
+free format documentation about the various experiments which
+accumulates at roughly the same rate as the data. Apart from
+Liverpool, Oxford was the only university site represented; my own
+presentation therefore concentrated on the peculiarities of the
+University Computing Environment, concerning which I waxed so eloquent
+that I had just about reached the topic of data management when the
+chairman started waving blue cards at me. Sun Life Assurance's
+experience having written their own DBMS confirmed the popular wisdom
+- it had taken them 5 man years or so to replace an existing
+conventional system, and the replacement was already
+inadequate.</p>
+   <p>ICL speakers on this first day were perhaps
+forgiveably rather desultory in their presenta tions of DDS, TPMS,
+IDMS, PDS and the wholesome nature of data management. Harry Ellis
+explained how proper use of the products would keep our respective
+companies' names out of the papers; Richard Barker rushed through the
+recovery and security aspects of IDMS; Yvette Ascher managed to
+summarise the facilities of DDS, TPMS and IDMS in a record-breaking 45
+minutes and Jackie Sansom did her best to make sense of PDS without
+once mentioning the word 'relational'. Apart from PDS itself
+(concerning which I made a lot of interested noises in what I hope
+were the right places), the chief new departure I noted was a greater
+stress on the integration of the products, typified by the merging of
+TP with IDMS now known as TPMS, and in the new acrobuzz IPA. This has
+nothing to do with pale ale but is short for INFORMATION PROCESSING
+ARCHITECTURE. Unlike most machine architectures, this is really a
+question of how you feel about what you're doing. If you see a
+computer system dynamically as information flowing between nodes
+(e,g. terminals, databases, processors) of comparatively less
+intrinsic interest, then you are into IPA; if however you see it just
+as a machine you are trying to kick into life to do something for you
+(and never mind the rest of the world), then you are probably not. The
+definition is however mine and may well be quite wrong.</p>
+   <p>In the
+evening ICL Hospitality took the shape of an excellent dinner
+(starring beef Wellington) followed by speeches of increasing
+incoherence and a general rush for the bar. I apologised to various
+ICL speakers for having run out of time before getting round to saying
+just how marvellous the 2% of our users who use IDMS think it
+is. Large amounts of malt whisky fuelled further discussions with
+assorted ICL directors and Jim Alty long into the night, the exact
+nature of which eludes me; data management was not excluded from them,
+but the younger generation, Liverpool football club and L. Van
+Beethoven also made guest appearances.</p>
+   <pb facs="Pages/img426.jpg"/>
+   <p>Next morning, at 9 sharp, in body if not
+spirit, we reconvened for the unacceptable face of ICL Hospitality in
+the form of a half hour long slideshow, complete with music, special
+effects and a commentator who would have been more persuasive selling
+soap. It resembled nothing so much as an animated glossy brochure from
+which, had I been more awake, a fine bag of trophies for pseuds corner
+might have been gathered. Its gist was that ICL Computers (information
+Processors, sorry) will save you money, increase productivity and make
+you irresistible to the opposite sex. The company's latest offerings
+(2956 and 2966) slotted sharply into some unexplained scale of
+competitiveness next to IBM's most recent offering and on them (after
+DME and VME) you could now have CME which could be both, or either. A
+delegate later proposed the Friendly User Machine Environment (FUME)
+as the obvious next development.</p>
+   <p>Fortunately the remaining ICL
+presentations were of quite a different nature. Hamish Carmichael gave
+an impressively thorough and technically detailed account of CAFS
+which, by moving intelligence from the main frame to a file access
+component (a 'back end processor'), allows quite staggering
+improvements in throughput when large volumes of loosely organised
+data are to be searched. ICL's own personnel records are now held on a
+CAFS-based system as a slightly modified IMS database; the heretical
+implication that IMS storage structures could actually be improved
+upon was neither stressed nor shirked. Bob Gifford's presentation of
+ICL's experimentation with Viewdata was also quite impressive, if only
+because it explained just what is going on during those odd pauses
+when one phones SMC about a bug. At present Viewdata access to the
+Known Errors Database is only available "in house" or to some selected
+foreign sites; several delegates were sufficiently impressed by its
+speed to request that it be provided on a Public viewdata
+service. Finally, Jim Alty gave a stirring summary of why data
+management was a Good Thing and laid into various popular fictions
+about it with enviable assurance. He also asserted that Liverpool
+currently supported 26 database applications, but later reduced the
+figure somewhat.</p>
+   <p>Apart from confirmation of every suspicion that
+OUCS is a very untypical VME/B user and from an intriguing insight
+into how the rest of the world does things, it cannot honestly be said
+that my attendance at this gathering was of much direct benefit to the
+Service. It was however almost entirely funded by ICL (gratitude for
+which is hereby expressed) and something might just come of my noises
+about PDS. And maybe universities have a duty to remind the rest of
+the world about what they are up to while it is busy making money,
+saluting the flag and making programmers redundant.</p>
+</div>

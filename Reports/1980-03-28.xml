@@ -1,0 +1,63 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1980-03-28">
+   <pb facs="Pages/img385.jpg"/>
+   <head type="report"/>
+   <head type="location">Newnham College,
+Cambridge</head>
+   <head type="event">ALLC 6th International Symposium on
+Computers in Literary and Linguistic Research</head>
+   <head type="when">28 March – 3 April</head>
+   <p>The general quality of work
+reported on at this symposium was perhaps slightly more technical and
+strictly 'computational' than at some previous ones in the
+series. There were noteworthy papers in the usual areas of
+lexicography, prosody, bibliography, concordancing, attribution
+studies, literary statistics and so forth, but also some sessions on
+database techniques, natural language processing and -whisper who
+dares- machine translation. The latter was the subject of Professor
+Liu Yong-quan from the Peking Chinese Academy of Social Sciences,
+where machine translation has been somewhat of a necessity and appears
+to work (into if not out of Chinese) despite the limitations of
+available hardware. Jitze Couperus (CDC &amp; Codasyl)
+gave what was intended to be a keynote address on the concurrence of
+linguistics and computing in current database trends. Semiotics, he
+averred, was more fashionable than cybernetics. No-one disagreed but
+(as a subsequent two hour discussion session demonstrated) this may
+have been because few understood. This 'Open Forum' was probably the
+most disappointing event of the Conferences - the understanding gap
+between database specialists and computational humanists shows no
+signs of shrinking.</p>
+   <p>As an indication of the range of subjects
+and representatives at the conference, I shall just mention a few
+papers which interested me. Among impressive new textual projects
+reported on were the collation of the six editions of Burton's Anatomy
+of Melancholy (Faulkner, Washington State); the indexing of two early
+17th century German newspapers by topic (Ries, Cambridge); the
+production of a lemmatised concordance to Ibsen (Hofland, Bergen) and
+the problems of concording the textually complex 1606 folio of Ben
+Jonson (Howard-Hill, South Carolina). There was of course a paper on
+OCP (Hockey, Oxford) and another on a very quick and very dirty
+indexing program called CODOC (Niblett, Swansea) . There was little
+else on software of note though there was much informal praise for
+SPIRES, UNIX and other unattainable goodies. The most impressive
+hardware on view was that attached to the Chinese Languages
+Transposition Project (Nancarrow, Cambridge) which hooks a tektronix
+up to a rotating cylinder for transput of any of several thousand
+characters in Chinese, Tibetan etc. Among more technical papers,
+Cercone (British Columbia) surveyed current methods of storing
+lexicons for natural language applications and Skolnik (Amsterdam)
+gave a good account of storage mechanisms well suited to them. Another
+new statistical measure of lexical diversity was proposed by Delcourt
+Mathonet &amp; Mersh (Liege) and the poetic style of W. B.Yeats
+resisted all attempts to analyse its variations with EYEBALL (Jaynes,
+Minnesota). Not so Dostoevski, who has now come under the searching
+eyes of Geir Kjetsaa (Oslo) and his attribution
+algorithms.</p>
+   <p>Abstracts of all the papers are available from
+me. Apart from the papers I can report a great deal of interest in OCP
+and a great deal of information about machine readable texts scattered
+around the globe. I was co-opted to an international working party
+which aims to catalogue all such materials. Finally there was an
+Elizabethan Feast, complete with madrigals, which almost (but not
+quite) made up for the appalling standards of the Newnham
+cuisine.</p>
+</div>

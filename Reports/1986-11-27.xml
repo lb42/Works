@@ -1,0 +1,156 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1986-11-27">
+   <pb facs="pages/img479.jpg"/>
+   <head type="report"/>
+   <head type="location">
+National Gallery, London</head>
+   <head type="event">Second annual CHArt
+Conference</head>
+   <head type="when">27-28 November 1986</head>
+   <p>CHArt
+- Computers in the History of Art - is a special interest group
+organised by Prof. Will Vaughan at UCL and Dr Antony Hamber at
+Birckbeck, with a burgeoning membership (about 150 attended this
+conference) drawn rather more from the major national museums than
+from academic departments. I attended its inaugural meeting nearly two
+years ago mostly out of idle curiosity; I was invited to this, its
+second annual conference, I suspect largely on the strength of my
+performance at Westfield (historians of art seeming to overlap a
+little with historians in general) on condition that I explain what
+databases were in words of one syllable, preferably employing lots of
+pictures.</p>
+   <p>The conference was a two day event, with mornings
+given over to formal presentations and afternoons to a number of
+parallel demonstration sessions. In between was a very pleasant
+reception featuring memorable dim sum. All around was the wealth of
+the National Gallery; definitely among my favourite conference venues
+to date. I opened the first day's formal sessions (which all concerned
+cataloguing/database applications), using as my main example a page
+from the Gallery's Catalogue written (I later learned) by the
+distinguished old buffer who had formally welcomed us into said
+gallery's hallowed portals not five minutes earlier. Fortunately he'd
+left by the time I started to get personal. Colum Hourihane from the
+Courtauld, where the only computer-assisted art historical cataloguing
+of any importance is actually going on, then gave a very impressive
+resume of every known method of iconographical classification. He'd
+found eight different methods used to categorise the subjects of
+images, of which the best appeared to be ICONCLASS, as used by, yes,
+the Witt Library at the Courtauld. His paper, when written up, should
+become a standard reference on the subject.</p>
+   <p>After coffee in an
+adjoining room of old masters, Jeanette Towey (described as 'a
+researcher' and evidently not a sales person) gave a work-person-like
+introduction to what word-processors are, how they differ from
+typewriters etc. etc. She advocated Nota Bene, having used that and
+Word Star, but had never tried Word Perfect nor heard of SGML, page
+description languages or -mirabile dictu- TeX. Gertrude Prescott from
+the Wellcome Institute and her 'data processing consultant' (whose
+name I forgot to write down) then described their current prototype
+cataloguing system for the Wellcome's immense collection of prints,
+using dBase III+. It was rather depressing to see that although they
+were starting from scratch - much of the collection never having been
+catalogued in any way - their data analysis was very rudimentary. It
+seemed to me to be over-reliant on dBase III's tendency to sweep
+anything difficult under the carpet into a "MEMO" field, of which they
+had about eight in one record. No doubt they will learn better from
+the example of their neighbours at the Witt Library.</p>
+   <pb facs="Pages/img480.jpg"/>
+   <p>After lunch, there were various
+demonstrations, of Nota Bene (which I avoided) and of STIPPLE, our old
+friend from the pigsty, which does not appear to have changed much and
+which I am now close to thinking I understand. ERROS Computing is
+still in business, but does not appear to have gained any new
+customers since the last report, some 18 months ago, nor indeed to
+have expanded its standard demo at all. Another demonstration, of
+somewhat dubious relevance to Art History, was being given by a Dr
+Alick Elitthorn from a private charity called PRIME (no relation to
+any manufacturer) which has something to do with the analysis of
+dreams. Its chief point of interest was that it used STATUS on a PC
+AT, of which I have long heard but never actually seen. The software
+costs £2000; by dint of sitting on my hands I prevented myself from
+taking a security copy of it immediately. Day Two, which was supposed
+to be on visual rather than historical aspects of the subject, was
+opened by a Mr Duncan Davies (formerly with ICI, now retired) who gave
+what was reported to have been a magnificent overview of the rise of
+western civilisation. Owing to the caprices of British Rail, I missed
+much of this, arriving only in time for the Reformation, from which
+time, according to Dr Davies, may be dated the end of the period
+during which written communication had constituted the intellectual
+power base. With the rise of universal education came the stress on
+words and numbers as the only fit means of communication, the
+discouragement of the most able from visual forms of expression and
+our consequent inability to say anything intelligent about visual
+images. The second great invention of humanity, will be the pictorial
+equivalent of the phonetic alphabet and if anyone had any ideas on how
+it could be done, would they please telephone Dr Davies on
+01-341-2421. The visual content of his talk, which my summary does not
+attempt to include, was, of course, the better part. Terry Genin had
+the difficult task of following this, but persevered, remarking that
+he would normally be on playground duty rather than addressing a
+gathering of this sort. He has developed some fairly straightforward
+courseware involving image and colour manipulation on RM380Zs as a
+means of teaching art history in a secondary schools but the bulk of
+his talk was a plea for the possibilities of interactive video to be
+more widely recognised in that context, (which seems to me to be a
+political rather than an art historical question), rather than just as
+a means of selling Domesday Book, of which he had several
+(unspecified) criticisms.</p>
+   <p>After coffee, Andrew Walter (IBM
+Research) gave a rapid canter through the York Minster Computer
+Graphics project. This is somewhat of a tour de force in CAD; it
+consists of a model of the York Minster, sufficiently detailed for
+views to be plotted from every angle both inside and outside. A video
+of the resulting tour was on display throughout the conference; each
+frame took about three hours CPU time on an IBM 3430, so interaction
+was impossible. The presentation included samples of the high level
+graphics language in which the Minster views were specified
+(primitives such as cylinder, sphere, cube etc. are combined in a
+procedural way) which was interesting though how much sense it made to
+the majority of the audience I can only guess. Wire frame drawing with
+dotted in-fill was presented as a more promising way of getting
+interactive processor</p>
+   <pb facs="Pages/img481.jpg"/>
+   <p>speeds; the
+problems of including perspective in the views were also touched
+on.</p>
+   <p>David Saunders (National Gallery) described an ingenious
+application of image processing techniques. The problems of colour
+changes in 16th century paint are fairly well known (Ucello didn't
+actually paint blue grass, it's just that the yellow wash he put over
+it has gone transparent); more modern pigments also change over
+time. Usually the only way of telling what has happened is when a part
+of the painting has been protected from light, e.g. behind the
+frame. By storing carefully controlled digitised images of the
+painting and the comparing them after a five year gap, the NG hopes to
+identify more precisely what types of material are most at risk and
+what factors cause most damage. The equipment (which was also
+demonstrated in the afternoon) includes an HP 9836 frame store and a
+special digitising camera. Several art historical applications of
+image processing techniques were also given in what was, rather
+unexpectedly, the most stimulating paper of the
+conference.</p>
+   <p>Finally, two ladies from the Weeg Computing Centre
+at the University of Iowa described their videodisc retrieval
+project. A library of about 18,000 colour slides had been stored (in
+analogue form) on video disc, and a simple text DBMS (called
+Info-Text) used to index them. The system was designed for use by
+faculty members wishing to collect together appropriate illustrative
+material. In the classroom, images can be projected in the same way as
+conventional slides; the quality of the images (we were assured) was
+"better than might be expected"; it looked reasonable on the standard
+video monitors available at the National Gallery. Images are
+catalogued according to nineteen different categories (date,
+provenance, size etc.); no formal iconographic indexing was
+used. Apart from the obvious advantages of being tougher and cheaper
+to maintain, one great attraction of the system was seen to be its
+integration of indexing and displaying comparable and contrasting
+treatments of equivalent subjects.</p>
+   <p>The conference closed with a
+plenary discussion centre. This focussed at first on the difference
+between the words "analogue" and "digital", rambled off into
+ill-informed speculation about the possibility of automatic
+subject-recognition and was brought to heel by a plea for more
+information about what sort of database system was worth buying, and
+whether or not art historians should be expected to get their brains
+dirty trying to design them. My views on all these topics being fairly
+predictable, I shall not summarise them here.</p>
+</div>

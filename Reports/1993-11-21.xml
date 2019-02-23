@@ -1,0 +1,193 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1993-11-21">
+   <head type="location">University of Cork</head>
+   <head type="event">TEI-WWW workshop</head>
+
+   <p>As originally proposed at ACH-ALLC in Washington earlier this year,
+Peter Flynn of the Curia Project at the University of Cork organized a
+two day meeting with a general view of creating dialogue between the
+TEI and the developers of World Wide Web, one of the most rapidly
+growing computer systems since the Internet itself. WWW is a
+distributed hypertext system running at some improbably large number of
+sites worldwide, which uses a very simple SGML tagset called HTML (it
+has been rather unkindly characterized as "Pidgin-SGML"). WWW itself
+consists of a markup language (HTML), a set of Internet protocols (FTP,
+HTTP etc) and a naming scheme for objects or resources (the "Universal
+Resource Locator" or URL). A  number of browsers are now available
+which use these components. Mosaic, developed at NCSA, is probably the
+most impressive: running on Mac, X and Windows it offers a fully
+graphical interface with just about everything current technology can
+support. Lynx, developed at the Computer Science dept at U of Kansas,
+is at the opposite extreme, assuming only a VT100 (there is also a
+WWW-mode for EMACS!). I will not attempt here to describe WWW in
+operation. Web browsers are freely available by anonymous FTP all over
+the place: if you haven't tried it out already, and can't see what all
+the fuss is about, then you should stop reading now, get yourself a
+browser and do so forthwith.
+</p>
+   <p>
+The two day meeting was attended by Chris Wilson (NCSA); Lou Montulli
+(Lynx, U Kansas); Bill Perry (EMACS, Indiana University); Dave Ragget
+(Hewlett-Packard; HTML+) and myself for TEI. Various representatives of
+the Curia project, notably Patricia Kelly from the Royal Irish Academy,
+were also present. I gave a short presentation about the TEI, focussing
+mostly on contextual issues but also including some detailed technical
+stuff about bases and toppings and X-pointer syntax, which seemed to be
+well received. Dave Ragget then talked us through the current HTML+
+draft which started off a very wide ranging discussion. This continued
+during the second day of the meeting, but was at least partially nailed
+down in the shape of a brief report (see below) which should be
+somewhere in the Web by the time you read this one.
+</p>
+   <p>
+To their credit, most WWW people seem painfully aware of the
+limitations of the current HTML specification, which was very much an
+experimental dtd hacked together in haste and ignorance of the finer
+points of SGML. (or indeed the blunter ones). HTML+, which Dave Raggett
+has been working on for the last year or so, attempts to improve on it
+without sacrificing too much of its flexibility. This draft will
+eventually progress to Internet RFC status; there is also talk of an
+IETF working group co-chaired by Ragget and Tim Berners-Lee (of CERN; 
+onlie begettor of the Web) to steer this process through.
+</p>
+   <p>
+The Cork meeting was an interesting opportunity for the developers of
+three of the major Web browsers to meet face to face and argue over
+some of the design decisions implicit in the HTML+ spec. To some extent
+this did happen, though the discussion was rather anarchic and
+unstructured. It was also a good opportunity for the TEI to encourage
+development of HTML+ in a TEI convergent manner, and this I think was
+achieved. Several of the changes accepted, at least in principle, will
+make it much easier to transform TEI documents into HTML, if not vice
+versa. Some practical issues about how WWW should handle TEI conformant
+documents were also resolved.
+</p>
+   <p>
+Outside the meeting, this was also a good opportunity to find out more
+about the Curia project itself. My hasty assessment is that this
+project has still some way to go.  There is a clear awareness of the many
+different ways in which it could develop, and a tremendous enthusiasm. I
+think the project would benefit from some detailed TEI consultancy
+before too much more P1-conformant material is created. It also offers
+interesting contrastive opportunities with other corpus-building
+activities, chiefly because of its enormous diachronic spread, and its
+polyglot nature.
+</p>
+   <p>
+Lou Burnard, Cork, 21 Nov 93
+</p>
+   <p>
+========= Concluding statement of the WWW/TEI Meeting follows ==========
+</p>
+   <p>
+      <eg>
+&lt;!-- This uses the HTML dtd --&gt;
+
+&lt;title&gt;WWW/TEI Meeting&lt;/title&gt;
+&lt;h1&gt;Notes from WWW/TEI Meeting&lt;/h1&gt;
+&lt;h3&gt;Action Items/Recommendations&lt;/h3&gt;
+&lt;list&gt;
+&lt;li&gt;HTML 1.0 should be documented to define the behavior of existing browsers,
+    and should be frozen as agreed upon at the WWW Developers' Conference.
+	&lt;list&gt;
+	&lt;li&gt;Features to be documented, implemented and specified include
+	    collapsing spaces, underline, alt attribute, BR, HR, ISMAP...
+	&lt;li&gt;HTML IETF spec needs to be updated by CERN, as well as existing 
+            documentation
+	&lt;/list&gt;
+&lt;li&gt;HTML+ future browsers need not support HTML 1.0 features after a reasonable
+    amount of time.
+    As an aid in transition, the HTML+ spec/DTD will not include any deprecated
+    features of HTML 1.0.
+	&lt;list&gt;
+	&lt;li&gt;HTML 1.0 deprecated features
+		&lt;list&gt;
+		&lt;li&gt;nextid
+		&lt;li&gt;method, rel, rev, effect from &amp;lt;A&amp;gt; tag (but
+		    not from the &amp;lt;LINK&amp;gt; tag)
+		&lt;li&gt;blockquote --&amp;gt; quote
+		&lt;li&gt;There was a feeling that the &amp;lt;img&amp;gt; tag will
+		    be superceded by the &amp;lt;fig&amp;gt; tag, although its
+		    deprecation was not agreed upon.
+		&lt;li&gt;menu list --&amp;gt; ul
+		&lt;li&gt;dir list--&amp;gt; ul
+		&lt;/list&gt;
+	&lt;/list&gt;
+&lt;li&gt;The intention of HTML+ is to support generic SGML-compliant authoring
+    tools, and authors are recommended to use this software with the HTML+
+    DTD for the creation/maintenance of documents.
+&lt;li&gt;Browsers may implement different levels of HTML+ conformance.
+	&lt;list&gt;
+	&lt;li&gt;Level 0 implementation
+		&lt;list&gt;
+		&lt;li&gt;HTML 1.0 spec referenced above
+		&lt;/list&gt;
+	&lt;li&gt;Level 1 implementation
+		&lt;list&gt;
+		&lt;li&gt;Partial fill-out forms
+		&lt;li&gt;New entity definitions (in section 5.1 of HTML+ draft)
+		&lt;/list&gt;
+	&lt;li&gt;Level 2 implementation
+		&lt;list&gt;
+		&lt;li&gt;Additional presentation tags (sub, sup, strike) &amp;amp;
+                   logical emphasis
+		&lt;li&gt;Full forms support (incl. type checking)
+		&lt;li&gt;Generic emphasis tag
+		&lt;/list&gt;
+	&lt;li&gt;Level 3 implementation
+		&lt;list&gt;
+		&lt;li&gt;Figures
+		&lt;li&gt;NOTEs and admonishments
+		&lt;/list&gt;
+	&lt;li&gt;Further levels to be specified
+	&lt;/list&gt;
+&lt;li&gt;Authoring tools are expected to conform to the HTML+ DTD and are
+    &lt;b&gt;NOT&lt;/b&gt; to support deprecated features.
+&lt;li&gt;We expect the HTML+ DTD to be developed incrementally. The HTML+
+    internet draft will make clear which features are now stable and
+    which are still subject to change. The DTD will be structured to
+    reflect this.
+	&lt;ol&gt;
+	&lt;li&gt;HTML+ will work with the SGML reference concrete syntax.
+	&lt;li&gt;The entity sets will be user-specifiable (in the long run).
+	&lt;li&gt;HTML+ will support nested divisions or containers.
+	&lt;li&gt;There will be a number of new features
+		&lt;dl&gt;
+		&lt;dt&gt;&lt;b&gt;Figures &amp; Images&lt;/b&gt;
+		    &lt;dd&gt;&amp;lt;fig&amp;gt; may be able to subsume the role of &amp;lt;img&amp;gt;.
+		&lt;dt&gt;&lt;b&gt;Generic highlighting tag&lt;/b&gt;
+		    &lt;dd&gt;The &amp;lt;em&amp;gt; tag will be used with a set of
+                        three or four defined attributes to present a
+                        guaranteed-distinct presentation of these
+                        attributes.
+		&lt;dt&gt;&lt;b&gt;Generic roles&lt;/b&gt;
+		&lt;dt&gt;&lt;b&gt;Support for undefined elements&lt;/b&gt; (user extensions) (render)
+		&lt;dd&gt;
+		&lt;dt&gt;&lt;b&gt;Tables&lt;/b&gt;
+		&lt;dd&gt;This is now stable.
+		&lt;dt&gt;Math&lt;/b&gt;
+		&lt;dd&gt;for research
+		&lt;/dl&gt;
+	&lt;/ol&gt;
+&lt;li&gt;HTML/TEI
+	&lt;list&gt;
+	&lt;li&gt;It was felt the correct way to convert between TEI and HTML
+	    was to do it on the server side using a conversion filter.
+	&lt;li&gt;This server will also provide a hypertext link to download the
+	    raw TEI text.
+	&lt;li&gt;We (WWW developers and TEI people) will strive together to
+	    converge functionality between HTML* and TEI, as well as to
+	    produce this server/filter system.
+	&lt;/list&gt;
+&lt;li&gt;Links to:
+	&lt;list&gt;
+	&lt;li&gt;HTML spec
+	&lt;li&gt;HTML+ spec
+	&lt;li&gt;&lt;ref target="http://curia.ucc.ie/curia/doc/tei.html"&gt;TEI overview&lt;/a&gt;
+	&lt;/list&gt;
+&lt;/list&gt;
+
+
+</eg>
+   </p>
+
+</div>

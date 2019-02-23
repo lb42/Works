@@ -1,0 +1,210 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1987-04-10">
+   <pb facs="Pages/img501.jpg"/>
+   <head type="report">VISIT REPORT Lou Burnard</head>
+   <head type="location">
+Southampton University </head>
+   <head type="when">10-11 April
+1987</head>
+   <head type="event">Computers and Teaching in the
+Humanities</head>
+   <p>CATH 87 (as it will no doubt come to be known) was
+an unusual event in several respects. For one thing, as Nigel Gardner
+(CTISS) pointed out in his introductory remarks, it approximated to
+that perfection proposed by David Lodge, a conference with no formal
+papers. For another, instead of published proceedings at some vague
+time in the future, all delegates were presented at registration time
+with a collection of essays by various hands covering most of the
+topics addressed by the conference, now published by Ellis Horwood as
+"Information Technology in the Humanities", edited by
+S. Rahtz.</p>
+   <p>Another unusual aspect of the proceedings, at least
+from my cloistered viewpoint, was that just as many of the 100+
+delegates came from Polytechnics and other institutions in the 'public
+sector' of higher ed, as came from Universities and similar bastions
+of privilege. This burgeoning of interest may have something to do
+with the coming into existence of a working party on IT in the
+Humanities (public sector only) sponsored by the CNAA. This working
+party is chaired by David Miall and is currently conducting a survey,
+planning a workshop on the theme this autumn and aims to set up a
+clearing house of some description.</p>
+   <p>There were in fact two
+formal papers: one at the start, from the charismatic Richard Ennals,
+and one at the end, from the even more charismatic (because French)
+Jean-Claude Gardin. Ennals, who is now at Kingston CFE, was
+inspirational (at least in intent) on the importance of the humanities
+and their under-rated powers which, he insisted, could be made more
+effective still by the appropriate use of computers. AI, the
+'technology of thought', might provide a way of bridging the gap
+between the "two cultures" (Ennals is clearly a child of the sixties);
+the absence of Theory from the humanities might be a strength;
+Piaget's beneficial influence on primary school teaching needed to be
+carried through into the secondary system; logical positivists were a
+lot more 'dehumanized' than computers; rules (as in expert systems)
+could be descriptive rather than delimiting; input from the Humanities
+was needed because of the complexity of the problems to be
+tackled. These and similar ideas served to illuminate, fitfully,
+Ennals' final proposition of "computational politics" - that software
+engineers could profitably learn from social engineers. This highly
+seductive notion relied on what (I suspect) is a purely metaphorical
+similarity between the transition from single CPU to parallel
+architectures on the ne hand, and the transcending of solipsism in the
+modern democratic state on the other. It was a bravura
+performance.</p>
+   <p>In between the two formal papers, there were six
+parallel workshop sessions, each on specific topics, and also three
+introductory tutorial sessions. The organisers of the workshops had
+been briefed to stimulate discussion and argument rather than simply
+read out papers, which for the most part they did. The range of topics
+covered was impressive, as was the concentration of expertise. I
+attended workshops on Concordances (P. King from Birmingham),
+Programming (Wendy Hall from Southampton), Art, History (Dave Guppy
+and Will Vaughan from UCL), Classics (Kevin O'Connell from Exeter),
+Linguistics (L. Davidson from Leeds) and Literature (Tom Corns from
+Bangor), thus missing inter alia S. Rahtz on Archaelogy, R. Trainor on
+History, G. Davies on CALL, J. MacGregor on Theology, A. Pearce on
+Music and P. Salotti on Databases.</p>
+   <p>I found the Concordances
+Workshop rather disappointing, though it did<pb facs="Pages/img502.jpg"/> stimulate much discussion. King was
+anxious to demonstrate his own concordance generator which runs on an
+Amstrad word-processor, though he did bring out several useful
+applications for its output (fairly rudimentary KWIC lists) in
+teaching non-native speakers of English to identify patterns in
+contemporary usage. There was much argument about the normative effect
+of such exercises. Several people enquired about micro-OCP.</p>
+   <p>The
+Programming Workshop was equally ready to tackle fundamental
+issues. Wendy Hall quoted Dijkstra on the malignant effect of BASIC to
+great effect and also (clearly) took a quiet pleasure in the total
+absence of any evidence that teaching programming was a good way of
+training people to reason logically. Dave de Roure advocated LISP;
+Sebastian Rahtz Icon. Several people pointed out that the programming
+environment probably mattered more in determing the ease with which a
+language was acquired than the language itself; there was some
+agreement that the difficulty of structured languages might in fact be
+no bad thing. A gentleman from IBM endeared himself greatly to me by
+asserting that (a) any progamming skills acquired at universities were
+totally useless in a commercial context and (b) it would be a lot more
+use to teach people how to organise and structure their data
+properly.</p>
+   <p>After dinner (bearable) we were rewarded for our
+persistence in trekking half a mile through pouring rain by a
+postprandial entertainment from Jon Nicholl of Exeter's Education
+Department. This consisted of demonstrations of three applications
+('authorizations'?) of the LINKS program, a simple expert systems
+shell for use in comprehensive schools. One recreated a detective
+story apparently familiar to every former B.Ed student; one (written
+by a ten year old) impersonated a mediaeval physician; one had to do
+with Devonian placenames. The second was the most fun; the subtext of
+the presentation was that teaching project work in this way could
+actually be a lot more fun as well as getting across some interesting
+principles of abstraction. Though I wondered whether hierarchic tree
+structures might not turn out to be just as mentally crippling as
+BASIC.</p>
+   <p>Dave Guppy opened the Art History Workshop with a
+sceptical survey of possible computer applications, including image
+processing, storage problems, indexing problems etc etc. For him Art
+History was about fundamentally difficult and affective aspects of
+experience. Will Vaughan tried to redress the balance by pointing to
+the possibilities of new storage media as means of manipulating
+images, but had to agree that there still very few real applications
+outside museums. As case study Guppy provided us with two very nice
+pictures of naked ladies, one by Giotto and the other by Titian,
+together with commentary by a distinguished art historian called
+Freedberg and the workshop eventually cohered in a long discussion
+about how a computer could possibly have assisted in his
+analysis. (Not a lot it transpires)</p>
+   <p>The Classics Workshop was
+somewhat of a misnomer and also nearly floored completely by an
+uncooperative AT. Fortunately Kevin O'Connell was too much of a
+professional to let this seriously impair his presentation of how
+Nichol's LINKS could also be used to represent the plot of Antigone,
+though it did slow down somewhat his description of an expert system
+(programmed in micro Prolog) based on the "Roman World" flash cards
+which are apparently now widely used to teach classics (if 'widely' is
+the right word). The claim was that a model of the inter-relationships
+recorded on Latin inscriptings from Lugdunum could be adequately
+represented and easily manipulated using micro Prolog; I remain
+unconvinced.</p>
+   <p>Of those I attended, the Linguistics Workshop
+probably adhered closest to the organisers' brief, perhaps because
+Leeds is one of the few places where computing is taught as an
+essential component of the Linguistics<pb facs="Pages/img503.jpg"/>course. Davidson described in some detail
+the various parts of this teaching, plotted against two axes which he
+saw as mutually exclusive, viz the type of amount of purely
+computational skill needed and direct relevance of the skill acquired
+to the academic subject. He raised a number of pedagogically important
+issues, notably that current research in linguistics seems to be
+depending more and more on computational models which owe little or
+nothing to formal linguistics (which did not use to be the case). One
+prime case is the 'simulated annealing' parsing project at Leeds which
+uses a purely stochastic model; another is the need for
+socio-linguists to employ purely sociological data, such as census
+returns. Most of the discussion centred on what actually gets
+taught. Leeds' BA students apparently thrive on a three day intensive
+course covering the rudiments of CMS and OCP together; there was
+little support (presumably as a result of bitter experience) for my
+view that general courses on operating systems were better left to
+computing centre staff.</p>
+   <p>Tom Corns began the Literature workshop
+by asserting simply that literature was very difficult for humans, let
+alone computers, because of the complexity and subtlety of readers'
+responses to it (which was one of the strengths of the case according
+to Ennals). Perhaps more significantly, (and certainly more
+memorably), he remarked that literary criticism remained "totally
+innocent of computer-aided achievements", despite the fact that the
+subject itself was still alive and well. Stylistics, which had once
+seemed to offer the computer an entree, had been effectively killed
+off by the likes of Fish on theoretical grounds, while the
+McCabe/Eagleton radico-deconstructionist-feminist axis had no time for
+the "toys for the boys" technological ethos. But as all good critics
+(and readers of Kipling) know, ignoring the technology of your day
+simply marginalises your discipline. The bulk of his presentation
+therefore concentrated on immediate strategies to raise the level of
+awareness of computational possibilities amongst the current crop of
+students. The discipline had always required high standards of
+presentation and well organised bodies of data; the word processor,
+the database, and even the concordance were all highly effective means
+to those ends, if they had no more theoretically seductive claims on
+students' time. In the future of course, there would be other
+possibilities; amongst these he adumbrated the possibilities of an Old
+English CALL system, and something called "advanced study aids", by
+which (I think) he (or rather Margarette Smith who shared the honours
+of this presentation) meant hypertext systems, incorporating a
+user-modelling component.</p>
+   <p>The proceedings were wound up by Prof
+Jean-Claude Gardin's formal paper which (I regret to say) I did not
+fully understand, largely because of its use of mathematical formulae
+to express types of inferential methods and other habits of mind alien
+to my anglo-saxon soul, but which I suspect would have been congenial
+to Fish. Gardin has been eminent in the sphere of interpreting
+archaelogical finds and other cultural manifestations for the last
+thirty years but (he said comfortingly) the only progress he could
+detect had been the recognition that there could be no independent
+standards to describe such objects: there are as many descriptions as
+there are research goals. Like Ennals, he saw interesting
+opportunities in AI systems not just because they are well funded,
+though that should not be ignored, but because they paralleled his
+current research strategy. A given set of semiological components
+(representation systems) can be acted on by different processing
+components to reach, different conclusions, according to different
+goals; in the same way, a given set of facts and rules may be acted on
+by an inference engine to construct a knowledge based system. The
+recursiveness of deconstructive criticism was exemplified at some
+length: Jakobson &amp; Levi Strauss' study supposedly saying all there
+was to be said of Baudelaire's "Les Chats" had stimulated 28 critical
+responses, which they had dutifully included in a revised edition, und
+so weiter. He also felt the need to preserve<pb facs="Pages/img504.jpg"/>'bilinguism', that is to present their
+results in ways appropriate to (their expectations of) their readers'
+likely expectations.</p>
+   <p>If Ennals began this conference by assuring
+us that the humanities had something to offer the world, then Gardin
+closed it by reminding us that whatever that might be it was not
+certainty, and that scientistic rigour was as out of place in the
+humanities as we had always hoped. In between, we had had ample
+opportunity to see what the technology could do and how it could be
+shaped to our ends, provided of course we could determine what those
+might be. I have already remarked on various unusual aspects of this
+conference; perhaps not the least significant of these was a general
+willingness to confront and discuss quite fundamental issues at a
+non-trivial level.</p>
+</div>

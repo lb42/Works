@@ -1,0 +1,93 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1984-07-11">
+   <pb facs="Pages/img465.jpg"/>
+   <head type="report">VISIT REPORT LBurnard</head>
+   <head type="location"> Leeds Polytechnic July 11-13 1984</head>
+   <head type="event">BNCOD 3 also present: P Salotti</head>
+   <p>At this, the
+third annual British conference on databases, it appeared that
+theoretical issues were begining to predominate, perhaps not
+surprisingly in that Computer Science Departments are so dominant in
+its organisation This may be no bad thing; there is, so far as I know,
+no comparable forum in the UK for informal discussion of database
+research</p>
+   <p>As is customary, the Proceedings were handed out on the
+first day, this time in the form of a real book typeset by CUP from
+authors' machine-readable mss. Lasercomp enthusiasts will be pleased
+to know that Britain's oldest university press had made a right dog's
+breakfast of the job; the production schedule did not apparently allow
+for authorial proof reading.</p>
+   <p>There were two invited papers, two
+panel sessions and five sessions of three papers each. The conference
+began ominously with the first of the invited papers, from the
+appalling Stephen Todd (IBM) who showed some very nice colour slides
+of molecules whilst burbling about the database system he had
+"lashed-up" some years back with PRTV He remarked with an air of
+surprise that database was "not central to the computational chemist's
+perceptions" and completely forgot (till prompted by one P Salotti)
+that database search and pattern matching techniques might be of some
+use in the business of residue identification The other invited
+speaker was the legendary R Kowalski (Imperial) whose account of
+Prolog as a database language was thorough and well-presented if not
+unfamiliar Todd remarking from the back row that it could all be done
+in relational algebra, Kowalski riposted that there was more
+expressive power in Prolog's left earlobe than the whole of relational
+algebra.</p>
+   <p>This exchange was alas, about the only sign of
+intellectual debate during the conference; despite much talk of
+Controversial Issues, there was little controversy, particularly
+during the truly awful Panel Sessions These (one on user interfaces,
+one on teaching methods) could have been an opportunity for
+stimulating and worthwhile argument if they had been chaired with more
+enthusiasm or featured more aggressive or opinionated panellists;
+instead they were uniformly bland, self-satisfied and trite.</p>
+   <p>The
+computer scientists did not have it all to themselves: a few mere
+users did speak up, amongst which Tony Wakefield (Bristol Poly)'s
+account of the complexities of his IMS training course was the best;
+this together with G.Loizou (Birkbeck)'s account of the extra software
+tools needed to support Cullinet's IDMS were potent advertising for
+ICL's IDMS (which has had all the goodies Loizou's lot have had
+painstakingly to write for themselves for the last two
+years)</p>
+   <p>Most attractive piece of software glimpsed over the
+horizon was Paul Feldman (Thames Poly)'s automatic diagrammer for
+conceptual models. Most</p>
+   <p>currently fashionable theoretical issue
+was the usefulness (or not) of the triple and the binary model it
+supported as a universal formalism (Roger Johnson (Birkbeck) and
+G.Martin (ditto)) Most boring and futile piece of academia was not
+quite as hotly contended for as usual at these gatherings: the choice
+lay between Flynn (EAnglia) comparing various unmemorable design
+methodologies, Thanisch (Greenwich Observatory) on automatic
+clustering of attributes by means of embedded dependencies and Laender
+(EAnglia again) on a design tool for the definition of user views of
+rare inpenetrability.</p>
+   <p>Best Dressed Presentation was probably Ron
+Cuff (IBM) on a rather eccentric natural language query processor
+which allowed the casual user to fill in a menu with bits of vague
+waffle and then translated the resulting mess into QBE queries Worst
+Dressed Presentation was undoubtedly Anne Zorner (Sheffield Poly) on
+the DBAWG's DSDL, which did not get round to its subject matter (the
+ingenuity with which the proposed DSDL supports dynamic reorganisation
+of a live database) until the last five minutes.</p>
+   <p>In the same
+session, Jon Kerridge (Sheffield Poly again) presented the DBAWG's
+architecture for a distributed database system and Elizabeth Oxborrow
+(Kent) presented an outline of progress on the Proteus project, which
+is a real live (sort of) functional prototype ddbms Again, sparks
+should have flown, but didn't Proteus certainly deserved more time,
+but uncharacteristic modesty on the part of the organisers (most of
+whom participate in it) appears to have inhibited this </p>
+   <p>Work we
+have done for P.Gray (Aberdeen) on getting Astrid to work on VME may
+however give Oxford the entree to this project later this year
+Informally interest was expressed in our experience with CAFS in
+various quarters; QMC reported that they had one but hadn't worked out
+how to plug it in yet and Lancaster that they were thinking of getting
+one Two ICL people (no other manufacturers were present) apologised
+for the rotten support we had been getting and blamed RWilmot's axe
+for it.</p>
+   <p>The conference was housed in what looked like a
+converted barracks, but the wine at the conference dinner last until
+after midnight.</p>
+</div>

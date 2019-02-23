@@ -1,0 +1,28 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1983-02">
+   <pb facs="Pages/img453.jpg"/>
+   <head type="report">VISIT REPORT
+L. Burnard</head>
+   <head type="location"> U.M.R.C.C.</head>
+   <head type="event">IUSC Working Party on Development of Famulus</head>
+   <p>At
+this second meeting of the working party, I presented a paper
+describing the current state of Famulus and putting forward the
+various proposals for improving it that I have accumulated over the
+years. My paper which summarises the features of 6 different
+implementations of the package in 4 pages was tolerably well received
+and it was agreed that it should form the basis of a circular to all
+Universities and Polytechnics' Computing Services to elicit
+information about other versions of Famulus, other proposals, and to
+estimate the requirement for packages of this type. This circulation
+will be done before October (not by me); the Working Party hopes to
+report back, probably recommending that someone should be funded to
+tidy-up ythe source and add the most popular extensions to it, (not
+me) by the end of the year. It was generally felt that there was about
+6 man-months of effort needed to bring the package up to scratch and
+to add the required enhancements. It was tentatively proposed that the
+work might be carried out at Manchester or York, and that Edinburgh
+PLU might become a central distribution site for the package, but
+since neither York nor PLU were present at the meeting, these
+proposals were deferred till after the feed back – if any – from the
+circulation.</p>
+</div>

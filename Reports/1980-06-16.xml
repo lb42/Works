@@ -1,0 +1,56 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1980-06-16">
+   <pb facs="Pages/img423.jpg"/>
+   <head type="report">VISIT REPORT
+L. Burnard</head>
+   <head type="location"> Klett, Stuttgart </head>
+   <head type="when">June 16-20 1980</head>
+   <p>Klett is one of Germany's leading
+publishers, particularily of school text books and dictionaries. I was
+invited to visit them to discuss methods of analysing machine-readable
+dictionaries with their computing consultant, G.Lieser. Klett had
+previously obtained a copy of the Hornby OALDCE transcript from the
+Archive, and much of my time in Stuttgart was spent discussing the
+problems of 'parsing' entries in this dictionary by computer, in order
+to extract all the subfields while still retaining the ability to
+reconstitute the original entry. I was able to offer Klett a copy of
+the new Collins dictionary(which poses similar but different problems)
+in return for their hospitality and also for a copy of the so-called
+WEBMARC format transcript of Webster's 7th - a dictionary we have been
+trying with little success to obtain from the publishers for two or
+three years. Having defined a suitable data structure for dictionary
+entries, Klett1s objective is to merge entries from different
+dictionaries in order to build up an authoritative lexicographical
+database against which new bilingual dictionaries might be
+validated.</p>
+   <p>Klett is also active in the field of computer
+typesetting; their equipment (a Digiset) is driven by the
+German-written DOSY-system, which appears to offer a (fairly)
+user-friendly interface similar to that proposed for the
+Lasercomp. One difference is that the Digiset allows for point-size to
+be selected independently (within certain ranges) of font, so that the
+number of fonts stored is smaller. Using this equipment and special
+software written by Lieser, Klett have produced very high quality
+Arabic output. Their mainframe is an IBM 370, running ynder DOS (?),
+which has very little flexibility (l was told that only VSAM files
+were supported), but they also have a DELTA system supporting about 50
+interactive terminals , and an antiquated Philips machine doing the
+payroll. They also have an under-utilised OCR which reads only OCR
+typefaces.</p>
+   <p>I also spent a day at nearby Tubingen where I was
+able to visit Dr W.Ott who provides at the Computing Service of the
+University of Tubingen a service very similar to that provided by
+Susan here at Oxford. Two things particularly impressed me at
+Tubingen: the first was the recently published concordance to the
+Vulgate. This was produced entirely at the Computing Centre using
+Ott's programs to generate the concordance and format it for direct
+input to Klett's digiset. The resulting plates were sold at commercial
+rates to the publishers by a holding company called Pagina (which also
+publishes the new journal Data Verarbeitung). The concordance is being
+sold at an astounding DM700 per each of' five vols; Ott told me
+estimated the production cost of each volume at 30 marks. The second
+impressive thing I saw at Tubingen was a 17 year old CDC machine (due
+for retirement next year) which takes up about as much space as the
+average German tram and is full of spaghetti, but still supports the
+computing requirement of one of Germany's larger universities, with
+over 95% serviceability.</p>
+</div>

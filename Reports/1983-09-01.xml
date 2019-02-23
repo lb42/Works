@@ -1,0 +1,39 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1983-09-01">
+   <pb facs="Pages/img451.jpg"/>
+   <head type="report">VISIT REPORT
+L. Burnard</head>
+   <head type="location"> The Burn, Glenesk </head>
+   <head type="event">BCS/Codasyl DBAWG </head>
+   <head type="when">Sept 1-4,
+1983</head>
+   <p>DBAWG's annual outing to the Highlands proved somewhat
+more intellectually strenuous than usual, partly because poor weather
+kept us within doors for most of the time, but mainly because this was
+the last opportunity to get the group's proposals for a Data Storage
+Description Language (DSDL) into a presentable form before they are
+submitted for consideration by the ANSI "Experts' Meeting" in Paris
+next month. Consequently I spent most of Friday and Saturday in the
+DSDL subgroup going through the syntax paper (78 pages of BNF)
+correcting errors, inconsistencies and spelling mistakes and rewording
+it here and there to keep it in line with the vocabulary used by the
+latest ANSI specification for network database systems, which our
+document is intended to complement. The last part of Saturday's
+session (finishing around 11 pm) was spent revising and partly
+rewriting an eight page document intended to make the case for a DSDL
+as an introduction to the syntax paper.</p>
+   <p>Other entertainments
+included a plenary session in which the standing paper on Access
+Control was gently but firmly shot down in flames. Most of my bits of
+it remained intact, but it was agreed that substantial restructuring
+of the paper was necessary. This will be attempted (at the Open
+University) before the next meeting.</p>
+   <p>There was a proposal to
+publish the group's other major effort this year (a syntax for
+distributed database systems) possibly together with other papers in
+book form, for which I (naturally) proposed the use of the
+Lasercomp.</p>
+   <p>There was much informal discussion about so-called
+fourth generation packages and some useful (if impressionistic)
+comparisons made between various options we might consider for the
+VAX.</p>
+</div>

@@ -1,0 +1,109 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1995-11-26">
+
+ 
+ 
+
+
+   <head type="event">Surfnet TEI Workshop</head>
+   <head type="location">University of Groningen</head>
+
+   <p> 
+A TEI Workshop was organized by <ref target="http://grid.let.rug.nl/~galiard"> 
+Harry Gaylord</ref> at the University of
+Groningen in the Netherlands 21-22 November 1995. The workshop was
+hosted by Harry's department at the University, with additional funding
+from <ref target="http://www.nic.surfnet.nl/surfnet/surfnet.eng/home.html"> 
+SURFNET (the Dutch equivalent of JANET)</ref> and attracted an
+impressively large number of delegates, not all of them Dutch (there
+was a small group of Francophones, Swiss, Belgian and French; also some
+Spanish and Portuguese; but no visible Germans, no doubt owing to the
+similar event in Tuebingen the week before). I counted about 120 during
+the opening plenary, and even by the final session there were well over
+fifty. Although dogged by administrative and technical mishaps, ranging
+from the collapse of one of the presenters with influenza 24 hours
+beforehand to the dispatch of the printed course materials to some
+other conference in an adjacent province, I'm glad to report that the
+event appeared to have been very well received by all who attended, with
+much discussion and questioning, both enthusiastic and intelligent,
+during the sessions and afterwards.</p> 
+   <p> 
+Day 1 began with a series of plenary lectures: I gave the celebrated
+<ref target="http://www.uic.edu/orgs/tei/sgml/teip3sg/index.html"> 
+"Gentle introduction to SGML"</ref>, followed by two other invited speakers:
+Bert Bos from the <ref target="http://www.w3.org/pub/WWW/Consortium"> 
+W3 Consortium</ref> spoke illuminatingly about the
+<ref target="http://grid.let.rug.nl/~sgml95/bertsum.html"> 
+relationship between SGML and HTML</ref>, and the great hope afforded by the
+proposed stylesheet mechanism in HTML3; Gert van der Steen  gave <ref target="http://grid.let.rug.nl/~sgml95/steensum.html"> 
+an
+exhaustive overview of SGML software</ref>, characterized by its functions.
+After a break we were joined (virtually) by Rich Giordano, who gave a
+very impressive lecture on the <ref target="http://grid.let.rug.nl/~sgml95/giordano.html"> 
+TEI Header</ref> and his thoughts about its
+relationship to projects in resource discovery, by video tape recorded
+in his office in Berkeley. We knew it was live because at one point the
+phone rang (it was Harry reminding him to make the video) and at
+another someone tried to walk into the office.</p> 
+   <p> 
+The TEI Workshop proper began with a presentation of the TEI
+architecture (regrettably using my fallback set of overheads, rather
+than the nice new version I'd prepared for use with Panorama), followed
+by a group document analysis, using as vehicle some pages of the
+Sherlock Holmes story "The Red Headed League". In the absence of
+printed handouts, at that time finding their way back to us from the
+aforesaid adjacent province, Alan Morrison and I had to perform this
+text as well as elicit discussion of its chief features -- which turned
+out to be quite an amusing experience for all concerned. Whether for
+this reason or not, this session was very lively raising a number of
+fundamental encoding issues in a satisfactory manner. The day concluded
+with a presentation of the standard TEI document analysis slides, which
+I gave from paper notes in the absence of anything flashier.</p> 
+   <p> 
+Day 2 was to have begun with the first of three graded exercises on
+using <ref target="http://www.sq.com/products/refuthored"> 
+Author/Editor</ref> and <ref target="http://www.sq.com/products/panorama"> 
+Panorama</ref>, but it became apparent fairly
+rapidly that the teaching room allocated for this purpose was simply
+not set up correctly.  Delegates seemed philosophical about this,
+occupying the time in such characteristically Dutch habits as checking
+email and strolling down the corridor for a smoke, while we re-arranged
+the timetable to allow a further hour's installation time. I gave
+(again from backup slides) the overview of <ref target="http://www.uic.edu/orgs/tei/intros/teiu5.html"> 
+TEI Lite</ref> and discussed
+briefly ways of using it to implement the features we'd identified the
+previous day. After lunch we divided the group up, with those
+uninterested in Author Editor being free to go and inspect the various
+demonstrations of student projects and other software (notably <ref target="http://www.microstar.com/products/main.html"> 
+Near and Far</ref> and <ref target="http://www.sq.com/products/explorer.html"> 
+Explorer</ref>).
+</p> 
+   <p> 
+The rest repaired to the PC room and drove out a few hopeful students
+who thought it was theirs. Alan and I then walked through our Author
+Editor exercises successfully. In the first, we imported a "plain
+ASCII" version of the Holmes text, tagging it as a single div, then as
+a paragraph, then split the paragraphs. This taught use of the
+surround, remove, split, and joint options. Then we exported the text,
+looked at it in Write, and reimported it. In the second exercise, we
+started from a blank new document, and built the skeleton of a full TEI
+conformant text, using the "Insert markup" option to teach something of
+the TEI header at the same time. In the third exercise, we imported a
+version of the tale which Alan and I had tagged in some detail earlier,
+with all direct speech identified and allocated to speakers. We then
+showed how this markup could be displayed in Panorama, using previously
+prepared stylesheets and navigators. This programme of work was fairly
+exhausting for the 30 or so participants who stayed the course, and
+entirely so for the two of us trying to give it, but it seemed to go
+down well. I did finally manage to see some of the work which students
+at Groningen have been doing -- an illustrated version of the Christmas
+Carol; a morphologically analysed version of Hiawatha -- but not as
+much as I'd have liked.</p> 
+   <p> 
+I was greatly impressed by the energy and enthusiasm of the Workshop
+participants. They were very tolerant of the technical mishaps which
+prevented the event from being as great a success as it deserved to be.
+The local team, particularly the students, also deserve commendation
+for their great resourcefulness in the face of adversity. I hope that
+Surfnet will be willing to sponsor another such event in the near
+future.</p> 
+</div>

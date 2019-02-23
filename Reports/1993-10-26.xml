@@ -1,0 +1,90 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1993-10-26">
+   <head type="event">EAGLES meeting</head>
+   <head type="location">Paris</head>
+   <head type="date"> Oct 1993</head>
+
+
+   <p>One benefit accruing from my attendance at the Eagles meeting in Paris
+is that I got some more information about what exactly is supposed to
+be going on in Eagles. I also doubled the size of my collection of
+NERC reports by acquiring a copy of a very sensible TEI review produced
+by Dominique Vignaud and Pierre Lafon.
+</p>
+   <p>
+There are five EAGLES groups: on Resources, Language Corpora, Speech,
+the Lexicon, and Evaluation &amp; Assessment (with which Henry Thompson is
+involved). The group on language corpora has five subgroups. One is
+chaired by John Sinclair on text typology, and I have no information on
+its progress other than verbal rumblings from Birmingham. One is on
+linguistic annotation and is chaired by Geoffrey Leech who has
+circulated a detailed work paper which rather overlaps the work
+presented in AI2 W2, but has some interesting differences. A third is
+supposed to address something called "text representation issues" and is
+chaired by Gregoire Clemencin of GSI/ERLI; the Paris meeting was called
+to discuss a work paper submitted to this group by Nancy Ide and Jean
+Veronis. There seemed to be some doubt about the responsibilities of
+the two remaining subgroups: one concerns documentation and
+distribution, for which Pisa is responsible; the other concerns "tools"
+for which Wolf Paprotte at Muenster is fingered.
+</p>
+   <p>
+
+Members of the TR subgroup are Veronis, Clemencin, Ramesh Krishnamurthy
+from Birmingham and Henry Thompson from Edinburgh. Nancy Ide was also
+present at the meeting as a TEI spokesperson, officially; Ramesh was
+unable to attend; Antonio was also unable to attend, through illness (He
+did however speak to us from his hospital bed by telephone during the
+afternoon; the word is that he should be back at work next week.)
+</p>
+   <p>
+
+EAGLES groups have two years in which to produce their recommendations;
+a mid term report (to be jointly edited by Nicoletta Calzolari and Jock
+McNaught) is due in April 1994, with final reports one year later. I'm
+not sure whether this report is supposed to cover all Eagles activities,
+or just those of the Corpus group, but believe the latter. The TR
+subgroup plans to complete its input to this report by February, and the
+document previously circulated by NI/JV was a first stab at producing
+draft for it.
+
+</p>
+   <p>
+The task of this workgroup was to provide a set of recommendations for
+the encoding of corpora, based on a review of the TEI. Most of the
+meeting was spent reviewing some of the formal decisions already taken
+by the TEI with a view to generality of application; I will not repeat
+them here since I am sure they will also appear in the minutes of the
+meeting. The chief point made and made frequently was that it was up
+to this workgroup to pin down those generalities and recommend
+specific solutions. There was a clear understanding of the extension
+and modification mechanisms provided within the TEI framework, and an
+evident willingness to apply them to the task in hand. It was less
+clear whether EAGLES would decide to propose a single 'boiled-down'
+TEI dtd, or instead a package of customizations of the full TEI.2
+dtd.
+</p>
+   <p>
+
+It was at least tentatively agreed that Eagles-conformance implied two
+things: adherence to a specific set of editorial principles (HT likes
+to call these "invariants") governing such things as punctuation,
+normalization etc., as documented in the TEI &lt;editDecls&gt;, or a list of
+such specified sorts. And secondly use of an SGML dtd which could be
+derived in a TEI conformant way from TEI.3.  The perceived value of
+sgml was in the validation it offered, which goes some way to explain
+the concern expressed in the NI/JV document about "polysematic
+combinatorics" etc.
+</p>
+   <p>
+
+Unfortunately I had to leave the meeting before it finished (someone was
+on strike at Roissy) so I do not yet know whether (or how) the work
+group plans to descend from these general preliminaries to the tough
+task of actually deciding whether to recommend &lt;div&gt; or &lt;div1&gt; or
+either, what sort of &lt;w&gt; tag to use and so on. With my BNC hat on, it
+seems to me that we could possibly offer some help in this respect; with
+my TEI hat on, it seems to me essential to monitor closely the work of
+this group, as it tests the viability of the TEI scheme in a variety of
+new application areas.
+</p>
+</div>

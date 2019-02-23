@@ -1,0 +1,62 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1977-07">
+   <pb facs="Pages/img396.jpg"/>
+   <head>QUARTERLY REPORT L. Burnard: July 1st
+1977 – December 31st 1977</head>
+   <p>English Texts</p>
+   <p>Work on the
+Archive continued through the summer. Texts were received from
+Cambridge, Edinburgh and Minnesota, and sent to Warwick, Edinburgh,
+Leuven and Swansea. From Minnesota came the nucleus of the Coleridge
+corpus, currently being completed. Lovely Mrs. J. Healey began typing
+the rest of this in July and had got to page 400 by September, when
+the money ran out. Proof reading and correction of the bulk of this
+corpus is now well advanced. Other texts received included three from
+UMRCC which came in the unlikely form of 7-track Atlas coded paper
+tape. I wrote a program to convert these to EBCDIC, which appears to
+be working. Another conversion program was written to translate 1900
+code with shift characters (which are ignored by MT-READ) into
+EBCDIC. A machine-readable catalogue of the Archive was begun in
+December. Considerable interest in the Archive was expressed at the
+various international meetings Susan and I attended last year, and
+large amounts of texts were, as ever, promised. Work on a program for
+collating textual variants and grouping them for cluster analysis
+began in October.</p>
+   <p>SPITBOL</p>
+   <p>Most of September was spent
+nervously preparing myself to give a course encouragingly titled
+'Advanced use of Spitbol'. In the event, this proved quite successful,
+in that attendance actually increased over the four weeks, and there
+has been continued demand for the course notes. Some of those who came
+were not arts-users. A new version of the SPITBOL compiler is expected
+daily. A tape bearing 2900 Snobol arrived this month from Kent, just
+too late to be of much use -for the present.</p>
+   <p>FAMULUS</p>
+   <p>Three
+or four minor bugs were fixed and a major enhancement carried out to
+the sorting routines last year. The enhancement allows for non-sorting
+characters (e.g. accents) to be specified, and necessitating the
+recompilation and re-organization of the subroutine library. Two
+programs were written to assist particular users get their heart's
+desire (as opposed to more or less what they wanted) out of the
+package. 2900 Famulus did not materialise.</p>
+   <p>IDMS</p>
+   <p>Progress
+has not been rapid, nor indeed clearly visable. Some real swan data
+has been punched and re-formatted a few times. My knowledge of COBOL
+has increased from the pathetically inadequate to the merely
+risible. I attended the AGM of the User Group at which, inter alia, it
+was agreed to set up a FORTRAN user's sub-group. I will be going to
+Bracknell to get some experience of the FORTRAN interface (FISS) this
+month by helping in something known as 'beta-testing1.</p>
+   <p>Any Other
+Business</p>
+   <p>OXEYE was issued to Aston and the installation test run
+successfully last month. I became a budget advisor at the end of
+September. I wrote impeccably biassed minutes for the Programmers
+monthly meetings. I attended the 4th International Summer School in
+Computational and Mathematical Linguistics in August in Pisa, a
+meeting of the BCS where I hoped (but failed) to see blood in a
+confrontation between implementors of Spitbol and Snobol, and the
+International Meeting/AGM of the ALLC in Liege in December. Visit
+reports were written.</p>
+</div>

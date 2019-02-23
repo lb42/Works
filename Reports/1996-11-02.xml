@@ -1,0 +1,188 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1996-11-02">
+   <head type="event">Conference on MS encoding</head>
+   <head type="location">Studley Priory</head>
+   <head type="date">2-3 Nov 1996</head>
+
+   <p>This was a hard working weekend conference, rather on the TEI model,
+organized by Peter Robinson of de Montfort University and the <ref target="http://www.shef.ac.uk/uni/projects/ctp/">Canterbury
+Tales Project</ref>, in collaboration with Dr Hope Mayo from the newly Mellon-funded
+project on Electronic Access to Manuscripts. It assembled representatives
+from several major European manuscript collections, specifically <ref target="http://portico.bl.uk/">the
+British Library</ref>; the Arnamagnaean Institute at the University of Copenhagen;
+the Institut de Recherche et Histoire des Textes in Paris; the Vatican
+Library; the Czech national library in Prague; the Welcome Institute; the
+National Library of the Netherlands at the Hague; the Marburg Institute
+and the Bodleian, together with experts on MARC, on the <ref target="http://sunsite.berkeley.edu/FindingAids/EAD/arlpap.html">Berkeley
+Finding Aids project</ref>, the <ref target="http://www-tei.uic.edu/orgs/tei/">Text
+Encoding Initiative </ref>and the <ref target="http://purl.org/metadata/dublin_core">Dublin
+Core</ref>. The charmingly-named Merilee Proffitt was also present as a representative of the joint Berkeley-Columbia Digital Scriptorium project.
+The object of the two days was to formulate a basis for minimum
+level descriptive cataloguing, specirfically of western medieval manuscripts,
+and agree a context in which this could be developed, with an eye to future
+European funding.</p>
+
+   <p>This was an unusually well-prepared and documented meeting: <ref target="http://users.ox.ac.uk/~lou/wip/studley.txt">brief
+bibliographic and biographical details </ref>of all the participants were
+circulated before hand, and I came away laden with paper and replete with
+technical detail. A full report was promised, so this should be taken only
+as a summary stop gap, composed from my personal and probably <ref target="http://users.ox.ac.uk/~lou/bear.html">ursine</ref>
+standpoint.</p>
+
+   <p>The first day was taken up by presentations from each of the cataloguing
+experts present, recounting their own institutional policies and current
+practices, which proved a most instructive mixture. <ref target="http://portico.bl.uk/">At
+the BL</ref>, for example, Michelle Brown spends one day a week "up
+a ladder" looking for illuminated mss, which when found are given
+minimal level descriptive cataloguing "at shelf" using a dtd
+developed by Richard Masters, while Rachel Stockdale and her colleagues
+are contemplating the horrors of retrospectively converting an estimated
+million printed textual descriptions to a structured format. Mathew Driscoll
+and Dominik Wujastyk gave good introductions to what was special about
+their own kinds of mss (Icelandic and Sanskrit respectively); Elizabeth
+Lalou described the latest incarnation of Medium, the medieval ms database
+developed at the IRHT in the 70s; we learned a little about the Vatican's
+150,000 estimated mss, of which only 15% are catalogued, from Piazzoni,
+and also about the thinking behind the <ref target="http://www.nkp.cz/externi/digit/Structure_Proposal/">Czech
+National Libary's </ref>Unesco-funded digitization project from Adolf Kroll.
+Thomas Brandt described the Marburg Institute's MIDAS system, which underlies
+a very impressive publishing programme, and also a very interesting collaborative
+cataloguing venture called Diskus, involving several major German museums
+and art historical institutions. Anne Korteweg described the cataloguing
+scheme used for manuscripts at the<ref target="http://www.konbib.nl/kb/100hoogte/hh-en.html">
+Dutch Royal Library</ref>, mentioning in particular its use of PICA and of
+Iconclass Finally, Richard Gartner outlined the<ref target="http://www.bodley.ox.ac.uk/mss/">Bodleian's
+mss cataloguing projects</ref>, using EAD and a set of TEI extensions.</p>
+
+   <p>Day two began with some real computer demonstrations from David Cooper,
+showing the Bodleian's Celtic manuscript project, and from <ref target="http://www.software.ibm.com/is/dig-lib/">IBM's
+digital library</ref> projects, in the shape of Peter Elliott and Uschi Reber.
+None of this had a lot to do with the stated business of the meeting, but
+it was nice to see some really good digital images (or would have been
+had I not been busily getting my own presentation ready). Real business
+resumed with three brief technical presentations about MARC (from Larry
+Creider), EAD (from Daniel Pitti), the TEI Header
+(me), and the Dublin Core as a discovery vehicle (from Jennifer Trant).
+The rest of the day was devoted to discussion of what exactly should constitute
+a Dublin-style core set of descriptors for manuscript materials. This began
+with a rather unsuccessful attempt to get everyone to agree on a top ten
+list of fields that must be present, got bogged down somewhat, but eventually
+cohered around the notion of identifying a key set of descriptive categories,
+within which more specific fields might be mandated. The discussion was
+finally given some coherence by a rather neat taxonomy proposed by Jennifer
+Trant, which I reproduce below. Starred items indicate those which were
+agreed on as essential, according to my notes.</p>
+
+   <list>
+      <item>Ownership (where the object is now and has been)
+
+<list>
+            <item>*** repository name</item>
+
+            <item>*** shelf mark </item>
+
+            <item>previous owner/repository</item>
+
+            <item>previous owners mark</item>
+         </list>
+      </item>
+
+      <item>Creation (how the object came into being)
+
+<list>
+            <item>* date of production </item>
+
+            <item>* place of production</item>
+
+            <item>scribe/hand</item>
+
+            <item>colophon </item>
+         </list>
+      </item>
+
+      <item>Physical Description (observable characteristics)
+
+<list>
+            <item>** dimensions</item>
+
+            <item>format</item>
+
+            <item>** extent</item>
+
+            <item>** materials </item>
+
+            <item>binding</item>
+
+            <item>illuminations</item>
+
+            <item>collation</item>
+         </list>
+      </item>
+
+      <item>Contents (i.e. interpretative features: the meaning conveyed by the
+object)
+
+<list>
+            <item>* author, and role e.g. commentator, author, translator</item>
+
+            <item>* title, subclassed as transcribed, supplied, unknown (or incipit)</item>
+
+            <item>incipit</item>
+
+            <item>explicit</item>
+
+            <item>* language and writing system</item>
+
+            <item>subject + scheme</item>
+
+            <item>form or genre</item>
+
+            <item>iconographic subjects</item>
+
+            <item>complete?</item>
+         </list>
+      </item>
+      <item>Relationship of this object to others 
+
+<list>
+            <item>references</item>
+         </list>
+      </item>
+      <item>Reproductions (mandatory, where these formed the source of cataloguing)
+
+<list>
+            <item>format</item>
+
+            <item>institution and identifier</item>
+
+            <item>date</item>
+
+            <item>rights</item>
+         </list>
+      </item>
+      <item>Record History (cf TEI revision History)
+
+<list>
+            <item>cataloguer</item>
+
+            <item>sources consulted</item>
+
+            <item>* original vs reproduction</item>
+         </list>
+      </item>
+   </list>
+
+   <p>A fuller and clearer version of this list is to be produced in the official
+report of the meeting. With this consensus established, the real work of
+defining the nitty gritty of how (for example) this consensus might be
+mapped on to a MARC record structure or a  TEI header was left to another day. The plan is to prepare a bid for a two year development
+project, funded by the EU libraries programme and co-ordinated from de
+Montfort, which will define such implementations, systems for producing
+such records in technologically-challenged libraries, and a central repository
+for them, as well as a detailed set of Guidelines. Watch this space.</p>
+
+   <p>In all honesty, I must add that some credit for the hard thinking and
+energetic discussion which characterized this meeting may be due also to
+the sybaritic nature of its surroundings. Studley Priory is a beautiful
+building, with an excellent chef, a well-stocked bar, and some rather fine
+gardens for stomping around in, even on a windy November weekend.</p>
+</div>

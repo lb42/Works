@@ -1,0 +1,450 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1986-11-07">
+
+   <head type="location">Universities of Toronto and Waterloo</head>
+
+   <head type="event">Conference on New Oxford English Dictionary</head>
+   <head type="date"> November 7-13 1986</head>
+
+
+   <p>Hearing that I was hoping to attend the second University of Waterloo
+conference on the new OED, Ian Lancashire, driving force behind Toronto
+University's thriving Centre for Computing in the Humanitives (CCH),
+kindly invited me to give a seminar there. This being too good an
+opportunity to miss, as there are several projects at Toronto of
+considerable interest, I arrived in Toronto (on a special -bilingual-
+cheap flight via Montreal) a few days before the OED Conference proper
+and visited...
+</p>
+   <p>
+ The Dictionary of Old English which flourishes in several rooms on the
+14th floor of the magnificent Robarts Library, where I saw some very
+flashy Xerox workstations given to the project together with a small VAX
+configuration. The project has a single programmer who has to develop all
+the software for editing and page make-up of the dictionary entries,
+which have now reached the letter D. They were astonished to hear that we
+could offer online searching of substantial portions of the corpus, even
+if we could not display Old English letters. Their interface is
+pleasantly similar to the desk-tops on which the terminals sit, (i.e.
+cluttered) and just to be on the safe side the project also maintains (in
+several hundred drinking chocolate cartons) numerous bits of paper
+derived from the corpus we know and love. Ashley Amos, sole surviving
+editor of the dictionary, managed to track down some obscure charters
+which a user here had been unable to find in our copy and was generally
+encouraging. 
+</p>
+   <p>
+
+ At University of Toronto Computing Services (UTCS), I inspected the
+bookshop (which is splendid) and the computer shop (likewise; hottest new
+property reportedly the Amiga 1040 which is selling like hot cakes, or
+muffins as the Canadians unaccountably call them). I was not shown their
+Cray, nor indeed their IBM 4361, but instead was introduced by John
+Bradley, apparently the resident humanities computing boffin, to TACT - a
+new interactive text-searching system he is developing to run on
+Toronto's ubiquitous (see below) IBM-XTs - and by Lidio Presutti (his
+sidekick) to MTAS, an OCP look-alike of which I was given a copy, also
+for use on IBM-XTs. Time did not permit me to discover much about the way
+the centre is organised, other than the fact that they have recently
+started charging their users real money (well, dollars and cents anyway)
+for computing resources consumed, with predictably dire consequences for
+anyone not funded by the Defence Dept or similar. 
+</p>
+   <p>
+
+  Nevertheless, Humanities Computing is set to thrive at Toronto, largely
+as a result of Ian Lancashire's "partnership" with IBM-Canada. This
+involves the setting up of four rooms full of XTs and staff to support
+them over three years, all paid for by Big Blue, which gets no more in
+return than lots of academic credibility and three years worth of
+humanities graduates convinced that all computers should run PC-DOS. Any
+software etc. developed will be placed in the public domain.  One of the
+four centres was on the verge of opening its doors: it had 24 XTs on a
+token ring with an AT as file server and three printers. The XTs were set
+up in such a way that they could only be booted from a supplied disk,
+which could not be removed from drive A. They were also bolted to the
+floor, despite Canadians' proverbial honesty. Students will use these to
+prepare machine-readable texts, using EDLIN or NotaBene (WordPerfect is
+not regarded as highly as it is here), to be processed using MTAS and
+maybe TACT. Other software to be made available includes the Duke Toolkit
+and the usual clutch of concordance packages, Kermit, network mail etc.
+as well as some public domain text-jiggling utilities designed to whet if
+not satisfy the literary appetite. Students will apparently be expected
+to become reasonably proficient in not just PC-DOS but also VM-CMS and
+UNIX as well, which seems a bit steep. Conspicuously absent was any
+whisper of what databases are for. There is rumoured to be a Masscomp
+somewhere in the English Dept but I never saw it. 
+</p>
+   <p>
+
+ I gave my seminar in the Centre for Mediaeval Studies (where the second
+of the four IBM rooms was still under construction); I had been billed to
+talk about the KDEM but instead waxed lyrical on the necessity for the
+Text Archive, the problems of representing and processing text properly
+and the wonders of CAFS to a gratifyingly large (c. 36, including the
+Director of UTCS, I later learned) audience, most of which survived till
+the end. 
+</p>
+   <p>
+
+The next day, being Saturday, I spent at Niagara Falls, of which the
+Canadian end is unquestionably the better, and truly spectacular. I was
+startled by a bright red London bus (used for touristic purposes) and
+resisted the temptation to have my photo taken going over in a barrel,
+though I did go into the tunnels behind the Falls which command a
+magnificent view of their derriere. 
+</p>
+   <p>
+
+Back in Toronto, I lunched with Michael Gervers, who runs the Documents
+of Essex England Data Set (DEEDS) project, more or less on his own with
+some Government assistance in the form of temporary (YOP-type) staff. The
+project involves the indexing of a massive collection of mediaeval
+records from Essex (England) and is the only real database project I came
+across at the University. It started off using an awful DBMS package
+which sounds like a Canadian version of IMS, but is now going through the
+traumas of conversion to Oracle, at present on a huge AT (with a 40 Mb
+disc AND a Bernoulli box), though it will be moving to the UTCS IBM
+system shortly. The cost of Oracle for this system appears to have been
+met from the IBM 'partnership', although what other users it will have in
+the absence of any local knowledge of how to exploit or support it is
+less clear.
+</p>
+   <p>
+
+I travelled to Kitchener, the nearest large town to the University of
+Waterloo, by train in the company of Willard McCarty who works with Ian
+Lancashire in running the CCH, and Abigail Young, who works on the
+Records of Early English Drama (REED) project also at Toronto. She had
+been largely instrumental in depositing in the Text Archive that
+proportion of the published corpus of REED texts which was still
+available on floppy disk, so I was very pleased to meet her. 
+
+</p>
+   <p>
+
+And so to Advances in Lexicology (not a word to be found in OED -yet)
+which was the second annual conference held at Waterloo's Centre for the
+New Oxford English Dictionary and was generally felt to be a distinct
+improvement on its predecessor. Twelve papers were given over three days
+to about 150 delegates, roughly equally divided in their alleigances
+between lexicography, computer science and artificial intelligence. One
+reception, many coffee breaks and two fairly spartan lunches were laid
+on, during all of which there was much animated discussion.  The best
+joke of the conference was probably Dana Scott's collection of howlers,
+of which I recall only "AI is when the farmer does it to the cow instead
+of the bull" which manages to combine innuendo with syntactic ambiguity. 
+ 
+</p>
+   <p>
+Howard Webber (Houghton Mifflin) 's keynote address was the only one of
+the papers not (yet) available in printed form; like many keynote
+addresses it sounded rather as if he had made it up on the plane from
+several old after dinner speeches. However, it got out of the way all
+that necessary stuff about the role of dictionaries as a sort of
+"Language Command Central" (his phrase), the unease with which
+lexicographers had regarded the machine, the difference between machine-
+readable dictionaries and lexical databases and the transition from the
+former to the latter, while also dropping a few hints about where the
+'American Heritage' dictionary project was now going in its co-operation
+with Brown University (nowhere in particular, as far as I could tell,
+other than the preparation of a new 50 million word corpus).
+
+</p>
+   <p>
+Manfred Gehrke (Siemens AG) tackled head-on the computational
+difficulties of providing rapid access to a realistically large lexicon.
+The method described, using morphemes rather than 'words' as primary keys
+has several attractive features (like the comparatively smaller number -
+and size - of such keys), though is perhaps more appropriate to highly
+agglutinative languages such as German. The fact that morphemes have
+meanings which the compounds derived from them usually employ is also of
+particular importance in German. Even so segmentation can cause problems:
+"Madchen handelsschule" is a girls business college, but "Madchenhandels
+schule" is a white slavery school. 
+
+</p>
+   <p>
+Mark Aronoff (SUNY) and Roy Byrd (IBM) gave a rather dubious account of
+the role of etymology and word length in English word formation. A
+dictionary of high frequency affix lists was extracted from the top end
+of the Kucera-Francis word list, and another unspecified 3/4 million word
+list. This was then enhanced with some fairly simple etymological
+information from Webster's 7th (i.e. did the affix enter the language
+from a Germanic language or a Romance one). Any complications (such as
+words which were imported into English from French, but came into French
+from Germanic) were rigorously disregarded, as was the distinction
+between words which were formed within the English language and those
+which were borrowed -as it were- fully formed. Much statistical jiggery-
+pokery was then employed to determine how syllable-length and etymology
+accounted for the productivity of various affixes, and much wonder
+expressed at the apparent ease with which native speakers keep their
+neologisms racially pure. But the results, as Mike Lesk pointed out,
+would have been equally consistent with a simple phonemic explanation:
+(predominantly longer) Latinate suffixes naturally sound better on
+(generally Latinate) polysyllabic verbalisations, while (often short)
+German endings go best with (mostly Saxon) little words.
+   
+</p>
+   <p>
+Walter and Sally Sedelow (Univ of Arkansas) have been in the field of
+computational linguistics almost since it began; their paper, which was
+mostly given by Walter, thus had a tendency to historical reminscence not
+quite germane to the issue, while employing terminology and a style, the
+clauses of which were embedded well beyond the capacity of most
+intelligences not endowed with a 640 Mb hardware stack, not unlike some
+really nasty exercises in automatic parsing, and consequently seemed to
+go on for a great deal of time without ever getting very far. This was a
+pity, because its subject (the adequacy and usability of Roget's
+Thesaurus as a knowledge representation language) is important and
+interesting. A mathematical model of the thesaurus (derived from work by
+Robert Bryan at San Francisco State) was presented and various other
+research reports adduced in support of the claim that the associations
+represented in Roget are actually significant. The skeptical might say
+that this was rather unsurprising; however anyone who can (apparently in
+all seriousness) express the concept in the following way (quoted from
+the abstract) clearly cannot be ignored, if only on stylistic grounds:
+
+</p>
+   <p>
+"The paper ends...with a statement to the effect that any assertions
+that the Thesaurus is a poor representation of Emnglish semantic
+organization would be ill founded and, given depth of analysis, would
+have to be regarded as counterfactual"
+
+</p>
+   <p>
+Judy Kegl (Princeton), Beth Levin (MIT) and Sue Atkins (Collins) gave
+probably the meatiest of the papers at the conference, - and
+coincidentally no doubt the only one co-written by a real lexicographer
+(Atkins). It includes much analysis of the different ways in which two
+language learners dictionaries (LDOCE and OALDCE) attempt to convey the
+intimate relationship between the various senses of English verbs and
+their complement-taking properties, (or case structure). Even such
+apparently obvious characteristics of the verb as transitivity are not
+always predictable by simple transformational rules such a "If the verb
+takes an object then it can be used passively" (e.g. "The shoes fit",
+"The shoes fit me" but not "I am fitted by the shoes"), but there is no
+self-evident place to put such facts about the verb "fit" in a
+dictionary. Consequently dictionaries differ: "cost" for example is
+intransitive according to OALDCE, and transitive according to LDOCE.  The
+paper also contains much that is refreshingly sensible about the nature
+of specialised dictionaries (such as learners' dictionaries) and the
+distinction between them and the sort of immensely complex linguistic
+snapshot to which some computational linguists expect all lexicons to
+aspire. The sort of knowledge needed for the latter, though indispensable
+to the former, must be processed and combined a way appropriate to
+particular users. Detailed assessment of the way certain notoriously
+difficult verbs are presented in OALDCE and LDOCE is used to present
+inconsistencies inherent in the absence of any generally agreed meta-
+language for verbal descriptions, a point which recurred in other papers.
+The strength of this paper is the combination of the structuring
+capabilities offered by theoretical linguistics with the reductive
+classificatory skills of lexicography, which it both demonstrates and
+advocates.
+
+</p>
+   <p>
+Thomas Ahlswede (Illinois Inst Tech) reported on the continuing saga of
+the parsing of Websters 7th, first initiated by John Olney et al in 1968.
+'Parsing' here means the recognition and extraction of semantic
+information from the text of a dictionary definition which can then be
+stored and manipulated within a lexical database. It is analagous to (but
+even more ambitious than) attempts to extract similar semantic structures
+from free text. Dictionary definitions provide implicit information about
+relationships between words, not just taxonomic (an x is a sort of y) but
+also part/whole relationships. But a simple syntactic analysis of the
+text of a definition is rarely adequate to the task of understanding it;
+a detailed lexicon containing information about each word likely to be
+encountered by the parser is evidently necessary. For Websters 7th, some
+of this information (but not all) can be extracted from the entries
+themselves, while some of it is already available in the existing
+parser's lexicon of about 10,000 entries. This process was later dubbed
+"dictionary hermeneutics" by Graeme Hirst. How much easier it might have
+been if the dictionary structure had been initially captured in a
+meaningful way (as was the OED) is an embarassing question which no-one
+had the poor taste to ask.</p>
+   <p>
+Nicoletta Calzolari (Pisa) described an equally ambitious but rather more
+practical project now under way under Zampolli's charismatic aegis: the
+construction of a bilingual lexical database (LDB) system by linking
+together existing monolingual LDBs, the linkage being provided by machine
+readable bilingual dictionaries. Combining monolingual and bilingual
+dictionaries, which typically differ in the degree of discrimination felt
+necessary for individual word senses, should lead to a much richer
+integrated system. The dictionaries to be used include Zingarelli,
+Garzanti, Collins Italian/English, LDOCE and OALDCE. No complex supra-
+linguistic model is envisaged, simply the ability to discriminate senses
+when going in either direction between two languages. Such old chestnuts
+as the fact that Eskimos have 99 different words for 'snow' and Arabs
+none at all were not on the agenda: the project is not really concerned
+with semantics, but aims rather to provide a useful tool for translators
+and others using existing dictionaries. 
+</p>
+   <p>
+The final session of the second day comprised summaries of the current
+state of play of the NOED Project itself, as viewed by firstly Tim Benbow
+and John Simpson (OUP) and secondly Frank Tompa and Gaston Gonnet
+(Waterloo), all of whom were sporting Oxford Dictionary Ties to mark the
+occasion. Benbow reported  that the dictionary's 21,000 pages had now
+been rendered machine readable, using an estimated 500 million
+keystrokes, with an error rate of around 4 in 10,000; this was being
+proof read and corrected by ICC to bring the residual error rate down to
+less than 1 in 250,000 characters. The data is held at Oxford and
+manipulated in a SQL database under VM/CMS. Rick Kazman's parser would be
+used to convert the ICC mark-up to SGML, and other software developed in
+house mostly by IBM secondees (e.g. a text editor called LEXX) will be
+used by the lexicographers to complete the integration of the dictionary
+and the supplements. Some wholesale changes will be made (notably
+Murray's method of representing pronunciation will be replaced by IPA) at
+the same time as automatic integration is carried out; some (about 4000)
+new words/senses will also be added to bring the early parts of the
+supplement up to date (This is the responsibility of John Simpson's NEWS
+project).  Publication of the new integrated dictionary (the Book) is
+planned for spring 1989. It will have 22 volumes and cost about £1500. 
+Publication of a CD-ROM version of the OED alone (without supplements) is
+also planned, probably for late 1987, mainly as a means of testing the
+market for electronic forms of the dictionary, and providing information
+for the database design work going on at Waterloo. It is hoped to set up
+a unit of lexicographers in Washington which, together with the NEWS
+team, will ensure that the dictionary, or rather its eventual electronic
+form, will be kept up to date on both sides of the Atlantic.
+
+</p>
+   <p>
+At Waterloo several very interesting pieces of software have been
+developed, which were described by Gaston Gonnet and Frank Tompa. While
+waiting for the ICC data to reach them, they had been experimenting with
+a smaller dictionary of Trinidadian English which had successfully
+demonstrated the generality of their approach. The software used
+comprises (1) INR/lsim - a parser-generator and parser for context free
+grammars (2) PAT - a fast string searcher and (3) GOEDEL the "Glamorous
+OED Enquiry Language". INR/lsim (no-one seems to know what this is short
+for) resembles in philosophy the parser-generator developed for Project
+TOSCA at Nijmegen, though I never got the opportunity to ask Tompa
+whether he'd heard of this. Maybe it's just the only way of solving the
+problem properly. It has been used by Kazman among others to convert the
+ICC mark-up to SGML, and to convert the OALDCE tape as first supplied to
+the Text Archive into a similar SGML markup. PAT (written by Gonnet who
+has made quite a study of text searching algorithms, I discovered) stores
+indexes to a text in a Patricia tree, a form of condensed binary tree new
+to me, though apparently to be found in Knuth if you know where to look.
+PAT is very fast but, at present, very simple minded. GOEDEL is a more
+sophisticated system, still under development, the most crucial element
+of which is not so much its current Algol-like syntax as the fact that
+its basic datatype is a parse tree (again like the Dutch system). This
+solves all manner of nasty data management problems and bridges the gap
+between DBMS and Text Processing systems in a way at least as natty as
+CAFS and probably more so. The user specifies a parse tree for the text
+to be returned and can impose selectional restraints using SQL like
+conditions.
+
+</p>
+   <p>
+Peter Davies (described as an 'Independent Lexicographer') read out his
+paper from the conference proceedings in a dry monotone well suited to
+its contents, which contained rather few conclusions derived from some
+fairly specious data. He had tagged the most frequent word forms in the
+American Heritage Corpus with the century of their introduction to
+English and the language from which they derived. (Like Aronoff and Byrd
+he was uninterested in the fact that this corpus neither distinguishes
+homographs nor associate inflections of the same lemma.) The results
+presented were raw percentages  ("In the top 500 types, 75% are native")
+with no attempt to adjust for the known skewness of vocabulary
+distribution irrespective of origin. 
+
+</p>
+   <p>
+Alexander Nakhimovsky (Colgate) is much obsessed with time, more
+specifically with how language reflects "common-sense reasoning" about
+the nature of time. He is one of the "Meaning-Text" school of Soviet
+theoretical linguists. To understand why to answer "I have a 12.30 class"
+constitutes refusal of a lunch invitation requires not just knowledge of
+social convention, but also of the probable durations of lunches and
+classes. English verbs are not marked for perfect as opposed to imperfect
+so that "Alice read her book quickly" could have two quite different
+meanings (either as a process or as an event). Knowledge of the duration
+of events is a linguistic phenomenon because many words cannot be
+understood without knowing the duration typically associated with them -
+not just obvious words like 'lunch' or 'nap', but also 'holiday' (which
+cannot be in minutes but is usually not in years) or 'insomnia'(which
+cannot be measured in minutes nor go on in the afternoon). It is apparent
+that the units of time appropriate to common sense reasoning vary with
+the duration of the event, as does their precision. (Thus '5 minutes'
+means somewhere between 1 and 10, but '3 minutes' usually means just
+that). To make up for the absence of a perfective/imperfective aspectual
+difference, English relies on an opposition Nakhimovsky calls
+telic/atelic, which has to do with the narrative within which the verb
+appears, so far as I understand (or have understood) it. 
+
+</p>
+   <p>
+Fabrizio Sebastiani (Pisa) presented a more conventional view of the role
+of the lexicon in describing QWERTY, a knowledge-based system designed to
+'understand' technical writing. It operates by converting parse trees
+representing syntactic structures onto semantic structures represented in
+the knowledge representation language KL-MAGMA. The fact that technical
+writing is mostly composed of 'paradigmatic' sentences, from which such
+nasty problems as mood, aspect and temporal position are conspicuously
+absent was touched but not insisted upon: unfortunately Sebastiani did
+not allow himself enough time to make clear exactly what was original in
+the system nor how effective the design was in practise.
+
+</p>
+   <p>
+Graeme Hirst (Toronto) closed the conference on a controversial note
+which also managed to bring together the two sides of lexicology, if only
+in debate. His paper stated with agreeably frank partisanship why
+dictionaries should list case structure, that is, specifications of the
+valid roles associated with any particular verb, together with any
+semantic restrictions on the values that may fill those roles and any
+preposition or other syntactic marker specific to them. Case structures
+may be found in one guise or another in almost every theory of language
+or cognition, from Chomsky to Charniak, and in a weak form are almost
+present already in the 'verb-patterns' specified in some language
+learning dictionaries. Hirst's most telling argument in favour of his
+proposal was that if lexicographers did not supply such information then
+computational linguists would, and would certainly do a worse job of it.
+The most telling counter argument was that, at present, no-one has a
+clear idea of exactly what cases (roles) exist nor is there any agreement
+on how to define them. A less telling counter-argument, which to my mind
+unnecessarily dominated the subsequent heated discussion, was the
+economics of adding this information to the already overcrowded pages of
+a dictionary; when pressed, Hirst said that he thought it would be more
+use to more dictionary users than etymology if something had to be
+sacrificed. 
+
+</p>
+   <p>
+After the conference proper, I visited the NOED Centre itself, where I
+met Donna Lee Berg, the librarian on the project, and acquired offprints
+of some technical reports on the software being developed there by
+Gonnet. I also watched some confused lexicographers struggling with
+GOEDEL and, while being very impressed by the power of this system, was
+glad to notice that there are 18 months labelled "development of user
+interface" set aside in the planning of the project which have not yet
+begun. 
+
+</p>
+   <p>
+Back in Toronto, I found Ian Lancashire very busy preparing a long term
+plan for funding humanities computing beyond the end of his IBM
+partnership. This entails the preparation of a detailed report of all the
+activity currently going on at the six or seven universities in Ontario
+which is to be presented to the Ontario government with a request for
+funding very shortly. I managed to distract him sufficiently to discuss
+briefly his slightly different views of the functions of a text archive.
+He wishes to see texts distributed as freely as public domain software,
+the role of the Archive being simply one from which an original non-
+corrupted version can always be retrieved, and the only restriction on
+the user being simply not to redistribute materials for profit. To that
+end, all texts encoded at Toronto (and there will be many, since
+preparation of a specified text forms a part of students course work)
+will be prepared to a common standard from non-copyright texts, such as
+facsimiles of early printed books. Whether this is practical in our case,
+where many of our texts are prepared from modern editions or texts
+otherwise still in copyright, is unclear. It is certainly something we
+should consider when capturing texts in the future however. I would also
+like to give some thought to the possibility of making some of our other
+texts more freely available (i.e. copyable).
+</p>
+</div>

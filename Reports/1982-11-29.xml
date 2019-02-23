@@ -1,0 +1,40 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1982-11-29">
+   <pb facs="Pages/img446.jpg"/>
+   <head type="report"/>
+   <head type="location">BP
+Britannia House.  </head>
+   <head type="when">25.11.82</head>
+   <head type="event"> BCS information Retrieval Specialist Group
+Seminar on Integrated Text and Data Management Systems.</head>
+   <p>I am sorry
+to have to report that this expensive and over-subscribed
+event turned out to be little more than an extended commercial
+for BP's super new all integrated management information system
+and for the (horrible IBM) systems analysis package they used to
+create it. Even the three non-BP speakers allowed onto the platform
+eventually provided little more than an object lesson on how to sell
+ancient data management concepts to the managerial class, though they
+did at least address the ostensible subject of the seminar. Other than
+that, it was all about identifying BUSINESS OBJECTIVES AND STRATEGY
+and drawing up matrixes showing which Business Procedure corresponded
+with which Business Objective, enlivened only by the odd bloomer ("Is
+the company properly organised to meet its informational
+requirements?"), three times over. The other three speakers were
+marginally more interesting. Roger Tagg (a fellow DBAWG person)
+discussed how disparate the elements of an integrated system would
+have to be, to include elements such as 'confravision', 'colour
+graphics' and what the French call 'bureautique' (i.e. office
+Automation). His type of systems analysis, he clearly opined, was more
+than equal to the task, if the software wasn't. The second interloper
+was Ed Tozer (a fellow DMUG person) who did a reasonable job of
+plotting the available software along such unfamiliar axes as 'type of
+user' (management/specialist/clerical) and 'type of query' (high/low
+volume, un/structured, ad hoc...). He also asserted that within a few
+years we would all have a mip on our desks, if not in our pockets. The
+third interloper, a fellow academic from Newcastle, was similarly
+apocalyptic about various new types of chip, expert systems, join
+machines etc. The day was not however a complete waste of time:
+over the (also awful) lunch I met the newly appointed head of ICL's
+IDMS design team and impressed on her our distaste for being compelled
+to use DDS, requirements for Fortran etc. etc. </p>
+</div>

@@ -1,0 +1,251 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1997-04-12">
+   <head type="event">PALC97: Practical Applications of Language
+ Corpora</head>
+   <head type="location">University of Lódz</head> 
+   <head type="date">April 12-14 1997</head>
+
+   <p>It's somewhat of a cliché to describe
+<ref target="http://www.uml.lodz.pl/indexe.html">Lódz </ref>(pronounced,
+approximately, <hi>Wootch</hi>)  as the Manchester of Poland: this
+doesn't mean so much that it is blessed by an excellent football team,
+as that it is cursed with a major industrial past. At the turn of the
+century, it was a rich city, built on cloth, and with one of the most
+prosperous middle class communities east of Berlin. The centre of the
+town, and the University quarter, still boasts a number of the fine
+houses they built, some of them now being carefully restored; others
+still hidden beneath the grey dust and neglect that seems to live over
+the whole of this region of Europe. But then, of course, came the
+thirties, and the appropriation of Poland by invaders, first from the
+West, and then from the East.  Lódz, I learned from my Guidebook,
+has the dubious honour of having been the first city in modern times to
+establish a ghetto and
+<ref target="http://www.virtualfilm.com/html/Screening/Documentary/Lodz_Ghetto/lodz_index.html">the
+ghost of that absence</ref> still haunts the place.  Curiously, for there
+are now no Jews to be seen here, it's the star of David which is now
+daubed on walls, in contexts where elsewhere one might find the swastika
+daubed, in association with the swirling iconography of urban rage
+imitated from the inner cities of further west.  </p>
+   <p>The teaching of English is a major growth area in Polish
+universities; for every student learning Russian or  German, there are
+ten wishing to learn the language of McDonalds and Marks and Spencer,
+whose emblems  now dominate the centre of Warsaw as well as that of High
+Wycombe. <ref target="http://www.britcoun.org/poland/poleven.htm"> The
+British Council </ref>appears to be playing a major role in satisfying
+this demand,  as witness its funding of this conference, and a number of
+other educational programmes aimed at secondary and tertiary English
+language teaching. An unusual and interesting aspect of these programmes
+is the recognition that access to (and study of) language corpora are of
+particular importance if there is to be a systematic improvement in the
+quality of English spoken (and taught) by Poles. Hence the organization
+of this well-attended international conference. </p>
+   <p>The <ref target="http://www.uni.lodz.pl/iangl/palc.htm">four day event
+</ref> was hosted jointly by the British Council and the
+<ref target="http://www.uni.lodz.pl/iangl/engphil.htm">University of Lódz
+Institute of English Studies</ref>, represented respectively by Susan
+Maingay and Barbara Lewandowska, with assistance from James Melia, and
+took place in the University's recently constructed and  comfortable
+conference centre. Each day began with a brisk walk to the University's
+council chamber for a plenary session,  held beneath the stern depicted
+gaze of assorted  dignatories in funny hats, followed by parallel
+sessions at the conference centre, combining project reports and
+research papers from a wide spread of corpus applications and interests.
+ Evenings were given over to relaxation, discussion, and the opportunity
+to sample some excellent Polish hospitality.</p>
+
+   <p>
+      <label>Plenary sessions</label>
+   </p>
+   <p>The conference began on a high note, with an excellent lecture by
+Professor <hi>Michael Hoey</hi> (<ref target="http://www.liv.ac.uk/~tony1/aelsu.html">Liverpool</ref>) on the
+nature of the corpus linguistics enterprise, the questions it asked, and
+ the answers it might provide. Asserting that corpora could be used to
+provide evidence of lexical patterns, of semantic prosodies, of
+syntactic patterns, of colligation, and  even of text grammars, Hoey
+proceeded to discuss striking examples from each of these categories, of
+which I will summmarize here only  what he called "the drinking problem
+principle". If someone has difficulty in drinking, it will generally not
+be referred to as a <hi>drinking problem</hi>  because the more common
+collocational sense is inappropriate. In the same way, corpus evidence,
+rather surprisingly, demonstrates that following a posessive adjective
+(my, our, his etc) the plural form <hi>reasons</hi> is always preferred
+to the singular <hi>reason</hi> when the intended sense is "cause" (our
+reasons for doing this...) rather than "rationality"  (to lose one's
+reason).  </p>
+   <p>The second plenary speaker was <hi>
+         <ref target="http://www.ling.lancs.ac.uk/staff/tony/tony.htm"> Tony McEnery</ref>
+      </hi>
+(Lancaster Univ) introducing the notion of what he called multimedia
+corpora. He stressed the  need to introduce visual information as a
+context for understanding verbal material, and showed us a few pages
+from the corpus of children's writing and drawings currently being
+created at Lancaster, which will be distributed freely over the web.</p>
+   <p>The final plenary speaker was <hi> Patrick Hanks</hi> (OUP) who gave a
+bravura demonstration of the problems that corpora give lexicographers.
+What exactly is it that lexicographers do when they go through the lines
+of a concordance assigning each one to some sense or another of a word?
+and how on earth do they do it? Hanks has published several papers on
+this, and worked with some of the best computational names in the
+business (Atkins, Fillmore..) but he's honest enough to say he still has
+no definitive answers. His presentation focussed on a few interesting
+examples: the word "baked" for example, which seems to require certain
+lexical classes (not just edible food stuff, but specific categories of
+them) and the word .</p> 
+   <p>
+      <label>Parallel sessions</label>
+   </p>
+   <p>In the nature of things, I couldn't attend all of these. The
+exigencies of time and space meant that I had to choose to miss
+presentations from <hi>inter alia:</hi> Bengt Altenberg (Lund), Wieslaw
+Babik (Krakow), Michael Barlow (Rice), Simon Botley (Lancaster), Igor
+Burkhanov (Rzeszów), Doug Coleman  (Toledo), Martha Jones
+(Nottingham), Dorothy Kenny (Dublin), Bernhard Kettermann (Graz),
+Przemyslaw Kaszubski (Poznan), Anne Lawson (Birmingham),  Barbara
+Lewandowska-Tomaszczyk (Lódz) , Belinda Maia (Oporto), Michal
+Pawica (Kraków), Margherita Ulrych (Trieste), and Maciej Widawski
+(Gdansk), whose names I list to give at least some indication of the
+geographical spread of participants. What follows by way of review
+should therefore be regarded only as  a sample of the concerns raised
+and materials discussed -- though  not, I hope, too unrepresentative a
+one.</p>
+
+   <p>
+      <hi>Stig Johansson</hi> (Oslo) reported on the progress of the <ref target="http://www.hd.uib.no/enpc.html">English-Norwegian parallel
+corpus project</ref>, now expanding to include up to a hundred texts in
+other European languages, notably German, Dutch, and Portuguese. The
+well thought out design of this corpus allows comparison both between
+texts translated from language A into language B, and the reverse,
+although it is not always easy to find sufficient texts to do this
+(there are far more English-Norwegian translations, for example, than
+the reverse, simply because it is hard to find comparable texts) In a
+separate evening session, he described some of the software developed
+for the project, in particular the automatic alignment procedure
+developed at Bergen by Knut Hofland and a Windows retrieval package
+developed by Jarle Eberling at Oslo. </p>
+
+   <p>
+      <hi>
+         <ref target="http://www.bbc.co.uk/worldservice/BBC_English/summer_school/runtalk.htm">Michael
+Rundell</ref>
+      </hi> (Longman) gave a pleasant presentation about corpus
+evidence for the British fondness of understatement, in particular the
+phrase <hi>not exactly</hi> and similar ironic uses. It's probably not
+too controversial to say that this was not exactly unfamiliar to those
+who had heard him speak at
+<ref target="http://www.comp.lancs.ac.uk/computing/research/ucrel/talc/">TALC
+last year</ref>, but none the worse for that.</p>
+   <p>
+      <hi>
+         <ref target="http://www.sslmit.unibo.it/aston/guypage.htm">Guy
+Aston</ref>
+      </hi> (<ref target="http://www.sslmit.unibo.it/">Forlì</ref>)
+contrasted the pedagogic usefulness of large corpora such as Cobuild or
+the BNC with that of small specialized corpora drawn from, specific text
+types, such as a 14,000 word "hepatitis corpus" in use at Forlì.
+Small corpora are more easily managed by the language learner, and their
+lexis can be studied <hi>in extenso</hi>; learners can use them to
+practice their inductive powers, hypothesizing lexical, colligational or
+collocational patterns, which may or may not be confirmed by examination
+of large reference corpora. In this respect, it is possible to get the
+best of both worlds. </p>
+   <p>
+      <hi>Akua Anokye</hi> (<ref target="http://www.utoledo.edu/colleges/arts-and-sciences/africana/">Toledo</ref>)
+described some interpretative problems in analyzing the transcriptions
+of Afro-American folk narratives recorded on aluminum disk by Hurston,
+Lomax et al in the late twenties and now stored in the Library of
+Congress. She had transcribed some of these recordings, using her own
+scheme, and presented a largely impressionistic account of the interplay
+between their phonological and contextual features.</p>
+   <p>
+      <hi>Sylvia Shaw</hi> (Middlesex) described how  corpora had
+influenced the production and format of the third edition of Longman's
+<hi>Dictionary of Contemporary English</hi>. This had included both the
+use of  frequency information, derived from large corpora, and
+particular attention to typical language learner errors, derived from
+corpora of language learners' production. Thus the student can be
+advised, for example, of the range of things to which words such as <hi>beautiful</hi>
+are typically applied by native speakers, which is much smaller than
+that used by language learners, and given advice on how to choose
+between near synonyms such as <hi>error</hi> and <hi>mistake</hi>.</p>
+   <p>
+      <hi>
+         <ref target="http://www.bus.bton.ac.uk/Staff/RSalkie/RSalkie.html">Raphael
+Salkie</ref>
+      </hi> (Brighton) quoted a number of French writers' opinions
+about the differences between French and English,  intended to help
+translators as rules of thumb (e.g. ). His paper reported some
+interesting work on the extent to which these perceptions were born out
+by corpus evidence, and gave a brief overview of the
+<ref target="http://bmserver.bus.bton.ac.uk/FGNT/BusSchool/Research/LangCent/Intersect.html">Intersect</ref>
+project.</p>
+   <p>
+      <hi>Chris Tribble</hi>, (Lancaster, Reading, Warsaw) picking up Guy
+Aston's paper on the benefits of small corpora, suggested that for 
+class room use, small  corpora were of more use than large as well as
+being more accessible.
+<ref target="http://sun1.bham.ac.uk/johnstf/palc.htm">His paper</ref>
+reported on some experiments using Microsoft's <hi>Encarta</hi> as a
+language resource (as well as a source of factual information) noting
+that the type of language it contains is very similar to that which
+language learners are typically required to produce: brief factual
+articles. </p>
+   <p>
+      <hi>
+         <ref target="http://www-clg.bham.ac.uk/oliver/">Oliver Mason</ref>
+      </hi>
+(né Jakobs) from <ref target="http://www-clg.bham.ac.uk/">Birmingham</ref>
+presented what was in many ways an exemplary research report about some
+very interesting work he has been doing on identifying statistically the
+size of collocation spans, by calculating the type-token ratio of the
+words appearing in each position to the left and to the right of the
+keyword. The results are striking: different node words exhibit
+strikingly different patterns of influence on their neighbours, giving a
+visual hint of the extent to which they construct fixed phrases, for
+which he proposed the term <hi>lexical gravity</hi>. </p>
+   <p>
+      <hi>Sylvia Scheur</hi>  (Poznan) discussed several aspects of her
+research into the pronunciation difficulties faced by Polish-speaking
+learners of English. She had recorded 17 Polish language-learners
+reading the same English texts at the start of their course and a year
+later, and was transcribing these phonetically (using the SAMPA writing
+system for the International Phonetic Alphabet, developed by John
+Wells). Students were also asked to assess their own performance, which
+produced some interesting comments about their perceptions of English
+prosody.</p>
+   <p>I gave<ref target="http://info.ox.ac.uk/bnc/papers/burnard96a.htm">
+that paper about the BNC  and SARA</ref> again, spiced up somewhat for
+this audience by the addition of hints about forthcoming availability of
+the corpus outside the EU, and also with the first ever live
+demonstration of the sampler corpus.</p>
+   <p>
+      <hi>Philip King</hi> (Birmingham) gave an overview of the
+<ref target="http://sun1.bham.ac.uk/johnstf/lingua.htm">Lingua multilingual
+parallel concordancing project</ref>, now in its second phase of
+existence, with a particular focus on some of the pedagogic software
+being developed at Birmingham for its exploitation, its use in
+generating course material for student use, and the ability to browse
+and search parallel corpora.  It would be interesting to compare the
+methods and results of this project with those of the ENPC described by
+Stig Johansson, but no-one had the temerity to do so, in public at
+least.</p>
+   <p>
+      <label>Social events</label>
+   </p>
+   <p>Like other academic conferences this one was oiled by a couple of
+very pleasant evenings, drinking, dining, and discussing. Particularly
+memorable was an evening concert of baroque music by Teleman and Handel
+played on original instruments, followed by a splendid buffet dinner.
+This was held in one of the afore mentioned bourgeois palaces and much
+appreciated by all. After a couple of glasses of very drinkable
+Hungarian wine, McEnery, Ketteman and I were able successfully to
+empress all the help we needed to make TALC 98 (hopefully, to be held in
+Oxford next July) a reality.   </p>
+   <p>I also took the opportunity of a free Sunday at the end of the
+conference to visit Arkadia: this is an ornamental garden full of
+<ref target="http://users.ox.ac.uk/~lou/Pix/arkadia.jpg">picturesque gothic ruins</ref>, classical statues, and the like, originally
+laid out by the local aristocracy in the 18th century, and now a
+pleasant enough place for a Sunday afternoon stroll. Getting there
+involved a detailed and educational study of Polish regional railways
+and  bus services, to say nothing of the refreshment room at 
+<ref target="http://users.ox.ac.uk/~lou/Pix/lowicz.jpg">Lowicz
+railway station</ref> (which I won't). </p>
+</div>

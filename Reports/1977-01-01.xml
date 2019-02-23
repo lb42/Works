@@ -1,0 +1,74 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1977-01-01">
+   <pb facs="pages/img393.jpg"/> 
+   <head>QUARTERLY REPORT Jan-March 1977:
+L. BURNARD</head>
+   <p>This quarter I have kept a diary.</p>
+   <p>1 1900
+Activities</p>
+   <p>The Oxeye Users Guide was published on 24th January
+and I gave a presentation of the package at one of Susan's Computing
+in the Arts seminars.</p>
+   <p>A new SPITBOL compiler arrived on 17th
+February. This version operates by default in a fundamentally
+different way from previous ones. The choice was between leaving
+existing programs un-modified but increasingly inefficient and
+carrying out a substantial amount of re-writing.</p>
+   <p>As far as OXEYE
+was concerned, various modifications had to be made to improve the
+packages portability in any case, so I chose the latter
+alternative. At the request of the original Eyeball's designer, I
+wrote an Oxeye/Eyeball interface and incorporated a Fortran program
+into the system. The new version (1.1) of Oxeye was put up on 30th
+March. Copies are being distributed to sites as distant as Swansea and
+Minnessotta.</p>
+   <p>With the new SPITBOL compiler there came a large
+normal mode file, which proved to be very comprehensive
+documentation. I added a chapter on the macro facilities etc. local to
+Oxford, and (after some problems with exclamation marks) a clean copy
+of this page document was produced on the PDP8 printer, from which
+manuals are currently being made by the Print Unit.</p>
+   <p>2 2900
+Activities</p>
+   <p>I have been using the Putney machine extensively this
+quarter.</p>
+   <p>IDMS is not yet available at Bath, though it should be
+after Easter.</p>
+   <p>I ran the IDMS installation test successfully on
+18th January, and used the SORT and DATAVALIDATE modulfiS of the DMUS
+successfully a few days later.</p>
+   <p>There then followed a week of
+lost blocks during which the Project Team showed itself remarkably
+well-ter.ipered. By 9th February however I had successfully compiled
+my own schema and DMCL for the pilot IDMS project. This is to be a
+study of the last 15 years of observations of swans on the Thames
+however, since most of the data is still stored in several shoeboxes
+of grubby notebooks, I wrote a program to generate some test data. The
+first attempt to store any of it in the IDMS database failed because I
+had made the page size too small (128 bytes as opposed to a suggested
+l-l\ thousand), but at the second attempt 25 of my synthetic swans
+fluttered home to roost before a logical error in my schema design
+caused run-unit abortion..Using IDMS is a complicated business so I
+spent the next week or two on a MAC terminal writing an SCL macro to
+make it less of'a feat of memory. This was successful up to a point,
+though much remains to be understood. The whole application program
+ran successfully on MAC on April 4th.</p>
+   <p>0ther Activities</p>
+   <p>I
+presented a less than revolutionary paper on the allocation of
+transient budgets at a User group meeting on 12th January.</p>
+   <p>I
+attended an IDMS User Group meeting at the Ministry of Agriculture,
+Fish and Food on February 2nd, where there was a presentation on the
+Data Dictionary System. Mr. T. Bourne (of GPCD S and TS) subsequently
+came to Oxford to discuss the DDS launch and agreed to consider any
+application of the package we might find as a candidate for his
+assistance.</p>
+   <p>Possible future applications of IDMS were discussed
+with Dr. Shaw (Radcliffe Science Library), Mr. Wright (Forestry) and
+Miss Pickbourne (Genetics).</p>
+   <p>I attended a somewhat dispiriting
+seminar on the DMUS run by the 2900 Applications Committee and a
+presentation by Dr. Coles (Northwick Park) on an automated SNOP system
+for coding histopathological data at the Regional Health
+Authority,</p>
+</div>

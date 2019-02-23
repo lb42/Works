@@ -1,0 +1,118 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1985-06-13">
+   <pb facs="Pages/img470.jpg"/>
+   <head type="report">VISIT REPORT 10 Royai
+National Hotel 13 June 1985</head>
+   <head type="event">ICL DMUG/LSUG
+</head>
+   <p>This was the first joint meeting of two of the larger ICL
+user groups (Data Management and Large Systems) which are to
+amalgamate in line with reorganisation within ICL later this year. It
+began with reports from three working parties of DMUG (LSUG doesn't
+seem to have any) which are to be published shortlyThe DOS Subgroup s
+report sounded interesting: it makes recommendations about good
+practise and proposes some major enhancements, notably interfaces
+between DOS and graphics packages and text retrieval systemsThe IDM3X
+subgroup's report, being largely about what to do when your corporate
+database is so huge and complex your subschemas are too big for the
+Cobol compiler, sounded less interesting: apparently 29 enhancements
+to IDHSX are detailed in it. The Applications Generation Subgroup is
+responsible for something called "4GL" which turns out to mean
+Application Master and Report Master (but not RCI); its spokesman
+didnt get much time to do more than say that although their report was
+being printed and did describe some of the shortcomings of AM, they
+did not feel their work was half begun yet.</p>
+   <p>These reports were
+followed by three presentations, two short and commercial, one long
+and less so. A man from Cincom, the company which gave you TOTAL (a dbms
+so antiquated it has 16 years experience in the field), gave quite an
+impressive condensed sales pitch for MANTIS. This is a fast selling 4th
+Generation system now available for VME machines as well as Honeywell,
+IBM, VAX..The next release (but not this one) will use ICL s IDMS and
+DOS underneath; it has its own dbms which supports a methodology not a
+million miles from SSADM; also its own procedural programming language
+described endearingly if obscurely as a "mix of Basic, PL/1, Pascal
+and APL"Equally ingenuously, the man said that it was a high
+performance system because it was "compile-free" i.e interpretive : a
+clanger which all subsequent speakers picked up.</p>
+   <p>Second sales
+pitch of the day was for MINER, oxymoronically described by someone
+called Mel from Savant Enterprises as "the software machine". Mimer
+hails from Uppsala University (one of the world's leading software
+research centres according to Mel, who hails from Croydon) and is not
+just a 4th generation package; on the contrary, "Mimer is ready to
+move to 5th and 6th generation systems". Such technical details as did
+appear amongst the hype were that the system is based on B-trees and
+uses lots of virtual memory (this tactic was grounds for the assertion
+that MIMER is "usually faster than IDMS with CAFS"); also that there
+was no need to reorganise the B-tree indexes because they were
+"automatically self-balancing". It probably is quite a good package, but
+putting a nice screen front end on it doesnt make it a 4GL in my
+book.</p>
+   <p>Highlight of the day was undoubtely a presentation
+(complete with live demo) by Chris Worsley from the Electricity
+Council of their very own home-grown ECLIPSE ("Electricity Council s
+Integrated Programming Systems Environment" - of course). The EC is
+responsible for collating and reporting to Government on the vast
+amounts of information produced by the different Electricity Boards,
+all of which (at least until recently) had
+completely independent data management policies, never mind the
+mixture of pcs, mainframes, IBM, ICL, etc. A common equipment policy has
+now been decided upon (which incidentally features CAFS heavily), but
+the evolution of a corporate database is still going on. The problem
+with ICL's DDS (which Worsley otherwise considered "superb") was that
+there was no automatic connexion betwen the top and bottom halves of
+the quadrant. ECLIPSE uses a code generator called DELTA (not sure where
+it comes from) to transform <pb facs="Pages/img471.jpg"/> essentially documentary
+specifications into code (COBOL, SCL etc) appropriate to all sorts of
+machines. The novel thing in all this is that the ECLIPSE user is
+specifically disallowed access to any interface beyond documentation!
+Code is described in terms of LUPOs and LAMs; the system generates
+Delta code from this, which is in turn transformed into Cobol ,
+Fortran, PL/1 etc. Local coding standards are rigidly enforced:
+attempted violations of them (such as the use of GOTOs or introduction
+of DML) will not be compiled. The demonstration showed how simple it
+was to set up a typical application, using a menu-driven screen
+painter like ISDA but rather smarter. A nice touch was that the Report
+Generator looked very much like the Screen Painter. The package is to be
+marketed by CAP.</p>
+   <p>After a reasonable lunch (waiter service, hot
+chicken, cold profiteroles, but not enough wine), assorted ICL hacks
+took the stand. John Sale presented a paper (attached) about release
+dates and product versions: some kerfuffle was provoked by the
+withdrawal of support for VHE 8.01 at the end of June, of which many
+present claimed to be unaware, likewise by the continued
+non-appearance of QM250, Peter Kirby gave a bland but unexceptionable
+chat about future trends within DOS, using the word "motherhood" (in
+the sense "platitude") several times, which I have not come across in
+an English speaker before. A recent NCC survey had shown that the
+proportion of ICL users using DDS was far higher than the proportion
+of non ICL users using any comparable product: this shows either that
+DDS is a market leader, or that IBM users are a bunch of wallies, or
+(most likely) that it is quite difficult to avoid using DDS if you are
+an ICL shop. Amongst the DDS enhancements specifically mentioned as in
+the pipeline were support for multiple projects, improved performance,
+text retrieval facilities, national language capabilities and (most
+interesting) a tailorable set of screen interfaces to allow for
+distributed processing at graphics workstations, document preparation
+systems etc.</p>
+   <p>Guy Haworth here took to the podium and gave a
+bright and breezy slide show (featuring I regret to say an aerial view
+of our very own dreaming spires cheek by jowl with a picture of QMC s
+IRAS satellite) about how absolutely wonderful CAFS was. He described
+the chief products (remembering to mention that CSO is only COBOL
+compatible) and showed pictures of the various industry gongs (now
+numbering three) which CAFS has collected so far.</p>
+   <p>The day closed
+with a presentation, again including a live dem, by Andrew Walker of
+the long awaited QUICKBUILD, now mysteriously called Quickbuild
+Pathway, which is not (except perhaps metaphorically) a new sort of
+concrete, but the latest all-singing all-dancing ICL user-interface to
+AM, QM, DDS, 1DMS etc etc. All the tedium of entering data into the
+dictionary, generating guery views, applications, schemas etc is
+lumped together into this product, together with a nice friendly
+screen driven interface with built-in help. It also, if I heard aright,
+generates default database definitions directly from the business
+model definitions, thus at last crossing from top to bottom half of
+the dictionary. I think we should order a copy, so long as it's
+free.</p>
+</div>

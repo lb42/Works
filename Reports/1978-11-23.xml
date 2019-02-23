@@ -1,0 +1,29 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1978-11-23">
+   <pb facs="Pages/img411.jpg"/>
+   <head type="report"/>
+   <head type="event"> ICL IDMS User Group Meeting
+</head>
+   <head type="location">Polytechnic of Central London</head>
+   <head type="when">23 Nov
+78</head>
+   <p>This was the first meeting of the main group since I
+joined its executive. About 50 to 60 people were present, representing
+some forty different organisations, the large majority being
+commercial or government installations. The minutes, including a list
+of attendees, will be available when I get my copy.</p>
+   <p>The main
+business of the meeting was to discuss the proposed changes in the
+Group's structure and the change in its name. It was agreed that the
+group should now be known as the Data Management User Group or DMUG. I
+gave a (necessarily) brief outline of the activities of the Fortran
+sub group, and was subsequently approached by two possible future
+users of the Fortran inter face (bnoc and WHSmith).</p>
+   <p>In the
+afternoon, Geoffrey Baker, a consultant for a firm called CACI, gave a
+brief outline of a system he had developed for the NERC's Marine
+Agency, for collecting and storing scientific data about the sea. The
+novel feature of the data scheme was that descriptive elements were
+included in the database, giving unusual flexibility. The system was,
+effectively, a combined data dictionary and network database. Such a
+system might well be of use to some of our users.</p>
+</div>

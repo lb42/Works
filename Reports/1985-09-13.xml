@@ -1,0 +1,143 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1985-09-13">
+   <pb facs="pages/img486.jpg"/>
+   <head type="report"/>
+   <head type="location"> City University </head>
+   <head type="when">13-14 Sept. 1985</head>
+   <head type="event">Databases for
+the Theatre</head>
+   <p>This one and a half day conferencette had been
+ingeniously timed to squeeze into a weekend separating the annual
+gatherings of two ot the three major international bodies to do with
+theatre research, namely SIBMAS (Societe Internationale des
+bibliotheques et Musees des arts du Spectacle); which was last week,
+and FIRI (Federation Internationale de recherches Theatrals) , which
+is next week. Consequently it attracted a rather more distinguished
+and cosmopolitan patronage than its subject matter miqht have lead one
+to expect. There were about a hundred delegates, mostly British or
+American, though with a sizeable number of German, French, and
+Scandinavians as well. More exotic presences included a lady from the
+Australian Arts Council, a Pole and a genuine Russian from
+Moscow. Most of those present appeared to be fairly senior staff from
+theatre museums, libraries or archives, having only a smattering of
+knowledge about computing, with a few notable
+exceptions.</p>
+   <p>Proceedings were held at Gresham College, which
+seems to be the nom de guerre of City University's Dept. of Arts
+Policy, this institution (almost literally) hangs out on the 12th
+floor of Frobisher Crescent, in the Barbican. 1 have never seen this
+monument to the power of money before, and was therefore quite
+impressed (if perplexed) by it.</p>
+   <p>The first day began after lunch
+with three demonstrations, the first, live from Munich, was of TANDEM,
+the current market leader in theatre databases. This is an EEC funded
+project, currently indexing all dramatic works performed in Germany
+since 1960, some 13,000 documents, as well as bibliographic data, this
+holds information about productions (the roles, performers, costume
+designs, instruments used, stage sets etc.). It uses STAIRS, and runs
+on an IBM 370 beionginq to the German Ministry of Agriculture. The
+demonstration was moderately impressive, if you've never seen a
+demonstration of STAIRS before. The second demonstration was live from
+City University New York, where a very similar U.S. project is going
+on, using this time SPIRES. The demonstration was dauntingly tutorial
+in nature, and again, impressive only if you've never seen an
+information retrieval system, circa 1965, in action. The database was
+about 6 Mb, of which rather more than half is taken up by index
+file. The third demonstration was live from the Barbican Booking
+Office and consisted of (a) a nice straightforward ticket-manaqement
+package for computerised box offices (it's called BOCS and runs on a
+PDP-11) and (b) a rather natty booking system for use by both
+theatrical agents in search of gigs and theatre managers in search of
+acts, which runs on Prestel.</p>
+   <p>Suitably refreshed by this brush
+with reality, we then went back up in the lift to Gresham College for
+a swift Reception (wine, olives, peanuts). This proved to be
+remarkably convivial considering I hadn't met any of the people
+present before (except for Joe Donohue who claimed to remember me from
+Dartmouth nine years ago and stole one of my jokes for his speech the
+<pb facs="Pages/img488.jpg"/>next day); perhaps theatre
+historians are friendlier than database specialists.</p>
+   <p>The second
+day consisted of three sessions, one on "International"
+(i.e. non-British) theatrical databases, one on the home-grown
+variety, and the third on whether the twain could ever
+meet.</p>
+   <p>Session one was inaugurated by a panel of distinquished
+Presidents and such like, making some fairly anodyne remarks about the
+virtues of international co-operation. Ian Herbert, orqaniser of the
+conference, also spoke, bringing to our attention the production of
+Cyrano de Berqerac to be screened by C4TV tomorrow, (though quite why
+I know not) and explaining that the purpose of theatrical databases
+was to pass on to future generations the theatrical
+experience.</p>
+   <p>Speakers were limited to ten minutes each: a good
+idea . Joe Donohue gave yet another update on the state of the London
+Stage Databank at the University of Massachaussets. This, currently
+using INFOL2 on the CDC Cyber, is now being moved to a Corona (IBM PC
+clone), attached to something called an Omega Bernouli Box -a sort of
+20 Mb jukebox of floppies- and running Revelation. Donohue confidently
+averred that this would be compatible with everything else because it
+used ASCII. Susan Madrell from the Sydney based Arts Documentation
+Service of the Australia Council described a large collection of
+Australian press cuttings (about 57 k clippings) covering anything
+vaguely artistic and Australian since 1966. This is indexed by proper
+name, and a subject index is to be added from next year. They too have
+a PC, and use Wordstar and dBase II. It is planned to "download" the
+data to something called Ozzynet (spelling?). Didier Augustin from
+Metz described through an interpreter the Mirabel System, an online
+database of available play scripts, accessible via Transpac, the
+French answer to Prestel. Any French language play script (almost) can
+be archived at Metz, and its details (cast, plot, resources,
+category...) entered in the database. Of about 2500 plays currently
+held, 84% are unpublished. Augustin was very alarmist about becoming
+over-reliant on i.t.; perhaps the recent temporary collapse of
+Transpac due to overloading was at the back of his mind.</p>
+   <p>After
+coffee, the two major existing databases which had been demonstrated
+on the previous day got further exposure. Irving Brown (City
+University of New York) provided some background to the Theatre
+Research Data Center (TRDC) and its newly-published International
+Bibliography of the Theatre (IBT). TRDC had painstakingly established
+a taxonomy of theatrical terms and designed a Data Entry Sheet; data
+capture was by a team of about sixty voluntary unpaid field
+bibliographers or by co-operation with "other international projects"
+(i.e. TANDEM). IBT is computer typeset directly from the database,
+(but not as nicely as the Greek Lexicon), will appear annually and
+contains what its promoters clearly regard as a mind-boggling 1300
+entries this year. Heinrich Huesmann (Munich) gave some more
+information about the political structure of TANDEM: it is EEC funded
+and is looking for national bodies with which to co-operate,
+co-operation consisting of the national body depositing its records
+with TANDEM and in return getting the right to use the database, this
+idea is clearly far too Teutonic and sensible over to work.</p>
+   <pb facs="Pages/img488.jpg"/>
+   <p>Over lunch I was button holed by an
+egg-shaped bookseller who had been sold a Gould running Oracle and was
+wondering what to do with it; this went on so lonq that I barely had
+time to qet my overheads in order before the afternoon session
+began. A succession of lady librarians described their varyingly
+interestinq cataloguing systems. Sarah Woodcock (Theatre Museum,
+London) was using, or planning to use, TANDEM for their very
+miscellaneous collection; she also used the Museum Documentation
+Association's forms, the Betjemanesque Jane Hatford Dunn (British
+Theatre Association) was also in transition to TANDEM. They have vast
+numbers of sets of plays for loan indexed to varyi ngly successful
+degree. I gave my standard soft sell for the Shakespeare database at
+top speed, which appeared to provoke stunned amazement. Judith Chapman
+(Resource Dance Centre at Surrey) use INFO on the Surrey Prime to
+index bibliographies of dance material. Gillian Hartnoll (British Film
+Institute) outlined plans to integrate several existing databases (the
+British National Film and Video Catalogue, the index to Sight and
+Sound, the Monthly Film Bulletin etc.) using Oracle on a cluster of
+four micro-VAXes. This sounded v. impressive.</p>
+   <p>The final session
+on integration, standards, how and why was a general free for all
+which had the occasional high spot, notably a statement from the
+editor of a Russian theatre magazine requesting articles on
+computerisation and a few terse comments from Professor Carlos
+Tindemans, vice president of the International Association of Theatre
+Critics who, introduced as a leading theatre semiologist, stated that
+he was in fact a semiotician and then sat down. Ian Herbert proposed a
+form of words giving himself a mandate to investigate the feasibility
+ot setting up a British Theatre Database which was passed on the nod
+and the proceedings broke up in good humour.</p>
+</div>

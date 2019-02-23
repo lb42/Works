@@ -1,0 +1,72 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1984-09-06">
+   <pb facs="Pages/img467.jpg"/>
+   <head type="report">VISIT REPORT
+LBurnard</head>
+   <head type="location"> The Burn, Glenesk</head>
+   <head type="event">BCS/Codasyl DBAWG</head>
+   <head type="when"> 6-9 September</head>
+   <p>This three day meeting was
+one of the more productive DBAWG events; there has been somewhat of a
+lull in activity this year and a feeling that the group was not
+heading anywhere particularly interesting or productive. No doubt due
+to the fresh Highland air, these tendencies were reversed at this
+meeting. Attendees were as usual, with a few faces new to me, notably
+a vociferous gentleman from GCTA and a dour lady from
+Aberdeen.</p>
+   <p>Day 1 was taken up with admin, liaison reports
+etc. The ANSI draft proposed NDL (due for publication next month) and
+RDL standards had been exhaustively reviewed by WG15 of ISO TC97Of the
+comments on the RDL passed back to ANSI for action, the vast majority
+had originated with DBAWG; commentary implying further work on NDL was
+clearly now a little late in the day. DBAWG"s major concern here was
+to ensure that some standardisation body carried on its own work on
+DSDL; this had been accepted as a work item by WG15. During the
+discussion, several voiced the opinion that in this area, as in so
+many others, American public bodies have a tendency to ignore European
+comment, however authoritative or reasonable.</p>
+   <p>The group then
+turned to a lengthy and remarkably vapid paper from a different ISO
+group (WG5) on the database environment, on which detailed comment had
+been requested. The paper was the only evidence so far available of
+WG5's (perhaps over-ambitious) goal of defining a reference model for
+any dbms; demolishing it took up most of the rest of the first
+evening.</p>
+   <p>Day 2 (apart from a report on BNCOD3 which more or less
+tallied with the opinions in my own visit report on same) was given
+over to three working papers on "New Datatypes"The latter had been
+proposed at the January agm as an important work item, but this was
+the first occasion that the group as a whole had discussed exactly
+what it might mean. Two of the papers, by representatives of Philips
+and DCE, were very general, while the third (mine) was very
+specific. During the discussion, which was wide ranging, not to say
+heated, it became apparent that none of them was really concerned with
+what the group as a whole thought "New Datatypes" meant. By midnight
+it was apparent that any future work in this area would concentrate on
+the use of abstract datatypes (things like Algol68 structures, Pascal
+sets etc), despite valiant efforts on my part to tie the matter down
+to specifics such as text or graphics.</p>
+   <p>For all of Day 3, we
+divided into two subgroups (apart from an informal resumption of the
+main protagonists of the "new datatypes' controversy).</p>
+   <p>Following
+the acceptance of the current D6DL as an ISO work item, DBAWG had
+agreed to extend its current specification to support the RDL as well
+as the NDL draft proposed standards One of the subgroups therefore
+concerned itself with this new relational D6DL, and reportedly made
+considerable progress.</p>
+   <p>The other subgroup, in which I
+participated, turned again to the vexed question of Access
+Control. This topic is now enjoying a new lease of life, breathed into
+it by two recent working papers in which some real syntax has begun to
+emerge. Last year's work in defining a reference model of access
+control, from the top down as it were, is now static; this years will
+be on the definition of the functions necessary to support the
+reference model, from the bottom up Several hours of reasonably
+productive discussion ensued and promises of some six working
+papers.</p>
+   <p>Day 3 closed with a plenary discussion of DBAWG's aims
+and objectives over the next year; these were much more clearly
+apparent by this stage than at the start of the meeting. On the
+journey back I had the opportunity of comparing entity models with the
+CACI representative, an interesting experience.</p>
+</div>

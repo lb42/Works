@@ -1,0 +1,282 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1991-04-16">
+   <head type="event"> Eurotra Workshop</head> 
+   <head type="location">Luxembourg</head>
+   <head type="date">18 April 1991</head>
+   <p rend="it">
+Between 80 and 100 people, from a large variety of European
+software houses and research centres were invited to this
+"Information Day", at the European Commission in Luxembourg,
+the goal of which was to stimulate interest in the CEC's Call for
+Tenders for the next phase (1992-4) of the Eurotra II Project. I
+attended in my role as consultant to Sema Group (Brussels), whose
+presentation was partly based on a report I wrote for them some
+time ago. Several background papers were provided and are listed
+at the end of this report; copies are available from me on
+request.
+</p>
+   <p rend="bo">Background Presentations</p>
+   <p>After brief initial background presentations from F. De Bruine
+and Sergei Perschke, placing the Eurotra project in its political
+and historical contexts respectively, <hi rend="bo">Nino Varile</hi> (CEC)
+gave a brief overview of the last three decades of what is now
+known as NLP. He stressed chiefly the way in which idiosyncratic
+procedural systems based on Transformational Grammar had given
+way to declarative systems based on lexical unification theories.
+He argued that such systems, being inherently more robust, would
+speed up progress in MT systems during the 90s, as would the
+notion of reusable modular lexical and processing resources. The
+object should be systems of high quality; the days of what Nino
+disparagingly referred to as <q>do-it-yourself</q> NLP were over.
+Multi-functional resources, shareable between projects, would be
+the norm.</p>
+   <p>
+      <hi rend="bo">Roberto Cencione</hi> (CEC) then introduced the main
+business of the day: initial reports from four feasibility
+studies commissioned by the CEC, each of which had been briefed
+to investigate a distinct aspect of Eurotra II. Unlike Eurotra I,
+this would be a kind of <q>NLP workbench</q>, modular, formalism-
+independent and capable of evolving to meet new requirements, but
+currently solidly based in industry standards (POSIX, X/OPEN,
+WINDOWS, NFS, SQL, SGML...). Each of the four studies had been
+asked to assess the current prototype, consider existing relevant
+formalisms, and specify new tools, formalisms or strategies as
+appropriate. Each had involved collaboration between academic and
+industrial partners: final reports are not due until July, but
+initial versions of all were presented at the meeting. Cencione
+also highlighted Eurotra's drift into professionalism (my
+phrase): until 1987 all R&amp;D had been in the hands of academics;
+during the last two years a central software team had taken this
+over. The next phase, until 1994, would be characterised by
+turnkey projects carried out under contract. After 1994, cost-
+sharing projects would become the norm.
+</p>
+   <p rend="bo">Feasibility Studies</p>
+   <p rend="it">The System Architecture</p>
+   <p>
+      <hi rend="bo">Jörg</hi> Schütz (Inst for Applied Information Science,
+Saarbrücken) picked up the theme of open modular
+architecture. By contrast with Eurotra I, the new system takes an
+object-oriented approach. He presented the various layers of the
+architecture, from man-machine interface down to database
+storage, by way of user agent and object manager. The latter
+handles interactions with lexical resources and rules; the former
+oversees a number of co-operative software agents or
+<q>toolboxes</q>, for example for text-handling. A need was
+identified for a formalism-independent <q>lexical interface
+representation language</q>. A speaker from CAP-Gemini gave some
+further detail of the MMI agent: it would have a distinctive
+Eurotra <q>look and feel</q>, but would be built on X/Windows. As
+for system control -- if all else failed, there would always be
+Unix.
+</p>
+   <p rend="it">ET6-1 The Linguistic Formalism</p>
+   <p>
+      <hi rend="bo">Steve Pullman</hi> of SRI International began by noting
+that the linguistic formalism must be usable for general NLP, in
+a multilingual as well as a monolingual context, as well as for
+MT. Other desiderata were that it should be declarative,
+reversible (i.e. usable for generation as well as analysis) and
+theory independent. It should have an easily implemented core, to
+which equally monotonic and declarative extensions could be
+hooked, and should use <q>typed feature logic</q>. There was some
+discussion of the interfaces between the Language Analysis agent
+(LA) and the user agent's virtual machine (VM) on the one hand
+and with the Text Handling agent (TH) on the other: LA/VM was
+well defined: primitive functions included Parse, Generate,
+Refine (i.e. further transform the output from Generate) and
+Transfer (i.e. translate), with in each case appropriate
+parameters such as language or grammar. LA/TH was rather more
+fuzzy, with some linguistic functions such as morphological
+analysis being done by TH rather than LA.
+</p>
+   <p rend="it">ET6-3: The Text Handling Component</p>
+   <p>
+      <hi rend="bo">Christian Devillers</hi> of SEMA reviewed the text-
+handling design study. This component interfaces the Linguistic
+Analysis system with real texts, both during input and
+generation. The study had involved a brief survey of existing
+office document handling systems, SGML systems, and systems used
+within the <q>literary and linguistic computing</q> paradigm. A
+simple SGML dtd for texts passing across the TH/LA interface had
+been defined (EDIF - Eurotra Document Interchange Format).
+Recognising that TH tools would probably be of wide interest
+outside Eurotra, EDIF has been designed with an eye on TEI
+conformance.
+</p>
+   <p>The TH component's main function is to translate between a
+formatted document and whatever linguistic structures are used
+for input to (or output from) the LA component. At present, LA
+requires input of single sentences, with no nested quotations
+etc., as well as some quite detailed morphological analysis, and
+that is therefore what TH must produce. Devillers stressed that
+the segmentation performed by TH was determined entirely by the
+LA: if this were enhanced for example to deal with paragraphs,
+then that would be passed across the interface. Some rendition
+features of the input text are passed through to LA; the majority
+however are filtered out and stored somewhere unspecified, so
+that they can be re-associated with the output text.
+</p>
+   <p>This presentation was followed by a few desultory questions
+about other related CEC-funded projects and about the range of
+material anticipated for translation. I spoke very briefly about
+the TEI in response to a prod from Cencione. It felt like a very
+long morning (no coffee break) by the time we all went,
+thankfully, to lunch in what is unquestionably one of the biggest
+and best office canteens in the world.
+</p>
+   <p rend="it">ET7: Reusability of lexical resources</p>
+   <p>
+      <hi rend="bo">Ulrich Heid</hi> (University of Stuttgart) presented some
+initial results from this rather different feasibility study.
+Like Varile, he stressed the economic argument in favour of re-
+using resources, which follow from the imperative need to <q>size
+up</q> NLP projects.  A toy system can demonstrate anything: you
+only demonstrate what is really feasible with a realistically
+sized system. Reusability might mean simply re-cycling of a
+resource prepared for some other purpose, or it might mean
+designing resources with multiple applications in mind from the
+start.</p>
+   <p>Most of the presentation dealt with questions specific to re-
+usable machine-readable dictionaries (MRDs). Heid touched briefly
+on the existence of a number of related projects and initiatives
+(e.g. Acquilex, Genelex, Multilex, which are concerned with
+acquisition, formal description and integration of MRDs
+respectively). MRDs contain vastly larger amounts of information
+than electronic lexica, but they are not available for many
+languages and their underlying structures are not explicit. The
+study group's approach to unification of lexicographic
+information across different MRDs was to try to define some
+primitive level of description, expressed in a type feature
+logic, corresponding with the linguistic phenomena which the
+dictionaries purported to describe. <note>This sounds, on
+reflection, very like the approach proposed within TEI Working
+Group AI1, so it must be right</note>. Among the 20 or 30
+assorted research groups, publishers and software vendors
+involved in the study, there had been no dispute about the use of
+an attribute-value representation scheme, though its practical
+viability had yet to be demonstrated. The use of SGML as an
+exchange mechanism and the need for interaction with TH and TEI
+had been equally noncontroversial, though some unspecified
+concerns had been expressed about character set problems. At the
+end of the year, another feasibility study would be reporting on
+some pilot projects demonstrating the benefits and methods of
+standardisation.</p>
+   <p>This talk provoked some disagreement from the floor, in the
+shape of <hi rend="bo">Wolf Paperote</hi> (Munster), who asserted on behalf
+of corpus linguists everywhere (there were none present) that
+MRDs were a lot less useful than corpora as a source of
+linguistic information, and that since parsing corpora was
+marginally easier than parsing MRDs, and much cheaper, wouldn't
+the money be better spent on the former? To judge from the icy
+silence that greeted this remark, his was a minority view.</p>
+   <p rend="bo">Contractual matters</p>
+   <p>Cencione rounded off the day by setting out the procedure to
+be adopted for the call for tenders, set out in ET9. Tenders were
+invited for two distinct projects: first the implementation of a
+Eurotra II development environment, as described by the four
+study papers; second the provision of maintenance and software
+support facilities for all Eurotra Project researchers (currently
+17 sites located in 12 countries). The contracts would run to
+1993, with the possibility of extensions under the new Language
+Research Engineering (LRE) programme for a further two years from
+1994.</p>
+   <p>Nearly a hundred different companies and institutions had
+expressed interest in tendering. The formal invitation to tender
+would be published towards the end of May; the deadline for bids
+would be the end of July; contractor/s would be chosen by late
+September with a view to concluding contractual negotiations by
+the end of the year, and starting work early in Jan 1992.
+Contractors could organise the work as they deemed fit, bid for
+one or both projects, subcontract work etc, but the CEC would
+contract with only one member of a consortium, who should
+moreover be responsible for at least half of the work on the
+project.  Software developed under ET9-1 would remain the
+property of the CEC, and must be shareable with any future
+research projects funded by the Commission. Their estimate of the
+costs for both projects over two years was around 30 man/years,
+with two thirds of the approximately 15 man/years for the first
+year being allocated to ET9-1.</p>
+   <p rend="bo">TEI Relevance</p>
+   <p>At the risk of stating the obvious, I would like to stress the
+importance of the CEC's Linguistic Research Engineering project
+to the future of the TEI, and not just because of the amounts of
+money involved (several millions of ECU over the next few years).
+Over the next few weeks I will be writing up an assessment of the
+TH study, as part of the OUCS/SEMA consultancy project. Any input
+or comments from the TEI perspective would be most useful. I see
+three chief areas of overlapping interest, briefly summarised
+below.
+</p>
+   <p rend="it">Reuse of lexical resources</p>
+   <p>There is a lot of effort and money going into initiatives to
+standardise lexical resources such as MRDs, with which TEI is
+already involved by virtue of overlapping membership (Nicoletta
+Calzolari is, of course, a significant contributor to ET-7);
+however, it was clear from talking to Heid that closer
+collaboration would be both possible and welcome. As a first step
+I have requested copies of ET-7's detailed working papers,
+several of which include surveys of existing encoding schemes and
+recommendations for standardisation which should be brought to
+the attention of the relevant WGs. I think the new WGs on lexical
+resources and on terminology in particular should be encouraged
+to build on this European work rather than go their own way.
+</p>
+   <p rend="it">Language formalisms</p>
+   <p>Someone competent to judge the issues within the AI1 should be
+asked to assess the linguistic formalism of ET6-1 and consider
+ways of representing it using TEI style feature sets.  In my
+report on ET6 I would like to suggest that LA should be able to
+output the results of its analysis in a TEI conformant way: it
+would be nice to have some specific arguments and examples to
+support this, but I am not confident of my competence to produce
+them.</p>
+   <p rend="it">Text Handling tools</p>
+   <p>Despite the general lack of enthusiasm within the Eurotra
+project for corpus linguistics, it seems to me that some of the
+tools developed as part of TH may prove to be of particular
+interest to several TEI projects. TH will (for example) have to
+develop ways of automatically detecting and tagging sentences and
+morphological structure in the full range of European languages
+in SGML. If properly designed and implemented, such tools would
+be of great general applicability. CEC's policy as regards making
+such tools availabile freely to the research community, at least
+within Europe, sounds distinctly encouraging, as does their
+declared intention of working within an open Unix environment.
+</p>
+   <p rend="bo">Document List</p>
+   <p>The following documents were made available at the workshop.
+<list>
+         <item>An introduction to the Eurotra Machine Translation System. 38
+pp.
+</item>
+         <item>Eurotra-I Development Environment: a broad overview. March
+1991. 26 pp.
+</item>
+         <item>The Eurotra-II Development Environment: a broad overview.
+March 1991. 21 pp.
+</item>
+         <item>Eurotra 6-1: Rule formalism and virtual machine design study.
+Summary and main findings to date. April 1991. 81 pp.
+</item>
+         <item>A feasibility and design study on the software environment
+within the framework of the Eurotra programme. Document 3:
+interim report. Co-ordination: Jörg Schütz. March 1991.
+126 pp.
+</item>
+         <item>The Eurotra text handling subsystem: a broad overview. March
+1991. 24 pp.
+</item>
+         <item>A short report on the Eurotra 7 Study. Ulrich Heid. April
+1991. 47 pp.
+</item>
+         <item>Call for tenders ET-9. Description of the work packages.
+April 1991.
+</item>
+         <item>Copies of overheads for each of the five main talks
+summarized above.
+</item>
+         <item>Address lists for attendants at workshop and for the 12
+Eurotra centres.</item>
+      </list>
+   </p>
+</div>

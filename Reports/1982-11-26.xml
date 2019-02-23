@@ -1,0 +1,43 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1982-11-26">
+   <pb facs="Pages/img445.jpg"/>
+   <head type="when">Date of Report:
+29.11.82</head>
+   <head type="location">ICL Euston</head>
+
+   <p>This was a very useful meeting at which I learned a
+good deal about ICL's current planning, relating to both the role of
+CAFS and its software interface. I also obtained some (probably
+company confidential) dates. To summarise, CAFS is seen as an integral
+part of the hardware, not an optional bolt-on; there was also talk of
+the 'File Correlation Unit' or 'Join Machine'. All data management
+software (which is, after all, what sells ICL mainframes) will
+interface to CAFS by 1984, either directly (PDS, QRYM, IDMS), via the
+new 'Relational Programming Package' (or RPP, on which see below) or
+via 'Predefined Set Access Method' (PSAM, on which see below). RPP is
+used by Cobol programs (through a call interface, and a preprocessor
+similar to that currently used by IDMS) while PSAM sits between an
+existing object program (e.g. a package) and a conventional file on
+CAFS. In all three cases definitions of some sort need to be present
+in the Data Dictionary, (even for PDS!) mapping the 'relational view'
+in terms of which queries are always expressed (RPP/PDS/QRYM are
+'single sourced') on to the data item/s in the file/s being
+accessed. This mapping may be quite simple (e.g. a few fields of a
+record in a RECMAN file) or very complex (e.g. a specified navigation
+through an IDMS database); some automatic path choosing is present in
+RPP but should probably be treated with great caution. This
+integration of query languages has one great benefit (quite apart from
+its use of CAFS) in that it provides a simple (and relational)
+interface to IDMS; its major defect is that separate mappings must be
+generated for each combination of fields constituting a 'relational
+view' and stored in the Dictionary. This is then used to generate an
+OMF module (functionally similar to an IDMS object subschema) used at
+runtime together with the RPP inline code and the user program. Each
+query must be precompiled in this way, (unless QRYM is in use) but may
+be parameterised to some extent. In those parts of the query where a
+literal would normally appear, a parameter identifier may be supplied,
+and then instantiated at runtime. The mechanism for passing parameters
+through the PSAM interface is not yet defined, but is thought to be
+via SCL: the PSAM interfaces is clearly of great interest to us, but
+equally clearly still the subject of internal discussion within
+ICL.</p>
+</div>

@@ -1,0 +1,137 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1989-05-18">
+   <head type="event">SGML Database SIG Meeting</head> 
+   <head type="location">Samson-Sitjthoff BV, Alphen an der Rijn</head>
+   <head type="date">18 May 1989</head>
+
+
+   <p rend="bo">Location and attendance</p>
+   <p>The meeting was hosted at Alphen an der Rijn
+(Netherlands) by <hi rend="bo">Samson-Sitjthoff BV</hi>, part of a
+major Dutch printing and publishing  conglomerate,
+ whose Information Services division is directed by
+<hi rend="it">Jan Maasdam</hi>, chairman of the Dutch SGML users'
+group. The SIG itself was set up very recently by its
+current chairman, <hi rend="it">Martin Bryan</hi>  (author of the
+only  readable book on  SGML) who  works for a
+division of the SEMA group called <hi rend="bo">Yard Software
+Systems </hi> but is also closely associated with
+SOBEMAP and MARKIT, their   SGML parser. The
+SIG has about half a dozen active members drawn
+largely from major European software houses with
+an interest in the field. Its chief remit seems to be
+discussion of the interface between SGML  and
+database design,  but  this was only the third
+meeting and the group has not yet felt the need to
+create a formal constitution or  agenda. </p>
+
+   <p rend="bo">Agenda for meeting</p>
+   <p>The agenda was as follows:
+<list>
+         <item>Application of linguistic methods and tools to database
+management of SGML coded texts.  <hi rend="bo"> Gert van der Steen</hi>  from
+MID, a Dutch software house</item>
+         <item>The TEI: an application of SGML in scholarly research.<hi rend="bo"> Me</hi>
+         </item>
+         <item> Performance comparisons of some UNIX-based RDBMS
+<hi rend="bo">François Chahuneau</hi>  of AIS, a French software house</item>
+         <item>General discussion of a paper  on conceptual modelling for a
+document database tabled at the previous meeting by <hi rend="bo">Han
+Schouten</hi>  of the TFDL (the Dutch Agricultural Ministry)</item>
+      </list>
+   </p>
+   <p rend="bo">Presentatations</p>
+   <p>Van der Steen's presentation was overlong and
+rather rambling for  the occasion, but  raised some
+interesting points about the benign influence of
+computational linguistics  in  the development of
+SGML (a DTD -he said confidently- is a formal
+grammar) and the appropriateness of hierarchic
+database systems to it. His company is developing
+an "Integrated Publishing Management System"
+entirely dependent on SGML as transfer
+mechanism, which had necessitated a detailed
+specification for an ideal text retrieval system. He
+also  described his own PARSPAT system  which
+uses recognition of syntactic patterns as a database
+search mechanism (he has recently published a
+book on the unification of pattern-matching,
+recognition, parsing and transduction) and gave
+examples of its use for analysing the Brown Corpus
+and a database of 18th century Delft Estate
+inventories</p>
+   <p>My presentation simply outlined the structure of
+the TEI, gave some examples of the horrors of 
+unchecked scholarly markup and discussed the
+relationship between text and databases.  </p>
+   <p>Chahuneau 's company has the task of constructing
+a document database  to support  EEC legislative
+and other documents in  nine languages in parallel. 
+Its scale (15,000 pp in the printed annual form) 
+and complexity set it apart from any  other SGML
+applications I have yet come across.  Because the
+database is  constantly changing, sophisticated
+version control and integrity checks are essential to
+maintain all nine views of it in parallel. This ruled
+out any of the traditional text retrieval database
+systems; hence the case study of available UNIX
+RDBMS. Decisive factors in narrowing these down
+proved to be their degree of support for the 8-bit
+characters of ISO8859 (essential for the 9
+languages);  and the way in which the software
+implemented crucial database operations. Only
+three of the nine systems investigated allowed the
+manipulation of 8-bit characters as well as their
+storage. As to software performance, it seems that
+the ideal system would combine INGRES' query
+optimiser (which made an order of magnitude
+difference to the speed of join operations) with the
+SYBASE  file-access engine (which had a similar
+effect on most other operations). An investigation
+of the various hardware platforms available showed
+perhaps unsurprisingly that although a 
+RISC-architecture machine such as the new DEC
+Station gave enormous performance improvements,
+the low-end 386-based machine was a better
+price/performance option for development than
+any of the other available workstations. </p>
+   <p> Discussion of Schouten's paper was less focussed than it
+merited, largely due to the lateness of the hour.  
+Schouten had advocated using a conceptual modelling technique
+known as NIAM, rather than the more usual Entity-Relationship
+model (which would have pleased Chahuneau and me) or a straight
+hierarchic datamodel derived from the DTD (which would have pleased
+van der Steen). He had not paid much attention to such specific 
+problems as version control, which seemed to imply the need for
+a formalism superior to the DTD, the semantic adequacy of which was
+already in question. </p>
+   <p rend="bo">Contacts made</p>
+   <p>Both Chahuneau and Bryan expressed interest in the work of the TEI,
+and a willingness to participate if invited. I took the opportunity of
+rehearsing some of the current Committee 4 arguments with them (both agreed
+that attributes were not formally necessary, but still extremely usefull).
+If we do decide to involve either of them, Bryan might be a better
+SOBEMAP representative than Gaspart, while Chahuneau or
+his nominee would be a good substitute for Dendien on committee 4. Either
+of these would be self-financing. It is important to stimulate
+SOBEMAP interest since they have EEC funding for their MARKIT product
+which is the only structured editor I have so far come across that
+runs in the MS-DOS environment we all know and loathe.</p>
+   <p>I met <hi rend="it">Jens Erlandsen</hi>, whose company TEXTware A/S 
+based in Copenhagen is developing Gestorlex, which seems 
+to be yet another SGML-based structured 
+editor for dictionaries and other reference books. They also market
+a small free text browser of the Gofer-type, and are involved 
+in an ESPRIT project to develop a multi-media publisher's workbench. 
+The novelty in the latter is that they plan to implement Salton's 
+"space-vector model" for the full text indexing requirement.</p>
+   <p>
+      <hi rend="bo">Kluwers</hi>, publishers of <hi rend="it">CHum</hi>, turn out to be a part
+of the same publishing empire as our hosts. They were represented by
+Drs van Wijnen, who seemed quite taken with the notion that <hi rend="it">CHum</hi> 
+contributors might be amenable to supplying their material complete
+with SGML tags. She agreed that this was worth suggesting to the
+<hi rend="it">CHum</hi> editorial board at any rate.</p>
+
+                     
+
+</div>

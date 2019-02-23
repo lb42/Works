@@ -1,0 +1,151 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-2005-10-20">
+   <head type="event">Rencontres TEI francophones</head> 
+   <head type="location">ATILF, Nancy</head>
+   <head type="date">20-21 octobre 2005</head>
+
+   <p>This was an interesting two day meeting hosted by ATILF, and
+organized by Susanne Alt and Veronika Lux-Podalla, which brought
+together a number of key TEI users and interested parties in the
+francophone world. It followed up a preliminary meeting also held in
+Nancy at INIST during the spring, at the time that Nancy established
+itself as a TEI host.</p>
+
+   <p>The programme combined themed sessions of presentations, and
+parallel discussion groups. Following some words of welcome from the
+director of ATILF and from the European TEI editor, it began with a
+session on dictionaries and terminology. Christiane Fritze (Academy of
+Sciences of Berlin) reported on the results of a demonstration project
+using TEI as the exchange format to permit interaction between a group
+of previously encoded (in various formats) historical dictionaries,
+and a corpus of digital texts, aided and abetted by the usual panoply
+of XSLT stylesheets and an eXist database. I was taken by the way in
+which the research group works: each month they choose a new project
+in the general area of promoting scholarly awareness in the
+humanities, and work on it. Despite its small scale, this was a
+persuasive demonstration of the benefits of using TEI markup to
+integrate the outputs of previously independent projects.</p>
+
+   <p>This was followed by a presentation on similar themes from the
+"kompetenzcentrum" (I think we would say "centre of excellence") at
+the University of Treves, given in Germlish by Hannes Greil and Niels
+Blohnert. Their kompetenz seems to be mostly is in retro-digitization
+of major historical dictionaries and their subsequent integration with
+corpora of historical materials in German. Most of the dictionaries
+they discussed were originally encoded in Tustep, and even their
+conversion to XML was carried out using Tustep. The scale of their
+operation was impressive however.</p>
+
+   <p>Laurent Romary reminded us of the difference between a dictionary
+which maps words to senses, and the  semasiological  orientation of a
+terminological database, which maps concepts in a defined domain to
+words. He sketched out his ideas for a reformulation of the.late
+lamented TEI terminology chapter, and made a persuasive case for the
+general usefulness of such a chapter in the P5 -- if only someone
+would draft it.</p>
+
+   <p>A lady whose name I forgot to write down reported on the
+deliberations of a joint ATILF/INIST workgroup concerning the
+applicability of the TEI Header, and its place in the metadata
+universe. The group aims to define a minimal header for use in the
+cataloguing of material "born digital", in particular electronic
+theses: where have I heard that before. They like the fact that the
+header permits such richness of metadata (arborescence is the french
+word), but think it needs to be constrained. She also presented some
+comparisons (and mappings) with OLAC and Dublin core, but did not,
+curiously, mention METS. Apparently the structure of the TEI Header is
+not derived from AACR2 but from ISO 2709.</p>
+
+   <p>A consultant from a company called Archimed called Christophe
+Arnoult described an interface developed to search TEI conformant
+digital theses, using metadata apparently derived from other online
+resources. The work had been done using a very small sample, and the
+only interesting thing I noticed about it was their
+application of statistical procedures derived from  the tag usage to determine
+which header elements should be indexed and how. Otherwise he made the
+familiar point that in the absence of clear guidance on how to apply
+it, the TEI Header DTD provides more than enough rope for most
+conventional retrieval systems to throttle themselves on, and
+incidentally bemoaned the fact that people didn't always package
+together all the resources needed to handle a document (e.g. where is
+the DTD? where are the system entities referenced?)</p>
+
+   <p>Denise Malrieu (Paris X) asked a good question and proposed an
+impressive range of possible answers. The question was: what kind of
+metadata might be useful for literary scholars working with narrative
+texts; and the answers ranged far beyond purely
+literary-historical-bibliographic perspectives to include internal
+structural features and audience expectation, as well as summary
+statistics and their deviance or otherwise from a norm. She also
+talked about the viability (or otherwise) of automatic tagging of
+various discourse features -- not only what the computational
+linguists call "named entity recognition" but also narrative level and
+status (dialogue, quotation etc). She also mentioned but did not
+describe ongoing work in establishing appropriate parameters for
+narrative text classification.</p>
+
+   <p>After lunch (up the hill: chicken and chips), we divided into three
+groups for more focussed discussions on (a) dictionaries, animated by
+Susanne Alt; (b) metadata, animated by Laurent; and (c) electronic
+theses, animated by Sylvie Gressillaud. I attended the last of these,
+and watched as Gautier Poupeau walked through the most relevant
+features of TEI Lite (using Oxygen), only occasionally muttering about
+how different things would be in P5. These parallel groups then
+reported back: the dictionary group had looked at Susanne's (excellent)
+presentation; the metadata group had been introduced to Roma and
+derived a simpler DTD for the header.</p>
+
+   <p>Last session of the day discussed questions of documentation and
+translation. Pierre-Yves Duchemin (Enssib, Lyon) briefly sunmmarised
+the actitivies of the G5 group which had started with the ambition of
+translating the whole of the TEI Guidelines into French. They have
+now produced a version of the P5 Header chapter and are working on two
+others. However, they seem to have taken note of the comment I made
+when visiting Lyon earlier this year about the need to base their
+translation on the ODD sources rather than on their output. The
+working relationship betrween this group and the TEI's own I18n
+effort, on which Veronika reported next, remains somewhat murky to me. In
+presenting what is planned for thew latter, Veronika provoked a
+surprisingly heated debate about the wisdom (or otherwise -- most
+people thought otherwise) of translating the element names in TEI
+documents. </p>
+
+   <p>The second day began with a very impressive presentation from
+Gautier Poupeau (Ecole des Chartes) about the principles and practice
+underlying their digital publication program. This was high quality
+dynamically on the web,  conforming to the needs amnd expectations of
+scholarly editors. </p>
+
+   <p>Also impressive in its way was the presentation from Jouve, a long
+established French electronic publishing house which is apparently now
+piloting use of TEI as an interchange and delivery format for its
+digitization activities. Denis Delvalle explained a workflow they have
+now introduced in which OCR output, expressed in a detailed
+proprietary format, is transformed into TEI, and then converted to the
+customer's specific requirements. Interestingly, Omnimark is still
+their weapon of choice in this struggle.</p>
+
+   <p>And finally, I gave that talk about Xaira again, this time
+translated into halting French, and augmented with live
+demonstrations of assorted French corpora running on a borrowed
+laptop. </p>
+
+   <p>After lunch (up the hill again, steak and chips this time), Laurent
+and Veronika chaired a discussion about next steps and further
+missionary activity. It was agreed to hold a focussed training session
+on developing the digital thesis plus header customisation front just
+before Christmas and to try to provide nmore input and discussion
+material on the website. The idea of a TEI summer school was
+floated. And there was some discussion about what exactly Veronika
+should report to the members meeting next week.
+</p>
+
+   <p>Overall, this was a reassuring, even encouraging, workshop. There
+were over 20 participants, mostly but by no means exclusively local,
+and from different backgrounds. The problems raised and issues
+discussed are would resonate with any TEI user anywhere in the world;
+unlike some other such gatherings, however there was an evident
+committment to making the TEI work, by participating in its
+development and promotion. </p>
+
+
+</div>

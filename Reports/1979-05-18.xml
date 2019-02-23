@@ -1,0 +1,46 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1979-05-18">
+   <pb facs="Pages/img415.jpg"/>
+   <head type="report">VISIT REPORT
+L. Burnard</head>
+   <head type="location">ICL Euston</head>
+   <head type="event">IDMS DMUG EUFSG(79) 4th Meeting</head>
+   <head type="when">18 May 79</head>
+   <p>Presentations given included: a man
+from MOD explaining a little of how they currently support their
+requirement for a query language suitable for use by Admirals, Flight
+Commanders and such like when playing toy soldiers.</p>
+   <p>The current
+system apparently uses lots of discrete files, some of which (we were
+told with a straight face) were designed 'as long ago as 1812') It
+seemed that the similarity of their query language to English was
+possible largely because of the limited type of queries the system had
+to support. They were thinking of expanding from queries about the
+positions of friendly/unfriendly vessels to queries about something
+called 'signals' but did not seem to anticipate any problems. As far
+as their account of it went, there seemed to be very little syntactic
+component in their processor. M R Jackson (ICL) spoke on FOCUS a
+highly impressive American software-house package which provides an
+interface between just about everything and everything else. Since it
+interfaces to IMS and to conventional files as well as IDMS, the data
+model used is limited to hierarchies, which makes for some contortions
+when handling IDMS databases. Its range of facilities (graphics, stats
+etc) was staggering, as was its price. Richard Barker (ICL) gave a
+short outline of the new facilities in ICL's own Data Display at the
+next release (DD200) (some of which look very nice) to see whether the
+group considered DD a suitable base for a query language. No firm
+conclusion was reached: despite its nice new facilities, DD is
+probably best used as a DML programmers aids.</p>
+   <p>After initial
+false starts, discussion centred on the type of conceptual view the
+EUF should support. It was not clear whether a separate view was
+required for the interface between the conceptual view/s and the IDMS
+structures: whether we were discussing an hourglass (pace Tim Bourne)
+or a pyramid (pace everyone else). Favourite candidate for the
+pinnacle (or the waist) is currently the Entity Model already used by
+DDS, to no-one's particular surprise; I shall certainly do my best to
+push the case of the relational view, preferably binary, at the next
+meeting when current work will be summarised/ discussed. Meanwhile ICL
+is still committed to marketing RDBMS 'at some stage' but not (it now
+appears) as a product integrated with other Data Management
+products.</p>
+</div>

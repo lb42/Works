@@ -1,0 +1,70 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-2002-04-02">
+   <head type="event">ALLC Roadmap Meeting</head>
+   <head type="location">Pisa</head>
+   <head type="date"> April 2002</head>
+
+   <p>This year's mid-term committee meeting of the <ref target="http://www.allc.org">Association for
+  Literary and Linguistic Computing</ref> was branded as a
+  <soCalled>roadmap</soCalled> meeting (apparently a current vogue
+  word for meetings devoted to navel gazing) which might hopefully
+  produce some content for a <title>New Directions in Humanities
+  Computing</title> panel session to be held at the close of this
+  year's ALLC-ACH conference. In addition to ALLC committee members,
+  the meeting, organized and chaired by David Robey and Harold Short,
+  was attended by a small number of hand-picked invited experts from
+  the field; I was given the task of presenting a summary of the
+  issues raised during the course of the two day discussion, so had to
+  pay attention. <ref target="0204pisaplans.htm">The meeting</ref> was held in Pisa, so the dinners were
+  good. </p>
+
+   <p>Each of the five sessions was supposed to address the same
+  questions (<q>Where are we now?</q>, <q>Where are we headed?</q>, <q>What
+  should our agenda be?</q>) from the perspective of the following five different
+  application areas: 
+  <soCalled>linguistics</soCalled> (Laslo Hunyadi and Elisabeth Burr);
+  <soCalled>literary studies</soCalled> (Paul Fortier and Lisa-Lena
+  Opas-Hanninen); <soCalled>Bibliography and  textual
+   criticism</soCalled> (John Dawson and Wilhelm Ott);
+  <soCalled>Libraries and archives</soCalled>(Espen Ore, Marilyn
+  Deegan, Susan Hockey);  <soCalled>Multimedia and performance
+   studies</soCalled> (Lorna Hughes and Jean Anderson);
+  <soCalled>Methodologies and digital scholarship</soCalled> (Willard
+  McCarty and Harold Short).
+ </p>
+
+   <p>I took a lot of notes, from which I distilled a final summary that
+  seemed to go down quite well. You can read these notes at 
+<ref target="0204pisanotes.txt">0204pisanotes.txt</ref>; here's
+  a briefer and possibly less tactful summary of the chief conclusions I drew from
+  the experience:
+<list>
+         <item>the major application areas for computers in the humanities
+    disciplines continue to be in linguistics, textual criticism, and
+    (arguably) library science;
+</item>
+
+         <item>in all of these areas, the research agenda is dictated by the
+    discipline specialists; similarly, in other areas such as digital
+    cultural heritage, all the significant developments are being
+    undertaken by technical or cultural specialists, not by by
+    cross-disciplinary theoreticians; </item>
+
+         <item>a wider understanding of the theory and practice of textuality, markup, and
+    text-encoding remains arguably the only substantive result of the
+    last two decades of <soCalled>humanities
+    computing</soCalled>
+         </item>
+
+         <item>the major contribution currently made by <soCalled>humanities
+    computing</soCalled> specialists is in brokering collaborative
+    work involving specialists from technical and non-technical
+    disciplines;</item>
+
+         <item>no-one had much of any substance to say about information
+    extraction, data mining, distance learning, distributed computing,
+    or other creative applications of the technology .</item>
+
+      </list>
+   </p>
+   <p>However, as I said, the dinners were very good.</p>
+</div>

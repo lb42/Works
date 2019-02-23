@@ -1,0 +1,107 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1986-04-02">
+   <pb facs="Pages/img490.jpg"/>
+   <head type="report"/>
+   <head type="location">
+UEA, Norwich</head>
+   <head type="event">Association for Lit &amp; Ling
+Computing xiii internationalsymposium</head>
+   <head type="when">2-5
+April 1986</head>
+   <p>No particular theme had been specified for year's
+ALLC conference (one had last year, in Nice, but no-one took any
+notice of it). Vague attempts had been made to clump together related
+papers, the chief effect of which was that anyone interested in
+OCP-style software couldn't find out anything about database style
+software, and anyone not interested in literary statistics had
+absolutely nothing to do for most of one day. There were three invited
+speakers, as well as three days of parallel sessions, and two major
+social events clearly calculated to impress foreign delegates. Much of
+what transpired was well up to expectation; in the 200+ delegates
+there were only a few new faces amongst the ALLC die-hards, and most
+of the issues discussed had a more than familiar ring to them. The
+accommodation at UEA was also no worse than usual, though the food was
+remarkably nasty.</p>
+   <p>Leaving mercifully aside the more tedious
+papers, I noted with interest the following:-</p>
+   <list type="unordered">
+      <item>Christian Delcourt (Liege) presented an
+algorithm for partitioning lines of verse mathematically in order to
+identify their component structures automatically. I didnt understand
+the maths (and the French wasnt easy) but the results were impressive,
+and novel.</item>
+      <item>B. van Halteren (Nijmegen) presented the
+Linguistic Data Base (LDB) - this is a really natty query processor
+for accessing structured linguistic corpora in terms of the
+structure. It forms one end of the TOSCA project, which I have come
+across several times before; this time he gave enough details of its
+query language and programming language to do more than whet the
+appetite. We could have it for free if only (a) we had a spare vax (b)
+we had an analysed corpus to put into it.</item>
+      <item>S. Rahtz
+(Southampton) had been scheduled to coincide with S. Hockey (OUCS), an
+excessively shabby trick on the part of the organisers. Despite poor
+attendance, he gave a competent account of the vicissitudes of
+computerizing the Protestant Cemetery in Rome, and even proceeded to
+some highly dubious speculations about the implications of funerary
+inscriptions.</item>
+      <item>J. Simpson (NOED) gave the orthodox version
+of the current state of the computerised OED project, thus
+incidentally making nearly everything else described at this
+conference seem fairly toytown in size scope and significance. It is
+nice to learn that the word 'database' first recorded in 1964 will
+enter NOED before it is printed in 1989, also that G.Gonnet's
+Algol68-like query language for interrogating dictionary definitions
+is called GOEDEL (Glamourous OED Enquiry Language). He remarked that
+"a lot of science fiction has been written about the NOED project" and
+then revealed that semantic labelling was considered easier than
+syntactic.</item>
+      <item>B. Rossiter (Durham) nearly made me fall out of
+my chair by asserting, after a thoroughly admirable exposition of how
+he'd used entiry-relationship modelling to design his database, that
+no software existed capable of supporting ER structures properly, so
+they'd used SPIRES instead. The project is dealing with the full text
+of English statute law, available from HMSO for a song it seems. Over
+lunch I broke the news to him about DDS and CAFS; he admitted their
+choice was largely determined by what was actually a vailable at
+NUMAC.</item>
+      <item>
+         <p>Tony Kenny (Balliol) summarised his work in
+statistical stylistics and was also chief lion at the subsequent round
+table discussion on "whither <pb facs="Pages/img490.jpg"/>computation
+stylistics?". The discussion turned out to be unusually interesting,
+if inconclusive, while his paper was exhaustive, if exhausting. It
+made eminently reasonable distinctions between what made sense in the
+field (distinguishing texts in terms of parameters that could be shown
+to be internally consistent - cf Delcourt) and what did not
+(postulations about undefinable entities such as 'all the works
+Aristotle might have written'). He compared statistical techniques to
+aerial photogrpahy, showing the wood rather than the trees and
+concluded with a summary of his next book, which uses clustering
+techniques (Pearson correlation coefficients in particular) to
+discriminate the Pauline and non-Pauline bits of the Greek New
+Testament on the basis of their usage of different parts of
+speech.</p>
+      </item>
+      <item>John Burrowes (Newcastle) also has a book
+coming out. I suspect his was the most interesting paper at the
+conference. It summarised his work so far on the analysis of Jane
+Austen's high-frequency vocabulary in sections of her novels
+categorised as dialogue, narrative and 'rendered thoughts'. Both these
+categorisations and the vocabulary counted are carefully hand pruned
+to avoid both ambiguity and polysemy (which is why he's been at it for
+five years). The interesting thing is that the results actually add
+something to an appreciation of the novels and are used to make
+critically significant judgements about stages in Austen's development
+as a novelist. His statistics are based on Pearson and Spearman
+correlations, presented in scattergram form; he is now threatening to
+go for multidimensional scaling.</item>
+   </list>
+   <p>As usual at these
+gatherings there was a certain amount of political manoeuvering in
+evidence. It transpired that Nancy Ide (Chairman of the Association
+for Computing in the Humanities) is planning an international workshop
+on standardisation of machine readable texts. I put forward the
+proposal that the Text Archive deserved more funds to whatever
+sympathetic ear came within reach, and was told on several occasions
+to think BIG.</p>
+</div>

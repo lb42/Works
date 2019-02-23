@@ -1,0 +1,34 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1980-06-14">
+   <pb facs="Pages/img473.jpg"/>
+   <head type="report">VISIT REPORT L.Burnard</head>
+   <head type="location"> Kings College, London</head>
+   <head type="event">ALLC
+Working party on Networks and Databases</head>
+   <head type="when"> 14 June</head>
+   <p>This working
+party was set up by the ALLC Committee about a year ago to investigate
+the feasibility of distributing text processing applications amongst a
+number of sites internationally, evaluating the effectiveness of
+existing comms networks, and to prepare an international directory of
+resources such as machine readable texts and programs. Representatives
+from the U.S.A.,Italy, Germany and tho U.K form its membership. I was
+co-opted to the Working Party at the Cambridge ALLC Symposium,
+and, together with a programmer from Swansea, presented a draft report
+on the structure of a database to hold information about machine
+readable texts at this meeting. The proposed directory would include
+information about characteristics, availability and
+applications of existing machine readable texts everywhere; as a
+first step it will enable the contents of the Oxford Archive to be
+catalogued more effectively than at present. The structure proposed,
+five interlinked Famulus files, has the advantage (that it can
+be easily implemented at Swansea, and subsequently interfaced to an
+IDMS database at Oxford for general access. The directory would
+hopefully be updated on-line, and might be published using the
+Lasercomp, or on fiche. Swansea have agreed to provide labour, and are
+investigating the possibility of getting further funding for the
+project. More details in the minutes, when produced.</p>
+   <p> [hand
+annotation: NB Only Joan showed up!! (Tonino was delayed – Jim
+couldn't make it – John mysteriously absent – Winfried too busy – Hey
+ho.]</p>
+</div>

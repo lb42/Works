@@ -1,0 +1,42 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1983-06-22">
+   <pb facs="Pages/img449.jpg"/>
+   <head type="report">VISIT REPORT</head>
+   <head type="location">
+UMRCC</head>
+   <head type="event">IUSC Famulus Working Party</head>
+   <head type="when">22 June 1983 L.Burnard</head>
+   <head type="location">[UMRCC]</head>
+   <list type="unordered">
+      <item>The 'reasonable subset' of the package still
+hovers tantalisingly on the horizon. After slippage due as much to
+compiler problems as to general lethargy, it now seems that October
+will be our best date for a test version.</item>
+      <item>Further
+modifications to the common block structure as described in my working
+paper of 15 June were discussed and agreed. A lengthy argument about
+how strings should be delimited in commands ensued. My (I thought)
+uncontentious view that *can't* was a lot simpler to understand than
+'can''t' eventually carried the day.</item>
+      <item>Some reorganisation
+of the way the routines are distributed across filestore and some sort
+of mechanism for agreeing and implementing bug corrections were felt
+to be necessary. I agreed to undertake the former, but not the
+latter.</item>
+      <item>I tried (unsuccessfully) to get some helpful
+suggestions on what to admit to about the package when I address the
+IUSC Workshop next month. We did agree that some sort of centralised
+distribution and a licence agreement would have to be worked out. The
+future willingness of PLU to act as distributors for not very
+profitable packages being cast in doubt following the appointment of
+their new director, I expressed the view that OUCS might consider
+acting as distributors for the new package, provided that some help in
+maintenance would be forthcoming.</item>
+   </list>
+   <list type="ordered">
+      <item>Some progress had been made in communications!
+Thanks to the fabled Cambridge Ring, I had managed to send lots of
+files to the Rutherford. It was hoped to send them to Edinburgh, and
+also suck them back from the same later on this
+month.</item>
+   </list>
+</div>

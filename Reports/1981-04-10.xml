@@ -1,0 +1,43 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1981-04-10">
+   <pb facs="Pages/img436.jpg"/>
+   <head type="report">VISIT REPORT L.Burnard</head>
+   <head type="location"> West Midlands Gas
+(Solihull)</head>
+   <head type="event">ICL.DMUG.2900 IDMS User Group Meeting
+10Ipril81</head>
+   <p>British Telecom gave an account of the query
+processing system they have set up to interrogate IDMS databases. It
+is an interpretive processor using nonstandard terminology and
+obtaining its data through the back door (i.e. a copy of the schema
+source) rather than from the IDMS directory; functionally it has
+little if anything superior to Data Display 250 and in some respects
+(output formatting etc) is markedly inferior. On the other hand it
+cost BT 1 man/year as opposed to whatever outlandish sum DD
+costs.</p>
+   <p>Tom Wansborough (iCL) gave a good straightforward account
+of the IDMS patch-up utilities Restructure and Reorganise, both of
+which we have used here, the former as less successfully than the
+latter. He also gave some useful tips on how to simplify restructure
+when it was needed and explained patiently several times why PRIOR
+pointers should always be used in volatile sets. Some figures on the
+performance of Restructure were given - for "small" databases (a mere
+200 Meg or so), a restructure time of 20-30 hours seemed to be
+acceptable. I was too dumb­founded to hear of installations where an
+uninterrupted run of 20-30 hours was feasible, let alone acceptable,
+to comment.</p>
+   <p>After lunch, Richard Barker (iCL) gave a
+presentation on the facilities which might be expected in IDMS
+300. Consdierable improvements in performance had been implemented for
+the commonest of DML verbs and also great improvements in security. It
+would be possible to run IDMS and its associated components at ACR 10
+and access to a database except via IDMS would be impossible. Various
+minor user-requested enhancements (one of them mine!) would be
+included. The most significant change however is the introduction of
+separate storage schemas; the ability to default everything but the
+logical description of data items in the schema in particular will
+reduce the design-to-use time by an order of magnitude in our
+environment.</p>
+   <p>I raised 3 major problems we are currently having
+or anticipate: one proves insoluble, one unpopular and one will go in
+as an enhancement request.</p>
+</div>

@@ -1,0 +1,65 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1978-10">
+   <pb facs="Pages/img405.jpg"/>
+   <head>LOU'S MONTHLY REPORT FOR
+OCTOBER</head>
+   <head>(including at no extra charge, Lou's Monthly
+Reports for August and September)</head>
+   <p>Much time has been spent in
+connexion with OUP's new edition of Shakespeare. All the Howard-Hill
+folio texts have been processed into usable form; the task of proof
+reading and adding COCOA references continued throughout this period,
+and has now accelerated with the appearance of an editorial assistant
+from OUP. Programs to produce the compositorial index were written
+ages ago and still seem to be working.</p>
+   <p>During August I got
+myself into a terrible state preparing a paper for presentation at a
+Conference on Database Applications in the Humanities &amp; Social
+Sciences to be held after ICCH4 at Dartmouth College. Efforts to get
+IDMSX running under 5X32 in order to substantiate the claims in the
+paper (which concerned our only IDMSX application) were unsuccessful,
+so they (the claims) had to be moderated, but they (the efforts)
+continue. ICCH4 was an impressive experience; I heard news of all
+sorts of projects likely and unlikely, acquired 3 magtapes of text and
+several inches of printed blurb, and met too many people to list
+here.</p>
+   <p>September began with my getting into a terrible state
+tidying up the previous paper for publication (camera ready copy
+produced by the Qume was sent off two days before the deadline), and
+preparing another, entirely different one, for presentation at the
+IUCC Symposium. A report on the symposium will appear in the next
+Newsletter. The last two weeks of September I spent on holiday in
+Italy, which was ok till the gelati ran out.</p>
+   <p>Somehow during this
+period, at least two IDMS projects made considerable progress: the
+clinical trials database for :RPM is well into testing, and initial
+loading of the dictionary database for :BROADBENT seems to be
+complete. October saw the start of a new project to hold information
+about vascular surgical operations (:KIDSON). I discussed another
+possible archaelogical project, but decided it was not worth using
+IDMS for. D.Doulton came from Southampton to discuss the ways and
+means of supporting IDMS (they plan to do so).</p>
+   <p>OXMTREAD has been
+rewritten and now has a user hook. Documentation of this and of
+OXMTWRITE is still incomplete.</p>
+   <p>Texts acquired for the Archive
+include complete works of Donne, Marlowe and the Gawayne Poet, major
+novels of Woolf, Joyce, Dostoevski, Lessing &amp; Plath, and also the
+Lancaster Corpus of British English. We might have Chaucer too, if I
+could get round the parity error on the tape. Keats, re-edited to
+modern standard and nearly complete, came from Newcastle. About 5
+texts of various sorts were issued.</p>
+   <p>A new version of 2900
+Snobol, with bugs I reported in February reputedly fixed came but has
+not yet been tested. Preliminary talks with QMC suggest that they will
+be able to implement 2900 SPITBOL later this year.</p>
+   <p>I wrote
+papers for the IDMS User Group on Restructure, Statistics and Fortran
+Interface. Meetings were attended in London and Birmingham. Nothing
+much happened at any of them.</p>
+   <p>I attended a British Academy
+lecture by C.S.Butler who has been analysing Sylvia Plath with a
+computer; he gave short plugs for Cocoa, Oxeye &amp;c to a largely
+incredulous audience.</p>
+   <p>I completed a series of four articles on
+Snobol for publication in the ALLC Bulletin.</p>
+</div>

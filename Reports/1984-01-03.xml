@@ -1,0 +1,128 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1984-01-03">
+   <pb facs="Pages/img458.jpg"/>
+   <head type="report">VISIT REPORT LBurnard</head>
+   <head type="location">
+University of Surrey </head>
+   <head type="event">IUSC Workshop ON 3-4
+Jan 1984</head>
+   <p>Over 132 people attended this workshop on
+knowledge-based or expert systems, although no-one I spoke to appeared
+to have any very clear idea of quite what such systems were or might
+be used for Their chief components appear to be firstly a
+knowledge-base, which is not quite the same as a database because the
+entities represented in it include both vague or imprecise quantities
+and equally vague rules about their significance, secondly an
+inference engine, which is a processor capable of both using and
+adding to the knowledge base, and finally a fairly sophisticated
+man-machine interface, usually in natural language albeit within a
+fairly restricted semantic domain Such systems are VERY EXPENSIVE
+INDEED to construct, and thus are to be found only amongst the VERY
+RICH, e.g the oil industry, the US Dept of Defense and any UK Computer
+Science Dept which has got its hands on some Alvey funding.</p>
+   <p>The
+first speaker, from RACAL, appeared to be rather unnerved by the size
+of his audience and was also clearly under instructions not to reveal
+too much about his subject, a system for making sense of the vast
+amounts of data obtained during exploratory drillings in the North
+SeaSince exploitation of any resulting oil wells is usually a
+co-operative venture in which the cut each member of the consortium
+receives depends crucially on the size of reserves found at a
+particular place, it is rather crucial to get unbiassed and accurate
+information A 5% error could mean a difference of £350 millions The
+system was computationally unfashionable, being model based rather
+than rule based; that is, it works by constantly revising and
+improving on rules of thumb derived from observations rather than a
+priori knowledge There is no attempt to model causality in its
+knowledge-base which means among other things that the system has no
+way of reconciling contradictory conclusions reached from different
+premises It runs on a special purpose AI machine (the Symbolics LISP
+machine) which also supported numerical analysis in Fortran and a
+conventional database management system (unspecified).</p>
+   <p>This
+presentation, (which should have been more impressive given that it
+proved to be the only one describing a real fully functional system)
+was followed by two sales pitches, one for SAGE, an expert systems
+shell marketed by SPL, and</p>
+   <p>the other for REVEAL, a decision
+support system marketed by TYMSHARE Both are also available from ICL
+and cost an arm and a leg, except that there is a version of SAGE for
+VAX VMS currently on offer with a massive educational
+discount.</p>
+   <p>The SAGE knowledge base is created by the user as a
+set of rules and objects which the inference engine then uses to
+establish a goal (e.g "This user is liable to have a heart attack") by
+means of a dialogue and backward-chaining reasoning (i.e People under
+stress are more likely to have heart attacks, so I must establish how
+likely this user is to be under stress; to establish which I need to
+establish how many Advisory Sessions he has done in the last month; to
+establish which.etc It's called recursion!)Because objects can have a
+truth value (probably false, nearly true, etc.) rules involving
+combinations of such objects are said to exhibit fuzzy logic; thus,
+for SAGE, if p is 0.3 true, and q is 0.8 true, then p AND q is 0.3
+true, and p OR q is 0.8 true Various smart alecks in the audience
+pointed out that this was a barely adequate fuzzy logic, with which
+the speaker had the good sense to agreeNevertheless, I think SAGE
+would be a good way to learn about expert systems and might even be
+useful for somethingREVEAL by contrast proved to be a souped-up
+financial modelling system with little to recommend it apart from the
+use of fuzzy logic in both its database system and its English
+language interface, so that the modeller can say things like "List all
+tall rich blondes with large bosoms' without having to specify what
+'tall', 'rich' and 'large' mean exactly.</p>
+   <p>The conference dinner
+was satisfactorily sybaritic and was followed by the traditional
+drunken gossip in the bar, during which several people lurched up to
+me and said "Famulus?" in a menacing sort of way.</p>
+   <p>The following
+morning began with a presentation on Salford's new Prolog system
+(which was also available for hands-on use during the morning) This is
+(like Poplog) a hybrid in which all those bits that are difficult or
+impossible to do in pure Prolog (like reading from files or doing
+assignments) are hived off to another language, in this case LISP It
+also supports a better syntax for grammar rules, a Fortran interface
+and -yes- floating point arithmetic! But it is only available on Prime
+and is still under development.</p>
+   <p>The trouble with Prolog of
+course, the next speaker pointed out, is that it is really only
+practicable on machines that don't exist and are unlikely to for the
+next ten yearsSomething called "a given sector of my client base" was
+however attuned to it and so his company (Cambridge Consultants Ltd)
+were investigating its usefulness in</p>
+   <p>real time (but not as yet
+real) applications Their investigations had however thrown up nothing
+that could be communicated to us other than a list of the available
+versions of the language and some fairly superficial remarks about
+it.</p>
+   <p>John Baldwin from Bristol and Ron Knott from Surrey
+re-established the intellectual credibility of this workshop by the
+next two papers which described programming languages capable of
+building knowledge based systems Baldwin described his Fuzzy
+Relational Inference Language, which is a logic programming language
+incorporating uncertainty in a far more thorough and mathematically
+respectable way than SAGE Other buzzwords included the blackboard
+model, parallel architecture, a self organising knowledge base and a
+dataflow machine His paper was the only one that could properly be
+said to manifest state of the art knowledge, although Knott gave an
+interesting survey of the available functional programming languages,
+typified by LISP, variations of which are very much still alive and
+kicking.</p>
+   <p>After lunch, delegates were restored to good humour by
+Tim O'Shea (OU) who gave a good survey of Al-supported computer aided
+learning systems Apparently the crucial question to ask someone trying
+to sell you a computer tutor is "What sort of task difficulty model do
+you have?” and, if this fails to floor him (or it), 'Does it support
+dynamic student modelling?' The speaker was good enough to kindle
+enthusiasm for his subject which is saying a good deal in this case
+Apparently the process of producing CAL systems is generally known as
+"authoring" The people (or things) that do it are presumably known as
+"authorers".</p>
+   <p>Finally we were given an interesting account of the
+current structure of the Alvey directorate, and even some figures
+about how its huge funds were being split up Whether or not these
+large sums will succeed in reversing the process of rot supposedly
+created by that convenient scapegoat the Lighthill Report, or whether
+they will simply prove a useful way of cutting down funding for other
+academic research remains to be seen, though the fact that ALVEY
+expands to "All Large Ventures Except Yours” may be taken as some
+indication.</p>
+</div>

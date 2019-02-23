@@ -1,0 +1,45 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1982-09-16">
+   <pb facs="Pages/img442.jpg"/>
+   <head type="when">
+20.9.82</head>
+   <head type="event">Codasyl/BCS DBAWG</head>
+   <head type="location">The Burn</head>
+   <p>DBAWG (Database Administrator Working Group) is a
+long-established working group of the BCS which is also affiliated to
+CODASYL (Conference on Data Systems Language - that influential body
+to which we owe such delights as Cobol and IDMS). Its membership is
+eclectic and disputacious. Many innovations in the database world have
+originated in or been subtly moulded by its argumentative members (the
+IDMS Fortran Interface and the independent storage schema being two
+notable recent examples).</p>
+   <p>I was invited to attend this meeting
+as an observer. The meeting was hosted by Aberdeen University at the
+Burn, a charming country house on the banks of the North Esk (but
+unfortunately out of the Salmon-fishing season). Other academic bodies
+represented included the Open University, Edinburgh and Sheffield
+Poly; manufacturers represented included Philips and Univac; software
+house CACI and SCICON were also represented as were users such as John
+Brown Engineering and MOD.</p>
+   <p>It soon became evident, however, that
+the members of the group (25 in all) were present in purely personal
+capacities. DBAWG's current projects are the definition of an
+architecture to support distributed databases and the extension of
+CODASYL systems to include access control; its two current subgroups
+reflect this division.</p>
+   <p>I sat in on discussions of both subgroups
+and also on the major topic of the whole meeting, which was the
+proposed ANSI DBCS specification derived from Codasyl. Of the two
+subgroups, work on the distributed architecture is well advanced and
+most of the time was spend clarifying and optimising the expression of
+the group's proposals in a working paper. Work on access control is
+less well advanced however: an initial model, based on ISO
+'information systems' concepts, has been floundering for the last two
+meetings on matters of definition. Quite what an 'action' (to or by
+which access is to be controlled) is and at what level of
+primitiveness it exists has been the subject of two papers, both now
+rejected.</p>
+   <p>In discussing the ANSI paper, several worthwhile
+criticisms emerged, notably the absence of compound data structures
+and of language-dependent facilities at the subschema
+level.</p>
+</div>

@@ -1,0 +1,69 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1977-08-05">
+   <pb facs="Pages/img386.jpg"/>
+   <head type="event">4th International
+Summer School in Computational &amp; Mathematical Linguistics
+(sponsored by CNUCE &amp; IBM Italia)</head>
+   <head type="location">
+Pisa</head>
+   <head type="when">Aug 5 – Aug 26 77</head> 
+   <p>Up to 200 people
+attended the Summer School, mostly from Italy, France, USA, Canada and
+W.Germany; smaller national groupings included the English, Belgian,
+Dmtch, Czech, Yugoslavian and E.German (all about half a dozen
+each). There were also at least one Pole, one Vietnamese and an Indian
+from Moscow. Over two-thirds of those present were linguists and
+probably half of these had no computational experience. Almost all
+were engaged in academic research, mostly of post-doctoral or doctoral
+level. The summer school consisted of a dozen forma1 courses of
+lectures of varying lengths, workshops and informal
+discussions.</p>
+   <p>The courses reflected the interests of the majority
+in that the strictly computational element was slim. The star in this
+respect was M.K.Halliday (long regarded as the Grand Old Man of modern
+linguistics) whose course demonstrated the enormous complexity of
+understanding and producing natural language, and the complete lack of
+homogeneity in the typos of knowledge to do so. By contrast, Yorick
+Wilks (equally undoubtedly the Machine Intelligence Superstar of the
+Seventies) gave an optimistic and remarkably thorough overview of the
+various systems for understanding natural language developed over the
+last ten years. Wilks (a philosopher by training) has a witty
+lecturing style and maintains a lordly indifference to the petty
+squabbles of nomenclature which bedevil the field. He brought out the
+intrinsic similarities of much recent work, and stressed that the
+relation between these and recent developments in theoretical
+linguistics was closer than suspected. Wilks' course was complemented
+by a two-week course taught (in a ruthlessly pedagogic manner) by Luc
+Steels (U of Antwerp, now at MIT).Though called 'an introduction to
+computational linguistics', -this course in fact simply presented in
+some detail the formalisms used to express meaning in the field and
+gave more technical details of many of the systems described by
+Wilks. Typical material covered included LISP type lists,
+phrase-structure grammars, case-structure grammars, semantic
+structures (eg. Schank's "conceptual dependency" graphs, Winograd's
+PLANNER) and, most important, transition networks. Steels gave
+sufficient detail of how different parsing systems operated to suggest
+that implementation was comparatively trivial, and also discussed in
+more general terms other cognitive formalisms such as frames, scripts
+and the Knowledge Representation Language of Bobrow &amp; Winograd. A
+specific example of a transition network was discussed in another
+course, given by Ron Kaplan (Xerox, Palo Alto) who, with R. Woods,
+designed the first successful ATN-based parser and has now expanded it
+considerably. (An ATN is a method of representing a given syntax or
+grammar in a Transition Network; the A stands for Augmented, and
+indicates that some or all of the transitions may include predicate
+tests, case functions, structure building acts etc., thus including a
+semantic component in the system)</p>
+   <p>In addition to these full
+length courses, I attended parts of a course given by George Lakoff
+(UCLA,Berkeley) on linguistic "gestalts" -a new concept in theoretical
+linguistics suspiciously similar to the AI "frame" concept , an
+informal discussion at which I spoke on the Oxford Archive, and an
+introductory LISP course. I also found a couple of potential Oxeye
+users and a lot of texts for the Archive. There was an attempt to
+organise a football match "Linguists v. Computers", but it failed
+through lack of computational support.</p>
+   <p>Approx 5 kg. of printed
+paper came put of the Summer School, and is on its way hither if
+anyone wishes to know more about it. I also have course notes for
+Steels' course and a useful bibliography.</p>
+</div>

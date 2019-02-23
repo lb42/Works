@@ -1,0 +1,33 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1980-04-21">
+   <pb facs="Pages/img422.jpg"/>
+   <head type="location"> Post Office DPE ,
+London</head>
+   <head type="event">ICL.IDMS User Group
+Meeting</head>
+   <head type="when">21 April 1980</head>
+   <p>ICL gave a
+presentation of the next release (DD250) of Data Display which is due
+for release this summer. This product now presents a very
+user-friendly interface to an IDMS database. There are a few new
+features (in particular the ability to constrain selection by boolean
+expressions of arbitrary complexity using dummy characters) this they
+somewhat grandiosley call "fuzzy-matching"} and an extensive 'HELP'
+command) but most of the changes from DD2DO are essentially mopping up
+and extending what was half done already. The full facilities now
+available for user-defined macros in particular give DD considerable
+power and it should prove very useful in simplifying use of IDMS
+databases by 'non-programmers'. ICL were also due to give a
+presentation on the probable contents of IDMS 300 (the
+next</p>
+   <p>major release of the base product) but were unable to do do
+because of</p>
+   <p>internal bickerings. I discovered that there might be
+problems making any</p>
+   <p>new facilities in the base product
+automatically available from Fortran, and complained accordingly,
+hopefully to some effect. Over a lengthy liquid lunch I discussed my
+ideas for an algol68 interface with delegates from ERCC and QMC ,
+among other things. After lunch the group discussed ICL's response to
+the shortfalls paper, which was bye and large satisfactory, if
+non-committal.</p>
+</div>

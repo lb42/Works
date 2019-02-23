@@ -1,0 +1,98 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1994-11-14">
+   <head type="event">Conference on Encoding and Corpora</head>
+   <head type="report">A visit to Oslo</head>
+   <head type="location">University of Oslo</head>
+   <head type="when">14-16 Nov 1994</head>
+   <p>
+I was invited to give a number of talks at the University of Oslo as
+part of a small conference organized by the new inter-faculty Text
+Laboratory set up there, in collaboration with the  Department  of
+English and American studies, but with visiting guests from other
+linguistics departments at Oslo, and from the Universities of Jykslava
+(Finland) and Lund (Sweden).  The emphasis was on corpus linguistics
+and encoding; between twenty and thirty staff and research students
+attended over the three days of the conference.
+</p>
+   <p>
+Willard McCarty from the University of Toronto's Centre for Computing
+in the Humanities began the first day with a detailed presentation of
+his forthcoming electronic edition of Ovid's Metamorphoses, which
+continues to be a fascinating example of just how far the humanities
+scholar can go with an ad hoc encoding scheme. I then gave the usual
+rapid canter through the TEI Guidelines, their milieu and architecture,
+which gave rise to some quite useful discussion before we broke for a
+substantial lunch. In the afternoon, Willard and I spent some time in
+the Text Laboratory, trying to install the very first BNC starter set
+(in my case) and checking email (in his). The Lab has a large Unix
+fileserver (some kind of DEC machine, since it runs Ultrix), and a room
+full of Windows and MACs connected to it via ethernet. We saw no-one
+else trying to use the equipment while we were there, but the Lab has
+only just begun operations.
+</p>
+   <p>
+On day two of the conference, Willard gave a talk which began
+promisingly by outlining the history of concordancing and concordances,
+from the middle ages onwards, but then became an overview of the
+features of TACT, which did little to improve my opinion of the design
+of that loose baggy monster of a concordance program. I then gave the
+usual rapid canter through the BNC, which aroused considerable
+interest. There were several intelligent questions about the design and
+construction of the corpus, and the accuracy of its linguistic tagging.
+I was also able to do my bit for the European Union by pointing out
+that a "no" vote in Norway might make it more difficult for us to
+distribute copies of the BNC there (the day before I arrived the
+Swedish referendum had confirmed Swedish membership; while we were
+there, rival campaigns on either side of the Norwegian referendum were
+in full swing). 
+</p>
+   <p>
+During the afternoon, Willard and I were (independently) esconced in
+offices to act as consultants for a couple of hours: I spent most of my
+time re-assuring a lady from the German department that the TEI really
+could handle very simple encodings as well as complex ones, and
+rehearsing with her the TEI solutions to the usual corpus-encoding
+problems.  Oslo is collaborating with Finnish and Swedish linguistic
+researchers in the development of a set of bilingual corpora
+(English-Finnish, English-Norwegian, and English-Swedish), so I also
+spent some time discussing and reviewing the project's proposed usage
+of the TEI Guidelines. Bergen and Oslo have developed a procedure for
+automatically aligning parallel texts in English and Norwegian, which
+appears to work reasonably well, perhaps because the languages are not
+so dissimilar. I rather doubt whether automatic alignment of English
+and Finnish will be as easy, but the Finns seemed quite cheerful about
+the prospect. In the evening we were taken out for a traditional
+Norwegian Christmas dinner, comprising rotten fish, old potatoes, and
+boiled smoked sheep's head, washed down with lots of akvavit: not as
+nasty as it sounds, but twice as filling.
+</p>
+   <p>
+The final day of the conference began with an excellent talk by Doug
+Biber, from Northern Arizona University, describing the use of  factor
+analysis in the identification of register within a large corpus of
+materials in three languages (English, Korean and Somali). Biber's use
+of statistics is persuasive and undogmatic; the basic method was 
+outlined in his book on speech and writing (1988) but its application
+to cross-linguistic (or diachronic) corpora is new and provoked
+considerable discussion. 
+</p>
+   <p>
+This was followed by my swan song at the conference, a real
+seat-of-the-pants nail-biting event, being my first ever attempt to
+describe and then demonstrate the BNC retrieval software running (on
+Willard's laptop) live and in real time. As a result of careful
+pre-selection and late night rehearsal, I'm relieved to say that the
+software did not crash once, though my ability to control Willard's
+laptop's track-ball in public was frankly pitiful. SARA herself
+attracted favourable reaction, in particular because of the system
+design. Interest was expressed in the idea of extending her
+functionality to cope with the display and searching of parallel
+TEI-encoded corpora: not a task I think we will be undertaking
+ourselves in the near future.
+</p>
+   <p>
+This was a relaxed but far from vacuous three days, with ample
+opportunity for discussion and debate in pleasant surroundings. Sincere
+thanks are due to my host, Stig Johansson, and his department for
+arranging it and funding my participation.
+</p>
+</div>

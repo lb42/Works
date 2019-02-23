@@ -1,0 +1,70 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1997-04-16">
+   <head type="event">TEI Workshop</head>
+   <head type="location">SSLMIT  Forlì</head>
+   <head type="date">16-22 April 1997</head>
+
+   <p>The <ref target="http://www.sslmit.unibo.it/">Scuola Superiore di
+Lingue Moderne per Interpretore e Tradutori</ref>  is one of the very
+small number of University-level institutions in Italy dedicated to the
+training of interpretors and translators. It has a high national
+reputation, only partly inherited from its illustrious parent, the
+University of Bologna, since it is in fact located at  Forlì,
+a pleasant Emilian town some 30 kilometres from Bologna,on the edge of
+one of Italy's major wine growing areas, and close to  Predappio,
+birthplace of Il Duce.</p>
+   <p>I was invited to teach a full TEI workshop to a mixed group of about
+fifteen 3rd and 4th year students, all of whom were fluent in English,
+and had already had some exposure to computing methods and results by
+virtue of using the BNC and SARA. The main objectives were to explain
+some basic markup principles, to give some hands-on experience of other
+SGML software,  to demonstrate the extent to which the usability of a
+computer corpus is determined by its markup; and get the students
+thinking about how they might prepare their own corpora. The workshop
+consisted of eight 90 minute lectures, three two hour practical
+sessions, and two discussion sessions, somehow squeezed into six days of
+fairly concentrated effort. </p>
+   <p>Before the workshop proper I gave as curtain raiser 
+      <!--ref target="http://users.ox.ac.uk/~tei/Presentations/BNC"-->an open lecture
+on the British National Corpus, remarkably similar in content to the one
+I had given <ref target="#Report-1997-04-12">the
+week before in Lòdz</ref>, though couched in somewhat different
+terms. The emphasis was, naturally enough, on how the BNC actually used
+TEI-like markup. It  was followed by the  following sessions:</p>
+   <list>
+      <item>
+         <ref target="http://users.ox.ac.uk/~tei/Presentations/Markup">
+Theory of Text Encoding</ref>: a lecture on the motivation for encoding and the varieties, benefits, and dangers of markup. </item>
+      <item>
+         <ref target="http://users.ox.ac.uk/~tei/Presentations/DocAnal">Document Analysis:</ref>  a brief presentation on what document analysis is, how to do it, and why you should bother.</item>
+      <item>Tagging Workshop: an exercise in document analysis, based on  a document one of the students had worked on previously. The discussion was a little inhibited at this stage, as many of the students were still reeling from the shock of being asked to consider using a computer for something other than word processing.</item>
+      <item>
+         <ref target="http://users.ox.ac.uk/~tei/Presentations/SGMLintro">Introduction to SGML and DTDs:</ref> this was a whistlestop tour through the syntax of SGML, requiring considerable amounts of stamina; it was probably the least successful of the straight lectures.</item>
+      <item>
+         <ref target="http://users.ox.ac.uk/~tei/Presentations/TEIlite">TEI Lite overview:</ref> straightforward introduction to the most generally useful core element tags in TEI Lite, basic notions of the TEI scheme etc.</item>
+      <item>Basic TEI Encoding Practical: the first of three 2 hour practical sessions. Importing an "Ascii-only" text into Author/Editor and adding some basic tagging, for titles, divisions, paragraphs, phrases, etc. Everyone worked on the same text (a very short story by Kate Chopin downloaded from the internet) to the same script, which was exhausting, but apparently enjoyable.</item>
+      <item>
+         <ref target="http://users.ox.ac.uk/~tei/Presentations/TEIarch">TEI Architecture:</ref> a lecture on the organization of the TEI scheme, how to mix and match tagsets etc. (For an Italian audience, the pizza model is a particular  treat)</item>
+      <item>Using special tagsets: a second practical session, marking up a short passage of transcribed speech with a view of the TEI specialized for spoken texts, using Author/Editor. In this case, the text being imported alreadty contained markup for turns, overlap, etc. which had to be converted either manually or using macros (the brighter students found out how to do this for themselves). </item>
+      <item>
+         <ref target="http://users.ox.ac.uk/~tei/Presentations/TEIhdr">The TEI Header:</ref> lecture on its motivation and contents, necessarily focussing on  bibliographic matters of somewhat marginal interest to corpus builders, though I did try to draw some parallels with the needs of corpus builders for documentation.</item>
+      <item>Building a TEI Header: by the time of this third practical session, most of the students were getting quite confident in their use of A/E; they were now challenged to create a TEI Header for either of the two texts created previously, starting from a blank screen.</item>
+      <item>
+         <ref target="http://users.ox.ac.uk/~tei/Presentations/TEItools">Overview of TEI tools</ref>: this lecture tried to explain the varieties of SGML and TEI software  available: but focussed particularly on using nsgmls, various convertors, and Panorama. I wrote a Perl program to count sentence-initial patterns, and used Jade to turn the Chopin text into RTF. </item>
+      <item>TEI Tools Practical: this was largely an exercise in learning and using Panorama to display and search the marked-up texts prepared earlier. </item>
+      <item>
+         <ref target="http://users.ox.ac.uk/~tei/Presentations/TEIcorpus">My final lecture</ref> touched on some of the more recondite aspects of the TEI likely to be of interest to linguists (segmentation, feature structures, alignment etc.), in the overall context of what the TEI had to offer corpus builders. It also summarized very briefly what the course as a whole had been trying to demonstrate: that you get out of your corpus only what you put into its markup, and that it was up to the corpus builder to decide just what that should be.</item>
+   </list> 
+   <p>In a final round up session, over coffee and cakes, 
+<ref target="http://users.ox.ac.uk/~lou/Pix/forliStudents.htm">the group</ref> voiced
+some concerns about the relevance of all this to the practical problems
+they will face as translators: some of them wondered if a TEI corpus
+would help them preserve private corpora of translated works; others
+were more interested in the availability of large public corpora like
+the BNC. </p>
+   <p>I must add that these students were a real pleasure to teach. They
+worked very hard to grapple ideas and methods initially quite unfamiliar
+to them, and (particularly in the practical sessions) worked with great
+enthusiasm. And they put up very politely with my hectoring style of
+teaching too. By the end of the week, they had definitely earned the
+certificates we handed out.</p>
+</div>

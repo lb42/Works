@@ -1,0 +1,95 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1983-11-30">
+   <pb facs="pages/img456.jpg"/>
+   <head type="report">Visit Report</head>
+   <head type="location"> Strand Palace Hotel, London</head>
+   <head type="event">ICLCUA CAFS SIG Open
+Meeting</head>
+   <head type="when"> 30 November 1983</head>
+   <head type="report"> ALSO PRESENT P Salotti</head>
+   <p>This was
+that rare occasion, a CUA -sponsored meeting at which no-one was after
+ICL's blood With characteristic low cunning the company first put up
+an odious marketing person to draw such offensive remarks as the
+audience could muster (chiefly "What about TP?" and "When?") and then
+lob them over to Hamish Carmichael to be dealt with after lunch Mr
+Gershon (for it was he) is much addicted to the use of ACL (Audible
+Capital Letters) and so we were repeatedly told that CAFS-ISP was now
+offering a real End User Capability at a Highly Competitive Price; he
+also kept referring to it as the Product of the Decayed" which can t
+be right, even if Vic Maller has left the companyAs regards price
+however, it is depressing to learn that we could (now) buy a whole DSC
+complete with CAFS for the cost of the add-on DFC CAFS module i.e
+£35k.</p>
+   <p>The next speaker was Roger Hare, an equally paradigmatic
+Man from West Gorton, who acquitted himself well in the extremely
+boring task of detailing the history of the CAFS-ISP field trials,
+including such minutiae as the number of bugs and the dates each was
+cleared Instructively, we were told that there had been over two
+hundred (sic) bugs in Querymaster (variously abbreviated throughout
+the day as QM, QRYM and QYRM) and about half a dozen each for VME
+8.10, IDMS350, DDS650; one (one) hardware failure had required a
+change in the CAFS microcode Of the nine field trial sites, one (one)
+had gone live - the day before the meeting by an odd coincidenceAll
+had had ample evidence to justify the performance claims previously
+made for the systemSeveral technical queries were also handled by this
+speaker, mostly to do with the impact of CAFS searches on concurrent
+TP systems, which is predictably pretty dire.</p>
+   <p>Lastly before
+lunch, Peter Drake of Southern Water spoke briefly about the working
+party on high level interfaces to CAFS, in which we are also
+involvedHe did little more than outline the history of the group,
+express gratitude for ICL's helpfulness in setting it up and promise
+that the Report would be finished by January.</p>
+   <p>The lunch was high
+on protein, but low on flavour and I spent half of it in the pub with
+some policemen I learned from S.George (QMC) that their CAFS would be
+used if at all as a means of supercharging existing IDMS databases,
+that they were very worried about concurrency problems and that
+installing VME release 8 was a pig I also ingratiated myself with one
+Ian Turner, whose title is Marketing Innovation Manager within UKD
+Marketing and who is, significantly, a Kidsgrove Man This means that
+he is willing not just to countenance but even actively to support the
+"Death to the Dictionary" heresy This maintains that CAFS should be
+accessed via the low level RSI rather than via the baroque orthodoxies
+of Bracknell Man Consequently we are now on the list for field trials
+of PSAM, RCI, RSI, Textmaster and ANONP (another non-nameable
+product).</p>
+   <p>After lunch we were given a tantalisingly brief
+account of progress on the Inland Revenue's COP (Computerised PAYE)
+system The purpose of this is not just to catch up with Paul
+Griffiths, but also to provide a national facility for each tax office
+to be able to translate names and addresses into National Insurance
+numbers Eventually it will use 47 2966s with 18,000 DRS terminals
+accessing about 250 FDS 640s (Laughter) The first of its 47 regional
+systems went live in October The interesting aspect for us is that
+they use a purpose-written interface to the ISAM RAM, using the RSI,
+thus giving the lie to Bracknell Man's assertion that everything must
+be done via the Dictionary.</p>
+   <p>The next speaker, from Nottingham
+Borough Council, had enjoyed his lunch rather too much to make any
+very intelligible criticisms of Querymaster, particularly as nearly
+everything he complained of was a direct consequence of trying to use
+a 1960-style database of flat files as if it was an IDMS system and
+also of behaving as if CME was a real operating system instead of a
+transition aidAnother speaker from Southern Water (which is the one
+site to have gone live with CAFS) gave an impressive account of their
+field trial experiencesThey had used QM (QRYM or QYRM) on a 105 Mb
+database and even in this cumbrous software environment could report
+vast performance improvements.</p>
+   <p>Finally, two ICL speakers Andrew
+Hutt (on behalf of Bracknell Man) and Hamish Carmichael (on behalf of
+the human race) summarised the state of play. Hutt asserted that QM
+without CAFS could search 250 records a second, and 4000 with it
+Carmichael, who is much better at PR, proved that a 2966 with CAFS
+could read at one mile an hour as follows.  The upper limit for one 2966
+is six CAFS units, giving you a total maximum database size of 121
+gigabytes, i.e roughly the equivalent of 5 miles of library
+shelves. This would, he claimed, take about half an hour cpu to scan the
+lot. Hutt said how happy he was that at last ICL had made CAFS an
+integral part of the company's development plans; Carmichael said how
+happy he was that further developments were already underway at
+Kidsgrove (i.e not Bracknell) and even non ICL software houses. This
+oblique reference to ANONP clearly augurs well for our early
+involvement with the RSI, an impression confirmed by Turner's interest
+in our proposed packaging of an SPSS interface using PSAM.</p>
+</div>

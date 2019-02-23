@@ -1,0 +1,136 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1996-09-02">
+   <head type="event"> Algebraic Document Processing:
+Project DAVID workshop</head>
+   <head type="location">University of Minho, Braga</head>
+   <head type="when"> 2-4 September 1996</head>
+   <p>DAVID is a newly funded  project in structured programming and
+document manipulation, based at the <ref target="http://www.di.uminho.pt/">University of
+Minho's computer science department</ref> and funded by JNICT (Junta
+Nacional de Investigação Científica e Tecnológica:
+i.e. the Portuguese national research council).  Its goals are to build
+on the department's expertise in formal methods and grammars, exploring
+new ways of applying them to text processing and information handling.
+To start the project off, they organized a three day workshop on
+"Algebraic document processing" in Braga last week, inviting a small
+number of guest speakers (myself, James Clark, and Sebastian Rahtz) to
+share their ideas in a pleasantly relaxed environment. There were about
+a dozen participants, mostly from the department itself, but also from
+other Portuguese universities.</p>
+   <p>I was asked to give an overview of SGML and then to describe the TEI
+architecture and ways of using it. I took the opportunity of
+reorganizing the standard TEI workshop slightly, also introducing a
+little more technical content than usual. Following the now-traditional
+account of the problems of realizing the full potential of electronic
+texts, I presented a version of the <ref target="http://info.ox.ac.uk/ota/teip3sg/">Gentle
+Introduction to SGML</ref> expanded to include all (but only) the SGML
+features actually used in the TEI scheme. Sebastian Rahtz followed this
+with a nicely contrasting account of the practical difficulties of
+applying SGML in the production-line world of Elsevier's journals
+division. Elsevier has committed itself to using SGML for the archival
+storage of their several hundred scientific and technical journals,
+using <ref target="http://www.elsevier.com/homepage/about/sgml/">a version of the ISO 12083 dtd</ref> with
+various varyingly satisfactory accomodations to cope with the enormous
+amounts of maths, graphics etc. needed. This policy is expected to pay
+off in terms of re-usability, with such ventures as the
+<ref target="http://www.elsevier.com/homepage/news/1996/science/">Science Online</ref> database due to start next
+year, which will deliver full text of 300 scientific  journals on the
+web, complete with links to relevant bibliographic databases and
+abstracting services, for those well-enough funded to access them, at
+least.  </p>
+   <p>After lunch (pizza of course), I gave <ref target="http://info.ox.ac.uk/ota/teij31/">the
+traditional TEI architecture presentation</ref>, focussing rather more
+explicitly on the nitty gritty of its class system and how the
+modularity of the dtd is implemented. I then gave the document analysis
+presentation, followed by a group tagging exercise. This last was quite
+successful, unexpectedly, since the text chosen as vehicle was an
+obscure 17th century English political pamphlet, which several
+participants found linguistically rather challenging. The first day
+concluded with a brief account of the motivation for, and contents of, 
+the TEI header, after which I was more than ready for a cool beer and
+the obligatory bacalhao.</p>
+   <p>Day two began with the audience's choice of TEI tagsets: offered a
+choice of TEI-ana, TEI-spoken, and <ref target="http://info.ox.ac.uk/ota/teilite/">TEI-lite</ref>,
+they plumped for the first two, which is what I duly gave them. This was
+a pleasant change, for me at least; in retrospect it's a great shame
+that I had not prepared more on the feature structure tagset, since such
+mention as I was able to make of it was clearly of considerable interest
+to this audience.  I concluded my presentations with a brisk canter
+through available SGML tools and strategies for handling TEI texts.</p>
+   <p>James Clark then  improved considerably on my superficial account of
+what a parser does by giving a detailed presentation of his
+<ref target="http://www.jclark.com/sp/">SP parser,</ref> complete with some glimpses of
+its 60,000 lines of C++ code. The new version of SP implements
+everything defined in ISO 8879, even the silly bits. Unlike his earlier
+parser, sgmls, it supports multi-byte character sets such as Unicode,
+maintains non-ESIS information such as comments and use of white space,
+and also allows for modification of the concrete syntax. It is also
+reportedly at least twice as fast. SP is actually a general purpose C++
+class library, with a well defined entity manager, and comes with a
+number of useful implementations; it is completely free of charge, and
+has already been incorporated into a number of leading SGML products
+(notably Technoteacher, Balise, and Microstar's SGML Author for Word).</p>
+   <p>After lunch, Sebastian Rahtz' second presentation described an
+ingenious approach to the rather unusual problem created by Elsevier's
+document management policies: the need to convert from LaTeX into SGML
+(rather than the more usual reverse). Authors' use of LaTeX varied so
+much, and LaTeX itself was so flexible, that in some cases it would be
+cheaper to throw away the author's source and retype it from scratch, or
+to throw away the TeX markup and retag it. Automatic conversions based
+on parser technology inevitably fell foul of the macro-processing nature
+of the TeX system sooner or later, and so the optimum solution seemed to
+be to use TeX itself to process the input, but tweak its macros  so as
+to emit appropriate SGML tagging along with the formatted text. Probably
+you have to be a TeX hacker of Sebastian's expertise to even think of
+this solution, let alone to implement it, but it does apparently work
+more reliably than any of the alternatives. Sebastian also outlined
+various strategies for presenting maths on the web and tried very hard
+to persuade us that using PDF was a good idea. </p>
+   <p>Day three was mostly devoted to <ref target="http://www.jclark.com/dsssl/">DSSSL</ref>, the
+new Document Style Specification and Semantics Language, ISO 10179. José
+Ramalho from Braga began with a brief overview of the contents of this
+important new standard, which complements the standard syntax offered by
+SGML with a standard way of defining its semantics. DSSSL has four
+components: a language and a processing model  for transforming one SGML
+document into another; a query language called SDQL for identifying
+portions of an SGML document; a style language for applying formatting
+characteristics to an SGML document, expressed in terms of things called
+"flow objects"; and a powerful expression language derived from SCHEME
+which ties the whole thing together.</p>
+   <p>James Clark then presented his new  piece of software: JADE
+(believed to be short for <ref target="http://www.jclark.com/jade/">James's  Awesome DSSL
+Engine</ref>). He began with an impressive proof of concept which
+involved converting the 300 pages of the DSSSL standard itself directly
+into RTF before our very eyes, and showing the results, but then
+descended (or ascended) to showing us large amounts of the code in Jade.
+I regret to report that my comprehension of object-oriented techniques, 
+already somewhat overstretched,  did not allow me to follow as much of
+this as it should: but the availability of  a DSSSL style sheet for TEI
+texts (on which work is currently proceeding) will no doubt change this.</p>
+   <p>After lunch,  Jocelyn Payne described a system he has developed
+called <ref target="http://users.ox.ac.uk/~popx/webomatic.html">Web-o-matic</ref>, which appears to be a way of
+doing what most people do with CGI scripts but using object-oriented
+Rexx. The system is used by a <ref target="http://ww2.ifs.org.uk/byoc/storysofar.htm">do-it-yourself economic
+modelling web site </ref> at the Institute for Fiscal Studies. It
+wasn't clear to me what the point of this approach might be, but it's
+always nice to hear what Jocelyn is actually up to. I wonder whether he
+knows that at least three internet service providers use the term
+web-o-matic to describe their tacky home-page creating scripts? </p>
+   <p>Finally, Pedro Henriquez and José João Almeida  gave
+an overview of their plans for<ref target="http://www.di.uminho.pt/~jcr/projectos/david/princ.html"> the DAVID project</ref>.
+They have three years funding from JNICT, the Portuguese government
+research funding agency, to explore new techniques and ideas in textual
+information and processing. Their strong background in language
+processing, with a corresponding emphasis on representation of meaning
+as abstract syntax trees, together with their large resources of
+programming skills (they have already developed a specification language
+and prototyping environment called <ref target="http://www.di.uminho.pt/~lsb/camila.html">Camila</ref>,
+and applied it to the task of defining a `literate programming'
+application) clearly give them a head start (over me at least) in
+understanding DSSSL and applying it to new and interesting areas.</p>
+   <p>This was an unusual workshop, with a high degree of technical
+content in a pleasantly relaxed atmosphere. For me, it was also a
+comparatively painless way of finding out what the excitement about
+DSSSL is all about; my thanks are due to the organizers and to my
+co-speakers for making this an occasion to remember.</p>
+  <p> <ref target="http://users.ox.ac.uk/~lou">Lou Burnard</ref>
+</p></div>

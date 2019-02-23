@@ -1,0 +1,34 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1979-06-28">
+   <pb facs="Pages/img417.jpg"/>
+   <head type="report">VISIT REPORT L. Burnard</head>
+   <head type="location"> Post
+Office Data Processing HQ, Somewhere-in-London</head>
+   <head type="when">28 June 79</head>
+   <head type="event">ICL DMUG 2900 IDMS
+Subgroup no 2</head>
+   <p>This subgroup was reformed in May to take over
+outstanding work from earlier groups of the old IDMS User Group, and
+to investigate the facilities currently available with 2900 IDMS/X, to
+report on short­comings and press ICL for enhancements. Oraganisations
+represented include BBC, BR, BNOC, MOD, Racal, W.M.Gas, Sainsburys,
+Post Office, QMC and various local authorities. It is also a good
+place to trade experience, horror stories &amp;c, and a pressure group
+to which ICL is unusually responsive. The only IDMS facilitiy not
+included in the group's terms of reference is the Fortran Interface,
+largely because the FISS subgroup got going before this group was
+formed. I proposed to disband the FISS group (current membership 3½)
+not only for the obvious reasons of convenience, but also to ensure
+that Fortran &amp; Cobol DHL facilities would not diverge any further
+than they already show signs of doing. Subject to agreement of the
+other 2½ members of the FISS subgroup, the IDMS group agreed to
+include the Fortran Interface in its list of concerns. About ten
+reports on various IDMS facilities &amp; products are to be tabled,
+about half of which were discussed at this meeting. I have copies of
+papers presented, which include: descriptions of the facilities of
+IDMSX, Restructure, Reorganise, TP, Recovery, Statistics; possible
+areas for improvement, etc. Some of these are due to be re-drafted;
+papers yet to be presented include accounts of FAME, Data Display,
+Database Load &amp; Integrity Checker. BR and Post Office also
+reported on some performance problems in IDMSX. The next meeting will
+be at Oxford, and further reports will be presented.</p>
+</div>

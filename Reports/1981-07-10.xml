@@ -1,0 +1,103 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1981-07-10">
+   <pb facs="Pages/img437.jpg"/>
+   <head type="report"/>
+   <head type="location">
+University College Cardiff</head> 
+   <head type="event"> Workshop on
+Databases in the Social Sciences</head>
+   <p>This SSRC-sponsored workshop
+brought together a number of experts from the fields of computer
+science and social science who (not surprisingly perhaps) were
+mutually rather baffling. The general tone of the encounter was set by
+Dr Peter Stocker (East Anglia) for the computer scientists and Stephen
+Clark (SSRC Survey Archive) for the social scientists
+respectively. Clark evaluated software which existed (the
+S.I.R. front-end to SPSS) and did nearly everything anyone might want
+nearly all of the time, while Stocker described software which had
+existed but failed to please and software that didn't exist yet but
+would satisfy just about everyone. Stocker also explained how good
+computers were not only as a source of entertainment but also as a
+source of income . The reaction to this topical jest (much of the
+conversation in the bar hinged on comparisons of letters from the UGC)
+having subsided, he proceeded to dole out some rather antique
+platitudes on the subject of database systems, relational models, size
+and scope thereof etc before finally touching on his latest
+fund-raising exercise, a distributed database system. This currently
+takes the form of lengthy arguments about some way of interfacing
+various relational query process rs to a common target and bears a
+strong resemblance to ICL's Data Dictionary philosophy. John Welford
+(ERCC) was supposed to be speaking about an application of IDMS to a
+complex record-linkage (i.e. parish record) problem, but was rapidly
+side-tracked into a rather empty discussion of the usability of
+otherwise of Cobol, which managed to raise the hackles of both camps
+in his audience, the computer scientists by its matter and the social
+ones by its manner. The undisputed star of the workshop was chubby Dr
+Tim King from Cambridge whose infamously large and complex database of
+parish registers we hope to acquire for the Archive before the whole
+project gets the chop this August. His database is accessed by means
+of his own home-made relational system CODD and its query language
+CHIPS (hem hem); this software is written entirely in BCPL and King
+and Jardine were evidently a touch miffed that the SSRC had refused
+ipso facto to support the package; several social scientists were also
+rather disappointed at this, since his was the only system described
+at the workshop which could be said to generate much enthusiasm. (This
+enthusiasm was however later dispelled by a remarkably inept
+presentation by another user of CODD, Ryan Kemp from UCL, whose talk
+was barely visible, scarcely literate and utterly devoid of
+intellectual content). A more competent speaker, Ron Cuff from Essex,
+now c/o IBM, speculated about future directions in query languages,
+spouting out acronyms like a burst water main, but also several useful
+references Expert systems, natural language query processors, all are
+very nearly with us (the best of the latter was called ROBOT in the
+states but is now known as OLE (On Line English- presumably to avoid
+confusion with Liverpool's antiquated DBMS rather than to appeal to
+the Spanish market). The narrowing of the gap between A.I, systems and
+query processors continues to lead to flourishing hybrids (and mutual
+mystifications). What the social scientists made of all this I cannot
+imagine; probably rather more however than they did of the next
+speaker, Dr Peter Gray from Aberdeen, whose ASTRID system is an
+automatic program generator for accessing a Codasyl database by means
+of the relational algebra. The same system was being developed to
+interface Zloof's Query-by-example, which Gray felt typified the query
+processor of the future. The social .scientists finally managed to get
+in a word when Dr N Gilbert (Surrey) described in heart-rending detail
+the extremes to which they had to go in order to translate the
+inescapably hierarchically structured datasets derived from the
+General HouseholdSurvey into flat SPSS-processable files. This (to my
+mind utterly futile) task was being carried out in collaboration with
+the Survey Archive at Essex; inevitably some linkages are lost and
+others 'as many as possible' are then painfully reinstated by hand. In
+later conversation with Dr Gilbert and the Archive's representatives I
+argued the case for a database solution to this problem, which may
+have some effect.</p>
+   <p>The Welsh team, in the person of one Fiddian,
+gave a paper on their current fund-raising exercise which has the
+ambitious name of SENSE; quite what else it has remains <pb facs="Pages/img438.jpg"/>to be seen. It is apparently something
+like CONSISTENT on Multics, or Software Tools on UNIX, or -dare I say
+it- VME/B. Quite why the government should be funding the development
+of a machine independent operating system is rather beyond me, but
+then I may have missed something crucial in Mr Fiddian's
+extraordinarily soporific talk. The third day of the conference began
+with Mr Kemp on whom I have already trampled, and continued with Dr
+Ron Stamper (LSE) who seemed by comparison to come from a different
+planet. He described the LEGOL project, an ambitious scheme somewhere
+between A.I. and data modelling. Its aim is to provide a
+knowledge-base representing (currently) the DHSS bureaucracy, in terms
+of the law the Department is supposed to embody rather than the
+clerical procedures (which would form the basis of a conventional
+computerisation). This was fascinating, and LEGOL does actually work –
+there is a POP2 interpreter for it at Edinburgh. However I cannot
+imagine that the social scientists received much from this talk apart
+from the pleasing sensation of having their brains gently squeezed
+through a fine sieve. Finally however, Stephen Tagg (Strathclyde) came
+trailing clouds of glory to assert the claims of SPSSS as a data
+management system (sic). This he actually managed to do remarkably
+well, with no dodging of unpleasant truths, no vague platitudes and a
+considerable display of knowing How To Get Things Done in the
+constraints of the real world.</p>
+   <p>Finally despite the flippant tone
+of this report, I should say how very useful it was to be able to meet
+the people behind the projects of which vague rumour has been reaching
+me for some time (e.g. King &amp; Jardine, Stamper, Tannenbaum) and
+actually discuss matters of mutual interest and concern.</p>
+</div>

@@ -1,0 +1,56 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1992-09-12">
+   <head type="location">AIS/Berger-Levrault, Paris</head>
+   <head type="date">On 4 Sept 92</head>
+
+   <p>I travelled to Paris at the invitation of Francois Chahuneau, md of AIS,
+to see the prototype of the system his company has developed on behalf
+of the Bibliotheque de France, in connexion with their ambitious PLAO
+(Poste de Lecteur Assiste par Ordinateur) scheme, on which I reported
+last year. The prototype is for a scholarly workstation, which brings
+together a lot of  interesting ideas about how scholars interact with
+electronic text, both in transcribed form and as digital images.
+Essentially it provides an integrated environment for the management of
+texts, including their annotation, closely modelled on traditional
+scholarly practice. The software runs on SPARC stations under X-windows
+and uses PAT as its main retrieval engine, which means that its
+performance is very impressive. Texts, both transcribed and in image
+form, can be organised into (possibly overlapping) typed logical
+'zones', annotated and given hypertextual links. Text and text image
+can be synchronised, though only at a relatively coarse level. The
+texts themselves are read-only, while annotations and structuring
+information are dynamic, as is rendering. It uses SGML (of course)
+though with a very simple dtd based essentially on the use of typed
+milestones to mark zone boundaries, but can  take advantage of whatever
+markup is present in a text. I had supplied Chahuneau with a TEI-style
+marked up text which he was able to import directly into the system,
+with impressive results. The query language used is particularly
+powerful, and takes full advantage of the structuring capabilities of
+SGML. The prototype will also be demonstrated at the
+Waterloo conference next month, where I expect it to arouse
+considerable interest: it combines much of the functionality of Dynatext
+with the power of PAT and the user-friendliness of Lector. Licensing and
+distribution arrangements are not yet clear, but it looks as if it will
+be considerably cheaper and more 'open' than any of those products.
+AIS are also planning to release a general-purpose tool kit for
+converting SGML texts into other formats, known as Balise 2, which will
+sit on top of the public domain SGML parser sgmls: this looks
+particularly interesting.
+</p>
+   <p>While in Paris I spent an afternoon with Dominique Vignaud who has been
+commissioned by Quemada and Tournier to assess TEI proposals for the
+encoding of corpora as the main French contribution to the NERC
+project. Vignaud is one of France's leading SGML experts (she was
+responsible for an attempt to create a French version of the AAP
+standard and also for my favourite expansion of 'SGML' -- Surement
+Genial Mais Laborieux) and so I was much heartened by her enthusiastic
+praise for the general design principles of the TEI. We discussed in
+some detail the difficulty of reconciling the incompatible goals of
+different research projects within an effective interchange framework.
+The 'base plus topping' method advocated by the TEI seemed the best
+theoretical solution, although for practical reasons it seemed likely
+that a 'lowest common denominator' approach would be followed, with
+Vignaud proposing as candidate for standardisation a simple subset of
+TEI recommendations, not dissimilar to that used by the BNC, on which I
+was also able to bring her up to date.
+</p>
+</div>

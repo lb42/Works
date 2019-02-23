@@ -1,0 +1,129 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1996-10-31">
+   <head type="event"> Belux96</head>
+   <head type="location">Business Faculty, Brussells</head>
+   <head type="date">31 Oct 1996</head>
+   <p>I was invited to deliver the opening address at <ref target="http://www.belux96">A
+decade of power</ref>, the third annual conference of the 
+Belgium-Luxembourgian SGML Users' Group, held at the Business Faculty of
+Brussells University, just down the road from the airport (rather
+inconveniently for us <ref target="http://www.eurostar.com">Eurostar</ref>-fanatics).
+The day long event was well attended, with about fifty delegates, mostly
+from the industrial/publishing community in Belgium and the Netherlands,
+though there were also some academics present. There was a small
+exhibition, notably featuring  Omnimark, Balise, Adobe, and Fotek, and a
+very friendly atmosphere. The day was given over to presentations, which
+I summarise below.</p>
+   <p>
+      <label>Lou Burnard (Oxford University)</label>
+      <hi>SGML on the Web</hi>
+   </p>
+   <p>You can download<ref target="http://users.ox.ac.uk/~lou/wip/Belux/"> the latest version of my
+presentation</ref> from my web site, including the overheads. As far as
+I remember, I explained at some length why HTML was a Bad Thing for
+electronic publishers (this is what the Americans call <q>preaching to
+the choir</q>), and rather more briefly  why SGML was a Bad Thing for
+the Websurfer in the Street (which is probably what the Americans call
+<q>making waves</q>). I also  made a few incautious remarks about
+month, which provoked some interest.</p>
+   <p>
+      <label>Elizabeth Gower (Adobe)</label> 
+      <hi>Practical issues in SGML
+Publishing</hi>
+   </p>
+   <p>The practical issues concerned all related to conversion of legacy
+data: how to do it, how to make sure you don't get ripped off by the
+company you sub-contract to do it, and why it's going to cost you more
+than you think. The presentation was slick, professional, thorough, and
+aimed fair and square at senior management: an invaluable checklist of
+practical things to do (make sure you've got enough MIPS and enough disk
+space! make sure your network can stand the load!) and how to benchmark
+the process, but not much on different software strategies you might
+adopt to do the conversion, or manage the results of doing it. </p>
+   <p>
+      <label>Norbert Mikula (Philips Semiconductors) </label>
+      <hi>Electronic
+databooks: proof of concept</hi>
+   </p>
+   <p>Not content with writing an SGML parser (of sorts) in JAVA
+(imaginatively called Cappuccino), Mikula has also turned his hand to
+the production of Yet Another DSSSL Engine (or YADE), which uses
+Milowski's Kawa scheme interpreter, also written in Java. The context
+for these tools is the Philips Semiconductors Electronic Databook, an
+application of PCIS, the dtd Philips have developed within the Pinnacles
+framework, and forms the basis of Mikula's research at the University of
+Klagenfurt in Austria. His presentation was  impressive, and although
+only in prototype form, the work he outlined shows great potential.</p>
+   <p>
+      <label>Milena Dobreva (Inst of Maths and CompSci, Sofia, Bulgaria)</label>
+      <hi>Use of SGML by philologists: experiences gained during the
+Medieval Slavic Manuscripts Encoding Project</hi>
+   </p>
+   <p>This paper gave an overview of the trials and tribulations
+experienced by a group of Bulgarian philogists in applying the TEI
+Guidelines to the problems of describing and encoding medieval Slavic
+manuscripts. Dobreva's presentation focussed more on the organizational
+and training aspects of the project than its technical content, though
+she did briefly present the set of extensions the group had found it
+necessary to make to the TEI dtds, which were of some interest. The
+facility with which previously SGML-naive users were able to make useful
+progress, even in a technologically challenged environment, was very
+heartening, while the survey of common problems encountered was
+reassuringly familiar.</p>
+   <p>
+      <label>Benoit LaSalle (Omnimark Technologies)</label> 
+      <hi>Using
+microdocuments and hybrid distributed databases for building up
+hypertext rich content online services</hi>
+   </p>
+   <p>Exoterica Corporation has changed its name to Omnimark Technologies,
+and this paper was presented by its European sales head, rather than by
+Eric Skinner or John  McFadden. Otherwise, this was much the same story
+as presented at Munich earlier this year: the future lies in <term>microdocuments</term>
+(crystals, or document fragments) which can be embedded within
+conventional table-like record structure. This is undoubtedly true, but
+would be more persuasive if there were evidence of implementations not
+simply hacked together from a mass of Omnimark scripts doing clever
+stuff behind the scenes. </p>
+   <p>
+      <label>Paul Hermans (ProText)</label> 
+      <hi>Questor: publishing social law to
+different media</hi>
+   </p>
+   <p>This was also a user-report, this time on an electronic publishing
+project concerned with course materials for social law. The material
+needed different organization for electronic access: for the former, a
+browser based on Synex viewport (the engine behind Panorama) was used,
+for the latter, Framemaker. The necessary data massage was carried out
+by Omnimark. They had begun with three separate dtds, for capture,
+hardcopy, and online, one of which also sported ICADD attributes
+subsequently abandoned for performance reasons; these had then been
+ingeniously combined into a single dtd. Hermans spent some time
+outlining the ways in which Hytime linking strategies had enabled them
+to organize the material for online searching in an effective way,
+before commenting that TEI extended pointers had proved a much easier
+option when it came to actually implementing the system with current
+SGML tools, which was also heartening.</p>
+   <p>
+      <label>Jacques Desseyne (Sema Group Belgium)</label> 
+      <hi>The SGML Tree
+Transformation Process (STTP): processing SGML documents in an
+absolutely standardized way</hi>
+   </p>
+   <p>This was a good introduction to the STTP side of the DSSSL
+specification, giving a clear overview of how it works, and why it is a
+distinct component of the DSSSL architecture. Deseyne rather fudged the
+issue of implementation,  and did not make the expected announcement of
+a new Sema product, or not in public at least, but rumours were abundant
+during the coffee break. </p>
+   <p>
+      <label>Raf Schietekat (Fotek NV)</label> 
+      <hi>DSSSL: the promise FOSI did not
+fulfill </hi>
+   </p>
+   <p>This was the last paper of a long day, and I found it rather
+disappointing. It covered some basic principles of DSSSL in a rather
+mechanical way, and did not add much to my understanding of the overall
+scope of its formatting language. In particular, I had hoped for some
+explanation of what FOSIs are, before they become extinct, but did not
+receive one.</p>
+</div>

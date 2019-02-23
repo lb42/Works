@@ -1,0 +1,33 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1979-06-21">
+   <pb facs="Pages/img416.jpg"/>
+   <head type="report">VISIT REPORT
+L. Burnard</head>
+   <head type="location"> ICL Computer House
+Euston</head>
+   <head type="when">21 June 79</head>
+   <head type="event">ICL
+DMUG EUFSG(79) no. 5</head>
+   <p>Some definite progress towards agreement
+on what sort of conceptual view the projected end user facility should
+support was made at this meeting, and not before time. There was
+general agreement that entity modelling (as per ICL's Data Dictionary
+System) was the most effective technique currently available for
+mapping any end-user view onto whatever storage structures a
+particular DBMS employed (i.e. IDMS structures in practise, though
+theoretically any other DBMS could be used). Such techniques would
+result however in a global data model inappropriate to all but a few
+end-users. The group proposed that 'local' data models appropriate to
+various categories of end user should be supported, the mapping from
+each of these, via the global model, to the storage model to be the
+responsibility of the EUF proper. Such local models would not
+necessarily be simple subsets of the global model; in some cases
+relationships present in the global model might be suppressed, in
+others relationships not actually implemented in the storage model
+(because of e.g. volumetric considerations) might be present. I
+stressed the importance to University users of providing a relational
+local model, with some grudging support. It seemed probable that the
+DBS would/could be enhanced to provide support for local data models
+in this way, especially since construction of a global model for the
+DDS inevitably involved as a first step the construction of local
+models. The DDS subgroup would investigate.</p>
+</div>

@@ -1,0 +1,51 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1982-04-06">
+   <pb facs="Pages/img440.jpg"/>
+   <head type="report">VISIT REPORT
+L. BURNARD</head>
+   <head type="location">Strand Palace Hotel</head>
+   <head type="event"> ICL CUA Presentation on CAFS-ISP</head>
+   <head type="when">6 April 1982</head>
+   <p>CAFS-ISP
+represents ICL's first step towards machine architecture capable of
+supporting "fifth generation" processors and so its launch was
+associated with a certain amount of quiet ballyhoo. Speakers included
+a person from the DOl, the charismatic d'Agapayeff and even R. Wilmott
+himself. d'Agapayeff held up a shiny metal box the size of a postcard
+and said that the Japanese were about to flood the market with similar
+articles which would have the processing capability of a PDP-11 or two
+and that the computer industry had better watch out. The home computer
+of the future, he also opined, would be programmed in something like
+Prolog and you could forget your BBC Basic. Wilmott produced a number
+of curious statistics about such things as the productivity of workers
+in the information processing industry and the numbers of terminals
+per square foot of office space, and drew some rather forced analogies
+with the Agricultural Revolution before assuring us that ICL were
+indeed investigating Prolog for internal use. The great thing about
+CAFS (of course) is that it makes prolog-type programming feasible on
+a more than experimental scale, and thus opens the way to all sorts of
+startling innovations in natural-language processing, text searching
+and database query languages. The chief drawback of CAFS is that (as a
+result of Wilmott's otherwise admirably ruthless rationalisation of
+ICL's product range) it will only ever run on S-series
+processors. Despite much talk of co-operation with Universities (all
+of which so far as I know have P-series processors) therefore, our
+only hopes of getting a toe into this particular hot bath at present
+seem to be to wait for the X25 interface to CAFS devices promised for
+the future, unless of course we can get a new processor …</p>
+   <p>After
+an excellent lunch, two current CAFS-800 users were wheeled on to
+report their experiences: one being W.H. Smith who use it for their 70
+Mb mail order file, and the other being Thorn EMI TV Rentals whose
+representative said "the CAFS concept is a basic means of getting at
+the grass roots information", thus testifying at least to the
+excellence of the lunch. Hamish Carmichael (ICL) then gave more
+precise details. CAFS-ISP would be a standard product, supplied as
+a. hardware module additional to the standard DCM and connected via
+standard DCU2s. A reading rate in excess of 1Mb/sec was claimed, while
+a dual 2988 with its full complement of CAFS drives could access 80+
+gigabytes, be they standard IDMS databases recman files, relational
+tables, text files or (a CAFS special) "self-identifying format
+files". This capability arose from the integration of CAFS into the
+standard IPA jigsaw puzzle, of which only one piece now remains to be
+revealed.</p>
+</div>

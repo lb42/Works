@@ -1,0 +1,275 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-2004-08-08">
+   <head type="event">Extreme Markup Languages 2004</head> 
+   <head type="location">Montreal</head>
+   <head type="date">8 August 2004</head>
+
+   <p>The <ref target="http://www.extrememarkup.com/extreme/">Extreme
+Markup Languages conference</ref> proudly differentiates itself from
+others XML conferences by (amongst other things) its willingness to
+foster dissent from XML orthodoxies, its low tolerance of  marketing speak and
+generally by having higher-than-average geek-appeal. This year's
+event, held at a curiously decorated downtown hotel in Montréal,
+certainly lived up to the stated goals. The following biassed,
+ill-informed, and unreliable report should be read in
+conjunction with the <ref target="http://www.idealliance.org/proceedings/extreme">complete online
+proceedings</ref> and indeed <ref target="http://www.extrememarkup.com/extreme/2004/highlights.asp">the
+official photo page</ref>.  </p>
+
+   <p>Tommie Usdin (Mulberry), chair of the conference, opened
+proceedings with what sounded like a tried and tested rehearsal of the
+conference objectives and guidelines. This year, for the first time,
+nearly all of the submitted proceedings had not only used the right
+DTD but validated against it. Some however had been hoist with the
+petard of over ingenuity — in Tommie's memorable phrase ‘Mathml may
+be ready for prime time but it's not ready for amateur use’.</p>
+
+   <p>James Mason (no, not the movie star, the SGML star), reported some
+experiments he'd been trying at something called the Y12 Manufacturing
+Facility of the US National Security Agency. This is a very long
+established military factory complex whose products range from the
+enriched uranium produced originally for the Manhattan Project, to
+special widgets for banjos (mercifully, he didn't tell us what the
+military does with its banjos) and complete off-the-shelf field
+hospitals. The complexity of its operations and consequently its data
+resources, seemed to Jim to make it a good candidate for explication
+via a topic map, and why not. His protoype web application
+demonstrated how the topic map worked as an effective way of
+navigating complex interdependencies amongst all bicycle-related
+resources. In answer to that FAQ, ‘what's special about topic
+maps?’, Jim opined that it was the ability to index and merge
+different kinds of data. This was fun but not, forgive me, rocket
+science.</p>
+
+   <p>Second plenary of the conference was a double-act involving two
+people from a health industry consultancy Pensare called Duane and
+Renee. Their big idea was that because the terminology used in any
+specialist field changes over time, development of ontologies and
+topic maps derived from them needed to build in a significant usage
+monitoring component. (At least, I think that's what it was). Duane
+and Renee advocated something alarmingly called `stealth
+knowledge management' techniques to help address this
+problem, which on interrogation seemed to mean paying attention to the
+informal ontologies people actually start using after the expensive
+formal ontology-creating consultants have left — presumably by
+retaining said consultants on a permanent basis. It's hard to disagree
+with Renee's pitch ‘usability isn't an end point, it's an ongoing
+process’; harder to see what you do about it.
+</p>
+   <p>Over lunch, I chatted informally with Terrence Brady from
+LexisNexis and learned that they use a topic map to
+ navigate the horrors of the system
+documentation associated with their thousands of different databases,
+which was reassuring. After lunch, we split into parallel sessions,
+one (in the Incognita room) being mostly devoted to über-geeky reports
+on cool hacks, and the other (in the Mont Blanc room) less so. In the
+former category, I tried not very successfully to follow Bryan
+Thompson explain how existing HTTP GET (etc) commands can be used to
+access XML fragments from large scale web resources using Xpointer and
+something I've never heard of called the REST
+(`Representational State Transfer')
+architecture. This was followed by the first of several reports from
+current German computer science departments: Sebastian Schaffert
+(Munich) on a new declarative query language called Xcerpt, the key
+feature of which is an explicit separation of the process of querying
+resources and constructing their results. The claim is that Xpath in
+particular confuses these two in a very unteutonic way, and that
+separating them again better facilitates rule-chaining and other
+reasoning processes needed for the semantic web; he's probably right,
+but I don't think I can explain why.</p>
+
+   <p>After tea I returned to the Mont Blanc room to listen to Steve
+Pepper (Ontopia) announce how topic maps had taken over if not the
+world then at least the whole of Norway. Work on a Government-funded
+e-learning project has put Ontopia into the enviable position of
+being able to define a `Semantic Portal', that is,
+a group of subject-specific portals each of which exposes its contents
+by means of a topic map, and which can therefore be accessed as a
+group, using a single `identity mechanism' to
+identify when topics can be mapped to one another. Allegedly, the
+philosophers' stone in question is achieved by the use of Published
+Subjects, (Steve referred to this as the semantic superhighway), and
+TMRAP, which is a protocol for remote access to both topic maps and —
+critically — other resources as if they were topic maps; the final
+piece is a topic map-specific query language now being discussed
+within ISO.  In an access of enthusiasm, Steve said that these
+constituted the building blocks of ‘seamless knowledge’ and would
+allow us to achieve all the semantic web promised and more.  I don't
+think I was alone in feeling a little sceptical about this.</p>
+
+   <p>Last paper of the day, back in the Incognita suite, was Eric Miller
+(formerly at OCLC now at W3C) whose title, abstract, and
+presentational style all promised rather more than was actually
+delivered. The subject was mapping between one specific XML schema and
+an RDF representation using XSLT; the use case was Michael
+Sperberg-McQueen's sui-generis calendar data and Eric's own; a harsh
+critic might say that since the main purpose of the application
+discussed was to find a way of scheduling time for the two authors to
+plan the content of their paper, the lack of content in the paper
+demonstrated rather well the viability of this approach. However, Eric
+did do a very good job of re-problematising the issues of semantic
+mapping which Steve's presentation had somewhat obfuscated with marketing
+hype.</p>
+
+   <p>Day two of the conference was largely devoted to papers about
+Overlap, a major theme of the conference and also the pretext for some
+amusing lapel pins being handed out by Patrick Durusau. Andreas
+Witt (Bielefeld) gave a rather good summary of the current state of
+knowledge about how to handle concurrent structures, endearing himself
+to me greatly by demonstrating how little the state of human knowledge
+on this has advanced since the TEI originally discussed it in the late
+eighties. The issue seems to be not so much how to choose between the
+different possible ways of representing overlapping structures in
+markup (TEI milestones, standoff, MECS, LMNL...) as how on earth to
+process them effectively. Andreas suggested conversion to a set
+of prolog facts (using python) and gave a good overview of the sorts
+of meta-relations recoverable from such a re-encoding of multiple
+layers of annotation.</p>
+
+   <p>Patrick Durusau, wearing a remarkably silly Gandalf hat, covered
+basically similar ground, but used a simple relational database rather
+than a prolog fact base as engine. He also reported availability of a
+sample data set — the first few books of Milton's <title>Paradise
+Lost</title> marked up with page/line hierarchies from different
+editions, and also with sentence and clause analyses (but not,
+regrettably for Miltonists, speaker divisions), which sounds like a
+good test for such systems.</p>
+
+   <p>In the absence of Steve De Rose, Tommie Usdin briefly summarized his
+very thorough presentation of — guess what — the various ways
+available of presenting overlapping hierarchies. Steve's paper
+featured a number of varyingly memorable metaphors, most notably the
+concept of `Trojan milestones', involving start-
+and end- pointers on empty versions of otherwise ordinary looking
+structural elements. He proposed a formalism called CLIC (for
+‘canonical LMNL in XML’). </p>
+
+   <p>Wendell Piez reminded us that overlapping and multiple concurrent
+hierarchic structures were not exactly the same problem. He gave an
+update on the purpose and nature of LMNL (Layered Markup and
+Annotation Language) which he and Jenni Tennison had presented in
+2002. Since then, Alex Czmiel had produced an implementation of this
+non-XML based data model, but, as Wendell agreed, the problem of how
+to process it remained. He also reported availability of a nice
+dataset (heavily annotated extracts from Lord of the Rings) and
+demonstrated how it might be processed by conversion to what is
+effectively milestone-only (or COCOA-style) markup; several people
+suggested that LMNL could usefully be simplified by not treating
+annotations on annotations differently from any other kind of
+annotation. </p>
+
+   <p>After lunch, I fear I paid less attention than I should have to two
+more German computer scientists: Christian Siefkes (Berlin) presented
+an algorithm for automagically tidying up well-formedness markup errors
+which didn't appear to convince anyone. Felix Sasaki, from Bielefield,
+discussed rather more fundamental issues about ways of representing
+markup semantics independent of their instantiation, and thus mapping
+between different schemas (I think), the erudition of which appeared
+to stun everyone into silence.</p>
+
+   <p>After tea, there was a rather comical panel featuring several of
+the available topic-map heads (Patrick Durusau, Lars Marius Garshol, Steve
+Newcombe, Ann Wrightson). It seems that the ISO work group charged
+with defining a topic map reference model as a complement to ISO 13250
+(which defines the terminology and ISO syntax for topic maps) had met
+immediately prior to the Markup Conference, and discovered they all
+disagreed about what that reference model might be. Garshol had the
+enviable task of reporting this contretemps, which he did in a rather
+disarming way; the other panellists then proceeded vigorously to
+disagree with each other to everyone's satisfaction and we all went to
+dinner. </p>
+
+   <p>Day three of the conference opened with Liam Quinn, also wearing a
+very silly hat, who now works for W3C, and thus has time to worry
+about old chestnuts like the feasibility of standardizing a binary
+format for XML. A W3C activity chaired by Robert Berjon has been
+formed, which will collect usecases and report after 12 months whether
+or not there is a case for doing the technical work needed to define
+such a thing. As Lee pointed out, it's in the XML dogma that all
+processors would be able to understand all XML documents, which seems
+to suggest that proposing a standard for ‘islands of binary goop’
+(his phrase) would not stop them remaining insular. On the other hand
+it's clear that plenty of user communities do need binary formats (Lee
+talked about delivering PDF fragments and extracts from multi-gigabyte
+map data to memory-challenged handheld devices) so reducing the number
+of such competing formats might be advantageous.</p>
+
+   <p>Matthew Fuchs' plenary, which followed this, was a rather more
+technical piece about ways of adding object-oriented like features to
+XML processing, in particular the use of the element() function in XSLT2
+which seemed to offer the only way of taking advantage of the
+inheritance and compositional properties definable for elements in W3C
+schema.  The XSD-based  UBL (Universal Business Language) (which
+Matthew claimed was on the verge of world domination) uses these as a
+framework for extensible schemas, but the tools are lacking. He
+reported in more detail than I could follow his success in adapting
+Ken Holman's stylesheets for UBL to use polymorphic classes. Norm
+remarked that XSLT2 (still a moving target) now does more of what was
+needed for this purpose.</p>
+
+   <p>After the coffee break, I paid only cursory attention to a
+presentation about DITA, which seems to be a kind of topic map
+application for integration of technical documentation systems, and
+was mildly nonplussed by a presentation shared by David Birnbaum and
+David Dubin. The former explained at some length the principles of
+Russian versification, while the latter gave us a demo of a prolog
+program which inferred the presence of textual features such as rhyme
+from markup of phonological features. Allen Renear explained to me
+over lunch that the point of all this was to demonstrate that the
+information recoverable from a marked up text was not necessarily
+exhausted by the markup itself. I found this insight distinctly
+underwhelming, no doubt because I was worrying about my own
+presentation. </p>
+
+   <p>I presented the current state of the ODD system developed for
+production of TEI P5, emphasizing its features for modularity,
+modification, and internationalisation, and was politely received, but
+(rightly) taken for task for overstating our desire to ditch DTD
+users. Syd and Julia continued the ODD theme with a discussion of some
+of the implications of extensive user modification, also outlining
+some limitations of what could currently be customised in P5, notably
+the documentation. (We need to find a way of translating the TEI GIs
+that are referenced in the text). The day finished with a very nice
+presentation from Norm Walsh about the way in which DocBook is going
+down the same righteous path as TEI in its RelaxNG-based
+modularization. </p>
+
+   <p>Simon St Laurent kicked off the last morning of the conference by
+tackling another of those things we thought XML had disposed of:
+namely general entities. He reminded us of all the nice things you can
+do with them and how xinclude really doesn't hack it. The DTD
+declaration may be dead in an XML world, but it isn't lying down as
+long as we need to use general entities. Simon's suggestion is to use
+a pre-processor to do entity management; he reported progress on (and
+some details about the inwards of) his <hi>ents</hi> parser
+(<ref target="http://simonstl.com/projects/ents/">
+         <span>http://simonstl.com/projects/ents/</span>
+      </ref>.  Since however the
+XML committee has reportedly opined that ‘existing methods
+suffice’ there doesn't seem to be much future in this. </p>
+
+   <p>Another grand old man of the SGML world, Sam Wilmot, original
+developer of the Omnimark language, gave an entertaining and
+discursive talk about pattern matching languages like icon and snobol;
+in particular he presented an implementation of pattern matching
+primitives in python. His main point was to remind us that
+pattern matching was a useful technique not adequately supported by
+most currently available XML processors. </p>
+
+   <p>Nicest surprise of the conference was Eric van der Vlist's talk. He
+reported a successful project which has provided for DocBook more or
+less the same customizing functionality as we hope to provide for TEI
+with the new ODD system, using nothing up his sleeves and no software
+fancier than an Open Office spreadsheet and some XSLT scripts. </p>
+
+   <p>Extreme appears to have a tradition of allowing Michael Sperberg
+McQueen to deliver a closing sermon: this year's text was the word
+<hi>model</hi> as in ‘XML has no formal model’, an accusation
+which Michael triumphantly rebutted, with his customary wit,
+erudition, and length, not to mention appeals to formal logic theory
+and corpus evidence.  I did feel a little worried that he felt it
+necessary to ask us whether the solar system modelled the theory that
+the earth goes round the sun though.
+</p>
+
+
+</div>

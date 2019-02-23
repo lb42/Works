@@ -1,0 +1,160 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1996-09-12">
+   <head type="event"> Colloqium on Hypertexts and Electronic
+Editing</head>
+   <head type="location"> École Normale Superieure, Paris</head>
+   <head type="date">  12-14 September 1996</head>
+
+   <p>This three day colloqium  was hosted  in Paris by Jean-Louis
+Lebrave of the <ref target="http://www.ens.fr/item/Welcome.html">Institut des textes et
+manuscrits modernes (ITEM)</ref>, with funding from the CNRS under a
+programme called  <hi>Le Patrimoine Ecrit</hi> or Written Heritage,
+managed by Almuth Grésillon. It  brought together an unusually
+wide-ranging group of European researchers and implementors, many of
+whom were previously unknown to me, and all of whom had something
+interesting to demonstrate or to say about using hypertextual methods in
+the process of critical editing or electronic publication. Most of the
+presentations involved web-hosted demonstrations, displayed on a huge
+screen in a darkened room, fitted with exceedingly comfortable
+cinema-style armchairs.  I learned that the French for "web" is <hi>toile</hi>,
+which also means canvas, as well as being a slang term for the cinema
+screen. After a rather good lunch,  it is testimony to the rhetorical
+skills of the presenters that no-one visibly fell asleep in such
+surroundings.</p>
+   <p>Unfortunately, local committments made it impossible for me to
+attend the first day's sessions. According to David Robey (who
+turned out to be the only other brit present), they were rather
+theoretical and lacking in focus, but I was sorry to have missed meeting
+Bernard Stiegler. The second day began with Etienne
+Brunet, <ref target="http://lolita.unice.fr/">(UPRESA, University of Nice)</ref> a
+founder member of the ALLC and author of the <ref target="http://134.59.31.3/~brunet/PUB/hyperbase.html">Hyperbase
+concordance system</ref>, describing his Balzac cd-rom project. This
+will make available 90% of <hi>La Comédie Humaine</hi> 
+(Balzac's monster sequence of 19th c novels) --- once the copyright
+problems have been ironed out. More interestingly, the project is a
+collaborative one, in which 33 international Balzac scholars are
+scheduled to produce notes, commentary, and assorted links. Brunet
+suggested  that the online text was really there as a way of indexing
+the collection of associated Balzacian commentary. <ref target="http://134.59.31.1/~brunet/BALZAC/">The
+web site</ref> has some interesting Balzaciana, including photos of 
+the great man's walking sticks as well as his  manuscripts. It also has
+a KWIC concordance, carved up into HTML, with each line of context
+linked automatically to the passage in the complete text from which it
+comes, and some rather impressive statistical displays. </p>
+   <p>Luca Toschi from the CRAIAT research group at the
+University of Florence prefixed his demonstrations with some suggestive
+thoughts on the ways in which digitizations facilitated many views of a
+text, based on his experience with the publication of an electronic
+Goldoni variorum. I found the software, when we finally saw it, rather
+impressive: it displays each state of the text separately, but with
+variant passages colour coded. Clicking on one of these then brings up
+the state of the text in which that variant appears, as a new window.
+They use an IBM product called Linkway Live (?).</p>
+   <p>Paolo d'Iorio (Paris) described how the web had
+effectively created <ref target="http://www.usc.edu/dept/annenberg/thomas/nietzche.html">an enormous, multinational,
+multilingual, Nietzche database.</ref>  His chief focus was on the way
+the web made  co-operative authoring ventures possible, but he also gave
+some nice examples of ms images linked to transcriptions. Asked
+whysomeone didn't just publish everything on CD, he stressed the open,
+dynamic, nature of the enterprise; in similar vein, when asked whether
+he didn't fear that this kind of community would create some new kind of
+orthodoxy, he pointed out  that the dissidents were perfectly free to
+set up webs linked to the same material, displaying it in their prefered
+way. </p>
+   <p>Daniel Ferrer (also from ITEM) gave a considered
+presentation of the advantages of Storyspace in presenting the evolution
+of the text of Joyce's <hi>Ulysses</hi>  through the various
+states of manuscript, typescript, correction, page proofs, etc. The
+database includes Gabler's transcription as well as a sets
+of page images; much play was made of the difficulty of linking
+non-rectangular zones of Joyce's scrawl in the latter with parts of the
+former. The Joycean theme was picked up by <ref target="http://www.interport.net/~xaf">Marlena
+Corcoran</ref>, who demonstrated the importance of good design
+and a simple interface in a system (developed with mediatool)  which
+allowed one to see  the corrected original page proofs <hi>(placards</hi>)
+of<hi> Ulysses</hi> , as they appeared before they were cut up by
+some over-zealous conservator, and thus to infer something about the
+correction process itself. </p>
+   <p>Nicole Moulinoux from the University of Rennes
+described another scholarly collaboration centred on the works of
+William Faulkner, in particular a web based (but password-protected for
+copyright reasons) electronic variorum of the <hi>Sanctuary</hi> .
+Another member of the team showed a comprehensive set of retrieval and
+statistical tools aimed (I think) at content analysis, which had used
+the text: the unusual feature of this was the provision of dynamically
+generated tables of hits retrieved according to an unexplained factor
+analysis. This seemed to offer a lot of possibilities for stylistic
+analysis.</p>
+   <p>Alain Giffart (IMEC) discussed a new project at the
+Collège de France to create a hypertextual edition of Roland
+Barthes' <hi>Comment vivre ensemble</hi> . His discussion was wide
+ranging and highly theoretical. If hypertext has a theory (and it must
+have, for the French to take it seriously) then Barthes anticipated most
+of it. It will be interesting to see what the project produces: the
+Barthes archive includes video and audio of the lectures from which his
+published works derive, made at different times. Extending the
+geneticist school of textual criticism to cope with such materials poses
+interesting challenges.</p>
+   <p>Peter Szendi (IRCAM) presented what he called a
+<hi>maquette diaboliciel (</hi>or diabolical pilot program) -- a
+prototype for an exploration of the variations within and between
+versions of Beethoven's <hi>Diabelli Variations</hi> , in which
+the scores were linked to an audio track. For some reason his comment
+that it should be possible to find some auditory equivalent of the
+clickable button (to indicate an anchor within an audio track) provoked
+heated dissent from the audience. </p>
+   <p>I opened the final day of the Colloqium by presenting the usual
+overview of the TEI architecture in my best A-level French, somewhat
+enhanced by  illustrations of how to do hypertext-y things in TEI,
+including the Comenius example, and also for good measure two different
+ways of encoding the start of the Beowulf ms. I was also able to wave a
+copy of the newly published edition of <hi>Cahiers Gutenberg</hi> 
+containing Francois Role's <ref target="http://www.univ-rennes1.fr/pub/GUTenberg/publications/">French
+translation of the TEI Lite tutorial.</ref> Which was, as they say,
+nice.</p>
+   <p>David Robey (Manchester) followed this up by
+describing his experience as a member of a TEI work group, and
+presenting his views on how to tag the rhyme and alliteration patterns
+in Dante's <hi>Inferno</hi> . This provoked an interesting
+argument about the extent to which algorithmically or procedurally
+determined patterns needed to be made explicit in an encoding. </p>
+   <p>David Pietrowski and Georges Vignaux
+(INALF/LIMSI) described a prototype system for use in tracking reading
+of a dictionary, specifically the <hi>Grand Robert</hi> .This was
+presented as a way of creating a new perspective on language rather than
+a neat way of capturing the reading process itself, which might have
+been more persuasive.</p>
+   <p>A team from Saarbrucken, led by one Wender, gave  a
+brief overview of a rather fine Goethe project. This <ref target="http://schiller.germanistik.uni-sb.de/goethe/index.html">web site</ref> generates HTML on the fly from
+their internal markup, combining text, manuscripts, and critical
+apparatus in an impressive way. They are also working on Musil and
+Buechner. The methodological problem they foregrounded was that of
+making explicit the temporal stages of a series of variants. </p>
+   <p>Alessandro Pamini (Istituto Metacultura) tried (twice)
+to present a new hypertext system being developed in collaboration with
+the Cultural Anthopology department of the University of Rome. His talk
+was given in Italian, and all I gleaned from it was that he felt
+everyone else had misunderstood the fundamental issues. (But he did
+later hand out a French translation, which looks a lot more interesting)</p>
+   <p>The colloquium concluded with a long and wide ranging round table
+discussion in which several distinguished luminaries picked up some
+themes of the colloqium, and introduced some new ones.  Hans-Walter
+Gabler  (Munich), whose computer-assisted re-editing of Joyce
+provoked some controversy a few years back, was quietly optimistic about
+the possibilities offered by a true computer-based editing: I learned
+later that he is currently planning a new graduate seminar on textual
+criticism with a strong computational component. Yannick Maignien
+of the Bibliotheque Nationale and  Robert Martin of the
+Institut Nationale de la Langue Française raised several  key
+issues about the opportunities and difficulties of electrronic text
+provision (role of libraries, need for metadata, publishing, copyright,
+etc).  Christine Coutoure, documentalist at the École
+Normale, spoke feelingly of the librarian's perspective on the untamed
+wilderness of the web.  Eric Lochard from Montpellier, 
+Alain Giffard,  Jean-Louis Lebrave, and
+Daniel Ferrer all in their separate ways questioned some
+of the methodological implications of the hypertext method, and the
+seductive availability of apparently neutral digital resources. There
+was much debate, but I found most persuasive  Toschi's eloquent reminder
+that whatever else scholars do, they should not abnegate their 
+responsibility to spin a plausible tale. </p>
+</div>

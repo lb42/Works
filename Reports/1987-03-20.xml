@@ -1,0 +1,140 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1987-03-20">
+   <pb facs="Pages/img495.jpg"/>
+   <head type="report"/>
+   <head type="location">
+Westfield College </head>
+   <head type="when">20-21 March
+1987</head>
+   <head type="event">History and Computing - 2nd Annual
+conference</head>
+   <p>Westfield College campus begins increasingly to
+resemble the set for some grimy Channel 4 documentary on the state of
+British Education. The exteriors of its gracious 19th century
+buildings are suffering a rash of desperate fly-posting while their
+bare interiors remain un-redecorated and unloved. For this conference,
+the ruins have put on a pretence of being inhabited still, which
+somehow makes them all the more depressing. In an ambitious moment
+twenty years ago, Westfield erected a functionalist science block,
+derelict for the last few years since it lost its science department;
+for this occasion it has been unlocked and its 'ground floor heating
+switched on. Ghosts lurk in the corridors, however. Elsewhere, in what
+was once a library, there are still a few comfortable chairs and a
+non-stop coffee machine, but all the bookshelves are bare.</p>
+   <p>Maybe
+the atmosphere affected my judgement, or maybe it's just that it had a
+hard act to follow, but I found this second conference less exciting
+than the first one. There was the same extraordinarily broad-based
+constituency of delegates, from secondary school teachers to academic
+researchers, as well as a significant European presence (except for
+the French who were conspicuously absent): the attendance list
+includes nearly 500 people. There was also the same abundance of
+material: around 250 papers crammed into two days of parallel
+sessions. Considerable effort had been made to group papers on a
+common theme into the same session, which encouraged more detailed and
+informed discussion but discouraged the serendipity I had enjoyed at
+the previous year's event. The distributed nature of Westfield's
+surviving lecture rooms also made it very difficult for butterflies
+like myself, once stuck in a group of rather limp papers on the
+applications of Knowledge Based Systems in secondary education, to
+escape to the parellel session on "Recent advances in historical
+demography" which was clearly where the real action was going
+on.</p>
+   <p>There were two plenary sessions, of which I attended only
+the first, which was a "keynote address" style lecture by Roderick
+Floud. Prof Floud has been somewhat of a pioneer amongst computing
+historians, having published an article advocating the use of
+electronic card readers in 1973. His lecture was enthusiastic but
+decently sober about the micro revolution, stressing that new tools
+did not mean new methods. In the future, he was confident that data
+input methods would remain a central problem, however advanced the
+technology. He described what he called a "prompting data input
+program" that had been developed for use in capturing US Army pension
+records and demonstrated the <pb facs="Pages/img496.jpg"/> ease with
+which data could be manipulated by a typical cheap micro
+dbms/spreadsheet package (REFLEX, no less) and concluded with a plea
+for historians to fights against the "mythology of
+computing".</p>
+   <p>As aforesaid, I made the mistake of choosing the
+wrong session from the four parallel workshops offered next, from
+which I gained nothing but a nice new acronym (MITSI - the Man In The
+Street Interface). The third paper in this group was the best: it was
+from a Portuguese scholar who had developed an expert system for
+handling about 2000 depositions of "sinners" as recorded in 17th -
+18th century ecclesiastical court records. Unfortunately Carvalho's
+English was not up to the task of explaining a great deal of its inner
+workings, though the principals seemed clear enough.</p>
+   <p>I had no
+choice in the next set of four: whatever the rival attractions of
+"Urban and regional studies" (quite a bit), "Higher Education Seminar"
+(rather less) or "Prosopographical studies" (rather more), I had to
+attend the workshop on "Relational database method", if only because I
+was giving the first paper in it. This (a rapid introduction to SQL
+and the relational model using D. Greenstein's Philadelphia data as
+example) had to be boiled down from about 2 hours worth of overheads
+to a very fast 30 minutes, but it seemed to go down reasonably
+well. Phil Hartland (RHBNC) then gave an unusually clear and
+jargon-free exposition of the virtues of SSADM in managing large
+projects: two intriguing examples he mentioned were a projected
+history of the music hall and also a database about music in the 18th
+century. Michael Gervers from Toronto ( one of the few non-Europeans
+present) reported on his Pauline conversion to ORACLE in much the same
+terms as last year: he has now produced some quite interesting results
+about changes in the landholding status of Mediaeval textile
+workers.</p>
+   <p>Next day, I arrived in time for the last part of an
+informal workshop on data standardisation chaired by Manfred Thaller,
+which appeared to be making very little progress: someone was pleading
+for a set of 'ethical guidelines'. After coffee, I plumped for the
+session on "Problems of multiple record linkage", thus missing the
+intellectual ("Recent advances in historical psephology"), the exotic
+("Schools Education Seminar") and the ineluctable ("Academic word
+processing" - a dizzying combination of Tex, Latex and Tustep). My
+chosen session began with Arno Kitts' (Southampton) solid exposition
+of the historical and methodological problems involved in accurately
+linking together Portuguese names as they appear in 19th and 20th
+century passport lists, electoral rolls, cemetery lists etc. The
+object of the exercise is to determine patterns of emigration:
+calculating for example the rates of return migration. The linkage
+procedure should be completely automatic (he asserted) to avoid
+subjectivity, but necessarily involved dictionary lookup for some more
+widely varying name forms. None of these problems seemed to worry the
+next speaker, our very own A. Rodriguez, whose record<pb facs="Pages/img497.jpg"/>linkage problems were virtually non
+existent: her data consisting of some 8000 records of birth, marriages
+and deaths in all of which surname, forenames, and father's names are
+all obligingly present. Even SIR could cope with data as simple as
+this: all that was necessary was a massive sort on the names, followed
+by a forty line piece of procedural gibberish to insert links between
+records with the same namestring present, written for her by the
+obliging D. Doulton of Southampton, centre of SIR fanaticism in the
+known universe. The last speaker, Ariane Mirabdobaghli (LSE) was using
+Ingres to link 18th centurty parish and tax records: it was not at all
+clear how, which is a pity.</p>
+   <p>The remainder of the conference
+consisted of five parallel sessions of five "research reports" each,
+spaced out so as to permit session hopping. I managed to catch Dunk
+(sic) and Rahtz (sic) on strategies for gravestone recordings (a
+flatteringly familiar exercise in conceptual modelling); Dolezalek
+(Frankfurt) on ways of reconstructing manuscript stemma (an
+intriguing, if apparently hopeless text); Nault (Montreal) on an
+enormous historical demography project at Quebec (births and marriages
+of every individual betwen 1608 and 1729) - being stuck with a Cyber
+70 they had to write their own dbms, but seem to be doing quite well
+with it; and finally, Lamm (Birkbeck) who has been let into the MOD's
+secret archive of first world war soldiers' records with an Epson
+portable. He is using this to extract a minute random sample of about
+8000 records, about thirty variables (height, age, length of service
+etc) from the attestation papers, personal correspondence, war
+records, pension and medical books etc etc here stored away on some
+64,000 feet of shelfspace. I found it rather depressing that this
+numerically recoded set of SPSS data would probably be all that
+remained of this archive by the time it was made public in 1995, the
+rest - already damaged by fire- having long since crumbled to
+dust. But my friend from the Public Record Office seemed quite
+relieved at the prospect.</p>
+   <p>The AHC (as I suppose we shall have to
+call it) now has a formal constitution and its own magazine. The
+enthusiasm generated at last year's conference continues to
+thrive. But I hope that next year, when it is planned to organise a
+smaller national conference on more focussed topics, I shall be able
+to report more substantial fruits from it.</p>
+</div>

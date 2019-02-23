@@ -1,0 +1,27 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1978-11-09">
+   <pb facs="Pages/img410.jpg"/>
+   <head type="report"/>
+   <head type="location">
+ICL Beaumont</head>
+   <head type="when">9 November 78</head>
+   <head type="event">"Technical Briefing on 2900 VME/B Data Management
+Products"</head>
+   <p>The purpose of the meeting, organised by ICL, was
+to give a fairly comprehensive and technical presentation of the new
+range of data-management products now on release, in particular of
+IDMSX (the souped-up version of IDMS with extra bells and whistles, at
+no decrease in performance) and DDS. In order to add extra facilities
+without degrading the performance, a substantial re-write of the base
+code has been done, which resulted in a performance improvement of
+10%. Adding the extra facilities reduces this improvement to 7%, it
+was claimed.</p>
+   <p>A nifty plastic binder with lots of technical
+details, and a summary of the presentations was handed out, and is
+available for inspection in my office.</p>
+   <p>I found the meeting
+useful, because many of the extra facilities in IDMSX solve usability
+problems IDMS users are experiencing now, e.g. the provision of record
+type indexes and of set pointer arrays. It was also a very valuable
+opportunity to meet the people who are developing the product and to
+discuss their future plans on an informal basis.</p>
+</div>

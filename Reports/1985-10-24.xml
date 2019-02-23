@@ -1,0 +1,95 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1985-10-24">
+   <head type="location"> (a) CINECA, Bologna  and (b) Inst. Linguistica
+Computazionale, Pisa</head>
+   <head type="when">October 24-31 1985</head>
+
+   <p>(a) CINECA is an inter-university computer centre owned jointly by
+five major  universities in North East Italy; it is situated in the
+industrial wasteland  surrounding Bologna at a place called Casalecchio.
+It provides computing  facilities for reasearch at all of its parent
+universities on an IBM mainframe  running CMS front-ending a Cyber 170
+and a CRAY, with a solitary VAX running  VMS. Nearly all its users are
+scientific, but (largely at the instance of the  PIXI research group,
+which had invited me) CINECA has recently purchased OCP  and assigned a
+member of its small consultancy staff the job of overseeing all  arts
+users.  
+</p>
+   <p>PIXI, which I was assured stands for "Pragmatics of Italian-English
+Cross  Cultural Interaction", is a small research group funded by the
+NPI (a  government agency responsible for inter-university co-operative
+research  projects); its members are linguists teaching English at the
+Universities of  Rome, Parma, Pisa, Bologna and Napoli. I gave them a
+short introductory talk  about the problems of text preparation,
+outlined the main relevant features of  OCP and then assisted their
+leader (a Balliol man, need I say) to demonstrate  how OCP could be used
+to operate on a little bit of their corpus. This  currently represents
+about seven hours of surreptitious tape-recordings of  people asking for
+help in bookshops. Linguistic features such as turn-taking  and stress
+are easily encoded for OCP, but 'overlap' (where one speaker  interrupts
+another) may lead to some problems. However, the group, which is 
+virtually non-computerate, seemed enthusiastic, and the CINECA
+consultant was  impressed by the easiness of installing OCP.  
+</p>
+   <p>(b) The Instituto della Linguistica Computazionale is a specialist
+Institute  directly funded by CNR (the Italian National Research
+Council) and headed by  the charismatic Antonio Zampolli, President of
+the ALLC, Consultant to the  Council of Europe, etc etc, who had invited
+me to Italy on his last visit to  Oxford. More or less on arrival in
+Pisa, I gave a lecture to about a dozen  members of the Institute,
+describing what OUCS is and does, particularly as  regards Computing in
+the Arts, more particularly databases; of particular  interest to the
+audience were the Greek Lexicon and the Shakespeare Corpus, and  there
+was also sufficient technical awareness to appreciate the importance of 
+CAFS.  </p>
+   <p>
+Work done in the five sections of the Institute covers the range of
+linguistic  computer applications, from AI to concordance generation.
+Zampolli stresses  that all five sections are integrated; the groups
+working on automatic  lemmatisation, thesaurus construction and on-line
+dictionary applications are  all obviously inter-dependent, and have an
+important dependence on the group resposible for the large text archive
+at Pisa, but it is harder to see how the  first group I met (headed by
+Capelli and Moretti) fitted in. Their work seemed  to me pure AI in the
+Knowledge Representation paradigm, using a version of  Brachman's KL-ONE
+language, extended to include both general conceptual  structures and
+instances of objects related to them in the same structure. They  were
+however insistent that their work was intimately  related to the work of
+ the remaining parts of the Institute.
+</p>
+   <p>  At the other extreme I spent most of the afternoon talking to Rita
+Morelli, who  is responsible for organising the Institute's two rooms of
+magnetic tapes into  a coherent Archive. I described TOMES in some
+detail and was rather taken aback  to learn that all their programming
+was done in IBM Assembler. Of the tapes  which Zampolli had brought with
+him when he brought his Institute out of CNUCE  (the national university
+computing centre) into the promised land at via  Faggiola, over two
+thirds have now been checked for usability and their  contents
+catalogued. The tapes contain 2-3 thousand texts, mostly but not 
+exclusively in Italian, varying in size much as ours do. The Italian
+texts were  mostly prepared for the Accademia della Crusca for use in
+the Italian  dictionary project; the other texts for many different
+scholars. One unusual  feature is that all the texts were produced to a
+common standard format,  including some quite recondite encoding
+features. I offered to include their  catalogue  in the TOMES database,
+which seemed to be an acceptable idea, and  would be a major step
+towards implementing the Historic Gottingen Agreement. We  also briefly
+discussed the notion of a "Text Description Language", that is, a  high
+level descriptive language to which varying encoding formats can be 
+mapped. I mentioned SGML, which is sort of but not quite what is needed.
+  Zampolli had independently proposed researh into a TDL, so there might
+still be  some mileage in it, even, who knows, some Euro-funding for the
+Text Archive.  </p>
+   <p>
+Unfortunately, several of the people I would have liked to meet (notably
+Picchi,  who is responsible for their dictionary database software and
+Bozzi who works  on the thesaurus project) were unavailable through
+illness or other  committments. This visit was therefore less
+immediately useful than it might  have been; nevertheless it was very
+interesting to see at first hand how a  specialised centre of this type
+functions. My expenses for the whole trip were  paid by Zampolli's
+Institute. Railway enthusiasts will be pleased to learn that,  although
+all but one of the numerous Italian trains I took during the trip was 
+late (by anything between five minutes and three hours), not one of them
+ever  broke down.
+</p>
+</div>

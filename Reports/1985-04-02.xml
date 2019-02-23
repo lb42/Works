@@ -1,0 +1,81 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1985-04-02">
+   <pb facs="Pages/img484.jpg"/>
+   <head type="report">VISIT REPORT</head>
+   <head type="location">University
+College London</head>
+   <head type="when">2 April 85</head>
+   <head type="event">Workshop on
+Computers and Art History L. Burnard</head>
+   <p>This workshop, organised
+by Will Vaughan of the UCL Art History Dept naturally consisted almost
+entirely of art historians; notable exceptions being Dave Guppy (UCL
+Computer centre), Kevin Flude (from the V &amp; A), the ubiquitous May
+Katzen and myself. Most of the art historians were from institutions
+in London, but a token Pole, a token Norwegian, two Americans and an
+Italian were also in evidence, presumably left over from the
+international conference of art historians which finished the week
+before.</p>
+   <p>The day began with Tim Benton (OU) describing how he had
+gone about indexing the collection of Le Corbusier's drawings in
+Paris. If he'd confined himself to the problems of data analysis in
+this, (he wanted to do things like indexing individual bits of
+drawings, distinguishing components of identifiable buildings, drafts,
+doodles etc) this would have been more interesting. Unfortunately he
+had been primed to present the case for using a mainframe, in his case
+at Cambridge, and therefore tried to persuade us that everything could
+be achieved using an editor and a sort package. He was followed by
+Mike Greenhalgh (Leicester) who, primed to say how wonderful micros
+were (in his case running dbase2), completely flummoxed most of the
+audience with talk of bit mapped screens and unix interfaces. He also
+seemed to judge all mainframes by UMRCC, which seemed a bit
+unfair. Amongst products he plugged were a text editor called VEDIT,
+the Leicester VT100 simulation chip for the BBC micro, a mark up
+language called ASPIC and -yes- the OUCS Lasercomp service. I tried to
+redress the balance by giving a much abbreviated version of the
+presentation I used for the Ashmolean last year on data analysis,
+which was quite well received. Will Vaughan (UCL) argued the case for
+doing your own programming by showing how he had managed to re-invent
+a reasonable data entry package and (rather more entertainingly)
+demonstrated a program running on a BBC micro which would draw
+Mondriaans for you.</p>
+   <p>Over lunch (which we had to buy for
+ourselves, shame), I did my best to persuade K.Flude that the V&amp;A
+should consider CAFS a bit more carefully: he turns out to have been
+badly bitten by IDMS when an impressionable student at the Museum of
+London. After lunch, Cathy Gordon (Witt Library, Courtauld) described
+the impressive database system they are now using to catalogue their
+collection of reproductions. This had several interesting features I
+intend to pirate for the Ashmolean, notably full support for divergent
+interpretations of the various pictures and a very natty hierarchic
+system of encoding iconography. The software is a customised
+unix-based package running on something called a Plexis P25. It was
+particularly reassuring to see entities we have included in the
+Ashmolean model (such as object-events) reappearing in their
+design. Lindy Grant from the Conway library of the Courtauld gave a
+presentation which, although rich in illustration, had very little to
+say about computers, other than to manifest complete distrust in their
+capability to cope with the complexity of architectural description. I
+have never seen quite so many photos of Chartres Cathedral in one day
+though.</p>
+   <pb facs="Pages/img485.jpg"/>
+   <p>Kevin Flude (V&amp;A)
+summarised the current state of play in the computation of national
+museums in an appropriately gloomy monotone: nearly everyone uses what
+the MDA offers, which is basically batch runs of GOS to produce your
+catalogue: no museum has the money or the expertise to develop new
+interactive systems and no package currently available seems
+suitable. Finally, Rob Dixon from Erros computing gave a sales pitch
+for (and demo of) a package called STIPPLE (System for Tabulating and
+Indexing People, Posessions Limnings and Ephemera). This package runs
+on an IBM System 38, and thus can afford to be lavish in its use of
+B-tree indexing, which appears to be its main novelty. Its interfaces,
+despite Mr Dixon's assurances to the contrary, seemed rather obscure
+to me, and at present you can only use it by leasing a line to Erros
+Computing's machine in Abingdon. The Tate Gallery has apparently
+fallen for it, but no one else, as yet.</p>
+   <p>The Workshop continued
+for a second day, devoted to small group discussions on various
+topics; although I was unable to participate in these, the feedback
+during the papers on this day was quite encouraging: the art
+historical world is ripe for computerisation.</p>
+</div>

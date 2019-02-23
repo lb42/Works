@@ -1,0 +1,136 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1985-07-14">
+   <pb facs="Pages/img474.jpg"/>
+   <head type="report">VISIT REPORT L.Burnard</head>
+   <head type="location"> Max-Planck-Institut fur Geschichte, Gottingen
+</head>
+   <head type="when">14-19 July 1985</head>
+   <head type="event">International Workshop on the Creation Linkage and Usage
+of large-scale interdisciplinary sourcebanks in the historical
+disciplines</head>
+   <p>This four day workshop (the title of which was
+even more impressive in German) had of necessity a floating
+population, but over the whole period there were some notable absences
+(e.g the French) as well as some unexpected presences (i.e the
+Italians en masse). Attendance averaged thirty each day, predominantly
+German and Austrian, with a sprinkling of Swiss, four Italians (two
+each from Pisa and Rome), one American (namely Jarausch of North
+Carolina, president of the International Something for Quantitative
+Historical Research), one Belgian (Paul Tombeur from Cetedoc,
+Louvain), one Dane (Marker, from the Danish Data Archives) and three
+Britons (May Katzen from Leicester, Kevin Schurer from Cambridge and
+myself).</p>
+   <p>The stated purpose of the Workshop (or, as Zampolli
+persisted in calling it, Washup) was to investigate the feasibility of
+standardising the machine-readable sources increasingly used by
+historians and to promote their free exchange on a European basis. Its
+unstated purpose (according to Tombeur who, as sole representative of
+the Francophone world, was in a somewhat machiavellian mood) was to
+consolidate its organiser's position as a newly-appointed mere
+Austrian in the pecking order of Germanic scholarship. Certainly there
+was much wheeling and dealing going on, mostly in German, and it was
+evident that quite significant gestures in the direction of European
+co-operation were being made. Either way, I found it an unexpectedly
+worthwhile and unusual gathering: worthwhile in that a formal
+agreement between the three Text Archives represented was actually
+committed to paper, and that I found out about several database
+projects not at all unlike our own previously unknown to me; unusual
+in that the informal structure and small scale of the occasion
+permitted quite detailed discussion.</p>
+   <p>The main achievement of the
+Workshop was probably the agreement between Zampolli, Tombeur and
+myself reached over lunch on the first day. This had four heads: to
+combine our Archive catalogues, to continue to control access to their
+contents in the same way (effectively) as we currently do at Oxford,
+to try to get legal guidance on the copyright problems involved and to
+investigate ways of standardising descriptions of text formats. A
+proposal will be put to a subcommittee of the Council of Europe
+chaired by Zampolli for MONEY to work in this area. This agreement was
+achieved largely in reaction to a proposal made by Manfred Thaller
+(the workshop's organiser) which we all agreed was unworkable for
+text, with all its attendant copyright problems, however desirable it
+might be for unpublished historical sources. Regrettably, the only
+person who might have been able to introduce some intellectual
+stiffening to the discussion of text formats (van der Steen, whose
+paper on text grammars presented at ICCH this year was also to be
+presented here) was unable to attend, as were representatives of the
+major French and German text archive.</p>
+   <p>During two days of rather
+circular argument, it beame apparent that the nation of conceptual
+analysis as a necessary precursor of database design is still widely
+regarded with suspicion by historians, being seen as the preserve of
+informatics. For many of those present the phrase data description was
+assumed to be something more like the proposed 'Study Descriptions'
+which the Social Science Survey Archives (coincidentally meeting at
+the same time in Esssex) have been trying for some time to
+standardise. In my innocence, I made the point (several times) that
+computer held versions of original source materials need some rather
+more abstract description than are needed for derived sets of numbers
+and standardised encodings. The OUCS database design course, part 1,
+might have been of some assistance here, but I was not called upon to
+give it; instead 1 gave a condensed version of my Nice paper,
+stressing how the TOMES database resembled its abstract model. I also
+found myself chairing a most unsatisfactory discussion on how texts
+should be described, for my sins.</p>
+   <p>Most of the presentations were
+given in German, with rather haphazard summary translation. What
+follows should therefore be regarded not as an exhaustive account, but
+just as a crystallisation of the bits I could (a) understand (b)
+remember.</p>
+   <p>Much of one day was given over to a presentation by
+teams from Freiburg and Munster of a massive database of Mediaeval
+German names extracted from necrologies, abbey roll calls etc This
+proved to be the Greek Lexicon writ large (they have about 400,000
+name forms and the database occupies 230 Mb.); one could unkindly say
+that its software is also pretty Mediaeval: they use Sperry's DMB-1100
+which is a Codasyl system, but access to the database is provided only
+by a query language which looks very much like Data Display, circa
+1975. The part of it of which they were proudest was the vastly
+complicated lemmatisation code which determines what the probable root
+form of a name is if the particular variant of it required is not yet
+in the database. They promised to send me a copy of their schema
+design in which they have somehow managed to find a need for about 40
+different record types to support a subset of the facilities the Greek
+Lexicon supports with less than a dozen.</p>
+   <p>A team from Zurich
+described an interesting, if methodologically suspect, project in
+which vast amounts of data about the weather in Switzerland between
+1525 and i860 had been extracted from all sorts of written sources and
+then combined to produce all sorts of time series analyses about
+changes in agriculture, social structures etc. A gentleman from
+Salzburg described his attempts to analyse patterns of Mediaeval
+migration using Thaller's own CLIO system, unfortunately entirely in
+German. CLIO was also the subject of a presentation, though not a very
+clear one. It is a PL/1 package, currently being rewritten in C, a
+novel feature of which is its string pre-processor, which converts
+from more or less any input format likely to be encountered in "free
+text" versions of parish records, chronicles etc down to its own
+internal structures, access to which is then provided by an
+interactive concordance generator. Various other software tools
+(e.g. to do nominal record linkage and lemmatisation) are also
+provided, but Thaller did not have time to do more than sketch the
+architecture of the system.</p>
+   <p>I was more impressed by a man called
+Merqenthaler from Ulm, who has wrapped up SIR/DBMS, TEXTPACK, COCOA, a
+word processor, the standard SIEMENS archival system and possibly some
+other bits and pieces into one consistent screen driven package, -for
+use by psychiatrists doing content analysis on transcripts of patient
+interviews. The raw text is put through a spelling checker as well as
+a dictionary which identifies key (psychological) concepts within
+it. His system is also being rewritten in C, which appears to be where
+it's at in Germany these days.</p>
+   <p>I was also impressed by two of
+the art historians present who did not actually give presentations but
+with whom I had some interesting discussions about the Ashmolean
+project; one was from the Marburg institute, whose work with Iconclass
+I already knew of; the other was Dr Albert Schug from Cologne, who
+appeared to be the Grand Old Man of museum applications in
+Germany.</p>
+   <p>Finally, I met two archaelogists with something
+intelligent to say (not a very common occurence). One was selling a
+natty little micro-based system called ARCOS which records sherd
+images on videotape and then automatically analyses them to provided
+cataloguing data; the other was selling a detailed descriptive
+taxonomy for archaelogical specimens. The former costs 60,000 DM and I
+have an English language glossy about it; the latter is free, but all
+in German.</p>
+</div>

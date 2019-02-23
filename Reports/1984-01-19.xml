@@ -1,0 +1,50 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1984-01-19">
+   <pb facs="Pages/img464.jpg"/>
+   <head type="report">VISIT REPORT LBurnard</head>
+   <head type="location"> Sperry House, Stonebridge Park, London </head>
+   <head type="event">BCS Codasyl DBAWG </head>
+   <head type="when">19
+January 1984</head>
+   <p>Because of other commitments (Advisory) I was able to
+attend only the first day of this two day meeting in Sperry's palatial
+skyscraper just off the North Circular road The following were the
+chief points of interest to emerge.</p>
+   <list type="ordered">
+      <item>DBAWG's visibility within
+other BCS database groups was less than perfect, largely because of
+its rather different style of operation (i.e the others don't produce
+any working papers) and personality (i.e DBAWG has a larger than
+average proportion of aggressive smart alecs) It was resolved to speak
+nicely to Geoff Baker, who churns out the BCS "Database
+Bulletin".</item>
+      <item>ANSI X3H2 had rejected DBAWG's proposals to amend the
+DBCS standard (so as to include words indicating the advisability of a
+DSDL component) by one vote However, it now seemed that a better route
+to standardisation would be via the BSI subgroup on database standards
+chaired by Bill Olle to ISO TC97/SC5, which had previously been
+requested to produce work items in this very area The appropriate ISO
+group (WG15) had voted overwhelmingly in favour of DBAWG's detailed
+comments on the ANSI standards.</item>
+      <item>A paper summarising current
+activities on the distributed database standard would be presented at
+BNCOD; work in this area was all but finished but plans for
+publication were currently held up I rashly offered to lasercomp some
+sample pages for them. </item>
+      <item>The rest of the day was discussion of
+the future work of the group. Everyone agreed that detailed
+conments on ANSI's new relational standard had to be discussed,
+particularly indicating its compatability (or lack of same) with the
+DSDL and DDE standards.  Second joint favourites were work on (a)
+integration of other datatypes (text, graphics etc.) into database
+systems (b) use of views , which are (I think) what subschemas were
+supposed to be but never quite are Other less favourably
+received proposals included design and modelling tools, fifth
+generation languages, application development facilities, future
+technology and our old friend access control After much
+discussion and complex vote rigging, it was agreed that the group as a
+whole would "go New Datatypes and Views as soon as
+possible". In the meantime, a few loose ends remained to be tied
+up, which was (I hope) accomplished on the second day of the
+meeting.</item>
+   </list>
+</div>

@@ -1,0 +1,113 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1988-10-25">
+   <head type="location">International Student House (London)</head>
+   <head type="date">25 October 1988</head>
+   <head type="event"> ESRC Seminar Series on Cataloguing Computer Files</head>
+   <p>
+The purpose of this meeting was to present the first published
+Review Draft of a Guide to the cataloguing of computer held
+files, which has been under discussion and development for the
+last two years by a working party organised jointly by the ESRC
+Data Archive at Essex and the Edinburgh University Data Library.
+Several other organisations had been active at various times in
+this or related working parties and most of them  were also
+represented at this meeting. These included the British Library,
+the Institute of Information Scientists, the Archives Department
+of the University of Liverpool, the CCTA, the IUSC, the PRO, DTI,
+the Central Statistical Office, NISS and even the Oxford Text
+Archive.
+</p>
+   <p>
+Peter Burnhill (Edinburgh Data Library) began his brief 
+overview of the Guide by acknowledging the encouragement and
+support of the ESRC specifically in its recognition of the
+importance of bibliographic control of machine readable data as
+a necessary precursor of secondary analyses. He stressed that
+the Guide was intended to be a guide, rather than a standard.
+Its purpose was to provide information for those wishing to
+apply existing standards (AACR2 for the logical structure, MARC
+for the implementation) to the cataloguing of machine readable
+resources of all sorts. It was therefore primarily - but not
+exclusively - addressed to the librarian community. Amongst
+specific problem areas identified, Burnhill mentioned that of
+the "general material description" - computer software typically
+came in many physical forms which might have little relevance
+from a bibliographic control standpoint; as an example he cited
+the "Aladdin" emulation package for the Atari, which was a box
+containing a chip set, a registration card, a manual, and two
+(incompatible) diskettes. To describe such heterogenous objects
+adequately the Report proposed four major subdivisions:
+bibliographic details, sufficient to identify the item described
+and its availability; description of the item's subject and
+intellectual content; technical information describing the item's
+physical characteristics; management and access information
+relative to local copies of the items. Most earlier proposals
+about how machine readable resources should be catalogued had
+tended to blur these ditinctions. Burnhill also gave a brief
+history of how the Guide had come into being, inspired initially
+by a published discussion (by Sue Dodd) of AACR2 Chapter 9 and
+its interpretation. It was clear that new versions of the AACR2
+standard would have to deal more thoroughly with the
+'intellectual content' of electronic works.
+</p>
+   <p>
+
+Bridget Winstanley (ESRC Data Archive) circulated a short
+discussion paper on the 'next steps' for the working party. She
+described possible test vehicles for the proposals of the Guide,
+ranging from simple bibliographic lists to fully fledged union
+catalogues and (a new buzzword for me though not for the
+librarians) something called "Linked" Catalogues i.e. where
+software is sufficiently intelligent to search many different
+catalogues at different sites. Conversion of the ESRC Archive's
+current catalogue (held in the Standard Study Description format)
+to MARC could be done automatically. The Bibliographic Control
+project at Essex, having looked at a variety of other
+communication formats, had reluctantly decided that MARC remained
+the only horse in the race, despite its somewhat jaded
+appearance. A simple PC-based interactive cataloguing system was
+under development, the output from which was MARC records
+conforming to the guidelines. 
+</p>
+   <p>
+
+Sue Dodd, as inspiration of the working party's effort, began by
+remarking that both the books she had written in the last five
+years were already outdated by technological change, but gave no
+specific examples. Traditionally, publishers had been the source
+of bibliographic information: this did not seem to be the case at
+present for the 'publishers' of machine readable data, whoever
+they might be, largely for social and organisational reasons. The
+advent of the Guide might make it easier for electronic
+publishers to provide the required information in a uniform
+manner. She spoke of a 'natural tension' between book and
+machine readable file standards. For a book, all the required
+information was present on the titlepage. Intellectual content,
+if required, was as easily accessible as a physical description
+(provided you knew how to read). This did not apply to a machine
+readable file. She distinguished a useful distinction between the
+logical (humanly determinable) characteristics of a file and the
+physical characteristics of its carrier and (in my view) a less
+useful one between the latter and any system dependency. She
+concluded by mentioning three problem areas for bibliographic
+control among the facilities already provided by many libraries 
+online services (how do you catalogue DIALOG?), works printed on
+demand in varying formats, and online works that are constantly
+updated. 
+</p>
+   <p>
+
+Marcia Taylor (ESRC Data Archive) concluded the meeting by
+pointing to the existence of a Dissemination working party, of
+which all present were ipso facto made members, and there was
+some general discussion about the best ways of circulating the
+proposals in the Guide.
+</p>
+   <p>
+
+In my view, the Guide itself needs substantial rewriting before
+it can be let out of the Librarian community. However its
+structure and approach are eminently sound, and it is heartening
+to see professional cataloguers entering an arena too long left
+to the amateur. 
+</p>
+</div>

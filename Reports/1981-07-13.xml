@@ -1,0 +1,65 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1981-07-13">
+   <pb facs="Pages/img439.jpg"/>
+   <head type="report">VISIT REPORT</head>
+   <head type="location"> Jesus College,
+Cambridge</head>
+   <head type="when">13-14 July 81</head>
+   <head type="event">British National
+Conference on Databases</head>
+   <p>This was the first national
+conference on databases ever held. It was jointly organised by the
+BCS, Aberdeen University, Middlesex Polytechnic and Cambridge
+University, with money from IBM, and drew an unexpectedly large
+attendance of nearly 150, with equal numbers of delegates from both
+industry and academia. The standard of presentations,(with one or two
+exceptions) and of discussion was unusually high</p>
+   <p>for such
+encounters and I was able to continue discussions with
+some</p>
+   <p>delegates I had previously met in Cardiff at the rather
+less high-powered gathering I attended there last week. Another
+unusual feature of the conference was that all the papers given had
+been submitted in full in advance, and copies of the proceedings were
+thus made available before they occurred. (My copy is available for
+consultation). </p>
+   <p>Of the 11 papers presented, Deen gives a very
+useful summary of the state of the art in database research, at least
+as viewed from Aberdeen - which is probably a pretty good place to
+view it from; Zahran (LSE) proposes some less than revolutionary
+methods of extending the capability of Data Dictionary systems; Brown
+et al (id) give another glimmer of the long-awaited pot of gold which
+is ICL's RADS - an automatic program generator driven by the Data
+Dictionary. (I rather enjoyed this because I've never seen
+Jackson-structures actually being used for anything, but the computer
+scientists in the audience seemed rather restless. ) Gray (Aberdeen)
+continued his promotion of ASTRID, concentrating here on the GROUP-BY
+operator with which he claims to have completed the relational
+algebra. This was quite impressive, and it is probable that he will be
+coming to Oxford to test it on some of our databases in the near
+future. Tagg (independent consultant) gave a rather dull precis of the
+BCS's even duller report on query languages - dull because it leaves
+out all recent developments. Longstaff et al (Open U)
+described</p>
+   <p>their teaching system which translates queries from
+relational calculus back</p>
+   <p>into a restricted set of English or
+other natural language so that the user may check to see whether he
+has asked what he intended to ask, and also to teach by example the
+more obscure niceties of the calculus. Crowe et, al (Thames Poly)
+describe a similarly motivated system of infinitely less
+sophistication. Gray (Cambridge) outlines some of the problems of
+dealing with imprecise or unknown values in a database, using three
+valued logic, and lattice theory ; Clauert et al (Cambridge) describe
+their implementation of a CODD database distributed across several
+mini computers (This was amazingly complicated like most Cambridge
+procedures but apparently quite effective). Ho (Hong Kong)'s account
+of optimal search sequence, i.e. an algorithm for determining how
+different file organisations should be ranked when evaluating a query
+which will use several files was both inscrutable and, when
+understood, redundant. Finally Martin (Liverpool) presented the
+results of comparing one dead DBMS (Robot), one still born (RDBMS) ,
+one adolescent (RAPPORT) and one real one (IDMS). Chief result was
+that Rapport queries wenre easier to write than Cobol DML programs
+…. varied immensely, with IDMS usually coming out on
+top.</p>
+</div>

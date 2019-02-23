@@ -1,0 +1,39 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1977-03-14">
+   <pb facs="Pages/img391.jpg"/>
+   <head type="report"/>
+   <head type="event">2900
+Applications committee DMUS Seminar</head>
+   <head type="when">14 March
+77 </head>
+   <p>Alan Purvis (CGF, Bracknell) gave a brief presentation of
+some of the features of DMUS and drew attention to some of its
+deficiencies. He had used all of the utilities, but discussion centred
+on the use of DATAVALIDATE, EXTRACT, REPORT and SORT. I have a copy of
+a summary report he made, Deficiencies noted include: ambiguous syntax
+in FML (eg. use of continuation symbol obligatory before THEN and
+forbidden after it; unsatisfactory IF...THEN..ELSE..nesting), absence
+of job type (character/numeric) conversion on output, and more
+seriously, absence of any facilities for group items (COBOL
+'arrays'). The latter deficiency will however be removed in the next
+release, B64. A serious inefficiency is that each line of a BASIC
+PROCESSING module has to be interpreted afresh for each record
+processed. BASIC PROCESSING modules are not however necessary for most
+DMUS Applications. Mr Purvis confirmed, unofficially, a rumour that
+ICL had no plans to provide the 'translated ML' facilities advertised
+in the manuals within the foreseeable future. Amidst universal
+lamentation the meeting broke for lunch. After lunch, possible
+applications of DMUS in the University environment were
+discussed. Both Southampton and SWURCC were thinking of using such
+facilities as SORT and REPORT to analyse user-metering
+records. Edinburgh pointed out that SORT, RECORDLIST etc. were of
+obvious utility to the generality. Kent were concerned that many DMUS
+facilities were not available with VME/K. It was also pointed out that
+SORT in particular should be more efficient than any user-written code
+as it calls MAMPHY etc. directly. There are no SCL equivalents for
+such commonly used facilities as COPY, BLOCKCOPY, RECORDLIST or
+BLOCKLIST. It is probably too early to say exactly which applications
+will use DMUS most, but the meeting clearly felt theat it would have
+to be used in the University environment, despite its
+deficiencies. Another meeting would be held in 6 months to exchange
+experience gained using the package. </p>
+</div>

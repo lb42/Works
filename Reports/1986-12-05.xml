@@ -1,0 +1,75 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1986-12-05">
+   <pb facs="Pages/img477.jpg"/>
+   <head type="report"> Lou Burnard</head>
+   <head type="location">Batelle Software</head>
+   <head type="event">Seminar on DM/BASIS</head>
+   <head type="when">5 December 1986</head>
+   <head type="report">WITH P.Salotti</head>
+   <p>Batelle Software (aka Information Dimensions Ltd)
+is a recently created offshoot of the Batelle Memorial Institute; the
+latter was set up in 1929 by one Gordon Batelle, a wealthy ex-miner,
+in whose will it was charged to undertake research "for the good of
+mankind". It now describes itself as the "world's largest private
+research company" and can lay claim to having benefited mankind by the
+invention of (inter alia) the Xerox machine, Snopake and
+bar-coding. BASIS, a market leader in text retrieval software, was
+originally (early 60s) an in-house product used to keep track of the
+Institute's voluminous research project reports; DM, modestly
+described as an improvement on all existing relational database
+management systems, is a more recent product, developed over the last
+six years from BASIS.</p>
+   <p>The seminar was in two parts, each
+consisting of a fairly technical run through followed by a
+demonstration. It was one of a series of small and (as it transpired)
+rather well run seminars which the company has been running this month
+to raise its UK visibility somewhat; there were about six attendees
+apart from ourselves.</p>
+   <p>DM runs on CDC and DEC machines and is due
+to be ported to IBM next year. At first glance it looks like a fairly
+traditional ANSI/SPARC three level architecture DBMS, with a
+structural data model, an "actual" (i.e. logical) data model and one
+or more user data models. It supports concurrent access - up to 511
+per "kernel" (i.e. database virtual machine) against 250 databases,
+with up to eight kernels per mainframe; it comes with COBOL or Fortran
+pre-processors, has good screen handling facilities, a
+reasonable-looking report writer, and extensive security, recovery and
+journalising features etc. It has a built-in data dictionary which is
+used to enforce referential integrity. It has its own system language
+(FQM) which is similar to but not the same as SQL; in particular it
+does not contain facilities to create new views or relations. When
+pressed, Batelle insist that when the product is enhanced to support
+SQL (supposedly real soon now) it will support a full SQL including
+such facilities. On the other hand FQM supports text items far more
+effectively and usefully than SQL.</p>
+   <p>BASIS is a well established
+text retrieval system (major users include BT, BP, the Smithsonian
+Institute, Pergamon Infoline and Reuters, not to mention the Houses of
+Parliament or President Reagan's personal VAX). It is also used as a
+component of Wang's Office Systems and of a turnkey library system; in
+the shape of Micro-BASIS it is also being licensed to various CD-ROM
+publishers. Its indexing strategies (there are twenty different
+algorithms) appear to be sufficiently flexible to cater for almost any
+sort of text or user requirement thereof, including support for funny
+alphabets, embedded ignore characters etc.</p>
+   <pb facs="Pages/img478.jpg"/>
+   <p>Stop/Go words can be specified. Phrases
+can be indexed. Subfields within text can be indexed (e.g. if one
+field of a report contains a table, each row of the table can be
+indexed distinctly). More than one search unit can be specified for
+the same file, though not of course dynamically. The package has a
+reasonable screen interface, with a tolerable procedural language used
+to hook sets of commands together. It has a built-in thesaurus
+capability which can be user-modified, an online editor and a
+reasonably flexible and relaxed batch input system. Like most such
+systems, it uses an unindexed holding-file for recent data; access to
+the main text base is not possible while it is being updated.</p>
+   <p>On
+the whole I was favourably impressed by both systems. In particular,
+DM seems the only serious contender for the role of DBMS on CDC
+hardware, while BASIS is certainly worth consideration for the role of
+text searching software on DEC Amdahl or CDC hardware. Both products
+are far from cheap: DM with all its bells and whistles for a Cyber 855
+would cost over £40k; while the basic module of BASIS would cost over
+£6k even on a micro VAX and might be twice as much on a
+mainframe.</p>
+</div>

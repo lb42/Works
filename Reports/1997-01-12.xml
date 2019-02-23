@@ -1,0 +1,486 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1997-01-12">
+   <head type="event">Trip Reports from various places in the USA (12-20 Jan 1997)</head>
+   <head type="location">[Eastern Michigan Uni; UM Ann Arbor; Indiana U; Berkeley]</head>
+   <head type="report">A visit to the USA (12-20 Jan 1997)</head>
+   <p>I spent ten days on the other side of the Atlantic last week, much
+of it in the frozen midwest, quite a lot of it hanging around Detroit
+Metro airport, waiting for planes which were either not due for hours,
+or which were, but had been delayed for similar periods of time. The
+only place I found there capable of serving a decent cup of coffee had
+no spot to plug in my laptop, and the food doesn't bear thinking about.
+Fortunately, when not in airports I was well looked after, and well fed,
+by a number of friendly natives.  I was rained on in snowy Indiana, and
+saw some nice tourist sights in foggy San Francisco. For more details,
+follow the links below...</p>
+
+   <list>
+      <item>
+         <ref target="#LINGUIST">The Linguist List, Eastern Michigan
+University</ref>
+      </item>
+      <item>
+         <ref target="#UMICH">Humanities Text Initiative, University of
+Michigan</ref>
+      </item>
+      <item>
+         <ref target="#INDIANA">Variations Project, Indiana University</ref>
+      </item>
+      <item>
+         <ref target="#BERKELY">University of California at Berkeley</ref>
+      </item>
+   </list> 
+      <div xml:id="LINGUIST">
+
+      <head type="event">Consulting with the Linguist List</head>
+      <head type="date">12-14 January 1997</head>
+      <p>For those who don't know it, the <ref target="http://www.linguistlist.org/">Linguist list</ref>
+is a well-established ListServ list, read by tens of thousands of
+linguists of all varieties world wide. The list is hosted by Eastern
+Michigan University, a small (by American standards) campus just up the
+road from the University of Michigan. Ever anxious to improve and extend
+it, Linguist's presiding deities Helen Dry and Antony Aristar last year
+applied for and received a grant from the American National Science
+Foundation to move the list to a new plateau of serviceability,
+including bibliographies and source texts, abstracts, and all manner of
+wonderful things. To their credit, they decided that SGML was just the
+ticket for this purpose, and solicited consultancy and advice  from
+their readership. Somewhat to my surprise,  my response to this request
+lead to my being invited last autumn to come and discuss the project
+with them and their colleagues, which I duly did last week.   </p>
+      <p>The consultation took place in the Aristar-Dry's rather splendid
+architect-designed home in snow-bound Ypsilanti in the shape of a two
+day informal workshop. The three moderators of Linguist (Aristar, Dry,
+and <ref target="http://www.emich.edu/~linguist/seely.html">Dan Seely</ref>) were present, along with John
+Remmers, their technical editor,and several of the graduate
+`associate editors'  who currently have the
+thankless task of editing and controlling the hundreds of messages which
+arrive for the list every day. Also participating were another SGML
+consultant, in the shape of Gary Simons of the <ref target="http://www.sil.org/">Summer
+Institute of Linguistics</ref>, with whom I have had the honour of
+working previously on TEI matters, and Ron Reck, billed as Linguist
+technical editor, a former EMU linguistics graduate, now moving to a
+better paid job in Washington.   </p>
+      <p>We began with an overview of the software they currently use. The
+whole operation is hosted on the University's unix system, but is about
+to move to its own Digital Unix box. The software used, developed by
+Remmers, is a home-grown but functional mixture of shell scripts and C
+programs, embedded within the Unix mailer. Considerable care is needed
+to ensure that files are correctly processed, keyworded, and proof read,
+to say nothing of vetting for obnoxious content, but the procedures for
+doing all this are well understood and documented. Remmers then
+presented a good overview of where they would like to go in developing a
+new system, and some suggestions about how they might get there. The
+chief problem areas highlighted were in character handling, the need for
+various format conversions (the list is currently distributed both as
+email and in HTML from its web site), and in making searching more
+sensitive, i.e. context aware. I gave, without benefit of overheads, a
+brief sermon on the advantages of SGML, focussing in particular on these
+issues, and on the desirability of document analysis before proceeding
+much further, and we then all adjourned for a rather tasty Japanese
+dinner in Ann Arbor. </p>
+      <p>The following morning, Remmers came to take Simons and me out to a
+decent breakfast, over which we were able to get a little more specific
+about his currently proposed SGML dtd, the chief drawback of which is
+its lack of any structure within the body. Simons then gave an
+illuminating overview of the key issues in making the world's character
+sets uniformly accessible by today's computing systems. He concluded,
+unsurprisingly, that the only workable long term answer is to use
+Unicode/ISO 10646, but not without having given at least as much time as
+they deserved to eight other possible approaches, and giving as much
+technical detail as anyone might reasonably require about the current
+state of such mysteries as the Basic Multilingual Plane, how to shoehorn
+Unicode characters into Windows code points, whether and where to use
+Unicode entity references, and how to ship UCS-2 documents as Mime
+attachments. </p>
+      <p> In a final discussion session, the group reviewed the state of
+affairs, and started trying to identify what kinds of document their DTD
+should handle, which services their new system would be expected to
+provide, and what software would be appropriate. I tried, not very
+successfully, to get the concepts of document analysis across, and
+rather more successfully to persuade them that individual messages
+should be their primary data objects. This would enable them to produce
+personalized issues and automatically retrieved summaries in addition to
+email and HTML versions of the current "Linguist Issue",  particularly
+given the availability of more detailed and accurate indexing of the
+message contents than exists at present.  There was some discussion of
+what should go into these indexes, and how it should be controlled. A
+consensus was established in favour of Open Text 5 (which they have been
+promised for a paltry $1500) as a suitable indexing tool. </p>
+      <p>The project has only just begun, and its grant is small. However,
+this is an exciting time to be beginning such a project, with the
+announcement of XML and other relevant developments. It has a daunting
+task ahead of it, given the need to maintain the current level of
+service, but the team seems both highly motivated and technically
+competent. I will be watching it develop with interest.</p>
+   </div>
+     <div xml:id="UMICH"> <head type="location">University of Michigan,  Ann Arbor</head>
+      <head type="date">14-16 January</head>
+      <p>The <ref target="http://www.hti.umich.edu/">Humanities Text Initiative</ref> at Michigan
+University is an organization not entirely unlike our very own
+Humanities Computing Unit, but based within the University library and
+rather more solidly funded.  It is run by John Price-Wilkin,  with whom
+the Oxford Text Archive has long co-operated. I arrived unannounced in
+the evening and was pleasantly surprised to find a room in which a pair
+of industrious graduate students were tending the electronic production
+line that is the <ref target="http://www.hti.umich.edu/english/amverse/">HTI American Verse</ref> project.
+At one end were real books, each with a little card marking its current
+status; at the other, proof-read and consistently TEI encoded versions
+of them: on the table was a well thumbed copy of TEI P3. The OCR
+software, called Typrereader, looked rather sophisticated to me: it is
+used to produce a markup-free text, proof read carefully against the
+original. Markup is introduced at the next stage, using Author/Editor.
+Texts are loaded into Panorama, and tagged printout is proof read again.
+I did not get any figures about the throughput of this part of the
+highly professional Digital Library Production Service, but it is
+clearly doing well enough to keep the HTI's web site busy, as well as
+servicing a number of other products. It is interesting to note the
+shift in emphasis away from collection and research support towards
+content creation and service provision.</p>
+      <p>Price-Wilkin had a busy schedule the next day, during which he
+somehow made time to  give me a brief overview of the organization, and
+describe in full detail some work he has been doing
+with Dr Johnson's dictionary. He also allowed me all too brief access to 
+the riches of their
+collection, and the use of his office for an unrelated TEI telephone
+conversation before taking me to lunch, where I was introduced to the dubious
+delights of the chilli dog.</p>
+      <p>A number of different  approaches have been taken at Michigan to the
+perennial problem of providing good quality humanities computing
+support. Initially, they had set up a `collaboratory'
+-- a personalized computing facility which particular named scholars
+could apply to use for suitable projects over a fixed period --- but
+this had not been altogether successful. Take-up and productivity of the
+HTI, which included an open access facility-rich room, staffed by
+experts in a number of different fields, and engaged in resource
+creation for specific projects, were much greater. As well as superior
+OCR and tagging services, they offer a Kontron camera (a Progress 3012)
+for high quality image capture, free for internal use. </p>
+      <p> Other facilities available to library users include a `Knowledge
+Navigation Center' specifically developed to provide
+assistance on IT to humanities students, faculty and staff: this has a
+number of machines and support staff. The Office of Instructional
+Technology also provides a service aimed at developing and adapting
+teaching and learning software to faculty's needs: I formed the
+impression that this unit had a poor record of co-operation with other
+more resource-focussed centres. </p>
+      <p>The HTI forms part of the University's Digital Library Production
+Services, along with a number of complementary and well-funded projects:
+MESL (<ref target="http://www.lib.umich.edu/libhome/IDINews/mesl.html">
+the Museum Educational Site Licencing Project</ref>), the venerable TULIP
+electronic journals project (currently co-operating with JSTOR) and a
+new service known as the <ref target="http://www.hti.umich.edu/misc/ssp/">
+SGML Server Program</ref>, the object of which is to sell SGML
+consultancy and expertise in setting up electronic text centres to other
+universities at a knock down price. Income thus generated is intended to
+go into the content creation activities. The DLPS reports to a board on
+which the Library, the Information Technology Division (a large Unix
+based central computing service), and CAEN (another large Unix-based central
+computing service) are all represented. (I suspect that there is an
+interesting history to be written about how Michigan came to have two
+competing computing services). The HTI gets funding from the
+University's Press, the Library, the Office of the President (of the
+University) as well as from grant giving bodies like NEH and NSF, which
+it uses to carry out prestigious content creation projects like the
+Making of America (which will produce 1.5 million page images, combined
+with OCR'd text in TEI format). It currently has six full time staff and
+its activities are expanding to include not only images (unlike the
+Library of Congress, which delivers TIFF format page images, theirs are
+dynamically converted to GIF for web delivery) but also music and film
+(as a natural outgrowth of the MESL project); they are even contemplating
+numeric data (for the ICPSR, no less).</p>
+      <p>Michigan has an HFS system like ours, run by CAEN, which the DLPS
+is planning to use 
+for large datasets, such as GIS data. Otherwise they rely
+on their own largescale RAID system, which gives them six 72 gigabyte
+disks, mounted on a Sun server. They use a product called DLT for
+backup. They use their own software to interface web users with the
+underlying text search engine, which is Open Text release 5; this
+software is also supported by the SGML Server Program mentioned above.</p>
+      <p>I could have spent a lot longer in Ann Arbor, had my itinerary
+permitted, since I think we have a lot to learn from their successes. I
+also discussed with Price-Wilkin the idea of organizing a TEI-header
+users-only workshop, which he seemed to think a good idea; he also
+suggested that the TEI really should get into the business of selling
+consultancy  services, which I did not quarrel with since he was buying
+the dinner (and it was a very good one). Afterwards, I was re-united
+with an old acquaintance, Professor Richard W. Bailey, whom I last saw
+in the late seventies and with whom I spent a  very entertaining evening
+reminding each other of past follies and embarassments, cut short only
+by my need to get up early the following day for a flight to
+Indianopolis.</p>
+   </div><div xml:id="INDIANA">
+      <head type="location">Indiana University, Bloomington</head>
+      <head type="date">17-18 January</head>
+      <p>I took a side trip to Indiana University's new Music Library, on
+17-18 January. This is home to
+<ref target="http://www.music.indiana.edu/variations/">the Variations project</ref>, a
+state-of-the-art real-time music delivery system, which reportedly makes
+use of  IBM's Digital Library products. </p>
+      <p>The project director, David Fenske, introduced me to the systems
+support person, Jon Dunn, and the librarian responsible for the
+digitization process, Constance Mayer, all of whom kindly gave up a lot
+of time to making sure I saw as much as possible during my brief visit.
+The goal of the project is to digitize substantial quantities of the
+library's holdings of recorded music, held on CD, LP, and cassette.
+Real-time delivery of digital sound currently requires non standard disk
+access and storage methods, and the system at Bloomington relies on an
+IBM proprietary method known as <term>tiger shark</term> (apparently
+because data is `striped' across the media, rather
+than being stored in discreet blocks) for storage, and on an internal
+ATM network for delivery.</p>
+      <p>Although the project is not currently using the IBM Digital Library
+(henceforth, DL) software, Fenske assured me that several components of
+the software were already in use, while others would soon be upgraded to
+a state where they would deliver what was needed. The principal gap was
+in support for the afore-mentioned TigerShark file system, which could
+not be accessed via the current ADSM software. Consequently, at present,
+Indiana are using ADSM for backup, and as a repository only. Audio files
+are manually moved between the ADSM and a separate `playback'
+server. This is a conventional `pull' type unix
+server, running under AIX, with its own filestore which is accessed via
+a product called Multimedia Server. It is planned to replace this with a
+new IBM product called Video Charger, due for release in September,
+which will interface directly with ADSM. Mention was also made of a
+similar product called Media Streamer, designed to handle real time
+audio broadcasting. For our purposes, the most relevant forthcoming
+component of the Digital Library system will be Visual Info.  This is a
+database product designed for storage and retrieval of images and text
+which sits on top of the well established (not to say venerable) db2
+engine. It will also have some extras called db2 `extenders'
+because they extend the searching capabilities of db2, apparently using
+black magic to do things like searching images by  colour, shape etc.</p>
+      <p>For metadata and cataloguing purposes, Indiana  plans to replace its
+current OPAC system (NOTIS) with a new one, currently being developed by
+a company called <ref target="http://www.notis.com/">Ameritech Library Services</ref>.
+This OPAC is shared by nine distinct campuses, so the upgrade will be
+slow. The new product, called Horizon, will interface directly with
+Digital Library (according to an agreement between IBM and ALS). It is
+designed for inter-operability,  and has Z39.50 support. Fenske pointed
+out that Z39.50 does not address the realtime networking issues critical
+to their needs, which made integration with the Digital Library product
+correspondingly more important. We discussed the relative wisdom of
+rolling your own solution versus waiting while manufacturers roll one
+for you: Fenske said that his concern was always to make sure his needs
+were addressed by vendors' announced and supported product plans. He had
+found IBM very responsive, and was confident in their ability to deliver
+the required functionality in the long run. He is currently working very
+closely with the company, and will be working part-time as a consultant
+at the Santa Teresa laboratory where DL development is based.</p>
+      <p>Bloomington is nationally and internationally famous for the quality
+of its music teaching: out of approximately 7000 applications, they
+admit about 350 a year; their current enrollment is about 1500 music
+``majors'' and a hundred part-time students. The music library
+occupies four floors of a new purpose-built (and privately funded)
+Performing Arts Center, with several large reading rooms, and
+purpose-built stacks. Round the edges of the reading rooms I saw rows of
+carrels, some with outmoded (and under-used) analog playback systems,
+others with newer equipment (typically a MAC or PC workstation, with a
+Kurzweil keyboard, MIDI, and playback systems). In total there are 70
+such workstations, of which 30 can currently access the Variations
+system. (This is partly because the current Variations software runs
+only on PCs: it's planned to switch  over to NT4 as soon as ATM drivers
+for NT are available). The front end software is Netscape: a page
+specifies the lists of musical works allocated to particular courses,
+with direct links to the digitized audio itself, where this is
+available. Clicking on one of these activates the Variations player,
+which is configured as a Netscape helper application. The player allows
+you to select particular tracks from the work, randomly and with
+impressively smooth and rapid access. The sound quality is comparable
+with what you would expect from a good domestic CD-player over
+headphones. Fenske told me that their server logged about 17,000 audio
+file deliveries per month.</p>
+      <p>In addition to these carrels, the library has three seminar rooms,
+and a LARC-like  room, equipped with about 50 macs and PCs, which is run
+by the central University Computing Service. These facilities are all
+linked to the ATM network, and so can all access the Variations system
+provided that they are able to run its software. There are fifteen full
+time library staff and two full time technicians.  </p>
+      <p>I then visited the office where the digitization and cataloguing is
+actually carried out (this also doubles as the control room for a small
+recording studio). Digitization  is done largely by part time student
+labour, under Mayer's direction. The procedure is only partially
+automated, needing a certain amount of manual intervention. Up to twelve
+hours of music get processed each day: limiting factors are the time
+taken to compress the WAV files to JPEG (this is done in batch
+overnight) and the amount of disk space available. Operators have to
+check that space is available to hold the material they are creating,
+and also to create manually a ``tracks file'' which records title
+and composer information for each track digitized. This is taken
+directly from the CD or LP, rather than from the existing catalogue
+records, for a number of reasons, ranging from variability in the level
+of cataloguing details actually available (MARC cataloguing practice for
+published music varies greatly in what gets included, and where), to
+political and programming difficulties in getting direct access to the
+centrally-maintained catalogue records. Consequently, the operators'
+keyboarding instructions have to specify exactly how proper names of
+composers should be entered --- there is no  other authority control
+--- and include the depressing note that all foreign accented
+characters should be ignored. </p>
+      <p>Five cataloguers are employed to enter the data into a simple
+line-mode shell script, taking up to 30 minutes per CD. The only
+automated part of the process appears to be the reading and detection of
+track duration times directly from the CD: there is no workflow program
+to check, for example, that the catalogue records are correctly updated.
+A filename is allocated to each piece of music, derived from its
+identifier in the NOTIS system. When the whole piece has been digitized
+and is ready for compression, it is backed up to the AHDS and a
+catalogue record update is requested, apparently by hand. This will
+(eventually) insert  an entry in the MARC 856 field, containing the URL
+at which the digitized track will be accessible, assuming that it is
+available from the server. For example, the piece of music with NOTIS
+identifier <ident>ABE7278 </ident>will gain an 856 field containing
+something like the following: 
+<eg>$1 /.../cgi-bin/var/access?ABE7278 $2 http</eg>
+      </p>
+      <p>I had some private conversation with Jon Dunn, who provided some
+more technical details of the present and future system. In future he
+expected that the OPAC would link to detailed metadata held on a library
+server, which would in turn point to digital objects held on an object
+server. As noted, their present system relied on AIX and the Multimedia
+server, using the ADSM only for backup and as an archival store (for
+both WAV and MPEG versions of the files). The glue holding this together
+was all developed in house:  in particular, the Variations player was
+written  in Visual C++ and the web interface  material written in Perl.
+A half FTE post had just been established to port the Player to a 32 bit
+environment. There had been no particular planning exercise or formal
+acceptance procedure. </p>
+      <p>At present, Jon said, the system only has to handle 30 concurrent
+accesses over the ATM network, but it should be able to handle up to 100
+such, if the number of workstations expands. The playback server is an
+IBM RS6000 series, specifically a  59H uniprocessor (apparently,
+Multimedia Server does not work on multiprocessor environments) with 512
+Mb of main memory, running AIX 4.1.1 and ADSM 2.1. The server addresses
+a total of 120 GB of SCSI disk storage, and manages the
+``striping'' (this precludes using RAID to increase the amount of
+available disk space). The disks are accessible by NFS and the in house
+ATM network used for delivery is connected to the campus wide area
+network, so in principal the system could be accessed from anywhere on
+campus. However, since the campus network is a conventional FDDI ring
+running at 1200 Mbits/second, and most buildings have an ethernet
+running at only 10 Mb/sec this is not regarded as a practical
+possibility. The campus network is run by the University Computing
+Service which is reluctant to risk degenerating  performance in this
+way.</p>
+      <p>As noted above, after about ten hours of music has been digitized,
+the holding area is full and all data has to be compressed. Up to 120 Gb
+of data can be held in the play back area, but they have digitized ``much
+more'' than that. With the new video charger software, transfer
+between ADSM and the playback area can be automated, but at present it
+has to be done manually, on the basis of course requirements. The new DL
+will also include a defined API for applications such as the Variations
+player and its associated web pages, to which Dun expects to be writing
+code. He mentioned the existence of a detailed IBM technical paper
+describing the internals of the Video Charger software.</p>
+      <p>In a final discussion, Fenske gave me some other US contacts which
+might be  worth following up. These are all members of something called
+the ``Renaissance Consortium'' --- a club of  early DL users run
+by IBM, loosely under the aegis of Michel Bizy. (spelling?)</p>
+      <list>
+         <item>
+            <ref target="http://lcweb.loc.gov/"> Library of Congress</ref> (Herb
+Becker). They are currently using Visual Info.</item>
+         <item>
+            <ref target="http://www.marist.edu/library/digital.html">Marist College</ref> (John Mc Ginty).
+Amongst other things, they are managing the Roosevelt Archives and
+providing web access to them at <ref target="http://www.newdeal.marist.edu/">www.newdeal.marist.edu</ref>.</item>
+         <item>Virginia Commonwealth U (Jim, Mulvaney, Phyllis Self). Their
+application reportedly involves delivery of medical x-ray images to
+remote sites, compounding privacy issues with image delivery problems,
+but I could not find it on the web.</item>
+         <item>Case Western (Jim Baker). They are researching rights management
+issues, and have developed prototype software for object-level
+access-control. Fenske was of the opinion that this was too fine grained
+for most purposes: he mentioned the idea of a <ref target="http://www.cryptolope.ibm.com/">cryptolope</ref>,
+in which only the container of a packet of digital data would be
+encrypted as a more promising approach.</item>
+      </list>
+      <p>Unfortunately, bad weather meant that I had to leave Bloomington
+earlier than planned, but I don't think I would have learned a great
+deal more by staying. It seems clear to me that we should continue to be
+deeply skeptical about the claimed abilities of the IBM digital library
+software.</p>
+      <p>I did manage to visit the <ref target="http://www.indiana.edu/~letrs/">LETRS electronic
+library project</ref> while I was there: this is another TEI based
+project, firmly located in the University main library, run by Perry
+Willet. LETRS has adopted similar solutions to the provision of digital
+texts online as HTI, though on a smaller scale. It is a joint venture of
+the library and computing services, with five parttime graduate
+consultants and one full time technical consultant. LETTRS provides
+access to a number of networked CDs, and the OT5 software used at
+Michigan. They have also created a sizeable amount of TEI-conformant
+text as part of an ongoing <ref target="http://www.indiana.edu/~letrs/vwwp/">Victorian Women Writers
+Project</ref>. </p>
+   </div><div xml:id="BERKELEY">
+      <head type="location">University of California at Berkeley</head>
+      <head type="date">19-20 January</head>
+      <p>I cut short my visit to Indiana (which was now getting seriously
+cold) in order to get back to Detroit before too many of the planes out
+of it had been cancelled by bad weather. This turned out to be a Good
+Idea, since the one I eventually caught to San Francisco left two hours
+late, and managed to lose my luggage in the process. But California is
+still a warmer place to be, even when you have no clean shirts and only
+a substitute toothbrush. </p>
+      <p>I had been invited to the <ref target="http://sunsite.berkeley.edu/R+D/ucblibrary.html">Library at Berkeley</ref>
+by a campus-wide 
+working group, jointly
+sponsored by the Townsend Center for the
+Humanities and the UCB Library, which has  a campus-wide remit to promote
+interest and information on computer usage across the Humanities.
+Amongst other interested (and interesting) parties, this brings
+together the Library's own Electronic Text Unit,
+the  Bancroft
+Library's Technical Services Division, the Library's Photographic Service,
+and several academic departments, notably those of English and Linguistics.
+Berkeley Library is, of course, the home of  
+<ref target="http://lcweb.loc.gov/loc/standards/ead/">EAD: the Encoded Archival Description</ref>, now
+being developed at the Library of Congress, as well as many other good things.
+<ref target="http://users.ox.ac.uk/~lou/talks/berkeley.ppt">My talk</ref>, on the relationship between scholarship and the digital library,
+attracted a gratifyingly large audience, many of whom did not appear to
+know each other, and nearly all of whom managed to survive until the
+coffee break. I had been asked to stimulate enthusiasm for the TEI, and
+did my best: for at least an hour.</p>
+      <p> After a pleasant lunch with my hosts (Daniel Pitti, Tim Hoyer, and
+others),  and a little light tourism (I have now been up to the top of
+Berkeley's Campanile and admired as much of the view as the fog would
+permit) we reconvened for a discussion session, which like many such
+ranged comfortably over a number of issues without settling any of them.
+I did learn however that the Electronic Text Unit had developed a dtd for
+managing digital images along with their transcriptions, called<ref target="http://sunsite.berkeley.edu/Ebind/"> the EBind dtd,</ref> and that according to Prof Lewis
+Lancaster, double keying is a far more cost effective method of data
+capture than OCR. (Lancaster also brought me up to date on the
+activities of the <ref target="http://www.iijnet.or.jp/iriz/irizhtml/ebti/ebtie.htm">Electronic Buddhist Text
+Inititiative</ref>, which is still going strong.) In the evening, I was
+then taken out for an excellent Japanese dinner by the Linguistics
+Department, in the shape of Prof C. Fillmore, J. B.  Lowe, Jane Edwards,
+and two graduate students, and we all got to discuss corpus linguistics
+late into the night. To round off a perfect day, on  returning to my
+hotel, I found that my luggage had finally caught up with me. </p>
+      <p>Next day, rejoicing in a clean shirt, I set off to visit Uli Heid,
+currently a visiting fellow at the <ref target="http://www.icsi.berkeley.edu/">International
+Computer Science Institute</ref>  in Berkeley. We spent an hour or two
+discussing corpus retrieval software and I at last saw the
+<ref target="http://www.ims.uni-stuttgart.de/projekte/tc/TCDetails.html">Corpus tools </ref> developed in Stuttgart by
+Oliver Christ. Alas, since this prestigious international institution
+did not have a single PC running Windows in it, I was unable to respond
+by demonstrating SARA, other than over the web (which worked). </p>
+      <p>Fillmore is about to start on a new project which involves
+annotation of a corpus with detailed lexical information: we talked a
+little about how that might be supported in the TEI scheme. After lunch,
+I visited the <ref target="http://www.linguistics.berkeley.edu/">Berkeley Linguistics Department</ref>
+proper, where I saw some of the impressive work Lowe is doing in
+bringing together and (eventually) marking up components of dozens of
+African language dictionaries. This project, known as <ref target="http://bantu.berkeley.edu/CBOLD.html">CBOLD
+(Comparative Bantu Online Dictionary)</ref> looked like an excellent
+TEI prospect. </p>
+      <p>I spent the rest of the day engaged in tourism in San Francisco, at
+last. I can now report that I have crossed the Golden Gate Bridge,
+visited the City Lights bookshop, eaten at Max's Diner, and seen the
+cars wiggling their way through Lombard Street (the wiggly block of 7th street). Oh, and
+also seen the remains of the 1910 Worlds Fair -- some utterly
+implausible red sandstone ruins put up by William Randolph Hearst. I
+should express my thanks to Jane Edwards for introducing me to those
+delights, to my Berkeley hosts for allowing this tour to end on such a
+high note, and indeed to all the people I visited for allowing me to
+disrupt their routine with so many impertinent questions.</p>
+   </div>
+</div>

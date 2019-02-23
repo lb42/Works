@@ -1,0 +1,45 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1983-07-26">
+   <pb facs="Pages/img450.jpg"/>
+   <head type="report">Report by Mrs. S. M. Hockey</head> 
+   <head type="when">26/7/83</head>
+   <head type="event">IUSC Workshop on Non-Numeric
+Computing</head>
+   <head type="report">Other Staff Present: Mrs. L. Hayes,
+L. D. Burnard</head>
+   <p>The eight talks at this workshop covered a range
+of topics in non-numeric computing. Of particular interest to me was
+Rod Johnson's (UMIST) lecture which consisted of a history and
+overview of machine translation from which I picked up a lot of useful
+material for my lectures. Talks by S. G. Pulman (East Anglia) on
+Programming Requirements for Computational Linguistics and
+C. S. Mellish (Sussex) on PROLOG also showed what would happen to
+database query systems in the future.</p>
+   <p>The more immediate future
+was covered by Lou's entertaining exposition on the new FAMULUS and to
+a lesser extent by Dave Lindsey's (Aberdeen) survey of text retrieval
+systems. It looks as though we should wait for SIFT from Norway,
+which, it is claimed, is still going to be free.</p>
+   <p>The talk by
+B. Lowndes (Liverpool) on RAPPORT told me enough of what I wanted to
+know about the package and rather slowly. Two of her examples were
+computer centre applications - it would have been nice to hear more
+about some real applications including the Egyptian archaeology one
+which she obviously regarded as a very unusual use of
+computers.</p>
+   <p>The remaining session, which I chaired, was on word
+processing/typesetting. Adrian Hock (Leeds) described his mainframe WP
+program called LEWPS which was geared very much to Leeds'
+documentation format. Its only virtue was that the output from one run
+can be used as the input to the next, rather than using separate input
+and output files as in ROFF etc.</p>
+   <p>Heather Brown's long-awaited
+talk on 'Typesetting - the systems and the output devices' turned out
+to be more of a sales pitch for laser printers of which she showed
+many pictures. The resume of her paper which had been set by TROFF
+contained some very peculiar hyphenation.</p>
+   <p>She has TEX running on
+a PERQ at KENT and the PERQ and their laser printer a Canon LBP-10 are
+both on the Cambridge ring. There was very little mention of the
+Lasercomp, which I tried to rectify by handing out our
+brochures.</p>
+</div>

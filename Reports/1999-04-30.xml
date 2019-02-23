@@ -1,0 +1,29 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1999-04-30">
+   <head type="event">XML Europe 99</head>
+   <head type="location">Granada</head>
+
+   <p rend="it">At the end of April 99, I spent a week in Granada courtesy of
+the <ref target="http://www.gca.org">GCA</ref>, where I attended the
+      <ref target="www.gca.org/conf/euro99/">XML Europe 99 conference</ref>. The
+price of this privilege was that I had to pay attention during all the
+sessions, and then give a closing address at the end of the
+conference, after a very sybaritic lunch (see below).  </p>
+   <p>I duly attended, and
+took assiduous notes, (and then lost them all which is why I don't
+have a visit report to post). I gave my closing plenary from a series
+of bullet points on my laptop, which lead several people to assume
+that I had actually prepared a serious talk, and, more seriously, to ask
+me for copies of the slides afterwards.
+</p>
+   <p>I have therefore attempted to confect a more or less plausible
+version of what I actually said, written out in my best joined-up
+wrote it in XML, using the newly minted XML version of the TEI Lite
+DTD, so you should be able to read it with almost anything....
+</p>
+   <p>
+      <figure>
+         <graphic url="../Pix/granada.jpg"/>
+         <head>The view from the podium</head>
+      </figure>
+   </p>
+</div>

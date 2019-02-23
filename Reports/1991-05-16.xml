@@ -1,0 +1,434 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1991-05-16">
+   <head type="event">SGML Update: consultancy, tools, courses'</head> 
+   <head type="location">Amsterdam</head>
+   <head type="date">16-17 May 1991</head>
+
+
+   <p>The Dutch SGML Users Group hosted a two day international
+conference in Amsterdam 16-17 May under the general title `SGML
+Update: consultancy, tools, courses'. This attracted over a
+hundred delegates, by no means all from the Benelux area, though
+mostly from European publishing and software houses. There were
+two keynote speakers (Sperling Martin for the AAP, and myself for
+the TEI), about a dozen presentations from manufacturers or
+consultants and a well-arranged software exhibit in which all the
+major SGML software vendors were represented, with the
+conspicuous exception of Software Exoterica who had apparently
+had to withdraw at the last minute. There was ample opportunity
+for discussion and argument between presentations, over an
+excellent buffet lunch and in the evenings.
+</p>
+   <p>Sperling Martin as one of the chief progenitors of the AAP
+standard was happy to report that it was now in use by more than
+25 major publishers, with a further forty planning to adopt it
+over the next twelve months. He gave brief overviews of three
+particularly successful applications on the fringes of
+conventional publishing. Firstly, the Association for Computing
+Machinery, which has just developed a five year strategic plan
+with the AAP standard at the centre of several dozen new print
+products, on demand reprint facilities, optically stored
+databases, hypertext products etc. Perhaps more interestingly,
+the ACM plans to mandate the AAP standard as the interchange
+format of preference for its army of unpaid professional
+contributors, reviewers and referees in the future. Secondly, the
+Society of Automative Engineers, which is adapting the AAP
+standard for use in something called a `Global Mobility
+Technology Information Center' or in plainer English, a database
+of information about all sorts of transport systems. The
+interesting thing here was the convergence between SGML and
+object-oriented databases -- as well as manuals of technical
+information, SGML was being used as the vehicle for data to be
+transferred directly into CAD/CAM systems. Sperling's third AAP
+success story was a similarly hybrid development: a new legal
+database system developed for the Clark Boardman Company,
+providing integrated information services derived from legal
+journals, statutes and regulations, a body of case law together
+with interpretation and annotation, usable by traditional print
+journals or electronic hypertexts. Of course, the AAP project had
+not been an unmitigated success: it had begun at a time when SGML
+was barely established, and some aspects, notably those concerned
+with maths, formulae and tables have never been finished
+properly. Moreover, there are a few deliberate errors in the
+standard, introduced (said Sperling ingenuously) as `reader
+tests'. He also called attention to some image problems -- all
+too familiar to TEI ears -- such as the perceived conflict
+between TeX and SGML, or ODA and SGML, and the intimidating
+nature of SGML so long as its cause is left to the purists and
+the evangelists. Looking to the future, Martin predicted an
+increased awareness of SGML within the library community as a
+practical means of coping with the explosive growth of published
+materials, particularly in Science and Medicine. The AAP standard
+was to be assessed for suitability as a `non-proprietary
+information exchange vehicle' for electronically networked
+journals, by the 110-member Association of Research Libraries,
+under a scheme for which the National Science Foundation had
+recently provided $0.75m seed funding. His presentation concluded
+with some sound advice for those developing a strategic business
+plan in which SGML featured (concentrate on the business asset,
+don't expect technology to do everything, expect to spend at
+least $5 a page to get electronically tractable text...) and some
+predictions for future AAP work. A corrected version of the AAP
+standard would be re-submitted to ANSI and a summary of needed
+corrections to the published dtds would appear in EPSIG news at
+the end of this year.
+</p>
+   <p>Seamus McCague gave an impressively detailed description of two
+practical applications of SGML in work undertaken by his company,
+ICPC, a fifteen year old Dublin-based specialist typesetting
+company. One, for Elsevier, involved the production of about
+100,000 pages of high quality camera-ready copy from SGML encoded
+text annually; the other, for Delmar, the conversion of an
+existing reference book into an electronic resource. Details of
+the two projects provided interesting contrasts in production
+methods; they also showed how the SGML solution was equally
+applicable to two very different scale operations. For Elsevier,
+the use of SGML greatly simplified both process and quality
+control, by facilitating the automatic extraction of data for the
+publisher's control database; for Delmar, it had made possible
+significant improvements to the product (a drug handbook) by
+automating the production of a variety of indexes.
+</p>
+   <p>Francois Chahuneau of AIS, the thinking man's Antoine de Caunes,
+gave a characteristically ebullient presentation about the
+relationship between SGML documents and database systems. He
+distinguished four characteristic modes of action: simple storage
+of documents in a database, where typically only a limited amount
+of header type information is visible to the database; database-
+driven document extraction, where documents are synthesized from
+information held in a database as a specialised form of report;
+tightly coupled systems in which highly volatile document and
+database systems share information; and the true document
+database in which all the information and structure of a document
+are represented by isomorphic database constructs, thus combining
+the well-understood strengths of database systems in such matters
+as concurrency control, security and resilience with the
+flexibility and multiple-indexing capabilities of document
+processing systems. As examples of this last mode, he then
+described in some detail two products: his own company's SGML-
+Search, which is based on PAT, and Electronic Book Technologies'
+Dynatext, and also demonstrated a  beta-test version of the MS-
+Windows version of the latter. It uses an interesting scripting
+language based in part on DSSSL, which enables it to be
+configured to look more or less like anything, whereas SGML
+Search is command-line driven, using a fairly rebarbative syntax.
+</p>
+   <p>The interface between SGML and database systems was also touched
+on by Jan Grootenhuis of CIRCE, the doyen of Dutch SGML
+consultancies. Speaking of his experience in teaching SGML, he
+remarked that people with a typographic background found SGML
+almost as difficult to understand as people with a computer
+science background found the requirements of typography, which
+struck a familiar chord. He then briefly described a recent
+project in which documents had been converted automatically into
+an Oracle database, using a database model defined by Han
+Schouten. The project had shown that database definitions could
+be automatically generated from a DTD; the complete suite of
+Oracle manuals, created as Ventura or WordPerfect documents, had
+been loaded into an Oracle-Freetext database, using SGML as an
+intermediary. He noted that the tendency of technical writers to
+use descriptive tagging to bring about formatting effects had
+made this task unnecessarily difficult, and argued for better
+enforcement of descriptive standards. He also outlined some
+experiences in using SGML for CD-ROM publication of journals at
+Samson, and of legal and other regulations published by the Dutch
+government, and the updating problems involved. His conclusion
+was that SGML was now past the point of no return. It was no
+longer being used in pilot projects only, but as an integral part
+of real work. Its use was no longer regarded as worthy of
+comment; moreover, because its evangelists were too busy doing
+real work to try to publicise it, the task was being taken on by
+professional teachers and educators.
+</p>
+   <p>The first day of the conference concluded with manufacturers'
+presentations. Tim Toussaint(MID) and Paul Grosso (Arbortext)
+gave a joint presentation.  Toussaint revealed that MID, formerly
+Dutch and now German, is now 26% French. They used Arbortext as
+an SGML editor, and Exoterica's XTRAN to convert it for loading
+into an unspecified relational database. Applications included
+standard reference works such as the Brockhaus Duden and a
+database of standards documentation. Grosso gave a good sales
+pitch for Arbortext, which is a luxuriously appointed SGML editor
+intended for use primarily in an electronic publishing
+environment and described as non-intimidating and user-congenial.
+It includes a specialised WYSYWG editor for tables and formulae
+from which AAP-conformant marked up text is generated, has good
+browsing and outlining facilities and its own script language.
+</p>
+   <p>Hugo Sleimer, European Sales Director for Verity (a spinoff from
+Advanced Decision Systems) gave a classy presentation of a
+product called TOPIC, the only relevance of which seemed to be
+that it supported a wide variety of document formats, including
+SGML. Much of his presentation dealt exhaustively with the
+problems of text retrieval by boolean logic, at a level which did
+not show much respect for his audience's intelligence.  Tibor
+Tscheke, from Sturtz Electronic Publishing, was due to talk about
+his company's work in creating an electronic version of the
+Brockhaus Encyclopedia, but had unfortunately been forbidden to
+do so by Brockhaus. He was therefore reduced to some generalities
+about the role of information within an enterprise, the
+integration of SGML systems into mainstream information
+processing and so forth, which was a pity.
+</p>
+   <p>I opened the second day of the conference by summarising the
+current status of the TEI and discussing some of the technical
+problem areas we had so far identified, in particular those
+raised by historians and linguists for whom any tagging is an
+interpretation which must be defensible. This being the second
+time I had done it in two weeks, I managed to get through most of
+my material within a reasonable approximation to the time
+allocated me.
+</p>
+   <p>Yuri Rubinsky (SoftQuad Inc) gave an entertaining and wide-
+ranging talk, picking up in passing some of the technical issues
+I had raised rather than simply presenting a product review,
+though he did mention in passing (and also demonstrated) that
+Author/Editor was now available under Windows and Motif as well
+as for the MAC. The theme of his talk was that SGML could be used
+to describe more than just documents, and that several of its
+capabilities were under-used. There was more to an SGML document
+than its element structure. Among specific examples he mentioned
+were customised publication, for example by extracting `technical
+data packages' geared to a specific maintenance task from CALS-
+compliant documentation in the Navair database; using attribute
+values to generate documentation at different user levels from a
+common source; an ingenious use of entity references within
+`boiler plate text fragments' in General Motors manuals; and the
+assembly of customised DTDs from sets of DTD fragments by a use
+of parameter entities strikingly similar to that proposed by the
+TEI, or by use of marked sections. For the GM application, this
+approach had reportedly saved the cost of its implementation
+within six months.
+</p>
+   <p>Pamela Gennusa (Database Publishing Systems) also picked up the
+recurrent theme of this conference: that SGML was uniquely
+appropriate to  database publishing. She gave a good description
+of the major issues in preparing text for publication in database
+format and the strengths of SGML as a means of making explicit
+the information content of texts in a neutral way, which was
+essential given that authors and consumers had different
+requirements of it and touching on the problems of security, high
+volume and time sensitivity which characterise database
+publishing as an industry. She also gave a good overview of the
+capabilities of the new version of Datalogics' set of SGML
+products, notably WriterStation, an impressive authoring tool
+with several new facilities and  DMA (Document Management
+Architecture) a complex set of object-oriented tools providing
+database management facilities for SGML material which also
+includes full text searching facilities like those described
+earlier by Chahuneau.
+</p>
+   <p>Ruud Loth (IBM Netherlands) gave a workmanlike presentation of
+IBM's SGML product range, which now includes an context sensitive
+editor for OS/2 called TextWrite, a formatter for VM or MVS
+called BookMaster and a new range of products called Book Manager
+to deal with `softcopy books' (IBMese for `electronic texts').
+Book manager Build runs under VM and MVS and generates `softcopy'
+from GML or SGML documents; BookManager Read runs additionally
+under DOS or OS/2  and has impressive facilities for hypertext-
+style browsing, intelligent text retrieval, indexing and
+annotation. IBM documentation (47,000 titles, 9 milliard pages)
+would soon be available in this new form.
+</p>
+   <p>Bruce Wolman of Texcel AS then gave a detailed product
+description of the Avalanche `FastTag' automatic tagging system
+which, it is claimed, can handle almost any kind of text and
+automatically insert usable markup into it. The product has two
+components, a `visual recognition engine' which searches for
+visually distinct entities in a document, as defined by a set of
+rules encoded in a language confusingly called Inspec, and
+another language, called Louise, which defines the form in which
+these objects should be encoded. Things like tables, footnotes,
+horizontal lines, running headers or footers or special control
+sequences could all be automatically tagged as well as objects
+defined by regular expressions or specific keywords in the text.
+The product had just been launched in Europe and was available
+for MSDOS, VMS, Ultrix and Macintosh.
+</p>
+   <p>John Mackenzie Owen of the Dutch consultancy Pandata gave a brief
+description of the SGML handling capabilities of BasisPlus,
+stressing however its strengths as a document management system
+rather than its admittedly limited SGML features. Bev Nichols of
+Shafstall described the Shafstall-6000, an all-singing all-
+dancing document conversion system based on a package called
+CopyMaster which included SGML among its 800,000 claimed
+`document-to-document' pairings but which (I had the impression)
+would really rather be operating on a proprietary format called
+the Shaffstall Document Standard. The last presentation of the
+day was from Ian Pirie of Yard Software Systems who described the
+successful Protos project carried out by Sema Group and Pandata
+for the CEC. The project handled proposals for funding from DG 13
+which had to be distributed to member states for comment and the
+ensuing comments. MarkIt had been used to validate the format of
+the messages passed in either direction, its regular expression
+facilities being particularly useful in automatically encoding
+the content of telex messages, and its application language to
+encode the messages for storage in a Basis database. The whole
+operation had been carried out with minimal disruption of the
+message system.
+</p>
+   <p>Aside from the presentations, the conference provided an
+excellent opportunity to catch up on the expanding world of SGML-
+aware software. Among products demonstrated were new versions of
+MarkIt and WriteIt from Sema Group, of Author/Editor from
+Softquad, Arbortext,  Writerstation from Datalogics and an
+interesting new product, an SGML editor called EASE from a Dutch
+company called E2S. Delegates were also given a copy of the first
+fruits from the European Work group on SGML, a consortium of
+European publishers which has been working on a set of AAP-
+inspired dtds for scientific journals which took the form of a
+very well designed and produced booklet documenting a DTD for
+scientific article headers. I came away from the conference
+reassured that SGML was alive and well and living somewhere in
+Europe.
+</p>
+   <p>Lou Burnard
+</p>
+   <p>Text Encoding Initiative</p>
+
+   <p rend="bo">A postscript to the above</p>
+
+
+   <p>My report on last month's Amsterdam SGML UserGroup
+conference, recently posted on TEI-L and on comp.text.sgml
+was, like most such reports, written with timeliness and
+liveliness as primary objectives, rather than considered
+sober opinion. Consequently, it contains some phrases which
+I would certainly not wish to stand as matters of official
+published record, and also a few inaccuracies that I'd like
+to correct.  I've recently received a letter from Sperling
+Martin drawing attention to some of these, most of which is
+quoted below. This is partly a way of expressing gratitude
+to Sperling for having taken the time to correct my
+misrepresentations so thoroughly and with such good humour.
+His reply also provides some fascinating background detail
+about those rugged pioneering days of the SGML revolution -
+— I for one would like to know what became of the Atari
+SGML parser!
+</p>
+   <p>Lou Burnard
+</p>
+   <quote>
+      <p>
+ There are three points about which I want to provide
+further explanation. The first  concerns the "planted"
+errors in the early AAP DTDs; the second relates to ACM;
+and, the third pertains to the Association of Research
+Libraries' activities.
+</p>
+      <p> As to the condition of the AAP DTDs, I hope you can recall
+that I said that the  development of what ultimately became
+the AAP Standard was begun before SGML  had even achieved
+formal ISO draft status. This was done, with obvious risk -
+- what if ISO had not approved SGML?? Just think were we
+would all be now!
+</p>
+      <p> SGML, of course, was in some form of ANSI evolution from
+the late 1970's.  Fortunately, by the early 80's the core
+of SGML had reached a fairly solid condition.  Much work
+remained in refining and enhancing that core. And that was
+the focus of  the ANSI/ISO committee efforts during the
+period 1982-1986. In addition, once the  standard had
+reached a nearly complete form, the ANSI/ISO community
+moved rather  quickly to get SGML through the draft and
+final approval cycles, saving us on the AAP  Project
+significant embarrassment.
+</p>
+      <p> To give you a calendar metric, the AAP project was
+launched in late 1983. It produced  its final report and
+initial set of DTDs in February 1986 -- about eight months
+before the officially approved ISO version of SGML. The
+earliest attempts to use the primitive SGML tools to
+describe the AAP document structures were useful in getting
+us headed in the right direction. It was a bit of a
+juggling act, however, to keep the AAP technical efforts
+completely synchronous with the evolving SGML. (You folks
+on the TEI project have it so much easier -- he says truly
+ingenuously!)
+</p>
+      <p>The point I was trying to make was that we on the AAP
+Project were working with a bit of a moving target. And, in
+the later AAP project phases, as SGML began to solidify and
+become more widely circulated as a draft ISO document, its
+complexity was a bit of an impediment to understanding its
+richness and utility. Still a problem today.
+</p>
+      <p>As we were obligated to share the draft AAP DTDs with a
+panel of publishing technology and "SGML" experts, we
+wanted to be certain that the material we were presenting
+for review was being thoroughly read. Our simple "test" was
+to plant a few obvious errors in the DTDs to see if our
+reviewers were paying attention. There were no SGML parsers
+in 1985 save a very limited "toy" that Charles Goldfarb had
+built to operate on his home ATARI! That meant that the
+only way to catch an error was to read the whole DTD
+character by character.
+</p>
+      <p>The result of the review drill was that most errors were
+caught. In fact, most of the errors were ones that we made
+by being unfamiliar with SGML applications development and
+not correctly interpreting SGML's metalinguistic rules.
+There were even a few instances where we discovered
+syntactic conflicts in the draft versions of SGML that were
+subsequently rectified -- contributing to the refinement of
+SGML. (In its final year, the AAP Project did serve a
+valuable role in "testing" some aspects of SGML as it too
+was taking final shape.)
+</p>
+      <p>Anyhow, whatever the "planted" errors, and I recall only
+three egregious instances, they were removed long before
+the AAP DTDs received any form of wide circulation. The
+more important issue today, that I apparently did not make
+clear, was the revision to the AAP DTDs that is now
+underway to correct errors and ambiguities that were
+unintentional. And, as you reported, revised, corrected
+versions of the DTDs are likely to be available later this
+year.
+</p>
+      <p>While on the AAP theme, let me add that the DTDs for math
+and tabular material are not quite as rife with problems as
+you may have thought I suggested. The AAP math material has
+been very useful in many commercial publishing applications
+that are alive and well. The TeX vs SGML debate continues
+apace independently of the AAP Standard. The tabular
+component of the AAP Standard has seen even wider use.
+</p>
+      <p>The SAE project that I described, uses the AAP tabular
+approach as the basis of the engineering data tables that
+are part of their aerospace and ground vehicle standards
+publications. Many CALS compliant applications have used
+the AAP tabular material approach. What I was trying to
+emphasize was that work remains in improving the AAP math
+and tabular components. EPSIG is now soliciting comments
+and suggestions about those components. I hope that those
+who were at the Amsterdam meeting who are interested in
+contributing ideas, will respond to the solicitation.
+</p>
+      <p>The one point about my description of the ACM project that
+needs clarification concerns the use of the AAP standard
+for manuscript submissiomn. I am certain that I didn't say
+that for electronic submissions, ACM will mandate the use
+of an SGML application. The overhead that I used and was
+part of my handout, clearly shows that full SGML
+application tagging will occur at the receiving end -- that
+is at the ACM headquarters. SGML application tagging can
+certainly be done by the authors and editors, but it will
+not be mandated. There are basic guidelines that are
+suggested for electronic submissions, but they cannot be
+followed without requiring authors to do comprehensive
+source document tagging. As the ACM project evolves and
+suitable tools become more prevalent, the groundrules for
+electronic submissions can be expected to change.
+</p>
+      <p>Finally, about the Association of Research Libraries
+activitis, the electronic journal effort that I described
+is a very recent initiative. Any "seed" funding from the
+National Science Foundation or others has not yet been
+established. The only thing that should be reported is that
+project funding will be addressed upon completion of the
+formal project plan -- and that is still to be completed.
+At this stage it is assumed that the technical basis for
+the collaborative information interchange will likely build
+on widely accepted standards, including the AAP Standard.
+</p>
+   </quote>
+</div>

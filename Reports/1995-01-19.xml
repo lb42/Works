@@ -1,0 +1,172 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1995-01-19">
+   <head type="report">Portable Documents: visit report</head>
+
+   <head type="event">UK TeX User Group: "Portable documents: Acrobat, SGML and TeX"</head>
+   <head type="location">Bridewell Theatre,
+      London</head>
+   <head type="date">19 Jan 95</head>
+   <p>
+This joint meeting of the UK TeX Users Group and the BCS Electronic
+Publishing Specialist Group attracted a large and mixed audience of
+academics, TeX hackers, publishers, and software developers, with
+representatives from most UK organizations active in the field of
+electronic publishing and document management. I was expecting rather
+more disagreement about the relative merits of the various approaches
+now available for the creation of portable documents; in the event, the
+path of SGML-based righteousness, with appropriate concessions to the
+practical merits of PostScript-based systems, was apparently endorsed
+by the consensus. 
+</p>
+   <p>
+First of the seven speakers was David Brailsford from Nottingham
+University, who described Adobe's Acrobat as "a de facto industry
+standard". His presentation of exactly how the various components of
+this product worked together, and could be made to interact with both
+LaTeX and SGML, was very clear and refreshingly free of hype. The
+choice of PDF (which is effectively a searchable and structured form of
+Postscript, in which logical structure and hypertextual links are
+preserved along with the imaging information) as an archival format was
+a pragmatic one for journals such as EPodd where fidelity to every
+detail of presentation was crucial.  The availability of a free Acrobat
+reader was also a plus point. He characterized the difficulties of
+mapping the logical links of a LaTeX or SGML document on to the
+physical links instantiated in a PDF document as a classic case of the
+importance of "late binding", and revealed the open secret that 
+Adobe's free PDF reader would soon be upgraded to recognise and act on
+HTML-style anchors. A demonstration of the Acrobat-based electronic
+journal project CAJUN is already available online at
+http://quill.cs.nott.ac.uk.
+</p>
+   <p>
+David Barron, from Southampton, gave an excellent overview of what
+exactly is implied by the phrase "portable document".  Documents are not
+files, but compound objects, combining text, images, time-based media.
+There is a growing awareness that electronic resources should be
+regarded as virtual documents, repositories of information from which
+many different actual documents may be generated. These developments
+all make "portability" (defined as the ability to render documents -- 
+with varying degrees of visual fidelity -- in different hardware or
+software environments) very difficult. Portability was of crucial
+importance, not only for publishers wishing to distribute in the
+electronic medium, and not only for specific user communities wishing
+to pool information, but also for all of us. Information available only
+in a non-portable electronic form was information at the mercy of
+technological change. He cited as portability success stories the
+widespread use of PostScript and LaTeX as a distribution medium by the
+research community, referring to the Physics preprint library at Los
+Alamos as a case where this had now become the normal method of
+publication. By contrast, the success of the World Wide Web seemed to
+be partly due to its use of a single markup language (HTML) which
+effectively takes rendering concerns entirely out of the hands of
+authors. From the archival point of view, however, none of the
+available standards seemed a natural winner: hypertext was still too
+immature a technology, and there were still many intractable problems
+in handling multiple fonts and character sets. Professor Barron
+concluded with a brief summary of the merits of SGML as providing a
+formal, verifiable  and portable definition for a document's structure,
+mentioning in passing that Southampton are developing a TEI-based
+document archive with conversion tools going in both directions
+betweeen SGML and RTF, and SGML and LaTex. Looking to the future, he saw
+the IBM/Apple Opendoc architecture as offering the promise of genuinely
+portable dynamic documents, which could be archived in an SGML form once
+static.
+</p>
+   <p>
+The third speaker of the morning, Jonathan Fine, began by insisting
+that the spaces between words were almost as important as the words
+themselves.       I felt that he wasted rather a lot of his time on
+this point, as he did later on explaining how to pronounce "TeX"
+(surely unnecessary for this audience) before finally describing a
+product he is developing called "Simsim" (Arabic for sesame, which is a
+trademark of British Petroleum we learned).  This appears to be a set of
+TeX macros for formatting SGML documents directly, using components of
+the ESIS to drive the formatter, but I did not come away with any clear
+sense of how his approach differed from that already fairly widely
+used elsewhere. 
+</p>
+   <p>
+Peter Flynn, from University College Cork, did his usual excellent job
+of introducing the Wondrous Web World, focussing inevitably on some of
+its shortcomings from the wider SGML perspective, while holding out the
+promise that there is a real awareness of the need to address them.
+What the Web does best, in addition to storage and display of portable
+documents, is to provide ways of hypertextually linking them. Its
+success raises important and difficult issues about the nature of
+publishing in the electronic age: who should control the content and
+appearance of documents -- the user, the browser vendor, or the
+originator? Publishing on the Web also raises a whole range of
+fundamental and so far unresolved problems in the area of intellectual
+property rights, despite the availability of effective authentication
+and charging mechanisms. He highlighted some  well-known "attitude"
+problems -- not only are most existing HTML documents invalid, but
+no-one really cares -- and concluded that the availability of better
+browsers, capable of handling more sophisticated DTDs, needed to be
+combined with better training of the Web community for these to be
+resolved.
+</p>
+   <p>
+The three remaining presentations, we were told after a somewhat
+spartan lunch, would focus on the real world, which seemed a little
+harsh on the previous speakers. Geeti Granger from John Wiley described
+the effect on a hard-pressed production department of going over to the
+use of SGML in the creation of an eight volume Chemical Encyclopaedia.
+Her main conclusions appeared to be that it had necessitated more
+managerial involvement than anticipated, largely because of the
+increased complexity of the production process. She attributed this
+partly to the need for document analysis, proper data flow procedures,
+progress reports etc., though why these should be a consequence of
+using SGML  I did not fully understand. More persuasively, she reported
+the difficulty the project had had in finding SGML-aware suppliers, in
+designing a DTD in advance of the material it described, in agreeing on
+an appropriate level of encoding and in getting good quality typeset
+output.
+</p>
+   <p>
+Martin Kay, from Elsevier, described in some detail the rationale and
+operation of the Computer Aided Production system used for Elsevier's
+extensive stable of academic journals. Authors are encouraged to submit
+material in a variety of electronic forms, including LaTeX, for which
+Elsevier provide a generic style sheet. Other formats are converted and
+edited using an inhouse SGML-aware system (apparently implemented in
+WordPerfect 5, though I may have misheard this). This uses their own
+dtd, based on Majour, with extensions for maths, which seemed to be a
+major source of difficulty. Documents will be archived in SGML or PDF
+in something called an electronic warehouse, of which no details were
+vouchsafed. Both PDF and SGML were seen as entirely appropriate formats
+for online journals, CD-ROM and other forms of electronic delivery. The
+advantages of SGML lay in its independence of the vagaries of
+technological development, and its greater potential. However,
+potential benefits always had to be weighed against current costs; like
+any other business, Elsevier was not interested in experimentation for
+its own sake.
+</p>
+   <p>
+The last speaker was Michael Popham, formerly of the SGML Project at
+Exeter, and now of the CTI Centre for Textual Studies at Oxford. His
+presentation did a fairly thorough demolition job on the popular notion
+that there is still not much SGML-aware software in the world, starting
+with a useful overview of the SGML context -- the ways in which SGML
+tools might fit into particular parts of an enterprise -- and then
+listing a number of key products organized by category. It was nice to
+hear the names of so many real SGML products (auto-taggers, authoring
+aids, page layout systems, transformation tools, document management
+systems, browsers and parsers) being aired, after a long day obsessed
+by Acrobat and LaTex. He concluded with a useful list of places  where
+up-to-date product information can be found, and a reminder that the
+field is rapidly expanding, with new tools appearing all the time.
+</p>
+   <p>
+The day concluded with an informal panel session, onto which I was
+press ganged, which effectively prevented me from taking notes, but
+also gave me the chance to promote the recently-published DynaText
+version of the TEI Guidelines, which I did shamelessly. I also remember
+Malcolm Clark asking, tongue firmly in cheek, why everyone couldn't
+just use Word, and being somewhat agreeably surprised by the number of
+people in the audience who were able to tell him the answer, and in no
+uncertain terms. Other topics addressed included auto-tagging, whether
+maths and formulae should be encoded descriptively or presentationally,
+whether Microsoft will still be around in the next century, and whether
+we would ever learn how to format documents for electronic presentation
+as well as we could on paper. 
+</p>
+</div>

@@ -1,0 +1,59 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1977-02-02">
+   <pb facs="Pages/img390.jpg"/>
+   <head type="report"/> 
+   <head type="event">ICL
+IDMS USER GROUP </head>
+   <head type="location">Ministry of Ag Fish &amp;
+Food </head>
+   <head type="when">Feb 2 </head>
+   <p>Minutes of the meeting
+are not yet available but will be produced on request when they
+are. As normal, brief reports were made from those currently
+implementing IDMS projects - which now includes BBC, Plessey, HSA,
+Water Data Unit, ERCC and the MOD in various guises. No one had
+anything but praise for the IDMS code, nor much to grumble about
+except the eccentricities of System B. Other interested parties
+present included representatives of the GPO, UKAEA, Mardon Son &amp;
+Hall, Anglian Water Authority, Short Bros and. the Hong Kong
+Government. The main business of the day was (a) a presentation, by
+one D.A. "Nobby" Clarke of ICL on the newly released Data Dictionary
+System and (b) proposals to re-organise the group - now an unwieldy
+30+ in size.  a) . The Data Dictionary System is a newly released,
+large (120+ Kb mainstore) expensive (no figures available yet) largely
+undocumented (but TP 6426 is due in June) piece of software that no
+system offering database facilities can afford to do without. Such was
+my impression. It is essentially a database in containing information
+about all aspects (data structure, physical placement, processes used
+etc etd) of another database or databases, which can therefore be
+continuously updated, and in which modifications to database design
+can be exhaustively tested without corrupting the status quo. As a
+design tool (and especially when starting a databse from scratch)
+there is little doubt that the DOS methodology cannot as yet be
+improved upon. One can of course use that methodology without using
+the associated software! "Nobby" 's presentation demonstrated this
+quite effectively by showing the simplicity of translation from an
+'entity model' to DOS input, though he was less forthcoming about
+output from the package. He particularly stressed how the use of an
+'entity .model1 would draw attention to otherwise obfuscated
+contradictions inherent in the structure of data. The DOS was machine
+and application independent , and grand things were promised of it in
+the future. In particular, the next release (DDS200 - in 3V 23J will
+be able to generate IDMS Schema DDL or FML file DDL directly from the
+'entity model' . CRISP (the Navy Stores &amp; Transport Inventory
+Project) have been evaluating the DDS by carrying out field trials for
+ICL, and they have also produced a comprehensive report on the
+package. To quote their conclusions “The application of the DDS is
+relevant to all ADP projects and the authors recommend that all 2900
+series users adopt it at the earliest opportunity" and "The DDS is
+still in its infancy with regard to its potential usefulness to the
+user" . I have a copy of this report.  b) The IDMS user group formally
+agreed to split into several smaller working parties dealing with
+distinct areas where it was felt enhancements were necessary, to
+discuss and make recommendations to ICL on those enhancements, and to
+report back to the main group, which would meet at less frequent
+intervals to discuss the subgroups' recommendations. First meetings
+for the subgroups would be held- in the next month, and will report to
+the next general group meeting in two months time. I propose to attend
+a subgroup dealing with query language and report
+generator. </p>
+</div>

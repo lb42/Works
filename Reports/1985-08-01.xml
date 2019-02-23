@@ -1,0 +1,62 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1985-08-01">
+   <pb facs="Pages/img472.jpg"/>
+   <head type="report"/>
+   <head type="report"/>
+   <head type="location"> ICL
+Slough</head>
+   <head type="when">1 Aug 1985</head>
+   <head type="event">CAFS SIG WP
+LBurnard</head>
+   <p>The Report looms ever larger: initial complete draft
+is due -for next meeting (one month), typesetting should take up most
+of September and the publication date is October 4th. Quite a lot of it
+is already on 8801 floppies so we might even make the
+deadline.</p>
+   <p>Actions from the previous meeting of interest: QM250
+wont be able to write to ISAM files. The response to my other paper
+(on IDMS/CAFS integration.) was slightly more encouraging: it was
+agreed that IDMS could be enhanced to use CAFS far physical scans of a
+database, and revealed that the fact that QM didn't want to see them
+was the historical reason why the CAFS view of IDMS records
+excludes pointers, now described by an ICL spokesperson as
+"daft".</p>
+   <p>VLSI developments: amongst the (internal ICL) register
+of about 20 candidates for inclusion in the next generation of CAFS
+engines are : key channel enhancements for context sensitive searching
+and variable length embedded dont cares, more key channels, improved
+performance from the retrieval unit, more flexible record handling by
+the format unit and integration with the file correlation unit, (tho
+the latter is subject to a marketing decision). Which of these get in
+before the design is fixed in silicon remains to be seen. Target speed
+of the new device will be at least 10 Mb/sec, just as a result of
+vlsi. At least two years before the prototype appears, of
+course.</p>
+   <p>The new CAFS microcode, with bugs cleared and a 2OX
+speed up, is still only in use on series 39 machines. It ought to work
+on a 2966 too, but no-one seems to have tried yet.</p>
+   <p>Hugh Devonald
+floated some ideas about the future structure of the working party,
+its affiliation etc. There was a general feeling that its work would
+continue under the umbrella of LSUG, perhaps as one of the new
+technical committees to be set up. He also incautiousaly let slip the
+fact that the CAFS SIG has £1700 in the bank, even allowing for the
+estimated costs of the new publication, which led to much speculation
+about what wine would best accompany the launch of same.</p>
+   <p>The
+December CAFS lunch at Cafe Royal will feature one C. Cheetham as ICL
+speaker and D. Fairbairn, (currently head of NCC, about to join James
+Martin Associates) as guru. Also (of course) OUCS, BCC,
+CEGB.</p>
+   <p>Before lunch we had a quick demo of the BCC library
+enquiry system, via a conveniently placed OPD. This was moderately
+impressive: the idea is nice but the use of Bulletin is fairly
+unimaginative, and the absence of any keyword searching makes the
+system less than usefulYou can only retrieve books by specifying one
+or two words in the title; no other fields are CAFS searchableIt also
+takes a noticeable minute or two to get any response while it searches
+its paltry half million titlesPoor response time was attributed to the
+fact that it was school hols as well as lunch time.</p>
+   <p>Most of the
+day was spent going through more draft sections (about
+three).</p>
+</div>

@@ -1,0 +1,179 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1987-03-26">
+   <pb facs="Pages/img498.jpg"/>
+   <head type="report">VISIT REPORTLou Burnard</head>
+   <head type="event">
+Memex Information Engines Ltd</head>
+   <head type="location">East Kilbride</head>
+   <head type="when">26-27 March 1987
+</head>
+   <p>WITH G.P. Neate (Bodleian Library))</p>
+   <p>The purpose of
+this expedition was to tie up loose ends left over from Bodley's long
+standing investigation of the suitability of the Memex text-searching
+engine as a means of providing online access to the pre-1920 and
+similar catalogues. This investigation began with a British Library
+R&amp;D Grant in 1983, at which time Memex was hosted by the Library's
+own PDP-11; for a variety of technical reasons this proved inadequate
+to the task, and the project was temporarily dropped in 1985. In 1986
+Memex set up a marketing agreement with Gould which proved to be a
+distinct improvement both commercially, in that there are now several
+installed systems running on Gould minis, and technically in that they
+now have a demonstrable version of the Bodleian's catalogue. Hearing
+this, Geoff Neate arranged a two day trip to Memex's East Kilbride
+offices, and kindly asked me to accompany him. In the event, although
+Memex were still unable to demonstrate a true working version of the
+catalogue, the visit proved well worthwhile.</p>
+   <p>We were first given
+a detailed account of the company's current state and market
+prospects, which look much healthier as a result of the one year
+agreement with Gould. The company now employs 18 staff at East
+Kilbride, and seven at the Edinburgh research lab. There are nearly
+twenty pilot systems now installed, and some of these were described
+in some detail. They included the usual unspecifiable Defence and
+Police applications, and some fairly boring ones like a database of
+all the telexes received at Peat Marwick Mitchell's New York office,
+but also some rather more imaginative systems such as 20 Mb of script
+summaries maintained by TV-am, which could be searched for visually
+interesting snippets such as President Reagan picking his nose on
+camera etc. In the commercial world MEMEX's speed both in search and
+in set-up time makes it a natural for companies wishing to scan the
+'Commerce Business Daily' - an electronically published list of all US
+Government jobs currently up for tender, - or even (I suppose) the
+body of case law maintained by Context Legal Systems. There are no
+other library applications however, which is largely attributed to
+librarians' lack of desire to step outside the approach favoured by
+the British Library.</p>
+   <p>Development of the product continues; the
+exclusivity of the Gould arrangement has now lapsed, which means that
+development is now concentrating on the DEC and DEC OEM
+marketplace. One (very interesting) current version of Memex is a
+single board that plugs into the Q BUS on a microVAX2 running VMS and
+costs about 5000 pounds; similar boards are available for bigger
+machines with prices up to 20,000. Because the device uses a standard
+VME BUS, it can be configured into wide range of hardware; one other
+possibility clearly under consideration was the SUN
+workstation.</p>
+   <p>The current system operates in a way quite similar
+to conventional indexing systems. The text is regarded as a flat file
+of hierarchically organised structural units (document, chapter,
+paragraph, sentence for example) which are composed of tokens all of a
+single type. Conversion of text to "infobase" (sic), involves the
+creation of an index of non-numeric tokens (the "vocabulary") which
+maps the external form of each <pb facs="Pages/img499.jpg"/> such
+token to a unique symbol. The text is stored in a compressed form by
+replacing each token by this symbol, which may be up to 3 bytes
+long. Capitalisation, whether or not the token is a word-separator and
+whether or not it is a number are all indicated by flag bits. Tokens
+recognised as numbers are converted to fixed- or floating- point form
+and excluded from the vocabulary.</p>
+   <p>No occurrence index is
+maintained. Searches are carried out by first scanning the vocabulary
+for the required terms (so zero-hit searches are very rapid indeed!)
+to extract the corresponding codes; then delegating the search for
+these codes to the Memex board (this has a throughput of around 0.4
+Mb/sec, or - since it is operating on compressed text -effectively
+about 200,000 words/second). Hit records (i.e. addresses within the
+file) must then be decoded for display, or may be retained for further
+(set) operations. In the version of Memex available on Gould (though
+not that now implemented on VAX) inspection for proximity matching
+also has to be put off to this post-processing stage, as it does with
+CAFS.</p>
+   <p>Unlike CAFS, the MEMEX hardware does not support any sort
+of fuzzy matching: all search terms must be stated explicitly. The
+availability of the vocabulary file goes a long way to counteracting
+this inconvenience and it is possible to add a "reversed” vocabulary
+file so that searches for words ending with particular strings can
+easily be identified; obviously the full generality of the facilities
+available with CAFS fuzzy matching is still not catered for
+however. If the number of search terms exceeds the number of search
+channels available (8, cp. CAFS 16), the query optimiser will initiate
+more than one scan through the file transparently to the user, rather
+than rejecting the search as CAFS currently does.</p>
+   <p>For very large
+files, a signature file can also be maintained to optimise performance
+by allowing for focussed searching, in much the same way as the
+Advanced CAFS Option. With all these options in place, the amount of
+filestore space saved by the compression becomes rather less
+significant; detailed figures calculated for one of the Bodleian files
+only (DAFZ) show that although the original raw data file (16.6 Mb)
+was reduced to 12.6, the amount of space needed for ancillary indexes
+etc brought the total filestore requirement for this file up to 21.9
+Mb; the CAFS searchable form of the same file was 23 Mb. Compression
+is still a very effective way of speeding up the search process,
+simply by reducing the amount of data to be scanned, of
+course.</p>
+   <p>The other possible drawback of storing text in
+compressed form - updating problems - is obviated to a large extreme
+by the provision of an online screen editor which operates on the
+"infobase" directly. We were not able to see this in action, but from
+its description in the documentation it seems more than adequate for
+most uses.</p>
+   <p>As currently packaged the system does not support
+multiple indexes nor any other way of categorising tokens within an
+index, except insofaras numbers are specially treated. The sort of
+precision made possible by CAFS SIF features is thus entirely
+lacking. To search for "London" in a title rather than "London" in an
+imprint, we had to resort to the rather counter-intuitive process of
+specifying that "London" must precede the word "Imprint" in the
+record; to search for books printed in Tunbridge Wells, one would
+similarly have to search for "Imprint" and "Tunbridge Wells" in that
+order and within 3 words. Aside from their reliance on the <pb facs="Pages/img500.jpg"/> existence of the tokens "Imprint" (etc)
+within the record, neither procedure worked entirely satisfactorily in
+the Bodleian data, which contains multiple bibliographical entities
+within one record.</p>
+   <p>Post-processing facilities in the software
+demonstrated were quite impressive: the user can combine results of
+searches, mark particular hits as significant, narrow or broaden the
+search focus, re-run previous searches, interrogate a history file etc
+etc. The query language used is also reasonably comprehensive, though
+its syntax would present some problems to users not previously exposed
+to such notions as "exclusive or" or "proximity match" or "regular
+expression"; it would be quite easy to hide all of this as a
+CALL-level interface to the search engine is also provided, which is
+directly accessible from C programs.</p>
+   <p>Documentation provided
+consists of a programming manual and a descriptive user guide, which
+is reasonably accessible. (Though it does include the following
+benumbing sentence: "The NOT operator is existential and cannot be
+interpreted as an 'outwith' operator in the case of
+proximity".)</p>
+   <p>The staff at MEMEX were very helpful, not just in
+their willingness to explicate sentences of this type, but also in the
+readiness to let us take over one of their Gould machines for a day's
+tinkering. Unfortunately, the transfer of the pre-1920 catralogue had
+not been done properly, several of the records being incomplete and
+the numeric fields being incorrectly translated, so it remained
+difficult to make an accurate assessment of the system's
+performance. However, so far as we could tell, one complete scan
+through all 12 'infobases' into which the pre-1920 catalogue is
+currently divided, assuming that the tokens to be searched for exist
+in every file, would take around 5 minutes. This compares favourably
+with the current CAFS guesstimate for the same operation, which is
+around ten minutes. We carried out rough timings for a range of
+searches against one of the files; these are detailed in Geoff Neate's
+report.</p>
+   <p>Testimony to the ease with which text can be converted
+to a Memex "infobase" was provided by the Cart Papers, a collection of
+17th century documents which we brought with us on a magnetic tape,
+and were able to search (on the micro-VAX) within a few
+hours.</p>
+   <p>We also learned something of the company's future
+plans. Of most interest here was something called the "Vorlich
+machine" currently being designed at their Edinburgh research
+laboratory. This device will use the kind of pattern recognition
+algorithms built into the current generation of image and voice
+recognition systems to tokenise free text by hardware, thus doing away
+with the need for the current encode/decode software.</p>
+   <p>As yet,
+Memex do not have a system which we could consider as an off the shelf
+user text searching product. Neither have they actually demonstrated
+to us all of the claimed potential of their current product as a
+library searching system-builder. Nevertheless, the company now has a
+secure financial basis from which to engage in the sort of primary
+research needed to make one, together with a great deal of
+expertise. Their switching to DEC hardware with or without the UNIX
+environment to host the system also makes them very attractive in the
+academic context. If hardware assisted text searching engines do
+become commonplace in the next few years, as they show every sign of
+doing, Memex must have a bright future.</p>
+</div>

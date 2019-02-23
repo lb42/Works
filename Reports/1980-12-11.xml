@@ -1,0 +1,112 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1980-12-11">
+   <pb facs="Pages/img433.jpg"/>
+   <head type="report">VISIT REPORT L. Burnard</head>
+   <head type="location">
+University of Copenhagen</head>
+   <head type="event">ALLG International
+Meeting and AGM</head>
+   <head type="when">Dec 11-12</head>
+   <p>This two
+day meeting began with reports on recent activities in the field of
+literary and linguistic computing from the various ALLC
+Representatives around the world: about ten different countries (all
+European except for the ubiquitous J.Joyce (USA-East)) were
+represented in person, while nearly 40 written reports had been
+submitted. The report of the ALLC Working Party on networking and
+databases was also tabled; it includes a recommendation that a
+database of information about machine-readable texts and software for
+processing them should be established along the lines discussed at an
+earlier meeting of the working party in London. Both at this meeting
+and at the ALLC's subsequent AGM I briefly described the proposed
+format of this database and requested information for it. Initial
+validation of the designed system will be carried out in early 1981,
+by using it to keep track of issues of OCP. It will then be expanded
+to include issues of texts from the Oxford Archive. Data collection
+from other sources will continue in parallel, in collaboration with
+University College Swansea, using the UMRCC filestore as a staging
+post.</p>
+   <p>There were two formal sessions of invited papers, one on
+machine translation and the other on computer-aided lexicography. The
+MT session was opened by from the EEC with the disarming statement
+that SYSTRAN (the product in which 5 million units of account -about
+$20 m- will be invested over the next 5 years on your behalf and mine)
+is obsolete from both the linguistic and the computational
+standpoints. Nevertheless (as is often said) it WORKS for translation
+of scientific and technical literature only for certain host/target
+pairs of languages only and with no post-editing.An experimental batch
+system for translation of scientific abstracts will be made available
+via EURONET within the coming year. Meanwhile research towards a
+European replacement for Systran (EUROTRA) would continue, though
+funding was not yet committed. Subsequent speakers summarised the main
+features of the Eurotra project. Keill (UMIST) demonstrated that
+Systran (which is entirely written in uncommented IBM Assembler) could
+not easily be enhanced except by adding greatly to the complexity of
+the existing dictionaries. Eurotra by contrast would be a modular
+system of great flexibility, deriving from 4 dynamic 'strategic'
+component which interfaces its -fairly traditional- parsing algorithms
+with its equally traditional static dictionaries. Eurotra however has
+no 'real world knowledge' built into it and is light years away from
+an 'Understanding' system. Maegaard &amp; (Copenhagen) described
+Eurotra's interface structure which is essentially a simple dependency
+tree the nodes of which are labelled for four levels of analysis
+(morpho-syntactic, syntactic function, logico-semantic and
+semantic-relational) Ambiguity is more easily resolved when these four
+levels of linguistic description are available simultaneously, while
+the loss of word-order inherent in a tree represent­ation actually (it
+is claimed) aids translation. There is of course nothing particularly
+novel in this formalism and its limitations (chiefly the absence of a
+knowledge component) have been known for many years. M. King
+(Cambridge) 's description of the so-called Semantic Component in
+Eurotra was clearly aimed at a non-specialist audience and did little
+more than exemplify some of these limitations. Nevertheless, for a
+system designed to deal only with technical writing, Eurotra seems a
+great advance on Systran if only because it has a clear underlying
+linguistic model, the inadequacies of which are clearly defined and
+understood. It is in no sense an experimental design, and appears to
+have learned very little from even comparatively recent advances in
+AI.</p>
+   <p>For no very good reason, delegates were then treated to a
+short presentation of ADA by one C.Gram (Copenhagen). The main
+features of this latest attempt to emulate the perfection of Algol68
+were however clearly of little interest to the majority of the
+somewhat bemused audience and of no interest at all to anyone who has
+read an article in Computing.</p>
+   <pb facs="Pages/img434.jpg"/>
+   <p>The
+next day's session was opened by W.Kartin (Liege) at his most
+magisterial with a panoramic survey of the various activities that
+might be described as computational lexicography. As is often the case
+with such surveys I gleaned little from it save the classic assertion
+that "AI people are concerned with how to understand language,
+i.e. how not to misunderstand language". The level of computational
+expertise involved is best illustrated by a lengthy discussion of how
+the text of dictionary entries could be sorted on secondary fields in
+order to produce lists of synonyms or 'pseudo-synonyms'. Zettersten
+(Copenhagen) gave an informative account of the newly-revived
+Dictionary of Early Modern English Pronuciation Project
+(DEMEP). Dictionary slips indicating pronunciation are being gathered
+in a fairly conventional form by teams of scholars based at Stockholm,
+Bergen, Berlin and Aachen from hundreds of early printed sources to
+produce what will (if it comes to fruition) be an invaluable reference
+work on the development of English pronun­ciation over the period
+1500-1800. The project is linguistically unfashionable and
+computationally unexciting; nevertheless it has the far from
+insignificant merits of a well-defined and worthwhile
+goal.</p>
+   <p>Winfried Lenders (Bonn) gave a workmanlike description of
+the 6 or 7 computer held lexicographic databases available in Germany
+(where such activites are now co-ordinated by a government agency, of
+course). His account was informative rather than analytic. As might
+have been expected there was little common ground amongst the
+materials described since they had all been tailor-made for different
+purposes. The problems of integrating such disparate sources (which
+seemed tthe obvious next step) were only touched upon. Finally Marie
+Bonner (Saarbrucken) described the six year old Old Icelandic
+Dictionary project in which half a million words of legal texts are to
+be the basis of the first ever lemmatised word index of Old
+Icelandic. The project had evidently benefited from a clear linguistic
+analysis of the process of lemmatisation (particularly difficult when
+dealing with old manuscript material); but no evidence was given of
+any comparably sophisticated computational analysis during the
+development of the project.</p>
+</div>
