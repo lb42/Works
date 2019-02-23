@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../Public/TEI-SF/P5/Exemplars/tei_jtei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">How many standards do we need to model reality?</title>
+        <author>
+          <name><forename>Lou</forename>
+            <surname>Burnard</surname></name>
+          <affiliation>Lou Burnard Consulting</affiliation>
+          <email>lou.burnard@retired.ox.ac.uk</email>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Draft submitted for publication</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>No source, born digital</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en">en</language>
+      </langUsage>
+      <textClass>
+        <keywords xml:lang="en">
+          <term>database design</term>
+          <term>information modelling</term>
+          <term>text encoding</term>
+          <term>standardization</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change notAfter="2015-07-26">Paste in comments from Julia Flanders</change>
+      <change notAfter="2015-03-13">First complete JTEI-compliant draft</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div xml:id="d0" type="abstract">
+        <!--<p>Standards emerge gradually and unpredictably in a world of rapid change and diversity,
+          their acceptance dependent on a range of often unrelated social and economic factors. We
+          explore here the evolution of standards for data modelling methodologies, with particular
+          emphasis on the emergence of database design methods in the 1970s and their uncertain
+          application in the world of Humanities and Social Science research. We present in some
+          detail the theoretical model (metamodel) underlying the Text Encoding Initiative&#x2019;s
+          approach to standardisation and ask the question whether, over time, all such
+          community-based efforts are forced further towards convergence and away from diversity.
+        </p>-->
+      </div>
+    </front>
+    <body>
+      <div xml:id="d1">
+        <head>Standards...</head>
+        <p> There is a very old joke about standards which says <q>Standards are a good thing
+            because there are so many to choose from</q>, recently given a new lease of life for
+          example by <ref target="http://xkcd.com/927/">a popular xkcd cartoon</ref>. Like many old
+          jokes, this plays on an internal contradiction (the structuralist might say
+            <soCalled>opposition</soCalled>). On the one hand, the world is a complicated place in
+          which we value diversity and complexity; on the other, we value standards as a means of
+          controlling that diversity. Standards seem thus necessarily to be instruments of control,
+          managed or even imposed by a centralising authority. This contradiction is particularly
+          noticeable when the process of standardisation has been protracted, whether because the
+          technologies concerned are only gradually establishing themselves, or because of
+          disagreements amongst the decision-making parties. We see this contradiction particularly
+          clearly in consumer electronics: there is a financial market-driven imperative to
+          establish standards as rapidly as possible so that all may benefit, and at the same time
+          an equally strong market-driven imperative not to standardize at all, so long as
+          one&#x2019;s own product has significant market share in comparison with those of the
+          would-be standardizers. </p>
+        <p>In the academic research community, similar tensions underly the gradual evolution of
+          individual ways of thought into communities of practice, and the gradual consensus-based
+          emergence from these of <foreign>de facto</foreign> and (eventually)
+            <soCalled>real</soCalled> standards. Scientific research communities are tribal both by
+          temperament and in their practice for a variety of reasons, both good and bad. Tribes
+          define themselves by shared perceptions and priorities, and hence by the specific tools
+          and methods which support their activities. (The opposition often made between
+            <term>methodology</term> and <term>discipline</term> is thus at best debatable &#x2014;
+          as witness the fact that polemical articles entitled <q>What is digital humanities?</q>
+          generally debate it). The adoption of a particular set of assumptions about what objects
+          and methods are fruitful and pertinent can become deeply entwined with a research
+          community&#x2019;s sense of its own identity, jealously guarded, aggressively promoted,
+          and coercively imposed on the agnostic. At the same time, if such assumptions are to be
+          adopted by the wider community, their proponents must seek to establish a consensus. If
+          their model is to achieve recognition it will not be by fiat from any central body or
+          establishment, though such entities may well play a role in facilitating a context in
+          which consensus and (perhaps) standardization can be achieved. </p>
+        <p>Standardisation has a frivolous younger sibling called <term>fashion</term>, whose role
+          in determining the ways in which particular modes of thought become institutionalised (or
+          standardised) should not be neglected. Fashion reflects and (occasionally) affects broader
+          socio-technological changes in ways that are hard to determine. Is the uptake of twitter
+          within the research community cause, effect, or symptom of shifts in the way we perceive
+          the humanities&#x2019; central role of explaining ourselves and our surroundings to
+          ourselves ? If we agree with for example <ref type="bibl" target="#jones2014">Jones
+            2014</ref> that the <term>eversion</term> of the digital world into the <soCalled>real
+            world</soCalled> has been entirely transformative, does it make any sense to insist on a
+          continuity in the models we apply, and the discourse derived from their application ? And
+          contrariwise, if we think that nothing fundamental has changed, and hence that the nature
+          of the devices we use for communication is largely a matter of fashion, are we comfortable
+          with the implication that there is a clear continuity between (say) clay tablet and mobile
+          phone, such that the model we apply to describe messages on one will also be useful to
+          describe the other ? The higher one advances up the mountain, the easier it becomes to see
+          the world as simply brown, blue, or green, but the harder it becomes to see the nuances in
+          the shadows.</p>
+        <p>A good definition of <term>modelling</term> is that it is the process by which we
+          construct meaning from observed data. The classic scientific procedure is to form a
+          hypothesis and then search for observed data, either to support or to contradict it.
+          Living now in an over-instrumented world of data-excess, we tend to do the reverse : that
+          is, we look at the data and try to construct a hypothesis to support it, using the best
+          tools at hand, or the tools which seem to give results consistent with our own internal
+          model. The currently fashionable technique of topic-modelling is a case in point. Yet we
+          do well to remember that the only reason we are now in a world awash with comparable data
+          is precisely because standards for the representation of that data have now become
+          reasonably pervasive and effective. </p>
+      </div>
+      <div xml:id="d2">
+        <head>Data versus text</head>
+        <p>Our focus in this article is the evolution of standardized data models in the humanities
+          and social sciences, and we therefore take a historical perspective. Nevertheless, much of
+          what we discuss seems applicable more widely, both across other scientific disciplines,
+          and even perhaps within a synchronic framework. One does not have to be a historian to
+          suspect that the kinds of story we tell now about what our predecessors thought are likely
+          to have been determined as a consequence of that body of tradition as much as they are by
+          autonomous reflection. </p>
+        <div xml:id="d21">
+          <head>Data modelling in the real world</head>
+          <p>The word <term>modelling</term> as used throughout this book is naturally inseparable
+            from any kind of semiotic process, but began to be applied in a self-conscious and
+            conscientious way in the 1960s and 1970s during the first period of massive expansion of
+            digital technologies into the <soCalled>real world</soCalled> of business, public
+            service, the research community, and of course the military.</p>
+          <p>This was the age of the mainframe computer, those massive power-hungry, water-cooled
+            assemblies of transistors and storage systems based on huge magnetised ferric surfaces,
+            on glass or metal disk, or spools of plastic tape. For our present purposes, the salient
+            feature of those now superceded machines was not so much that they needed to be
+            maintained in special air conditioned environments or attended to by serious people in
+            white coats – the same after all is true of the server farms deployed by Amazon or
+            Google in today&#x2019;s world – but rather that they came in so many radically
+            different forms. In many respects, of course, an IBM 370 and an ICL 1906, a CDC 6400, or
+            a Univac 1100 machine all did much the same thing, relying on essentially the same set
+            of mathematical and physical principles: a central processing unit, data storage, a set
+            of predefined instructions for manipulating discrete pieces of data, input and output
+            peripherals. But wherever there was scope for divergence – in the number of bits used to
+            represent a single unit of storage, in the assembly code used to generate sequences of
+            instructions, in the software libraries and operating systems built on top of all these
+            things – they diverged. For this reason, as much as because of the significant amount of
+            effort needed to keep these monolithic machines functioning, software developers and
+            users alike rapidly began to focus on questions of interoperability of data and (to a
+            lesser extent) software, and hence to participate in a variety of industry-led forums,
+            user groups, standardisation bodies, etc. Typical also of the period was the tension
+            between standards such as COBOL or
+            ALGOL,<!-- maybe not clear to young people that you are talking about programming languages -->
+            developed as a result of discussion amongst representatives of a number of interested
+            but competitive parties, and standards such as FORTRAN imposed by a dominant
+            manufacturer (in those days, IBM) or user group (in those days, the hard sciences ).
+            This applied even to such an arbitrary matter as the internal representation of
+            character sets: IBM continued to support only EBCDIC, its own multi-flavoured 8 bit
+            code, for thirty years after the US government had mandated use of the
+            industry-developed 7 bit ASCII code, the ancestor of today&#x2019;s Unicode. Again, this
+            kind of tension does not seem entirely alien to contemporary experience. </p>
+          <p>A key driver in the impetus towards more and more standardisation (and hence the focus
+            on modelling techniques) across the data processing departments of corporations and
+            administrations world-wide was the rise of the corporate database. As both commercial
+            and government organisations surveyed their information processing activities, the need
+            to integrate previously discrete systems (many of them not yet digital) became more and
+            more evident. It was argued
+            <!--It would be great to have a citation or even just a name here --> that integrated
+            database systems would offer an escape from existing preconceptions and from the design
+            constraints inherent in pre-electronic systems. Existing manual methods were not
+            designed to facilitate either the sharing of data or multiple ways of accessing subsets
+            of it. When converting manual systems to electronic form therefore, it was
+            correspondingly important that these constraints should not be perpetuated in a new and
+            more insidious form, by requiring of the user (for example) a detailed knowledge of the
+            mechanics of a particular computer&#x2019;s filing system before permitting access to
+            the information it contained. Neither should the computerised system simply mimic the
+            manual system it was designed to replace. The manual system had been a means to an end,
+            not an end in itself. To achieve these objectives, deep ontological questions about the
+            goal of an enterprise and the information it processed had to be confronted and
+            resolved. Hence we find database designers confidently asserting that their task was to
+            abstract away from the mundane world of order forms, invoices, and customer address
+            lists, in order to create a structure representing the information of which those
+            documents were the physical trace, by which they meant the formal identification of real
+            world entities and relationships amongst them. This process was commonly dignified with
+            the name of <term>conceptual analysis</term>: <q>the work of philosophers, lawyers,
+              lexicographers, systems analysts and database administrators.</q>(<ref type="bibl"
+              target="#sowa1984">Sowa 1984</ref>) but it would not have been an entirely strange
+            concept for any medieval philosopher familiar with Plato. </p>
+          <p>By the early 1980s several competing <soCalled>standard methodologies</soCalled> (note
+            the plural) were being marketed for the process of defining reality in a business
+            context, that is, those portions of reality which mattered to an enterprise, along with
+            a wide range of complex (and expensive) software tools to simplify both that task, and
+            the semi-automatic generation and implementation of actual data systems corresponding
+            with the model so painstakingly arrived at. These systems naturally implemented a range
+            of different data models. IBM, still a player at this time, had invested too much in its
+            hierarchic system IMS not to see this as the only natural way of working; the business
+            community on the other hand had worked hard in its CODASYL committee to develop what was
+            called a network model; while in the rapidly expanding computer science research
+            community the relational model developed by ex-IBM staff Codd and Date was clearly the
+            way of the future. Whether you regarded your data as hierarchically organised nodes, as
+            a network of nodes, or as normalised relations, there was software to support you, and a
+            community of practice to talk up the differences amongst these orthodoxies and their
+            implications for data representation rather than their similarities. </p>
+          <p>A book called <title>Data and Reality</title> (<ref type="bibl" target="#kent78">Kent
+              1978)</ref> first published in 1978 comes from that heroic age of database design and
+            development, when such giants as Astrahan, Chen, Chamberlin, Codd, Date, Nijssen, Senko,
+            and Tschritzis were slugging it out over the relative merits of the relational, network,
+            and binary database models and the abstractions they supposedly modelled. Kent&#x2019;s
+            quietly subversive message is that this is a struggle predominantly over terminology. He
+            notes that almost all of these passionately advocated models were fundamentally very
+            similar, differing only in their names, and in the specific compromises they chose when
+            confronted by the messiness of reality. Whether you call them relations or objects or
+            records, the globs of storage handled by every database system were still combinations
+            of fields containing binary representations of perceptions of reality, chosen and
+            combined for their utility in a specific context. The claim that such systems modelled
+            reality in any complete sense is easy to explode; it’s remarkable though that we still
+            need to be reminded, again and again, that such systems model only what it is (or has
+            been) useful for their creators to believe. Kent is sanguine about this epistemological
+            lacuna : <q>I can buy food from the grocer, and ask a policeman to chase a burglar,
+              without sharing these people’s view of truth and beauty</q>, but for us, living in an
+            age of massively interconnected knowledge repositories, which has developed almost
+            accidentally from the world of more or less well-regulated corporate database systems,
+            close attention to their differing underlying assumptions should be a major concern.
+            This applies to the differently constructed communities of practice and knowledge which
+            we call <soCalled>academic disciplines</soCalled> just as much as it does to the
+            mechanical information systems those communities use in support of their activities. </p>
+          <p> In its time, Kent&#x2019;s book was also remarkable for introducing the idea that data
+            representations and the processes carried out with them should be represented in a
+            unified way, the basic idea of what we now call object-oriented processing;
+            <!--This might actually be a good opportunity to say slightly more about object-oriented processing—it’s not a topic we actually cover elsewhere and it would be great for it to be more than just a mention in passing here. Would it be possible to provide a few sentences that would orient the reader to its significance, without digressing or being disproportionate?-->yet
+            it also reminds us of some fundamental ambiguities and assumptions swept under the
+            carpet even within that paradigm. Are objects really uniquely identifiable? <q>What does
+                <q>catching the same plane every Friday</q> really mean? It may or may not be the
+              same physical airplane. But if a mechanic is scheduled to service the same plane every
+              Friday, it had better be the same physical airplane.</q> The way an object is used is
+            not just part of its definition. It may also determine its existence as a distinct
+            object. </p>
+          <p> Kent’s understanding of the way language works is clearly based on the Sapir-Whorf
+            hypothesis: indeed, he quotes Whorf approvingly <q>Language has an enormous influence on
+              our perception of reality. Not only does it affect how and what we think about, but
+              also how we perceive things in the first place.</q> There is an odd overlap between
+            his reminders about the mocking dance that words and their meanings perform together and
+            contemporaneous debates within the emerging field now known as GOFAI or <soCalled>Good
+              Old Fashioned Artificial Intelligence</soCalled>. <note>The acronym first appears in
+                <ref type="bibl" target="#haugeland1985">Haugeland 1985</ref>
+            </note> And we can also see echoes of similar concerns within what was in the 1970s
+            regarded as a new and different scientific discipline called Information Retrieval,
+            concerned with the extraction of facts from documents. Although Kent explicitly rules
+            text out of discussion (<q>We are not attempting to understand natural language, analyse
+              documents, or retrieve information from documents</q>) his argument throughout the
+            book reminds us that data is really a special kind of text, subject to all the
+            hermeneutical issues we tend (wrongly) to consider relevant only in the textual domain. </p>
+          <p> This is particularly true at the meta-level, of how we talk about our data models, and
+            the systems we use to manipulate them. Because they were designed for the specific
+            rather the general, and because they were largely developed in commercially competitive
+            contexts, the database systems of the 1970s and 1980s proliferated terms and
+            distinctions amongst many different kinds of entity, to an extent which Kent (like Occam
+            before him) argues goes well beyond necessity. This applies to such comparatively arcane
+            distinctions as those between entity, attribute, and relationship, or between type and
+            domain, all of which terms have subtly different connotations in different contexts,
+            though all are reducible to a more precise set of simple primitives. It applies also to
+            the distinction between data and metadata. Many of the database systems of the eighties
+            and nineties insisted that you should abstract away all the metadata for your systems
+            into a special kind of database variously called a data dictionary, catalogue, or
+            schema, using entirely different tools and techniques from those used to manipulate the
+            data itself. This is a needless obfuscation once you realise that you cannot do much
+            with your data without also processing its metadata. In more recent times, one of the
+            more striking improvements that XML made to SGML was the ability to express both a
+            schema and the objects it describes using the same language. Where what are usually
+            called the semantics of an XML schema should be described and how remains a matter which
+            only a few current XML systems (notably the TEI) explicitly
+            consider.<!--Although this isn’t the place for a detailed consideration, a brief gloss on “semantics” would be helpful here, since this will be unfamiliar terrain to the novice reader.--></p>
+        </div>
+        <div xml:id="d22">
+          <head>Data modelling in the Humanities</head>
+          <p>According to the foundational myth of the Digital Humanities, it all began in 1950 or
+            thereabouts when a Jesuit father called Roberto Busa conceived the idea of using a
+            machine to tabulate every occurrence of every word, and the lemmas associated with the
+            words, and the senses of those lemmas, in the works of St Thomas Aquinas. His vision was
+            realised (some years later), with the aid of Thomas Watson of IBM, and you can see it
+            still working today at <ptr target="http://www.corpusthomisticum.org/it/index.age"/></p>
+          <p> Of course, as Busa himself points out in a characteristically self-deprecating article
+            published in 1980 <ref type="bibl" target="#busa1980">[Busa 1980]</ref>, he was far from
+            having been the first person to have considered using mechanical or statistical methods
+            in the investigation of an author&#x2019;s writing: for example, in the nineteenth
+            century, the British statistician August De Morgan, and in particular a student of his,
+            an American scientist called T C Mendenhall had speculated that the frequency of
+            occurrence of certain words might be used to distinguish the writing of one person from
+            that of another (<ref type="bibl" target="#mendenhall1887">Mendenhall 1887)</ref>).
+            Clearly, human beings do write differently from one another, and certainly human readers
+            claim to be able to distinguish one writing style from another. Since all they have to
+            go on when processing writing is the words on the page, it seems not entirely
+            implausible that the calculation of an author&#x2019;s <soCalled>characteristic curve of
+              composition</soCalled> (as Mendenhall called it) might serve in cases of disputed
+            authorship. </p>
+          <p>With the advent of automatic computing systems, and in particular of more sophisticated
+            statistical models of how words are distributed across a text, it became possible to
+            test this hypothesis on a larger scale than Mendenhall had done (he relied on the
+            services of a large number of female assistants to do the counting drudgery), and a
+            number of research papers began to appear on such vexed topics as the authorship of the
+            Pauline epistles, or of the Federalist Papers, (a set of anonymously published
+            pre-American revolutionary
+            pamphlets)<!--This phrasing is a bit confusing; maybe better as e.g. “late 18th-century” or “Revolutionary War-era” or “American colonial”?-->,
+            and even the disputed works of the Russian novelist Sholokhov. At the same time, many
+            research groups began to contemplate a more ambitious project which might develop a new
+            form of stylistic studies, based on empirical evidence rather than impressionistic
+            belief or dogma. Stylometry as this was called, and authorship studies dominated this
+            first heroic period of the digital humanities, and continue to fascinate many
+                researchers.<note><ref type="bibl" target="#holmes1994">Holmes 1994</ref> provides a
+              good bibliography of earlier work; <ref type="bibl" target="#juola2006">Juola
+                2006</ref> reviews more recent thinking on the topic.</note>
+          </p>
+          <p>At the same time, but in another part of the forest, a new tribe of linguists was
+            emerging, re-energizing an empirical tradition going back to J.R. Firth <note>For a
+              persuasive historical analysis of this tradition and its development, see <ref
+                type="bibl" target="#leon2008">Leon 2008</ref></note> with the aid of massive
+            quantities of machine-readable text. The emergence of the Brown Corpus in 1960 and its
+            successors <note>For links to documentation of this influential corpus and its
+              imitations, including an impressive bibliography of research derived from it, see <ptr
+                target="http://clu.uni.no/icame/manuals/"/>
+            </note> represents an important moment in the evolution of the digital humanities for
+            several reasons. The <soCalled>corpus linguists</soCalled> as they called themselves
+            were probably the first humanities researchers of whom it might plausibly be said that
+            their research was simply not feasible without the use of digital technologies. The
+            model of language praxis and linguistic patterning which emerged from their research was
+            also fundamentally innovative, not to say controversial with regard to the prevailing
+            Chomskyan orthodoxy of the time. The insights gained from their approach have radically
+            changed the way in which such traditional activities as dictionary making or language
+            teaching and learning are now carried out. And, with hindsight, we can detect in their
+            methods a distinctive approach to the modelling and analysis of textual data. </p>
+          <p>As with the stylisticians and the authorship hackers, however, the corpus
+            linguists&#x2019; shared model of text was neither formally defined nor structurally
+            ambitious. Its focus was something called the word, variously defined as an orthographic
+            unit, or a lexical one, even though the process of lemmatisation &#x2014; the grouping
+            of individual tokens under a single lexical form &#x2014; remained problematic, as the
+            title of an article by Brunet memorably reminds us <hi rend="italic">Qui lemmatise
+              dilemmes attise...</hi> (<ref type="bibl" target="#brunet2000">Brunet 2000</ref>).
+            Corpus linguists looked for <term>ngrams</term> &#x2014; patterns such as recurrent word
+            (or token) sequences &#x2014;
+            <!-- Not the precise current meaning of the term; if this is what “ngram” meant earlier on, then perhaps rephrase to make clear this is a historical usage? Or maybe rephrase to something like “linguists looked for patterns of ngrams—sequences of words or tokens—but were not…” Or maybe even better, “Corpus linguists studied ngrams—sequences of words or tokens—but were not…” -->but
+            were not for the most part interested in indications of textual organisation or
+            structure, except where these could be derived from an analysis of the constituent
+            words. Individual tokens in a text were often annotated by codes indicative of their
+            word-class (noun, preposition, etc.) but the annotation of multi-word sequences, for
+            example to indicate syntactic function, was more problematic and hence less
+            standardised. </p>
+          <p>Nevertheless, the development of corpus linguistics as a defined area of research (a
+            discipline even) owes much to the clear consensus amongst its practitioners concerning
+            both core principles, methods, and objects which define the discipline, and those
+            concerning which multiple points of view were recognised. For example, the Brown corpus
+            instantiated a surprisingly long-lived model for the construction of language corpora
+            which was based on fixed-size synchronic sampling of language production according to
+            explicit selection criteria. In developing the Cobuild corpus by contrast <ref
+              type="bibl" target="#sinclair1987">Sinclair</ref> was one of the first to propose a
+            model of continuous sampling from an ever expanding and diachronic base of reference
+            materials, and may be thought of as having initiated the perspective memorably phrased
+            by one American linguist as <q>there&#x2019;s no data like more data</q>, anticipating
+            today&#x2019;s gigaword corpora, and the <soCalled>Web as corpus</soCalled> concept. The
+            theoretical model underlying both these projects and the many others that followed them
+            was however just the same: the function of linguistic research was to identify
+            regularities in the way language is used, and to construct a view of how language
+            functions solely in terms of that empirically derived data, rather than from <foreign>a
+              priori</foreign> theorizing about postulated linguistic systems. </p>
+          <p>If stylometrics and corpus linguistics alike thrived in the digital environment, it was
+            perhaps because their objects of study, the raw material of text, seemed easy to model,
+            and because a consensus as to their significant particularities had long been
+            established. The same could hardly be said of other areas of the humanities, in which
+            the primary object of interest was not the text but the subject matter of the text, not
+            its form but its intention, not the medium but the message. And yet it was obvious (as
+            Manfred Thaller, Jean-Philippe Genet and others argued persuasively in the 1980s) that
+            there was much to gain if only consensus could be achieved as to the best way of
+            transferring the written records that constitute the primary sources for historical
+            research into a digital form. Running through the proceedings of (for example) the
+            annual conference of the Association for History and Computing, is a constant argument
+            between text analysis and text representation. For those whose methods were entirely
+            contingent on the use of particular pieces of software (statistical packages, logic
+            programming systems, relational database systems...) the source existed only to be
+            pillaged, annotated, or reduced to some more computationally tractable form. For those
+            with a broader perspective, wishing to produce resources which might be both adequate to
+            the immediate needs of one research project and generic enough to facilitate its re-use
+            and integration with other resources, the absence (or multiplicity) of standard models
+            for their representation seemed insurmountable. In the nineteenth century, historical
+            scholars had frequently laboured (and gained recognition for their labour) to codify,
+            transcribe, and standardize collections of medieval and early modern records from many
+            sources in print form. How should that effort be replicated and continued into the
+            digital age ? </p>
+          <p>We can see also in those conference proceedings, <note>See for example, <ref
+                type="bibl" target="#denley1987">Denley and Hopkin 1987</ref> or <ref type="bibl"
+                target="#denley1989"/>Denley et al 1989</note> and in the journals of the period, a
+            tendency for researchers in history to adopt whatever computational solutions the market
+            was throwing up, without much effort to truly appropriate it to their perspective.
+            Social historians in particular often embraced uncritically the methods of sociology,
+            which required the reduction of historical data to vectors of scores in a pre-defined
+            matrix, easily analysable by tools such as SPSS or SIR <!-- needs explaining -->. Many
+            others accepted uncritically the database orthodoxy proposed by their local computing
+            centre (in those distant days, many Universities provided computing services and support
+            for them centrally) which, in practice, meant adjusting their data to the hierarchic,
+            network, or relational model, as the case might be. Others, perhaps more surprisingly,
+            attempted to apply the methods of logic programming, reducing historical data to sets of
+            assertions in predicate logic: the pioneering work of the French archaeologist <ref
+              type="bibl" target="#gardin1980">Jean-Claude Gardin</ref> was often cited in support
+            of this idea. In the UK, there was even a short-lived vogue for recommending logic
+            programming in secondary school teaching (see e.g. <ref type="bibl"
+              target="#nichols1987">Nichols 1987</ref>). For the most part, however, few historians
+            thought to follow their literary or linguistic colleagues in prefering to develop their
+            own tools of analysis which might reflect models closer to their discipline&#x2019;s
+            view of its data.</p>
+          <p> With a few notable exceptions, it seems that most historical researchers were content
+            simply to adopt technical standards established by the wider data processing community
+            (relational databases, information retrieval systems, etc.) despite the reductionist
+            view of the complexities of historical sources which such systems required. Amongst the
+            exceptions we should however note pioneering experiments such as those of <ref
+              type="bibl" target="#macfarlane1977">Macfarlane 1977</ref> or <ref type="bibl"
+              target="#king1981">King 1981</ref> as well as more mature and influential systems such
+            as Thaller&#x2019;s κλειο (<ref type="bibl" target="#thaller1987">Thaller 1987</ref>)
+            which demonstrated that it was possible to use the new technology to combine
+            faithfulness to the source with faithfulness to the historian&#x2019;s understanding, in
+            a new form of <foreign>Quellenkritik.</foreign><note>See <ref type="bibl"
+                target="#greenstein1991">Greenstein 1991</ref> for a collection of essays on the
+              problems of modelling historical textual data sources.</note> And it is surely the
+            realisation that a focus on how text itself should be modelled which resolved this
+            dichotomy and showed the way forward for subsequent digitally-assisted humanities
+            research.<!-- This sentence is a little too hard to follow--></p>
+        </div>
+      </div>
+      <div xml:id="d3">
+        <head>The apotheosis of textual modelling</head>
+        <p>What happens when a non-digital text is transformed to a digital form? If the goal is no
+          more than to re-present that source, it is very likely that the job will be considered
+          accomplished by a reasonable quality digital image, perhaps accompanied by a transcription
+          of (most of) the words on the page, in a form which will facilitate a reasonably close
+          simulation of the original to be displayed when the digital version is presented on screen
+          or paper. Self-evidently, this approach prioritizes the visual aspects of the source at
+          the expense of its semantics, except in so far as those are intrinsically tied to its
+          visual aspects. It requires but does not impose the addition of metadata to contextualize
+          and describe a source, which may or may not be stored along with the digital surrogate
+          itself. </p>
+        <p>Nevertheless, presumably for largely practical and economic reasons, page-imaging, or
+          facsimile production remains the common denominator of the majority of current
+          digitization initiatives, as it has done for the past few decades. For today’s digital
+          library, in fact, we may say that the predominant model is one in which digital surrogates
+          approximate as closely as possible a subset of the visual characteristics of a source.
+          Note that this remains a subset: <ref type="bibl" target="#prescott2008">Prescott
+            2008</ref> amongst others has pointed out how even the most fastidiously prepared and
+          executed digital imaging of an ancient manuscript can fail to capture all of its
+          properties of interest. Digitization is an inherently reductive process and nothing is
+          likely to change that. As in database design, therefore, the essential remains to define
+          precisely the bounds of the model to which one is reducing the source.
+          <!-- A bit hard to get your meaning here, but a great point.--></p>
+        <p>In explicitly rejecting that model of textual essence, the Text Encoding Initiative (TEI)
+          attempted something rather more ambitious. From the start, its intention was to create an
+          explicit model of the objects and structures which intelligent readers claim to perceive
+          when reading a text ; the explicit claim was that by modelling those readings, and
+          assigning a secondary role to the rendition of actual source documents, the goals of
+          integration and preservation of digital surrogates would be greatly simplified; perhaps
+          implicitly there was also an attempt to redirect the energies of scholarly discourse away
+          from the accidental trivia of word processing in favour of a more profound consideration
+          of the meaning and purpose of written texts. This opposition is most clearly stated in
+          Coombs and Renear&#x2019;s foundational text on <title>The future of scholarly
+            communication</title> (<ref type="bibl" target="#coombs1987">Coombs 1987</ref>) and it
+          is also explicit in the original design goals of the TEI as enumerated in the so-called
+          Poughkeepsie Principles : <q>Descriptive markup will be preferred to procedural markup.
+            The tags should typically describe structural or other fundamental textual features,
+            independently of their representation on the page.</q> (<ref type="bibl"
+            target="#teip01">TEI 1988</ref>)</p>
+        <p>A reading of the TEI&#x2019;s original design documents <note>Many of the TEI&#x2019;s
+            original working documents are preserved in its online archive; some of them have also
+            been published, notably in <ref type="bibl" target="#ideveronis1995">Ide and Véronis,
+              1995</ref></note> shows clearly the influence of contemporary database design
+          orthodoxies. For example, a working paper from 1989 called <title level="a">Notes on
+            Features and Tags,</title> still available from <ptr
+            target="http://www.tei-c.org/Vault/ED/edw05.htm"/>,defines a conceptual model in which
+          entities such as tags are considered independently from both the abstract features they
+          denote and the textual data strings to which they are attached, before proceeding to
+          define a data structure to hold all the features of a given mark-up tag. This latter
+          definition is labelled as <soCalled>Design for a TAGS Database</soCalled>, and a mapping
+          to a simple RDBMS provided for it. The assumption behind the model described here is that
+          the well-attested variation in the many ways texts were converted for use by computer
+          might be overcome by treating those variations as accidental quirks of the software in
+          use. Essentially, this model says, there is a determinate collection of textual features
+          of interest on which scholars agree, many of which are differently expressed by different
+          pieces of software, but which could all be potentially be mapped to a single interchange
+          format. The TEI was conceived of originally as an interchange or pivotal format; not
+          necessarily as something to replace existing systems of markup, but as something to enable
+          them to communicate, by appealing to a higher level abstract model of the common set of
+          textual features that individual markup systems were deemed to denote. </p>
+        <p>This same working paper includes a suggested SGML DTD which might be used to organize the
+          components of that higher level abstract model, and which is in many ways the ancestor of
+          the XML schema currently used to define TEI components. This model, for which the TEI
+          editors coined the name ODD (One Document Does it all), has clear antecedents both in the
+          work of Donald Knuth and in contemporary SGML documentation systems such as that developed
+          for a major European publishing initiative called Majour. It is well documented elsewhere
+            <note>The current system is of course fully described in <ref
+              target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/TD.html">chapter 22 of the
+              TEI <hi>Guidelines</hi></ref>; for an early article outlining its architecture see
+              <ref type="bibl" target="#burnardrahtz2004">Burnard and Rahtz 2004</ref>; for recent
+            technical developments see <ref type="bibl" target="#burnardrahtz2013">Burnard and Rahtz
+              2013</ref>. </note> we highlight here a few of its salient characteristics, in
+          particular those which qualify it for consideration as a meta-model, a tool for the
+          construction of models. </p>
+        <p>There has long been a perception that the TEI is a prescriptive model, as indeed in some
+          respects it is: it prescribes a number of very specific constraints for documents claiming
+          to be TEI conformant, for example. However, the prescriptive part of the TEI is concerned
+          only with how the TEI definitions are to be deployed; very few prescriptions are provided
+          as to <emph>which</emph> of the many hundreds of TEI-defined concepts should be selected
+          in a given context, although of course each choice of component has implications for
+          subsequent choices. In this respect, the TEI resembles a somewhat rambling collection of
+          independent components rather than a single construct. </p>
+        <p>Each of the objects defined by the TEI has essentially the same set of properties : a
+          canonical identifier, a description of its intended semantics in one or several natural
+          languages, an indication of its equivalent in other ontologies, its classification within
+          the TEI&#x2019;s own ontology, a list of its associated attributes (each of which is
+          defined in a similar way), a formal model of its possible constituent components, usage
+          notes and examples.
+          <!-- To someone who has just learned about the TEI and is familiar with colloquial discussion of it, these terms may not immediately connect with what he/she knows or with the terminology he/she may already have encountered. If it’s possible to either rephrase these in more accessible language, or provide parenthetical glosses/explanations, that would be very helpful-->None
+          of this is inextricably linked to any particular enabling technology: although the first
+          version of the TEI was expressed using the Standard Generalised Markup Language, later
+          versions have used the W3C&#x2019;s Extensible Markup Language,
+          <!--Earlier you’ve used abbreviations for SGML and XML; in your final revision, please rationalize these so that the first reference is spelled out.-->and
+          several experiments have shown the feasibly of re-mapping its definitions to other
+          currently fashionable technologies such as JSON or OWL. This also is in line with (though
+          not identical to) the original goals of the project. </p>
+        <p><!-- This paragraph and what follows would feel more fully integrated into your argument (and not a praising digression about the TEI) if you could lead into it with a transitional comment reminding the reader that the overall discussion is about standards (and the TEI is a distinctive and illuminating example in the ways you are about to describe). You remind us of the standards issue a bit further down but it would be useful to have that in mind on this page as well.-->The
+          constellation of textual features or objects defined by the TEI Guidelines corresponds
+          with the set of <soCalled>significant particularitites</soCalled> originally identified by
+          the members of the TEI working groups, refined and revised over a period of several
+          decades during which new objects have been added and existing ones revised for consistency
+          and clarity. As noted elsewhere (<ref type="bibl" target="#burnard2013">Burnard
+          2013</ref>), the TEI system as a whole is not a fixed entity but one which has steadily
+          evolved and developed in response to the changing needs and priorities of its
+          user-community. This is a continuation and intensification of a principle adopted very
+          early on and manifest in the conspicuously consultative manner by which the TEI Guidelines
+          were originally constructed. They do not represent the views of a small technical
+          self-appointed élite, but rather the distillation of a consensus formulated by combining
+          input from specialists from many academic disciplines, having in common only an interest
+          in the application of digital technologies within those disciplines. Although the TEI
+          predates the World Wide Web it was born into a world in which virtual internet-based
+          communities were already emerging and remains, perhaps, one of the first and most
+          succesful user-focussed internet-mediated projects to have been created without benefit of
+          today&#x2019;s <soCalled>social media</soCalled>. As an internationally-funded research
+          project, the TEI project conscientiously strove to give equal importance to researchers
+          separated not only by discipline, but also by language and geography. </p>
+        <p>The interdisciplinary nature of the TEI model is reflected in the way the Guidelines
+          themselves are organized and in the way that its formal definitions are intended to be
+          used. Inevitably, most of the individual chapters of the reference manual known as TEI P3
+          <!-- provide citation --> contained much material unlikely to be of interest to every
+          reader <!-- Perhaps “user” would be more applicable here, matching your usage below?-->,
+          while at the same time every chapter contains material of importance to some reader. This
+          material combined rigorous prose definition and exemplification with formal
+          specifications, initially expressed as a <soCalled>tagset</soCalled> : a set of
+          declarations expressed in the DTD language used by the SGML standard. The expectation was
+          that the skilled user would (having read and understood the documentation) select one of a
+          small set of <soCalled>base</soCalled> tagsets (prose, verse, drama, dictionaries, speech,
+          etc), together with a set of elements common to all kinds of text (the
+            <soCalled>core</soCalled>) and the metadata associated with them (the
+            <soCalled>header</soCalled>). This combination could then be enriched further by the
+          addition of any number of tagsets providing more specialised components, each reflecting a
+          particular style of analysis (linguistic, hypertextual, text-critical etc.) Finally, a
+          user might elect to suppress some of the components provided by a tagset, modify some of
+          their properties, or even to add new components not provided by the TEI model at all.</p>
+        <p>This model, humorously referred to as the <soCalled>pizza model</soCalled> by analogy
+          with the way that Chicago&#x2019;s favourite dish is typically constructed, also seems in
+          retrospect to reflect something of the deeply balkanised intellectual and social milieu of
+          its time. For all its good intentions and practicality, the tidiness of the pizza model
+          seems at odds with the gradual blurring of the well-fenced frontiers between linguistics
+          and literature, history and sociology, science and the humanities, which characterizes our
+          current intellectual landscape, in which humanities research ranges far and wide across
+          old disciplinary frontiers, grabbing methods from evolutionary biology to explore textual
+          traditions, or deploying complex mathematical models to trace the evolution of literary
+          style.</p>
+        <p>As instantiated in TEI P3, the construction of a personalised model from the huge (and
+          occasionally overlapping) range of possibilities defined by the TEI Guidelines was a
+          relatively complicated task, requiring fairly detailed technical knowledge about SGML and
+          the way that its parameter entities interacted
+          <!-- Needs glossing or substitute lay term-->as well as a good grasp of the structures
+          within which the TEI declarations were organised. Unsurprisingly, many early adopters
+          preferred to use a generic pre-defined subset such as TEI Lite (<ref type="bibl"
+            target="#teilite">TEI 2012</ref>) or to rely on a view of the TEI provided by their own
+          research community, such as the Corpus Encoding Standard (<ref type="bibl" target="#CES"
+            >Ide 2000</ref>), or more recently the <ref type="bibl" target="#epidoc2007">Epidoc
+            Guidelines</ref>. Yet the existence of many such customizations, even those which were
+          not always entirely TEI conformant as the term was understood at the time, clearly
+          vindicated the basic design of the project, which was to construct not a single standard
+          for the encoding of all texts for all time, but rather an architecture within which such
+          standards could be developed in an interoperable or at least interchangeable way, a kind
+          of agreed lexicon from which individual dialects could be derived. The architecture also
+          envisaged a mechanism, known as a TEI customization file, which would enable one to
+          determine how exactly that dialect had been derived, by specifying the TEI tagsets used,
+          and setting parameter entity values to control which parts of their content would be
+          included.</p>
+        <p>The major developments undertaken during the transition from TEI P3 to TEI P5 reflect a
+          desire to maintain this objective. The transition from TEI P3 to TEI P4 was a largely
+          automatic process of re-expressing the same objects in XML, rather than SGML with little
+          of significance being changed. However, the development of TEI P5<note>Technical details
+            of the transition from P3 to P5 are provided in <ref type="bibl" target="#burnard2006"
+              >Burnard 2006</ref> inter alia. </note> was a far more ambitious process. Necessarily,
+          it involved the addition of much new material and the updating of some outdated
+          recommendations such as those concerning character encoding, but it also included changes
+          introduced specifically to simplify and render more accessible the hitherto rather arcane
+          customization mechanism. The overall architecture was simplified by abolishing the
+          distinction amongst types of tagset: in TEI P5, each P3 tagset becomes a simple collection
+          of specifications known as a module, and any combination of modules is feasible. The class
+          mechanism used to group elements together by their semantics, their structural role, or
+          their shared attributes (independently of their module) was made both more pervasive and
+          more apparent; indeed, any customization of TEI P5 beyond simply creating a subset now
+          requires some understanding of the class system. At the same time, simple subsetting was
+          made very much easier, and a simple web interface provided to achieve it.
+          (Roma)<!--This Roma reference has the feeling of a note to self that wasn’t expanded—needs some explanation and a URL.-->.
+          A further change was to ensure that as far as possible a single language (ODD) was to be
+          used for every aspect of the modelling process &#x2014; no more embedded schema language
+          fragments or <foreign>ad hoc</foreign> rules about how differently named objects should be
+          processed.
+          <!-- The significance of this point will only be obvious to those already familiar with the TEI (at a fairly expert level); it either needs to be explained here as an important/interesting aspect of data modeling, or else omitted or at least phrased in a way that makes it yield some import to the novice.--></p>
+      </div>
+      <div xml:id="d4">
+        <head>Explicitness and coercion</head>
+        <p>We suggested initially that there is a long-running tension within all standardisation
+          efforts consequent on an opposition between generality and customization. The more
+          generally applicable a standard, the harder it may be to use productively in a given
+          context; the more tailored it is to a given context, the less useful it is likely to be
+          elsewhere. Yet surely one of the main drivers behind the urge to go digital has always
+          been the ability not just to have one&#x2019;s cake and eat it, but to have many different
+          kinds of cake from the same messy dough. For this to work, there is a need for standards
+          which not limit <!-- missing word -->choice, but rather allow for accurate presentation of
+          the choices made. Such an approach is also essential for a modelling standard which hopes
+          to be effective in a domain where the objects of discourse, the components of the model,
+          are constantly shifting and being remade, or remain the subject of controversy. </p>
+        <p>Consider, for example
+          <!-- It would be very helpful to have an actual code sample here to lend concreteness-->the
+          common requirement to annotate a stretch of text believed to indicate a temporal
+          expression with some normalized representation of it. This has obvious utility if the
+          expression is (say) a date associated with some event, and we wish to perform automatic
+          analyses comparing many such. Simplifying somewhat, a TEI document may choose to normalise
+          dates using the international standard for representation of temporal expressions (ISO
+          3601), or the profile (subset) of that standard recommended by the W3C, or it may choose
+          to use some other calendar system entirely if the material concerned is all derived from
+          some cultural context (ancient China, for example) in which dates are traditionally
+          normalised in some other way. All three options are provided for by different sets of
+          attributes in the TEI (@when, @when-iso, @when-custom etc.), each set being provided by a
+          different attribute class (att.datable.w3c, att.datable.iso,
+          att.datable.custom).<!--This is another place where the reader not familiar with TEI will be baffled. I wonder whether it might be possible to make the core point here (that the TEI accommodates multiple approaches to date representation) without requiring (or appearing to require) that the reader understand what an attribute class is.-->
+          These three attribute classes are subclasses of the class att.datable, as a consequence of
+          which all the elements which are members of that class inherit all three sets of option by
+          default. Of course, since it is most probable that in a given model only one of these sets
+          will be used, that class may be customised to provide the attributes inherited from only
+          one of the three schemes. And while the developer of a generic TEI processor needs to be
+          aware that all three options are feasible, in a given case they can reliably infer which
+          has actually been deployed by processing the ODD associated with the documents in
+          question. </p>
+        <p>Ever since its first publication, the TEI has been criticised for providing too much
+          choice, giving rise to too many different ways of doing more or less the same thing. At
+          the same time (and even occasionally by the same people) it has been criticized for
+          limiting the encoder&#x2019;s freedom to represent all the concepts of their model in just
+          the way they please. Neither criticism is without foundation, of course : despite the best
+          efforts of the original TEI editors Occam&#x2019;s razor has not been applied as
+          vigorously throughout the Guidelines as it might have been, and life is consequently
+          complicated for both the would-be software developer and the conscientious digital author.
+          Darrell Raymond remarked in a very early critique of SGML that <q>descriptive markup
+            rescues authors from the frying pan of typography only to hurl them headlong into the
+            hellfire of ontology.</q> (<ref type="bibl" target="#raymond1996">Raymond 1996</ref>).
+          The availability of tools like ODD cannot entirely remove those ontological anxieties, but
+          at least they facilitate ways of coming to terms with them, of making them explicit.
+          <!-- This feels to me like an important point that the novice reader won’t get (because the genre of “tools like ODD” isn’t transparent). It would be worth expanding/explaining slightly here to make this point more accessible. (What aspect of the likeness to ODD is the key here? How do they make the anxieties explicit? and why is that a good thing?)--></p>
+        <p>At the same time, the very success of particular TEI customizations increases the risk
+          that the TEI may eventually begin to compromise on its design principles, for example by
+          downgrading support for the generic solution in favour of the one that interfaces most
+          neatly with the latest most fashionable tool set. A similar risk of fragmentation needs to
+          be confronted: do we want to see a world in which various different
+            <soCalled>TEI-inspired</soCalled> models for editors of manuscripts, cataloguers,
+          linguists, lexicographers, epigraphers, or users of digital libraries of early print
+          separate themselves from the generic TEI framework and begin to drift apart, re-instating
+          the babel of encoding formats that inspired the creation of the TEI in the first
+          place?</p>
+        <p>A balance must be maintained between <soCalled>do it like this</soCalled> and
+            <soCalled>describe it like this</soCalled> schools of standardisation; while the former
+          matters most to those charged with delivering real results in the short term, the latter
+          is our only hope of preserving the inner logic of our models in the long term. For that
+          reason, the importance of the TEI is not so much that it has formalised and rendered
+          explicit so many parts of the digital landscape, but rather that it has done so in a
+          consistent and expandable way. Its value as a meta-model is essential to its usefulness as
+          a modelling tool.</p>
+        <!-- This final sentence seems to be gesturing back towards the more general topic here (standards and their significance for modeling) but I think it would be very useful to take that gesture a little further. Can you build out this final paragraph (or add another) so as to step back further from the TEI-specific narrative and either show that the insights it offers into the role of standards extend more generally, or (alternatively) that the TEI is atypical in some ways? In the context of the volume as a whole, this chapter ideally needs to carry a more general message; the TEI is a good example to work from in illustrating that message but it would be unfortunate if readers took away the impression that the message was *about* the TEI. One possible way to do this would be to talk briefly about meta-models in relation to standards; are there other meta-models you can allude to? Do they behave in the same way? -->
+        <!-- <p>abstract: Oxford, 1 Mar 2014 .</p>-->
+      </div>
+    </body>
+    <back>
+      <div type="bibliography">
+        <listBibl>
+          <head>Bibliography</head>
+          <bibl xml:id="brunet2000">Etienne Brunet <title level="a">Qui lemmatise dilemmes
+              attise</title> in <title level="j">Lexicometrica</title>
+            <biblScope unit="volume">2</biblScope> (<date>2000</date>) <ptr
+              target="http://lexicometrica.univ-paris3.fr/article/numero2/brunet2000.html"/>
+          </bibl>
+          <bibl xml:id="burnard2006"><author>Lou Burnard</author>
+            <title level="a">New tricks from an old dog: An overview of TEI P5</title> in Lou
+            Burnard, Milena Dobreva, Norbert Fuhr, Anke Lüdeling (eds) <title level="m">Digital
+              Historical Corpora - Architecture, Annotation, and Retrieval, 03.12. -
+              08.12.2006</title> Internationales Begegnungs und Forschungszentrum fuer Informatik
+            (IBFI), Schloss Dagstuhl. <date>2006</date></bibl>
+          <bibl xml:id="burnard2013"><author>Lou Burnard</author>
+            <title level="a">The Evolution of the Text Encoding Initiative: From Research Project to
+              Research Infrastructure</title> in <title level="s">Journal of the Text Encoding
+              Initiative</title>
+            <biblScope>Issue 5</biblScope>
+            <date>2013</date>
+            <ptr target="http://jtei.revues.org/811"/> DOI : 10.4000/jtei.811 </bibl>
+          <bibl xml:id="burnardrahtz2004">
+            <author>Lou Burnard</author> and <author>Sebastian Rahtz</author>  <title level="a"
+              >RelaxNG with Son of ODD</title>
+            <ptr
+              target="http://conferences.idealliance.org/extreme/html/2004/Burnard01/EML2004Burnard01.html"
+            /> in <title level="s">Proceedings of Extreme Markup Languages 2004</title> </bibl>
+          <bibl xml:id="burnardrahtz2013">
+            <author>Lou Burnard</author> and <author>Sebastian Rahtz</author>
+            <title level="a">Reviewing the TEI ODD system</title> in <title level="s">Proceedings of
+              the 2013 ACM symposium on Document engineering</title>
+            <biblScope unit="page"> 193–196 </biblScope>
+            <publisher>ACM New York, NY, USA</publisher>
+            <date>2013</date> ISBN: 978 1 4503 1789 4 doi>10.1145/2494266.2494321 </bibl>
+          <bibl xml:id="busa1980"><author>Roberto S. Busa, SJ</author>
+            <title level="a">The annals of humanities Computing: the index thomasticus</title>,
+              <title level="j">Computers and the Humanities</title>, <biblScope unit="volume"
+              >xiv</biblScope>, <biblScope unit="page"> 83–90</biblScope></bibl>
+          <bibl xml:id="coombs1987"><author>James H. Coombs</author>, <author>Allen H.
+              Renear</author>, and <author> Steven J. DeRose</author>
+            <title level="a">Markup systems and the future of scholarly text processing</title> in
+              <title level="j">Communications of the ACM</title>
+            <date>Nov 1987</date>
+            <biblScope>Vol30, No11, pp 933–47</biblScope></bibl>
+          <bibl xml:id="denley1987"> Peter Denley and Deian Hopkin (eds) <title level="m">History
+              and computing</title>. Manchester: Manchester University Press.
+            <date>1987</date></bibl>
+          <bibl xml:id="denley1989"> Peter Denley, Stefan Fogelvik and Charles Harvey(eds) <title
+              level="m">History and computing II</title>. Manchester: Manchester University Press.
+              <date>1989</date></bibl>
+          <!--bibl xml:id="ennals"><author>Richard Ennals</author></bibl-->
+          <bibl xml:id="gardin1980">
+            <author>Jean-Claude Gardin</author>
+            <title>Archaeological constructs</title>, Cambridge, <date>1980</date>. </bibl>
+          <bibl xml:id="greenstein1991"><editor>Daniel Greenstein</editor>
+            <title level="a">Modelling Historical Data: towards a standard for encoding and
+              exchanging machine-readable texts</title> St Katherinen: Scripta Mercaturae Verlag.
+              <title level="s">Halbgraue Reihe zur Historischen Fachinformatik</title> herausg. von
+            Manfred Thaller, serie A, band 11.</bibl>
+          <bibl xml:id="haugeland1985">Haugeland, John (1985), <title>Artificial Intelligence: The
+              Very Idea</title>, Cambridge, Mass: <publisher>MIT Press</publisher>, ISBN 0262 08153
+            9</bibl>
+          <bibl xml:id="holmes1994"><author>D. I. Holmes</author>, <title level="a">Authorship
+              attribution</title>, <title level="j">Computers and the Humanities</title>, vol. 28,
+            no. 2, pp. 87–106, <date>1994</date>.</bibl>
+          <bibl xml:id="ideveronis1995">
+            <editor>
+              <forename>Nancy</forename>
+              <surname>Ide</surname>
+            </editor>
+            <editor>
+              <forename>Jean</forename>
+              <surname>Véronis</surname>
+            </editor>
+            <title level="m">The Text Encoding Initiative: background and context</title>
+            <pubPlace>Dordrecht</pubPlace>
+            <pubPlace>Boston</pubPlace>
+            <publisher>Kluwer Academic Publisher</publisher>
+            <date>1995</date>
+          </bibl>
+          <bibl xml:id="CES"><author>Nancy Ide</author> and <author>Greg Priest-Dorman</author>
+            <title>Corpus Encoding Standard</title>. Last modified <date>20 March 2000</date>
+            <ptr target="http://www.cs.vassar.edu/CES/CES1.html"/></bibl>
+          <bibl xml:id="epidoc2007">Tom Elliott, Gabriel Bodard, Elli Mylonas, Simona Stoyanova,
+            Charlotte Tupman, Scott Vanderbilt, et al. (2007&#x2013;2014), <title>EpiDoc Guidelines:
+              Ancient documents in TEI XML</title> (Version 8). Available: <ptr
+              target="http://www.stoa.org/epidoc/gl/latest/"/>.</bibl>
+          <bibl xml:id="jones2014"><author>Steven E. Jones</author>
+            <title>The Emergence of the Digital Humanities</title>
+            <publisher>Routledge</publisher>
+            <date>2014</date>.</bibl>
+          <bibl xml:id="juola2006"><author>Patrick Juola</author>, <title level="a">Authorship
+              Attribution</title> in <title level="s">Foundations and Trends in Information
+              Retrieval</title>
+            <biblScope>Vol. 1, No. 3 233–334</biblScope>
+            <date>2006</date> DOI: 10.1561/1500000005</bibl>
+          <bibl xml:id="kent78"><author>William Kent</author>
+            <title>Data and Reality: Basic Assumptions in Data Processing Reconsidered</title>
+            <publisher>North-Holland Publishing</publisher>
+            <date>1978</date></bibl>
+          <bibl xml:id="king1981"><author>Timothy J. King</author>
+            <title level="a">The use of computers for storing records in historical
+            research</title>, <title level="j">Historical Methods</title>
+            <biblScope unit="volume">14</biblScope> (<date>1981</date>), <biblScope unit="page"
+              >59&#x2013;64</biblScope>.</bibl>
+          <bibl xml:id="leon2008"><author>Jacqueline Léon</author>
+            <title level="a">Aux sources de la « Corpus Linguistics » : Firth et la London
+              School</title>
+            <title level="j">Langages</title>
+            <biblScope> 2008/3 (n° 171)</biblScope> DOI : 10.3917/lang.171.0012 (<ptr
+              target="http://www.cairn.info/revue-langages-2008-3-page-12.htm"/>)</bibl>
+          <bibl xml:id="macfarlane1977"><author>Alan Macfarlane</author>
+            <title>Reconstructing Historical Communities</title>. <pubPlace>Cambridge</pubPlace>:
+              <date>1977</date></bibl>
+          <bibl xml:id="mendenhall1887"><author>Thomas C Mendenhall</author>
+            <title level="a">The characteristic curves of composition</title> in <title level="j"
+              >Science &#x2014; supplement</title>. vol IX no 214 pp 237&#x2013;246 <date>11 March
+              1887</date> (online at <ptr target="https://archive.org/details/jstor-1764604"
+            />)</bibl>
+          <bibl xml:id="nichols1987">Jon Nichols et al <title level="a">Logic programming and
+              historical research</title> in <ref type="bibl" target="#denley1987">Denley and
+              Hopkin</ref>
+            <date>1987</date></bibl>
+          <bibl xml:id="prescott2008"><author>Andrew Prescott</author>, <title level="a">The Imaging
+              of Historical Documents</title>. In: Greengrass, M. and Hughes, L. (eds.) <title
+              level="m">The Virtual Representation of the Past</title>. Aldershot: <publisher>
+              Ashgate</publisher>, <date>2008</date>
+            <biblScope unit="page"> 7&#x2013;22</biblScope>. ISBN 9780754672883 </bibl>
+          <bibl xml:id="raymond1996"><author>Darrell Raymond</author>, <author>Frank Tompa</author>
+            and <author>Derick Wood</author>. <title level="a">From Data Representation to Data
+              Model: Meta-Semantic Issues in the Evolution of SGML.</title> in <title level="j"
+              >Computer Standards &amp; Interfaces</title> 18 (<date>1996</date>): <biblScope
+              unit="page">25&#x2013;36</biblScope>.
+            doi:10.1016/0920&#x2013;5489(96)00033&#x2013;5</bibl>
+          <bibl xml:id="sinclair1987"><editor>J M Sinclair</editor>
+            <title>Looking Up: an account of the COBUILD Project in lexical computing</title>.
+              <publisher>Collins ELT</publisher>. <date>1987</date></bibl>
+          <bibl xml:id="sowa1984"><author>John F. Sowa</author>
+            <title>Conceptual structures</title>, Reading (Mass):
+              <publisher>Addison-Wesley</publisher>, <date>1984</date>. </bibl>
+          <bibl xml:id="teip01"><author>Text Encoding Initiative</author>
+            <title>Design Principles for Text Encoding Guidelines</title> Working Paper ED P1.
+              <date>1988, revised 1990</date>. <ptr target="http://www.tei-c.org/Vault/ED/edp01.htm"
+            /></bibl>
+          <bibl xml:id="teilite"><!-- author>Lou Burnard</author> and <author>
+                     C. M. Sperberg-McQueen </author-->
+            <author>Text Encoding Initiative</author>
+            <title>TEI Lite: Encoding for Interchange: an introduction to the TEI</title>
+            <ptr target="http://www.tei-c.org/Guidelines/Customization/Lite/"/></bibl>
+          <bibl xml:id="thaller1987"><author>Manfred Thaller</author>
+            <title>κλειο: A Data Base System for Historical Research</title> Göttingen:
+              <publisher>Max-Planck-Institut für Geschichte</publisher>
+            <date>1987</date></bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

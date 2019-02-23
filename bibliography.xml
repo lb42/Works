@@ -57,9 +57,12 @@
             <bibl><date>1989 </date> [with Malcolm Bain et al] <title>Free Text Retrieval Systems: a
                   review and evaluation </title>. Taylor Graham. </bibl>
          </listBibl>
-   </div>      <listBibl type="articles">
-            <head>Journal Articles etc.</head>
-            <bibl><date>2016</date><title type="main">La TEI pour les corpus linguistiques: un
+         </div><div>     <head>Journal Articles etc.</head>  <listBibl type="articles">
+          
+            <bibl><date>2019</date><title>How modeling standards evolve: the case of the TEI</title>
+            in Flanders, Julia and Fotis Jannidis (eds) <title>The shape of data in digital
+               humanities</title> Routledge. pp 99-116. </bibl>
+            <bibl><date>2016</date> [in press] <title type="main">La TEI pour les corpus linguistiques: un
                   standard qui se renouvelle</title>
                <ref target="Papers/2016-poitiers.xml">Source</ref>
             </bibl>
