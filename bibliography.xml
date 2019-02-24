@@ -70,10 +70,12 @@
                <bibl><date>2019 </date>
                   <title>How modeling standards evolve: the case of the TEI</title> in Flanders,
                   Julia and Fotis Jannidis (eds) <title>The shape of data in digital
-                     humanities</title> Routledge. pp 99-116. </bibl>
+                     humanities</title> Routledge. pp 99-116. <ref
+                     target="metaMuddling/2018-metamuddling.xml">XML source</ref>
+               </bibl>
                <bibl><date>2016</date> [in press] <title type="main">La TEI pour les corpus
                      linguistiques: un standard qui se renouvelle</title>
-                  <ref target="Papers/2016-poitiers.xml">Source</ref>
+                  <ref target="Papers/2016-poitiers.xml">XML source</ref>
                </bibl>
                <bibl><date>2013</date> Rahtz, Sebastian, and Lou Burnard. <title>Reviewing the TEI
                      ODD System</title>. In <title>Proceedings of the 2013 ACM Symposium on Document
@@ -106,6 +108,10 @@
                      numériques</title> Open Edition Press <ptr
                      target="http://books.openedition.org/oep/242"/>
                   <ref target="Papers/2012-LLCtoDH.xml">XML Source</ref></bibl>
+               <bibl><date>2008 </date> with Cummings, James, Matthew Driscoll &amp; Sebastian
+                  Rahtz. <title>Documentation and Training Materials for use with TEI P5
+                     Specification for ENRICH</title> (Deliverable D3.2). ENRICH Project ECP 2006
+                  DILI 510049. <ptr target="https://ora.ox.ac.uk/objects/pubs:387532"/></bibl>
                <bibl n="40" xml:lang="fr">
                   <date>2008 </date>
                   <title>Une introduction au British National Corpus dans son edition XML</title>,
@@ -161,7 +167,7 @@
                <bibl><date>2004 </date> (with Sebastian Rahtz): <title>RelaxNG with Son of
                      ODD</title>. Extreme Markup Languages. <ptr
                      target="http://conferences.idealliance.org/extreme/html/2004/Burnard01/EML2004Burnard01.html"
-                  /></bibl>
+                  />; <ptr target="https://ora.ox.ac.uk/objects/pubs:394056"/></bibl>
                <bibl n="67"><date>2004 </date> Syd Bauman, Alejandro Bia, Lou Burnard, Toma
                   Erjavec, Christine Ruotolo, Susan Schreibman. 2004. <title>Migrating Language
                      Resources from SGML to XML: The Text Encoding Initiative
@@ -183,8 +189,10 @@
                <bibl n="47"><date>2002 </date>
                   <title level="a">The role of the Text Encoding Initiative (TEI) in the authoring
                      and interchange of XML documents</title> in <title>elPub 2002
-                     Proceedings</title> ed J. A. Carvalho et al. VWF Berlin. <ref
-                     target="Papers/2002-elpub-02-22.pdf">PDF preprint</ref></bibl>
+                     Proceedings</title> ed J. A. Carvalho et al. VWF Berlin. <ptr
+                     target="https://ora.ox.ac.uk/objects/pubs:387542"/>; <ref
+                     target="Papers/2002-elpub-02-22.pdf">local copy of PDF</ref>
+               </bibl>
                <bibl n="31"><date>2002 </date>
                   <title>Humanities Computing in Oxford: a retrospective</title>. in Humanities
                   Computing in Oxford [newsletter] , issue 30, June 2002. Oxford: HCU, OUCS. </bibl>
