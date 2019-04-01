@@ -42,7 +42,7 @@ representing real world objects, events and their relationships
 independent of their representations. The subsequent process of
 redefining that model in data processing terms - that is, choosing the
 data structures and processes which will most effectively support the
-entities and relationships dcfined to be meaningful within the
+entities and relationships defined to be meaningful within the
 conceptual model - is one which is well understood (by data processing
 people, at least!) and on which I will not linger. It is the prior
 process of defining the conceptual model that is of major importance.
@@ -159,7 +159,7 @@ characterise <soCalled>fifth generation</soCalled> or expert systems.
 	</p><p>
 For the historian, or anyone else, attempting to process text at all three
 levels by computer this separation and specialisation can lead to serious
-problems. If the word processor seems the obvious toot to use for the
+problems. If the word processor seems the obvious tool to use for the
 preparation and display of text, the information retrieval system seems
 equally essential for the manipulation and exploration of its lexicon. To
 make any sense of the results, a database management system is necessary for
