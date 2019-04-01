@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Electronic Resources for Textual Studies</title>
+                <title type="sub">(presented at Annual Conference of Italian Teachers of
+                    English, University of Parma, 21-24 October 1992)</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>XML version for my archive</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Retagged in XML from old source file which was
+                    emailed to John Morley 1993-10-06_10:32 for publication in 
+                    <bibl><title>Textus : English Studies in Italy</title></bibl></p>
+                
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2019-03-25">Initial conversion; added header</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docTitle>
+                <titlePart>Electronic Resources for Textual Studies</titlePart>
+            </docTitle>
+            <docAuthor> Lou Burnard Oxford University Computing Services </docAuthor>
+        </front><!--
+From:	OXVAXD::LOU          "Lou Burnard"  6-OCT-1993 10:32:13.92
+To:	CBS%EARN-RELAY::SIVAX.CINECA.IT::MORLEY
+CC:	LOU
+Subj:	yertiz
+-->
+<body>
+     <p>I choose the phrase "Textual Studies" advisedly, in an attempt to avoid a dichotomy between
+        "literature" and "linguistics", which seems dear to some hearts here. Language, as expressed
+        in text, is what interests me, whether classed as literature or something else. Linguistic
+        theory in the absence of its expression as text interests me very little. Hence, I proffer
+        for your consideration the phrase "textual studies". This paper describes informally various
+        kinds of textual resource now available to you via computer systems, and some of the things
+        you can do with them.</p>
+    <p>There are two areas I'd like to address: the first is what I've rather grandly called joining
+        the global village -- one of the most interesting things that computers have made possible
+        over the last few years; the second is the rise of electronic text as a real alternative to
+        conventionally printed text, which is my major interest.</p>
+    <p>How does the global electronic village work? The first thing to remember about it is that any
+        computer will do -- almost any computer you are likely to find in your office or buy in the
+        shops is good enough to talk to almost any other computer, almost anywhere else in the
+        world. By "talk to" I mean a variety of activities such as electronic mail, file transfer,
+        bulletin boards and newsgroups, all of which depend on the ability to transfer information
+        in small or large amounts from one place to another without much human intervention, either
+        directly (as when one connects to a remote computer using a terminal emulator) or indirectly
+        (as when one uses a mail or file server).</p>
+    <p>Electronic mail has changed the world. There are research communities which simply could not
+        exist without the ability to send and receive messages more or less instantaneously across
+        the globe; communities in which consensus is established primarily by discussion "on the
+        net". How do you get it? Here are some useful technical buzz words that you can use when you
+        go down to your local computing centre, so that you can demonstrate that you do in fact know
+        what you are talking about. </p>
+    <p>Firstly, it's important to distinguish between commercial and academic networks. Amongst
+        commercial networks (for which one must pay to access) we may mention Transpac, the French
+        network; BIX, a well known network sponsored by Byte Magazine and Compuserve, which is
+        probably the largest such. These all provide effectively the same sort of services, but they
+        charge you money. Academics are, for once, slightly better off in that they have access to
+        networks which are publicly funded, and thus free to individual users. There are three
+        academic networks which you need to distinguish: the Internet, EARN, which is the European
+        end of another network called Bitnet, and Usenet. The only reason you need to distinguish
+        these three is that because they developed historically at different times, they have
+        slightly different ways of doing things. In practice they are all closely interlinked.</p>
+    <p>What do you need in order to connect your computer to a network? Well, it depends exactly
+        what kind of connexion you want, and what kind of network you are trying to reach. A useful
+        word to know in this context is "protocol", which in the computing context has nothing to do
+        with diplomacy, but instead concerns the particular set of conventions by which information
+        is passed from one computer to another. One very important and widely used protocol is
+        called TCP/IP (short for Transfer Control Protocol/Internet Protocol); another even more
+        widely used is called Serial protocol; and there is a third, known as SLIP, which allows a
+        device that can only support serial protocols to behave as if it supported TCP. To support a
+        serial protocol, you need very little in the way of additional hardware or software - - just
+        a small device called a modem which plugs into the back of your computer and allows you to
+        use it as if it was a rather strange kind of telephone. This kind of device is becoming very
+        common, indeed if you buy a portable computer or laptop it is quite likely to come with a
+        modem already installed.</p>
+    <p>To support TCP you need some rather more expensive hardware, in particular a device known as
+        an ethernet card which fits inside your computer. TCP also requires that you have something
+        a little more glamorous than a simple telephone cable between your computer and the network,
+        specifically an ethernet connexion. The reward for all this is that you get much faster and
+        more reliable transfer of data in bulk. The speed at which data is transferred across a
+        computer network is usually measured in Bauds, or bits- per-second. A serial line will
+        rarely transfer data at speeds faster than 9600 Baud; an ethernet connexion typically
+        operates several hundred times faster than this. If your department has a network of
+        computers, possibly joined to a communal printer, the likelihood is that they will be
+        connected by an ethernet.</p>
+    <p>Whatever hardware you are using, you'll also need some software, of course. If you are able
+        to run TCP, you can use a program called Telnet to connect your computer to the network, and
+        another called FTP to transfer files from it. If you only have a serial connexion, you will
+        probably instead use a program called Kermit which will perform either function. Both
+        programs are very widely used in the academic world, partly because they come free of
+        charge. Kermit was developed at Columbia University and is named after a well-known frog.
+        There is a version of it for just about every computer that exists in the world. </p>
+    <p>As well as these simple communications programs, there is a whole host of other more
+        specialised packages you may come across. But the important thing you should always ask when
+        enthusiastic people like myself come and talk to you about computing is "Why bother?" Why
+        should you bother to learn any of this jargon? What will you get out of it? The first thing,
+        I think, is the benefit of connectivity. It makes a lot of difference to know that you can
+        access the computer in your office or department from anywhere you may happen to be in the
+        world, whether all you want to do is check the electronic mail that has been piling up while
+        you travel, or to demonstrate a particularly ingenious piece of software you have installed
+        on it to a skeptical colleague elsewhere. </p>
+    <p>Electronic mail is just like ordinary mail except that no paper is involved. Instead of
+        letters in envelopes coming through your door and piling up on the mat or in the mailbox,
+        electronically held information is transferred directly from one computer to another, where
+        it piles up in your storage area or hard disk. If I want to send the organizer of a
+        conference an apologetic note saying that I won't be able to attend, I prepare the note
+        using my word processor, and then transmit it directly from my computer to hers. In the same
+        way, she can send me a reminder which when it arrives at my computer will wait patiently for
+        me to read it, in a form where I cannot lose it or spill ink on it. Electronic mail used to
+        be available only on large mainframe computers, which posed some problems for people who
+        didn't use computers habitually. But you can now get computer programs (one common example
+        for the Macintosh is called Eudora; another for the PC is called Pegasus) which will run on
+        the personal computer on your desk. These programs will allow you to read and send mail from
+        your nearest mainframe computer system for the cost of a local telephone call, without any
+        need to go there in person, or to disturb any of the serious people in white coats who tend
+        to populate such places.</p>
+    <p>File transfer is another very useful consequence of connectivity. It allows you to transfer
+        files or collections of data between computers of disparate kinds -- between mainframes,
+        between a micro and a mainframe, or between micros -- wherever they happen to be physically
+        placed. For example, if the Macintosh on your desk is connected to the network, you can
+        transfer a copy of one of the electronic texts distributed by the Oxford Text Archive
+        directly to it. One of the problems which any body who dabbles in computing rapidly
+        discovers is that one computer is not quite the same as another. If you have a file on a
+        Macintosh disk and you put it into an IBM compatible, you will find the disk is unreadable
+        -- and vice versa. One advantage of using file transfer is that the differences between
+        machines are dealt with automatically by the software: data flows from one to another
+        "transparently" to use the jargon.</p>
+    <p>There is a particularly interesting flavour of file transfer available on the Internet, known
+        as "Anonymous FTP". Normally, as you probably know, if you want to access a mainframe or
+        workstation then you will need to have an account on it, in just the same way as you need to
+        have a post office box or a street address before you can receive any mail. In the same way,
+        if someone wants to take something from your mail box, they need to have a key to open it.
+        With anonymous FTP you can make your mailbox (or your collection of files) publicly
+        accessible without any such formality. A computer which supports anonymous FTP will have a
+        special area of disk storage to which anyone running the same program will have access,
+        without any need to quote an account or other identification. Anyone on the network can
+        transfer or files to or from this area. There are now many thousands of such sites world
+        wide, and the amount of data flying around the network is in the gigabytes (a gigabyte is a
+        thousand million characters) per day. There are also special purpose software programs which
+        can "cruise the network" looking for information about data sets you might want -- Archie,
+        which will tell you from which sites on the network you can obtain data of a particular
+        kind; or Gopher which presents you with a view of the network arranged as an immense series
+        of hierarchical menus. </p>
+    <p>The range of public services available over the network is immense. For example, there are
+        things called e-mail lists, which provide one wonderful way of extending the academic
+        community. They've been likened to a conversation going on in a rubber room in which
+        everyone can hear everyone else and everybody can speak simultaneously. Everything which is
+        mailed to an e-mail list is redistributed automatically to every subscriber, more or less
+        instantaneously. There are hundreds if not thousands of lists on every subject you can think
+        of, and with their own curious etiquette and rules of discourse. Perhaps of particular
+        interest to this audience are the Humanist list, which runs on a computer at Brown
+        University in the USA; and the Linguist list, which is virtually based (as they say) at
+        Texas A and M, though for a while it was simultaneously in Australia. There are lists on
+        Shakespeare, on Anglo-Saxon or 19th century studies, on Womens Writing, and on just about
+        every other subject on which academics like to discuss. On such lists you may find anything
+        ranging from research students asking for guidance with a particularly tricky assignment to
+        elegant scholarly essays and reminiscence. Violent argument and internecine warfare are also
+        not unknown, though what is commonly known as "flaming" is generally deprecated. It's a very
+        unusual kind of discourse -- and serious books are already being written about "computer
+        mediated communication"</p>
+    <p>To join such a list, you need to know its address. You then send an ordinary mail message to
+        the computer program which runs the list. For example, to join Linguist, which is at the
+        address tauvm.thing.edu, you will send a message to listserv@tamvm.earn. The content of your
+        message is simply "Subscribe Linguist" and your name -- the computer program knows your
+        address because it knows where your mail has come from. From then on, you receive
+        automatically any mail which is sent to the list. To send mail to the list yourself, you
+        send it to the list itself (rather than the Listserv program), i.e., in this case, to
+        Linguist@tamvm. Your mail will then be automatically distributed to all subscribers. Similar
+        services are provided for computers running the Unix operating system via a system called
+        Usenet, in which messages are organized into a complex topic-oriented hierarchy of
+        "newsgroups" with an even more eclectic range of interests. </p>
+    <p>A large number of centres provide traditional bibliographic style services, such as library
+        catalogues, over the network. This means that you can consult library catalogues at hundreds
+        of libraries around the world -- not just in America, but all across Europe, and in Japan or
+        Australia without needing to spend money on plane fares. In some cases, you may have to pay
+        for access to the information, notably if you want to consult expensive online databases; in
+        others libraries will make the information available only to registered users. For example,
+        in the UK, the University of Bath is nationally funded to provide access to Science Citation
+        Abstracts and a number of other expensive databases. No charge for these is made to UK
+        academics, but use must be registered. </p>
+    <p>You will also find directory services on the network. These include both the traditional kind
+        of directory service, telling you for example who is working at a given institution, or what
+        its course pre-requisites are, and also information about the network itself: which sites
+        offer which services. If there is a one major unresolved problem on the network, it is that
+        of simply knowing where to look. </p>
+    <p>And there are archive services. These are computer systems which hold not bibliographic or
+        service information, but actual data sets -- files of software or text -- which are
+        available free of charge for transfer to your computer, using the anonymous file transfer
+        protocol discussed previously. This is particularly true in the Unix world -- if you run a
+        Unix system, you will find that almost all the software you need to run it is available
+        absolutely free of charge over the network. </p>
+    <p> I now turn to my second major theme: the availability of electronic texts. In the 1970s
+        getting large amounts of text into a computer was a major operation, involving paper tape or
+        punch cards. It was very slow and labour intensive, and consequently the number of people
+        who wanted to do such work was fairly small -- perhaps a few hundred researchers. But the
+        whole emphasis of the field began to change during the eighties with the development of some
+        key new technologies.</p>
+    <p>Three important abbreviations characterize the changes which came over the computing world in
+        the eighties: OCR, PC and DTP. OCR or optical character recognition is a means of
+        transferring data directly into the computer without any need to type it out; PC is of
+        course short for personal computer (as well as politically correct); DTP is short for
+        desktop publishing. By contrast with the centralized world of the mainframe, these three
+        technologies are all inimical to the idea of sharing resources. The whole notion of the
+        "personal" computer foregrounds the personal and private at the expense of the shared and
+        communal -- this was the "me too" decade in computing as well as in economics. In the same
+        way, DTP was all about producing your own book without having anything to do with people who
+        know how to produce books, like publishers or book designers. And OCR , with its emphasis on
+        the appearance of a text rather than its content, is also rather hostile to information-free
+        exchange of data. </p>
+    <p>In the nineties rather different attitudes are beginning to emerge. The stress now is on
+        networking, on the sharing of resources, on producing electronic texts which can be used for
+        more than one purpose and which can be linked together in many different ways. Another major
+        technological change has been the establishment of new storage media such as CD-ROM: the
+        major significance of this, in my view, is not just the increased amount of data which it is
+        now possible to store and process, but the fact that this increase in volume makes it
+        possible to store non-textual data such as sound and image in the same format as textual
+        data, in a new digital demotic.</p>
+    <p>The great virtue of an electronic text (as opposed to a printed one) is not just that you can
+        make infinitely many copies of it without damaging the original. It is also infinitely
+        plastic and re-usable in many different ways for many different purposes. If electronic
+        texts are so useful, it's not surprising that publishers begin to think they may be
+        commodities or products which can be sold. We can identify a number of different attitudes
+        to this question of what exactly an electronic text is and whether it can be "productized". </p>
+    <p>At one extreme, we may cite the English publishing company Chadwyck-Healey, which is
+        producing on a single, very expensive CD-ROM the complete works of every poet attested by
+        the Cambridge Bibliography of English Literature (excluding hymn writers and a few other
+        undesirables). Their licensing policy -- which allows unlimited copying within an
+        institution -- goes some way to mitigate the astoundingly high price (several thousand
+        pounds) of this work, while its sheer scale goes some way to mitigate the qualms that
+        several scholars have expressed about the difficulty of establishing any adequate editorial
+        policy for such disparate materials. </p>
+    <p>It's worth pausing to think about the usefulness of such resources. Is it not the case that
+        what makes the language of Keats or Shelley special and worthy of study is the difference
+        between their use of language and that of their contemporaries? Resources like the English
+        Poetry database make it possible for students and researchers to experience that difference
+        in an informed way, by investigating the context in which a literary work was produced,
+        rather than relying on received wisdom or intuitions about literary language. If in so doing
+        they also help us to deconstruct the canon and sensitize us to the intertext, so much the
+        better! A different approach to the production of electronic texts is manifested by the
+        individual research project, of which we may cite the Thesaurus Linguae Graecae at the
+        University of Irvine in California as one notable example. Here a well-defined body of
+        material, of interest largely to scholars, has been collected together. To republish all
+        surviving classical Greek literature in any form other than electronic would have been
+        unthinkable; once it has been done, a whole host of applications becomes feasible. Other
+        examples are not hard to find: the Thesaurus Musicarum Latinarum, which is collecting
+        together the complete body of medieval European writing on the theory and practice of music,
+        for example; the corpus of Old English prepared by the scholars working on the new
+        Dictionary of that language at the University of Toronto. Yet others have a different
+        agenda: the Women Writers Project at Brown University, which is collecting together a huge
+        body of material written by women in English between the years 1500 and 1830. These academic
+        projects, for the most part funded from the public purse all take slightly differing
+        positions on whether or not their texts are to be commercially distributed, but share a
+        common desire to achieve coverage of a defined sublanguage.</p>
+    <p>There is a tradition of building large corpora for computer analysis in the field of
+        linguistics, which may be traced back to the early sixties with the one million word corpus
+        of American English made at Brown University, and which has long flourished in the UK,
+        notably at the University of Birmingham. The most ambitious such project to date is probably
+        the British National Corpus, funded by the British Department of Trade and Industry under
+        the Joint Framework for Information Technology: a government programme set up to encourage
+        academic and industrial participation. The industrial partners here are major dictionary
+        publishing firms (OUP, Longman and Chambers), while the academic partners are the
+        Universities of Oxford and Lancaster. The project is creating a one hundred million word
+        corpus of all the varieties of English spoken and written in the British Isles. Up to ten
+        percent of its contents will be transcribed speech by ordinary people as well as public
+        figures, in formal and informal contexts -- it will be the largest collection of spoken
+        language ever assembled. It will also be one of the largest collections of English ever made
+        in which each word is tagged with its part of speech. This corpus, as a pre-competitive
+        venture, will be freely distributed for academic research purposes when it is complete, in
+        1994.</p>
+    <p>Where the BNC is a planned and designed corpus, other equally large or larger bodies of text
+        are also being made available for linguistic research. The ACL recently sponsored a "Data
+        Collection Initiative" in response to a growing recognition of the need for large scale
+        linguistic resources within the computational linguistics community. The DCI has already
+        distributed one CD-ROM containing a number of large texts (Collins English Dictionary, a
+        corpora derived from the Wall Street Journal, the Canadian Hansard and US Government
+        Reports). A European initiative is currently working on the production of a similar
+        collection of material in European languages. </p>
+    <p>Such large collections and projects can easily manage their own electronic distribution. What
+        however of the individual or the short-term project wishing to ensure the continued
+        availability of the electronic resources they may create? The Oxford Text Archive is a
+        repository for electronic texts of all kinds maintained by Oxford University. Since 1976 it
+        has built up a collection of over a thousand miscellaneous texts in dozens of different
+        languages and hundreds of forms. It does not produce texts, but archives texts produced by
+        others elsewhere, making them available to other researchers on a non-profit basis. Like any
+        other archive its primary role is to preserve the state of the material deposited with it --
+        although in the case of electronic texts, the original physical format need not be
+        preserved. It does not impose any standard or quality control on the material submitted.
+        Consequently, the level of accuracy of its texts varies between the excellent and the
+        appalling, with most intermediate stages well populated. Recently however, with the
+        emergence of a consensus about encoding formats based on the proposals of the Text Encoding
+        Initiative, the Archive has begun to convert some of its holdings to a standard form, while
+        still of course preserving the originals. Because it is an entirely non-commercial venture,
+        its materials cannot be distributed commercially. Recently the Archive has begun to make
+        texts freely available over the network by anonymous file transfer: for information about
+        this and its other services, send electronic mail to archive@ox.ac.uk </p>
+    <p>Commercially available electronic texts are also now beginning to appear, in a market place
+        which is beginning to resemble that for ordinary books. At the scholarly end, we find Oxford
+        University Press, which sells the Oxford English Dictionary on CD-ROM and also a range of
+        classic English texts on floppy disks -- the complete works of Austen, Coleridge, Chaucer,
+        and Milton are already available. At the less scholarly end, we find high- volume low price
+        publications like Voyagers Expanded Books -- a series containing titles like Douglas Adams'
+        Hitchikers Guide or Michael Crichton's Jurassic Park in a form which you can read on your
+        Macintosh. </p>
+    <p>Does such activity prefigure the death of the printed book? Probably not, but it does seem
+        likely that there are some kinds of book which will no longer appear. It's hard to think of
+        a major reference publication which would not make more sense as an electronic publication,
+        from purely economic considerations, never mind the obvious increased utility of a reference
+        work that can be scanned and searched in ways impossible with paper. It also appears likely
+        that learned periodicals, particularly in the more obscure areas, will increasingly be
+        maintained in electronic form, with subscribers able to print out relevant portions on
+        demand. This is already talking place in many scientific papers - - most biologists or
+        physicists will tell you that "if it's on paper it's out of date" -- and there's no reason
+        to believe this will not happen in the Humanities as well.</p>
+    <p>We are also seeing the emergence of two new kinds of publication: "half gray" publication,
+        and multimedia publication. Bibliographers refer to transient or unofficially published
+        papers as "gray publication": the term "half gray" has been used to describe analogous
+        bodies of primary source data distributed by the kinds of research networks I've described
+        above. Suppose, for example, that you have transcribed into a computer the property holdings
+        of every medieval monastery in Northern Bavaria. The chances of such a collection being
+        published as a whole in book form are virtually non-existent, although you might manage to
+        extract several eminently publishable papers and books as a result of analysing it. Yet that
+        original data is still a very important resource for historians, for sociolinguists, even
+        for literary scholars and others whose interests do not impinge on yours at all. By making
+        that data set available to other researchers, either yourself or by means of an intermediary
+        such as the Oxford Text Archive, you become a half gray publisher.</p>
+    <p>The second kind of new publication I don't have time to discuss here, though others at this
+        conference will be presenting some examples: I'm referring to multimedia publication, in
+        which sound, images and text are combined together seamlessly -- a development which is only
+        possible in electronic form.</p>
+    <p>As I've already indicated, you can use electronic texts to substantiate your subjective
+        impressions about the nature of the language. In teaching, they provide an enormous wealth
+        of information about usage: there is nothing as good as an example (except two examples).
+        And electronic texts are also invaluable as the raw material of other projects, in the
+        creation of multimedia teaching tools with which students can interact, or simply as a basis
+        for cheap publication. For all of this to be possible, of course, there is a need for
+        standardization -- but that is another lecture.</p>
+    <p>For further information on some of the topics I've discussed here, and on many others, and on
+        the field in general, you should simply go down to your local computing centre and insist on
+        your right to join the global village! You may also find helpful a reference work published
+        by OUP: The Humanities Computing Yearbook, edited by Lancashire and McCarty. </p>
+</body></text></TEI>
