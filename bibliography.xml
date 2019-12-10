@@ -509,7 +509,7 @@
                             source</ref></bibl>
                     <bibl><date>1979 </date>
                         <title>SNOBOL: The language for literary computing</title>
-                        <title>ALLC Journal</title>, 6 (1978), 7 (1979) </bibl>
+                        <title>ALLC Journal</title>, 6 (1978), 7 (1979) <ref target="Papers/Scans/1979-Snobol"/></bibl>
                     <bibl><date>1975 </date>
                         <title>Oxeye: a text-processing package for the 1906A</title> OUCS User
                         Guide. Oxford: University Computing Services. </bibl>
@@ -525,7 +525,7 @@
                     <bibl n="38"><date>1997 </date>
                         <title>Review: Research in Humanities Computing 4 and
                             5</title><title>Computers and Texts</title>no 14,<date>April 1997 </date>
-                        <ref target="Reviews/1997-hockeyIde">XML source</ref></bibl>
+                        <ref target="Reviews/1997-hockeyIde.xml">XML source</ref></bibl>
                     <bibl n="09"><date>1991 </date> [Review of] Richard Ennals and Jean-Claude
                         Gardin , eds. <title>Interpretation in the humanities: perspectives from
                             artificial intelligence</title>.<title>Journal of
@@ -662,7 +662,7 @@
                         (eds). Dept of Modern Languages, Univ of Aston, Birmingham. UK, 1979, pp 95
                         -105. See main entry CR 20. 11 (Nov 1979), 35.349. in <title>Computing
                             Reviews</title>March 1980, p.107 <ref
-                            target="Reviews/1980-farringdon.xml"/></bibl>
+                            target="Reviews/1980-farringdon.xml"/>; <ref target="Reviews/Scans/ComputingReviews-1980-03.png">Page image</ref></bibl>
                     <bibl n="58"><date>1977 </date>
                         <title><bibl><author>J Gimpel</author><title>Algorithms in
                                 SNOBOL4</title>(Wiley, 1976)</bibl></title><title level="j">ALLC
