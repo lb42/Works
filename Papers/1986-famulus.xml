@@ -13,7 +13,31 @@
 <p>Converted from an email sent <date>28-APR-1986 15:00:25</date> from
 <rs>LOU@UK.AC.OX.VAX1</rs> to <rs>s200@UK.AC.UEA.CPC.VAX</rs> with subject line
 <code>allc conference paper</code></p>
-<p>Published in <bibl>University Computing 09/1987; 9(3):148-152. </bibl></p>
+<p>Published in <bibl>University Computing 09/1987; 9(3):148-152. </bibl>. A note in a different version of the text shows that the document was considered "too parochial" for LLC. :
+
+<!--
+Dr R.F.Smith
+Computer Centre
+University of Durham
+Science Laboratories
+South Road
+Durham DH1 3LE
+
+
+12 February 1987
+
+Dear Dr Smith,
+
+	Your remark in the Winter 1987 edition of "University Computing" that the arrival of the ALLC's new journal might lead to "some diminution in the number of papers which this organ can expect from members of ALLC" caught my eye recently. It occurred to me that you might be interested in publishing the enclosed paper which is based on a presentation I gave at the ALLC Conference in Norwich last April. With its usual aplomb, the ALLC has taken ten months to reach the decision that the paper was too parochial for inclusion in the published proceedings of that conference, and I am therefore anxious to place it somewhere, if only to acknowledge the work my colleagues on the IUSC Famulus Working Party have contributed. Since the paper is largely concerned with IUSC business, University Computing seems the obvious place to publish it. I can only apologise for the delay in submitting it for your consideration.
+
+	I can of course send the text over JANET if you wish it, and would be happy to make any editorial changes you think necessary. For speed, my electronic mail address is LOU@OX.VAX1
+
+	With best wishes,
+
+	Lou Burnard
+-->
+
+</p>
 </sourceDesc>
 </fileDesc>
 </teiHeader>

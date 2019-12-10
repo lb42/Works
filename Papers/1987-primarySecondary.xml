@@ -226,72 +226,13 @@ name to some neutral set of geographical co-ordinates. This is clearly
 <graphic url="media/relational-1.png"/>
 <head>Representing nominal linkage by a relational join</head>
 </figure>
-<!--
-<eg>
-
-
-
-                              N E
-PERSON                                                           ITNUM  NY
-PNUM     PNAME             BORN
-_________________
-
-	'I	ALFRED THE GREAT	800		N2	A
-		ALFRED TENNYSON	1841		N3	Alfi.
-	P3	ALFRED NOYES	lB92
-
-
-
-	ASSOCIATION
-
-               PNUM    NNUM     ASSTYPE
-               ________________________
-
-	Pi	Nl	PRIMRY
-	Pi	N2	VMIANT
-	P2	NI	FMILIAR
-
-	p 3	NJ	EMILIAR
-	P3	NJ	JOCOSE
-
--->
 
 <figure>
 <head>Relational implementation of a simple hierarchy of terms</head>
 <graphic url="media/relational-2.png"/>
 </figure>
 
-<!--
-                    PLACE
-                   Europe
-                    France            Germany
 
-          London          Blanchester
-
-
-     Wappi,,g
-
-
-
-
-     PLACE                                         HIERARCHY
-
-     ID FORM                                       PARENT CIIILD
-    ________________________________
- 
-	NI	El,,,,,	H2
-	t42	E", @ ""@	t3
-
-	NJ	F,,,.@@	H4
-
-	N4	@,.""y	NS
-	N5		t;6
-
-	N,		N7
-	HI
-	  </eg>
-
--->
 
 impractical for historical data, where often all this is known of a
 place is that it is <soCalled>near</soCalled> or <soCalled>a part of</soCalled> some other place. The text

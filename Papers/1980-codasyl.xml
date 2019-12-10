@@ -233,16 +233,16 @@
                equally notorious problems as the identification of possible relations between people
                   (<ref target="#note6" type="bibl">Wrigley, 1973</ref>) and the disambiguation of
                variant spellings and aliases. To assist him in the latter task, an index of names is
-               maintained (at )resent outside the database, though it will be integrated at a later
+               maintained (at present outside the database, though it will be integrated at a later
                stage), which is updated by the first of the two programs used to load the database.
-               Essentially a data validation program written in SNOBOL4, this checks the iltitiched
+               Essentially a data validation program written in SNOBOL4, this checks the punched
                data for a wide range of errors and inconsistencies and reformats those parts of it
                which can currently be loaded into the database. This task is performed by the second
                database load program, which is written in Fortran, using the Codasyl-defined data
                manipulation language.</p>
             <p>Retrieval of information is carried out by an interactive query processor provided by
                ICL for IDMSX databases, called DATA DISPLAY. This facility allows the non-programmer
-               (who must, however, have a good understanding of Godasyl structures) to retrieve and
+               (who must, however, have a good understanding of Codasyl structures) to retrieve and
                display at a terminal individual records or parts of them, using the navigation paths
                defined in the schema. All records on one path may be displayed, or a selection of
                them defined by simple logical operations on the contents of records. The simple and

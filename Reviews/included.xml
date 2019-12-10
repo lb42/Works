@@ -1,0 +1,61 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Collected Reviews of Slasher Burnard</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Egotistical Solipsisms PLC</publisher>
+       </publicationStmt>
+      <sourceDesc>
+        <p>Various files, and original newsprint, as documented in the bibliography.</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+       <list>
+         <item><date>16 feb 2019</date>review for consistency before checkin</item>        
+        <item><date>20 mar 2018</date>pretty much complete</item>
+        <item><date>4 Apr 98</date>started to compile, added header</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <xi:include href="1977-gimpel.xml"/>
+      <xi:include href="1980-boyle.xml"/>
+      <xi:include href="1980-cochrane.xml"/>
+      <xi:include href="1980-conway.xml"/>
+      <xi:include href="1980-emerson.xml"/>
+      <xi:include href="1980-farringdon.xml"/>
+      <xi:include href="1980-hockey.xml"/>
+      <xi:include href="1980-tucker.xml"/>
+      <xi:include href="1980-urquhart.xml"/>
+      <xi:include href="1981-malachi.xml"/>
+      <xi:include href="1981-schafer.xml"/>
+      <xi:include href="1983-burnham.xml"/>
+      <xi:include href="1983-johansson.xml"/>
+      <xi:include href="1984-large.xml"/>
+      <xi:include href="1985-turkle.xml"/>
+      <xi:include href="1986-avison.xml"/>
+      <xi:include href="1986-campbell.xml"/>
+      <xi:include href="1986-johnson.xml"/>
+      <xi:include href="1986-pinsky.xml"/>
+      <xi:include href="1986-stein.xml"/>
+      <xi:include href="1987-grundy.xml"/><!-- OCR errors-->
+      <xi:include href="1988-date.xml"/>
+      <xi:include href="1988-friedmann.xml"/>
+      <xi:include href="1988-naylor.xml"/>
+      <xi:include href="1988-rudall.xml"/>
+      <xi:include href="1988-simon.xml"/>
+      <xi:include href="1989-doheny.xml"/>
+      <xi:include href="1989-ize.xml"/>
+      <xi:include href="1991-ennals.xml"/>
+      <xi:include href="1991-gelernter.xml"/>
+      <xi:include href="1991-lancs.xml"/>
+      <xi:include href="1991-tzonis.xml"/>
+      <xi:include href="1997-hockeyIde.xml"/>
+      <xi:include href="samways.xml"/> <!-- unpublished? -->
+      <xi:include href="simmons.xml"/> <!-- Univ Computing. Date? -->
+    </body>
+  </text>
+</TEI>
