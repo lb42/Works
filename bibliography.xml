@@ -521,12 +521,11 @@
                     <bibl><date>Unknown </date>
                         <title>[Review of Simmons, R.F. Computations from the English]</title>
                         <title>University Computing</title>7, p. 154 <idno>0265-4385</idno>
-                        <ref target="Reviews/collected.xml#simmons"/></bibl>
+                        </bibl>
                     <bibl n="38"><date>1997 </date>
                         <title>Review: Research in Humanities Computing 4 and
                             5</title><title>Computers and Texts</title>no 14,<date>April 1997 </date>
-                        <ref target="http://users">XML source</ref>
-                        <ref target="Reviews/collected.xml#hockeyIde">XML source</ref></bibl>
+                          <ref target="Reviews/collected.xml#hockeyIde">XML source</ref></bibl>
                     <bibl n="09"><date>1991 </date> [Review of] Richard Ennals and Jean-Claude
                         Gardin , eds. <title>Interpretation in the humanities: perspectives from
                             artificial intelligence</title>.<title>Journal of
