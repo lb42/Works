@@ -427,7 +427,8 @@
                     <bibl n="69"><date>1990 </date>
                         <title>Publishing Presenting and Archiving the Results of Research</title>,
                             <title>Information Technology and the Research Process</title> eds M.
-                        Feeney and K. Merry. British Library Research. Bowker-Saur. 0 86291 476 0 </bibl>
+                        Feeney and K. Merry. British Library Research. Bowker-Saur. 0 86291 476 0 
+                    <ref target="Papers/1989-publishing.xml">XML source</ref></bibl>
                     <bibl n="16"><date>1989 </date>
                         <title>Relational Theory, SQL, and Historical Practice</title> in
                             <title>History and Computing II</title> eds. P. Denley, S. Fogelvik and
@@ -509,7 +510,8 @@
                             source</ref></bibl>
                     <bibl><date>1979 </date>
                         <title>SNOBOL: The language for literary computing</title>
-                        <title>ALLC Journal</title>, 6 (1978), 7 (1979) <ref target="Papers/Scans/1979-Snobol"/></bibl>
+                        <title>ALLC Journal</title>, 6 (1978), 7 (1979) <ref
+                            target="Papers/Scans/1979-Snobol"/></bibl>
                     <bibl><date>1975 </date>
                         <title>Oxeye: a text-processing package for the 1906A</title> OUCS User
                         Guide. Oxford: University Computing Services. </bibl>
@@ -521,7 +523,7 @@
                     <bibl><date>Unknown </date>
                         <title>[Review of Simmons, R.F. Computations from the English]</title>
                         <title>University Computing</title>7, p. 154 <idno>0265-4385</idno>
-                        </bibl>
+                    </bibl>
                     <bibl n="38"><date>1997 </date>
                         <title>Review: Research in Humanities Computing 4 and
                             5</title><title>Computers and Texts</title>no 14,<date>April 1997 </date>
@@ -549,7 +551,7 @@
                         <title>[Review of C.J. Date Relational database: selected writings, C.J.
                             Date A Guide to INGRES C.J. Date A Guide the SQL Standard
                             ]</title><title>Computers and the Humanities</title> 22 pp 161-3 <ref
-                                target="Reviews/1988-date.xml">XML source</ref></bibl>
+                            target="Reviews/1988-date.xml">XML source</ref></bibl>
                     <bibl n="08"><date>1988 </date>
                         <title>[Review of Friedmann, Daniel P. and Matthias Felleisen The Little
                             Lisper]</title><title>University Computing</title>10, p. 100 <idno
@@ -567,8 +569,8 @@
                         <ref target="Reviews/1988-naylor.xml">XML source</ref></bibl>
                     <bibl n="11"><date>1988 </date><title>[Review of B.H. Rudall and T.N. Corns
                             Computers and literature: a practical guide]</title><title>Computers and
-                            the Humanities</title>22 pp 163-4 <ref
-                                target="Reviews/1988-rudall.xml">XML source</ref></bibl>
+                            the Humanities</title>22 pp 163-4 <ref target="Reviews/1988-rudall.xml"
+                            >XML source</ref></bibl>
                     <bibl><date>1987 </date><title>[Review of Grundy, A.F. Proceedings of the fourth
                             British National Conference on Databases]</title><title>University
                             Computing</title>9, p. 33 <idno>0265-4385</idno>
@@ -582,7 +584,7 @@
                             Proceedings of the 1985 International Conference on English Language and
                             Literature Applications of SNOBOL and SPITBOL]</title><title>Literary
                             and Linguistic Computing</title>I.1 p. 52 <ref
-                                target="Reviews/1986-johnson.xml">XML source</ref>
+                            target="Reviews/1986-johnson.xml">XML source</ref>
                     </bibl>
                     <bibl n="54"><date>1986 </date><title>Byt and myth [review of Robert Pinsky
                             Mindwheel ]</title><title>TLS,</title>7 Feb 1986, p 150 <ref
@@ -612,8 +614,7 @@
                     <bibl n="57"><date>1983 </date>
                         <title>Into the dreaded database [review of David Burnham Rise of the
                             computer state</title>]<title>TLS, </title><date>25 Nov 1983 </date>p
-                        1328 <ref target="Reviews/1983-burnham.xml">XML
-                        source</ref></bibl>
+                        1328 <ref target="Reviews/1983-burnham.xml">XML source</ref></bibl>
                     <bibl><date>1981 </date><title>[review of Jürgen Schäfer Documentation in the
                             OED: Shakespeare and Nashe as test cases (Oxford, Clarendon Pr,
                             1980)]</title><title>ALLC Bulletin</title>IX 2 p 30 <ref
@@ -630,8 +631,8 @@
                             target="Reviews/1980-conway.xml">XML source</ref></bibl>
                     <bibl n="74"><date>1980 </date><title> [review of Allen B Tucker Jr Text
                             processing: algorithms, languages and applications]</title><title>ALLC
-                            Bulletin</title>viii 2 206-8<ref target="Reviews/1980-tucker.xml"
-                            >XML source</ref></bibl>
+                            Bulletin</title>viii 2 206-8<ref target="Reviews/1980-tucker.xml">XML
+                            source</ref></bibl>
                     <bibl n="49"><date>1980 </date>
                         <title>At home with the hardware: [review of Robert L Oakman Computer
                             methods for literary research and Susan Hockey A guide to computer
@@ -662,7 +663,9 @@
                         (eds). Dept of Modern Languages, Univ of Aston, Birmingham. UK, 1979, pp 95
                         -105. See main entry CR 20. 11 (Nov 1979), 35.349. in <title>Computing
                             Reviews</title>March 1980, p.107 <ref
-                            target="Reviews/1980-farringdon.xml"/>; <ref target="Reviews/Scans/ComputingReviews-1980-03.png">Page image</ref></bibl>
+                            target="Reviews/1980-farringdon.xml"/>; <ref
+                            target="Reviews/Scans/ComputingReviews-1980-03.png">Page
+                        image</ref></bibl>
                     <bibl n="58"><date>1977 </date>
                         <title><bibl><author>J Gimpel</author><title>Algorithms in
                                 SNOBOL4</title>(Wiley, 1976)</bibl></title><title level="j">ALLC

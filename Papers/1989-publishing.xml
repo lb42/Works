@@ -1,0 +1,600 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main"> Publishing Presenting and Archiving the Results of
+                    Research</title>
+                <title type="sub">Keynote address</title>
+                <author>
+                    <name>
+                        <forename>Lou</forename>
+                        <surname>Burnard</surname>
+                    </name>
+                    <affiliation>Oxford University Computing Service </affiliation>
+                    <email>lou.burnard@retired.ox.ac.uk</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <p>XML version for my personal archive</p>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j">Lou Burnard Personal Archive</title>
+                <biblScope unit="issue" n="69">Archival copy</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+                <p>OCR scanned and tagged from the published edition: <bibl n="69"><date>1990 </date>
+                        <title>Information Technology and the Research Process</title> (Proceedings
+                        of a conference held at Cranfield Institute of Technology, 18-21 July 1989)
+                        eds M. Feeney and K. Merry. British Library Research. Bowker-Saur. 0 86291
+                        476 0 </bibl>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">en</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change><date notAfter="2020-02-09"/>Initial conversion; added header</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="225"/>
+            <head>The research ‘process’</head>
+            <p>The title of this conference foregrounds research as a ‘process’, analogous to
+                industrial or physical processes. Information, according to such a model, is a
+                product; collections of data or other observations are raw materials. Combined with
+                the intuition and reasoning of the researcher, (intellectual capital, as it were),
+                raw materials are processed to form publications. These products in their turn
+                ultimately become the raw material for another cycle of the research process. At
+                each cycle, the metaphor implies, some additional increment of knowledge is
+                extracted, in rather the same way as a still can be made to produce ever more potent
+                spirits from the same undistinguished mash. This is clearly rather a convenient
+                model for the administrators of research institutions, particularly at grant renewal
+                time, and notan entirely implausible one. It depicts research as a continuing
+                struggle against entropy which, by stressing the extraction of order from natural
+                chaos, harks back to Renaissance concepts of the role of human wisdom in the
+                universe, while at the same time by its cyclical nature denying closure. This is
+                fortunate: at the tur of the nineteenth century it was commonly believed amongst
+                physicists that all the major problems of physics had been solved. No researcher in
+                any field would be so pessimistic today, one hopes, although the awful example of
+                the Lighthill Report still rankles in some quarters.</p>
+            <pb n="226"/>
+            <p> A hidden assumption in the ‘research process’ metaphor is that all research areas
+                are, like coal pits, either productive or non-productive: yet we know that what is
+                unproductive in one historical or social context may not be in another, Babbage’s
+                research into logical engineering produced no satisfactory results until the
+                emergence of an enabling technology a century or more later. Another hidden
+                assumption is that all human knowledge advances incrementally: that, like Newton, we
+                see further by standing on the shoulders of the giants who preceded us. It is
+                perhaps commonplace to counter-observe that in the humanities at least we tend to
+                see further by demolishing the giants who preceded us. </p>
+            <p> Perhaps we might more profitably regard research simply as a form of cultural
+                activity, as an art form. As Kenneth Burke remarks somewhere, a culture is the way
+                that a society describes itself: and so an investigation of ‘research culture’
+                should be regarded as a description primarily of the research community, which is
+                where my discussion of the likely impact of Information Technology (IT) begins. I
+                then consider the ways in which researchers communicate with the outside world and
+                with each other, both informally and by formal publication. I suggest that some
+                aspects of IT as currently practised may have a dangerous tendency to lead scholars
+                and researchers away from genuinely productive paths, while highlighting some
+                encouraging trends in the computing industry which point the way back. I conclude
+                with a discussion of the demands which future researchers will make of IT as a means
+                of creating and managing the raw material of scholarship and some speculations as to
+                how these might be met. </p>
+            <div>
+                <head>Communication and community </head>
+                <p> I begin by considering academic communication, and academic community. The
+                    (dwindling) existence of centralized funding is only in part symptom and cause
+                    of the belief that there exists an entity called ‘the academic community’ which
+                    is worldwide, trans-national and somehow authenticated by a mediaeval tradition
+                    of wandering scholarship. Like any other, this community is defined by a set of
+                    common assumptions, a mode of discourse and a way of distinguishing itself from
+                    the rest of the universe. </p>
+                <p> Taking the last of these first, it is of course true that the academic community
+                    typically fragments itself into associations and initiatives, working groups and
+                    committees, between which disputation can become <pb n="227"/> internecine, but
+                    the International Association for This and the American Society for the Other
+                    have more in common than either does with a trades union or a political party.
+                    Research culture substitutes ideological jingoism for the more common national
+                    or racial varieties; what is reified is not sex or race but theoretical stance -
+                    the field of linguistics being one prime instance of this. Paradoxically, one
+                    effect of the adoption of IT by the research community has been to undermine
+                    even those theological disputes, as scholars from disparate disciplines
+                    confronted the uncomfortable fact thatall is equally grist to the computational
+                    mill. This applies at every level, from the trivial but necessary acquisition of
+                    word processing skills (the new demotic of scholarly communication) to the
+                    striking cross-fertilization of ideas facilitated by the application of
+                    computational methods developed in one discipline to the problems of another.
+                    Once, for example, the statistical methods developed by zoologists to classify
+                    species variation have been reduced to a computational mechanism, they can be
+                    (and have been) successfully applied to classify manuscript variations or
+                    analyse historical records. </p>
+                <p> The widespread application of IT encourages this cross-fertilization by
+                    requiring the reduction of both sets of problems to a common formalism, by
+                    providing a common metaphor for their expression, while the economics of
+                    software development (at least in the impoverished academic world) equally
+                    encourage the generic solution rather than the idiosyncratic. Within a single
+                    discipline the same pattern can be discerned: the EUROTRA machine-aided
+                    translation system, for example, is required not simply to support multiple
+                    languages, but to do so giving equal parity to radically different syntactic
+                    theories. To take advantage of such resources as electronic corpora and lexica,
+                    too large and expensive for any one coterie to contemplate creating,
+                    computational linguists of whatever persuasions have to accept a polytheoretical
+                    approach. Of course, there is a downside to what has been called scientific
+                    reductionism: the differences between theories are sometimes more important than
+                    their similarities. No one, however, is (I hope) suggesting that IT precludes
+                    diversity. On the contrary, its application facilitates a diversity of analyses
+                    by decoupling the analytic process from the objects analysed, as I shall discuss
+                    below. </p>
+                <p> Communication within the academic community has been affected by the development
+                    of more efficient means of information transfer in exactly the same way as has
+                    communication outside it. I do not propose here to rehearse a catalogue of
+                    technological marvels, from Group 4 fax <pb n="228"/> to Integrated Digital
+                    Services Networks, exposure to which has necessarily altered everyone’s ways of
+                    communicating, including those of researchers. This is not an advertisement for
+                    BT. However, it is probably worth noting that, because academics are primarily
+                    communicators, they have in general been quicker to adopt and make their own
+                    technologies that facilitate and encourage the processes they like to think of
+                    as their own: publication and dissemination of varyingly formal notes and
+                    analyses, enquiries, gossip, polemic and speculation. </p>
+                <p> Electronic mail networks, electronic bulletin boards, computer conferencing
+                    schemes and the like are already an accepted and almost indispensable part of
+                    academic life, with their own rules and myths, Much can be read into the success
+                    of BITNET and the services that depend on it, notably discussion lists like the
+                    University of Toronto’s HUMANIST <ref target="#bibNote9"/>, bulletin boards like
+                    the JANET-hosted National Information on Software and Services at the University
+                    of Bath, or just the availability of (reasonably) reliable fast electronic mail
+                    facilities to anyone with access to a Computer Board funded computing centre.
+                    Amongst other things, the demand for such facilities seems to have established a
+                    new role for those mainframe centres, the demise of which has been so
+                    enthusiastically and so prematurely proclaimed for so many years. In their
+                    apparent independence from political or organization control the electronic
+                    networks have also been claimed as a force for democratization, for horizontal
+                    communication in a hierarchically organized world. Within academia this probably
+                    means little more than that anyone can speak to anyone and be ignored. Outside
+                    academia however, to take a recent example, there is anecdotal evidence that the
+                    speed with which news of recent events in Tiananmen Square spread throughout the
+                    rest of China had much to do with newly installed electronic communications
+                    networks based on fax, while at least two descriptions of events there by
+                    participants were transmitted to the rest of the world over USENET within 24
+                    hours. Technophoria should not, however, blind us to the fact that in well over
+                    three quarters of the world’s nations even a photocopier is a rarity, access to
+                    which is tightly policed, never mind any other more powerful instrument for the
+                    dissemination of information. Nor, indeed, to the fact that even in North
+                    America and Western Europe our supposedly independent communications facilities
+                    are entirely dependent on the goodwill of the various government agencies which
+                    pay for them. </p>
+                <p> Much has already been written about the protocols and conventions of the
+                    computer-mediated conference: at once more formal than a <pb n="229"/> personal
+                    letter (because its recipient may be personally unknown) but less formal than a
+                    ‘real’ publication; in its immediacy approximating to spoken communication, but
+                    in its medium restricted to printable ASCII characters.<ref target="#bibNote11"
+                    /> This uncertainty of register leads some to use explicit conventions to
+                    indicate jocularity :-), *emphasis*, etc. as if written language unsupported by
+                    graphics colour or sound were already too impoverished a medium for the nuances
+                    of human interaction. Others, determined to subsume electronic communication
+                    into a known paradigm, propose conventions for the citation of electronic
+                    messages, arguing that if something can be electronically published, then it can
+                    be cited or referred to: the subtext of this assertion being, of course, a
+                    proper concern based on the importance of citable publication as the only
+                    recognized evidence of success in an academic career. </p>
+                <p> To speak for a moment of my own experience, it is undeniable that communication,
+                    and hence cooperation, between American and European academics is much improved.
+                    International projects such as the Text Encoding Initiative, of which more anon,
+                    would be scarcely possible without information technology. When, however, I
+                    receive a draft of a paper from a colleague in Chicago, download it from the VAX
+                    to my PC, hack it around for a while, incorporating comments I received
+                    yesterday from another colleague in Pisa, upload the results and transmit it
+                    simultaneously to six or seven different co-workers, all within the space of a
+                    few hours, it is debatable whether I am doing anything fundamentally different
+                    from what I might have done using paper, pen and the postal service a few years
+                    ago. As in so many other cases, the computer allows me to do more and faster,
+                    but the improvement is hardly so great as to approximate to a qualitative rather
+                    than a quantitative change from the use of the runner with the cleft stick, or
+                    even the men on bicycles who are still largely responsible for information flow
+                    around Oxford University. </p>
+            </div>
+            <div>
+                <head>Publication</head>
+                <p> I mentioned above the overriding importance attached by ‘research Culture” to
+                    the dissemination of its results in published form. Indeed, it is only half a
+                    joke to say that the primary object of research, certainly in the humanities and
+                    social sciences, perhaps less so in the natural and pure Sciences, has become
+                    the production of the dissertations, papers and Publications on which academic
+                    tenure and promotion depend. Any <pb n="230"/>librarian can quote alarming
+                    statistics about the deluge of dissertations and publications which characterize
+                    the modern scholarly world; any information scientist will admit that the
+                    ‘literature search’ shows signs of becoming an end in itself rather than a
+                    necessary prolegomena to fundamental research. And with a fine irony the
+                    scholarship of information technology also feeds on itself by producing yet more
+                    paper about how paper-based technology is (or is not) doomed to extinction, </p>
+                <p> I want to argue here that the advent of information technology has been a mixed
+                    blessing in this context. At the same time as Providing indispensable tools to
+                    cope with this flood of printed information, it has also facilitated the
+                    exacerbation of this flood into a torrent, More perniciously, it has led to a
+                    refocusing of attention on the medium at the expense of the message, </p>
+                <p> I am old enough to remember the heady excitement of first persuading a mainframe
+                    computer to format whatever you typed into it, with little letters as well as
+                    big ones, right justify and Paginate it, and even automatically number the
+                    footnotes. You could do a whole book like that, It was called ‘making camera
+                    ready copy’ and it was going to put publishers out of business, or maybe return
+                    the means of production to the toilers in the vineyard. You could also, and this
+                    was the truly significant part, sometimes incorporate tables of numbers or other
+                    results generated from your analysis software directly into the finished
+                    product, without having to retype all those numbers, though to do so at all
+                    effectively was not so easy. </p>
+                <p> Early in the 1970s, when every computer science department in the world started
+                    using TeX or troff to produce its research reports, it seemed that acquiring an
+                    intimate knowledge of points, fonts and overfull h-boxes would become as
+                    necessary a part of scholarship as understanding the copy editor’s proof marks.
+                    Oxford University somehow persuaded the Computer Board to fund the purchase of a
+                    Lasercomp , and has poured years of effort into supporting a national scholarly
+                    typesetting service.<ref target="#bibNote6"/><ref target="#bibNote7"/> Part of
+                    the rationale was that, as a traditionally arts-based university, we should be
+                    able to maintain the highest typographic standards by offering the most
+                    sophisticated tools then available for the typographic designer, even though
+                    using them seemed to necessitate a frighteningly complex mark-up system with
+                    little immediate relevance to scholarly concems. Another part was our desire to
+                    escape the tyranny of the ubiquitous Computer Modern Roman by maintaining an
+                    enormous (but fixed) library of obscure fonts, in contrast with those accessible
+                    to <pb n="231"/> mere commercial enterprises, which were unlikely to be able to
+                    justify the cost of producing good quality Syriac or Glagolitic. The advent of
+                    desktop publishing facilities in general, and PostScript in particular, have, of
+                    course, blown both of these rationales out of the water, In retrospect all we
+                    were doing was helping academics get unmarketable books published, by reducing
+                    publishers’ production costs. Like many others, we were participating in the
+                    emergence of something erroneously (but now irretrievably) known as ‘desktop
+                    publishing’, even though all that it currently addresses is the origination of
+                    high quality mixed text and graphics on paper, completely independent of any
+                    dissemination method. </p>
+                <p> The real significance of the ‘desktop revolution’ should be seen not in the
+                    ingenuity with which it enabled one to place dots of ink on to sheets of paper,
+                    but in the closing of the gap between original research and finished product
+                    that it offered. The technologies of note card, photograph, drawing, manuscript
+                    and print are all different in the way they store information: moving
+                    information from one to the other necessarily involves a complex process of
+                    transcription, editing and transformation, with potential for information loss
+                    (or gain) at each stage. The technologies of the database, word processor,
+                    optical scanner and laser printer by contrast all depend on the reduction of
+                    information to a common digital form. So, at least in principle, information
+                    flow should be facilitated by the adoption of these technologies, independently
+                    of the particular application intended for it. </p>
+                <p> It should be possible to see side by side a graphic presentation of results and
+                    interpretation in the finished book and the original data from which they
+                    derive. It should be possible to re-interpret, re-analyse and re-present the
+                    same data sets having adjusted some newly discovered error in the original
+                    observations, or collating them with some new information. It should be possible
+                    to combine in one hypertextual web the dense tissue of original sources,
+                    commentary, cross reference and interpretation which typifies exploratory
+                    teaching of the best kind.<ref target="#bibNote8"/> It should be possible to
+                    explore a text and its re-readings, to collate the re-writings of it by a
+                    diversity of readers. So long, however, as software suppliers believe their
+                    academic customers to be more concerned about getting headings in 24 point Bembo
+                    and centering digitized images on the page than they are about the fundamental
+                    data structures they wish to manipulate, the real potential for IT in research
+                    will remain unharnessed. </p>
+            </div>
+            <pb n="232"/>
+            <div>
+                <head>Data independence </head>
+                <p> Where now is the dedicated word processor? Who now would consider setting up
+                    even a relatively simple data processing system without using database
+                    management software of some sort? The answer to both these rhetorical questions,
+                    and the rise of the UNIX/Windows workstation as standard computational platform
+                    alike, testify to the effectiveness of one very simple principle: the uncoupling
+                    of application from data and data from medium. </p>
+                <div>
+                    <head>Data should be independent of medium </head>
+                    <p> More than one commentator has noted the speed with which different media
+                        replace each other in the field of information technology. It may be that
+                        the current ferment of jostling new media is purely transient, and that in
+                        the years to come one storage technology will prevail. It may be that the
+                        current tight coupling of medium with type of data will be perpetuated.
+                        Certainly, we are likely to be faced for many years with the costs of
+                        transporting information between many pairs of media, whether from acetate
+                        filmstock to videodisk, from acoustic shellac disk to audio digital tape or
+                        even from punch card to CD-ROM. Even confining ourselves to digital data, it
+                        is by no means certain that optical methods of storage will permanently
+                        displace magnetic ones. To assume that any one of these target media will
+                        prevail would be as dangerous as to have assumed (say) at the start of the
+                        1940s that the long playing record or the movie was the medium of the
+                        future. The most forward-looking. information scientist of that time could
+                        hardly have anticipated the possibilities of television or digital storage.
+                        Indeed, not the least curiously unquoted part of Vannevar Bush’s famous
+                        article about the MEMEX machine<ref target="#bibNote4"/> is its suggestion
+                        that microfilm might be a suitable enabling technology for hypermedia. The
+                        data we preserve for future researchers, I conclude, must be considered
+                        independently of the media we currently use to preserve them. </p>
+                </div>
+                <div>
+                    <head>Data should be independent of application </head>
+
+                    <p>The metaphor that characterizes most present day software systems is of an
+                        application (a program) which is executed with one of many data sets. As
+                        hardware systems become capable of supporting more and more data, the
+                        inverse of this metaphor (a given data set being processed by many <pb
+                            n="233"/> different application tools) is likely to be more productive,
+                        as argued, for example by Ron Weissman<ref target="#bibNote14"/> and others.
+                        The case for open hardware platforms in a research environment seems hardly
+                        worth making; regrettably little attention has yet been paid to that for
+                        open access to data. </p>
+                    <p>I mentioned above the existence of a set of assumptions which characterize
+                        research culture and the academic approach. Before this distinguished
+                        audience, I hesitate to enumerate the members of that set, but high on the
+                        list must be the enabling of multiple interpretations, the promotion of
+                        alternative choices, a suspicion of closure. Academics are only beginning to
+                        wake up to the use of computational methods in theorem testing, while
+                        disproportionate amounts of effort seem to go into what often prove to be
+                        nugatory schemes to simulate human reasoning or generate human discourse,
+                        based on over-simplified views of what reasoning or discourse actually is.
+                        We would do better to focus on the description of existing discourse, on the
+                        representation of existing data in such a way as to facilitate multiple
+                        analyses and presentations of it. </p>
+                    <p> Fortunately there already exists a workable methodology for the abstraction
+                        of data, albeit in the limited domains handled by the current generation of
+                        database systems, which rapidly perceived the need to separate data from
+                        their processing, and for the consequent creation of abstract modelling
+                        techniques to define in neutral terms the information content of large data
+                            sets.<ref target="#bibNote3"/> Fortunately also, perhaps for quite
+                        adventitious reasons, the data processing industry in general is currently
+                        obsessed with a fever for integration and standardization, as evidenced by
+                        the emergence of such standards as SGML, the popularity of Open Systems
+                        Interfaces, networking protocols such as X.400 and so forth. All of these
+                        technical developments share a common metaphor: the decoupling of
+                        application from data, in order to facilitate sharing and transfer of data
+                        between applications. </p>
+                </div>
+            </div>
+            <div>
+                <head>Humanistic archives and SGML: a case in point </head>
+                <p> In my own area of expertise, text processing, one of the most encouraging such
+                    signs is the growing recognition of the importance of SGML, as a means of
+                    regularizing the representation of the complex structure within a discourse,
+                    independently of a particular realization of it. An international Text Encoding
+                    Initiative, jointly sponsored by the Association for Literary and Linguistic
+                    Computing, the Association for Computing and the Humanities and the Association
+                    for Computational Linguistics, is <pb n="234"/> addressing the problem of
+                    defining document type definitions (DTDs) for the types of discourse currently
+                    studied in literary and linguistic research.<ref target="#bibNote5"/> If it
+                    succeeds in its initial work plan, within a year there will exist an extensible
+                    set of guidelines for what features of textual discourse of various types need
+                    to be identified for processing by computer and of the tags that should be used
+                    to represent them for purposes of data interchange and integration. The
+                    suitability of SGML as a vehicle for the expression of such standards has
+                    already been accepted in such communities as the American Association of
+                    Publishers, the European Commission and the US Defence Department. All of these,
+                    it should be noted, have been primarily concerned with the encoding of new texts
+                    and the creation of new databases. The TEI has yet to demonstrate the adequacy
+                    of SGML for coping with the complexity of existing discourses, such as
+                    historical texts, the function and interpretation of which are in themselves the
+                    subject of research, or for coping with non-linear or multiply hierarchic text
+                        structures,<ref target="#bibNote2"/> but there seems no prima facie reason
+                    for thinking that it cannot, nor has any alternative method as yet emerged. </p>
+                <p> Without standards, whether based on SGML or not, there is a real danger that the
+                    data stored away in our archives may become as unusable and quaint as the media
+                    we use to store them. Already, the speed with which software tools and methods
+                    are developed and replaced far outstrips the speed with which new standards for
+                    data storage evolve. The application of new software to old data thus involves
+                    negotiating an ever more arcane interface. This would matter only to the
+                    historian of science if it were not for a growing recognition of the importance
+                    of secondary analysis. </p>
+                <p> In the sciences, the importance of secondary analysis is by no means universally
+                    recognized. Such impressionistic evidence as I have suggests that for many
+                    scientists its importance is proportional to the difficulty of gathering the raw
+                    data, rather than any inherent complexity or ambiguity. In clinical trials, for
+                    example, data are very rarely preserved beyond the end of one trial, as another
+                    identical one is so easily set up. Satellite data, by contrast, are scarce and
+                    difficult to obtain, and hence NASA maintains a growing publicly accessible
+                    archive which is routinely pillaged by atmospheric physicists in search of a new
+                    PhD topic. In the humanities and increasingly in the social sciences, however,
+                    reuse of archived data is central to the discipline. </p>
+                <pb n="235"/>
+            </div>
+            <div>
+                <head>Corpora in the humanities </head>
+                <p> A major element in humanistic scholarship is hermeneutics, that is, the
+                    explication of sources. Consequently, the first major applications of IT in
+                    humanistic research were the establishment of electronic texts and textual
+                    corpora, as ends in themselves. The concordance, that much overrated workhorse
+                    of computing humanists, is a tool that asserts the primacy of the written
+                    source, independent of any interpretation of it. The notion of a corpus however,
+                    although unproblematic in the case of dead languages such as Old English or
+                    Classical Greek, is one with which many modem scholars feel uneasy. In
+                    linguistic studies, the definition of what is a representative sample of modem
+                    usage has changed from the million word sample, felt adequate to define modern
+                    American English in the Brown Corpus in 1962, to the ten million word
+                    ‘continuing sample’, defined for the COBUILD project in 1986.<ref
+                        target="#bibNote12"/> In 1989, the Data Collection Initiative of the
+                    Association for Computational Linguistics plans to make available a corpus of
+                    100 million words of contemporary American English, moving the goalposts still
+                        further.<ref target="#bibNote1"/>
+                </p>
+                <p> In mainstream literary studies, the notion of a corpus is also being redefined.
+                    There is a rising impatience with ‘author- centricity’ - the idea that a canon
+                    of great works exists independent of time which it is the duty of the literary
+                    critic to identify and interpret to the intellectual elite. Most critics now
+                    would agree that their job is to explore what Roland Barthes called the
+                    ‘intertext’- the historical matrix of associations and connections within which
+                    a particular text came into being, perhaps extended to include the
+                    re-interpretations and re-evaluations that accrete to a great work as succeeding
+                    generations re-write it. While some scholars continue to see information
+                    technology as primarily of use only in the microscopic examination of individual
+                    texts, others are waking up to its potential for facilitating and negotiating
+                    this larger scale view. To do this, however, will require the creation of
+                    organized corpora on a scale as yet undreamed of. </p>
+                <p> It now seems a simple thing to capture the whole of the surviving Old English
+                    material, a paltry 50 Mb, or even the whole of Classical Greek literature, an
+                    order of magnitude greater. Using current methods of data capture and storage it
+                    is already technically feasible to capture in a standard computer-readable form
+                    every text listed in Pollard and Redgrave’s Short Title Catalogue of books
+                    published between 1475 and <pb n="236"/> 1640, a corpus of material which would
+                    facilitate and enrich enormously the analysis of that literature in a contextual
+                    way. As the technology advances, there is good reason to assume that the same
+                    will soon be true of the succeeding century’s output of printed books. Reports
+                    of optical tape technology, capable of holding a terabyte of data on a single
+                    cartridge, are already with us. </p>
+                <p> Even these gargantuan media will be stretched by the scale of the storage
+                    problems already facing historians. The bulk of historical records held by a
+                    single medium sized European monastery dwarfs into insignificance the entire
+                    surviving record of classical Greek literature. As for the modem period, let me
+                    quote from an account by one historian of his experience in one of the US
+                    National Archive centres: <quote><p> ‘Officials of the National Archives branch
+                            in Suitland, Maryland have: a way of handling obstreperous researchers
+                            who demand access to papers which they know to exist and believe can be
+                            found. They take you into one of the underground stacks - a room five
+                            meters high, and half as big as a football field, crammed to the ceiling
+                            with boxes three deep on the shelves, There are twenty such stacks in
+                            Suitland, which is only one of the branches of the National Archives.
+                            Documents accumulate there at the rate of 20,000 cubic foot per year.
+                            The staff is insufficient to even list them. Machine-readable format?
+                            They are now acquiring computer records in outdated formats that no one
+                            even remembers how to read. </p><p> No one believes this cosmic quantity
+                            of documentation by itself is intrinsically important enough to deserve
+                            being edited, collated, scanned, formatted, indexed and distributed on
+                            CD- anything. The specific memo or brief or telegram or protocol only
+                            rarely merits being reproduced thirty years later for the use of
+                            historians. But seen together with thousands of other equally
+                            insignificant documents, trends, patterns, and development can be
+                                discerned.”<ref target="#bibNote16"/>
+                        </p></quote></p>
+                <p>The need for effective filtering and sampling methods which routinely confronts
+                    those working with paper records will become increasingly acute as better
+                    methods of information storage change the rooms of boxes into rooms of optical
+                    media. IT offers unparalleled opportunities for building such tools, but their
+                    success remains crucially dependent on standardization, both of storage and of
+                    description. </p>
+            </div>
+            <pb n="237"/>
+            <div>
+                <head>Building the docuverse </head>
+                <p> Unfortunately what is technically feasible is not necessarily always carried
+                    out. In the humanities, the creation of such corpora as already exist has been
+                    undertaken generally by individual isolated projects, often in ignorance of each
+                    other, or with specific short term goals such as the creation of a dictionary.
+                    They have almost invariably been seen as a means to a more specific end - the
+                    creation of a published concordance (which counts as a ‘real’ scholarly
+                    achievement) or a new edition of a favourite author (likewise), for example.
+                    With a few exceptions, notably the French, the creation of an electronic version
+                    of the national written heritage has scarcely been regarded as a matter of
+                    national concern. Where publishers have sought to create electronic corpora (as
+                    for example the Knowledge Warehouse Scheme <ref target="#bibNote15"/>) they have
+                    done so as if they were dealing with very large reference books rather than with
+                    a new medium, with its own characteristics. </p>
+                <p> Current research culture tends to regard data sets and electronic corpora alike
+                    as resources rather than end products. Only critical editions or reference books
+                    are regarded as end products of the research process, with sufficient added
+                    value to be considered suitable for commercial distribution, for example.
+                    Students are initiated into research culture, with notes and essays and theses,
+                    thus foregrounding the production of the individual interpretation at the
+                    expense of the creation of a shared environment for research, which is assumed
+                    as a given. Academic tenure and promotion are based largely on the evidence of
+                    written publications, with little credit being given for the creation of
+                    electronic resources, no less intellectually demanding.<ref target="#bibNote13"
+                    /> Exploratory teaching and the pooling of individual discoveries as a shared
+                    resource are practices which have yet to work their way into the research
+                    community from the secondary education sector where they are already widely
+                    accepted. Yet these methods are uniquely able to take advantage of the potential
+                    of the new media. </p>
+                <p> If the academic community itself cannot cooperate effectively enough to build up
+                    new electronic resources incrementally, the job will be left to those moppers-up
+                    of scholarly activity, the publishers and the librarians. The ‘information
+                    professionals’ are already beginning to lay claim to a new province: the
+                    cataloguing, preservation and dissemination of information in electronic form.
+                    No caste within the academic community is, <pb n="238"/> on the face of it,
+                    better qualified for the task. Yet success will require radical re-adjustments
+                    in communities which, whatever their other merits, are not renowned for
+                    flexibility or rapidity of adjustment. For electronic media do differ from print
+                    in several important respects, to ignore all of which may lead to a selling
+                    short of their full potential. </p>
+                <p> Four differences seem of particular importance in this connection: the blurring
+                    of distinctions between carrier, implied by the ease with which sound, image and
+                    graphic can be combined in a single electronic medium; the blurring of the
+                    distinction between reader and writer, implied by the infinite re-writability of
+                    most electronic media; the radically different cataloguing requirements, implied
+                    by the fact that access to parts of an electronic text is as easy as (or easier
+                    than) access to the whole; the inherent reproducibility of electronic media
+                    which may change our whole attitude to ‘intellectual property’ and certainly
+                    should cause us to rethink the role of archive and library as its guardians and
+                    preservers, The methods developed by archivists and librarians to handle the
+                    masses of surviving records have necessarily been formed by their primary duty
+                    of conserving distinct physical objects intact for analysis by future
+                    generations. These methods may not be so appropriate to objects which can be
+                    fragmented and recombined, reproduced entirely and exactly by a simple
+                    electronic process, or moved at will from one storage medium to another, without
+                    in any way affecting the original. The indexing and cataloguing schemes
+                    developed over centuries by librarians have as a goal ways of identifying and
+                    locating discrete physical objects. Such schemes see it as no part of their task
+                    to specify how the parts of those objects may be reconstituted to form new
+                    objects, or to trace associations between the content of one object and another.
+                    Yet support for this type of activity is one of the greatest advantages of
+                    electronic media. </p>
+                <p> The dissemination of books as cultural objects has always been carried out using
+                    the same economic model as the dissemination of grapefruit or steam engines:
+                    capital is invested, many discrete objects are produced, their sale providing a
+                    surplus to re-invest. Electronic publishers insist that this same model applies
+                    to the production of CD-ROM encyclopaedias or the sale of access to online
+                    databases, Librarians exploring the capabilities of automatic document delivery
+                    systems are not entirely convinced. Visionaries such as Ted Nelson argue that
+                    the new media have potential for throwing the whole model away and building a
+                    more equitable method of distributing information, independent of documents and
+                    other containers, at last.<ref target="#bibNote10"/>
+                </p>
+                <p>
+                    <pb n="239"/> I began by casting doubt on the model of research as a process,
+                    with quantifiable, identifiable inputs and outputs. Perhaps, in the long run,
+                    the greatest benefit that IT brings to scholarship will prove to be precisely a
+                    liberation from that view of the business of research, which is not simply the
+                    generation of products, but the extraction of meanings and interpretations.
+                    First, however, we must find ways of building the ‘docuverse’ and that is
+                    perhaps the greatest challenge facing scholarship today.</p>
+            </div>
+        </body>
+        <back>
+            <div>
+                <head>References</head>
+                <bibl xml:id="bibNote1"> R.A. Amsler, The ACL Data Collection Initiative, The Finite
+                    String, 15(1), March 1989, pp.1-2. </bibl>
+                <bibl xml:id="bibNote2"> D. Barnard, SGML-based markup for literary texts: two
+                    problems and some solutions, Computers and the Humanities, 22, 1988, pp.265-76 </bibl>
+                <bibl xml:id="bibNote3"> L. Burnard, Principles of database design. In: S. Rahtz,
+                    (ed.), Information technology in the Humanities, Ellis-Horwood, Chichester,
+                    1987. </bibl>
+                <bibl xml:id="bibNote4"> V. Bush, As we may think, Atlantic Monthly, 176, Jul 1945,
+                    pp.101-8 </bibl>
+                <bibl xml:id="bibNote5"> N. Ide, M. Sperberg-McQueen, Outline of a standard for
+                    encoding literary and linguistic data. In: Proceedings of the 15th International
+                    ALLC Conference, Jerusalem, June 1988, to appear. </bibl>
+                <bibl xml:id="bibNote6"> C. Griffin, Typesetting exotic languages at Oxford
+                    University, Protext I, 1984, pp.133-44. </bibl>
+                <bibl xml:id="bibNote7"> S. Hockey, Some considerations in providing an academic
+                    typesetting service. In: A. Capelli, L. Cignoni, C. Peters, Studies in honour of
+                    Roberto Busa SJ, Giardini, Pisa, 1987. </bibl>
+                <bibl xml:id="bibNote8"> G. Landow, Context 32: using hypermedia to teach
+                    literature. In: L.H. Lewis (ed.), Proceedings of the 1987 IBM Academic
+                    Information Systems University AEP Conference, IBM Academic Information Systems,
+                    1987. </bibl>
+                <bibl xml:id="bibNote9"> W. McCarty, Humanist, Literary and Linguistic Computing
+                    III, 1988, 2, pp.138-40. <pb n="240"/>
+                </bibl>
+                <bibl xml:id="bibNote10"> T. Nelson, Literary Machines, Privately published, 1987. </bibl>
+                <bibl xml:id="bibNote11"> J. Richardson, The limitations to electronic communication
+                    in the research community. In: M. Feeney, K. Merry (eds.), Information
+                    Technology and the Research Process, Proceedings of a Conference held at
+                    Cranfield, 18-21 July 1989, pp.190-209. </bibl>
+                <bibl>12, J.M. Sinclair (ed.), Looking up: an account of the COBUILD Project in
+                    lexical computing, Collins ELT, London, 1987. </bibl>
+                <bibl xml:id="bibNote13"> M. Thaller, The Historical Workstation Project,
+                    (unpublished draft), Max-Planck Inst. fiir Geschichte, Goettingen, 1989. </bibl>
+                <bibl xml:id="bibNote14"> R. F. E. Weissman, Data Liberation, or, Goals for a next
+                    generation software application architecture, (unpublished draft), Brown
+                    University, 1989. </bibl>
+                <bibl xml:id="bibNote15"> R. Williamson, Electronic Text Archiving, Elsevier
+                    Advanced Technology Publications, Oxford, 1988. </bibl>
+                <bibl xml:id="bibNote16"> R. Zweig, HUMANIST Discussion Group, 18 Nov 1988. </bibl>
+            </div>
+        </back>
+    </text>
+</TEI>
