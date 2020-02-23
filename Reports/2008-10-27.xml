@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Community building en France -- la suite</title>
+        <author>Lou Burnard</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Originally published as a blog entry at <ref
+            target="http://ahnet2-dev.cch.kcl.ac.uk/users/louburnard">| arts-humanities.net: Digital
+            Humanities and Arts</ref> on <date when="2008-10-27T09:56:00"> on Mon, 27/10/2008 -
+            09:56 </date></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>translated from HTML to TEI</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change when="20200223">TEI version for archive</change>
+    </revisionDesc>
+
+  </teiHeader>
+  <text>
+    <body>
+
+      <!--<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/project">Projects</ref></item>
+<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/ictguides/methods">Methods</ref></item>
+<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/tools">Tools</ref></item>
+<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/library">Library</ref></item>
+<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/noc">Centres</ref></item>
+<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/community">Community</ref></item>
+<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/news">News</ref></item>
+</list><!-\- /header -\-><ref target="http://ahnet2-dev.cch.kcl.ac.uk/">Home</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/blog">Blogs</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/blog/louburnard">lou.burnard's
+blog</ref><div>-->
+      <head>Community building en France -- la suite</head>
+
+      <p>Days two and three of the <ref target="http://www.cn2sv.fr/ecole-sources-num/">Ecole
+          Thematique</ref> I attended in Frejus last week (regrettably I had to leave on day four,
+        thus missing the afternoon excursion to the seaside) were rich with matter. Each day began
+        at nine sharp with a "state of the art" plenary presentation, which was followed by parallel
+        sessions focussing on one of the three kinds of media in question -- manuscript materials,
+        oral texts, or images. Although there was a natural tendency for each expert speaker to make
+        their presentation fairly "one way", and in some cases also over-ran their allotted time
+        rather drastically, there was a conscientious effort to provoke debate and discussion from
+        the floor. A reasonably long lunch hour (and some excellent French food) also kept morale
+        high and engaged. At the end of the day, participants summarized briefly the chief points of
+        the communications they had witnessed; this seemed an idea worth stealing. (It would also be
+        nice, but less practical, to steal the chef and the kitchen)</p>
+      <p>The wiki of the Ecole includes all the presentations, so I won't try to summarize them
+        here, other than to note the range of topics addressed. In the plenaries, Christophe Jacobs
+        was provocative on the "vulgarisation" facilitated by digital resources and its implications
+        for modes of teaching and research while Catherine Morel was exhaustive and authoritative on
+        the varieties of XML metadata. In the first session on written materials I attended, Paul
+        Bertrand (IRHT) and Florence Clavaud (Ecole des Chartes) introduced us to the theory and
+        practice of their digital cartulary (cartulR) in some detail. TELMA is both their
+        collaboration and an open source "plateforme" for TEI corpora they are are jointly
+        developing; they seem to be relying chiefly however on an EAD-based cataloguing system
+        called Pleiade. There was some discussion about the problems they had encountered using
+        Exist to handle large scale textual resources, and whether or not to switch over to using
+        Philologic; and more about familiar problems of data entry. After lunch (rack of lamb; did I
+        mention the food already?) I went to the first session on visual material and learned about
+        a wonderful digital archive containing images of Lamarck's original specimen collection, and
+        the complete papers of Ampere (currently being painstakingly transcribed by retired EDF
+        functionaries), but was chiefly treated to a demonstration by Robert Vergnieux of some
+        applications of GIS in classical archaeology notably a virtual Circus Maximus. For the third
+        workshop session of the day, I returned to the text course for a decidedly pragmatic
+        presentation from Thierry from the webmaster's perspective: how should resource builders
+        ensure their labours are citeable, what standards are relevant, etc.</p>
+      <p>On the second day I attended an excellent workshop session from the CRDO's Michel Jacobson,
+        giving just enough detail about the relevant standards in the world of metadata for spoken
+        rsources (DCMI, OLAC, IMDI, etc.) for me to feel that this time I really do understand how
+        OAI-PMH works and how to interface it with a bunch of TEI headers. No, really. His colleague
+        Richard Walters gave a similarly thorough overview of the technical and theoretical issues
+        involved in making and deploying transcriptions of oral materials: I wrote down as a
+        usefully quotable comment his statement on the thornier theoretical issues: "I have no
+        opinion but I want consistency".</p>
+      <p>After lunch on day two, we had brief introductions to some basic questions about the notion
+        of interoperability, and to XML and friends. These were a little too short to cover
+        everything, and soon ran out of time. There was a French take on that old favourite "how to
+        make a TEI document with Oxygen and Roma", which was a lot of fun, not only for me but also
+        for the participants, who all seemed to enjoy the experience of getting their hands dirty
+        with some real tagging at last. (The session I attended was also enlivened by some
+        accidental damage to the curtain rails by an over-excited Paul Bertrand). Those attending
+        the practical session on using Pleiade which went on in parallel didn't seem to be having as
+        much fun, but maybe I'm biassed. At the end of the day Michel Jacobsen gave a magisterial
+        overview of what OAIS is, and how they are using it in the CRDO. This also managed to hold
+        my attention.</p>
+      <p>I'm not sure how to translate "ecole thematique": "special-interest summer-school" doesn't
+        quite do it justice. But in any case, this was clearly a new experience for many of those
+        participating, not just for me. The organisers had done their best to escape from
+        traditional French pedagogic models, and to bring into being a new kind of interdisciplinary
+        context appropriate to the very diverse resources concerned. They also worked hard at
+        ensuring we were not sold short on their varied technical expertise -- no sign of any
+        vulgarisation there. Of course, some things didn't work as well as they might have (the
+        timetabling was occasionally chaotic for example, and I think people might have enjoyed more
+        practical work than it permitted); but this was an excellent experiment which I hope the
+        organisers will be encouraged to repeat in a year or two. In the meantime. it will be very
+        interesting to see how the wiki develops...</p>
+    </body>
+  </text>
+</TEI>

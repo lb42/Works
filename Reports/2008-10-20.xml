@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  
+  <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Digital Community Building a  la
+            Francaise</title>
+          <author>Lou Burnard</author>
+        </titleStmt>
+        <publicationStmt>
+          <p>Originally published as a blog entry at <ref
+            target="http://ahnet2-dev.cch.kcl.ac.uk/users/louburnard"> arts-humanities.net: Digital
+            Humanities and Arts</ref> on <date when="2008-10-20T21:28:00"> Mon, 20/10/2008 -
+              21:28</date></p>
+        </publicationStmt>
+        <sourceDesc>
+          <p>translated from HTML to TEI</p>
+        </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+        <change when="20200223">TEI version for archive</change>
+      </revisionDesc>
+      
+    </teiHeader>
+    <text>
+      <body> 
+  
+  
+  <p>I find myself once more in France. The food, the weather, the
+wine, the cheese, are all pretty good, and so is the discussion of
+digital humanities. Today I gave an invited plenary to kick off a
+week long event on digitization in the humanities, funded by the
+CNRS through the TGE Adonis, and organised by three of the French
+Centres of Expertise which I mentioned in an earlier posting here.
+You can read all about the event on its wiki pages at <ref target="http://www.cn2sv.fr/ecole-sources-num">http://www.cn2sv.fr/ecole-sources-num</ref>,
+if you read French; here I will only very briefly summarize some
+interesting aspects that struck me, as the sole non-French person
+present. First off, I was very impressed by the community-building
+aspects of the way this event has been organised: the idea seems to
+be to bring together experts in very different kinds of digital
+resource (spoken, visual, textual, manuscripts...), provide them
+with brief accounts of best and current practice, and to foment
+debate and interchange of views. There is a training aspect,
+naturally (the event is billed as a summer school, of sorts), but
+above all it is an opportunity to form contacts and discuss some
+more profound issues of how exactly the humanities should react to,
+contribute to, and profit from mass digitization. The participants
+come from a large number of research institutions, small and large,
+as far as I can tell all funded by the CNRS, and have in common an
+active engagement with the procedures, and demonstrate an
+impressive range of skills and knowledge in this very lare area.
+There are plenty of webheads and technical people, but also some
+genuine scholars. The event is organised as three distinct courses
+(one on oral data, one on visual, and the third on written
+materials), each course comprising three workshop sessions, but
+organized in such a way that each participant can participate in
+two different courses, since each session is repeated. There is a
+formal feedback session at the end of each day, which gives ad hoc
+groupings of participants the opportunity to report back on the key
+issues that have emerged for them. An interesting approach, in my
+view, though the proof of the pudding will be in the days to
+come... Today, Yannick Maignien gave an excellent overview of the
+goals of the TGE Adonis project and I wittered on about the history
+of "humanities computing". The whole
+is taking place in sybaritic surroundings, with excellent wifi, and
+other creature comforts. Vive la France!</p>
+        
+       <!-- <list type="unordered">
+<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/adonis">ADONIS</ref></item>
+<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/community_building">community building</ref></item>
+<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/digitisation">digitisation</ref></item>
+<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/france">France</ref></item>
+</list><list type="unordered">
+<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/blog/louburnard">lou.burnard's
+blog</ref></item>
+<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/comment/reply/1861#comment-form">Add new
+comment</ref></item>
+<item><hi><ref target="http://www.addthis.com/bookmark.php"><graphic url="Digital%20Community%20Building%20%C3%A0%20la%20Fran%C3%A7aise%20%7C%20arts-humanities.net:%20Digital%20Humanities%20and%20Arts_files/share.gif" rend="img addthisimage" mimeType="image/gif" width="83px" height="16px"/></ref><!-\-<script
+  type="text/javascript"
+  src="Digital%20Community%20Building%20%C3%A0%20la%20Fran%C3%A7aise%20%7C%20arts-humanities.net:%20Digital%20Humanities%20and%20Arts_files/addthis_widget.js">-\->
+<!-\-</script>-\-></hi></item>
+<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/print/1861"><graphic url="Digital%20Community%20Building%20%C3%A0%20la%20Fran%C3%A7aise%20%7C%20arts-humanities.net:%20Digital%20Humanities%20and%20Arts_files/print_icon.gif" rend="img print-icon" mimeType="image/gif" width="16px" height="16px"/></ref></item>
+</list><div><div><head><ref target="http://ahnet2-dev.cch.kcl.ac.uk/blog/louburnard/digital_community_building_%C3%A0_la_fran%C3%A7aise#comment-484">Re: Digital Community Building Ã  la
+FranÃ§aise</ref></head><ref target="http://www.medievizmes.net/">Paul Bertrand</ref><p>Thank you for coming and telling us the Word!</p><list type="unordered">
+<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/comment/reply/1861/484">reply</ref></item>
+</list><ref target="http://ahnet2-dev.cch.kcl.ac.uk/crss/node/1861"><graphic url="Digital%20Community%20Building%20%C3%A0%20la%20Fran%C3%A7aise%20%7C%20arts-humanities.net:%20Digital%20Humanities%20and%20Arts_files/feed.png" rend="img" mimeType="image/png" width="16px" height="16px"/></ref><!-\- /inner-content -\-><!-\- /squeeze-content -\-><!-\- /squeeze -\-><!-\- /main -\-></div></div><div><head>Browse news and announcements</head><list type="unordered">
+<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/blog">Announcements,
+blogs</ref></item>
+<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/node/news_hub">External news
+hub</ref></item>
+<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/events">Events</ref></item>
+<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/jobs">Jobs</ref></item>
+<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/forum">Forum</ref></item>
+<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/wiki">Wiki</ref></item>
+<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/members">Members'
+profiles</ref></item>
+<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/groups">User
+groups</ref></item>
+</list><!-\- /middle-container -\-></div><div><head>Subject disciplines</head><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/archaeology">Archaeology</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/architecture_history_theory_practice">Architecture: History, Theory
+&amp; Practice</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/classics_ancient_history">Classics and Ancient History</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/community_arts_including_art_health">Community Arts (including Art
+and Health)</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/cultural_policy_arts_management_creative_industries">Cultural Policy, Arts management
+and the creative industries</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/dance_studies">Dance Studies</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/design">Design</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/drama_theatre_studies">Drama and Theatre Studies</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/english_language_literature">English Language and
+Literature</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/history">History</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/law">Law</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/librarianship_information_museum_studies">Librarianship, Information &amp;
+Museum Studies</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/linguistics">Linguistics</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/media">Media</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/modern_languages">Modern Languages</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/music">Music</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/philosophy">Philosophy</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/theology_divinity_religious_studies">Theology, Divinity and Religious
+Studies</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/visual_arts">Visual Arts</ref></div><div><head>Popular topics</head><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/2d_scanning_photography">2d Scanning and photography</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/cataloguing_indexing">Cataloguing and indexing</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/coding_standardisation">Coding and standardisation</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/collating">Collating</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/content_analysis">Content analysis</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/data_modelling">Data modelling</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/digital_humanities">digital humanities</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/documentation">Documentation</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/general_website_development">General website development</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/indexing">Indexing</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/interface_design">Interface design</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/manual_input_transcription">Manual input and
+transcription</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/preservation">preservation</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/record_linkages">Record linkages</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/resource_sharing">Resource sharing</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/searching_querying">Searching and querying</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/text">text</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/text_encoding_descriptive">Text encoding - descriptive</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/text_encoding_presentational">Text encoding -
+presentational</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/text_encoding_referential">Text encoding - referential</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/textual_interaction_asynchronous">Textual interaction
+(asynchronous)</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/visualisation">Visualisation</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/tagadelic/chunk/5">more
+tags</ref><lb/>--><!-- /footer -->
+</body></text>
+</TEI>

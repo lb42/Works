@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Some notes on the "Network of Expert Centres" meeting, 22 Sept 2008 </title>
+        <author>Lou Burnard</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Originally published as a blog entry at <ref
+          target="http://ahnet2-dev.cch.kcl.ac.uk/users/louburnard">|
+          arts-humanities.net: Digital Humanities and Arts</ref>
+          on Mon, <date when="2008-09-22T22:50:00"> Mon 22/09/2008 - 22:50 </date></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>translated from HTML to TEI</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change when="202002">TEI version for archive</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <!--  <ref target="http://ahnet2-dev.cch.kcl.ac.uk/"><graphic
+          url="Some%20notes%20on%20the%20%22Network%20of%20Expert%20Centres%22%20meeting,%2022%20Sept%202008%20%7C%20arts-humanities.net:%20Digital%20Humanities%20and%20Arts_files/ahlogo.png"
+          rend="img" mimeType="image/png"/></ref>
+  -->
+      <!-- /logo-title -->
+      <!-- /name-and-slogan -->
+      <!--<form
+  action="/blog/louburnard/some_notes_network_expert_centres_meeting_22_sept_2008"
+  accept-charset="UTF-8"
+  method="post"
+  id="search-theme-form">-->
+      <!--<label
+  for="edit-search-theme-form-1">-->
+      <!--</label>-->
+      <!--<input
+  maxlength="128"
+  name="search_theme_form"
+  id="edit-search-theme-form-1"
+  size="15"
+  title="Enter the terms you wish to search for."
+  class="form-text"
+  type="text">-->
+      <!--</input>-->
+      <!--<input
+  name="op"
+  id="edit-submit"
+  value="Search"
+  class="form-submit"
+  type="submit">-->
+      <!--</input>-->
+      <!--<input
+  name="form_build_id"
+  id="form-daf0b0009f948654a62e4edd39bab3c8"
+  value="form-daf0b0009f948654a62e4edd39bab3c8"
+  type="hidden">-->
+      <!--</input>-->
+      <!--<input
+  name="form_id"
+  id="edit-search-theme-form"
+  value="search_theme_form"
+  type="hidden">-->
+      <!--</input>-->
+      <!--</form>-->
+      <!--<list type="unordered">
+        <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/node/about">About</ref></item>
+        <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/contact">Contact</ref></item>
+        <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user/login">Login / register</ref></item>
+      </list>
+      <list type="unordered">
+        <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/project">Projects</ref></item>
+        <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/ictguides/methods">Methods</ref></item>
+        <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/tools">Tools</ref></item>
+        <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/library">Library</ref></item>
+        <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/noc">Centres</ref></item>
+        <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/community">Community</ref></item>
+        <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/news">News</ref></item>
+      </list>
+      <!-\- /header -\->
+      <ref target="http://ahnet2-dev.cch.kcl.ac.uk/">Home</ref>
+      <ref target="http://ahnet2-dev.cch.kcl.ac.uk/og">Groups</ref>
+      <ref target="http://ahnet2-dev.cch.kcl.ac.uk/network_expert_centres">Network of Expert
+        Centres</ref>
+      <div>
+-->
+      <head>Some notes on the "Network of Expert Centres" meeting, 22 Sept 2008</head>
+      <!--  
+        <list type="unordered">
+          <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/collaboration"
+              >collaboration</ref></item>
+          <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/digital_humanities">digital
+              humanities</ref></item>
+          <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/e_infrastructure"
+              >e-infrastructure</ref></item>
+          <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/network_centres">Network of
+              Centres</ref></item>
+          <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/networks"
+            >networks</ref></item>
+        </list>
+-->
+      <p>In these post-AHDS, apres-Methods-Network days, a small amount of funding has been found to
+        explore the possibility of setting up a "network of expert centres", aiming to develop an
+        effective support infrastructure in the digital arts and humanities area. As a former AHDS
+        centre, Oxford was invited to join the network, and I went along to this inaugural workshop
+        of the network in place of Martin who is busy frying other CLARIN fish. The workshop was the
+        first of four, to be held around the UK before the funding runs out at the end of this
+        calendar year. It was organised by Kings and held at the Wellcome's subterranean conference
+        centre on Euston Road.</p>
+      <p>Lorna Hughes welcomed us by saying that the goal of this workshop was to investigate models
+        of collaboration, and made the first of several references to <ref
+          target="http://www.arts-humanities.net/">http://www.arts-humanities.net</ref> as being the
+        vehicle to carry forward the network's outreach agenda. Present were several of the usual
+        suspects, i.e. David Robey, Seth Denbo, Simon Tanner, Paul Spence, Harold Short, Sheila
+        Anderson, Charlotte Rouche, John Bradley, Torsten Reimer, Heather Haskins, Lydia Horstman,
+        and Elena Pierazzo (all from Kings), Barry Ife (formerly at Kings, now at Guildhall),
+        Richard Deswarte (just taken over from Matthew Woolard at HDS), David Sheppard and Mike Pidd
+        (from HRI, Sheffield), Stuart Jeffrey from ADS, Bronwen Hyde (Research Information Network),
+        Joy Davidson (HATII), Aly Comteh (BL), Amy Robertson (VADS), Paul Ell (QUB), Andrew Prescott
+        (Lampeter), and Alastair Dunning (JISC Digitization). Slightly bemused outsiders were Simon
+        Coles from the EPSRC-funded National crystallography service at Southampton, and Ant Miller
+        from the BBC.</p>
+      <p>Introducing the first session, Sheila opined that the network represented "a very strong
+        response" to withdrawal of AHDS funding, though there were still a number of key projects
+        enjoying continued funding (she mentioned AHESSC, ADS, and A-H.net, as well as two european
+        projects, DARIAH and CLARIN). We should be aiming to demonstrate the ability of the
+        network's members to collaborate in provision of services which were really needed by the
+        subject communities. The first session was intended to provide us with three possible
+        collaborative models, presented by Barry Ife, Andrew Prescott, and Simon Coles. Barry's
+        model was LCACE: the London Centre for Arts and Cultural Enterprise, which is a "club" or
+        pressure group for nine London-based HEIs active in the cultural sector, some large, some
+        small. It's supported by subscriptions (a flat rate of 35k a year) which the members
+        apparently consider value for money as it enables them to devolve many matters of joint
+        interest, such as potential commercial or academic collaborations, summer schools,
+        consultancy, input to public policy on access to the arts etc. An interesting example: a
+        school of nursing valued input from a school of acting about improvisation techniques.
+        Andrew's model was based on his experience in Wales, where the political agenda of the One
+        Wales manifesto has had an extraordinarily galvanising effect on the development of digital
+        resources, aimed at enlarging access to digital cultural resources by the public, mainly
+        within the library sector, and spearheaded by the national library. Support for individual
+        researchers is less conspicuously present; he cited the wonderful <ref
+          target="http://www.dafyddapgwilym.net/">www.dafyddapgwilym.net</ref> project as an example
+        of something where sustainability (it uses Anastasia) had not been thought through; and also
+        the Lampeter project on "Imaging the bible in wales", where a full projec-to-service model
+        has not yet developed. Simon Coles took us for a refreshingly different canter through the
+        ways in which chemists, at least, now benefit from social networking technologies, beating
+        the drum very effectively for Open Notebook Science with several provocative soundbites
+        (e.g. "If I don't put my exam timetable on facebook, no-one will turn up"). He did however
+        say several very interesting and well-informed things about the role of digital repositories
+        in supporting this new kind of science and the transformative effects of web2 technologies
+        on the publishing process, as well as pointing to a number of URLs worth looking at. And
+        that the way in which science is now done is deeply inimical to the top down way in which
+        academic institutions are funded and organized. And that research projects should be
+        top-sliced to pay for the costs of curating their data in institutional repositories. So I
+        warmed to him considerably.</p>
+      <p>After coffee, there was a brief discussion, focussing largely on the organisational
+        mechanisms underlying the three collaborative models, which were largely unsurprising. David
+        Robey remarked that collaboration has to be incentivised in some way; Sheila Anderson that
+        mass digitization programmes did not necessarily meet the needs of individual researchers,
+        who tended to take such things for granted. There was some dilatory discussion of possible
+        business models, but this seemed to be fairly well-trodden ground. Alastair rather cheekily
+        asked exactly what services the Network would provide, but did not receive a very detailed
+        answer. Harold said that we were talking about infrastructure and that the AHDS
+        infrastructure had depended to a great extent on the support of host institutions, many of
+        which now felt a bit let down by the demise of the AHDS, which though undeniable did not
+        seem to get us much further. The lady from RIN piped up that they had produced a report on
+        data sharing we should all read and we broke for a modest sandwich lunch, during which Elena
+        and I talked about genetic editing in the TEI.</p>
+      <p>After lunch we were supposed to be focussing on "pragmatics". David Robey kicked off by
+        summarising some results from a questionnaire on sustainability of resources he'd
+        commissioned, which mostly seemed to confirm a general skepticism about the likelihood that
+        institutional repositories will take on the burdens previously shouldered by the AHDS and
+        the Methods Network. He did however point to the UK Data Service project at LSE as being
+        maybe an indicator of future relevance. Harold followed this up with a rapid canter through
+        an astounding variety of digital projects at Kings, drawing out particularly the
+        collaborative nature of most of them. Charlotte Rouche gave an entertaining talk about the
+        near-impossibility of getting elderly classicists like herself to understand the technology
+        and why it was useful, (saying en passant nice things about the LGPN project); evidence of
+        value was what was needed; maybe the learned societies should be our target rather than the
+        funding councils. She is now something called the "e-strategos" of the Hellenic Society,
+        which is nice. Finally, another fast-talker, called Ant Miller tried to explain how the BBC
+        organizes its digital archiving, in the face of insurmountable technical odds. (e.g. the
+        functioning lifetime of all currently surviving videotape players is inadequate to play back
+        their current backlog of undigitized videotape. By a factor of ten, or so.) and an amazingly
+        heterogenous internal structure, dividing itself both by media type (news, tv, radio) and by
+        region. I learned that they have a wonderful conceptual model for all their data, which
+        rejoices in the name of SMEF/LDM. And that, following development of something called a
+        Target Operating Model, which focusses on business processes rather than the existing
+        organizational structure, the BBC has apparently decided on a strategy which puts archiving
+        of content ahead of actually broadcasting it.</p>
+      <p>This was followed by a brief discussion about sustainability, and business models, with
+        several brief recommendations about "cards" that might be played (e.g. the e-learning
+        agenda, the implications of resource availability and use for research quality assessments)
+        in making the case for the importance of the network. I can't say I noticed much of any
+        substance being articulated; maybe my attention was wandering. In any case, the non-network
+        participants at this point made their excuses and left, and the (second, I learn) meeting of
+        the potential network partners proper began.</p>
+      <p>The meeting closed at 5.30 and I got soaked on the way home.</p>
+      <list type="unordered">
+        <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/network_expert_centres">Network of Expert
+            Centres</ref></item>
+      </list>
+      <!--<list type="unordered">
+          <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/blog/louburnard">lou.burnard's
+              blog</ref></item>
+          <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/comment/reply/1731#comment-form">Add
+              new comment</ref></item>
+          <item><hi><ref target="http://www.addthis.com/bookmark.php"><graphic
+                  url="Some%20notes%20on%20the%20%22Network%20of%20Expert%20Centres%22%20meeting,%2022%20Sept%202008%20%7C%20arts-humanities.net:%20Digital%20Humanities%20and%20Arts_files/share.gif"
+                  rend="img addthisimage" mimeType="image/gif" width="83px" height="16px"/></ref><!-\-<script
+  type="text/javascript"
+  src="Some%20notes%20on%20the%20%22Network%20of%20Expert%20Centres%22%20meeting,%2022%20Sept%202008%20%7C%20arts-humanities.net:%20Digital%20Humanities%20and%20Arts_files/addthis_widget.js">-\->
+              <!-\-</script>-\-></hi></item>
+          <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/print/1731"><graphic
+                url="Some%20notes%20on%20the%20%22Network%20of%20Expert%20Centres%22%20meeting,%2022%20Sept%202008%20%7C%20arts-humanities.net:%20Digital%20Humanities%20and%20Arts_files/print_icon.gif"
+                rend="img print-icon" mimeType="image/gif" width="16px" height="16px"/></ref></item>
+        </list>
+      <div> -->
+      <div type="comment">
+        <head><ref
+            target="http://ahnet2-dev.cch.kcl.ac.uk/blog/louburnard/some_notes_network_expert_centres_meeting_22_sept_2008#comment-483"
+            >What should the Network of Centres be?</ref></head>
+        <head>
+          <ref target="http://digitisation.jiscinvolve.org/">Alastair Dunning</ref>
+        </head>
+        <p>I envisage the Network as providing an accredited range of centres that comprise the
+          different types of expertise necessary for creating and delivering digital resources in
+          the arts and humanities.</p>
+        <p>Thus when other institutions want to create a resource but do not have these types of
+          more technical expertise required to develop a digital resource they know they can work in
+          partnership with one or more of the centres (rather than reinventing the wheel and doing
+          everything themselves)</p>
+        <p>The kind of levels of capabilities that these centres should have include</p>
+        <list>
+          <item> *Data capture </item>
+          <item>*Metadata and mark-up </item>
+          <item>*Technical infrastructure for delivery and interoperability </item>
+          <item> *Usability </item>
+          <item> *IPR / Business planning </item>
+          <item> *Preservation </item>
+          <item>*Others ... ?</item>
+        </list>
+        <p>There are plenty of these skills currently existing in the digital humanities world.
+          Other bodies (e.g. TASI, ULCC) could be included as needs be.</p>
+        <p>I imagine the network to be a loose arrangement of centres; sometimes they will be in
+          competition, other times they will be working in collaboration. No one centre should
+          monopolise any given area. However, every centre should not try and do all of the above -
+          they should develop expertise and capabilities in the areas they are strongest.</p>
+        <p>An important issue will to get recognition from funders that potential projects should be
+          working with these centres - funding bodies can either encourage or require institutions
+          to work with the accredited centres that they feel they can best work with.</p>
+        <p>Centre should be strongly advised to work cross-sectorally, particularly with cultural
+          heritage institutions.</p>
+        <p>Centres may not be a good word to use if there is more than one of them!</p>
+      </div>
+      <div type="comment">
+        <head><ref
+            target="http://ahnet2-dev.cch.kcl.ac.uk/blog/louburnard/some_notes_network_expert_centres_meeting_22_sept_2008#comment-480"
+            >Re: Some notes on the "Network of Expert Centres" meeting</ref></head>
+        <head>
+          <ref target="http://ahnet2-dev.cch.kcl.ac.uk/users/craig_bellamy">Craig Bellamy</ref>
+        </head>
+        <p>Thanks Lou for your extensive review. Most helpful.</p>
+        <p>Stephen Emmott, in a keynote at the Oxford eResearch conference 2 weeks ago had some
+          interesting comments about eResearch and the grand challenges of Science in the 21st
+          Century. Some of these challenges include the energy crisis, atmospheric changes, and the
+          risk of global pandemics. Computational power and infrastructures are needed to address
+          these challenges.</p>
+        <p>It often surprised me that the British humanities shy away from similar grand challenges.
+          Surely there are big questions that the humanities in Britain have a duty to address? And
+          perhaps these grand challenges need large scale computational resources or infrastructure
+          to do so?</p>
+        <p>A network of centres could form around such questions. Economic re-structuring and social
+          unrest are hardly new to Europeans. Conflict over resources are hardly new to Europeans.
+          Even the decimation of bourgeois infrastructures are hardly new to Europeans; we spent a
+          good part of a Century arguing over this one.</p>
+        <p>What are the grand challenges of Humanities scholarship? What are some of the grand
+          questions of humanities scholarship in the 21st Century? Who are dealing with them? How
+          can a network like this help? These aren't trivial questions?</p>
+        <p>best,</p>
+        <p>Craig</p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

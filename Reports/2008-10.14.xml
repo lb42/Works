@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Digital Technology: Its Role in Humanities Research Research</title>
+        <author>Lou Burnard</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Originally published as a blog entry at <ref
+            target="http://ahnet2-dev.cch.kcl.ac.uk/users/louburnard">| arts-humanities.net: Digital
+            Humanities and Arts</ref> on <date when="2008-10-14T12:35:00">Tue, 14/10/2008 -12:35
+          </date></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>translated from HTML to TEI</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change when="2020023">TEI version for archive</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+
+    <body>
+      <p>David Shepherd of Sheffield's Humanities Research Institute welcomed a respectable number
+        (I counted about thirty at the start, and more people drifted in during the morning; the
+        registration list has 48) people to this second workshop organized by the fledgling Network
+        of Expert Centres in Arts and humanities. He stressed that the object was to increase
+        awareness of and participation in the network by those who were not, in his phrase, the
+        usual suspects. He also expressed skepticism about the existence of digital humanities as a
+        discipline distinct from the humanities proper.</p>
+      <p>The first session, chaired by Michael Pidd, showcased some impressive achievements. Bob
+        Shoemaker discussed the Old Bailey Online (<ref target="http://www.oldbaileyonline.org/"
+          >www.oldbaileyonline.org</ref>) project, and its successor, Plebeian Lives, very much from
+        the point of view of the historian: how far had the availability of such resources changed
+        the discipline? Earlier studies had necessarily focussed on individual sources, and were
+        thus limited to the perspective of those institutions responsible for them. A significant
+        consequence of large scale digitization of related sources of many kinds might be the
+        opportunity to see individuals distinct from the institutional processes through whose
+        records they pass; we might thus learn how marginalised or criminal elements played these
+        institutions off against each other, as well as identifying the factors which shaped the
+        development of modern social policies. He suggested that 18th Century London was probably
+        the most digitized time and place on the globe (a claim later queried by Alastair Dunning);
+        he also stated a major theme of the day: the problems and opportunities afforded by the
+        possibility of linking different records derived from this wealth of disparate resources.
+        And remarked that the traditional model of web publication is now outmoded: maybe resources
+        of the scale now contemplated can be more effectively sustained by crowd-sourcing and Google
+        advertising.</p>
+      <p>Michael Meredith, an HRI researcher, demonstrated the delights of Virtual Vellum (see <ref
+          target="http://www.ahessc.ac.uk/virtual-vellum"
+          >http://www.ahessc.ac.uk/virtual-vellum</ref>) This e-science demonstrator has developed
+        some open source imaging software in use for a number of collaborative manuscript
+        digitization projects. Once you've seen a Froissart manuscript shipped across the access
+        grid and displayed on the entire back wall of the
+        <lb/> HRI with the clarity of detail this system supports, you won't want to use anything
+        less. Honest. I was blown away. He tried to address the theme of the day by assuring us that
+        everything he did was driven by
+        <lb/> the needs of the researcher, but I don't think anyone was really convinced. This was
+        just technology so cool we needed Stephen Fry to do it justice.</p>
+      <p>Ian Gregory from Lancaster gave a more persuasive pitch for Geographical Information
+        Systems (GIS) as the lynchpin of cross-resource integration, again with some very nice
+        examples demonstrating how GIS
+        <lb/> maps do more than simply present data in a nice and visually digestible form; they can
+        also draw attention to anomalies that need explanation, and thus question established
+        orthodoxies in historical
+        <lb/> or literary explanation. He gave several quick examples (I wanted more), including
+        some comparative work on the lakeland tours of Gray and Coleridge (see <ref
+          target="http://www.lancs.ac.uk/mappingthelakes">www.lancs.ac.uk/mappingthelakes</ref>)</p>
+      <p>Some specific points I picked up during a lively pre-lunch discussion were:</p>
+      <list type="unordered">
+        <item>can any ordinary computer cope with these images? (Yes, but you get what you pay
+          for...)</item>
+        <item>is cross searching of different resources really so important? (Yes it is, and we
+          should ask librarians for help in doing it)</item>
+        <item>do we really need any more digital resources? shouldn't we be doing more with the ones
+          we have? (No-one answered that one, except by implication: Yes, and yes)</item>
+        <item>do you need to be a GIS expert to use it? (No: look at Google Earth)</item>
+        <item>shouldn't digital technologists and scholars be working together rather than in some
+          kind of master/slave relationship? (Yes, obviously; it's just hard to achieve the right
+          balance of expertise)</item>
+        <item>how will we manage rights in a web2 world (See JISC-funded web2rights project)</item>
+        <item>will these solutions for sustainability, of resources, and of tools really work? (who
+          knows: David Robey asserted gloomily that open source is not a magic bullet)</item>
+      </list>
+      <p>After lunch, during which (as is traditional) I met for the first time some people from
+        Oxford working on an interesting Oxford project, we were presented with two more rigorously
+        infrastructural presentations. First up was Martin Lewis, who gave a well-rehearsed and
+        rather eloquent pitch for the strategic and political importance of the UKRDS -- a
+        feasibility study for a new National Data Service which HEFCE has funded (see <ref
+          target="http://www.ukrds.ac.uk/">www.ukrds.ac.uk</ref>). The word "cyberinfrastructure" is
+        new and some of the other jargon has also changed, but otherwise this didn't seem to differ
+        that much from the pitch that Harold Short and I used to launch the AHDS back in the late
+        stone age. It was useful, but unsurprising, to know that the OSI had "bottled out" of
+        producing a road map for setting up an e-infrastructure for the UK despite the availability
+        of numerous OSI-commissioned reports defining exactly what that might seek to accomplish.
+        Let us hope that this feasibility study is more successful: we shall know at their launch
+        conference in February next year.</p>
+      <p>Alastair Dunning then presented an overview of relevant JISC initiatives with his customary
+        attention to detail; the fact that JISC is now the major funder of digitization efforts in
+        the arts and humanities may also have focussed people's attention. Although no more large
+        scale digitization programmes were discernible on the horizon, he suggested that there was
+        scope for innovative projects in data mining (the so-called million books challenge), in
+        enhancing usability by developing better metadata and by better marketing of existing
+        resources, and above all in making them interoperate better. Humphry Southall's Vision of
+        Britain site (<ref target="http://www.visionofbritain.org.uk/"
+          >http://www.visionofbritain.org.uk</ref>) was mentioned again as an example of joined-up
+        thinking and outreach to the wider community. What kind of framework do we need to emulate
+        that for the research community, and how is that community actually using these resources?
+        We need a more complex technical infrastructure, supporting expertise and skills as well as
+        multiple platforms. And dont forget e-learning! digital resources are loved by teachers and
+        learners alike; their use typically raises important methodological issues; and the relevant
+        government department thinks the UK should be a global leader in this area. So it might
+        stump up cash, who knows.</p>
+      <p>Discussion after this was less lively, perhaps because I am not alone in finding the word
+        "cyberinfrastructure" oddly soporific. Here's a random selection of the points I noted:</p>
+      <list type="unordered">
+        <item>does anyone really have a coherent policy about which resources should be digitized?
+          JISC pays attention to focus groups and potential users, and especially to special
+          collections librarians, but there doesn't seem to be any grand plan anywhere. Maybe we
+          don't need one.</item>
+        <item>the RDS seems to be make a sharp distinction between "data sets" (which are its
+          business) and "e-publications" (which are not). Some might argue that today's publication
+          (or orphaned website) is tomorrow's dataset.</item>
+        <item>Intute is past its sell-by. (I did my best to refute this rather surprising
+          claim)</item>
+        <item>EEBO has completely transformed the study of the "early modern period"; would there
+          ever be anything comparable for the medieval period. (Err, probably not)</item>
+        <item>Should librarians be driving the UK's digitization programme? (I suspect they are,
+          actually, but there weren't many present to confirm or deny this)</item>
+      </list>
+      <p>In the final session of the day, Sylvia Adamson, a professor from Sheffield's school of
+        English, rather bravely took the floor to feed back her impressions of the
+        humanities/digitizers divide. A self-proclaimed technological dinosaur, she has considerable
+        experience of cross-disciplinary wars in her own research field, which straddles the
+        traditional "lit" and "lang" divide. She suggested that the way forward might be to engage
+        non-believers on their own turf and in their own terms, rather than promoting further
+        schism, citing her own case as an example of "what you're up against". Maybe the Network
+        should facilitate a reservoir of expert speakers who could be fielded in appropriate
+        discipline-specific research seminars to spread the good word. Other speakers agreed, though
+        one noted that the real problem was that "our literary-based colleagues" remain much more
+        focussed on product than on process, and were thus hard to interest in the research benefits
+        of integrating digital resources. As for the "digital orphans" it was suggested that care
+        for these was traditionally a job for the library.</p>
+    </body>
+  </text>
+</TEI>
