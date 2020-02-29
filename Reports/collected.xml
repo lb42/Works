@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:xi="http://www.w3.org/2001/XInclude">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -13,129 +12,139 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <div><head>2000-2008</head>
-          <xi:include href="2008-10-27.xml"/>
-         
-         <xi:include href="2008-10-20.xml"/>
-         <xi:include href="2005-10-14.xml"/>
-         
-         <xi:include href="2008-10-08.xml"/>
-         <xi:include href="2008-09-22.xml"/>
-         
-      <xi:include href="2005-10-20.xml"/>
-<xi:include href="2004-08-08.xml"/>
-<xi:include href="2002-04-02.xml"/>
-</div><div><head>1995-1999</head>
-      <xi:include href="1999-04-30.xml"/>
-<xi:include href="1999-01-18.xml"/>
-<xi:include href="1998-05-20.xml"/>
-<xi:include href="1998-02-20.xml"/>
-<xi:include href="1997-04-16.xml"/>
-<xi:include href="1997-04-12.xml"/>
-<xi:include href="1997-01-12.xml"/>
-<xi:include href="1996-11-02.xml"/>
-<xi:include href="1996-10-31.xml"/>
-<xi:include href="1996-09-12.xml"/>
-<xi:include href="1996-09-02.xml"/>
-<xi:include href="1996-05-30.xml"/>
-<xi:include href="1996-05-23.xml"/>
-<xi:include href="1995-11-26.xml"/>
-<xi:include href="1995-03-05.xml"/>
-<xi:include href="1995-01-19.xml"/>
-</div><div><head>1991-1994</head>
-<xi:include href="1994-11-14.xml"/>
-<xi:include href="1993-11-21.xml"/>
-<xi:include href="1993-10-26.xml"/>
-<xi:include href="1993-10-18.xml"/>
-<xi:include href="1993-01-09.xml"/>
-<xi:include href="1992-09-12.xml"/>
-<xi:include href="1991-06-11.xml"/>
-<xi:include href="1991-05-16.xml"/>
-<xi:include href="1991-05-06.xml"/>
-<xi:include href="1991-04-16.xml"/>
-</div><div><head>1980-1990</head>
-<xi:include href="1989-07-18.xml"/>
-<xi:include href="1989-05-18.xml"/>
-<xi:include href="1988-12-13.xml"/>
-<xi:include href="1988-12-02.xml"/>
-<xi:include href="1988-10-25.xml"/>
-<xi:include href="1988-09-07.xml"/>
-<xi:include href="1987-04-10.xml"/>
-<xi:include href="1987-03-26.xml"/>
-<xi:include href="1987-03-20.xml"/>
-<xi:include href="1987-03-13.xml"/>
-<xi:include href="1987-02-17.xml"/>
-<xi:include href="1986-12-05.xml"/>
-<xi:include href="1986-11-27.xml"/>
-<xi:include href="1986-11-07.xml"/>
-<xi:include href="1986-04-02.xml"/>
-<xi:include href="1986-03-21.xml"/>
-<xi:include href="1985-11-9.xml"/>
-<xi:include href="1985-10-24.xml"/>
-<xi:include href="1985-10-15.xml"/>
-<xi:include href="1985-10-10.xml"/>
-<xi:include href="1985-09-13.xml"/>
-<xi:include href="1985-08-01.xml"/>
-<xi:include href="1985-07-14.xml"/>
-<xi:include href="1985-06-13.xml"/>
-<xi:include href="1985-04-02.xml"/>
-<xi:include href="1984-11-09.xml"/>
-<xi:include href="1984-09-06.xml"/>
-<xi:include href="1984-07-11.xml"/>
-<xi:include href="1984-05-19.xml"/>
-<xi:include href="1984-01-19.xml"/>
-<xi:include href="1984-01-03.xml"/>
-<xi:include href="1983-11-30.xml"/>
-<xi:include href="1983-09-01.xml"/>
-<xi:include href="1983-07-26.xml"/>
-<xi:include href="1983-06-22.xml"/>
-<xi:include href="1983-02.xml"/>
-<xi:include href="1983-01-22.xml"/>
-<xi:include href="1982-11-29.xml"/>
-<xi:include href="1982-11-26.xml"/>
-<xi:include href="1982-11-18.xml"/>
-<xi:include href="1982-09-16.xml"/>
-<xi:include href="1982-05-28.xml"/>
-<xi:include href="1982-05-18.xml"/>
-<xi:include href="1982-04-06.xml"/>
-<xi:include href="1981-07-13.xml"/>
-<xi:include href="1981-07-10.xml"/>
-<xi:include href="1981-04-10.xml"/>
-<xi:include href="1981-02-09.xml"/>
-<xi:include href="1980-12-11.xml"/>
-<xi:include href="1980-11-19.xml"/>
-<xi:include href="1980-11-14.xml"/>
-<xi:include href="1980-06-16.xml"/>
-<xi:include href="1980-06-14.xml"/>
-<xi:include href="1980-04-21.xml"/>
-<xi:include href="1980-03-28.xml"/>
-<xi:include href="1980-02-18.xml"/>
-</div><div><head>1977-1979</head>
-<xi:include href="1979-11-21.xml"/>
-<xi:include href="1979-10-23.xml"/>
-<xi:include href="1979-09-10.xml"/>
-<xi:include href="1979-06-28.xml"/>
-<xi:include href="1979-06-21.xml"/>
-<xi:include href="1979-05-18.xml"/>
-<xi:include href="1979-04-12.xml"/>
-<xi:include href="1979-03-19.xml"/>
-<xi:include href="1979-01.xml"/>
-<xi:include href="1978-12-15.xml"/>
-<xi:include href="1978-11-23.xml"/>
-<xi:include href="1978-11-09.xml"/>
-<xi:include href="1978-10.xml"/>
-<xi:include href="1978-10-27.xml"/>
-<xi:include href="1978-01.xml"/>
-<xi:include href="1977-12-17.xml"/>
-<xi:include href="1977-08-05.xml"/>
-<xi:include href="1977-07.xml"/>
-<xi:include href="1977-04.xml"/>
-<xi:include href="1977-03-14.xml"/>
-<xi:include href="1977-02-02.xml"/>
-<xi:include href="1977-01-01.xml"/>
-</div></body>  
-  </text>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>2000-2008</head>
+            <xi:include href="2008-10-27.xml"/>
+
+            <xi:include href="2008-10-20.xml"/>
+            <xi:include href="2008-10-14.xml"/>
+
+            <xi:include href="2008-10-08.xml"/>
+            <xi:include href="2008-09-22.xml"/>
+
+            <xi:include href="2005-10-20.xml"/>
+            <xi:include href="2004-08-08.xml"/>
+            <xi:include href="2002-04-02.xml"/>
+         </div>
+         <div>
+            <head>1995-1999</head>
+            <xi:include href="1999-04-30.xml"/>
+            <xi:include href="1999-01-18.xml"/>
+            <xi:include href="1998-05-20.xml"/>
+            <xi:include href="1998-02-20.xml"/>
+            <xi:include href="1997-04-16.xml"/>
+            <xi:include href="1997-04-12.xml"/>
+            <xi:include href="1997-01-12.xml"/>
+            <xi:include href="1996-11-02.xml"/>
+            <xi:include href="1996-10-31.xml"/>
+            <xi:include href="1996-09-12.xml"/>
+            <xi:include href="1996-09-02.xml"/>
+            <xi:include href="1996-05-30.xml"/>
+            <xi:include href="1996-05-23.xml"/>
+            <xi:include href="1995-11-26.xml"/>
+            <xi:include href="1995-03-05.xml"/>
+            <xi:include href="1995-01-19.xml"/>
+         </div>
+         <div>
+            <head>1991-1994</head>
+            <xi:include href="1994-11-14.xml"/>
+            <xi:include href="1993-11-21.xml"/>
+            <xi:include href="1993-10-26.xml"/>
+            <xi:include href="1993-10-18.xml"/>
+            <xi:include href="1993-01-09.xml"/>
+            <xi:include href="1992-09-12.xml"/>
+            <xi:include href="1991-06-11.xml"/>
+            <xi:include href="1991-05-16.xml"/>
+            <xi:include href="1991-05-06.xml"/>
+            <xi:include href="1991-04-16.xml"/>
+         </div>
+         <div>
+            <head>1980-1990</head>
+            <xi:include href="1989-07-18.xml"/>
+            <xi:include href="1989-05-18.xml"/>
+            <xi:include href="1988-12-13.xml"/>
+            <xi:include href="1988-12-02.xml"/>
+            <xi:include href="1988-10-25.xml"/>
+            <xi:include href="1988-09-07.xml"/>
+            <xi:include href="1987-04-10.xml"/>
+            <xi:include href="1987-03-26.xml"/>
+            <xi:include href="1987-03-20.xml"/>
+            <xi:include href="1987-03-13.xml"/>
+            <xi:include href="1987-02-17.xml"/>
+            <xi:include href="1986-12-05.xml"/>
+            <xi:include href="1986-11-27.xml"/>
+            <xi:include href="1986-11-07.xml"/>
+            <xi:include href="1986-04-02.xml"/>
+            <xi:include href="1986-03-21.xml"/>
+            <xi:include href="1985-11-9.xml"/>
+            <xi:include href="1985-10-24.xml"/>
+            <xi:include href="1985-10-15.xml"/>
+            <xi:include href="1985-10-10.xml"/>
+            <xi:include href="1985-09-13.xml"/>
+            <xi:include href="1985-08-01.xml"/>
+            <xi:include href="1985-07-14.xml"/>
+            <xi:include href="1985-06-13.xml"/>
+            <xi:include href="1985-04-02.xml"/>
+            <xi:include href="1984-11-09.xml"/>
+            <xi:include href="1984-09-06.xml"/>
+            <xi:include href="1984-07-11.xml"/>
+            <xi:include href="1984-05-19.xml"/>
+            <xi:include href="1984-01-19.xml"/>
+            <xi:include href="1984-01-03.xml"/>
+            <xi:include href="1983-11-30.xml"/>
+            <xi:include href="1983-09-01.xml"/>
+            <xi:include href="1983-07-26.xml"/>
+            <xi:include href="1983-06-22.xml"/>
+            <xi:include href="1983-02.xml"/>
+            <xi:include href="1983-01-22.xml"/>
+            <xi:include href="1982-11-29.xml"/>
+            <xi:include href="1982-11-26.xml"/>
+            <xi:include href="1982-11-18.xml"/>
+            <xi:include href="1982-09-16.xml"/>
+            <xi:include href="1982-05-28.xml"/>
+            <xi:include href="1982-05-18.xml"/>
+            <xi:include href="1982-04-06.xml"/>
+            <xi:include href="1981-07-13.xml"/>
+            <xi:include href="1981-07-10.xml"/>
+            <xi:include href="1981-04-10.xml"/>
+            <xi:include href="1981-02-09.xml"/>
+            <xi:include href="1980-12-11.xml"/>
+            <xi:include href="1980-11-19.xml"/>
+            <xi:include href="1980-11-14.xml"/>
+            <xi:include href="1980-06-16.xml"/>
+            <xi:include href="1980-06-14.xml"/>
+            <xi:include href="1980-04-21.xml"/>
+            <xi:include href="1980-03-28.xml"/>
+            <xi:include href="1980-02-18.xml"/>
+         </div>
+         <div>
+            <head>1977-1979</head>
+            <xi:include href="1979-11-21.xml"/>
+            <xi:include href="1979-10-23.xml"/>
+            <xi:include href="1979-09-10.xml"/>
+            <xi:include href="1979-06-28.xml"/>
+            <xi:include href="1979-06-21.xml"/>
+            <xi:include href="1979-05-18.xml"/>
+            <xi:include href="1979-04-12.xml"/>
+            <xi:include href="1979-03-19.xml"/>
+            <xi:include href="1979-01.xml"/>
+            <xi:include href="1978-12-15.xml"/>
+            <xi:include href="1978-11-23.xml"/>
+            <xi:include href="1978-11-09.xml"/>
+            <xi:include href="1978-10.xml"/>
+            <xi:include href="1978-10-27.xml"/>
+            <xi:include href="1978-01.xml"/>
+            <xi:include href="1977-12-17.xml"/>
+            <xi:include href="1977-08-05.xml"/>
+            <xi:include href="1977-07.xml"/>
+            <xi:include href="1977-04.xml"/>
+            <xi:include href="1977-03-14.xml"/>
+            <xi:include href="1977-02-02.xml"/>
+            <xi:include href="1977-01-01.xml"/>
+         </div>
+      </body>
+   </text>
 </TEI>
