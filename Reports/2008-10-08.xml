@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
+<!--<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
 <teiHeader><fileDesc><titleStmt><title>"They order these things better in France" |
 arts-humanities.net: Digital Humanities and Arts</title><author>Lou Burnard</author></titleStmt>
   <publicationStmt><p/></publicationStmt><sourceDesc>   <p>Originally published as a blog entry at <ref
@@ -12,57 +12,10 @@ arts-humanities.net: Digital Humanities and Arts</title><author>Lou Burnard</aut
     <change when="202002">TEI version for archive</change>
   </revisionDesc>
   
-</teiHeader>
-<text><body><!--<ref target="http://ahnet2-dev.cch.kcl.ac.uk/">
-  <graphic url="%22They%20order%20these%20things%20better%20in%20France%22%20%7C%20arts-humanities.net:%2
-  0Digital%20Humanities%20and%20Arts_files/ahlogo.png" rend="img" mimeType="image/png"/></ref>< /logo-title --><!-- /name-and-slogan --><!--<form
-  action="/blog/louburnard/they_order_these_things_better_france"
-  accept-charset="UTF-8"
-  method="post"
-  id="search-theme-form">--><!--<label
-  for="edit-search-theme-form-1">--><!--</label>--><!--<input
-  maxlength="128"
-  name="search_theme_form"
-  id="edit-search-theme-form-1"
-  size="15"
-  title="Enter the terms you wish to search for."
-  class="form-text"
-  type="text">--><!--</input>--><!--<input
-  name="op"
-  id="edit-submit"
-  value="Search"
-  class="form-submit"
-  type="submit">--><!--</input>--><!--<input
-  name="form_build_id"
-  id="form-9b964d6d40d009fe5f81c55cbad42b8f"
-  value="form-9b964d6d40d009fe5f81c55cbad42b8f"
-  type="hidden">--><!--</input>--><!--<input
-  name="form_id"
-  id="edit-search-theme-form"
-  value="search_theme_form"
-  type="hidden">--><!--</input>--><!--</form>--><!--<list type="unordered">
-<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/node/about">About</ref></item>
-<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/contact">Contact</ref></item>
-<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user/login">Login /
-register</ref></item>
-</list><list type="unordered">
-<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/project">Projects</ref></item>
-<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/ictguides/methods">Methods</ref></item>
-<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/tools">Tools</ref></item>
-<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/library">Library</ref></item>
-<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/noc">Centres</ref></item>
-<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/community">Community</ref></item>
-<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/news">News</ref></item>
-</list><!-\- /header -\-><ref target="http://ahnet2-dev.cch.kcl.ac.uk/">Home</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/og">Groups</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/digital_body">The Digital
-Body</ref><div>--><head>"They order these things better in France"</head>
-<!--<hi rend="submitted">Submitted by <ref target="http://ahnet2-dev.cch.kcl.ac.uk/users/louburnard">lou.bu
-  rnard</ref> on /hi><list type="unordered">
-<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/adonis">ADONIS</ref></item>
-<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/digital_humanities">digital humanities</ref></item>
-<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/digitisation">digitisation</ref></item>
-<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/e_infrastructure">e-infrastructure</ref></item>
-<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/france">France</ref></item>
-</list>--><p>Last week I found myself once more in Paris for a meeting of the
+</teiHeader>-->
+
+<div xml:id="Report-2008-10-08" xmlns="http://www.tei-c.org/ns/1.0" > <head>"They order these things better in France"</head>
+  <p>Last week I found myself once more in Paris for a meeting of the
 Conseil Scientifique (sounds impressive, means something like
 Academic Advisory Committee) of the <ref target="http://www.tge-adonis.fr/">TGE Adonis</ref> which, if you
 don't know it, is the major French
@@ -158,51 +111,4 @@ to help the community develop such consortia in advance of the
 bidding process, a suggestion which seemed to go down well.</p><p>After the meeting proper, Yannick asked me to recommend some
 relevant UK contacts; I pointed him to arts-humanities.net,
 described the emerging Network of Centres, and also gave him some
-names of people in JISC to pursue.</p><!--<list type="unordered">
-<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/digital_body">The Digital
-Body</ref></item>
-</list><list type="unordered">
-<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/blog/louburnard">lou.burnard's
-blog</ref></item>
-<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/comment/reply/1828#comment-form">Add new
-comment</ref></item>
-<item><hi><ref target="http://www.addthis.com/bookmark.php"><graphic url="%22They%20order%20these%20things%20better%20in%20France%22%20%7C%20arts-humanities.net:%20Digital%20Humanities%20and%20Arts_files/share.gif" rend="img addthisimage" mimeType="image/gif" width="83px" height="16px"/></ref><script
-  type="text/javascript"
-  src="%22They%20order%20these%20things%20better%20in%20France%22%20%7C%20arts-humanities.net:%20Digital%20Humanities%20and%20Arts_files/addthis_widget.js">-->
-<!--</script>--><!--</hi></item>
-<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/print/1828"><graphic url="%22They%20order%20these%20things%20better%20in%20France%22%20%7C%20arts-humanities.net:%20Digital%20Humanities%20and%20Arts_files/print_icon.gif" rend="img print-icon" mimeType="image/gif" width="16px" height="16px"/></ref></item>
-</list><ref target="http://ahnet2-dev.cch.kcl.ac.uk/crss/node/1828"><graphic url="%22They%20order%20these%20things%20better%20in%20France%22%20%7C%20arts-humanities.net:%20Digital%20Humanities%20and%20Arts_files/feed.png" rend="img" mimeType="image/png" width="16px" height="16px"/></ref><!-\- /inner-content -\-><!-\- /squeeze-content -\-><!-\- /squeeze -\-><!-\- /main -\-><div><head>Browse news and announcements</head><list type="unordered">
-<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/blog">Announcements,
-blogs</ref></item>
-<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/node/news_hub">External news
-hub</ref></item>
-<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/events">Events</ref></item>
-<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/jobs">Jobs</ref></item>
-<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/forum">Forum</ref></item>
-<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/wiki">Wiki</ref></item>
-<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/members">Members'
-profiles</ref></item>
-<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/groups">User
-groups</ref></item>
-</list></div><div><head><ref target="http://ahnet2-dev.cch.kcl.ac.uk/digital_body">The Digital
-Body</ref></head><list type="unordered">
-<item>You must <ref target="http://ahnet2-dev.cch.kcl.ac.uk/user/register?destination=node%2F1828">
-register</ref> or <ref target="http://ahnet2-dev.cch.kcl.ac.uk/user/login?destination=node%2F1828">
-login</ref> in order to post into this group.</item>
-</list><!-\- /middle-container -\-></div><div><head>Subject disciplines</head><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/archaeology">Archaeology</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/architecture_history_theory_practice">Architecture: History, Theory
-&amp; Practice</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/classics_ancient_history">Classics and Ancient History</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/community_arts_including_art_health">Community Arts (including Art
-and Health)</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/cultural_policy_arts_management_creative_industries">Cultural Policy, Arts management
-and the creative industries</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/dance_studies">Dance Studies</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/design">Design</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/drama_theatre_studies">Drama and Theatre Studies</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/english_language_literature">English Language and
-Literature</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/history">History</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/law">Law</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/librarianship_information_museum_studies">Librarianship, Information &amp;
-Museum Studies</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/linguistics">Linguistics</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/media">Media</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/modern_languages">Modern Languages</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/music">Music</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/philosophy">Philosophy</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/theology_divinity_religious_studies">Theology, Divinity and Religious
-Studies</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/disciplines/visual_arts">Visual Arts</ref></div><div><head>Popular topics</head><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/2d_scanning_photography">2d Scanning and photography</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/cataloguing_indexing">Cataloguing and indexing</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/coding_standardisation">Coding and standardisation</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/collating">Collating</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/content_analysis">Content analysis</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/data_modelling">Data modelling</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/digital_humanities">digital humanities</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/documentation">Documentation</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/general_website_development">General website development</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/indexing">Indexing</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/interface_design">Interface design</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/manual_input_transcription">Manual input and
-transcription</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/preservation">preservation</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/record_linkages">Record linkages</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/resource_sharing">Resource sharing</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/searching_querying">Searching and querying</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/text">text</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/text_encoding_descriptive">Text encoding - descriptive</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/text_encoding_presentational">Text encoding -
-presentational</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/text_encoding_referential">Text encoding - referential</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/textual_interaction_asynchronous">Textual interaction
-(asynchronous)</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/visualisation">Visualisation</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/tagadelic/chunk/5">more
-tags</ref><lb/>--><!-- /footer --><!--<script
-  type="text/javascript">--><!--//--><!--</script>--><!--<iframe
-  src="%22They%20order%20these%20things%20better%20in%20France%22%20%7C%20arts-humanities.net:%20Digital%20Humanities%20and%20Arts_files/sh.html"
-  style="height: 1px; width: 1px; position: absolute; top: 0px; z-index: 100000; border: 0px none; left: 0px;"
-  title="AddThis utility frame"
-  id="_atssh101">--><!--</iframe>--><!-- /page --></body></text>
-</TEI>
+names of people in JISC to pursue.</p></div>

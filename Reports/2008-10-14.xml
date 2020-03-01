@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
+<!--<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -22,7 +22,10 @@
   </teiHeader>
   <text>
 
-    <body>
+    <body>-->
+<div xml:id="Report-2008-10-14" xmlns="http://www.tei-c.org/ns/1.0">
+  <head>Digital Technology: Its Role in Humanities Research Research</head>
+
       <p>David Shepherd of Sheffield's Humanities Research Institute welcomed a respectable number
         (I counted about thirty at the start, and more people drifted in during the morning; the
         registration list has 48) people to this second workshop organized by the fledgling Network
@@ -142,6 +145,4 @@
         focussed on product than on process, and were thus hard to interest in the research benefits
         of integrating digital resources. As for the "digital orphans" it was suggested that care
         for these was traditionally a job for the library.</p>
-    </body>
-  </text>
-</TEI>
+</div>
