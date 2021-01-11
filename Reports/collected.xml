@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0"
    xmlns:xi="http://www.w3.org/2001/XInclude">
    <teiHeader>
       <fileDesc>
@@ -14,18 +14,33 @@
          </sourceDesc>
       </fileDesc>
   </teiHeader>
+   <xi:include href="2008-10-27.xml"/>
+   
+   <xi:include href="2008-10-20.xml"/>
+   
+   
+   <xi:include href="2008-10-08.xml"/>
+   <xi:include href="2008-09-22.xml"/>
+   
+   <TEI xmlns="http://www.tei-c.org/ns/1.0"
+      xmlns:xi="http://www.w3.org/2001/XInclude">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Collected Reports</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Information about the source</p>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
   <text>
     <body>
       <div><head>2000-2008</head>
-          <xi:include href="2008-10-27.xml"/>
-         
-         <xi:include href="2008-10-20.xml"/>
-         <xi:include href="2005-10-14.xml"/>
-         
-         <xi:include href="2008-10-08.xml"/>
-         <xi:include href="2008-09-22.xml"/>
-         
-      <xi:include href="2005-10-20.xml"/>
+        <xi:include href="2005-10-20.xml"/>
 <xi:include href="2004-08-08.xml"/>
 <xi:include href="2002-04-02.xml"/>
 </div><div><head>1995-1999</head>
@@ -137,5 +152,5 @@
 <xi:include href="1977-02-02.xml"/>
 <xi:include href="1977-01-01.xml"/>
 </div></body>  
-  </text>
-</TEI>
+  </text></TEI>
+</teiCorpus>
