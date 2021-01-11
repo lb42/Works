@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
+<!--TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -21,87 +21,9 @@
     </revisionDesc>
   </teiHeader>
   <text>
-    <body>
-      <!--  <ref target="http://ahnet2-dev.cch.kcl.ac.uk/"><graphic
-          url="Some%20notes%20on%20the%20%22Network%20of%20Expert%20Centres%22%20meeting,%2022%20Sept%202008%20%7C%20arts-humanities.net:%20Digital%20Humanities%20and%20Arts_files/ahlogo.png"
-          rend="img" mimeType="image/png"/></ref>
-  -->
-      <!-- /logo-title -->
-      <!-- /name-and-slogan -->
-      <!--<form
-  action="/blog/louburnard/some_notes_network_expert_centres_meeting_22_sept_2008"
-  accept-charset="UTF-8"
-  method="post"
-  id="search-theme-form">-->
-      <!--<label
-  for="edit-search-theme-form-1">-->
-      <!--</label>-->
-      <!--<input
-  maxlength="128"
-  name="search_theme_form"
-  id="edit-search-theme-form-1"
-  size="15"
-  title="Enter the terms you wish to search for."
-  class="form-text"
-  type="text">-->
-      <!--</input>-->
-      <!--<input
-  name="op"
-  id="edit-submit"
-  value="Search"
-  class="form-submit"
-  type="submit">-->
-      <!--</input>-->
-      <!--<input
-  name="form_build_id"
-  id="form-daf0b0009f948654a62e4edd39bab3c8"
-  value="form-daf0b0009f948654a62e4edd39bab3c8"
-  type="hidden">-->
-      <!--</input>-->
-      <!--<input
-  name="form_id"
-  id="edit-search-theme-form"
-  value="search_theme_form"
-  type="hidden">-->
-      <!--</input>-->
-      <!--</form>-->
-      <!--<list type="unordered">
-        <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/node/about">About</ref></item>
-        <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/contact">Contact</ref></item>
-        <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user/login">Login / register</ref></item>
-      </list>
-      <list type="unordered">
-        <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/project">Projects</ref></item>
-        <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/ictguides/methods">Methods</ref></item>
-        <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/tools">Tools</ref></item>
-        <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/library">Library</ref></item>
-        <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/noc">Centres</ref></item>
-        <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/community">Community</ref></item>
-        <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/news">News</ref></item>
-      </list>
-      <!-\- /header -\->
-      <ref target="http://ahnet2-dev.cch.kcl.ac.uk/">Home</ref>
-      <ref target="http://ahnet2-dev.cch.kcl.ac.uk/og">Groups</ref>
-      <ref target="http://ahnet2-dev.cch.kcl.ac.uk/network_expert_centres">Network of Expert
-        Centres</ref>
-      <div>
--->
-      <head>Some notes on the "Network of Expert Centres" meeting, 22 Sept 2008</head>
-      <!--  
-        <list type="unordered">
-          <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/collaboration"
-              >collaboration</ref></item>
-          <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/digital_humanities">digital
-              humanities</ref></item>
-          <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/e_infrastructure"
-              >e-infrastructure</ref></item>
-          <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/network_centres">Network of
-              Centres</ref></item>
-          <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/user_tags/networks"
-            >networks</ref></item>
-        </list>
--->
-      <p>In these post-AHDS, apres-Methods-Network days, a small amount of funding has been found to
+    <body>-->
+     
+<div xml:id="Report-2008-09-22" xmlns="http://www.tei-c.org/ns/1.0"> <head>Some notes on the "Network of Expert Centres" meeting, 22 Sept 2008 </head>   <p>In these post-AHDS, apres-Methods-Network days, a small amount of funding has been found to
         explore the possibility of setting up a "network of expert centres", aiming to develop an
         effective support infrastructure in the digital arts and humanities area. As a former AHDS
         centre, Oxford was invited to join the network, and I went along to this inaugural workshop
@@ -198,26 +120,7 @@
         participants at this point made their excuses and left, and the (second, I learn) meeting of
         the potential network partners proper began.</p>
       <p>The meeting closed at 5.30 and I got soaked on the way home.</p>
-      <list type="unordered">
-        <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/network_expert_centres">Network of Expert
-            Centres</ref></item>
-      </list>
-      <!--<list type="unordered">
-          <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/blog/louburnard">lou.burnard's
-              blog</ref></item>
-          <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/comment/reply/1731#comment-form">Add
-              new comment</ref></item>
-          <item><hi><ref target="http://www.addthis.com/bookmark.php"><graphic
-                  url="Some%20notes%20on%20the%20%22Network%20of%20Expert%20Centres%22%20meeting,%2022%20Sept%202008%20%7C%20arts-humanities.net:%20Digital%20Humanities%20and%20Arts_files/share.gif"
-                  rend="img addthisimage" mimeType="image/gif" width="83px" height="16px"/></ref><!-\-<script
-  type="text/javascript"
-  src="Some%20notes%20on%20the%20%22Network%20of%20Expert%20Centres%22%20meeting,%2022%20Sept%202008%20%7C%20arts-humanities.net:%20Digital%20Humanities%20and%20Arts_files/addthis_widget.js">-\->
-              <!-\-</script>-\-></hi></item>
-          <item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/print/1731"><graphic
-                url="Some%20notes%20on%20the%20%22Network%20of%20Expert%20Centres%22%20meeting,%2022%20Sept%202008%20%7C%20arts-humanities.net:%20Digital%20Humanities%20and%20Arts_files/print_icon.gif"
-                rend="img print-icon" mimeType="image/gif" width="16px" height="16px"/></ref></item>
-        </list>
-      <div> -->
+      
       <div type="comment">
         <head><ref
             target="http://ahnet2-dev.cch.kcl.ac.uk/blog/louburnard/some_notes_network_expert_centres_meeting_22_sept_2008#comment-483"
@@ -282,7 +185,5 @@
         <p>best,</p>
         <p>Craig</p>
 
-      </div>
-    </body>
-  </text>
-</TEI>
+      </div></div>
+   

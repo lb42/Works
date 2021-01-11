@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
+<!--TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Community building en France -- la suite</title>
+        <title>Community building en France -\- la suite</title>
         <author>Lou Burnard</author>
       </titleStmt>
       <publicationStmt>
@@ -23,17 +23,9 @@
   </teiHeader>
   <text>
     <body>
-
-      <!--<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/project">Projects</ref></item>
-<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/ictguides/methods">Methods</ref></item>
-<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/tools">Tools</ref></item>
-<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/library">Library</ref></item>
-<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/noc">Centres</ref></item>
-<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/community">Community</ref></item>
-<item><ref target="http://ahnet2-dev.cch.kcl.ac.uk/news">News</ref></item>
-</list><!-\- /header -\-><ref target="http://ahnet2-dev.cch.kcl.ac.uk/">Home</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/blog">Blogs</ref><ref target="http://ahnet2-dev.cch.kcl.ac.uk/blog/louburnard">lou.burnard's
-blog</ref><div>-->
-      <head>Community building en France -- la suite</head>
+-->
+<div xml:id="Report-2008-10-27" xmlns="http://www.tei-c.org/ns/1.0"> 
+<head>Community building en France -- la suite</head>
 
       <p>Days two and three of the <ref target="http://www.cn2sv.fr/ecole-sources-num/">Ecole
           Thematique</ref> I attended in Frejus last week (regrettably I had to leave on day four,
@@ -97,6 +89,4 @@ blog</ref><div>-->
         practical work than it permitted); but this was an excellent experiment which I hope the
         organisers will be encouraged to repeat in a year or two. In the meantime. it will be very
         interesting to see how the wiki develops...</p>
-    </body>
-  </text>
-</TEI>
+</div>
