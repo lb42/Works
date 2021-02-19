@@ -5,7 +5,8 @@ Literary and Linguistic Computing, Israel,</title> Ed. Zvi Malachi,
 Tel Aviv, 1979.
 </head>
 <byline>By L.D. Burnard</byline>
-
+<note>Published in <title>Computers and the Humanities</title>15.2 pp 118-20<date>August 1981 </date>
+</note>
 <p>For one week at the end of April 1979 the Katz
 Institute of the University of Tel Aviv was host to a special
 conference organized under the aegis of the
@@ -80,25 +81,23 @@ disappointing results.
 to this volume, reflecting no doubt the diversity of membership
 enjoyed by the ALLC. Thus we find cheek-by-jowl one article
 enthusiastically describing how paper tape and Snobol may be used
-to create Russian printout and another in which are ~unded the
+to create Russian printout and another in which are expounded the
 pros and cons of a state-based representation of adverbial
 modifers in an expanded sematic network. Such eclecticism,
 however admirable runs the serious risk of becoming an uncritical acceptance
-of any p-baked (O &lt; p &lt; 1) idea or proin which counting,
+of any p-baked (O &lt; p &lt; 1) idea or project in which counting,
 logical formalisms or algorithmic methods are involved. Selection is invidious but two
 extreme examples of the type which I have in mind may be
-cited: one by on the counting of suffixes as a test for ncol
-
-	s in Rabelais and one by the perhaps bettern Melcuk on
-the "Meaning (=) Text" Model
-
-	of language. Tuttle is merely incomprehensible (a
+cited: one by Tuttle on the counting of suffixes as a test for neologisms 
+in Rabelais and one by the perhaps better known Melcuk on
+the "Meaning (=) Text" Model of language. Tuttle is merely incomprehensible (a
 prize of 5Op is hereby offered for the best explication of
 the term "non-parallelicity of non-trivial total graph" which
 appears throughout his article) while Melcuk transcends
 comprehensibility in what I cannot resist dubbing a TBG
 (Tantalizingly Brief Glimpse) of the new SemRs (Semantic
-Representations) possible within "LMs (linguistic Models) of the Meaning (=) Text Type (MT models or MTMs)".
+Representations) possible within "LMs (linguistic Models) of the 
+Meaning (=) Text Type (MT models or MTMs)".
 </p>
 <p>Cercone and Slaby both report on projects already
 described in the proceedings of the previous ALLC Conference
@@ -143,7 +142,7 @@ ScienceCitationAbstracts perhaps indicates that my doubts are
 ill-founded.
 </p>
 <p>Several papers deal with that branch of analysis which
-has acquired the name of stylometry, after the assidnous
+has acquired the name of stylometry, after the assiduous
 promulgation of the term by Morton and his followers. This
 technique, as Bailey's magisterial recension of Kenny's work
 on Aristotle correctly points out, remains a science in
@@ -221,7 +220,7 @@ an inverted page, or reference to a missing footnote.
 </p><trailer>
 Lou Burnard is a consultant at Oxford University
 Computing Service, where his chief responsibility is database
-management. He read English at Balliol Collegc, Oxford and
+management. He read English at Balliol College, Oxford and
 has worked in computing since 1973.
 </trailer>
 </div>

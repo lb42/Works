@@ -177,33 +177,34 @@
             utiliser est toujours une activité scientifique, impliquant toujours un choix conscient. </item>
           <label>Dirigé par sa communauté</label>
           <item>La TEI a été d’abord développée, il y a plus de trente ans, comme un projet de
-            recherche dans le champ alors émergent de l’<soCalled>humanities computing</soCalled>. L’idée originelle était de proposer un ensemble de
-            recommandations sur la façon dont les chercheurs devraient créer des ressources
-            textuelles <soCalled>lisibles pas ordinateur</soCalled>, qui soient adaptées aux besoins
-            de la recherche, dans la mesure ou un consensus existait sur le sujet, mais qui soient
-            également extensibles, puisque ces besoins changent et évoluent. Cette combinaison de
-            flexibilité et d’un intérêt centré sur les besoins scientifiques d’une communauté
-            particulière fait de la TEI un cas particulier parmi les autres efforts de
-            standardisation, et est également l’un des facteurs expliquant sa longévité. Dans un
-            sens strictement Darwinien, la TEI évolue en répondant aux changements qui sont
-            considérés bénéfiques par sa communauté d’utilisateurs, tout en ignorant ceux qui ne le
-            sont pas. Cette forte implication de la communauté d’utilisateurs présente aussi des
-            avantages pour le novice: la connaissance et l’expertise de la TEI peuvent aujourd’hui
-            facilement se rencontrer dans la plupart des disciplines des Sciences Humaines, et ne
-            sont pas recluses dans une zone obscure des sciences de l’information. Des institutions
-            telles que la liste de discussion TEI (TEI-L) sont un témoignage saisissant de la nature
-            hétérogène de la communauté TEI, tout en démontrant sans cesse son ouverture, sa
-            convivialité, et son empressement à porter assistance au débutant. </item>
+            recherche dans le champ alors émergent de l’<soCalled>humanities computing</soCalled>.
+            L’idée originelle était de proposer un ensemble de recommandations sur la façon dont les
+            chercheurs devraient créer des ressources textuelles <soCalled>lisibles pas
+              ordinateur</soCalled>, qui soient adaptées aux besoins de la recherche, dans la mesure
+            ou un consensus existait sur le sujet, mais qui soient également extensibles, puisque
+            ces besoins changent et évoluent. Cette combinaison de flexibilité et d’un intérêt
+            centré sur les besoins scientifiques d’une communauté particulière fait de la TEI un cas
+            particulier parmi les autres efforts de standardisation, et est également l’un des
+            facteurs expliquant sa longévité. Dans un sens strictement Darwinien, la TEI évolue en
+            répondant aux changements qui sont considérés bénéfiques par sa communauté
+            d’utilisateurs, tout en ignorant ceux qui ne le sont pas. Cette forte implication de la
+            communauté d’utilisateurs présente aussi des avantages pour le novice: la connaissance
+            et l’expertise de la TEI peuvent aujourd’hui facilement se rencontrer dans la plupart
+            des disciplines des Sciences Humaines, et ne sont pas recluses dans une zone obscure des
+            sciences de l’information. Des institutions telles que la liste de discussion TEI
+            (TEI-L) sont un témoignage saisissant de la nature hétérogène de la communauté TEI, tout
+            en démontrant sans cesse son ouverture, sa convivialité, et son empressement à porter
+            assistance au débutant. </item>
         </list>
         <p>Le but de ce livre est de présenter un échantillon des nombreux types d’encodage TEI,
           sans trop entrer dans les détails d’aucun. Nous espérons qu’il sera accessible à un large
-          public, incluant aussi bien le <foreign>Digital Humanist</foreign> pratiquant que ceux qui n’ont pas encore
-          totalement succombé aux attraits de l’ordinateur. Pour le comprendre, il suffit d’avoir
-          des notions très générales sur les technologies XML, et un intérêt pour les problèmes
-          traditionnels des études textuelles. Vous devez avoir à l’esprit qu’utiliser la TEI ne
-          signifie pas utiliser toute la TEI: bien au contraire, la plupart des utilisateurs de la
-          TEI ne font usage que d’un sous-ensemble très restreint de ce qu’elle propose. Mais vous
-          êtes seul à pouvoir décider du sous-ensemble qui convient le mieux à vos besoins. </p>
+          public, incluant aussi bien le <foreign>Digital Humanist</foreign> pratiquant que ceux qui
+          n’ont pas encore totalement succombé aux attraits de l’ordinateur. Pour le comprendre, il
+          suffit d’avoir des notions très générales sur les technologies XML, et un intérêt pour les
+          problèmes traditionnels des études textuelles. Vous devez avoir à l’esprit qu’utiliser la
+          TEI ne signifie pas utiliser toute la TEI: bien au contraire, la plupart des utilisateurs
+          de la TEI ne font usage que d’un sous-ensemble très restreint de ce qu’elle propose. Mais
+          vous êtes seul à pouvoir décider du sous-ensemble qui convient le mieux à vos besoins. </p>
         <p>Le premier chapitre donne une brève présentation du contexte technique des concepts XML
           qui sous-tendent l’encodage TEI. Le deuxième chapitre décrit la façon dont les documents
           TEI sont structurés, et est suivi par de nombreux exemples typiques dans le troisième
@@ -361,8 +362,7 @@
           <p>Commençons par le commencement: tout document TEI (représenté au moyen d’un élément
               <gi>TEI</gi>) a au moins deux parties : un <term>en-tête</term> (représenté au moyen
             d’un élément <gi>teiHeader</gi>) contenant des métadonnées décrivant le document, et le
-            texte lui-même (généralement représenté par un élément <gi>text</gi>). Par exemple : 
-            <eg><![CDATA[
+            texte lui-même (généralement représenté par un élément <gi>text</gi>). Par exemple : <eg><![CDATA[
                 <TEI xmlns=’http://www.tei-c.org/ns/1.0’> 
                 <teiHeader>
                 <!-- métadonnées décrivant un texte  --> </teiHeader> 
@@ -434,12 +434,12 @@
               <q>chapitre</q> dans un autre, ou un <q>livre</q> au sein d’une <q>partie</q> dans un
             troisième. La TEI propose donc un unique élément <gi>div</gi> pour toute subdivision
             structurelle du corps d’un texte. </p>
-          <p>L’élément <gi>div</gi> peut porter un certain nombre d’attributs préciser sa fonction 
-            et ses propriétés. Ici, nous avons utilisé l’attribut @type pour
-            caractériser ou qualifier le contenu de l’élément, distinguant ainsi les éléments
-              <gi>div</gi> contenant des <soCalled>volumes</soCalled> de ceux contenant des
-              <soCalled>chapitres</soCalled>. Nous avons aussi utilisé l’attribut <att>xml:id</att>
-            pour donner un identifiant unique à chaque division du roman. </p>
+          <p>L’élément <gi>div</gi> peut porter un certain nombre d’attributs préciser sa fonction
+            et ses propriétés. Ici, nous avons utilisé l’attribut @type pour caractériser ou
+            qualifier le contenu de l’élément, distinguant ainsi les éléments <gi>div</gi> contenant
+            des <soCalled>volumes</soCalled> de ceux contenant des <soCalled>chapitres</soCalled>.
+            Nous avons aussi utilisé l’attribut <att>xml:id</att> pour donner un identifiant unique
+            à chaque division du roman. </p>
           <p>Les structures hiérarchiques de ce genre peuvent être utilisées pour tout type de
             texte. Par exemple, un poème épique divisé en livres pourra être représenté en encodant
             chaque livre comme un <tag>div type=’livre’</tag>; une pièce de théâtre divisée en actes
@@ -476,14 +476,14 @@
         <head>Variété des structures textuelles</head>
         <p>Pour la TEI, les textes et leurs divisions peuvent contenir un éventail assez limité de
           composants <soCalled>structurels</soCalled>. Ceux-ci incluent les en-têtes et matériaux
-          préliminaires au début ou à la fin d’une division, et un certain nombre de composants de base 
-          qui sont caractéristiques de la prose, des vers ou des textes dramatiques. La
-          prose, pour l’essentiel, consiste en des paragraphes ou des listes, marqués en utilisant
-          les éléments <gi>p</gi> ou <gi>list</gi> respectivement. Les vers consistent en des lignes
-          de vers, marquées à l’aide de l’élément <gi>l</gi>, ou des séquences de lignes de vers
+          préliminaires au début ou à la fin d’une division, et un certain nombre de composants de
+          base qui sont caractéristiques de la prose, des vers ou des textes dramatiques. La prose,
+          pour l’essentiel, consiste en des paragraphes ou des listes, marqués en utilisant les
+          éléments <gi>p</gi> ou <gi>list</gi> respectivement. Les vers consistent en des lignes de
+          vers, marquées à l’aide de l’élément <gi>l</gi>, ou des séquences de lignes de vers
           marquées à l’aide de l’élément <gi>lg</gi> (<soCalled>line group</soCalled>, groupe de
-          lignes). Dans les textes dramatiques, un composant additionnel est offert sous la forme
-          de l’élément <gi>sp</gi> (<soCalled>speech</soCalled>), qui combine un élément
+          lignes). Dans les textes dramatiques, un composant additionnel est offert sous la forme de
+          l’élément <gi>sp</gi> (<soCalled>speech</soCalled>), qui combine un élément
             <gi>speaker</gi> (locuteur) avec un ou plusieurs éléments <gi>p</gi> ou <gi>l</gi>,
           selon que la pièce est en vers ou en prose. </p>
         <div>
@@ -574,9 +574,7 @@
               <graphic url="shakson.png" width="1144px" height="760px"/>
               <head type="legend">Sonnet 130 des <title>Shakespeares Sonnets. Neuer before
                   Imprinted</title> (1609)</head>
-            </figure> 
-            
-            Nous verrons plus loin comment cet encodage pourrait être amélioré pour
+            </figure> Nous verrons plus loin comment cet encodage pourrait être amélioré pour
             produire une version modernisée pour la lecture en même temps que la version
             quasi-diplomatique montrée ici. </p>
         </div>
@@ -658,11 +656,11 @@
                   <stamp type="postage"> Type Machin. 4d, vermillon. </stamp>
                 </ab>
                 <address>
-<addrLine>Mr Louis Burnard</addrLine>
-<addrLine>4 Freeland Cottages,</addrLine>
-<addrLine>Stanton St John</addrLine>
-<addrLine>OXFORD</addrLine>
-</address>
+                  <addrLine>Mr Louis Burnard</addrLine>
+                  <addrLine>4 Freeland Cottages,</addrLine>
+                  <addrLine>Stanton St John</addrLine>
+                  <addrLine>OXFORD</addrLine>
+                </address>
               </div>
             </div>
           </egXML>
@@ -686,11 +684,11 @@
             <att>when</att>. Enfin, nous avons indiqué l’adresse à laquelle la carte a été envoyée,
             en la divisant simplement en lignes. </p>
           <p>Dans un encodage plus détaillé, nous distinguerions probablement les noms des personnes
-            et des lieux, en ajoutant peut-être des coordonnées géographiques pour les noms des lieux
-            mentionnés. Nous pourrions souhaiter ajouter quelques explications au sujet de la petite
-            plaisanterie sur <q>Wales</q>. Nous voudrions probablement distinguer du contenu les
-            parties du message qui relèvent de formules, comme son début et ses lignes finales. Et
-            nous réfléchirions aussi à la meilleure manière d’enregistrer l’information textuelle
+            et des lieux, en ajoutant peut-être des coordonnées géographiques pour les noms des
+            lieux mentionnés. Nous pourrions souhaiter ajouter quelques explications au sujet de la
+            petite plaisanterie sur <q>Wales</q>. Nous voudrions probablement distinguer du contenu
+            les parties du message qui relèvent de formules, comme son début et ses lignes finales.
+            Et nous réfléchirions aussi à la meilleure manière d’enregistrer l’information textuelle
             imprimée au dos de la carte ― le titre et le nom de son éditeur par exemple. L’étendue
             de telles métadonnées, qui fournissent des informations utiles sur la façon dont la
             carte a été produite et utilisée, est très vaste et il est parfois difficile de savoir
@@ -707,8 +705,8 @@
             chargés de sens tels que les paragraphes, les locuteurs, les lignes de vers etc. sont
             éludés ou ignorés en faveur d’une segmentation neutre basée sur des phrases définies par
             l’orthographe. Dans une telle vue, nous pouvons décider de conserver les divisions
-            principales du texte, mais ensuite simplement les séparer à chaque signe de ponctuation appropriés
-            en segments utiles sur le plan linguistique, en utilisant les éléments
+            principales du texte, mais ensuite simplement les séparer à chaque signe de ponctuation
+            appropriés en segments utiles sur le plan linguistique, en utilisant les éléments
             génériques <gi>s</gi> (segment) et <gi>ab</gi> (<foreign xml:lang="en">anonymous
               block</foreign>, bloc anonyme). Pour reprendre notre premier exemple : </p>
           <egXML xmlns="http://www.tei-c.org/ns/Examples">
@@ -840,9 +838,9 @@
             Pourquoi la TEI ne propose-t-elle pas un élément <gi>page</gi> pour représenter chaque
             page d’un livre ? Certainement, il est au moins aussi important de savoir sur quelle
             page commence une phrase que de savoir qu’elle se trouve dans le cinquième paragraphe du
-            second chapitre de la neuvième subsection d’une œuvre ? Certainement, nous
-            souhaiterions être capables de visualiser sur écran un texte paginé de la même façon
-            qu’il l’est dans la sourge originelle ? </p>
+            second chapitre de la neuvième subsection d’une œuvre ? Certainement, nous souhaiterions
+            être capables de visualiser sur écran un texte paginé de la même façon qu’il l’est dans
+            la sourge originelle ? </p>
           <p>La réponse à ces questions parfaitement sensées est étonnament complexe. En fait, la
             TEI propose bien un élément permettant de baliser les limites des pages (<gi>pb</gi>),
             mais il s’agit d’un élément qui doit être placé au début du texte transcrit pour chaque
@@ -871,17 +869,16 @@
             par cette contrainte, et nous n’entrerons pas ici en plus de détails dans la discussion
             du <soCalled>problème de chevauchement</soCalled>. Notons simplement qu’une façon bien
             établie que propose la TEI pour résoudre ce problème prend la forme des balises
-              <soCalled>bornes</soCalled> (<foreign>milestones</foreign>), dont <gi>pb</gi> est probablement 
-            l’exemple le plus
-            fréquent. Alors que les balises normales dans un document XML marquent explicitement à
-            la fois le début et la fin d’un élément, et entourent donc toujours quelque chose, une
-            balise borne marque simplement un point où quelque chose change, mais n’entoure rien. La
-            borne numéro 42 sur la route allant de Londres à Bath marque le point où commence la
-            quarante-deuxième section de la route. Nous pouvons supposer que si nous continuons nous
-            allons atteindre une borne numéro 43, qui marquera le point où commence la
-            quarante-troisième section, et donc (puisqu’une portion de route ne peut appartenir à
-            deux sections en même temps) le point où se termine la quarante-deuxième section - mais
-            cela n’est pas explicitement marqué. </p>
+              <soCalled>bornes</soCalled> (<foreign>milestones</foreign>), dont <gi>pb</gi> est
+            probablement l’exemple le plus fréquent. Alors que les balises normales dans un document
+            XML marquent explicitement à la fois le début et la fin d’un élément, et entourent donc
+            toujours quelque chose, une balise borne marque simplement un point où quelque chose
+            change, mais n’entoure rien. La borne numéro 42 sur la route allant de Londres à Bath
+            marque le point où commence la quarante-deuxième section de la route. Nous pouvons
+            supposer que si nous continuons nous allons atteindre une borne numéro 43, qui marquera
+            le point où commence la quarante-troisième section, et donc (puisqu’une portion de route
+            ne peut appartenir à deux sections en même temps) le point où se termine la
+            quarante-deuxième section - mais cela n’est pas explicitement marqué. </p>
           <p>Les éléments <gi>lb</gi> (<soCalled>line break</soCalled>, changement de ligne),
               <gi>cb</gi> (<soCalled>column break</soCalled>, changement de colonne), et <gi>gb</gi>
               (<soCalled>gathering break</soCalled>, début de cahier pour des folios) sont tous des
@@ -910,20 +907,19 @@
           <p>A moins d’être une balise vide de type borne, chaque élément d’un document TEI peut
             contenir du texte brut, du <soCalled>contenu élémentaire</soCalled>, ou, cas de loin le
             plus fréquent, du <soCalled>contenu mixte</soCalled>. Le texte brut consiste en des
-            caractères représentés à l’aide du standard Unicode ; le contenu élémentaire 
-            consiste en d’autres éléments XML, et le contenu mixte  combine les deux. 
-            Les éléments et attributs TEI sont
-            utilisés pour associer au contenu des propriétés, sémantiques ou autres, de telle façon
-            qu’un processeur puisse le traiter correctement dans des situations variées. Une
-            propriété particulièrement importante est la langue dans laquelle le contenu textuel est exprimé
-            ; une autre est la façon dont le contenu textuel est affiché ou mis en forme. Ces propriétés
-            sont potentiellement importantes à presque tous les niveaux : nous pourrions vouloir
-            dire qu’un document entier utilise une langue spécifique, ou que c’est le cas de
-            quelques mots seulement ici ou là ; nous pourrions vouloir dire que l’intégralité d’un
-            document a été saisie dans une police Roman d’une taille donnée, et ensuite indiquer
-            quelles parties utilisent une autre police ou une autre taille. Parce que de telles
-            informations peuvent potentiellement s’appliquer à tout document, la TEI propose des
-              <term>attributs globaux</term> pour les spécifier. </p>
+            caractères représentés à l’aide du standard Unicode ; le contenu élémentaire consiste en
+            d’autres éléments XML, et le contenu mixte combine les deux. Les éléments et attributs
+            TEI sont utilisés pour associer au contenu des propriétés, sémantiques ou autres, de
+            telle façon qu’un processeur puisse le traiter correctement dans des situations variées.
+            Une propriété particulièrement importante est la langue dans laquelle le contenu textuel
+            est exprimé ; une autre est la façon dont le contenu textuel est affiché ou mis en
+            forme. Ces propriétés sont potentiellement importantes à presque tous les niveaux : nous
+            pourrions vouloir dire qu’un document entier utilise une langue spécifique, ou que c’est
+            le cas de quelques mots seulement ici ou là ; nous pourrions vouloir dire que
+            l’intégralité d’un document a été saisie dans une police Roman d’une taille donnée, et
+            ensuite indiquer quelles parties utilisent une autre police ou une autre taille. Parce
+            que de telles informations peuvent potentiellement s’appliquer à tout document, la TEI
+            propose des <term>attributs globaux</term> pour les spécifier. </p>
           <div>
             <head>Langues</head>
             <p>L’attribut global <att>xml:lang</att> est le moyen recommandé pour indiquer la langue
@@ -981,15 +977,15 @@
               caractères ou de glyphes pour lesquels il n’existe pas de code standard Unicode. </p>
             <p>Supposons par exemple que nous étudions un ensemble de manuscrits caractérisés par
               une forme très particulière d’une lettre (disons le R) ; nos transcriptions TEI
-              peuvent distinguer cette variante de glyphe de la forme habituelle de cette même lettre
-              en utilisant un élément <gi>g</gi> pour marquer la variante. Le contenu de <gi>g</gi>
-              peut simplement être une forme normalisée, ou bien l’élément peut être vide ; dans
-              tous les cas, il portera un attribut <att>ref</att> pointant vers un élément
-                <gi>glyph</gi>, dans lequel nous aurons défini la nature, la fonction, l’apparence,
-              le nom etc. de cette variante. Supposons donc que nous avons identifié et décrit trois
-              formes variantes de la lettre R, en leur donnant les codes R1, R2, R3. Nous pourrions
-              alors représenter les occurrences individuelles de ces formes comme <code>&lt;g
-                ref=’#R1’/&gt;</code>, <code>&lt;g ref=’#R2’/&gt;</code> ou <code>&lt;g
+              peuvent distinguer cette variante de glyphe de la forme habituelle de cette même
+              lettre en utilisant un élément <gi>g</gi> pour marquer la variante. Le contenu de
+                <gi>g</gi> peut simplement être une forme normalisée, ou bien l’élément peut être
+              vide ; dans tous les cas, il portera un attribut <att>ref</att> pointant vers un
+              élément <gi>glyph</gi>, dans lequel nous aurons défini la nature, la fonction,
+              l’apparence, le nom etc. de cette variante. Supposons donc que nous avons identifié et
+              décrit trois formes variantes de la lettre R, en leur donnant les codes R1, R2, R3.
+              Nous pourrions alors représenter les occurrences individuelles de ces formes comme
+                <code>&lt;g ref=’#R1’/&gt;</code>, <code>&lt;g ref=’#R2’/&gt;</code> ou <code>&lt;g
                 ref=’#R3’/&gt;</code>. Les définitions associées peuvent être fournies par l’élement
                 <gi>charsDecl</gi> de l’en-tête TEI, comme il en sera question plus bas. </p>
           </div>
@@ -997,21 +993,21 @@
         <div xml:id="frrend">
           <head>Rendu</head>
           <p>Le terme <term>rendu</term> (<foreign>rendition</foreign> en anglais) est utilisé dans
-            le contexte de la TEI pour décrire la façon dont un élément est mis en forme ou présenté, sur
-            écran ou sur une page. La TEI n’est pas un système de mise en forme de documents, et (comme
-            nous l’avons suggéré plus haut) a généralement pour but de faciliter un encodage fidèle
-            au sens d’un texte plutôt qu’un encodage reproduisant son apparence, ou son apparence
-            souhaitée. C’est un des multiples aspects qui distinguent la TEI des systèmes
-            généralement utilisés pour le trairement de texte, comme nous l’avons noté plus haut.
-            Néanmoins, reconnaissant qu’il peut être important de conserver des informations sur le
-            rendu originel d’un document, à fins d’analyse (notamment parce qu’il se peut que cette
-            apparence soit la seule chose qui puisse être décrite de manière sûre dans un document
-            ancien), la TEI propose un certain nombre de mécanismes pour encoder ces données.
-            Soulignons une fois encore que la fonction d’un tel balisage du rendu est toujours de
-            décrire l’apparence ou le rendu d’un ou plusieurs documents source. Bien sûr, il est
-            probable qu’en visualisant un texte encodé d’une telle manière on souhaitera obtenir une
-            apparence similaire en utilisant des technologies différentes, mais ce n’est pas
-            nécessairement le cas. </p>
+            le contexte de la TEI pour décrire la façon dont un élément est mis en forme ou
+            présenté, sur écran ou sur une page. La TEI n’est pas un système de mise en forme de
+            documents, et (comme nous l’avons suggéré plus haut) a généralement pour but de
+            faciliter un encodage fidèle au sens d’un texte plutôt qu’un encodage reproduisant son
+            apparence, ou son apparence souhaitée. C’est un des multiples aspects qui distinguent la
+            TEI des systèmes généralement utilisés pour le trairement de texte, comme nous l’avons
+            noté plus haut. Néanmoins, reconnaissant qu’il peut être important de conserver des
+            informations sur le rendu originel d’un document, à fins d’analyse (notamment parce
+            qu’il se peut que cette apparence soit la seule chose qui puisse être décrite de manière
+            sûre dans un document ancien), la TEI propose un certain nombre de mécanismes pour
+            encoder ces données. Soulignons une fois encore que la fonction d’un tel balisage du
+            rendu est toujours de décrire l’apparence ou le rendu d’un ou plusieurs documents
+            source. Bien sûr, il est probable qu’en visualisant un texte encodé d’une telle manière
+            on souhaitera obtenir une apparence similaire en utilisant des technologies différentes,
+            mais ce n’est pas nécessairement le cas. </p>
           <p>La méthode la plus simple est d’utiliser l’attribut global <att>rend</att>. Cet
             attribut opère d’une manière similaire à l’attribut <att>xml:lang</att> évoqué plus haut
             : il précise une valeur codée pour le rendu associé à un élément et (à moins d’être
@@ -1105,14 +1101,14 @@
             Lorsqu’une réponse à cette question peut être apportée avec un certain degré de
             confiance, un encodage nous montrant ce qui a motivé la décision originelle de mise en
             forme est plus susceptible d’être utile. </p>
-          <p>Il est assez aisé de lister les principales raisons qui peuvent pousser un imprimeur à 
-            choisir de distinguer visuellement certains mots dans un texte imprimé selon les conventions
-            élaborées en Europe occidentale durant les trois derniers siècles. Les mots dans une
-            langue étrangère sont presque toujours distingués, comme le sont les mots sur lesquels
-            l’auteur met un certain degré d’emphase linguistique. Les titres et les termes
+          <p>Il est assez aisé de lister les principales raisons qui peuvent pousser un imprimeur à
+            choisir de distinguer visuellement certains mots dans un texte imprimé selon les
+            conventions élaborées en Europe occidentale durant les trois derniers siècles. Les mots
+            dans une langue étrangère sont presque toujours distingués, comme le sont les mots sur
+            lesquels l’auteur met un certain degré d’emphase linguistique. Les titres et les termes
             techniques sont par convention distingués visuellement lorsqu’ils apparaissent dans de
-            la prose. Jusqu’à une période récente, les mots indiquant les noms de personnes, de lieux ou
-            d’abstractions étaient également distingués visuellement par convention. </p>
+            la prose. Jusqu’à une période récente, les mots indiquant les noms de personnes, de
+            lieux ou d’abstractions étaient également distingués visuellement par convention. </p>
           <p>Notez que nous utilisons ici la notion de <term>mise en valeur</term>
               (<foreign>highlighting</foreign> en anglais) pour inclure toute forme de relief
             visuel, qu’il s’agisse d’un passage en italique inclus dans un autre mis en forme pour
@@ -1132,29 +1128,28 @@
             d’une chanson, un terme technique, ou une expression que l’auteur souhaite mettre en
             valeur. En utilisant la balise appropriée (<gi>foreign</gi>, <gi>title</gi>,
               <gi>term</gi> ou <gi>emph</gi> respectivement), l’encodeur enrichit le texte et en
-            facilite un traitement plus intelligent, par exemple pour lister les
-            titres de travaux mentionnés dans un document, en excluant les expressions mises en
-            valeur ou les mots en langue étrangère. </p>
+            facilite un traitement plus intelligent, par exemple pour lister les titres de travaux
+            mentionnés dans un document, en excluant les expressions mises en valeur ou les mots en
+            langue étrangère. </p>
           <p>Ces balises peuvent aussi être utilisées même lorsqu’aucune mise en valeur n’a été
             apliquée, bien sûr. L’attribut <att>rend</att> est aussi disponible sur tous ces
-            éléments, si bien que l’encodeur peut dire à la fois ce qu’il pense qu’indique un passage mis
-            en valeur, et dans quelle mesure il est visuellement remarquable, s’il y a
+            éléments, si bien que l’encodeur peut dire à la fois ce qu’il pense qu’indique un
+            passage mis en valeur, et dans quelle mesure il est visuellement remarquable, s’il y a
             lieu. </p>
         </div>
         <div>
           <head>Noms et dates</head>
-          <p>Nous avons mentionné plus haut la convention voulant que l’on distingue 
-            visuellement les noms de
-            personnes, de lieux, etc. dans un texte imprimé. Cette pratique, qui était généralisée
-            jusqu’au milieu du XIXe siècle, témoigne d’un désir bien établi des lecteurs de
-            distinguer clairement les noms des autres mots, un désir qui demeure partagé par les
+          <p>Nous avons mentionné plus haut la convention voulant que l’on distingue visuellement
+            les noms de personnes, de lieux, etc. dans un texte imprimé. Cette pratique, qui était
+            généralisée jusqu’au milieu du XIXe siècle, témoigne d’un désir bien établi des lecteurs
+            de distinguer clairement les noms des autres mots, un désir qui demeure partagé par les
             encodeurs numériques des temps modernes. Identifier ce qui est souvent désigné comme les
               <q>entités nommées</q> du reste d’un océan de mots est une tâche tout aussi importante
             pour le linguiste d’aujourd’hui construisant un système de traitement du langage, ou
             pour l’historien numérique d’aujourd’hui retraçant des réseaux sociaux au sein d’un
-            corpus de correspondances du XVIIIe siècle, que pour les services secrets
-            d’aujourd’hui qui tentent de traquer les références à des personnes suspectées de
-            terrorisme dans de vastes ensembles de données de surveillance. </p>
+            corpus de correspondances du XVIIIe siècle, que pour les services secrets d’aujourd’hui
+            qui tentent de traquer les références à des personnes suspectées de terrorisme dans de
+            vastes ensembles de données de surveillance. </p>
           <p>La TEI propose plusieurs éléments pour encoder de telles choses une fois qu’elles ont
             été identifiées. Le plus générique d’entre eux est probablement <gi>rs</gi> (abréviation
             de <foreign>referring strintg</foreign>, chaîne de référence) qui peut être utilisé pour
@@ -1195,10 +1190,10 @@
           <p>Imaginons par exemple que nous préparons une édition électronique d’une source primaire
             telle que les <title>Current Record of Events from 1792 to 1885, As recorded by The
               Shaker community of Canterbury, New Hampshire</title> (un manuscrit conservé dans les
-            collections spéciales de la Hamilton College Library). Ce document du XIXe
-            siècle commence par la phrase suivante : <q>Le premier jour de février 1792 le Père Job
-              Bishop et le Doyen Edmond Lougee arrivèrent de New Lebanon N.Y. pour organiser et
-              établir une communauté de Croyants à Canterbury N.H.</q>
+            collections spéciales de la Hamilton College Library). Ce document du XIXe siècle
+            commence par la phrase suivante : <q>Le premier jour de février 1792 le Père Job Bishop
+              et le Doyen Edmond Lougee arrivèrent de New Lebanon N.Y. pour organiser et établir une
+              communauté de Croyants à Canterbury N.H.</q>
           </p>
           <p>Nous pourrions nous contenter de simplement enregistrer la présence de noms propres
               (<q>Père Job Bishop</q>, <q>Canterbury</q> etc.) en utilisant l’élément <gi>name</gi>
@@ -1209,20 +1204,20 @@
               établir une communauté de Croyants à <name>Canterbury N.H</name>.</p>
           </egXML>
           <p>Même ce balisage minimal permet de distinguer facilement les noms de personnes et de
-            lieux mentionnés, et ainsi de les traiter séparément du reste du texte, par exemple
-            pour construire un index des noms, ou pour lier ces références à des informations
+            lieux mentionnés, et ainsi de les traiter séparément du reste du texte, par exemple pour
+            construire un index des noms, ou pour lier ces références à des informations
             complémentaires sur la personne ou le lieu concerné</p>
           <p>Un balisage plus précis, cependant, distinguerait les composants des noms qui (comme
-            c’est souvent le cas) combinent le nom de famille (<q>Bishop</q>, <q>Lougee</q>) avec des
-            noms indiquant un rôle social (<q>Père</q>, <q>Doyen</q>) et des prénoms (<q>Job</q>,
-              <q>Edmond</q>). De telles distinctions ne peuvent être rendues explicites que par un
-            balisage approprié ― <q>Bishop</q>, qui signifie <q>évêque</q>, pourrait être aussi bien
-            un rôle qu’un nom de famille, selon le contexte. De la même façon, à l’intérieur d’un
-              <gi>placeName</gi>, il est utile de distinguer le nom d’une région administrative ou
-            autre, telle qu’un état US, du nom d’une <term>implantation</term>, en anglais
-              <foreign>settlement</foreign> (la TEI utilise ce terme neutre de préférence à d’autres
-            termes comme <q>ville</q>, <q>village</q>, <q>cité</q> etc. qui sont difficiles à
-            définir hors d’un contexte très précis).</p>
+            c’est souvent le cas) combinent le nom de famille (<q>Bishop</q>, <q>Lougee</q>) avec
+            des noms indiquant un rôle social (<q>Père</q>, <q>Doyen</q>) et des prénoms
+            (<q>Job</q>, <q>Edmond</q>). De telles distinctions ne peuvent être rendues explicites
+            que par un balisage approprié ― <q>Bishop</q>, qui signifie <q>évêque</q>, pourrait être
+            aussi bien un rôle qu’un nom de famille, selon le contexte. De la même façon, à
+            l’intérieur d’un <gi>placeName</gi>, il est utile de distinguer le nom d’une région
+            administrative ou autre, telle qu’un état US, du nom d’une <term>implantation</term>, en
+            anglais <foreign>settlement</foreign> (la TEI utilise ce terme neutre de préférence à
+            d’autres termes comme <q>ville</q>, <q>village</q>, <q>cité</q> etc. qui sont difficiles
+            à définir hors d’un contexte très précis).</p>
           <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <p>Le premier jour de février 1792 le <persName><roleName>Père</roleName>
                 <forename>Job</forename>
@@ -1261,16 +1256,16 @@
             additionnels qui peuvent être utilisés pour enregistrer ce type d’informations avec
             beaucoup de détails : l’information biographique ou prosopographique par exemple peut
             être rassemblée au sein d’un élément <gi>person</gi>, tandis que l’information
-            géographique peut être rassemblée au sein d’un élément <gi>place</gi> ; si l’on procède ainsi, 
-            alors l’attribut <att>ref</att> peut être utilisé pour pointer vers ces
+            géographique peut être rassemblée au sein d’un élément <gi>place</gi> ; si l’on procède
+            ainsi, alors l’attribut <att>ref</att> peut être utilisé pour pointer vers ces
             descriptions : </p>
           <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <persName ref="#P1234"> Doyen Edmond Lougee </persName>
             <!-- .... -->
             <person xml:id="P1234">
               <p>Edmund ou Edmond Lougee est né à Exeter Newmarket, Rockingham, New Hampshire, USA
-                en 1731 de John Lougee et Anne Gilman. Il a épousé Hannah Lord et a eu 7 enfants.
-                Il est décédé le 3 juin 1807 à Loudon, New Hampshire, USA.</p>
+                en 1731 de John Lougee et Anne Gilman. Il a épousé Hannah Lord et a eu 7 enfants. Il
+                est décédé le 3 juin 1807 à Loudon, New Hampshire, USA.</p>
             </person>
           </egXML>
           <p>Notons que cet exemple fournit un simple résumé des informations disponibles sur le
@@ -1417,13 +1412,13 @@
               ou dans une note de bas de page, sont des éléments très communs dans les écrits
               scientifiques. Il est utile de distinguer explicitement de tels éléments et en
               particulier leurs composants (auteur, titre, maison d’édition, date de publication,
-              etc.), à la fois pour rendre plus faciles les recherches les concernant, et pour rendre
-              plus facile leur mise en forme. Lorsque de grandes quantités de ces références doivent
-              être manipulées, des outils spécialisés tels que Zotero, qui peut importer et exporter
-              au format TEI, offrent un moyen efficace de les gérer, mais ces références peuvent être
-              traitées exactement de la même façon que tout autre composant d’un document TEI,
-              qu’elles apparaissent dans le corps du texte, dans une division séparée au sein des
-              parties annexes, ou dans l’en-tête. </p>
+              etc.), à la fois pour rendre plus faciles les recherches les concernant, et pour
+              rendre plus facile leur mise en forme. Lorsque de grandes quantités de ces références
+              doivent être manipulées, des outils spécialisés tels que Zotero, qui peut importer et
+              exporter au format TEI, offrent un moyen efficace de les gérer, mais ces références
+              peuvent être traitées exactement de la même façon que tout autre composant d’un
+              document TEI, qu’elles apparaissent dans le corps du texte, dans une division séparée
+              au sein des parties annexes, ou dans l’en-tête. </p>
 
             <p>Dans les écrits scientifiques, on donne par convention les références dans un format
               standard, dans lequel les éléments apparaissent dans un ordre bien arrêté, et
@@ -1465,9 +1460,9 @@
               </bibl>
             </egXML>
             <p>L’élément <gi>monogr</gi> indique ici ce que les spécialistes de bibliographie
-              appellent une <term>monographie</term>, c’est-à-dire un travail individuel, par opposition à une
-              référence de <term>dépouillement analytique</term> comme un article de revue
-              scientifique. </p>
+              appellent une <term>monographie</term>, c’est-à-dire un travail individuel, par
+              opposition à une référence de <term>dépouillement analytique</term> comme un article
+              de revue scientifique. </p>
 
             <p>L’élément <gi>bibl</gi> propose une vue moins structurée, plus <term>centrée sur le
                 texte</term> d’une référence bibliographique, dans laquelle la ponctuation est
@@ -1579,16 +1574,16 @@
               pré&#x2013;numérique devaient nécessairement concentrer toute leur attention sur la
               production d’une seule version imprimée du texte, minutieusement préparée et
               corroborée, le modèle économique de la production numérique a grandement facilité la
-              production d’éditions électroniques <soCalled>diplomatiques</soCalled> ou documentaires, qui veulent
-              présenter objectivement la réalité d’une collection donnée de documents de telle façon
-              que le lecteur puisse déterminer la vraisemblance de toute version <q>éditée</q>, ou
-              même créer une telle édition pour lui-mêmes. </p>
+              production d’éditions électroniques <soCalled>diplomatiques</soCalled> ou
+              documentaires, qui veulent présenter objectivement la réalité d’une collection donnée
+              de documents de telle façon que le lecteur puisse déterminer la vraisemblance de toute
+              version <q>éditée</q>, ou même créer une telle édition pour lui-mêmes. </p>
             <p>Lorsqu’on transcrit un texte source, l’élément <gi>corr</gi> peut être utilisé pour
               entourer une partie qui a été corrigée et l’élément <gi>reg</gi> une partie qui a été
               normalisée. Pour le cas opposé, l’élément <gi>sic</gi> peut être utilisé lorsqu’une
-               chose aurait dû être corrigée mais ne l’a pas été ; et l’élément <gi>orig</gi>
-              pour les cas où l’orthographe d’origine a été conservée bien qu’elle paraisse étrange.
-              Par exemple, une version modernisée du sonnet de Shakespeare vu plus haut commencerait
+              chose aurait dû être corrigée mais ne l’a pas été ; et l’élément <gi>orig</gi> pour
+              les cas où l’orthographe d’origine a été conservée bien qu’elle paraisse étrange. Par
+              exemple, une version modernisée du sonnet de Shakespeare vu plus haut commencerait
               probablement ainsi : </p>
             <egXML xmlns="http://www.tei-c.org/ns/Examples">
               <l>My Mistress&#x2019; eyes are nothing like the sun,</l>
@@ -1621,13 +1616,14 @@
               comme la lecture <soCalled>primaire</soCalled> ou <soCalled>correcte</soCalled>, et
               dans ce cas elle sera balisée en utilisant l’élement <gi>lem</gi> plutôt qu’un
                 <gi>rdg</gi> parmi les autres. L’élément <gi>rdg</gi> a un attribut <att>wit</att>
-              qui peut être utilisé pour identifier le ou les témoins dans lesquels la lecture en question est
-              attestée. Par exemple, la première ligne du <title>Conte de la femme de Bath</title>
-              de Chaucer commence ainsi : <q>Experience though noon Auctoritee...</q>, mais son
-              premier mot est orthographié très différemment dans trois des manuscrits survivants.
-              Considérées dans leur entier, de telles variations orthographiques fournissent des
-              données utiles pour la reconstruction de l’histoire de la traduction manuscrite en
-              question, et notre encodage devra donc les préserver. Nous pourrions procéder ainsi : </p>
+              qui peut être utilisé pour identifier le ou les témoins dans lesquels la lecture en
+              question est attestée. Par exemple, la première ligne du <title>Conte de la femme de
+                Bath</title> de Chaucer commence ainsi : <q>Experience though noon
+              Auctoritee...</q>, mais son premier mot est orthographié très différemment dans trois
+              des manuscrits survivants. Considérées dans leur entier, de telles variations
+              orthographiques fournissent des données utiles pour la reconstruction de l’histoire de
+              la traduction manuscrite en question, et notre encodage devra donc les préserver. Nous
+              pourrions procéder ainsi : </p>
             <egXML xmlns="http://www.tei-c.org/ns/Examples">
               <l n="1">
                 <app>
@@ -1658,8 +1654,8 @@
             </figure>
             <p>Owen a d’abord écrit <q>Helping the worst amongst us</q>, mais l’a ensuite effacé,
               ajoutant <q>Dragging the worst amongt us</q> au-dessus. De la même façon, il a révisé
-              l’expression <q>half&#x2013;blind</q> en effaçant <q>half&#x2013;</q> et en
-              ajoutant <q>all</q> au-dessus. A la dernière ligne, il a commencé un mot débutant par
+              l’expression <q>half&#x2013;blind</q> en effaçant <q>half&#x2013;</q> et en ajoutant
+                <q>all</q> au-dessus. A la dernière ligne, il a commencé un mot débutant par
                 <q>fif</q> avant de l’effacer et d’écrire le mot <q>five&#x2013;nines</q>. Nous
               pouvons encoder tout ceci de cette façon : </p>
             <egXML xmlns="http://www.tei-c.org/ns/Examples">
@@ -1707,15 +1703,15 @@
             orale. L’étude du discours transcrit est aussi une composante essentielle des études
             sociologiques comme l’histoire orale. </p>
           <p>Cependant, les unités dans lesquelles une telle analyse est menée — en termes TEI, les
-            éléments composant un élément <gi>text</gi> qui contient un discours transcrit — ne
-            font pas l’objet d’un consensu universel, et peuvent même être l’objet de controverses.
-            Un autre facteur de complication est que le processus de transcription du discours est
+            éléments composant un élément <gi>text</gi> qui contient un discours transcrit — ne font
+            pas l’objet d’un consensu universel, et peuvent même être l’objet de controverses. Un
+            autre facteur de complication est que le processus de transcription du discours est
             techniquement difficile, et est souvent mené à l’aide de logiciels dédiés. C’est une
             complication car la plupart de ces logiciels sont enclins à utiliser leur propre format
             interne plutôt qu’un format défini extérieurement. </p>
-          <p>Néanmoins, la TEI propose un ensemble d’éléments qui peuvent être utiles pour l’encodage
-            détaillé de transcriptions du discours, et qui peuvent être utilisés comme une sorte
-            d’interlangue pour des méthodes alternatives d’encodage déjà existantes. </p>
+          <p>Néanmoins, la TEI propose un ensemble d’éléments qui peuvent être utiles pour
+            l’encodage détaillé de transcriptions du discours, et qui peuvent être utilisés comme
+            une sorte d’interlangue pour des méthodes alternatives d’encodage déjà existantes. </p>
 
           <p>Le modèle TEI s’intéresse au discours comme un système de communication. Il propose
             donc l’étiquetage explicite de toute partie d’un son enregistré qui a une fonction ou un
@@ -1726,12 +1722,11 @@
             donc un élément <gi>vocal</gi> pour des phénomènes non-lexicaux tels qu’un bruit de toux
             ou un rire, et un élément <gi>kinesic</gi> pour des phénomènes non-lexicaux et
             non-vocaux tels que des gestes ou des expressions faciales. Ces éléments sont complétés
-            par quelques autres destinés à ce qui pourrait être appelé
-              le <q>rendu</q> du discours : ce sont en particulier <gi>pause</gi> et
-              <gi>shift</gi> (changement), ce dernier étant utilisé pour indiquer des changements
-            dans la qualité de la voix (par exemple dans son volume, sa hauteur, ou sa vitesse). Ces
-            éléments fonctionnent d’une manière très similaire aux éléments bornes présentés plus
-            haut. </p>
+            par quelques autres destinés à ce qui pourrait être appelé le <q>rendu</q> du discours :
+            ce sont en particulier <gi>pause</gi> et <gi>shift</gi> (changement), ce dernier étant
+            utilisé pour indiquer des changements dans la qualité de la voix (par exemple dans son
+            volume, sa hauteur, ou sa vitesse). Ces éléments fonctionnent d’une manière très
+            similaire aux éléments bornes présentés plus haut. </p>
 
           <p>L’une des notions les plus controversées de la recherche sur le discours est celle de
               <q>tour de parole</q> ou d’<q>énoncé</q> : la TEI propose un élément <gi>u</gi> qui
@@ -1742,9 +1737,9 @@
             même façon que nous l’avons vu pour l’attribut <att>ref</att>. </p>
           <p>Pour beaucoup d’analyses linguistiques, l’élément <gi>s</gi> mentionné plus haut peut
             être un moyen plus utile d’organiser une transcription, puisqu’il permet à l’encodeur de
-            catégoriser chaque segment indépendamment de l’énoncé qui le contient, surtout dans le mesure où 
-            les énoncés peuvent être bien plus longs (ou bien plus courts) qie les unités d’analyse
-            habituelles. </p>
+            catégoriser chaque segment indépendamment de l’énoncé qui le contient, surtout dans le
+            mesure où les énoncés peuvent être bien plus longs (ou bien plus courts) qie les unités
+            d’analyse habituelles. </p>
           <p>Voici un exemple simplifié tiré du <ref target="http://www.natcorp.ox.ac.uk/">British
               National Corpus</ref> (BNC) dans lequel <gi>s</gi> et <gi>u</gi> ont tous deux été
             utilisés pour segmenter le discours transcrit : </p>
@@ -1795,14 +1790,14 @@
             </u>
           </egXML>
           <!-- BNC KSP -->
-          <p>En transcrivant ce discours, le transcripteur doit aussi prendre des décisions quant à la
-            façon de représenter les sons non-standard ou semi-lexicalisés que font les locuteurs,
-            tels que <q>hmmm</q>, <q>ach</q> ou <q>tsk tsk</q>dans l’exemple ci-dessus (dans
-            ce cas la décision a été de traiter <q>ach</q> comme un mot et <q>tsk tsk</q> comme un
-            élément <gi>vocal</gi>). Même lorsqu’il est clair que le son est lexical, la façon dont
-            il doit être orthographié n’est pas toujours évidente. Par exemple, le son représenté
-            ci-dessus comme <q>yeah</q> pourrait aussi bien être écrit <q>yeh</q> ou <q>yuh</q> ou
-            même <q>yes</q>. </p>
+          <p>En transcrivant ce discours, le transcripteur doit aussi prendre des décisions quant à
+            la façon de représenter les sons non-standard ou semi-lexicalisés que font les
+            locuteurs, tels que <q>hmmm</q>, <q>ach</q> ou <q>tsk tsk</q>dans l’exemple ci-dessus
+            (dans ce cas la décision a été de traiter <q>ach</q> comme un mot et <q>tsk tsk</q>
+            comme un élément <gi>vocal</gi>). Même lorsqu’il est clair que le son est lexical, la
+            façon dont il doit être orthographié n’est pas toujours évidente. Par exemple, le son
+            représenté ci-dessus comme <q>yeah</q> pourrait aussi bien être écrit <q>yeh</q> ou
+              <q>yuh</q> ou même <q>yes</q>. </p>
 
           <p>Dans les corpus linguistiques de ce type, une pratique courante consiste à marquer
             chaque mot explicitement, souvent en utilisant l’élément <gi>w</gi>
@@ -1843,8 +1838,8 @@
           <p>Les dictionnaires, en particulier sous forme imprimée, sont différents de la plupart
             des autres types de documents dans la mesure où ils ne sont pas composés de texte
             courant, mais plutôt d’entrées distinctes au sein desquelles peuvent être facilement
-            reconnus des sous-composants individuels et signifiants sur le plan sémantique, même s’ils 
-            ne sont pas forcément présentés aussi systématiquement qu’un architecte de base de
+            reconnus des sous-composants individuels et signifiants sur le plan sémantique, même
+            s’ils ne sont pas forcément présentés aussi systématiquement qu’un architecte de base de
             données pourrait le souhaiter. Une entrée de dictionnaire a toujours un mot vedette,
             typiquement suivi par des informations linguistiques telles que sa catégorie
             grammaticale, et par une série de définition de ses sens, souvent arrangées de manière
@@ -1891,17 +1886,17 @@
         </div>
         <div xml:id="frNOTES">
           <head>Notes</head>
-          <p>Les textes, particulièrement les plus anciens, sont souvent accompagnés par de
-            nombreux commentaires et annotations, fournis par l’auteur originel ou plus
-            communément par un éditeur ou commentateur ultérieur. Tous les types d’écrits
-            académiques sont caractérisés par des notes de bas de page, des notes marginales, des
-            gloses, des références bibliographiques, etc. Pour toutes ces caractéristiques, le moyen
-            le plus naturel de les baliser est d’utiliser un élément <gi>note</gi> pour contenir
-            l’annotation elle-même, et pour l’inclure dans le texte qui est annoté au
-              <soCalled>point d’insertion</soCalled>, c’est-à-dire l’endroit où un appel de note ou
-            une autre marque apparaît typiquement dans un texte imprimé. Les attributs de l’élément
-              <gi>note</gi> peuvent être utilisés pour catégoriser le contenu, pour indiquer son
-            emplacement approximatif, et pour indiquer qui est responsable de cette note. </p>
+          <p>Les textes, particulièrement les plus anciens, sont souvent accompagnés par de nombreux
+            commentaires et annotations, fournis par l’auteur originel ou plus communément par un
+            éditeur ou commentateur ultérieur. Tous les types d’écrits académiques sont caractérisés
+            par des notes de bas de page, des notes marginales, des gloses, des références
+            bibliographiques, etc. Pour toutes ces caractéristiques, le moyen le plus naturel de les
+            baliser est d’utiliser un élément <gi>note</gi> pour contenir l’annotation elle-même, et
+            pour l’inclure dans le texte qui est annoté au <soCalled>point d’insertion</soCalled>,
+            c’est-à-dire l’endroit où un appel de note ou une autre marque apparaît typiquement dans
+            un texte imprimé. Les attributs de l’élément <gi>note</gi> peuvent être utilisés pour
+            catégoriser le contenu, pour indiquer son emplacement approximatif, et pour indiquer qui
+            est responsable de cette note. </p>
           <p>Dans la pratique contemporaine, les annotations explicatives sont fréquemment déplacées
             à la fin du livre. Par exemple, dans une discussion des attitudes contemporaines face
             aux linguistes publiée en 1995, nous trouvons le commentaire suivant : <figure>
@@ -1945,17 +1940,16 @@
                   the club will have them as members).</note>
                 <!-- et ici aussi -->
               </back>
-            </egXML> 
-            Pour représenter le lien entre le texte et la note, nous donnons d’abord un
+            </egXML> Pour représenter le lien entre le texte et la note, nous donnons d’abord un
             identifiant unique à l’élément <gi>note</gi> (<ident>note6</ident>), et ensuite nous
             plaçons un élément <gi>ptr</gi> au point dans le texte auquel nous voulons faire
             référence à la note (le <soCalled>point d’insertion</soCalled>). Cet élément pointeur
             représente le 6 suscrit dans la source originale, et indique également que sa fonction
             est de pointer vers la note dont l’identifiant est donné par son attribut
               <att>target</att> (cible). De manière alternative, si nous tenions à enregistrer la
-            façon dont le point d’insertion apparaît dans le texte, nous pourrions utiliser l’élément
-              <gi>ref</gi> : <egXML xmlns="http://www.tei-c.org/ns/Examples"> ...the Groucho Club
-                <ref target="#note6">6</ref>) have ...</egXML>
+            façon dont le point d’insertion apparaît dans le texte, nous pourrions utiliser
+            l’élément <gi>ref</gi> : <egXML xmlns="http://www.tei-c.org/ns/Examples"> ...the Groucho
+              Club <ref target="#note6">6</ref>) have ...</egXML>
           </p>
         </div>
         <div xml:id="frANA">
@@ -1969,24 +1963,24 @@
             analyses linguistiques (comme <q>ceci est un verbe</q>, ou <q>cette séquence de mots a
               telle fonction syntaxique</q>, ou même <q>ceci est une métaphore</q>) sont un type
             d’annotation différent de celles présentées ailleurs dans ce livre (comme <q>ceci est un
-              titre</q>, <q>ceci est un nom propre</q>, etc). En particulier, le
-            consensus est plus faible sur les catégories impliquées : la plupart des gens s’accorderont sur le fait
-            que les <soCalled>noms de lieux</soCalled> sont un concept utile et définissable, mais
-            les concepts qui sous-tendent l’analyse linguistique sont beaucoup plus divers. La TEI
-            ne propose donc pas de balises telles que <gi>nom</gi> ou <gi>complément</gi> ou
+              titre</q>, <q>ceci est un nom propre</q>, etc). En particulier, le consensus est plus
+            faible sur les catégories impliquées : la plupart des gens s’accorderont sur le fait que
+            les <soCalled>noms de lieux</soCalled> sont un concept utile et définissable, mais les
+            concepts qui sous-tendent l’analyse linguistique sont beaucoup plus divers. La TEI ne
+            propose donc pas de balises telles que <gi>nom</gi> ou <gi>complément</gi> ou
               <gi>métaphore</gi>, mais au lieu de cela elle propose des éléments d’utilisation
             générique pour segmenter les textes en plus petites unités, dont chacune peut porter les
             étiquettes définies par le projet.</p>
-          <p>Cette méthode est particulièrement utile lorsqu’un texte numérique est automatiquement analysé
-            par un programme informatique (par exemple un analyseur morphosyntaxique) puisque le
-            format utilisé pour les sorties de tels systèmes automatisés diffèrent considérablement.
-            La TEI offre un moyen simple de segmenter explicitement un texte en unités de type
-              <soCalled>mot</soCalled>, et d’associer des codes linguistiques à chaque segment. Par
-            exemple, comme beaucoup d’autres corpus linguistiques, le BNC fournit des codes
-            identifiant la catégorie grammaticale (nom, adjectif, verbe, etc.) de chaque mot ainsi
-            que sa base ou forme ni déclinée ni conjuguée. Nous pourrions donc représenter comme
-            ceci en TEI la phrase citée ci-dessus : <egXML xmlns="http://www.tei-c.org/ns/Examples"
-              rend="tiny">
+          <p>Cette méthode est particulièrement utile lorsqu’un texte numérique est automatiquement
+            analysé par un programme informatique (par exemple un analyseur morphosyntaxique)
+            puisque le format utilisé pour les sorties de tels systèmes automatisés diffèrent
+            considérablement. La TEI offre un moyen simple de segmenter explicitement un texte en
+            unités de type <soCalled>mot</soCalled>, et d’associer des codes linguistiques à chaque
+            segment. Par exemple, comme beaucoup d’autres corpus linguistiques, le BNC fournit des
+            codes identifiant la catégorie grammaticale (nom, adjectif, verbe, etc.) de chaque mot
+            ainsi que sa base ou forme ni déclinée ni conjuguée. Nous pourrions donc représenter
+            comme ceci en TEI la phrase citée ci-dessus : <egXML
+              xmlns="http://www.tei-c.org/ns/Examples" rend="tiny">
               <u who="PS6NY">
                 <s n="12">
                   <w ana="#VM0" lemma="lets">Lets</w>
@@ -2023,8 +2017,8 @@
             ou <code>NN1</code> signifient. </p>
 
           <p>Une méthode consiste à fournir une définition plus précise de la catégorie, typiquement
-            dans l’en-tête TEI, en utilisant l’élément <gi>taxonomy</gi>. Une telle définition n’aura de sens
-            que pour un être humain, mais elle peut néanmoins être utile. </p>
+            dans l’en-tête TEI, en utilisant l’élément <gi>taxonomy</gi>. Une telle définition
+            n’aura de sens que pour un être humain, mais elle peut néanmoins être utile. </p>
 
           <p>A l’opposé, les catégories peuvent être définies formellement en utilisant les
             recommandations communes TEI/ISO pour la représentation des analyses linguistiques en
@@ -2042,22 +2036,21 @@
             même façon que les documents TEI en général sont interopérables. </p>
 
           <p>Il faut aussi noter que le même mécanisme peut être utilisé pour tout type d’analyse,
-            pas uniquement linguistique ; les analyses stylistiques (qui caractérisent
-            typiquement des portions de texte plus longues qu’un seul mot) peuvent aussi être
-            encodées de la même façon, en attachant un attribut <att>ana</att> à tout élément qui
-            sera choisi pour entourer la portion de texte en question, par exemple un élément
-              <gi>p</gi>, <gi>div</gi>, <gi>s</gi>, etc. </p>
+            pas uniquement linguistique ; les analyses stylistiques (qui caractérisent typiquement
+            des portions de texte plus longues qu’un seul mot) peuvent aussi être encodées de la
+            même façon, en attachant un attribut <att>ana</att> à tout élément qui sera choisi pour
+            entourer la portion de texte en question, par exemple un élément <gi>p</gi>,
+              <gi>div</gi>, <gi>s</gi>, etc. </p>
 
           <p>Bien entendu, les unités textuelles analysées ne coïncident pas nécessairement avec les
             unités textuelles directement représentées dans le texte. Nous avons mentionné plus haut
-            une façon de gérer ce fréquent <soCalled>problème de chevauchement</soCalled> dans la section 
-            sur <ptr type="crossref" target="#frmilestones"/> du chapitre précédent. 
-            Une autre façon consiste à utiliser un
-            balisage <soCalled>standoff</soCalled>, dans lequel les unités analysées sont
-            représentées non par des éléments XML mais par des pointeurs. Le <ref
-              target="http://www.tei-c.org/Vault/P5/2.8.0/doc/tei-p5-doc/fr/html/NH.html">Chapitre
-              20 des Guidelines de la TEI</ref> présente en plus de détails ces techniques et
-            d’autres. </p>
+            une façon de gérer ce fréquent <soCalled>problème de chevauchement</soCalled> dans la
+            section sur <ptr type="crossref" target="#frmilestones"/> du chapitre précédent. Une
+            autre façon consiste à utiliser un balisage <soCalled>standoff</soCalled>, dans lequel
+            les unités analysées sont représentées non par des éléments XML mais par des pointeurs.
+            Le <ref target="http://www.tei-c.org/Vault/P5/2.8.0/doc/tei-p5-doc/fr/html/NH.html"
+              >Chapitre 20 des Guidelines de la TEI</ref> présente en plus de détails ces techniques
+            et d’autres. </p>
         </div>
       </div>
       <div xmlns="http://www.tei-c.org/ns/1.0" xml:id="frHDR" xml:lang="fr">
@@ -2070,14 +2063,14 @@
           séparément, par exemple dans une structure de base de données pour des raisons
           d’efficacité. Il est aussi habituel d’exposer un sous-ensemble de ces métadonnées aux
           moteurs de recherche du Web selon un ou plusieurs standard tels que le Dublin Core.
-          L’en-tête TEI est proposé comme un moyen pour stocker toutes ces informations
-          dans un même endroit, indépendamment de la façon dont elles peuvent être utilisées. Bien
-          entendu, la portée et la quantité des données collectées dans l’en-tête peut varier
-          considérablement entre des documents préparés avec des objectifs différents ou par des
-          projets différents. Qui plus est, au moins dans l’esprit originel de sa conception, le
-          contenu d’un en-tête TEI n’est pas nécessairement conforme aux normes de catalogage les
-          plus strictes ou précises. Cependant, il remplit le rôle d’un endroit où (par exemple) le
-          créateur des données et le conservateur des données peuvent partager de l’information.</p>
+          L’en-tête TEI est proposé comme un moyen pour stocker toutes ces informations dans un même
+          endroit, indépendamment de la façon dont elles peuvent être utilisées. Bien entendu, la
+          portée et la quantité des données collectées dans l’en-tête peut varier considérablement
+          entre des documents préparés avec des objectifs différents ou par des projets différents.
+          Qui plus est, au moins dans l’esprit originel de sa conception, le contenu d’un en-tête
+          TEI n’est pas nécessairement conforme aux normes de catalogage les plus strictes ou
+          précises. Cependant, il remplit le rôle d’un endroit où (par exemple) le créateur des
+          données et le conservateur des données peuvent partager de l’information.</p>
 
         <p>A l’origine, l’en-tête TEI a été conçu pour répondre à deux besoins assez différents.
           D’un côté, il a été créé pour aider les spécialistes de bibliographie et les
@@ -2111,8 +2104,8 @@
               <gi>profileDesc</gi> (<foreign>profile description</foreign>, description du profil)
               fournit une description détaillée des aspects non&#x2013;bibliographiques d’un texte,
               plus précisément les langues et sous-types de langues qu’il utilise, le contexte dans
-              lequel il a été produit, les participants et leur cadre (soit à peu près tout ce qui n’est 
-              pas déjà couvert par les autres composants principaux de l’en-tête). </item>
+              lequel il a été produit, les participants et leur cadre (soit à peu près tout ce qui
+              n’est pas déjà couvert par les autres composants principaux de l’en-tête). </item>
             <item>
               <gi>revisionDesc</gi> (<foreign>revision description</foreign>, description des
               révisions) résume l’historique des révisions pour un fichier. </item>
@@ -2187,8 +2180,8 @@
             que pour une ressource qui doit être partagée. La déclaration de publication vous permet
             de spécifier qui rend la ressource disponible, tout identifiant qui lui est attaché
             comme un numéro dans un catalogue ou un <foreign>Resource Identifier</foreign>, et des
-            informations sur les conditions selon lesquelles elle est distribuée (comme une licence),
-            comme on peut le voir ici : </p>
+            informations sur les conditions selon lesquelles elle est distribuée (comme une
+            licence), comme on peut le voir ici : </p>
           <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <publicationStmt>
               <publisher>Humanities Media and Computing center</publisher>
@@ -2523,9 +2516,9 @@
             model.profileDescPart incluent : <list>
               <item>
                 <gi>creation</gi> : informations sur l’origine du contenu intellectuel du texte, par
-                exemple en termes de temps et de lieu. Dans une édition génétique, il peut inclure un
-                élément structuré <gi>listChange</gi> documentant chacune des étapes significatives
-                identifiées dans l’évolution d’un texte ;</item>
+                exemple en termes de temps et de lieu. Dans une édition génétique, il peut inclure
+                un élément structuré <gi>listChange</gi> documentant chacune des étapes
+                significatives identifiées dans l’évolution d’un texte ;</item>
               <item>
                 <gi>langUsage</gi> (langue utilisée) : information sur les langues, registres de
                 langue, systèmes d’écriture etc. utilisés dans le texte ; chaque langue utilisée est
@@ -2537,7 +2530,7 @@
                 spécifiés, ou d’une collection de pointeurs, respectivement.</item>
               <item>
                 <gi>particDesc</gi> (description des participants) et <gi>settingDesc</gi>
-                (description du contexte) : informations sur les <soCalled>participants</soCalled>, 
+                (description du contexte) : informations sur les <soCalled>participants</soCalled>,
                 réels ou fictionnels, dans le texte</item>
               <!--item>
                             <gi>handNotes</gi>: information about each of the hands identified in
@@ -2546,8 +2539,7 @@
           </p>
           <p>Nous avons noté plus haut qu’un élément <gi>catRef</gi> est disponible pour appliquer
             une classification à un texte en lien avec une taxonomie prédéfinie. L’élément
-              <gi>profileDesc</gi> propose plusieurs façons complémentaires de faire ceci : 
-            <list
+              <gi>profileDesc</gi> propose plusieurs façons complémentaires de faire ceci : <list
               type="gloss">
               <label>en utilisant <gi>catRef</gi></label>
               <item>en faisant référence à une catégorie définie localement (par exemple dans
@@ -2583,8 +2575,8 @@
             fine, l’attribut <att>decls</att> peut être utilisé pour sélectionner la classification
             applicable à tout élément déclarable, par exemple pour une <gi>div</gi> individuelle. </p>
           <p>La quatrième et dernière partie de l’en-tête TEI est la <term>description des
-              révisions</term>, optionnelle et representée par un élément <gi>revisionDesc</gi>. Elle
-            contient une liste d’éléments <gi>change</gi>, portant chacun les attributs
+              révisions</term>, optionnelle et representée par un élément <gi>revisionDesc</gi>.
+            Elle contient une liste d’éléments <gi>change</gi>, portant chacun les attributs
               <att>date</att> et <att>who</att> (qui), et indiquant chacun les étapes significatives
             dans l’évolution d’un document. Par convention, le plus récent de ces éléments est donné
             en premier. L’élément <gi>listChange</gi> mentionné ci-dessus peut aussi être utilisé
@@ -2697,8 +2689,7 @@
             des éléments <gi>ptr</gi> pour des renvois et quelques autres éléments spécialisés comme
               <gi>egXML</gi> pour les exemple en XML. Le schéma spécifié par ce document est
             représenté, vers la fin du document, par un élément <gi>schemaSpec</gi> qui contient des
-            déclarations comme la suivante : 
-            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            déclarations comme la suivante : <egXML xmlns="http://www.tei-c.org/ns/Examples">
               <schemaSpec ident="tei_lite" start="TEI teiCorpus">
                 <moduleRef key="analysis" include="interp interpGrp pc s w"/>
                 <moduleRef key="linking" include="anchor seg"/>
@@ -2721,15 +2712,15 @@
             utilisés pour modifier ce comportement par défaut. Donc, dans l’exemple ci-dessus, le
             schéma créé inclura toutes les déclaratiosn du module appelé <ident>tei</ident>, mais
             seulement les déclarations des éléments <gi>anchor</gi> et <gi>seg</gi> du module appelé
-              <ident>linking</ident>. L’attribut <att>except</att> aurait aussi pu être
-            utilisé pour sélectionner tout ce module <emph>à l’exception</emph> des éléments nommés
-            dans sa valeur. </p>
+              <ident>linking</ident>. L’attribut <att>except</att> aurait aussi pu être utilisé pour
+            sélectionner tout ce module <emph>à l’exception</emph> des éléments nommés dans sa
+            valeur. </p>
           <p>Un module fournit à l’élément <gi>schemaSpec</gi> une déclaration pour chaque élément
             sélectionné, sous forme d’un élément <gi>elementSpec</gi>. Celui-ci a plusieurs
             composants, dont la plupart sont affichés dans la documentation de référence TEI. Il
             inclut, par exemple : <list>
-              <item>un ou plusieurs éléments <gi>desc</gi> pour fournir une courte description de
-                la fonction de l’élément, éventuellement en plusieurs langues ; </item>
+              <item>un ou plusieurs éléments <gi>desc</gi> pour fournir une courte description de la
+                fonction de l’élément, éventuellement en plusieurs langues ; </item>
               <item>un élément <gi>classes</gi> contenant un élément <gi>memberOf</gi> pour chaque
                 classe dont l’élément est membre ; </item>
               <item>un élément <gi>attList</gi>, contenant une liste structurée de tous les
@@ -2763,9 +2754,9 @@
           <p>La même procédure exactement est utilisée dans le reste de la personnalisation TEI Lite
             pour supprimer d’autres attributs non désirés. Par exemple, les attributs
               <att>notBefore</att>, <att>notAfter</att> et d’autres sont proposés par la classe
-            d’attributs <ident>att.datable.w3c</ident>. La façon la
-            plus simple de les supprimer est donc de fournir une nouvelle déclaration pour la
-            classe, comme ceci : <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            d’attributs <ident>att.datable.w3c</ident>. La façon la plus simple de les supprimer est
+            donc de fournir une nouvelle déclaration pour la classe, comme ceci : <egXML
+              xmlns="http://www.tei-c.org/ns/Examples">
               <classSpec type="atts" ident="att.datable.w3c" module="tei" mode="change">
                 <attList>
                   <attDef ident="notBefore" mode="delete"/>
@@ -2817,12 +2808,11 @@
                     </valList>
                   </attDef>
                 </attList></elementSpec>
-            </egXML> 
-            Notons que d’autres contraintes pourraient être ajoutées pour vérifier que ces
+            </egXML> Notons que d’autres contraintes pourraient être ajoutées pour vérifier que ces
             valeurs sont correctement utilisées : par exemple pour vérifier qu’une <tag>div
               type="textpart"</tag> a toujours comme parent une <tag>div type="edition"</tag>. </p>
           <p>Le projet Epidoc montre comment une communauté de recherche particulière peut adapter
-            la TEI à ses propres besoins, et sa personnalisation est une bonne démonstration de ce 
+            la TEI à ses propres besoins, et sa personnalisation est une bonne démonstration de ce
             que rend possible le langage ODD. </p>
         </div>
         <div>
@@ -2847,9 +2837,9 @@
             dans l’<gi>elementSpec</gi> de l’élément <gi>persName</gi>, nous voyons que c’est un
             membre d’une classe modèle <ident>model.nameLike.agent</ident>, qui est une sous-classe
             de la classe plus générale <ident>model.nameLike</ident>. En ajoutant notre nouvel
-            élément à cette classe, nous nous assurons qu’il apparaîtra dans les modèles de
-            contenu des autres éléments TEI aux mêmes endroits que les autres éléments dédiés aux
-            noms, sans nécessiter d’autre intervention de notre part. Nous remarquons aussi que
+            élément à cette classe, nous nous assurons qu’il apparaîtra dans les modèles de contenu
+            des autres éléments TEI aux mêmes endroits que les autres éléments dédiés aux noms, sans
+            nécessiter d’autre intervention de notre part. Nous remarquons aussi que
               <gi>persName</gi> est membre de plusieurs classes d’attributs, notamment
               <att>att.global</att> (qui a elle-même plusieurs sous-classes) et
               <ident>att.canonical</ident>, qui semblent toutes deux utiles pour ce que nous
@@ -2859,15 +2849,15 @@
             de faire la même chose que pour les autres éléments dédiés aux noms, et de dire qu’il
             peut contenir du textes simple, mélangé éventuellement à d’autres éléments autorisés au
             niveau du syntagme, comme <gi>g</gi>, et aux éléments globaux. C’est un besoin si
-            fréquent dans les schémas TEI qu’un raccourci (une
-              <soCalled>macro</soCalled>) appelé <ident>macro.phraseSeq</ident> a été défini pour
-            l’exprimer. Cependant, si nous souhaitions représenter le contenu interne de notre
-            élément <gi>speciesName</gi> (par exemple pour distinguer le composant <soCalled>nom de
-              genre</soCalled> du composant <soCalled>nom de l’espèce</soCalled>), nous pourrions
-            définir un modèle de contenu plus spécifique, impliquant potentiellement d’autres
-            éléments nouveaux ou d’autres contraintes. Quels que soient nos choix, doivent être
-            explicitement documentés dans notre ODD, pour que d’autres utilisateurs de nos données
-            puissent voir comment nous avons personnalisé le cadre de base de la TEI. </p>
+            fréquent dans les schémas TEI qu’un raccourci (une <soCalled>macro</soCalled>) appelé
+              <ident>macro.phraseSeq</ident> a été défini pour l’exprimer. Cependant, si nous
+            souhaitions représenter le contenu interne de notre élément <gi>speciesName</gi> (par
+            exemple pour distinguer le composant <soCalled>nom de genre</soCalled> du composant
+              <soCalled>nom de l’espèce</soCalled>), nous pourrions définir un modèle de contenu
+            plus spécifique, impliquant potentiellement d’autres éléments nouveaux ou d’autres
+            contraintes. Quels que soient nos choix, doivent être explicitement documentés dans
+            notre ODD, pour que d’autres utilisateurs de nos données puissent voir comment nous
+            avons personnalisé le cadre de base de la TEI. </p>
         </div>
         <div>
           <head>Personnalisation et conformité</head>
@@ -2883,10 +2873,10 @@
             vous dit comment communiquer ce que vous avez fait à d’autres. C’est pourquoi, dans <ref
               target="http://www.tei-c.org/Vault/P5/2.8.0/doc/tei-p5-doc/fr/html/USE.html#CF">la
               section des Guidelines définissant la conformité à la TEI</ref>, l’une des
-            caractéristiques essentielles qui est spécifiée est l’existence d’un ODD, définissant
-            un schéma qui peut être utilisé pour valider les documents en question, en même temps
-            que d’autres contraintes éventuelles. D’autres critères essentiels pour la conformité à
-            la TEI incluent la validité formelle quant au schéma tei_all, et le respect de la
+            caractéristiques essentielles qui est spécifiée est l’existence d’un ODD, définissant un
+            schéma qui peut être utilisé pour valider les documents en question, en même temps que
+            d’autres contraintes éventuelles. D’autres critères essentiels pour la conformité à la
+            TEI incluent la validité formelle quant au schéma tei_all, et le respect de la
             sémantique définie des éléments TEI qui sont utilisés : un document en conformité avec
             la TEI peut contenir de nombreux éléments venaNt d’espaces de noms variés, mais chaque
             élément de l’espace de noms TEI doit avoir la sémantique définie pour lui par la TEI. </p>
@@ -2959,8 +2949,8 @@
             TEI</q> nous parlons probablement du Consortium en tant qu’organisation. Mais lorsque
           nous disons <q>la TEI intègre désormais le support de la notation musicale</q> ou <q>la
             TEI propose des méthodes pour l’encodage des éditions génétiques</q>, nous parlons de
-          quelque chose de bien différent — le contenu technique des Guidelines de la
-          TEI. Et lorsque nous disons <q>c’est un point de vue très TEI</q> (par exemple en faisant
+          quelque chose de bien différent — le contenu technique des Guidelines de la TEI. Et
+          lorsque nous disons <q>c’est un point de vue très TEI</q> (par exemple en faisant
           référence aux bonnes pratiques dans l’archivage à long terme des ressources numériques) ou
             <q>la TEI est un parfait exemple de notre approche de l’open source</q>, nous parlons
           clairement de quelque chose qui va au-delà d’un ensemble de recommandations techniques ou
@@ -3016,12 +3006,12 @@
           d’encodage, et en modifiant ce qui a déjà été proposé pour rester en phase avec un paysage
           numérique en évolution. A la fin de 2010 par exemple, la publication de la version 2.0 de
           la TEI P5 a introduit une toute nouvelle façon de représenter les éditions génétiques ou
-          documentaires, définie au cours de l’année précédente par un groupe de travail bénéficiant d’un financement externe. 
-          Une méthode pour rendre les documents TEI interopérables avec un nouveau
-          standard pour la représentation de la notation musicale a été introduite au même moment.
-          Plus récemment, le travail en cours dans le <foreign>Special Interest Group</foreign> TEI
-          consacré aux ontologies permet d’assurer que la TEI puisse continuer à intégrer les bonnes
-          pratiques en cours d’émergence pour représenter le Web des données. </p>
+          documentaires, définie au cours de l’année précédente par un groupe de travail bénéficiant
+          d’un financement externe. Une méthode pour rendre les documents TEI interopérables avec un
+          nouveau standard pour la représentation de la notation musicale a été introduite au même
+          moment. Plus récemment, le travail en cours dans le <foreign>Special Interest
+            Group</foreign> TEI consacré aux ontologies permet d’assurer que la TEI puisse continuer
+          à intégrer les bonnes pratiques en cours d’émergence pour représenter le Web des données. </p>
         <p>La TEI en tant qu’organisation s’applique à améliorer l’accessibilité de la TEI en tant
           que système technique, et à en faciliter la compréhension. En plus de son site web, qui
           joue le rôle d’une référence en ligne complète pour le schéma, il existe un besoin
@@ -3036,19 +3026,19 @@
     <back>
       <div type="bibliography">
         <head>Lectures complémentaires</head>
-        <p>Le <ref target="http//www.tei-c.org">site web de la TEI</ref> maintient 
-          <ref target="http://www.tei-c.org/Support/Learn/tutorials.xml">une page de liens</ref>
-          vers des tutoriels en ligne ; nous en listons quelques-uns ci-dessous.</p>
+        <p>Le <ref target="http//www.tei-c.org">site web de la TEI</ref> maintient <ref
+            target="http://www.tei-c.org/Support/Learn/tutorials.xml">une page de liens</ref> vers
+          des tutoriels en ligne ; nous en listons quelques-uns ci-dessous.</p>
         <p>Les <ref target="http://www.tei-c.org/P5/">Guidelines de la TEI</ref> incluent une longue
           liste de références sur la théorie de l’encodage et la TEI en particulier, qui est
-          disponible <ref target="http://www.tei-c.org/Vault/P5/2.8.0/doc/tei-p5-doc/fr/html/BIB.html#BIB-RDG">ici</ref>. 
-          Nous en listons ci-dessous quelques éléments que le lecteur pourra trouver utiles ou
-          informatifs. </p>
-        <p>Le site web de Zotero héberge deux collections de références concernant la TEI : 
-          <ref target="https://www.zotero.org/groups/tei/items">une plus
-            générique</ref>, et <ref target="https://www.zotero.org/groups/tei-lingsig/items/">une autre</ref> plus
-          centrées sur des questions linguistiques. 
-        </p>
+          disponible <ref
+            target="http://www.tei-c.org/Vault/P5/2.8.0/doc/tei-p5-doc/fr/html/BIB.html#BIB-RDG"
+            >ici</ref>. Nous en listons ci-dessous quelques éléments que le lecteur pourra trouver
+          utiles ou informatifs. </p>
+        <p>Le site web de Zotero héberge deux collections de références concernant la TEI : <ref
+            target="https://www.zotero.org/groups/tei/items">une plus générique</ref>, et <ref
+            target="https://www.zotero.org/groups/tei-lingsig/items/">une autre</ref> plus centrées
+          sur des questions linguistiques. </p>
         <listBibl>
           <head>Tutoriels</head>
 
@@ -3485,7 +3475,7 @@
             <title level="m" type="sub"> An XML Dialect for Archival and Complex Documents</title>
 
             <date>2003</date>
-            
+
             <ptr target="http://www-106.ibm.com/developerworks/xml/library/x-matters30.html"/>
 
 
@@ -3517,8 +3507,8 @@
 
             <ptr target="http://dx.doi.org/10.1023/A:1001832310939"/>
             <note>Introduction à une collection rétrospective de 12 communications sélectionnées
-              parmi celles présentées lors de la conférence du dixième anniversaire de la TEI, tenue à Brown
-              University en novembre 1997. </note>
+              parmi celles présentées lors de la conférence du dixième anniversaire de la TEI, tenue
+              à Brown University en novembre 1997. </note>
           </bibl>
           <bibl xml:id="Schmidt2011">
 
@@ -3559,7 +3549,7 @@
             <biblScope unit="page">34&#x2013;46</biblScope>
 
 
-            <ptr target="http://dx.doi.org/10.1093/llc/6.1.34"/>            
+            <ptr target="http://dx.doi.org/10.1093/llc/6.1.34"/>
             <note>Présentation classique de la théorie du balisage appliquée à l’édition de sources
               primaires.</note>
           </bibl>

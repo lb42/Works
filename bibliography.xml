@@ -1,680 +1,598 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Lou Burnard : Opera omnia</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Privately published by the author</p>
-            </publicationStmt>
-            <sourceDesc>
-                <p>Maintained online at
-                    https://raw.githubusercontent.com/lb42/Works/master/bibliography.xml</p>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
-    <text>
-        <!-- Of 127 bibl elements, 79 specify a witness copy, 86 reference a digital instance,
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Lou Burnard : Opera omnia</title>
+   </titleStmt>
+   <publicationStmt>
+    <p>Privately published by the author</p>
+   </publicationStmt>
+   <sourceDesc>
+    <p>Maintained online at https://raw.githubusercontent.com/lb42/Works/master/bibliography.xml</p>
+   </sourceDesc>
+  </fileDesc>
+ </teiHeader>
+ <text>
+  <!-- Of 127 bibl elements, 79 specify a witness copy, 86 reference a digital instance,
             49 of which specify a target
             32 lack witness but have a digital form I could print-->
-        <!-- 52 of 130 lack @n -->
-        <body>
-            <!-- the @n attribute supplies the number/shelfmark of the printed witness where available -->
-            <div>
-                <head>Books</head>
-                <listBibl type="books">
-                    <bibl><date>2015 </date>
-                        <title>Qu'est-ce que la Text Encoding Initiative ?</title> (translated by
-                        Marjorie Burghart) Open Edition books. <ref
-                            target="http://books.openedition.org/oep/1237">Online
-                        version</ref></bibl>
-                    <bibl><date>2013 </date>
-                        <title>What is the TEI?</title> Open Edition books. <ref
-                            target="http://books.openedition.org/oep/426">Online
-                        version</ref></bibl>
-                    <bibl><date>2007 </date> [ed. with Kiyong Lee and others] <title>ISO/IEC 24610-1
-                            Language Resource Management -- Feature Structures -- Part One: Feature
-                            Structure Representation </title>( <ref
-                            target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/FS.html">
-                            Online TEI version </ref>)</bibl>
-                    <bibl><date>2006 </date> [ed. with Katherine O'Brien O'Keefe and John Unsworth]
-                            <title>Electronic Textual Editing</title>. New York: Modern Languages
-                        Association. <ref target="http://www.tei-c.org/Activities/ETE/">(Online
-                            draft)</ref></bibl>
-                    <bibl><date>2000 </date> [ed. with Tony McEnery] <title>Rethinking language
-                            pedagogy from a corpus perspective</title> Peter Lang <title>Lodz
-                            Studies in Language</title>
-                    </bibl>
-                    <bibl><date>1998 </date> [with Guy Aston] <title>The BNC Handbook: exploring the
-                            British National Corpus with SARA</title> Edinburgh: Edinburgh
-                        University Press. <ref
-                            target="http://corpus.leeds.ac.uk/teaching/aston-burnard-bnc.pdf"
-                            >Bootleg PDF</ref></bibl>
-                    <bibl><date>1998 </date> [ed with Marilyn Deegan and Harold Short] <title>The
-                            Digital Demotic</title> London: Office for Humanities Communication. </bibl>
-                    <bibl><date>1994 </date> [with Harold Short] <title>An Arts and Humanities Data
-                            Service</title> (Report of a feasibility study commissioned by the
-                        Information Services sub-committee of the JISC). Oxford: Office for
-                        Humanities Communication <ref target="Papers/1994-ahdsReport.xml">XML
-                            version of SGML source</ref></bibl>
-                    <bibl><date>1990 </date> [with C.M. Sperberg-McQueen] <title>Guidelines for the
-                            Encoding and Interchange of machine-readable texts</title>: draft P1.
-                        Chicago and Oxford, ACH-ACL-ALLC Text Encoding Initiative (This and
-                        subsequent versions are archived at <ref
-                            target="https://www.tei-c.org/Vault/Vault-GL.html">the TEI-C
-                            website</ref>)</bibl>
-                    <bibl><date>1989 </date> [with Malcolm Bain et al] <title>Free Text Retrieval
-                            Systems: a review and evaluation </title>. Taylor Graham. </bibl>
-                </listBibl>
-            </div>
-            <div>
-                <head>Journal Articles etc.</head>
-                <listBibl type="articles">
-                    <bibl><date>2019</date><title type="main">La TEI pour les corpus linguistiques:
-                            un standard qui se renouvelle</title> in <title>L'enjeu des metadonnées
-                            dans les corpus textuels: un défi pour les sciences humaines.</title>
-                        Sous la direction de Philippe Caron, Rodolophe Defiolle et Marie-Hélène Lay.
-                        Presses universitaires de Rennes: isbn 9782753576407 <ref
-                            target="Papers/2016-poitiers.xml">XML source</ref>
-                    </bibl>
-                    <bibl><date>2019 </date>
-                        <title>How modeling standards evolve: the case of the TEI</title> in
-                        Flanders, Julia and Fotis Jannidis (eds) <title>The shape of data in digital
-                            humanities</title> Routledge. pp 99-116. <ref
-                            target="metaMuddling/2018-metamuddling.xml">XML source</ref>
-                    </bibl>
-                    <bibl><date>2013</date> Rahtz, Sebastian, and Lou Burnard. <title>Reviewing the
-                            TEI ODD System</title>. In <title>Proceedings of the 2013 ACM Symposium
-                            on Document Engineering. DocEng ’13.</title> ACM, 2013. <ref
-                            target="http://doi.acm.org/10.1145/2494266.2494321"
-                            >http://doi.acm.org/10.1145/2494266.2494321</ref>; <ptr
-                            target="https://www.researchgate.net/publication/262328225_Reviewing_the_TEI_ODD_system"
-                        />; <ptr target="https://ora.ox.ac.uk/objects/pubs:434097"/>
-                    </bibl>
-                    <bibl><date>2013 </date>
-                        <title>Resolving the Durand Conundrum</title>, <title level="j">Journal of
-                            the Text Encoding Initiative </title>[Online], Issue 6 | December 2013,
-                        URL : <ptr target="http://jtei.revues.org/842"/> ; DOI : 10.4000/jtei.842
-                            <ref target="Papers/2013-resolvingDurand.pdf">local copy of
-                        PDF</ref></bibl>
-                    <bibl><date>2013 </date>
-                        <title>The Evolution of the Text Encoding Initiative: From Research Project
-                            to Research Infrastructure</title> , <title level="j">Journal of the
-                            Text Encoding Initiative</title> [Online], Issue 5 | 2013, <ptr
-                            target="http://jtei.revues.org/811"/> ; DOI : 10.4000/jtei.811 <ref
-                            target="Papers/2013-evolutionTEI.pdf">local copy of PDF</ref></bibl>
-                    <bibl><date>2012 </date> with Cummings, James et al <title>Future Developments
-                            for ODD (panel at DH2012)</title><ptr
-                            target="http://www.dh2012.uni-hamburg.de/conference/programme/abstracts/future-developments-for-tei-odd.1.html"/>
-                        <ref target="Papers/2012-ODDfuture-panel.xml">XML source</ref>; <ref
-                            target="Papers/2012-ODDfuture-panel.pdf">PDF version</ref></bibl>
-                    <bibl xml:lang="fr"><date>2012 </date>
-                        <title>Du literary and linguistic computing aux digital humanities : retour
-                            sur 40 ans de relations entre sciences humaines et informatique
-                            2012</title> [with Pierre Mounier] in <title>Read/Write Book 2 : Une
-                            introduction aux humanités numériques</title> Open Edition Press <ptr
-                            target="http://books.openedition.org/oep/242"/>
-                        <ref target="Papers/2012-LLCtoDH.xml">XML Source</ref></bibl>
-                    <bibl><date>2008 </date> with Cummings, James, Matthew Driscoll &amp; Sebastian
-                        Rahtz. <title>Documentation and Training Materials for use with TEI P5
-                            Specification for ENRICH</title> (Deliverable D3.2). ENRICH Project ECP
-                        2006 DILI 510049. <ptr target="https://ora.ox.ac.uk/objects/pubs:387532"
-                        /></bibl>
-                    <bibl n="40" xml:lang="fr">
-                        <date>2008 </date>
-                        <title>Une introduction au British National Corpus dans son edition
-                            XML</title>, revue electronique <title level="s">Text et Corpus</title>,
-                        no 3 aout 2008. Actes des Journees de la linguistique de Corpus, ed.
-                        Geoffrey Williams and Nathalie Dugales, 2007, p 17-34. <ptr
-                            target="http://web.univ-ubs.fr/corpus/jlc5/ACTES/ACTES_JLC07_burnard.pdf"
-                        />; <ref target="Papers/2008-introBNC-FR.xml">XML source</ref>; <ref
-                            target="Papers/2008-introBNC-FR.pdf">local copy of PDF</ref></bibl>
-                    <bibl n="37" xml:lang="fr"><date>2007 </date>
-                        <title>TEI+XSL : un mariage fait aux cieux. Comment utiliser aujourdhui la
-                            Text Encoding Initiative pour numériser les documents en lettres et en
-                            sciences humaines</title>. <title level="j"> Revue LINX</title>, no
-                        spécial: corpora et questionnements du litteraire. sous la direction de
-                        Denise Malrieu. <idno type="issn">0246-8743</idno> pp 57-69 (<ref
-                            target="Papers/2007-mariage.xml">uncorrected XML draft</ref>)_</bibl>
-                    <bibl><date>2006 </date>
-                        <title>New tricks from an old dog: An overview of TEI P5</title> in Lou
-                        Burnard, Milena Dobreva, Norbert Fuhr, Anke Lüdeling (eds) Digital
-                        Historical Corpora - Architecture, Annotation, and Retrieval, 03.12. -
-                        08.12.2006 Internationales Begegnungs- und Forschungszentrum fuer Informatik
-                        (IBFI), Schloss Dagstuhl. <ref target="Papers/2006-newTricks.pdf">PDF
-                            fulltext</ref>
-                    </bibl>
-                    <bibl><date>2006 </date>
-                        <title>XAIRA : software for language analysis</title> (ibid) <ref
-                            target="Papers/2006-xaira-abstract.pdf">Extended abstract</ref></bibl>
-                    <bibl n="66">
-                        <date>2005 </date>
-                        <title level="a">Markup Languages: Text</title>
-                        <editor>Keith Brown (editor in chief)</editor><title level="s">Elsevier
-                            Encyclopedia of Language and Linguistics</title> Second edition.
-                            <biblScope unit="pp">516-519</biblScope>
-                        <ref target="Papers/2006-markup.xml">XML source</ref>; <ref
-                            target="http://www.sciencedirect.com/science/article/pii/B008044854200941X"
-                            >Online version</ref>
-                        <ref target="Papers/2006-markup.pdf">Downloaded PDF</ref><idno type="doi"
-                            >doi:10.1016/B0-08-044854-2/00941-X</idno></bibl>
-                    <bibl><date>2005 </date>
-                        <title level="a">Metadata for corpus work</title> in <title>Developing
-                            Linguistic Corpora: A guide to good practice</title> ed. Martin Wynne.
-                        Oxford: Oxbow Books, pp 30-46. <ref target="Papers/2005-metadata.xml">XML
-                            source</ref></bibl>
-                    <bibl><date>2005 </date>
-                        <title level="a">La TEI Lite dalla P4 alla P5: continuità e
-                            cambiamento</title> in <title>Il Manuale TEI Lite: introduzione alla
-                            codifica elettronica dei testi letterari</title>. A cura di Fabio
-                        Ciotti. Milano: ed Sylvestre Bonnard.</bibl>
-                    <bibl><date>2005 </date>
-                        <title level="a">Encoding standards for the electronic edition</title> in
-                            <title xml:lang="si">Znanstvene izdaje in elektronski medij</title>
-                            (<title>Scholarly editions and the digital medium</title>) ed. Matija
-                        Ogrin. Ljubljana: Studia Litteraria ZRC ZAZU, pp 12-67. <ref
-                            target="Papers/2005-electronicEdition.xml">XML version april 2005</ref>
-                        <ref target="Papers/2005-eziss-burnard.pdf">PDF preprint</ref></bibl>
-                    <bibl><date>2004 </date> (with Sebastian Rahtz): <title>RelaxNG with Son of
-                            ODD</title>. Extreme Markup Languages. <ptr
-                            target="http://conferences.idealliance.org/extreme/html/2004/Burnard01/EML2004Burnard01.html"
-                        />; <ptr target="https://ora.ox.ac.uk/objects/pubs:394056"/></bibl>
-                    <bibl n="67"><date>2004 </date> Syd Bauman, Alejandro Bia, Lou Burnard, Toma
-                        Erjavec, Christine Ruotolo, Susan Schreibman. 2004. <title>Migrating
-                            Language Resources from SGML to XML: The Text Encoding Initiative
-                            Recommendations.</title> Proceedings of the Fourth International
-                        Conference on Language Resources and Evaluation (LREC-2004), Lisbon,
-                        Portugal. European Language Resources Association (ELRA). <ref
-                            target="http://www.lrec-conf.org/proceedings/lrec2004/pdf/504.pdf"
-                            >Online PDF</ref>. <ref target="Papers/2004-migratingLR.pdf">local
-                            copy</ref></bibl>
-                    <bibl n="28"><date>2003 </date> (with Geoffrey Williams) <title>A la recherche
-                            de SARA: l'exploration d'un corpus scientifique balise selon la TEI avec
-                            le logiciel SARA.</title> in <title>La linguistique de corpus</title>
-                        Sous la direction de Geoffrey Williams. <idno type="isbn"
-                            >2-7535-0046-0</idno>. Presses Universitaires de Rennes. pp. 247-258. </bibl>
-                    <bibl n="39"><date>2003 </date>
-                        <title level="a">TEI Consortium Members Meet in Chicago</title>
-                            (<title>Computers and the Humanities</title>, vol 37: 1-2. <ref
-                            target="Papers/2003-chicago-report.pdf">PDF offprint</ref>
-                    </bibl>
-                    <bibl n="47"><date>2002 </date>
-                        <title level="a">The role of the Text Encoding Initiative (TEI) in the
-                            authoring and interchange of XML documents</title> in <title>elPub 2002
-                            Proceedings</title> ed J. A. Carvalho et al. VWF Berlin. <ptr
-                            target="https://ora.ox.ac.uk/objects/pubs:387542"/>; <ref
-                            target="Papers/2002-elpub-02-22.pdf">local copy of PDF</ref>
-                    </bibl>
-                    <bibl n="31"><date>2002 </date>
-                        <title>Humanities Computing in Oxford: a retrospective</title>. in
-                        Humanities Computing in Oxford [newsletter] , issue 30, June 2002. Oxford:
-                        HCU, OUCS. </bibl>
-                    <bibl n="30"><date>2002 </date>
-                        <title>Where did we go wrong? A retrospective look at the British National
-                            Corpus</title> in <title>Teaching and Learning by Doing Corpus Analysis.
-                            Proceedings of the Fourth International Conference on Teaching and
-                            Language Corpora, Graz 19-24 July, 2000.</title> Ketteman, Bernhard and
-                        Georg Marko (Eds.) Amsterdam: Rodopi <idno>978-90-420-1450-3</idno>
-                        <biblScope unit="pp">51-71</biblScope>. Also published in <title>Tradizione
-                            e innovazione III. Atti del VI Convegno Internazionale della SILFI, 28
-                            giugno - 2 luglio 2000</title> (a cura di Elisabeth Burr),
-                        Gerard-Mercator-Universität Duisburg, Firenze: Cesati. pp 97-114 <ref
-                            target="Papers/2002-whereWrong.xml">XML source</ref>
-                    </bibl>
-                    <bibl n="72"><date>2001 </date>
-                        <title level="a"> On the hermeneutic implications of text
-                        encoding</title>(in <title>New media and the humanities: research and
-                            applications</title>, ed. D. Fiormonte and J. Usher. Oxford: Humanities
-                        Computing Unit, pp 31-38. <ref target="Papers/2001-herman.xml">XML
-                            source</ref>
-                    </bibl>
-                    <bibl n="36"><date>2001 </date>
-                        <title>From two cultures to digital culture: the rise of the digital
-                            demotic</title>. Presented at CLIP, Alicante. in <title>Informatica
-                            umanistica. Dalla ricerca all'insegnamento. a cura di Domenico
-                            Fiormonte. </title> Roma: Bulzoni Editore. 2003. Also published in
-                        translation as <title level="a">Dalle “due culture” alla cultura digitale:
-                            la nascita del demotico digitale</title>trad. di Federico Pellizi.
-                            <title>il verri 16: "nella rete"</title>, Milano: Edizioni Monogramma.
-                        pp 9-22. <ref target="Papers/2000-twoCultures.xml">XML Source</ref>
-                    </bibl>
-                    <bibl><date>2000 </date> [with Claudia Claridge, Rainer Siemund, and Josef
-                        Schmidt] <title level="a">Encoding the Lampeter Corpus</title> in
-                            <title>DRH98: selected papers from Digital Resources for the
-                            Humanities</title> London: Office for Humanities Communication. <ref
-                            target="Papers/1999-lampeterCorpus.xml">XML source</ref></bibl>
-                    <bibl n="72"><date>2000 </date>
-                        <title level="a">Text Encoding for Interchange:a new Consortium</title> in
-                            <title level="s">Ariadne Issue 24</title>
-                        <ptr target="http://www.ariadne.ac.uk/issue24/tei/"/>
-                        <ref target="Papers/2000-ariadne.html">local copy</ref>; <ref
-                            target="Papers/2000-ariadne.xml">source</ref>;. </bibl>
-                    <bibl n="32"><date>2000 </date>
-                        <title>Humanities Computing Unit</title>. in Humanities Computing in Oxford
-                        [newsletter], issue 23, January 2000. Oxford: HCU, OUCS. </bibl>
-                    <bibl><date>1999 </date>
-                        <title level="a">Is Humanities Computing an Academic Discipline? or, Why
-                            Humanities Computing Matters</title> Presented at <ref
-                            target="http://www.iath.virginia.edu/hcs/">an interdisciplinary
-                            seminar</ref> at Institute for Advanced Technology in the Humanities,
-                        University of Virginia, November 1999. <ref
-                            target="http://www.iath.virginia.edu/hcs/burnard.html">HTML
-                            version</ref>; <ref target="Papers/1999-humanitiesComputing.xml">XML
-                            source</ref></bibl>
-                    <bibl><date>1999 </date>
-                        <title level="a">Using SGML for linguistic analysis: the case of the
-                            BNC</title> in <title level="s">Markup languages theory and
-                            practice</title>. I.2 pp. 31-51. Cambridge, Mass: MIT Press. Also
-                        published as <bibl n="06"><date>2001 </date>
-                            <title>Using SGML for linguistic analysis: the case of the BNC</title>
-                            in <title>Maschinelle Verarbeitung altdeutscher Texte V</title>. <idno
-                                type="isbn">3-484-10832-0</idno> pp 53-72. Tuebingen: Max Niemeyer
-                            Verlag </bibl>
-                        <ref target="Papers/1996-usingSGML.xml">XML source</ref></bibl>
-                    <bibl n="17"><date>1999 </date> [with Michael Popham] <title level="a">Putting
-                            our headers together: a report on the TEI Header meeting 12 September
-                            1997.</title>
-                        <title level="s">Computers and the Humanities</title>. 33 pp. 39-47.
-                        Dordrecht, Boston: Kluwer Academic Publishers.</bibl>
-                    <bibl><date>1999 </date> [with Peter Robinson and Elizabeth Lalou] <title
-                            level="a">Vers un standard européen de description des manuscrits: le
-                            projet Master</title>
-                        <title>Les documents anciens</title>: <title level="s">Documents
-                            numeriques</title> 3.1-2. Paris: Hermes science publications</bibl>
-                    <bibl><date>1999 </date>
-                        <title level="a">XML: the dream and the reality</title> [closing plenary
-                        address at the XML Europe Conference, Granada, May 1999] <ref
-                            target="Papers/1999-xmlEurope.xml">XML source</ref>
-                    </bibl>
-                    <bibl><date>1999 </date> [with Peter Robinson and Elizabeth Lalou] <title>Vers
-                            un standard européen de description des manuscrits: le projet
-                            Master</title>
-                        <title>Les documents anciens</title>: <title>Documents numeriques</title>
-                        3.1-2. Paris: Hermes science publications </bibl>
-                    <bibl><date>1998 </date>[with Tony McEnery, Andrew Wilson, and Paul Baker]
-                            <title>Validation of Linguistic Corpora</title> [Report commissioned by
-                        ELRA]. <ref target="Papers/1998-validLingCorp.xml">XML source</ref></bibl>
-                    <bibl><date>1998 </date> [ed with Marilyn Deegan and Harold Short] <title>The
-                            Digital Demotic</title> London: Office for Humanities Communication. </bibl>
-                    <bibl n="71"><date>1997 </date>
-                        <title>The Text Encoding Initiative's Recommendations for the Encoding of
-                            Language Corpora: Theory and Practice</title> Prepared for a seminar on
-                        Etiquetación y extracción de información de grandes corpus textuales within
-                        the Curso Industrias de la Lengua (14-18 de Julio de 1997). Sponsored by the
-                        Fundacion Duques de Soria. <ref target="soria.xml">XML-ish
-                        version</ref></bibl>
-                    <bibl n="77"><title>An analytic framework for the validation of language
-                            corpora</title> [with Paul Baker; Anthony McEnery; and Andrew Wilson].
-                        Report for the ELRA Corpus Validation Group. (unpublished reports) ``</bibl>
-                    <bibl n="27"><date>1997 </date>
-                        <title>Introducing SARA: an SGML-aware retrieval application for the British
-                            National Corpus</title>(Paper presented at PALC 97) </bibl>
-                    <bibl n="02"><date>1997 </date>
-                        <title>SGML on the web: too little too soon or too much too late?</title>
-                        <title>Computers &amp; Texts</title>
-                        <idno type="issn">0963-1763</idno> 15: 12-15 <ref
-                            target="http://users.ox.ac.uk/~lou/Belux/">HTML and SGML
-                        source</ref></bibl>
-                    <bibl><date>1996 </date>
-                        <title>Introducing SARA: exploring the BNC with SARA</title>(Paper presented
-                        at TALC 96)<!--ref target="sara96.html">sara96.html</ref-->
-                    </bibl>
-                    <bibl n="04"><date>1996 </date> [with David T. Barnard and C.M.
-                        Sperberg-McQueen] <title>Lessons learned from using SGML in the Text
-                            Encoding Initiative</title>
-                        <title>Computer Standards &amp; Interfaces</title> 18 3-10. <ref
-                            target="Papers/1999-lessonsLearned.pdf">PDF download</ref></bibl>
-                    <bibl n="44">
-                        <date>1995 </date> [with David T Barnard, Jean-Pierre Gaspart, Lynne A
-                        Price, C.M. Sperberg McQueen and G.B. Varile] <title>Hierarchical encoding
-                            of text: technical problems and SGML solutions</title>
-                        <title level="j">Computers and the Humanities</title><biblScope unit="vol"
-                            >29</biblScope><biblScope unit="pp">211-231</biblScope><ref
-                            target="Papers/1995-hierarchicalEncoding.pdf">PDF download</ref>
-                    </bibl>
-                    <bibl n="59"><date>1995 </date> [with Daniel Greenstein] <title>Speaking with
-                            one voice: encoding Standards and the Prospects for an Integrated
-                            Approach to Computing in History.</title>
-                        <title level="s">Computers and the Humanities</title> 29:137-148, 1995. <ref
-                            target="Papers/1995-speakingWith.pdf">PDF download</ref></bibl>
-                    <bibl><date>1995 </date>[guest editor] <title>Electronic Texts and the Text
-                            Encoding Initiative</title>
-                        <title>Text Technology</title>5, 3. </bibl>
-                    <bibl><date>1995 </date> [ed] <title>Users' Reference Guide for the British
-                            National Corpus, version 1.0</title>. Oxford: Oxford University
-                        Computing Services. </bibl>
-                    <bibl n="05"><date>1995 </date> [with C.M. Sperberg-McQueen] <title>The design
-                            of the TEI encoding scheme</title>. <title>Computers and the
-                            Humanities</title>
-                        <idno type="issn">0010-4817</idno> 29: 17-39. Rpt. in <title>The Text
-                            Encoding Initiative: Background and Contexts</title>, ed. Nancy Ide and
-                        Jean Veronis. Dordrecht, Boston: Kluwer Academic Publishers, 1995. </bibl>
-                    <bibl n="03"><date>1995 </date>
-                        <title>What is SGML and how does it help?</title>
-                        <title>Computers and the Humanities</title>
-                        <idno type="issn">0010-4817</idno> 29: 41-50. Rpt. in <title>The Text
-                            Encoding Initiative: Background and Contexts</title>, ed. Nancy Ide and
-                        Jean Veronis. Dordrecht, Boston: Kluwer Academic Publishers, 1995. </bibl>
-                    <bibl><date>1995 </date>
-                        <title>The Text Encoding Initiative: an overview</title> in Leech G., Myers,
-                        G. Thomas, J. <title>Spoken English on computer: transcription, mark-up and
-                            application</title>. London: Longman </bibl>
-                    <bibl n="19"><date>1994 </date>
-                        <title>The TEI: towards an Extensible Standard for the Encoding of
-                            Texts</title> in <title>Electronic Information Resources and
-                            Historians</title> ed S. Ross. London: British Academy. </bibl>
-                    <bibl n="75"><date>1994 </date> [with C.M. Sperberg-McQueen] <title>The ODD
-                            system of tag set documentation [abstract]</title> in <title>Consensus
-                            ex machina: colloque international</title>, Laboratoire Lexicometrie et
-                        textes politiques, Paris.</bibl>
-                    <bibl n="70"><date>1994 </date>
-                        <title>Managing information with SGML -- the next frontier</title> [Keynote
-                        prepared for SGML Europe, Montreux, 19 May]</bibl>
-                    <bibl n="29"><date>1993 </date>
-                        <title>The Text Encoding Initiative a further report</title> in
-                            <title>Corpus-Based Computational Linguistics. </title> Souter, Clive
-                        and Eric Atwell (Eds.) Amsterdam: Rodopi. <idno>90-5183-485-3</idno>, pp
-                        37-45</bibl>
-                    <bibl n="23"><date>1993 </date>
-                        <title>Rolling your own with the TEI</title>
-                        <title>Information Services and Use</title> vol 13 no 2. pp 141-154
-                        Amsterdam: IOS Press </bibl>
-                    <bibl><date>1993</date>
-                        <title>Electronic Resources for Textual Studies</title>
-                        <title type="sub">(presented at Annual Conference of Italian Teachers of
-                            English, University of Parma, 21-24 October 1992)</title>
-                        <title>Textus: English Studies in Italy (?)</title>
-                        <ref target="Papers/1992-10-parma.xml">XML source</ref></bibl>
-                    <bibl><date>1992 </date>
-                        <title>The Text Encoding Initiative: a progress report</title>
-                        <title>New Directions in Corpus Linguistics</title> ed G. Leitner. Berlin:
-                        de Gruyter </bibl>
-                    <bibl n="21"><date>1992 </date>
-                        <title>Tools and techniques for computer-assisted text processing</title> in
-                        C.S. Butler <title>Computers and Written Texts,</title> Oxford: Blackwell </bibl>
-                    <bibl><date>1991 </date>
-                        <title>Analysing information for database design: an introduction for
-                            archaeologists</title>
-                        <title>Computing for Archaeologists</title> eds. J. Moffett and S.Ross.
-                        (Oxford Committee for Archaeology, Monograph no 18) <ref
-                            target="Papers/1991-AnalysingInfo.xml">XML source</ref>
-                    </bibl>
-                    <bibl><date>1991 </date>
-                        <title>Information Management</title> in <title>The Humanities Computing
-                            Yearbook 1989-90</title> ed I. Lancashire. Oxford: Clarendon Press </bibl>
-                    <bibl><date>1991 </date>
-                        <title>What is SGML and how does it help?</title> and <title>An introduction
-                            to the Text Encoding Initiative</title> in <title>Modelling Historical
-                            Data: towards a standard for encoding and exchanging machine-readable
-                            texts</title> ed D. Greenstein. St Katherinen: Scripta Mercaturae
-                        Verlag. <title>Halbgraue Reihe zur Historischen Fachinformatik</title>
-                        herausg. von Manfred Thaller, serie A, band 11. pp 81-91 3-928134-45-0. </bibl>
-                    <bibl><date>1990 </date>
-                        <title>The Historian and the Database</title>
-                        <title>Historians, Computers and Data: applications in research and
-                            training</title> ed E.Mawdsley, N. Morgan et al. Manchester: Manchester
-                        University Press <ref target="Papers/1990-glasgow.xml">XML
-                        source</ref></bibl>
-                    <bibl n="46"><date>1991 </date>
-                        <title>Tra(ns)ducing Burrows' Austen</title> (TEI MLW47)</bibl>
-                    <bibl n="22"><date>1990 </date>
-                        <title>On the intelligent handling of text retrieval</title>
-                        <title>Prospects for Intelligent Retrieval (Informatics 10)</title> ed K.P.
-                        Jones. Assoc. for Information Management <ref
-                            target="Papers/1989-OnTheIntelligentHandling.xml">XML
-                        source</ref></bibl>
-                    <bibl n="69"><date>1990 </date>
-                        <title>Publishing Presenting and Archiving the Results of Research</title>,
-                            <title>Information Technology and the Research Process</title> eds M.
-                        Feeney and K. Merry. British Library Research. Bowker-Saur. 0 86291 476 0 
-                    <ref target="Papers/1989-publishing.xml">XML source</ref></bibl>
-                    <bibl n="16"><date>1989 </date>
-                        <title>Relational Theory, SQL, and Historical Practice</title> in
-                            <title>History and Computing II</title> eds. P. Denley, S. Fogelvik and
-                        C. Harvey. Manchester: Manchester University Press </bibl>
-                    <bibl><date>1989 </date> [with Malcolm Bain et al] <title>Free Text Retrieval
-                            Systems: a review and evaluation </title>. Taylor Graham. </bibl>
-                    <bibl n="65"><date>1988 </date>
-                        <title>Report of Workshop on Text Encoding Guidelines</title> in
-                            <title>Literary &amp; Linguistic Computing</title>, 3 (1988) <ref
-                            target="Papers/1988-poughkeepsie.xml">XML Source</ref></bibl>
-                    <bibl n="43"><date>1988 </date>
-                        <title>HUMANIST report no 2 (February to July 1988)</title></bibl>
-                    <bibl n="68"><date>1988 </date>
-                        <title>HUMANIST so far</title>
-                        <title>ACH Newsletter</title>, 10.1 </bibl>
-                    <bibl n="61"><date>1988 </date>
-                        <title>The Oxford Text Archive: Principles and Prospects</title>
-                        <title>Standardisation et échange des bases de données historiques</title>
-                        ed. Genet. Paris: CNRS. </bibl>
-                    <bibl n="35"><date>1987 </date>
-                        <title>Report on the Computers and Teaching in the Humanities Conference at
-                            Southampton University, 10-11 April 1987</title>. <title>Literary &amp;
-                            Linguistic Computing</title>, 2 (1987) pp 185-6 <ref
-                            target="Reports/Report-1987-04-10">XML source</ref>;
-                        <!--   page images at PageImages/1987-cath87-report.png and
+  <!-- 52 of 130 lack @n -->
+  <body>
+   <!-- the @n attribute supplies the number/shelfmark of the printed witness where available -->
+   <div>
+    <head>Books</head>
+    <listBibl type="books">
+     <bibl><date>2015 </date>
+      <title>Qu'est-ce que la Text Encoding Initiative ?</title> (translated by Marjorie Burghart)
+      Open Edition books. <ref target="http://books.openedition.org/oep/1237">Online
+      version</ref></bibl>
+     <bibl><date>2013 </date>
+      <title>What is the TEI?</title> Open Edition books. <ref
+       target="http://books.openedition.org/oep/426">Online version</ref></bibl>
+     <bibl><date>2007 </date> [ed. with Kiyong Lee and others] <title>ISO/IEC 24610-1 Language
+       Resource Management -- Feature Structures -- Part One: Feature Structure Representation
+      </title>( <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/FS.html"> Online
+       TEI version </ref>)</bibl>
+     <bibl><date>2006 </date> [ed. with Katherine O'Brien O'Keefe and John Unsworth]
+       <title>Electronic Textual Editing</title>. New York: Modern Languages Association. <ref
+       target="http://www.tei-c.org/Activities/ETE/">(Online draft)</ref></bibl>
+     <bibl><date>2000 </date> [ed. with Tony McEnery] <title>Rethinking language pedagogy from a
+       corpus perspective</title> Peter Lang <title>Lodz Studies in Language</title>
+     </bibl>
+     <bibl><date>1998 </date> [with Guy Aston] <title>The BNC Handbook: exploring the British
+       National Corpus with SARA</title> Edinburgh: Edinburgh University Press. <ref
+       target="http://corpus.leeds.ac.uk/teaching/aston-burnard-bnc.pdf">Bootleg PDF</ref></bibl>
+     <bibl><date>1998 </date> [ed with Marilyn Deegan and Harold Short] <title>The Digital
+       Demotic</title> London: Office for Humanities Communication. </bibl>
+     <bibl><date>1994 </date> [with Harold Short] <title>An Arts and Humanities Data Service</title>
+      (Report of a feasibility study commissioned by the Information Services sub-committee of the
+      JISC). Oxford: Office for Humanities Communication <ref target="Papers/1994-ahdsReport.xml"
+       >XML version of SGML source</ref></bibl>
+     <bibl><date>1990 </date> [with C.M. Sperberg-McQueen] <title>Guidelines for the Encoding and
+       Interchange of machine-readable texts</title>: draft P1. Chicago and Oxford, ACH-ACL-ALLC
+      Text Encoding Initiative (This and subsequent versions are archived at <ref
+       target="https://www.tei-c.org/Vault/Vault-GL.html">the TEI-C website</ref>)</bibl>
+     <bibl><date>1989 </date> [with Malcolm Bain et al] <title>Free Text Retrieval Systems: a review
+       and evaluation </title>. Taylor Graham. </bibl>
+    </listBibl>
+   </div>
+   <div>
+    <head>Journal Articles etc.</head>
+    <listBibl type="articles">
+     <bibl><date>2019</date><title type="main">La TEI pour les corpus linguistiques: un standard qui
+       se renouvelle</title> in <title>L'enjeu des metadonnées dans les corpus textuels: un défi
+       pour les sciences humaines.</title> Sous la direction de Philippe Caron, Rodolophe Defiolle
+      et Marie-Hélène Lay. Presses universitaires de Rennes: isbn 9782753576407 <ref
+       target="Papers/2016-poitiers.xml">XML source</ref>
+     </bibl>
+     <bibl><date>2019 </date>
+      <title>How modeling standards evolve: the case of the TEI</title> in Flanders, Julia and Fotis
+      Jannidis (eds) <title>The shape of data in digital humanities</title> Routledge. pp 99-116.
+       <ref target="metaMuddling/2018-metamuddling.xml">XML source</ref>
+     </bibl>
+     <bibl><date>2013</date> Rahtz, Sebastian, and Lou Burnard. <title>Reviewing the TEI ODD
+       System</title>. In <title>Proceedings of the 2013 ACM Symposium on Document Engineering.
+       DocEng ’13.</title> ACM, 2013. <ref target="http://doi.acm.org/10.1145/2494266.2494321"
+       >http://doi.acm.org/10.1145/2494266.2494321</ref>; <ptr
+       target="https://www.researchgate.net/publication/262328225_Reviewing_the_TEI_ODD_system"/>;
+       <ptr target="https://ora.ox.ac.uk/objects/pubs:434097"/>
+     </bibl>
+     <bibl><date>2013 </date>
+      <title>Resolving the Durand Conundrum</title>, <title level="j">Journal of the Text Encoding
+       Initiative </title>[Online], Issue 6 | December 2013, URL : <ptr
+       target="http://jtei.revues.org/842"/> ; DOI : 10.4000/jtei.842 <ref
+       target="Papers/2013-resolvingDurand.pdf">local copy of PDF</ref></bibl>
+     <bibl><date>2013 </date>
+      <title>The Evolution of the Text Encoding Initiative: From Research Project to Research
+       Infrastructure</title> , <title level="j">Journal of the Text Encoding Initiative</title>
+      [Online], Issue 5 | 2013, <ptr target="http://jtei.revues.org/811"/> ; DOI : 10.4000/jtei.811
+       <ref target="Papers/2013-evolutionTEI.pdf">local copy of PDF</ref></bibl>
+     <bibl><date>2012 </date> with Cummings, James et al <title>Future Developments for ODD (panel
+       at DH2012)</title><ptr
+       target="http://www.dh2012.uni-hamburg.de/conference/programme/abstracts/future-developments-for-tei-odd.1.html"/>
+      <ref target="Papers/2012-ODDfuture-panel.xml">XML source</ref>; <ref
+       target="Papers/2012-ODDfuture-panel.pdf">PDF version</ref></bibl>
+     <bibl xml:lang="fr"><date>2012 </date>
+      <title>Du literary and linguistic computing aux digital humanities : retour sur 40 ans de
+       relations entre sciences humaines et informatique 2012</title> [with Pierre Mounier] in
+       <title>Read/Write Book 2 : Une introduction aux humanités numériques</title> Open Edition
+      Press <ptr target="http://books.openedition.org/oep/242"/>
+      <ref target="Papers/2012-LLCtoDH.xml">XML Source</ref></bibl>
+     <bibl><date>2008 </date> with Cummings, James, Matthew Driscoll &amp; Sebastian Rahtz.
+       <title>Documentation and Training Materials for use with TEI P5 Specification for
+       ENRICH</title> (Deliverable D3.2). ENRICH Project ECP 2006 DILI 510049. <ptr
+       target="https://ora.ox.ac.uk/objects/pubs:387532"/></bibl>
+     <bibl n="40" xml:lang="fr">
+      <date>2008 </date>
+      <title>Une introduction au British National Corpus dans son edition XML</title>, revue
+      electronique <title level="s">Text et Corpus</title>, no 3 aout 2008. Actes des Journees de la
+      linguistique de Corpus, ed. Geoffrey Williams and Nathalie Dugales, 2007, p 17-34. <ptr
+       target="http://web.univ-ubs.fr/corpus/jlc5/ACTES/ACTES_JLC07_burnard.pdf"/>; <ref
+       target="Papers/2008-introBNC-FR.xml">XML source</ref>; <ref
+       target="Papers/2008-introBNC-FR.pdf">local copy of PDF</ref></bibl>
+     <bibl n="37" xml:lang="fr"><date>2007 </date>
+      <title>TEI+XSL : un mariage fait aux cieux. Comment utiliser aujourdhui la Text Encoding
+       Initiative pour numériser les documents en lettres et en sciences humaines</title>. <title
+       level="j"> Revue LINX</title>, no spécial: corpora et questionnements du litteraire. sous la
+      direction de Denise Malrieu. <idno type="issn">0246-8743</idno> pp 57-69 (<ref
+       target="Papers/2007-mariage.xml">uncorrected XML draft</ref>)_</bibl>
+     <bibl><date>2006 </date>
+      <title>New tricks from an old dog: An overview of TEI P5</title> in Lou Burnard, Milena
+      Dobreva, Norbert Fuhr, Anke Lüdeling (eds) Digital Historical Corpora - Architecture,
+      Annotation, and Retrieval, 03.12. - 08.12.2006 Internationales Begegnungs- und
+      Forschungszentrum fuer Informatik (IBFI), Schloss Dagstuhl. <ref
+       target="Papers/2006-newTricks.pdf">PDF fulltext</ref>
+     </bibl>
+     <bibl><date>2006 </date>
+      <title>XAIRA : software for language analysis</title> (ibid) <ref
+       target="Papers/2006-xaira-abstract.pdf">Extended abstract</ref></bibl>
+     <bibl n="66">
+      <date>2005 </date>
+      <title level="a">Markup Languages: Text</title>
+      <editor>Keith Brown (editor in chief)</editor><title level="s">Elsevier Encyclopedia of
+       Language and Linguistics</title> Second edition. <biblScope unit="pp">516-519</biblScope>
+      <ref target="Papers/2006-markup.xml">XML source</ref>; <ref
+       target="http://www.sciencedirect.com/science/article/pii/B008044854200941X">Online
+       version</ref>
+      <ref target="Papers/2006-markup.pdf">Downloaded PDF</ref><idno type="doi"
+       >doi:10.1016/B0-08-044854-2/00941-X</idno></bibl>
+     <bibl><date>2005 </date>
+      <title level="a">Metadata for corpus work</title> in <title>Developing Linguistic Corpora: A
+       guide to good practice</title> ed. Martin Wynne. Oxford: Oxbow Books, pp 30-46. <ref
+       target="Papers/2005-metadata.xml">XML source</ref></bibl>
+     <bibl><date>2005 </date>
+      <title level="a">La TEI Lite dalla P4 alla P5: continuità e cambiamento</title> in <title>Il
+       Manuale TEI Lite: introduzione alla codifica elettronica dei testi letterari</title>. A cura
+      di Fabio Ciotti. Milano: ed Sylvestre Bonnard.</bibl>
+     <bibl><date>2005 </date>
+      <title level="a">Encoding standards for the electronic edition</title> in <title xml:lang="si"
+       >Znanstvene izdaje in elektronski medij</title> (<title>Scholarly editions and the digital
+       medium</title>) ed. Matija Ogrin. Ljubljana: Studia Litteraria ZRC ZAZU, pp 12-67. <ref
+       target="Papers/2005-electronicEdition.xml">XML version april 2005</ref>
+      <ref target="Papers/2005-eziss-burnard.pdf">PDF preprint</ref></bibl>
+     <bibl><date>2004 </date> (with Sebastian Rahtz): <title>RelaxNG with Son of ODD</title>.
+      Extreme Markup Languages. <ptr
+       target="http://conferences.idealliance.org/extreme/html/2004/Burnard01/EML2004Burnard01.html"
+      />; <ptr target="https://ora.ox.ac.uk/objects/pubs:394056"/></bibl>
+     <bibl n="67"><date>2004 </date> Syd Bauman, Alejandro Bia, Lou Burnard, Toma Erjavec,
+      Christine Ruotolo, Susan Schreibman. 2004. <title>Migrating Language Resources from SGML to
+       XML: The Text Encoding Initiative Recommendations.</title> Proceedings of the Fourth
+      International Conference on Language Resources and Evaluation (LREC-2004), Lisbon, Portugal.
+      European Language Resources Association (ELRA). <ref
+       target="http://www.lrec-conf.org/proceedings/lrec2004/pdf/504.pdf">Online PDF</ref>. <ref
+       target="Papers/2004-migratingLR.pdf">local copy</ref></bibl>
+     <bibl n="28"><date>2003 </date> (with Geoffrey Williams) <title>A la recherche de SARA:
+       l'exploration d'un corpus scientifique balise selon la TEI avec le logiciel SARA.</title> in
+       <title>La linguistique de corpus</title> Sous la direction de Geoffrey Williams. <idno
+       type="isbn">2-7535-0046-0</idno>. Presses Universitaires de Rennes. pp. 247-258. </bibl>
+     <bibl n="39"><date>2003 </date>
+      <title level="a">TEI Consortium Members Meet in Chicago</title> (<title>Computers and the
+       Humanities</title>, vol 37: 1-2. <ref target="Papers/2003-chicago-report.pdf">PDF
+       offprint</ref>
+     </bibl>
+     <bibl n="47"><date>2002 </date>
+      <title level="a">The role of the Text Encoding Initiative (TEI) in the authoring and
+       interchange of XML documents</title> in <title>elPub 2002 Proceedings</title> ed J. A.
+      Carvalho et al. VWF Berlin. <ptr target="https://ora.ox.ac.uk/objects/pubs:387542"/>; <ref
+       target="Papers/2002-elpub-02-22.pdf">local copy of PDF</ref>
+     </bibl>
+     <bibl n="31"><date>2002 </date>
+      <title>Humanities Computing in Oxford: a retrospective</title>. in Humanities Computing in
+      Oxford [newsletter] , issue 30, June 2002. Oxford: HCU, OUCS. </bibl>
+     <bibl n="30"><date>2002 </date>
+      <title>Where did we go wrong? A retrospective look at the British National Corpus</title> in
+       <title>Teaching and Learning by Doing Corpus Analysis. Proceedings of the Fourth
+       International Conference on Teaching and Language Corpora, Graz 19-24 July, 2000.</title>
+      Ketteman, Bernhard and Georg Marko (Eds.) Amsterdam: Rodopi <idno>978-90-420-1450-3</idno>
+      <biblScope unit="pp">51-71</biblScope>. Also published in <title>Tradizione e innovazione III.
+       Atti del VI Convegno Internazionale della SILFI, 28 giugno - 2 luglio 2000</title> (a cura di
+      Elisabeth Burr), Gerard-Mercator-Universität Duisburg, Firenze: Cesati. pp 97-114 <ref
+       target="Papers/2002-whereWrong.xml">XML source</ref>
+     </bibl>
+     <bibl n="72"><date>2001 </date>
+      <title level="a"> On the hermeneutic implications of text encoding</title>(in <title>New media
+       and the humanities: research and applications</title>, ed. D. Fiormonte and J. Usher. Oxford:
+      Humanities Computing Unit, pp 31-38. <ref target="Papers/2001-herman.xml">XML source</ref>
+     </bibl>
+     <bibl n="36"><date>2001 </date>
+      <title>From two cultures to digital culture: the rise of the digital demotic</title>.
+      Presented at CLIP, Alicante. in <title>Informatica umanistica. Dalla ricerca all'insegnamento.
+       a cura di Domenico Fiormonte. </title> Roma: Bulzoni Editore. 2003. Also published in
+      translation as <title level="a">Dalle “due culture” alla cultura digitale: la nascita del
+       demotico digitale</title>trad. di Federico Pellizi. <title>il verri 16: "nella rete"</title>,
+      Milano: Edizioni Monogramma. pp 9-22. <ref target="Papers/2000-twoCultures.xml">XML
+       Source</ref>
+     </bibl>
+     <bibl><date>2000 </date> [with Claudia Claridge, Rainer Siemund, and Josef Schmidt] <title
+       level="a">Encoding the Lampeter Corpus</title> in <title>DRH98: selected papers from Digital
+       Resources for the Humanities</title> London: Office for Humanities Communication. <ref
+       target="Papers/1999-lampeterCorpus.xml">XML source</ref></bibl>
+     <bibl n="72"><date>2000 </date>
+      <title level="a">Text Encoding for Interchange:a new Consortium</title> in <title level="s"
+       >Ariadne Issue 24</title>
+      <ptr target="http://www.ariadne.ac.uk/issue24/tei/"/>
+      <ref target="Papers/2000-ariadne.html">local copy</ref>; <ref target="Papers/2000-ariadne.xml"
+       >source</ref>;. </bibl>
+     <bibl n="32"><date>2000 </date>
+      <title>Humanities Computing Unit</title>. in Humanities Computing in Oxford [newsletter],
+      issue 23, January 2000. Oxford: HCU, OUCS. </bibl>
+     <bibl><date>1999 </date>
+      <title level="a">Is Humanities Computing an Academic Discipline? or, Why Humanities Computing
+       Matters</title> Presented at <ref target="http://www.iath.virginia.edu/hcs/">an
+       interdisciplinary seminar</ref> at Institute for Advanced Technology in the Humanities,
+      University of Virginia, November 1999. <ref
+       target="http://www.iath.virginia.edu/hcs/burnard.html">HTML version</ref>; <ref
+       target="Papers/1999-humanitiesComputing.xml">XML source</ref></bibl>
+     <bibl><date>1999 </date>
+      <title level="a">Using SGML for linguistic analysis: the case of the BNC</title> in <title
+       level="s">Markup languages theory and practice</title>. I.2 pp. 31-51. Cambridge, Mass: MIT
+      Press. Also published as <bibl n="06"><date>2001 </date>
+       <title>Using SGML for linguistic analysis: the case of the BNC</title> in <title>Maschinelle
+        Verarbeitung altdeutscher Texte V</title>. <idno type="isbn">3-484-10832-0</idno> pp 53-72.
+       Tuebingen: Max Niemeyer Verlag </bibl>
+      <ref target="Papers/1996-usingSGML.xml">XML source</ref></bibl>
+     <bibl n="17"><date>1999 </date> [with Michael Popham] <title level="a">Putting our headers
+       together: a report on the TEI Header meeting 12 September 1997.</title>
+      <title level="s">Computers and the Humanities</title>. 33 pp. 39-47. Dordrecht, Boston: Kluwer
+      Academic Publishers.</bibl>
+     <bibl><date>1999 </date> [with Peter Robinson and Elizabeth Lalou] <title level="a">Vers un
+       standard européen de description des manuscrits: le projet Master</title>
+      <title>Les documents anciens</title>: <title level="s">Documents numeriques</title> 3.1-2.
+      Paris: Hermes science publications</bibl>
+     <bibl><date>1999 </date>
+      <title level="a">XML: the dream and the reality</title> [closing plenary address at the XML
+      Europe Conference, Granada, May 1999] <ref target="Papers/1999-xmlEurope.xml">XML source</ref>
+     </bibl>
+     <bibl><date>1999 </date> [with Peter Robinson and Elizabeth Lalou] <title>Vers un standard
+       européen de description des manuscrits: le projet Master</title>
+      <title>Les documents anciens</title>: <title>Documents numeriques</title> 3.1-2. Paris: Hermes
+      science publications </bibl>
+     <bibl><date>1998 </date>[with Tony McEnery, Andrew Wilson, and Paul Baker] <title>Validation of
+       Linguistic Corpora</title> [Report commissioned by ELRA]. <ref
+       target="Papers/1998-validLingCorp.xml">XML source</ref></bibl>
+     <bibl><date>1998 </date> [ed with Marilyn Deegan and Harold Short] <title>The Digital
+       Demotic</title> London: Office for Humanities Communication. </bibl>
+     <bibl n="71"><date>1997 </date>
+      <title>The Text Encoding Initiative's Recommendations for the Encoding of Language Corpora:
+       Theory and Practice</title> Prepared for a seminar on Etiquetación y extracción de
+      información de grandes corpus textuales within the Curso Industrias de la Lengua (14-18 de
+      Julio de 1997). Sponsored by the Fundacion Duques de Soria. <ref target="soria.xml">XML-ish
+       version</ref></bibl>
+     <bibl n="77"><title>An analytic framework for the validation of language corpora</title> [with
+      Paul Baker; Anthony McEnery; and Andrew Wilson]. Report for the ELRA Corpus Validation Group.
+      (unpublished reports) ``</bibl>
+     <bibl n="27"><date>1997 </date>
+      <title>Introducing SARA: an SGML-aware retrieval application for the British National
+       Corpus</title>(Paper presented at PALC 97) </bibl>
+     <bibl n="02"><date>1997 </date>
+      <title>SGML on the web: too little too soon or too much too late?</title>
+      <title>Computers &amp; Texts</title>
+      <idno type="issn">0963-1763</idno> 15: 12-15 <ref target="http://users.ox.ac.uk/~lou/Belux/"
+       >HTML and SGML source</ref></bibl>
+     <bibl><date>1996 </date>
+      <title>Introducing SARA: exploring the BNC with SARA</title>(Paper presented at TALC
+      96)<!--ref target="sara96.html">sara96.html</ref-->
+     </bibl>
+     <bibl n="04"><date>1996 </date> [with David T. Barnard and C.M. Sperberg-McQueen]
+       <title>Lessons learned from using SGML in the Text Encoding Initiative</title>
+      <title>Computer Standards &amp; Interfaces</title> 18 3-10. <ref
+       target="Papers/1999-lessonsLearned.pdf">PDF download</ref></bibl>
+     <bibl n="44">
+      <date>1995 </date> [with David T Barnard, Jean-Pierre Gaspart, Lynne A Price, C.M. Sperberg
+      McQueen and G.B. Varile] <title>Hierarchical encoding of text: technical problems and SGML
+       solutions</title>
+      <title level="j">Computers and the Humanities</title><biblScope unit="vol"
+       >29</biblScope><biblScope unit="pp">211-231</biblScope><ref
+       target="Papers/1995-hierarchicalEncoding.pdf">PDF download</ref>
+     </bibl>
+     <bibl n="59"><date>1995 </date> [with Daniel Greenstein] <title>Speaking with one voice:
+       encoding Standards and the Prospects for an Integrated Approach to Computing in
+       History.</title>
+      <title level="s">Computers and the Humanities</title> 29:137-148, 1995. <ref
+       target="Papers/1995-speakingWith.pdf">PDF download</ref></bibl>
+     <bibl><date>1995 </date>[guest editor] <title>Electronic Texts and the Text Encoding
+       Initiative</title>
+      <title>Text Technology</title>5, 3. </bibl>
+     <bibl><date>1995 </date> [ed] <title>Users' Reference Guide for the British National Corpus,
+       version 1.0</title>. Oxford: Oxford University Computing Services. </bibl>
+     <bibl n="05"><date>1995 </date> [with C.M. Sperberg-McQueen] <title>The design of the TEI
+       encoding scheme</title>. <title>Computers and the Humanities</title>
+      <idno type="issn">0010-4817</idno> 29: 17-39. Rpt. in <title>The Text Encoding Initiative:
+       Background and Contexts</title>, ed. Nancy Ide and Jean Veronis. Dordrecht, Boston: Kluwer
+      Academic Publishers, 1995. </bibl>
+     <bibl n="03"><date>1995 </date>
+      <title>What is SGML and how does it help?</title>
+      <title>Computers and the Humanities</title>
+      <idno type="issn">0010-4817</idno> 29: 41-50. Rpt. in <title>The Text Encoding Initiative:
+       Background and Contexts</title>, ed. Nancy Ide and Jean Veronis. Dordrecht, Boston: Kluwer
+      Academic Publishers, 1995. </bibl>
+     <bibl><date>1995 </date>
+      <title>The Text Encoding Initiative: an overview</title> in Leech G., Myers, G. Thomas, J.
+       <title>Spoken English on computer: transcription, mark-up and application</title>. London:
+      Longman </bibl>
+     <bibl n="19"><date>1994 </date>
+      <title>The TEI: towards an Extensible Standard for the Encoding of Texts</title> in
+       <title>Electronic Information Resources and Historians</title> ed S. Ross. London: British
+      Academy. </bibl>
+     <bibl n="75"><date>1994 </date> [with C.M. Sperberg-McQueen] <title>The ODD system of tag set
+       documentation [abstract]</title> in <title>Consensus ex machina: colloque
+       international</title>, Laboratoire Lexicometrie et textes politiques, Paris.</bibl>
+     <bibl n="70"><date>1994 </date>
+      <title>Managing information with SGML -- the next frontier</title> [Keynote prepared for SGML
+      Europe, Montreux, 19 May]</bibl>
+     <bibl n="29"><date>1993 </date>
+      <title>The Text Encoding Initiative a further report</title> in <title>Corpus-Based
+       Computational Linguistics. </title> Souter, Clive and Eric Atwell (Eds.) Amsterdam: Rodopi.
+       <idno>90-5183-485-3</idno>, pp 37-45</bibl>
+     <bibl n="23"><date>1993 </date>
+      <title>Rolling your own with the TEI</title>
+      <title>Information Services and Use</title> vol 13 no 2. pp 141-154 Amsterdam: IOS Press </bibl>
+     <bibl><date>1993</date>
+      <title>Electronic Resources for Textual Studies</title>
+      <title type="sub">(presented at Annual Conference of Italian Teachers of English, University
+       of Parma, 21-24 October 1992)</title>
+      <title>Textus: English Studies in Italy (?)</title>
+      <ref target="Papers/1992-10-parma.xml">XML source</ref></bibl>
+     <bibl><date>1992 </date>
+      <title>The Text Encoding Initiative: a progress report</title>
+      <title>New Directions in Corpus Linguistics</title> ed G. Leitner. Berlin: de Gruyter </bibl>
+     <bibl n="21"><date>1992 </date>
+      <title>Tools and techniques for computer-assisted text processing</title> in C.S. Butler
+       <title>Computers and Written Texts,</title> Oxford: Blackwell </bibl>
+     <bibl><date>1991 </date>
+      <title>Analysing information for database design: an introduction for archaeologists</title>
+      <title>Computing for Archaeologists</title> eds. J. Moffett and S.Ross. (Oxford Committee for
+      Archaeology, Monograph no 18) <ref target="Papers/1991-AnalysingInfo.xml">XML source</ref>
+     </bibl>
+     <bibl><date>1991 </date>
+      <title>Information Management</title> in <title>The Humanities Computing Yearbook
+       1989-90</title> ed I. Lancashire. Oxford: Clarendon Press </bibl>
+     <bibl><date>1991 </date>
+      <title>What is SGML and how does it help?</title> and <title>An introduction to the Text
+       Encoding Initiative</title> in <title>Modelling Historical Data: towards a standard for
+       encoding and exchanging machine-readable texts</title> ed D. Greenstein. St Katherinen:
+      Scripta Mercaturae Verlag. <title>Halbgraue Reihe zur Historischen Fachinformatik</title>
+      herausg. von Manfred Thaller, serie A, band 11. pp 81-91 3-928134-45-0. </bibl>
+     <bibl><date>1990 </date>
+      <title>The Historian and the Database</title>
+      <title>Historians, Computers and Data: applications in research and training</title> ed
+      E.Mawdsley, N. Morgan et al. Manchester: Manchester University Press <ref
+       target="Papers/1990-glasgow.xml">XML source</ref></bibl>
+     <bibl n="46"><date>1991 </date>
+      <title>Tra(ns)ducing Burrows' Austen</title> (TEI MLW47)</bibl>
+     <bibl n="22"><date>1990 </date>
+      <title>On the intelligent handling of text retrieval</title>
+      <title>Prospects for Intelligent Retrieval (Informatics 10)</title> ed K.P. Jones. Assoc. for
+      Information Management <ref target="Papers/1989-OnTheIntelligentHandling.xml">XML
+      source</ref></bibl>
+     <bibl n="69"><date>1990 </date>
+      <title>Publishing Presenting and Archiving the Results of Research</title>, <title>Information
+       Technology and the Research Process</title> eds M. Feeney and K. Merry. British Library
+      Research. Bowker-Saur. 0 86291 476 0 <ref target="Papers/1989-publishing.xml">XML
+      source</ref></bibl>
+     <bibl n="16"><date>1989 </date>
+      <title>Relational Theory, SQL, and Historical Practice</title> in <title>History and Computing
+       II</title> eds. P. Denley, S. Fogelvik and C. Harvey. Manchester: Manchester University Press </bibl>
+     <bibl><date>1989 </date> [with Malcolm Bain et al] <title>Free Text Retrieval Systems: a review
+       and evaluation </title>. Taylor Graham. </bibl>
+     <bibl n="65"><date>1988 </date>
+      <title>Report of Workshop on Text Encoding Guidelines</title> in <title>Literary &amp;
+       Linguistic Computing</title>, 3 (1988) <ref target="Papers/1988-poughkeepsie.xml">XML
+       Source</ref></bibl>
+     <bibl n="43"><date>1988 </date>
+      <title>HUMANIST report no 2 (February to July 1988)</title></bibl>
+     <bibl n="68"><date>1988 </date>
+      <title>HUMANIST so far</title>
+      <title>ACH Newsletter</title>, 10.1 </bibl>
+     <bibl n="61"><date>1988 </date>
+      <title>The Oxford Text Archive: Principles and Prospects</title>
+      <title>Standardisation et échange des bases de données historiques</title> ed. Genet. Paris:
+      CNRS. </bibl>
+     <bibl n="35"><date>1987 </date>
+      <title>Report on the Computers and Teaching in the Humanities Conference at Southampton
+       University, 10-11 April 1987</title>. <title>Literary &amp; Linguistic Computing</title>, 2
+      (1987) pp 185-6 <ref target="Reports/Report-1987-04-10">XML source</ref>;
+      <!--   page images at PageImages/1987-cath87-report.png and
                PageImages/1987-cath87-report.png--></bibl>
-                    <bibl n="12"><date>1987 </date>
-                        <title>CAFS: A new solution to an old problem</title> in <title>Literary
-                            &amp; Linguistic Computing,</title> 2 (1987); also in <title>Corpus
-                            linguistics and beyond: Proceedings of the Seventh international
-                            conference on English Language research on computerised corpora</title>,
-                        ed Willem Meijs. <ref target="Papers/1987-cafsNewSolution.txt">OCRd
-                            text</ref></bibl>
-                    <bibl n="15"><date>1987 </date>
-                        <title>Knowledge Base or Database?</title>
-                        <title>Towards a Computer Ethnology</title>, eds. Raben, Sugita and Kubo,
-                        Osaka: Senri Ethnological Studies 20 <ref target="osaka.txt">OCRd
-                        text</ref></bibl>
-                    <bibl n="07"><date>1987 </date>
-                        <title>Principles of Database Design</title> in <title>Information
-                            Technology in the Humanities</title> ed. Rahtz. <ref
-                            target="Papers/1987-databaseDesign.xml">XML source</ref></bibl>
-                    <bibl n="20"><date>1987 </date>
-                        <title>Primary to Secondary</title>
-                        <title>History and Computing</title>, eds. Denley and Hopkin <ref
-                            target="Papers/1987-primarySecondary.xml">XML source</ref></bibl>
-                    <bibl n="25">
-                        <date>1987 </date>
-                        <title>Famulus Redivivus: a case history in software development</title>
-                        <title>University Computing</title>
-                        <ref target="Papers/1986-famulus.xml">XML source</ref>
-                    </bibl>
-                    <bibl n="26"><date>1986 </date>
-                        <title>From archive to database</title>
-                        <title>Méthodes quantitatives et informatiques dans l'étude des
-                            textes,</title> ed. Brunet <ref target="Papers/1986-archiveDatabase.xml"
-                            >XML source</ref></bibl>
-                    <bibl n="10"><date>1986 </date>
-                        <title>CAFS and text: the view from Academia</title>
-                        <title>ICL Technical Journal</title> 4, <ref
-                            target="Papers/1996-CAFSacademia.xml"/></bibl>
-                    <bibl n="73"><date>1986 </date>
-                        <title>The role of CAFS at OUCS</title><title>Working Paper for the 2900
-                            Replacement Committee</title>. Oxford University Computing Services. 9
-                        Jan 1986. <ref target="Papers/1986-roleCAFS.xml">XML source</ref></bibl>
-                    <bibl><date>1985 </date> [ed] <title>CAFS in action: Report of the ICL CUA CAFS
-                            SIG</title> London: ICL Computer Users Association. </bibl>
-                    <bibl n="42"><date>1982 </date>
-                        <title>ALLC Directory of Machine Readable Texts</title> (Unpublished report
-                        for ALLC; includes detailed report on organization of OAEL Database)</bibl>
-                    <bibl n="41"><date>1980 </date>
-                        <title>Software review: CLOC</title>
-                        <title>Computers and the Humanities</title> 14 pp 259-60</bibl>
-                    <bibl n="64"><date>1980 </date>
-                        <title>An application of CODASYL techniques to research in the
-                            humanities</title>
-                        <title>Databases in the humanities and social sciences</title>, eds. Raben
-                        and Marks. North Holland. <ref target="Papers/1980-codasyl.xml">XML
-                            source</ref></bibl>
-                    <bibl><date>1979 </date>
-                        <title>SNOBOL: The language for literary computing</title>
-                        <title>ALLC Journal</title>, 6 (1978), 7 (1979) <ref
-                            target="Papers/Scans/1979-Snobol"/></bibl>
-                    <bibl><date>1975 </date>
-                        <title>Oxeye: a text-processing package for the 1906A</title> OUCS User
-                        Guide. Oxford: University Computing Services. </bibl>
-                </listBibl>
-            </div>
-            <div>
-                <head>Book reviews</head>
-                <listBibl type="reviews">
-                    <bibl><date>Unknown </date>
-                        <title>[Review of Simmons, R.F. Computations from the English]</title>
-                        <title>University Computing</title>7, p. 154 <idno>0265-4385</idno>
-                    </bibl>
-                    <bibl n="38"><date>1997 </date>
-                        <title>Review: Research in Humanities Computing 4 and
-                            5</title><title>Computers and Texts</title>no 14,<date>April 1997 </date>
-                        <ref target="Reviews/1997-hockeyIde.xml">XML source</ref></bibl>
-                    <bibl n="09"><date>1991 </date> [Review of] Richard Ennals and Jean-Claude
-                        Gardin , eds. <title>Interpretation in the humanities: perspectives from
-                            artificial intelligence</title>.<title>Journal of
-                        Documentation</title>vol 47 no 2, pp 197-90 <idno>022 0418</idno>
-                        <ref target="Reviews/1991-ennals.xml">XML source</ref></bibl>
-                    <bibl><date>1991 </date><title>[Review of David Gelernter and Suresh Jagannathan
-                            Programming Linguistics.]</title><title>History and
-                        Computing</title>III.2 (1991) pp 129-30 <ref
-                            target="Reviews/1991-gelernter.xml">XML source</ref></bibl>
-                    <bibl>
-                        <title><date>1991 </date> [Review of I. Lancashire and W. McCarty The
-                            Humanities Computing Yearbook. 1988.] History and Computing</title>
-                        <ref target="Reviews/1991-lancs.xml">XML source</ref>
-                    </bibl>
-                    <bibl n="24"><date>1989 </date>
-                        <title>Software Review: IZE version 1, March 1988. By Persoft
-                            Inc</title><title>Computers and the Humanities</title>23 (1989) pp
-                        501-5C. <ref target="Reviews/1989-ize.xml">XML source</ref>
-                    </bibl>
-                    <bibl n="11"><date>1988 </date>
-                        <title>[Review of C.J. Date Relational database: selected writings, C.J.
-                            Date A Guide to INGRES C.J. Date A Guide the SQL Standard
-                            ]</title><title>Computers and the Humanities</title> 22 pp 161-3 <ref
-                            target="Reviews/1988-date.xml">XML source</ref></bibl>
-                    <bibl n="08"><date>1988 </date>
-                        <title>[Review of Friedmann, Daniel P. and Matthias Felleisen The Little
-                            Lisper]</title><title>University Computing</title>10, p. 100 <idno
-                            type="issn">0265-4385</idno>
-                        <ref target="Reviews/1988-friedmann.xml">XML source</ref></bibl>
-                    <bibl n="13"><date>1988 </date>
-                        <title>[Review of John J. Simon Jnr :From sand to circuits and other
-                            inquiries</title><title>University Computing</title>10, p. 205
-                            <idno>0265-4385</idno>
-                        <ref target="Reviews/1988-simon.xml">XML source</ref></bibl>
-                    <bibl n="08">
-                        <date>1988 </date><title>[Review of Chris Naylor The PC Compendium, vol
-                            1]</title><title>University Computing</title>10, p. 99 <idno type="issn"
-                            >0265-4385 </idno>
-                        <ref target="Reviews/1988-naylor.xml">XML source</ref></bibl>
-                    <bibl n="11"><date>1988 </date><title>[Review of B.H. Rudall and T.N. Corns
-                            Computers and literature: a practical guide]</title><title>Computers and
-                            the Humanities</title>22 pp 163-4 <ref target="Reviews/1988-rudall.xml"
-                            >XML source</ref></bibl>
-                    <bibl><date>1987 </date><title>[Review of Grundy, A.F. Proceedings of the fourth
-                            British National Conference on Databases]</title><title>University
-                            Computing</title>9, p. 33 <idno>0265-4385</idno>
-                        <ref target="Reviews/1987-grundy.xml">XML source</ref></bibl>
-                    <!-- Per. 1877 d. 689 : callno in RSL -->
-                    <bibl n="33"><date>1986 </date><title>[Review of D. E. Avison: Information
-                            Systems Development: a data base approach</title><title>University
-                            Computing</title> 8, p. 159 <idno type="issn">0265-4385</idno>
-                        <ref target="Reviews/1986-Avison.xml">XML source</ref></bibl>
-                    <bibl n="34"><date>1986 </date><title>ICEBOL 85 [Review of Eric Johnson
-                            Proceedings of the 1985 International Conference on English Language and
-                            Literature Applications of SNOBOL and SPITBOL]</title><title>Literary
-                            and Linguistic Computing</title>I.1 p. 52 <ref
-                            target="Reviews/1986-johnson.xml">XML source</ref>
-                    </bibl>
-                    <bibl n="54"><date>1986 </date><title>Byt and myth [review of Robert Pinsky
-                            Mindwheel ]</title><title>TLS,</title>7 Feb 1986, p 150 <ref
-                            target="Reviews/1986-pinsky.xml">XML source</ref></bibl>
-                    <bibl n="14"><date>1986 </date><title>A passion for control [review of Dorothy
-                            Stein Ada: a life and a legacy]</title><title>TLS,</title>7 March 1986 p
-                        242 <ref target="Reviews/1986-stein.xml">XML source</ref></bibl>
-                    <bibl n="51"><date>1986 </date>
-                        <title>More and more addressable [review of Duncan Campbell and Steve Connor
-                            On the record]</title><title>TLS, </title><date>25 July 1986 </date>p
-                        813 <ref target="Reviews/1986-campbell.xml">XML source</ref></bibl>
-                    <bibl n="01"><date>1985 </date>
-                        <title>[Review of Sherry Turkle <title>The second self: Computers and the
-                                human spirit</title>]</title><title level="s">Computers and the
-                            Social Sciences</title> vol 1 no 2, p 107-9 <idno type="issn">0748
-                            9269</idno> Osprey, Florida: Paradigm Press, Inc. <date>April 1985 </date>
-                        <ref target="Reviews/1985-turkle.xml">XML source</ref></bibl>
-                    <bibl n="56"><date>1984 </date>
-                        <title>The devil's circuitry [review of Peter Large The micro revolution
-                            revisited and Michael Shallis The silicon idol]</title><title>TLS,
-                            </title><date>14 Dec 1984 </date>,p 1444 <ref
-                            target="Reviews/1984-large.xml">XML source</ref></bibl>
-                    <bibl n="63"><date>1983 </date>
-                        <title>[Review of Stig Johansson. Computer corpora in English language
-                            research(Bergen 1982)]</title><title>ALLC Bulletin</title>X 3 () p 109
-                            <ref target="Reviews/1983-johansson.xml">XML source</ref></bibl>
-                    <bibl n="57"><date>1983 </date>
-                        <title>Into the dreaded database [review of David Burnham Rise of the
-                            computer state</title>]<title>TLS, </title><date>25 Nov 1983 </date>p
-                        1328 <ref target="Reviews/1983-burnham.xml">XML source</ref></bibl>
-                    <bibl><date>1981 </date><title>[review of Jürgen Schäfer Documentation in the
-                            OED: Shakespeare and Nashe as test cases (Oxford, Clarendon Pr,
-                            1980)]</title><title>ALLC Bulletin</title>IX 2 p 30 <ref
-                            target="Reviews/1981-schafer.xml">XML source</ref></bibl>
-                    <bibl n="48"><date>1981 </date>
-                        <title>[review of Zvi Malachi Proceedings of the international conference on
-                            literary and linguistic computing, Israel ]</title><title>Computers and
-                            the Humanities</title>15.2 pp 118-20<date>August 1981 </date>
-                        <ref target="Reviews/1981-malachi.xml">XML source</ref></bibl>
-                    <bibl n="62"><date>1980 </date>
-                        <title>[review of Richard Conway and James Archer Programming for poets: a
-                            gentle introduction using FORTRAN with WATFIV ]</title><title>ALLC
-                            Bulletin viii 1 (<date>1980 </date>) 92-3</title>vol 7 <ref
-                            target="Reviews/1980-conway.xml">XML source</ref></bibl>
-                    <bibl n="74"><date>1980 </date><title> [review of Allen B Tucker Jr Text
-                            processing: algorithms, languages and applications]</title><title>ALLC
-                            Bulletin</title>viii 2 206-8<ref target="Reviews/1980-tucker.xml">XML
-                            source</ref></bibl>
-                    <bibl n="49"><date>1980 </date>
-                        <title>At home with the hardware: [review of Robert L Oakman Computer
-                            methods for literary research and Susan Hockey A guide to computer
-                            applications in the humanities]</title>
-                        <title>TLS, </title><date>9 May 1980 </date>,p 533 <ref
-                            target="Reviews/1980-hockey.xml">XML source</ref></bibl>
-                    <bibl n="50"><date>1980 </date>
-                        <title>Camp Conflicts [review of T. Coraghessan Boyle: Descent of
-                            Man]</title><title>TLS, </title><date>20 Jun 1980 </date>,p 714 <ref
-                            target="Reviews/1980-boyle.xml">XML source</ref></bibl>
-                    <bibl n="52"><date>1980 </date>
-                        <title>Growing up in Ulster [review of Ian Cochrane:F for
-                            Ferg]</title><title>TLS,</title><date>22 Aug 1980 </date>,p 943 <ref
-                            target="Reviews/1980-cochrane">XML source</ref></bibl>
-                    <bibl n="53"><date>1980 </date>
-                        <title>Set authors [review of Sally Emerson Second
-                            sight]</title><title>TLS,</title><date>12 Sept 1980 </date>,p 984 <ref
-                            target="Reviews/1980-emerson.xml">XML source</ref></bibl>
-                    <bibl n="55"><date>1980 </date>
-                        <title>Trauchle in the but and ben [review of Fred Urquhart A diver in China
-                            seas]</title><title>TLS,</title><date>19 Sept 1980 </date>,p 1044 <ref
-                            target="Reviews/1980-urquhart.xml">XML source</ref></bibl>
-                    <bibl n="60"><date>1980 </date> [Review of] Farringdon, Michael and Jill
-                        Farringdon <title>A computer-aided study of the prose style of Henry
-                            Fielding and its support for his translation of the Military History of
-                            Charles XII</title>. In <title>Advances in computer-aided literacy and
-                            linguistic research</title> D.E. Ager, F.E. Knowles, and Joan Smith
-                        (eds). Dept of Modern Languages, Univ of Aston, Birmingham. UK, 1979, pp 95
-                        -105. See main entry CR 20. 11 (Nov 1979), 35.349. in <title>Computing
-                            Reviews</title>March 1980, p.107 <ref
-                            target="Reviews/1980-farringdon.xml"/>; <ref
-                            target="Reviews/Scans/ComputingReviews-1980-03.png">Page
-                        image</ref></bibl>
-                    <bibl n="58"><date>1977 </date>
-                        <title><bibl><author>J Gimpel</author><title>Algorithms in
-                                SNOBOL4</title>(Wiley, 1976)</bibl></title><title level="j">ALLC
-                            Bulletin</title>
-                        <biblScope>V 2 (1977) p 211-2</biblScope>
-                        <ref target="Reviews/1977-gimpel.xml">XML source</ref>
-                    </bibl>
-                    <!-- apparently unpublished -->
-                    <!--<bibl><date>1989 </date>
+     <bibl n="12"><date>1987 </date>
+      <title>CAFS: A new solution to an old problem</title> in <title>Literary &amp; Linguistic
+       Computing,</title> 2 (1987); also in <title>Corpus linguistics and beyond: Proceedings of the
+       Seventh international conference on English Language research on computerised
+      corpora</title>, ed Willem Meijs. <ref target="Papers/1987-cafsNewSolution.txt">OCRd
+       text</ref></bibl>
+     <bibl n="15"><date>1987 </date>
+      <title>Knowledge Base or Database?</title>
+      <title>Towards a Computer Ethnology</title>, eds. Raben, Sugita and Kubo, Osaka: Senri
+      Ethnological Studies 20 <ref target="osaka.txt">OCRd text</ref></bibl>
+     <bibl n="07"><date>1987 </date>
+      <title>Principles of Database Design</title> in <title>Information Technology in the
+       Humanities</title> ed. Rahtz. <ref target="Papers/1987-databaseDesign.xml">XML
+      source</ref></bibl>
+     <bibl n="20"><date>1987 </date>
+      <title>Primary to Secondary</title>
+      <title>History and Computing</title>, eds. Denley and Hopkin <ref
+       target="Papers/1987-primarySecondary.xml">XML source</ref></bibl>
+     <bibl n="25">
+      <date>1987 </date>
+      <title>Famulus Redivivus: a case history in software development</title>
+      <title>University Computing</title>
+      <ref target="Papers/1986-famulus.xml">XML source</ref>
+     </bibl>
+     <bibl n="26"><date>1986 </date>
+      <title>From archive to database</title>
+      <title>Méthodes quantitatives et informatiques dans l'étude des textes,</title> ed. Brunet
+       <ref target="Papers/1986-archiveDatabase.xml">XML source</ref></bibl>
+     <bibl n="10"><date>1986 </date>
+      <title>CAFS and text: the view from Academia</title>
+      <title>ICL Technical Journal</title> 4, <ref target="Papers/1996-CAFSacademia.xml"/></bibl>
+     <bibl n="73"><date>1986 </date>
+      <title>The role of CAFS at OUCS</title><title>Working Paper for the 2900 Replacement
+       Committee</title>. Oxford University Computing Services. 9 Jan 1986. <ref
+       target="Papers/1986-roleCAFS.xml">XML source</ref></bibl>
+     <bibl><date>1985 </date> [ed] <title>CAFS in action: Report of the ICL CUA CAFS SIG</title>
+      London: ICL Computer Users Association. </bibl>
+     <bibl n="42"><date>1982 </date>
+      <title>ALLC Directory of Machine Readable Texts</title> (Unpublished report for ALLC; includes
+      detailed report on organization of OAEL Database)</bibl>
+     <bibl n="41"><date>1980 </date>
+      <title>Software review: CLOC</title>
+      <title>Computers and the Humanities</title> 14 pp 259-60</bibl>
+     <bibl n="64"><date>1980 </date>
+      <title>An application of CODASYL techniques to research in the humanities</title>
+      <title>Databases in the humanities and social sciences</title>, eds. Raben and Marks. North
+      Holland. <ref target="Papers/1980-codasyl.xml">XML source</ref></bibl>
+     <bibl><date>1979 </date>
+      <title>SNOBOL: The language for literary computing</title>
+      <title>ALLC Journal</title>, 6 (1978), 7 (1979) <ref target="Papers/Scans/1979-Snobol"
+      /></bibl>
+     <bibl><date>1975 </date>
+      <title>Oxeye: a text-processing package for the 1906A</title> OUCS User Guide. Oxford:
+      University Computing Services. </bibl>
+    </listBibl>
+   </div>
+   <div>
+    <head>Book reviews</head>
+    <listBibl type="reviews">
+     <bibl><date>Unknown </date>
+      <title>[Review of Simmons, R.F. Computations from the English]</title>
+      <title>University Computing</title>7, p. 154 <idno>0265-4385</idno>
+     </bibl>
+     <bibl n="38"><date>1997 </date>
+      <title>Review: Research in Humanities Computing 4 and 5</title><title>Computers and
+       Texts</title>no 14,<date>April 1997 </date>
+      <ref target="Reviews/1997-hockeyIde.xml">XML source</ref></bibl>
+     <bibl n="09"><date>1991 </date> [Review of] Richard Ennals and Jean-Claude Gardin , eds.
+       <title>Interpretation in the humanities: perspectives from artificial
+       intelligence</title>.<title>Journal of Documentation</title>vol 47 no 2, pp 197-90 <idno>022
+       0418</idno>
+      <ref target="Reviews/1991-ennals.xml">XML source</ref></bibl>
+     <bibl><date>1991 </date><title>[Review of David Gelernter and Suresh Jagannathan Programming
+       Linguistics.]</title><title>History and Computing</title>III.2 (1991) pp 129-30 <ref
+       target="Reviews/1991-gelernter.xml">XML source</ref></bibl>
+     <bibl>
+      <title><date>1991 </date> [Review of I. Lancashire and W. McCarty The Humanities Computing
+       Yearbook. 1988.] History and Computing</title>
+      <ref target="Reviews/1991-lancs.xml">XML source</ref>
+     </bibl>
+     <bibl n="24"><date>1989 </date>
+      <title>Software Review: IZE version 1, March 1988. By Persoft Inc</title><title>Computers and
+       the Humanities</title>23 (1989) pp 501-5C. <ref target="Reviews/1989-ize.xml">XML
+       source</ref>
+     </bibl>
+     <bibl n="11"><date>1988 </date>
+      <title>[Review of C.J. Date Relational database: selected writings, C.J. Date A Guide to
+       INGRES C.J. Date A Guide the SQL Standard ]</title><title>Computers and the
+       Humanities</title> 22 pp 161-3 <ref target="Reviews/1988-date.xml">XML source</ref></bibl>
+     <bibl n="08"><date>1988 </date>
+      <title>[Review of Friedmann, Daniel P. and Matthias Felleisen The Little
+       Lisper]</title><title>University Computing</title>10, p. 100 <idno type="issn"
+       >0265-4385</idno>
+      <ref target="Reviews/1988-friedmann.xml">XML source</ref></bibl>
+     <bibl n="13"><date>1988 </date>
+      <title>[Review of John J. Simon Jnr :From sand to circuits and other
+       inquiries</title><title>University Computing</title>10, p. 205 <idno>0265-4385</idno>
+      <ref target="Reviews/1988-simon.xml">XML source</ref></bibl>
+     <bibl n="08">
+      <date>1988 </date><title>[Review of Chris Naylor The PC Compendium, vol
+       1]</title><title>University Computing</title>10, p. 99 <idno type="issn">0265-4385 </idno>
+      <ref target="Reviews/1988-naylor.xml">XML source</ref></bibl>
+     <bibl n="11"><date>1988 </date><title>[Review of B.H. Rudall and T.N. Corns Computers and
+       literature: a practical guide]</title><title>Computers and the Humanities</title>22 pp 163-4
+       <ref target="Reviews/1988-rudall.xml">XML source</ref></bibl>
+     <bibl><date>1987 </date><title>[Review of Grundy, A.F. Proceedings of the fourth British
+       National Conference on Databases]</title><title>University Computing</title>9, p. 33
+       <idno>0265-4385</idno>
+      <ref target="Reviews/1987-grundy.xml">XML source</ref></bibl>
+     <!-- Per. 1877 d. 689 : callno in RSL -->
+     <bibl n="33"><date>1986 </date><title>[Review of D. E. Avison: Information Systems Development:
+       a data base approach</title><title>University Computing</title> 8, p. 159 <idno type="issn"
+       >0265-4385</idno>
+      <ref target="Reviews/1986-Avison.xml">XML source</ref></bibl>
+     <bibl n="34"><date>1986 </date><title>ICEBOL 85 [Review of Eric Johnson Proceedings of the 1985
+       International Conference on English Language and Literature Applications of SNOBOL and
+       SPITBOL]</title><title>Literary and Linguistic Computing</title>I.1 p. 52 <ref
+       target="Reviews/1986-johnson.xml">XML source</ref>
+     </bibl>
+     <bibl n="54"><date>1986 </date><title>Byt and myth [review of Robert Pinsky Mindwheel
+       ]</title><title>TLS,</title>7 Feb 1986, p 150 <ref target="Reviews/1986-pinsky.xml">XML
+       source</ref></bibl>
+     <bibl n="14"><date>1986 </date><title>A passion for control [review of Dorothy Stein Ada: a
+       life and a legacy]</title><title>TLS,</title>7 March 1986 p 242 <ref
+       target="Reviews/1986-stein.xml">XML source</ref></bibl>
+     <bibl n="51"><date>1986 </date>
+      <title>More and more addressable [review of Duncan Campbell and Steve Connor On the
+       record]</title><title>TLS, </title><date>25 July 1986 </date>p 813 <ref
+       target="Reviews/1986-campbell.xml">XML source</ref></bibl>
+     <bibl n="01"><date>1985 </date>
+      <title>[Review of Sherry Turkle <title>The second self: Computers and the human
+       spirit</title>]</title><title level="s">Computers and the Social Sciences</title> vol 1 no 2,
+      p 107-9 <idno type="issn">0748 9269</idno> Osprey, Florida: Paradigm Press, Inc. <date>April
+       1985 </date>
+      <ref target="Reviews/1985-turkle.xml">XML source</ref></bibl>
+     <bibl n="56"><date>1984 </date>
+      <title>The devil's circuitry [review of Peter Large The micro revolution revisited and Michael
+       Shallis The silicon idol]</title><title>TLS, </title><date>14 Dec 1984 </date>,p 1444 <ref
+       target="Reviews/1984-large.xml">XML source</ref></bibl>
+     <bibl n="63"><date>1983 </date>
+      <title>[Review of Stig Johansson. Computer corpora in English language research(Bergen
+       1982)]</title><title>ALLC Bulletin</title>X 3 () p 109 <ref
+       target="Reviews/1983-johansson.xml">XML source</ref></bibl>
+     <bibl n="57"><date>1983 </date>
+      <title>Into the dreaded database [review of David Burnham Rise of the computer
+       state</title>]<title>TLS, </title><date>25 Nov 1983 </date>p 1328 <ref
+       target="Reviews/1983-burnham.xml">XML source</ref></bibl>
+     <bibl><date>1981 </date><title>[review of Jürgen Schäfer Documentation in the OED: Shakespeare
+       and Nashe as test cases (Oxford, Clarendon Pr, 1980)]</title><title>ALLC Bulletin</title>IX 2
+      p 30 <ref target="Reviews/1981-schafer.xml">XML source</ref></bibl>
+     <bibl n="48"><date>1981 </date>
+      <title>[review of Zvi Malachi Proceedings of the international conference on literary and
+       linguistic computing, Israel ]</title><title>Computers and the Humanities</title>15.2 pp
+       118-20<date>August 1981 </date>
+      <ref target="Reviews/1981-malachi.xml">XML source</ref></bibl>
+     <bibl n="62"><date>1980 </date>
+      <title>[review of Richard Conway and James Archer Programming for poets: a gentle introduction
+       using FORTRAN with WATFIV ]</title><title>ALLC Bulletin viii 1 (<date>1980 </date>)
+       92-3</title>vol 7 <ref target="Reviews/1980-conway.xml">XML source</ref></bibl>
+     <bibl n="74"><date>1980 </date><title> [review of Allen B Tucker Jr Text processing:
+       algorithms, languages and applications]</title><title>ALLC Bulletin</title>viii 2 206-8<ref
+       target="Reviews/1980-tucker.xml">XML source</ref></bibl>
+     <bibl n="49"><date>1980 </date>
+      <title>At home with the hardware: [review of Robert L Oakman Computer methods for literary
+       research and Susan Hockey A guide to computer applications in the humanities]</title>
+      <title>TLS, </title><date>9 May 1980 </date>,p 533 <ref target="Reviews/1980-hockey.xml">XML
+       source</ref></bibl>
+     <bibl n="50"><date>1980 </date>
+      <title>Camp Conflicts [review of T. Coraghessan Boyle: Descent of Man]</title><title>TLS,
+       </title><date>20 Jun 1980 </date>,p 714 <ref target="Reviews/1980-boyle.xml">XML
+      source</ref></bibl>
+     <bibl n="52"><date>1980 </date>
+      <title>Growing up in Ulster [review of Ian Cochrane:F for
+       Ferg]</title><title>TLS,</title><date>22 Aug 1980 </date>,p 943 <ref
+       target="Reviews/1980-cochrane">XML source</ref></bibl>
+     <bibl n="53"><date>1980 </date>
+      <title>Set authors [review of Sally Emerson Second sight]</title><title>TLS,</title><date>12
+       Sept 1980 </date>,p 984 <ref target="Reviews/1980-emerson.xml">XML source</ref></bibl>
+     <bibl n="55"><date>1980 </date>
+      <title>Trauchle in the but and ben [review of Fred Urquhart A diver in China
+       seas]</title><title>TLS,</title><date>19 Sept 1980 </date>,p 1044 <ref
+       target="Reviews/1980-urquhart.xml">XML source</ref></bibl>
+     <bibl n="60"><date>1980 </date> [Review of] Farringdon, Michael and Jill Farringdon <title>A
+       computer-aided study of the prose style of Henry Fielding and its support for his translation
+       of the Military History of Charles XII</title>. In <title>Advances in computer-aided literacy
+       and linguistic research</title> D.E. Ager, F.E. Knowles, and Joan Smith (eds). Dept of Modern
+      Languages, Univ of Aston, Birmingham. UK, 1979, pp 95 -105. See main entry CR 20. 11 (Nov
+      1979), 35.349. in <title>Computing Reviews</title>March 1980, p.107 <ref
+       target="Reviews/1980-farringdon.xml"/>; <ref
+       target="Reviews/Scans/ComputingReviews-1980-03.png">Page image</ref></bibl>
+     <bibl n="58"><date>1977 </date>
+      <title><bibl><author>J Gimpel</author><title>Algorithms in SNOBOL4</title>(Wiley,
+       1976)</bibl></title><title level="j">ALLC Bulletin</title>
+      <biblScope>V 2 (1977) p 211-2</biblScope>
+      <ref target="Reviews/1977-gimpel.xml">XML source</ref>
+     </bibl>
+     <!-- apparently unpublished -->
+     <!--<bibl><date>1989 </date>
                   <title>Review of <title>Effective Documentation: What we have learned from
                         research</title></title>
                   <ref target="Reviews/doheny">XML source</ref></bibl>
@@ -689,8 +607,8 @@
                <bibl n="45"><date>unknown </date>
                   <title>Review of <title>Microcomputer software for information management: case
                         studies</title>, ed Mel Collier. </title></bibl>-->
-                </listBibl>
-            </div>
-        </body>
-    </text>
+    </listBibl>
+   </div>
+  </body>
+ </text>
 </TEI>
