@@ -58,15 +58,16 @@
      detailed accounts of three projects at Oxford University. The Beazley Archive database
      integrates descriptive, iconographic, cataloguing and attribution data concerning several
      thousand Greek vases in a single system. The Lexicon of Greek Personal Names provides an
-     epigraphical index to all attested Greek names from the earliest times to the mid seventh century.
-     Both these projects were converted from conventional flat files to their present form, in which
-     specialised content addressing hardware is used to support a simple relational query interface
-     for non specialist users. The third project is the evolution of a complete conceptual model
-     capable of supporting queries about all significant aspects of the conservation, accession,
-     cataloguing and description of museum objects, currently being undertaken in collaboration with
-     the Ashmolean Museum at Oxford. Because much semantic information is included in the
-     relationships modelled, a high degree of expert knowle.g., may be built into the implemented
-     database, sufficient, it is claimed, for this to be better referred to as a knowle.g., base.</p>
+     epigraphical index to all attested Greek names from the earliest times to the mid seventh
+     century. Both these projects were converted from conventional flat files to their present form,
+     in which specialised content addressing hardware is used to support a simple relational query
+     interface for non specialist users. The third project is the evolution of a complete conceptual
+     model capable of supporting queries about all significant aspects of the conservation,
+     accession, cataloguing and description of museum objects, currently being undertaken in
+     collaboration with the Ashmolean Museum at Oxford. Because much semantic information is
+     included in the relationships modelled, a high degree of expert knowle.g., may be built into
+     the implemented database, sufficient, it is claimed, for this to be better referred to as a
+     knowle.g., base.</p>
    </div>
   </front>
   <body>
@@ -77,10 +78,10 @@
      Information is instantiated by the objects (just as the objects are given meaning by the
      information they convey) as much as it is represented in the catalogues and other indexes which
      describe them. Information is also present in the sum total of the expert knowle.g., concerning
-     the objects and their descriptions instantiated by the museum staff&#x2019;s learning and the whole
-     body of research on which it can draw. As new objects are added or catalogued and as opinions
-     about existing objects and their inter-relations shift and change, this information is subject
-     to continual expansion and review; it is however rarely or never discarded. </p>
+     the objects and their descriptions instantiated by the museum staff&#x2019;s learning and the
+     whole body of research on which it can draw. As new objects are added or catalogued and as
+     opinions about existing objects and their inter-relations shift and change, this information is
+     subject to continual expansion and review; it is however rarely or never discarded. </p>
     <p> If we regard the whole of a museum as an integrated system in which information is stored
      and processed, the task of modelling it within a computer appears at first sight rather
      daunting. Nevertheless it is no different from the task of modelling the complexities of any
@@ -140,18 +141,18 @@
      what it would like to do. The importance of the conceptual schema to this process is that it
      offers a neutral mechanism by which the information needs of the organisation can be expressed,
      quite independently of both existing manual systems and proposed computer ones. </p>
-    <p> This is not of course to advocate a <soCalled>new broom</soCalled> policy. One reasonable requirement of the
-     conceptual schema is that it should begin by describing all existing views of the universe of
-     discourse, although it is often the case that during this process many inconsistencies and
-     unnecessary constraints are brought to light. Only if the conceptual schema is defined
-     reasonably correctly and reasonably completely can we be reasonably confident that systems
-     implementing it will be capable of meeting any future requirement, as yet unanticipated. This
-     cautious optimism is firmly grounded in the very abstraction of the conceptual schema from
-     current requirements. The modelling process requires us to identify an idealised Platonic
-     structure for our Universe of Discourse from which not only our current requirements but also
-     all conceivable future ones may be derived. This extensibility is an important objective: if
-     history tells us anything, it is that tools intended for one purpose are invariably used for
-     another. </p>
+    <p> This is not of course to advocate a <soCalled>new broom</soCalled> policy. One reasonable
+     requirement of the conceptual schema is that it should begin by describing all existing views
+     of the universe of discourse, although it is often the case that during this process many
+     inconsistencies and unnecessary constraints are brought to light. Only if the conceptual schema
+     is defined reasonably correctly and reasonably completely can we be reasonably confident that
+     systems implementing it will be capable of meeting any future requirement, as yet
+     unanticipated. This cautious optimism is firmly grounded in the very abstraction of the
+     conceptual schema from current requirements. The modelling process requires us to identify an
+     idealised Platonic structure for our Universe of Discourse from which not only our current
+     requirements but also all conceivable future ones may be derived. This extensibility is an
+     important objective: if history tells us anything, it is that tools intended for one purpose
+     are invariably used for another. </p>
     <p> From the point of view of the end user, the process of conceptual schema design has a number
      of other benefits which (in our experience) greatly offset an initial impatience with its
      seemingly purposeless abstraction. </p>
@@ -159,18 +160,18 @@
      process, and moreover on an equal (if not superior) footing with the system designer.
      Consequently he perceives the system as one over which he has control and the nature of which
      he has largely determined. The neutrality of the conceptual modelling method employed (which
-     should appear to favour neither the end user&#2019;s perceptions nor those of the computer system
-     designer) is clearly of great importance here. Whatever approach is chosen (see 2.2), its
-     formalism must be comprehensible to both. </p>
+     should appear to favour neither the end user&#2019;s perceptions nor those of the computer
+     system designer) is clearly of great importance here. Whatever approach is chosen (see 2.2),
+     its formalism must be comprehensible to both. </p>
     <p> Secondly, the independence of the conceptual model from any one computer implementation has
-     many obvious benefits. It reduces the system implementor&#x2019;s problems considerably by providing
-     an implementation- independent specification against which any particular combination of
-     hardware and software can be validated. The process of mapping the formalism of an agreed
+     many obvious benefits. It reduces the system implementor&#x2019;s problems considerably by
+     providing an implementation- independent specification against which any particular combination
+     of hardware and software can be validated. The process of mapping the formalism of an agreed
      conceptual schema onto the formalism of a particular piece of software is well defined and can
-     be repeated as systems change without perturbing the end user&#x2019;s view of the system. This can be
-     particularly important in the research environment, where funding of hardware and software is
-     frequently an eccentric and irrational business in which choices are made at least as often on
-     political or emotional as on pragmatic grounds. </p>
+     be repeated as systems change without perturbing the end user&#x2019;s view of the system. This
+     can be particularly important in the research environment, where funding of hardware and
+     software is frequently an eccentric and irrational business in which choices are made at least
+     as often on political or emotional as on pragmatic grounds. </p>
     <p> Finally more than one end-user has remarked on the usefulness per se of designing a
      conceptual schema, even if no computer implementation of it ever actually materialises.
      Particularly in research, the discipline of re-assessing the conceptual framework within which
@@ -204,9 +205,9 @@
       file system! </p>
      <p> In the remainder of this paper I shall limit discussion largely to our use of the EAR
       approach in conceptual modelling. The external schemata (implemented conceptual models)
-      discussed are based for the most part on ICL&#x2019;s data management products, in particular IDMS, a
-      Codasyl standard network database management system <ref type="bibl" target="#N_21"
-      >[21]</ref>, and Querymaster, a relational query language interface <ref type="bibl"
+      discussed are based for the most part on ICL&#x2019;s data management products, in particular
+      IDMS, a Codasyl standard network database management system <ref type="bibl" target="#N_21"
+       >[21]</ref>, and Querymaster, a relational query language interface <ref type="bibl"
        target="#N_23">[23]</ref>. </p>
     </div>
     <div>
@@ -214,26 +215,27 @@
      <p> The process of constructing a conceptual schema is essentially one of categorisation and
       examination of the constraints determing what is meaningful within the Universe of Discourse.
       The method is simply to identify the entities of interest within an information system, their
-      constituent attributes and the relationships between them. An attribute (such as <ident>age</ident>) is
-      said to have value (say, 28) which may be drawn from a particular domain (say, positive
-      integers between 1 and 100). It is customary to represent the schema graphically by a network
-      in which the nodes represent entities and the arcs relationships. </p>
+      constituent attributes and the relationships between them. An attribute (such as
+       <ident>age</ident>) is said to have value (say, 28) which may be drawn from a particular
+      domain (say, positive integers between 1 and 100). It is customary to represent the schema
+      graphically by a network in which the nodes represent entities and the arcs relationships. </p>
      <p> In the approach we have adopted attributes are bound to particular entities, and are not
-      therefore normally included in the graphical representation of the model. If <ident>Person</ident> is an
-      entity and <ident>Object</ident> is an entity, although both may have an attribute <ident>Age</ident> these are considered
-      to be different attributes, and may be drawn from different domains. Where this is not the
-      case, it is probable that the attribute common to the two entities would more profitably be
-      regarded as an entity in its own right, associated with the other two by some relationship. If
-      Person has an attribute Country-of-birth and Object an attribute Country-of-origin, it might
-      be useful to identify Country as an entity in its own right, with relationships Born-in
-      associating it with Person and Made-in associating it with Object. A relationship expresses
-      some perceived association between entities. More strictly, distinguishing between entity
-      types (e.g., Person, Town) and entity occurrences (e.g., <val>Belinda</val>, <val>Oxford</val>),
-      we may say that
-      where particular entity occurrences are meaningfully associated (other than by virtue of being
-      of the same entity type) and the association can be given a name, then an occurrence of some
+      therefore normally included in the graphical representation of the model. If
+       <ident>Person</ident> is an entity and <ident>Object</ident> is an entity, although both may
+      have an attribute <ident>Age</ident> these are considered to be different attributes, and may
+      be drawn from different domains. Where this is not the case, it is probable that the attribute
+      common to the two entities would more profitably be regarded as an entity in its own right,
+      associated with the other two by some relationship. If Person has an attribute
+      Country-of-birth and Object an attribute Country-of-origin, it might be useful to identify
+      Country as an entity in its own right, with relationships Born-in associating it with Person
+      and Made-in associating it with Object. A relationship expresses some perceived association
+      between entities. More strictly, distinguishing between entity types (e.g., Person, Town) and
+      entity occurrences (e.g., <val>Belinda</val>, <val>Oxford</val>), we may say that where
+      particular entity occurrences are meaningfully associated (other than by virtue of being of
+      the same entity type) and the association can be given a name, then an occurrence of some
       relationship-type exists. For example, we may express the fact that Belinda lives in Oxford as
-      an instance of the relationship-type <ident>Lives-in</ident> occurring between entity types <ident>Person</ident> and Town. </p>
+      an instance of the relationship-type <ident>Lives-in</ident> occurring between entity types
+       <ident>Person</ident> and Town. </p>
      <p> The two aspects of a relationship which are conventionally represented in a conceptual
       schema are its cardinality, that is whether one or more than one (represented by the crows
       foot symbol) instance of an entity participates at each end of it and its optionality, that is
@@ -242,26 +244,27 @@
      <figure>
       <graphic url="FIG1"/>
      </figure>
-     <p> In figure 1 above, the relationship <ident>Lives-in</ident> has 1:n cardinality as many people live in
-      one town but a person can only live in one town; consequently there is a crows foot at the
-      Person end of the relationship arc. As a person cannot exist without living in some town, the
-      end of the arc nearest Person is solid; as a town can (in this model at least) exist with no
-      people living in it, the Town end of the arc is drawn with a broken line. </p>
-     <p> Note that this is an example of the  <ident>Lives-in</ident> relationship; if (as is more probable) we
-      were concerned with the <ident>Has-lived-in</ident> relationship, its cardinality would be different:
-      Belinda might have lived in many different towns. Some approaches, e.g., <ref type="bibl"
-       target="#N_12">[12]</ref>, permit the definition of attributes associated with relationships
-      (e.g., the date Belinda came to live in Oxford); in our experience again it is simpler to
-      regard this as a new entity type (say <ident>Residence</ident> ). </p>
+     <p> In figure 1 above, the relationship <ident>Lives-in</ident> has 1:n cardinality as many
+      people live in one town but a person can only live in one town; consequently there is a crows
+      foot at the Person end of the relationship arc. As a person cannot exist without living in
+      some town, the end of the arc nearest Person is solid; as a town can (in this model at least)
+      exist with no people living in it, the Town end of the arc is drawn with a broken line. </p>
+     <p> Note that this is an example of the <ident>Lives-in</ident> relationship; if (as is more
+      probable) we were concerned with the <ident>Has-lived-in</ident> relationship, its cardinality
+      would be different: Belinda might have lived in many different towns. Some approaches, e.g.,
+       <ref type="bibl" target="#N_12">[12]</ref>, permit the definition of attributes associated
+      with relationships (e.g., the date Belinda came to live in Oxford); in our experience again it
+      is simpler to regard this as a new entity type (say <ident>Residence</ident> ). </p>
      <p> As a further simplification, only binary (that is, involving two entity types)
       relationships are used, n-ary relationships being better represented by additional entities.
-      Thus, while we could express the fact that Belinda attributed the <title>Last Supper</title> to Giotto as
-      an instance of a ternary relationship <ident>Attribution</ident> defined between the entities Person,
-      Painting and Artist, it is more convenient to regard this as an instance of an entity type
-      <ident>Attribution</ident> to which a Person is related by an instance of the <ident>Attributor</ident> relationship, an
-      Artist by the relationship <ident>Attributee</ident> and a Painting by an instance of the relationship
-      <ident>Attributed to</ident> (see figure 2). We do not however exclude reflexive relationships, (for
-      example the relationship <ident>copied-from</ident> between one instance of a Painting and another),
+      Thus, while we could express the fact that Belinda attributed the <title>Last Supper</title>
+      to Giotto as an instance of a ternary relationship <ident>Attribution</ident> defined between
+      the entities Person, Painting and Artist, it is more convenient to regard this as an instance
+      of an entity type <ident>Attribution</ident> to which a Person is related by an instance of
+      the <ident>Attributor</ident> relationship, an Artist by the relationship
+       <ident>Attributee</ident> and a Painting by an instance of the relationship <ident>Attributed
+       to</ident> (see figure 2). We do not however exclude reflexive relationships, (for example
+      the relationship <ident>copied-from</ident> between one instance of a Painting and another),
       although in practise, these also often indicate hidden entities. </p>
      <figure>
       <graphic url="FIG2"/>
@@ -318,15 +321,15 @@
        target="#N_17">[17]</ref> and to those which had not. The former category were simply
       collected for publication in book form as the Beazley Addenda <ref type="bibl" target="#N_18"
        >[18]</ref> while the latter were held in computer files, to which access by scholars
-      throughout the world was offered by the Archive&#x2019;s staff. At present about 8000 vases fall into
-      this second category; a further 30,000 are described in the Beazley publications which will
-      also, eventually, be added into the system. </p>
+      throughout the world was offered by the Archive&#x2019;s staff. At present about 8000 vases
+      fall into this second category; a further 30,000 are described in the Beazley publications
+      which will also, eventually, be added into the system. </p>
      <p> Information held about each vase or fragment comprises a coded description of its form, its
       provenance, its cataloguing history, its iconography, details of any attributions made for it
-      and of course the bibliographical citations which were the original raison d&#x2019;être of the
-      project. An earlier paper <ref type="bibl" target="#N_19">[19]</ref> describes the system as
-      originally implemented; it is perhaps typical of many other projects where a manual card-based
-      system has been automated more or less unchanged. </p>
+      and of course the bibliographical citations which were the original raison d&#x2019;être of
+      the project. An earlier paper <ref type="bibl" target="#N_19">[19]</ref> describes the system
+      as originally implemented; it is perhaps typical of many other projects where a manual
+      card-based system has been automated more or less unchanged. </p>
      <p> The software used in this initial project was a well known package called Famulus <ref
        type="bibl" target="#N_16">[16]</ref> which is widely used at many British Universities and
       museums <ref type="bibl" target="#N_37">[37]</ref> and is typical of many conventional file
@@ -340,48 +343,45 @@
       originally intended to capture. </p>
      <p> In the case of the Beazley Archive, this had lead to a number of problems, chiefly to do
       with consistency. If we examine the sample record given by Glynn <ref type="bibl"
-       target="#N_19">[19]</ref>, reproduced in <ref target="#osaka-fig2">figure 3</ref> below, it is evident that several fields
-      (that is, attributes in our terminology) contain values drawn from domains which are quite
-      large. <soCalled>Technique</soCalled> is fairly simple: a manageably small set of codes 
-      for this and for <soCalled>Shape</soCalled>
-      had been defined. Even in the <soCalled>Subjects</soCalled> field it had proved feasible, 
-      if difficult, for the
+       target="#N_19">[19]</ref>, reproduced in <ref target="#osaka-fig2">figure 3</ref> below, it
+      is evident that several fields (that is, attributes in our terminology) contain values drawn
+      from domains which are quite large. <soCalled>Technique</soCalled> is fairly simple: a
+      manageably small set of codes for this and for <soCalled>Shape</soCalled> had been defined.
+      Even in the <soCalled>Subjects</soCalled> field it had proved feasible, if difficult, for the
       Archive to keep to a controlled vocabulary, given its expert knowle.g., of the subject.
-      However, with fields such as <soCalled>Museum</soCalled> and <soCalled>Publication</soCalled> it was proving quite difficult to
-      maintain consistency in the abbreviations used to refer to named items occurring perhaps very
-      infrequently in the whole database, without frequent recourse to hand-made checklists which
-      were inevitably out of date. </p>
+      However, with fields such as <soCalled>Museum</soCalled> and <soCalled>Publication</soCalled>
+      it was proving quite difficult to maintain consistency in the abbreviations used to refer to
+      named items occurring perhaps very infrequently in the whole database, without frequent
+      recourse to hand-made checklists which were inevitably out of date. </p>
      <figure>
-      <graphic url="../media/osaka-fig2.png" xml:id="osaka-fig2" width="200px" height="300px"/>
+      <graphic url="media/osaka-fig02.png" xml:id="osaka-fig2" width="800px" height="700px"/>
       <head type="legend"/>
      </figure>
      <p> A further oddity of card-driven systems like this one is that some of the fields actually
-      contain different attributes, drawn from different domains. Thus, <soCalled>Attribution</soCalled> contains both
-      the name or description of an artist or potter and the name of a scholar but only human
-      intelligence can tell which is which, by interpreting the parentheses. Similarly, the
-      beginning of the <soCalled>Subject</soCalled>s field includes a code for the part of the vase decorated, drawn
-      from quite a different domain from that of the rest of the field. Finally, in some fields (but
-      not others) it is possible to have a number of values one after another, each with quite a
-      complex structure. Again only human intelligence can determine where one such sub-field stops
-      and the next begins. </p>
+      contain different attributes, drawn from different domains. Thus,
+       <soCalled>Attribution</soCalled> contains both the name or description of an artist or potter
+      and the name of a scholar but only human intelligence can tell which is which, by interpreting
+      the parentheses. Similarly, the beginning of the <soCalled>Subject</soCalled>s field includes
+      a code for the part of the vase decorated, drawn from quite a different domain from that of
+      the rest of the field. Finally, in some fields (but not others) it is possible to have a
+      number of values one after another, each with quite a complex structure. Again only human
+      intelligence can determine where one such sub-field stops and the next begins. </p>
      <p> These practises are of course all perfectly acceptable in an information system such as a
       card index or a book which is to be processed by human intelligence. Human beings understand
-      parentheses and semicolons and know that <soCalled>A,B</soCalled> is unlikely to refer to a picture on a vase,
-      just as they know that <soCalled>ARV</soCalled> is an abbreviation for some publication while 
-      <soCalled>xxiv</soCalled> is not. To
-      the computer however, in the absence of more precise information, everything within one field
-      is equally meaningful (or meaningless), and the whole of each field must thus be processed as
-      a homogeneous string of characters. If the nature of the data to be processed is not
-      accurately discriminated then any search for particular items will involve the scanning and
-      rejection of much irrelevant material. The intelligence which a human being would bring to
-      bear on the search (e.g., that if you are interested in <soCalled>Subjects</soCalled> on side A and 
-      the current
-      subject field does not begin with A then there is no need to look any further at it) is not
-      necessarily available. </p>
-     <p> The immediate causes of the Archive&#x2019;s decision to redesign their system were however more
-      to do with functional limitations of the Famulus package. For example when recording the LOCN
-      field for a new entry it was essential to check that no entry already existed with the same
-      value for that field. This would indicate that the vase in question had already been
+      parentheses and semicolons and know that <soCalled>A,B</soCalled> is unlikely to refer to a
+      picture on a vase, just as they know that <soCalled>ARV</soCalled> is an abbreviation for some
+      publication while <soCalled>xxiv</soCalled> is not. To the computer however, in the absence of
+      more precise information, everything within one field is equally meaningful (or meaningless),
+      and the whole of each field must thus be processed as a homogeneous string of characters. If
+      the nature of the data to be processed is not accurately discriminated then any search for
+      particular items will involve the scanning and rejection of much irrelevant material. The
+      intelligence which a human being would bring to bear on the search (e.g., that if you are
+      interested in <soCalled>Subjects</soCalled> on side A and the current subject field does not
+      begin with A then there is no need to look any further at it) is not necessarily available. </p>
+     <p> The immediate causes of the Archive&#x2019;s decision to redesign their system were however
+      more to do with functional limitations of the Famulus package. For example when recording the
+      LOCN field for a new entry it was essential to check that no entry already existed with the
+      same value for that field. This would indicate that the vase in question had already been
       catalogued and that the new citations should therefore simply be tacked onto the PUBL field of
       an existing record. This checking could however only be done by maintaining an up to date
       sorted index of all LOCN fields in the database and checking each new candidate against this
@@ -389,11 +389,11 @@
       sharply as the database grew bigger, and the index to it therefore more necessary. The simple
       logistical problems of maintaining a file of 8000 Famulus records in the absence of
       specialised software or staff were also begining to cause grave problems. </p>
-     <p> In October 1983 we therefore embarked on the process of converting the archive&#x2019;s file of
-      Famulus citations into an IDMS database. A conceptual model was designed in close consultation
-      with staff who had worked on the original system and would be using the new one; a pilot
-      system was tested during the early months of 1984, and the first full system went live in May
-      of the same year. </p>
+     <p> In October 1983 we therefore embarked on the process of converting the archive&#x2019;s
+      file of Famulus citations into an IDMS database. A conceptual model was designed in close
+      consultation with staff who had worked on the original system and would be using the new one;
+      a pilot system was tested during the early months of 1984, and the first full system went live
+      in May of the same year. </p>
      <p> In defining the conceptual schema and the IDMS (external) schema derived from it, the
       opportunity was taken to include as many semantically significant relationships into the
       structure as possible. These not only simplified the construction of a good interactive update
@@ -420,7 +420,7 @@
      <p> These and other relationships are summarised in the conceptual schema represented in figure
       4. </p>
      <figure>
-      <graphic url="../media/osaka-fig04.png" height="200px" width="300px"/>
+      <graphic url="media/osaka-fig04.png" height="600px" width="800px"/>
       <head type="legend"/>
      </figure>
      <p> Our hypothesis is that any meaningful question about the universe of discourse represented
@@ -429,17 +429,17 @@
      <p> The second stage in the construction of the database was the definition of external and
       internal schemata appropriate to this agreed conceptual model. As in the other projects we
       have implemented, one external schema was an ANSC standard network schema <ref type="bibl"
-       target="#N_20">[20]</ref> as implemented by ICL&#x2019;s version of the widely used IDMS package.
-       <ref type="bibl" target="#N_21">[21]</ref>. A second external schema uses a relational query
-      processor Querymaster <ref type="bibl" target="#N_23">[23]</ref> to provide a simple user
-      interface. Full details of the implementation are beyond the scope of this paper, but the
-      following general points may be of interest. </p>
+       target="#N_20">[20]</ref> as implemented by ICL&#x2019;s version of the widely used IDMS
+      package. <ref type="bibl" target="#N_21">[21]</ref>. A second external schema uses a
+      relational query processor Querymaster <ref type="bibl" target="#N_23">[23]</ref> to provide a
+      simple user interface. Full details of the implementation are beyond the scope of this paper,
+      but the following general points may be of interest. </p>
      <p> IDMS implements storage structures which are very similar to those of the EAR conceptual
       schema: entities can be mapped directly to IDMS records, attributes to data-items and
       relationships to sets as a first approximation. Although the concept of domain is missing, it
       can be implemented by means of an additional record and set type. Thus in our example, the
-      acronyms used to prefix a catalogue number must correspond with (i.e., be derived from the same
-      domain as) the mnemonic key of some existing Collection record. IDMS offers facilities to
+      acronyms used to prefix a catalogue number must correspond with (i.e., be derived from the
+      same domain as) the mnemonic key of some existing Collection record. IDMS offers facilities to
       enforce this rule, and also to allow it to be overriden when storing the first catalogue
       number from a previously unknown collection. The controlled vocabulary used for the
       iconographic descriptions in the database is similarly constrained by the system. </p>
@@ -465,12 +465,13 @@
      <p> The following sample dialogue shows how the data for the record given in figure 1 would be
       entered using this program: </p>
      <figure>
-      <graphic url="../media/osaka-fig05.png" height="200px" width="300px"/>
-      <head type="legend"/> </figure>
-     <p> Note that much of the data (e.g., Museum codes, publication codes etc.) can be automatically
-      validated by the program on entry. When corrections are needed, they involve a minimal amount
-      of disturbance of existing data. All record management, including provision of automatic
-      journalising and security dumps, is carried out by IDMS. </p>
+      <graphic url="media/osaka-fig05.png" height="800px" width="600px"/>
+      <head type="legend"/>
+     </figure>
+     <p> Note that much of the data (e.g., Museum codes, publication codes etc.) can be
+      automatically validated by the program on entry. When corrections are needed, they involve a
+      minimal amount of disturbance of existing data. All record management, including provision of
+      automatic journalising and security dumps, is carried out by IDMS. </p>
      <p> For ad hoc queries of the database, we did not feel that the network external schema was
       satisfactory, largely because of its inherent procedurality; we therefore wished to provide as
       a second external schema something which would offer a full relational view of the conceptual
@@ -526,8 +527,8 @@
       be joined to rows in the CATNO table which can themselves be joined to rows in the COLLECTION
       table. These joins can be made using the IDMS set types corresponding with the relationships
       shown in figure 4. The joined rows can, at the same time, be scanned rapidly by CAFS to pick
-      out only those rows in which the COLLECTION-ID column has a value of <val>XYZ</val>. Similarily, the
-      query </p>
+      out only those rows in which the COLLECTION-ID column has a value of <val>XYZ</val>.
+      Similarily, the query </p>
      <eg> LIST ARTIST-NAME, SCHOLAR-NAME, VASE-NUMBER ... </eg>
      <p> requests columns from three tables (ARTIST, SCHOLAR and VASE). It is unambiguous, because
       there is only one way in which the three corresponding entities can be related (via an
@@ -558,9 +559,9 @@
       however, it became apparent that the keyword index was to some extent redundant. The CAFS text
       searching facilities can perform very fast string searches for individual words or parts of
       words within a string. Approximate string matching is also possible, thus (to quote recent ICL
-      publicity) allowing the user <q>to find a noodle in a hatrack</q> <ref type="bibl" target="#N_25"
-       >[25]</ref>. Of more significance to us is the ease with which complex searches can be
-      expressed. For example, </p>
+      publicity) allowing the user <q>to find a noodle in a hatrack</q>
+      <ref type="bibl" target="#N_25">[25]</ref>. Of more significance to us is the ease with which
+      complex searches can be expressed. For example, </p>
      <eg> LIST VASE WHERE TEXT-WORD = "ACHILLES","TORTOISE" </eg>
      <p> will list all the vases whose descriptions include references to either Achilles or the
       Tortoise. </p>
@@ -591,13 +592,13 @@
       comparable project starting today, was not even envisioned as a possibility ten years ago;
       such is the pace of change in computer technology. </p>
      <p> Lexicon staff continued to amass and record citation slips using the Famulus package for
-      many years, more or less independently, with little need to me.g., the resulting files. As this
-      need became apparent however, special purpose checking programs were developed to assist in
-      the process of integration and validation, but these rapidly proved to be inadequate for the
-      sheer bulk of data involved - 10,000 different names associated with 60,000 different people
-      and a total of 90,000 references are estimated for the first volume alone. Accordingly, in the
-      summer of 1983, the Lexicon embarked on a conversion process similar to that of the Beazley
-      Archive as described above. </p>
+      many years, more or less independently, with little need to me.g., the resulting files. As
+      this need became apparent however, special purpose checking programs were developed to assist
+      in the process of integration and validation, but these rapidly proved to be inadequate for
+      the sheer bulk of data involved - 10,000 different names associated with 60,000 different
+      people and a total of 90,000 references are estimated for the first volume alone. Accordingly,
+      in the summer of 1983, the Lexicon embarked on a conversion process similar to that of the
+      Beazley Archive as described above. </p>
      <p> The original Famulus files had used four fields only, containing the name of a person, a
       date (either of a person or of an inscription), a place name and a reference. This last field
       also contained large amounts of miscellaneous details about the person such as variant
@@ -625,33 +626,33 @@
       Polis (that is, political or tribal grouping) with which that residence is associated will
       depend on the date associated with the Residence. </p>
      <p> For example, an inhabitant of the island Telos at a date subsequent to the annexation of
-      that island by Rhodes would be related to the Polis <soCalled>Rhodian Telioi</soCalled>,
-      while a person whose
-      residence predated the annexation would have no such connexion. </p>
+      that island by Rhodes would be related to the Polis <soCalled>Rhodian Telioi</soCalled>, while
+      a person whose residence predated the annexation would have no such connexion. </p>
      <p> In the original files, the dates of various events had been recorded in a wide variety of
       styles intended to capture the varying degrees of exactness which could be attached to them.
-      While appropriate to a printed volume, such forms as <soCalled>c. 3 BC</soCalled>, 
-      <soCalled>3&#x2013;7 AD</soCalled>, <soCalled>4th c.</soCalled>, or<soCalled>521 BC</soCalled> 
-      obviously could not be presented to the computer as coming from the same domain. It was
-      therefore agreed that for each such date both an earliest possible and a latest possible date
-      would be calculated during the conversion process, both being stored as integers in the range
-      1 (for 1000 BC) to 2000 (for 1000 AD). The text forms of the date are additionally retained
-      for printing out. The earliest date for a person is additionally used to identify a Year
-      entity with which he is associated, as a coarse grouping corresponding with the coarse
-      grouping by location provided by the Residence entity. </p>
+      While appropriate to a printed volume, such forms as <soCalled>c. 3 BC</soCalled>,
+       <soCalled>3&#x2013;7 AD</soCalled>, <soCalled>4th c.</soCalled>, or<soCalled>521
+       BC</soCalled> obviously could not be presented to the computer as coming from the same
+      domain. It was therefore agreed that for each such date both an earliest possible and a latest
+      possible date would be calculated during the conversion process, both being stored as integers
+      in the range 1 (for 1000 BC) to 2000 (for 1000 AD). The text forms of the date are
+      additionally retained for printing out. The earliest date for a person is additionally used to
+      identify a Year entity with which he is associated, as a coarse grouping corresponding with
+      the coarse grouping by location provided by the Residence entity. </p>
      <p> The original data also included fairly sparse information about other entities, notably
       family relationships between people, their occupations and careers and occasional references
       to the scholars responsible for the more tenuous attributions. All but the first of these were
       regarded as of too little significance to be included in the final model, but the existence of
       information about family groupings was considered to be of sufficient interest to warrant
-      definition of a reflexive <ident>related-to</ident> relationship in the conceptual schema. This enables the
-      system to support queries such as <q>List all those people whose fathers are known to the system
-      or who share a common parent</q>. The remaining miscellaneous material is retained simply as
-      textual commentary, logically associated with the appropriate entity occurrences. The complete
-      conceptual model is reproduced in figure 6 . </p>
+      definition of a reflexive <ident>related-to</ident> relationship in the conceptual schema.
+      This enables the system to support queries such as <q>List all those people whose fathers are
+       known to the system or who share a common parent</q>. The remaining miscellaneous material is
+      retained simply as textual commentary, logically associated with the appropriate entity
+      occurrences. The complete conceptual model is reproduced in figure 6 . </p>
      <figure>
-      <graphic url="../media/osaka-fig06.png" height="200px" width="300px"/>
-      <head type="legend"/>    </figure>
+      <graphic url="media/osaka-fig06.png" height="600px" width="800px"/>
+      <head type="legend"/>
+     </figure>
      <p> Implementation of this system followed more or less the same pattern as that of the Beazley
       Archive as described above; it is not therefore further described here. One important
       difference in the uses to which the system is to be put however is that the printed volumes of
@@ -664,16 +665,16 @@
       discovered. Whether or not a bureau service similar to that planned by the Beazley Archive
       will be made available to interested Hellenists remains to be determined. </p>
      <figure>
-      <graphic url="../media/osaka-fig07.png" height="200px" width="300px"/>
+      <graphic url="media/osaka-fig07.png" height="600px" width="800px"/>
       <head type="legend"/>
      </figure>
      <p> It is gratifying to be able to quote the following vindication of our approach to this type
       of data management problem, which appears as the conclusion of an internal report by one of
       the Lexicon&#x2019;s staff: </p>
      <p><q>The conversion of the Lexicon data to an integrated system has been a very useful and
-      salutary experience, chiefly in defining domains for the different records and forcing
-      decisions on the exact meaning of certain pieces of information. It should extend the
-      usefulness of the data beyond the printed publication. </q><ref type="bibl" target="#N_29"
+       salutary experience, chiefly in defining domains for the different records and forcing
+       decisions on the exact meaning of certain pieces of information. It should extend the
+       usefulness of the data beyond the printed publication. </q><ref type="bibl" target="#N_29"
        >[29]</ref>
      </p>
     </div>
@@ -702,19 +703,18 @@
      which, as discussed earlier, effectively model a representation of the real world rather than
      the real world itself. </p>
     <p> In the case of GOS, although relationships between attributes of records may be defined,
-     they may only be structured hierarchically. For example, the attribute <ident>Provenance</ident>
-     might have
-     sub-categories <ident>Country</ident> and <ident>Placename</ident>, <ident>Placename</ident>
-     being further sub-divided into <ident>Region</ident>
-     and <ident>Town</ident> etc. These sub-categories may not however participate in more than one hierarchy.
-     Consequently, although attributes such as <ident>Country</ident> 
-     may be common to many entities, they cannot
-     be sub-categories within more than one GOS category. Instead, indexes must be declared and
-     maintained independently of the record structure. The indexing facilities provided are often
-     very sophisticated (including such useful features as fuzzy matching and the definition of
-     synonyms or related terms) but the expense of maintaining indexes independently of a database
-     can be high. Furthermore, in our view, the absence of any implementation-independent data
-     description component greatly reduces the usability of such systems. </p>
+     they may only be structured hierarchically. For example, the attribute
+      <ident>Provenance</ident> might have sub-categories <ident>Country</ident> and
+      <ident>Placename</ident>, <ident>Placename</ident> being further sub-divided into
+      <ident>Region</ident> and <ident>Town</ident> etc. These sub-categories may not however
+     participate in more than one hierarchy. Consequently, although attributes such as
+      <ident>Country</ident> may be common to many entities, they cannot be sub-categories within
+     more than one GOS category. Instead, indexes must be declared and maintained independently of
+     the record structure. The indexing facilities provided are often very sophisticated (including
+     such useful features as fuzzy matching and the definition of synonyms or related terms) but the
+     expense of maintaining indexes independently of a database can be high. Furthermore, in our
+     view, the absence of any implementation-independent data description component greatly reduces
+     the usability of such systems. </p>
     <div>
      <head><!-- 4.1 -->The Ashmolean Project </head>
      <p> In 1983 the Ashmolean Museum celebrated its 300th anniversary, with much pageantry and no
@@ -742,12 +742,12 @@
       of subdividing our model into three submodels, each centred on the Object entity. These
       submodels represent information about </p>
      <list>
-      <item> a) an object&#x2019;s history as a museum piece : its previous owners, cataloguing details
-       etc. </item>
-      <item> b) an object&#x2019;s conservation : any physical changes or observations of it made while in
-       the care of the Museum </item>
-      <item> c) an object&#x2019;s description : the sum of opinions as to its original purpose, origins
-       etc. </item>
+      <item> a) an object&#x2019;s history as a museum piece : its previous owners, cataloguing
+       details etc. </item>
+      <item> b) an object&#x2019;s conservation : any physical changes or observations of it made
+       while in the care of the Museum </item>
+      <item> c) an object&#x2019;s description : the sum of opinions as to its original purpose,
+       origins etc. </item>
      </list>
      <p> Although I discuss these three sub-models independently below, it should be remembered that
       a primary design objective was to integrate these three into a single information system.
@@ -756,20 +756,19 @@
      <p> For example, an analysis carried out to conserve an object may produce new data
       authenticating (or invalidating) the attribution of that object to a particular time or place.
       Equally, the success of a particular treatment may be crucially dependent on a knowle.g., of
-      the object&#x2019;s previous environment or history; while a knowle.g., of the complete tradition of
-      an object&#x2019;s history is often regarded as an integral part of its description. (This last is
-      particularly true of the Ashmolean which still retains from its early days as the
-      <soCalled>Knicknackatorie</soCalled> such curiosities as <soCalled>Guy Fawkes Lantern</soCalled>
-      and <soCalled>Pocahontas Mantle</soCalled>.) We have
-      tried to represent all of these inter-relationships as thoroughly as possible in the full
-      model; it is only for convenience of discussion that I discuss the three sub-models
-      independently. </p>
+      the object&#x2019;s previous environment or history; while a knowle.g., of the complete
+      tradition of an object&#x2019;s history is often regarded as an integral part of its
+      description. (This last is particularly true of the Ashmolean which still retains from its
+      early days as the <soCalled>Knicknackatorie</soCalled> such curiosities as <soCalled>Guy
+       Fawkes Lantern</soCalled> and <soCalled>Pocahontas Mantle</soCalled>.) We have tried to
+      represent all of these inter-relationships as thoroughly as possible in the full model; it is
+      only for convenience of discussion that I discuss the three sub-models independently. </p>
      <div>
       <head><!-- 4.2.1 -->The Object History Submodel </head>
       <p> The entities in this submodel are all concerned with events or perceptions concerning the
-       object&#x2019;s existence as a museum object. Such concepts as its ownership, published references
-       to it and the place where it is currently stored are simple enough to model once the basic
-       problem of establishing the object&#x2019;s identity has been overcome. </p>
+       object&#x2019;s existence as a museum object. Such concepts as its ownership, published
+       references to it and the place where it is currently stored are simple enough to model once
+       the basic problem of establishing the object&#x2019;s identity has been overcome. </p>
       <p> The problem has two aspects: sometimes the same physical object is given a number of
        different names and sometimes the same name refers to different physical objects. It is
        commonplace for the same object to be given different names at different times, particularly
@@ -792,26 +791,23 @@
        Event-types might be <soCalled>Accession</soCalled> or <soCalled>Constitution</soCalled>. </p>
       <p> The use of this mapping may be demonstrated by the following not untypical scenario. </p>
       <list>
-       <item> 1) In 1802, the Duke of Blankshire bequeaths to the Museum a large statue known as
-        The Blankshire Venus. Not to be outdone, his neighbour Earl Asterisk also bequeaths the
-        famous Asterisk Marbles, some 200 assorted and uncatalogued pieces. </item>
+       <item> 1) In 1802, the Duke of Blankshire bequeaths to the Museum a large statue known as The
+        Blankshire Venus. Not to be outdone, his neighbour Earl Asterisk also bequeaths the famous
+        Asterisk Marbles, some 200 assorted and uncatalogued pieces. </item>
       </list>
       <p> At this stage, we have the following entities: </p>
       <p> Object-Names : (1) 1802.1000, The Blankshire Venus (2) 1802.2000, The Asterisk Marbles </p>
       <p> Persons : (1) Duke of Blankshire (2) Earl Asterisk </p>
       <p> Objects : (1) No. 1000 Wt. 550 Kg, Ht 2.4 m, etc. (2&#x2013;201) Nos. AM1 &#x2013; AM200 </p>
       <p> Events : (1) 1802 Accession. Related to Object (1), Person (1) and to Object-Name (1).
-       (2&#x2013;201) 1802 Accession. Each related to Object&#x2013;Name (2) Person (2), and a different one of
-       the 200 Objects with Nos. AM1 &#x2013; AM200. </p>
+       (2&#x2013;201) 1802 Accession. Each related to Object&#x2013;Name (2) Person (2), and a
+       different one of the 200 Objects with Nos. AM1 &#x2013; AM200. </p>
       <p> To identify all Objects acquired from Earl Asterisk, we select all Events of type
-       <soCalled>Accession</soCalled> related to Person(2), each of which will also be
-       associated with both an Object
-       and an Object&#x2013;Name (possibly the same one). To identify all catalogue numbers (i.e.,
-       Object&#x2013;Names) associated with Object(x) we select all events of type 
-       <soCalled>Accession</soCalled> or
-       <soCalled>Recataloguing</soCalled> associated with Object(x), each of which will be 
-       associated with some
-       Object-Name. </p>
+        <soCalled>Accession</soCalled> related to Person(2), each of which will also be associated
+       with both an Object and an Object&#x2013;Name (possibly the same one). To identify all
+       catalogue numbers (i.e., Object&#x2013;Names) associated with Object(x) we select all events
+       of type <soCalled>Accession</soCalled> or <soCalled>Recataloguing</soCalled> associated with
+       Object(x), each of which will be associated with some Object-Name. </p>
       <list>
        <item> 2) The celebrated Professor Marmi-Perduti having gained wide acceptance for his theory
         that the left arm of the Blankshire Venus is in fact spurious, the Museum is prevailed upon
@@ -819,13 +815,12 @@
       </list>
       <p> This gives rise to two new objects, say nos. 1001 (the now armless Venus) and 1002 (the
        spare, possibly spurious, arm). It also gives rise to two new Event entities (with date 1840,
-       type <soCalled>Constitution</soCalled>, one associating Object(1002) with a new Object&#x2013;Name 
-       (<soCalled>Arm, formerly
-        attached to the Blankshire Venus</soCalled>), and the other associating the existing 
-       Object&#x2013;Name(1)
-       with Object(1001), the now armless Venus. A third Event (type <soCalled>Former-constitution</soCalled>) is also
-       created, associating Object(1002) with Object-Name(1000). In the absence of any restriction
-       on the date applicable to the information, any request for information about Object&#x2013;Name(1)
+       type <soCalled>Constitution</soCalled>, one associating Object(1002) with a new
+       Object&#x2013;Name (<soCalled>Arm, formerly attached to the Blankshire Venus</soCalled>), and
+       the other associating the existing Object&#x2013;Name(1) with Object(1001), the now armless
+       Venus. A third Event (type <soCalled>Former-constitution</soCalled>) is also created,
+       associating Object(1002) with Object-Name(1000). In the absence of any restriction on the
+       date applicable to the information, any request for information about Object&#x2013;Name(1)
        must now be interpreted as a request for information about Objects 1000, 1001 and 1002. </p>
       <list>
        <item> 3) The equally celebrated savant M. Marbres-Perdus has meanwhile been browsing through
@@ -834,26 +829,27 @@
         the new arm is fixed in place. </item>
       </list>
       <p> This also creates a new Object (say no. 1010) and two new Events (date 1846, type
-       <soCalled>Constitution</soCalled>). One of the events is associated with the existing Object 1001 and the other
-       with the new Object 1010. Both events are associated with Object-Name (1). The date attribute
-       of the existing Event record associating Object AM42 with Object-Name (2) is changed to
-       indicate that the relationship is no longer current. </p>
+        <soCalled>Constitution</soCalled>). One of the events is associated with the existing Object
+       1001 and the other with the new Object 1010. Both events are associated with Object-Name (1).
+       The date attribute of the existing Event record associating Object AM42 with Object-Name (2)
+       is changed to indicate that the relationship is no longer current. </p>
       <p> Note that Object AM42 may not be removed, even though the corresponding entity in the real
        world has ceased to exist, being now a part of the Blankshire Venus. In our model, no entity
        occurrence can exist as long as some other entity occurrence is related to it; therefore, as
        long as the information in one or more Events is required, the Objects associated with those
        Events must also be retained. </p>
       <p> Without this structure it would be quite difficult to answer such questions as <q>What
-       catalogue numbers have been given this Object during its history?</q> or <q>Which objects were
-       known by this catalogue number at a particular time?</q>. Of course a text-based system could
-       achieve this simply by indexing the individual catalogue numbers wherever they occured, but
-       it might prove difficult to make much sense of the resulting multiple references. </p>
+        catalogue numbers have been given this Object during its history?</q> or <q>Which objects
+        were known by this catalogue number at a particular time?</q>. Of course a text-based system
+       could achieve this simply by indexing the individual catalogue numbers wherever they occured,
+       but it might prove difficult to make much sense of the resulting multiple references. </p>
       <p> Once the basic distinction between Object and Object-Name had been established, the rest
        of this sub-model presented few problems, the only matter of controversy being whether the
        remaining entities should be directly related to Objects or indirectly via an Event record. </p>
       <figure>
-       <graphic url="../media/osaka-fig08.png" height="200px" width="300px"/>
-       <head type="legend"/>   </figure>
+       <graphic url="media/osaka-fig08.png" height="600px" width="800px"/>
+       <head type="legend"/>
+      </figure>
       <p> Store and Loan are both directly associated with an Object, being both concerned with the
        physical whereabouts or origins of an object. A Store is any location (shelf, cupboard,
        gallery etc.) within the museum where Objects may or should be stored. The current design
@@ -890,62 +886,66 @@
      <div>
       <head><!-- 4.2.2 -->The Object Conservation Submodel </head>
       <p> This submodel is concerned with all aspects of the physical treatment of the objects in
-       the Museum&#x2019;s care. Three types of operation are distinguished: an Examination, an Analysis
-       and a Treatment; each of these corresponding with an entity in figure 9. </p>
+       the Museum&#x2019;s care. Three types of operation are distinguished: an Examination, an
+       Analysis and a Treatment; each of these corresponding with an entity in figure 9. </p>
       <figure>
-       <graphic url="../media/osaka-fig09.png" height="200px" width="300px"/>
-       <head type="legend"/> </figure>
+       <graphic url="media/osaka-fig09.png" height="600px" width="800px"/>
+       <head type="legend"/>
+      </figure>
       <p> An Examination may be a simple visual inspection or a complex process of disassembly and
        measurement. It is distinguished from an Analysis by virtue of the fact that the latter is
        usually carried out on a small sample taken from the Object and may be performed by some
        outside agency. Resulting from either (or both) is a Material-Description, which summarizes
        the material constituents of some or all of the Object. As this Description, like others,
        will be keyword indexed in any resulting implementation we do not include the keywords (which
-       are fairly self evident terms such as <soCalled>Bronze</soCalled>, <soCalled>annealed</soCalled> 
-       etc.) as entities here. </p>
+       are fairly self evident terms such as <soCalled>Bronze</soCalled>,
+        <soCalled>annealed</soCalled> etc.) as entities here. </p>
       <p> As a result of an Analysis (or for some other reason), an Object may unde.g., some kind of
-       Treatment. A Treatment comprises a number of Procedures (e.g., <soCalled>Washing</soCalled>, 
-       <soCalled>Polishing</soCalled>) in each
-       of which a specific Agent (e.g., <soCalled>Methylated spirit</soCalled>, <soCalled>Pumice</soCalled>) may be involved. A particular
-       Treatment is carried out on a specific Part (not necessarily the whole) of an Object. </p>
+       Treatment. A Treatment comprises a number of Procedures (e.g., <soCalled>Washing</soCalled>,
+        <soCalled>Polishing</soCalled>) in each of which a specific Agent (e.g.,
+        <soCalled>Methylated spirit</soCalled>, <soCalled>Pumice</soCalled>) may be involved. A
+       particular Treatment is carried out on a specific Part (not necessarily the whole) of an
+       Object. </p>
       <p> The Conservation Department did not enter the saga of the Blankshire Venus until 1850 when
        it was proposed that the statue might be loaned to the Great Exhibition. At this point an
        Examination was carried out and a Material Description indicating simply that the piece was
        made of marble added to the database. It was decided that that whole statue should be
-       thoroughly cleaned (a Treatment, involving two Procedures, the first <soCalled>Poulticing</soCalled> with Agent
-       <soCalled>Magnesium Silicate</soCalled>, the second <soCalled>Polishing</soCalled> with 
-       Agent <soCalled>Talc</soCalled>). In 1934 however, an X-ray
-       scan of the statue carried out to determine how safely it could be moved, revealed that it
-       contained iron dowels. The X-ray scan for our purposes, is considered as a type of Analysis;
-       the iron dowels being added as a new Material Description for the Object. </p>
+       thoroughly cleaned (a Treatment, involving two Procedures, the first
+        <soCalled>Poulticing</soCalled> with Agent <soCalled>Magnesium Silicate</soCalled>, the
+       second <soCalled>Polishing</soCalled> with Agent <soCalled>Talc</soCalled>). In 1934 however,
+       an X-ray scan of the statue carried out to determine how safely it could be moved, revealed
+       that it contained iron dowels. The X-ray scan for our purposes, is considered as a type of
+       Analysis; the iron dowels being added as a new Material Description for the Object. </p>
       <p> Without this type of structure, it is difficult to see how a straight forward text-based
-       system can efficiently support such queries as <q>Which Objects submitted for Analysis have we
-       not yet received Material-Descriptions for?</q>, <q>Has this Object already undergone some kind of
-       anti-corrosion treatment?</q>, <q>Have Objects made of bronze usually reacted favourably to
-       treatment with Alkaline Rochelle Salts?</q> or <q>Which copper Objects in the museum show evidence
-       of annealing?</q> </p>
+       system can efficiently support such queries as <q>Which Objects submitted for Analysis have
+        we not yet received Material-Descriptions for?</q>, <q>Has this Object already undergone
+        some kind of anti-corrosion treatment?</q>, <q>Have Objects made of bronze usually reacted
+        favourably to treatment with Alkaline Rochelle Salts?</q> or <q>Which copper Objects in the
+        museum show evidence of annealing?</q>
+      </p>
       <p> Moreover, because Object features in the Object History Submodel as well, it is possible
        to obtain information from both submodels. Thus queries such as <q>Which objects formerly
-       belonging to Earl Asterisk are made of alabaster?</q> or <q>Give the current locations (Store) of
-       all objects treated with benzotriazole between 1970 and 1980</q> are simple traversals of the
-       network. As we shall see, information from the third submodel can also be directly linked to
-       information in this one, so that, for example, the attribution of an object to some time or
-       place may be directly related to the chemical or physical analysis which gave rise to it.
-      </p>
+        belonging to Earl Asterisk are made of alabaster?</q> or <q>Give the current locations
+        (Store) of all objects treated with benzotriazole between 1970 and 1980</q> are simple
+       traversals of the network. As we shall see, information from the third submodel can also be
+       directly linked to information in this one, so that, for example, the attribution of an
+       object to some time or place may be directly related to the chemical or physical analysis
+       which gave rise to it. </p>
      </div>
      <div>
       <head><!-- 4.2.3 -->The Object Description Submodel. </head>
       <p> This submodel is concerned with those unchanging attributes of a particular Object which
        are used to describe it, in order to place it in some cultural context, and thus identify its
-       function or provenance. <soCalled>Provenance</soCalled> here is not to be taken as <q>the place where an Object
-       was before it entered the museum</q>; this we regard as a previous ownership, belonging to the
-       Object history submodel. Neither is the term used to refer to a particular site where objects
-       have been discovered (usually by excavation); this we call a Findspot. </p>
+       function or provenance. <soCalled>Provenance</soCalled> here is not to be taken as <q>the
+        place where an Object was before it entered the museum</q>; this we regard as a previous
+       ownership, belonging to the Object history submodel. Neither is the term used to refer to a
+       particular site where objects have been discovered (usually by excavation); this we call a
+       Findspot. </p>
       <p> Objects may be associated with a Findspot, and hence an excavator. We could have chosen to
-       regard the excavation as an event in the Object&#x2019;s history, but have included it in this
-       submodel, partly because of the self evident relationship between the Place entity and the
-       Findspot entity, but mainly because its association with a site is generally regarded as an
-       important descriptive element. </p>
+       regard the excavation as an event in the Object&#x2019;s history, but have included it in
+       this submodel, partly because of the self evident relationship between the Place entity and
+       the Findspot entity, but mainly because its association with a site is generally regarded as
+       an important descriptive element. </p>
       <p> Every Object has a single Description associated with it, which summarizes the current
        state of opinions concerning it, in the format one might expect to see in a catalogue. As
        opionions change, parts of this entity may be changed; it is used as a kind of blackboard.
@@ -954,51 +954,53 @@
        of the other entities. These Attribution entities are not removed, even when discredited. </p>
       <p> As discussed above, an Attribution may be regarded as a triple, linking an attributor, an
        attributee and an attributed Object. In our current model, the attributor may be a Person
-       (directly, or by authorship of some Reference), an Inscription (e.g., the artist&#x2019;s signature
-       to a painting) or the Material-Description resulting from some Analysis (e.g., a radio -
-       carbon dating). There may even be no attributor at all. </p>
+       (directly, or by authorship of some Reference), an Inscription (e.g., the artist&#x2019;s
+       signature to a painting) or the Material-Description resulting from some Analysis (e.g., a
+       radio - carbon dating). There may even be no attributor at all. </p>
       <figure>
-       <graphic url="../media/osaka-fig10.png" height="200px" width="300px"/>
-       <head type="legend"/> </figure>
+       <graphic url="media/osaka-fig10.png" height="600px" width="800px"/>
+       <head type="legend"/>
+      </figure>
       <p> The attributee of an Attribution may be one or more of a Person (an artist or school, a
        manufacturer or workshop), a Time (that is, some time between two distinct dates), a Period
        (that is, a named range of times), a Place (a geographic location) or a Culture (some named
        political or ethnographic grouping). </p>
       <p> When first acquired, the Blankshire Venus was described as a Greek original of the fifth
-       century. An Attribution entity was duly created, associating it with the Period <soCalled>Classical</soCalled>,
-       the place <soCalled>Greece</soCalled>, the Time <soCalled>-499 to -400</soCalled> and 
-       the culture <soCalled>Attic</soCalled>. In 1878 however, a Dr
-       Verlorenemarmore put forward the theory that the Venus was actually a second century Roman
-       copy of a lost Greek original. This gives rise to a new Attribution, associating it with
-       place <soCalled>Rome</soCalled>, Period <soCalled>100 to 199</soCalled> and also with the 
-       Person responsible for the attribution.
-       Note that no attributions can be made concerning the putative original in our model. </p>
+       century. An Attribution entity was duly created, associating it with the Period
+        <soCalled>Classical</soCalled>, the place <soCalled>Greece</soCalled>, the Time
+        <soCalled>-499 to -400</soCalled> and the culture <soCalled>Attic</soCalled>. In 1878
+       however, a Dr Verlorenemarmore put forward the theory that the Venus was actually a second
+       century Roman copy of a lost Greek original. This gives rise to a new Attribution,
+       associating it with place <soCalled>Rome</soCalled>, Period <soCalled>100 to 199</soCalled>
+       and also with the Person responsible for the attribution. Note that no attributions can be
+       made concerning the putative original in our model. </p>
       <p> As with Events, Attributions are always retained, perhaps including some sort of a status
-       indicator (an attribute with values drawn from a domain ranging from <soCalled>Currently accepted</soCalled> to
-       <soCalled>barely credible</soCalled>, <soCalled>unconfirmed</soCalled> etc). This indicator will naturally change as new evidence
+       indicator (an attribute with values drawn from a domain ranging from <soCalled>Currently
+        accepted</soCalled> to <soCalled>barely credible</soCalled>,
+        <soCalled>unconfirmed</soCalled> etc). This indicator will naturally change as new evidence
        about an attribution accumulates. In 1962 for example, a lead isotype analysis of a sample
        taken from the Venus revealed trace elements of a type associated with marble from the former
        Roman quarries at Aphrodisias in Turkey, thus lending considerable weight to Dr
-       Verlorenemarmore&#x2019;s hypothesis. A new Attribution entity was also created, associated with
-       both the Material Description derived from the Analysis and the Place Turkey. No assumption
-       can be made about any association between this Place and the Roman period however, and
-       consequently this Attribution is not connected to any other of the attributee entities. </p>
+       Verlorenemarmore&#x2019;s hypothesis. A new Attribution entity was also created, associated
+       with both the Material Description derived from the Analysis and the Place Turkey. No
+       assumption can be made about any association between this Place and the Roman period however,
+       and consequently this Attribution is not connected to any other of the attributee entities. </p>
       <p> Although these attributee entities are all clearly inter-related in some sense, the
        connexions are not easy to define. Even the relationship between a Period and a number of
-       Times is less simple than may appear: the Period <soCalled>Bronze Age</soCalled> for example implies three quite
-       different Times in an African, a European and an Asian context. As a further level of
-       complexity, there is no reason to assume that Professor X&#x2019;s <soCalled>African 
-        Bronze Age</soCalled> is
-       coterminous with Professor Y&#x2019;s; indeed much scholarship would grind to a halt if there were. </p>
+       Times is less simple than may appear: the Period <soCalled>Bronze Age</soCalled> for example
+       implies three quite different Times in an African, a European and an Asian context. As a
+       further level of complexity, there is no reason to assume that Professor X&#x2019;s
+        <soCalled>African Bronze Age</soCalled> is coterminous with Professor Y&#x2019;s; indeed
+       much scholarship would grind to a halt if there were. </p>
       <p> At an earlier stage of the design process we had hoped that the Culture entity might be a
        helpful way of identifying particular combinations of Time, Period, and Place. For example,
-       an Attribution to <soCalled>Minoan</soCalled> would be all that was necessary to associate an Object with the
-       Place <soCalled>Crete</soCalled>, Period <soCalled>Bronze Age</soCalled> and Time
-       <soCalled>2000 to 1500 BC</soCalled>. However, as figure 10 shows, a
-       particular Culture may be related to many Places and (though restricted to one period) many
-       different times. To define a different Culture for each particular combination of Time, Place
-       and Period would have resulted in a very large number of entity occurrences only dubiously
-       present in the real world. </p>
+       an Attribution to <soCalled>Minoan</soCalled> would be all that was necessary to associate an
+       Object with the Place <soCalled>Crete</soCalled>, Period <soCalled>Bronze Age</soCalled> and
+       Time <soCalled>2000 to 1500 BC</soCalled>. However, as figure 10 shows, a particular Culture
+       may be related to many Places and (though restricted to one period) many different times. To
+       define a different Culture for each particular combination of Time, Place and Period would
+       have resulted in a very large number of entity occurrences only dubiously present in the real
+       world. </p>
       <p> However, as more information is added to the system, so it should become easier to
        identify such patterns as do exist. When an attribution is associated explicitly with only a
        Person, the system will be able either to inspect other attributions for the same Person to
@@ -1009,11 +1011,12 @@
        useful aspects of the implementation of this system may well prove to be the definition of
        these relationships. </p>
       <p> We do not include in this model purely art-historical or interpretive categorisations of
-       Objects (e.g., <soCalled>Modernist</soCalled>, <soCalled>neo-Gothic</soCalled>, 
-       <soCalled>Hellenistic</soCalled>). Such terms arguably occupy one
-       extreme of the same dimension along which terms like <soCalled>Minoan</soCalled> or <soCalled>Scythian</soCalled> may also be
-       plotted, which we have chosen to regard as Cultures. The notion of <soCalled>School</soCalled> (as in
-       <soCalled>Pre-Raphaelite School</soCalled> or <soCalled>School of Praxiteles</soCalled> seems to us to be about half way along this
+       Objects (e.g., <soCalled>Modernist</soCalled>, <soCalled>neo-Gothic</soCalled>,
+        <soCalled>Hellenistic</soCalled>). Such terms arguably occupy one extreme of the same
+       dimension along which terms like <soCalled>Minoan</soCalled> or <soCalled>Scythian</soCalled>
+       may also be plotted, which we have chosen to regard as Cultures. The notion of
+        <soCalled>School</soCalled> (as in <soCalled>Pre-Raphaelite School</soCalled> or
+        <soCalled>School of Praxiteles</soCalled> seems to us to be about half way along this
        continuum, and is therefore the point at which we cease to regard such terms as grounds for
        an attribution to with some entity which has or had objective existence in the world. Keyword
        indexing on the contents of the Description entity should be adequate to support this type of
@@ -1024,8 +1027,9 @@
         target="#N_36">[36]</ref>
       </p>
       <figure>
-       <graphic url="../media/osaka-fig11.png" height="200px" width="300px"/>
-       <head type="legend"/>  </figure>
+       <graphic url="media/osaka-fig11.png" height="600px" width="800px"/>
+       <head type="legend"/>
+      </figure>
       <p> The complete conceptual model, as on 1st August 1984, is shown in figure 11. It is likely
        that the first external schema for the system will be an IDMS database front-ended by
        Querymaster using CAFS, as described above. Alternatively, less sophisticated software could
@@ -1040,10 +1044,10 @@
     <p> The information systems of the past were distributed across three different categories of
      data management system: the human mind, the accumulation of human records and artefacts, and
      the interaction between the two which gives meaning to both. We are familiar with methods of
-     exploiting the computer&#x2019;s immense powers of symbolic manipulation for the second of these
-     categories. Knowle.g., engineers and workers in articial intelligence are begining to show us
-     ways of exploiting them for the first. I have tried to argue in this paper that tools for
-     exploring the third category already exist. It may be easier than we think to transform a
+     exploiting the computer&#x2019;s immense powers of symbolic manipulation for the second of
+     these categories. Knowle.g., engineers and workers in articial intelligence are begining to
+     show us ways of exploiting them for the first. I have tried to argue in this paper that tools
+     for exploring the third category already exist. It may be easier than we think to transform a
      database into a knowledge base. </p>
     <p> Oxford, August 1984 </p>
    </div>
@@ -1082,8 +1086,8 @@
      <bibl xml:id="N_14"> UK-TIA Study Group. Design and protocol of the UK TIA aspirin study in
       Tognoni, G. and Garallini, S. (eds) Drug treatment and prevention in cerebro-vascular
       disorders. (Amsterdam, Elsevier, 1979). </bibl>
-     <bibl xml:id="N_15"> Here and elsewhere, the word we should be taken to imply a reference to
-      my colleague Paul Salotti without whose active and critical collaboration many of the projects
+     <bibl xml:id="N_15"> Here and elsewhere, the word we should be taken to imply a reference to my
+      colleague Paul Salotti without whose active and critical collaboration many of the projects
       described would never have seen the light of day. </bibl>
      <bibl xml:id="N_16"> Prowse,S. Software for producing library catalogues. (Elsevier,Oxford,
       1983). </bibl>
@@ -1122,13 +1126,13 @@
       Vol 1, pp 113&#x2013;29 (1982). </bibl>
      <bibl xml:id="N_34"> Price, D. Computer based storage and retrieval of palaeontological data at
       the Sedgwick Museum... Palaeontology, vol 27 part 2 pp 393&#x2013;405 (1984).</bibl>
-     <bibl xml:id="N_35"> Neufeld, S.D. The MDA systems and services: a user&#x2019;s view. MDA Occasional
-      Paper no 6. (Duxford, 1981). </bibl>
+     <bibl xml:id="N_35"> Neufeld, S.D. The MDA systems and services: a user&#x2019;s view. MDA
+      Occasional Paper no 6. (Duxford, 1981). </bibl>
      <bibl xml:id="N_36"> See for example the Marburger Index (Munchen, Saur, 1985). </bibl>
      <bibl xml:id="N_37"> Bartle, R. and Cook, M. Computer applications in Archive: a survey.
       British Library R&amp;D Report 5749 (Archives Unit, University of Liverpool, 1983). </bibl>
-     <bibl xml:id="N_38"> It is a pleasure to acknowle.g., here the stimulating effect of our lengthy
-      discussions with Gwyn Miles and Dr Helen Whitehouse of the Ashmolean Museum. </bibl>
+     <bibl xml:id="N_38"> It is a pleasure to acknowle.g., here the stimulating effect of our
+      lengthy discussions with Gwyn Miles and Dr Helen Whitehouse of the Ashmolean Museum. </bibl>
      <bibl xml:id="N_39"> ICL Computer Users Association CAFS Special Interest Group. Exploiting
       CAFS-ISP. Working Party Report, July 1984. </bibl>
     </listBibl>
