@@ -23,7 +23,11 @@
     </availability>
    </publicationStmt>
    <sourceDesc>
-    <bibl> </bibl>
+    <bibl> <title>Towards a computer ethnology. Senri Ethnological Studies, no. 20.</title>
+    <editor>Joseph Raben</editor><editor>Shigeharu Sugita</editor><editor>Masatoshi Kubo</editor>
+    <pubPlace>Osaka:</pubPlace><publisher>National Museum of Ethnology</publisher>
+    <date>1987</date>
+    <biblScope>pp 63&#x2019;-96</biblScope></bibl>
    </sourceDesc>
   </fileDesc>
   <encodingDesc>
@@ -241,8 +245,9 @@
       foot symbol) instance of an entity participates at each end of it and its optionality, that is
       whether participation in the relationship is a necessary condition for the existence of an
       entity (solid arc) or not (broken arc). </p>
-     <figure>
-      <graphic url="FIG1"/>
+     <figure xml:id="osake-fig1">
+      <graphic url="media/osake-fig01.png" height="200px" width="400px"/>
+      <head type="legend">Two aspects of Relationship: Cardinality and Optionality</head>
      </figure>
      <p> In figure 1 above, the relationship <ident>Lives-in</ident> has 1:n cardinality as many
       people live in one town but a person can only live in one town; consequently there is a crows
@@ -266,8 +271,9 @@
        to</ident> (see figure 2). We do not however exclude reflexive relationships, (for example
       the relationship <ident>copied-from</ident> between one instance of a Painting and another),
       although in practise, these also often indicate hidden entities. </p>
-     <figure>
-      <graphic url="FIG2"/>
+     <figure xml:id="osake-fig2">
+      <graphic url="media/osake-fig01.png" height="200px" width="400px"/>
+      <head type="legend">Simplification of N-ary Relationships by Introducing Additional Entities</head>
      </figure>
      <p> Note incidentally that in this model an attribution can exist without being related to some
       person as <ident>attributor</ident>. </p>
@@ -354,9 +360,9 @@
       it was proving quite difficult to maintain consistency in the abbreviations used to refer to
       named items occurring perhaps very infrequently in the whole database, without frequent
       recourse to hand-made checklists which were inevitably out of date. </p>
-     <figure>
+     <figure xml:id="osaka-fig3">
       <graphic url="media/osaka-fig02.png" xml:id="osaka-fig2" width="800px" height="700px"/>
-      <head type="legend"/>
+      <head type="legend">Sample Record Card in the Beazley Archive</head>
      </figure>
      <p> A further oddity of card-driven systems like this one is that some of the fields actually
       contain different attributes, drawn from different domains. Thus,
@@ -420,9 +426,9 @@
      <p> The same Kalos (a stylised inscription) may appear on different vases. </p>
      <p> These and other relationships are summarised in the conceptual schema represented in figure
       4. </p>
-     <figure>
+     <figure xml:id="osaka-fig4">
       <graphic url="media/osaka-fig04.png" height="600px" width="800px"/>
-      <head type="legend"/>
+      <head type="legend">Beazley Conceptual Schema</head>
      </figure>
      <p> Our hypothesis is that any meaningful question about the universe of discourse represented
       by the given data can be expressed (and hence answered) as a traversal of this network; it has
@@ -465,9 +471,9 @@
       necessitate an over-night batch job to make a completely new version of the whole file. </p>
      <p> The following sample dialogue shows how the data for the record given in figure 1 would be
       entered using this program: </p>
-     <figure>
+     <figure xml:id="osaka-fig5">
       <graphic url="media/osaka-fig05.png" height="800px" width="600px"/>
-      <head type="legend"/>
+      <head type="legend">Sample Dialogue for Entering the Record Card in Fig 3.</head>
      </figure>
      <p> Note that much of the data (e.g., Museum codes, publication codes etc.) can be
       automatically validated by the program on entry. When corrections are needed, they involve a
@@ -650,9 +656,9 @@
        known to the system or who share a common parent</q>. The remaining miscellaneous material is
       retained simply as textual commentary, logically associated with the appropriate entity
       occurrences. The complete conceptual model is reproduced in figure 6 . </p>
-     <figure>
+     <figure xml:id="osaka-fig6">
       <graphic url="media/osaka-fig06.png" height="600px" width="800px"/>
-      <head type="legend"/>
+      <head type="legend">Lexicon Conceptual Schema</head>
      </figure>
      <p> Implementation of this system followed more or less the same pattern as that of the Beazley
       Archive as described above; it is not therefore further described here. One important
@@ -665,9 +671,9 @@
       and, finances permitting, updated as new name variants or additional references are
       discovered. Whether or not a bureau service similar to that planned by the Beazley Archive
       will be made available to interested Hellenists remains to be determined. </p>
-     <figure>
+     <figure xml:id="osaka-fig7">
       <graphic url="media/osaka-fig07.png" height="600px" width="800px"/>
-      <head type="legend"/>
+      <head type="legend">Retrieval from Lexicon</head>
      </figure>
      <p> It is gratifying to be able to quote the following vindication of our approach to this type
       of data management problem, which appears as the conclusion of an internal report by one of
@@ -847,9 +853,9 @@
       <p> Once the basic distinction between Object and Object-Name had been established, the rest
        of this sub-model presented few problems, the only matter of controversy being whether the
        remaining entities should be directly related to Objects or indirectly via an Event record. </p>
-      <figure>
+      <figure xml:id="osaka-fig8">
        <graphic url="media/osaka-fig08.png" height="600px" width="800px"/>
-       <head type="legend"/>
+       <head type="legend">Ashmolean Object History Submodel</head>
       </figure>
       <p> Store and Loan are both directly associated with an Object, being both concerned with the
        physical whereabouts or origins of an object. A Store is any location (shelf, cupboard,
@@ -889,9 +895,9 @@
       <p> This submodel is concerned with all aspects of the physical treatment of the objects in
        the Museum&#x2019;s care. Three types of operation are distinguished: an Examination, an
        Analysis and a Treatment; each of these corresponding with an entity in figure 9. </p>
-      <figure>
+      <figure xml:id="osaka-fig9">
        <graphic url="media/osaka-fig09.png" height="600px" width="800px"/>
-       <head type="legend"/>
+       <head type="legend">Ashmolean Object Conservation Submodel</head>
       </figure>
       <p> An Examination may be a simple visual inspection or a complex process of disassembly and
        measurement. It is distinguished from an Analysis by virtue of the fact that the latter is
@@ -958,9 +964,9 @@
        (directly, or by authorship of some Reference), an Inscription (e.g., the artist&#x2019;s
        signature to a painting) or the Material-Description resulting from some Analysis (e.g., a
        radio - carbon dating). There may even be no attributor at all. </p>
-      <figure>
+      <figure xml:id="osaka-fig10">
        <graphic url="media/osaka-fig10.png" height="600px" width="800px"/>
-       <head type="legend"/>
+       <head type="legend">Ashmolean Description Submodel</head>
       </figure>
       <p> The attributee of an Attribution may be one or more of a Person (an artist or school, a
        manufacturer or workshop), a Time (that is, some time between two distinct dates), a Period
@@ -1027,9 +1033,9 @@
        British and German catalogues, such as those of the Marburg Collection <ref type="bibl"
         target="#N_36">[36]</ref>
       </p>
-      <figure>
+      <figure xml:id="osaka-fig11">
        <graphic url="media/osaka-fig11.png" height="600px" width="800px"/>
-       <head type="legend"/>
+       <head type="legend">Ashmolean Conceptual Schema</head>
       </figure>
       <p> The complete conceptual model, as on 1st August 1984, is shown in figure 11. It is likely
        that the first external schema for the system will be an IDMS database front-ended by
