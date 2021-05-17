@@ -1,0 +1,167 @@
+Humanities Computing in Oxford: a Retrospective
+
+Lou Burnard
+
+Recent visitors to  OUCS or the HCU web pages may have
+noticed that there has been major reorganization of the structure of
+OUCS, as a part of which it has been decided to close the Humanities
+Computing Unit as a distinct division within OUCS; HCU staff
+are all however very much still present and (in several cases) playing
+major roles in the newly reorganized OUCS structure. 
+
+The beginnings of something we might call "humanities computing" at
+Oxford go back a very long way. As early as 1965, the Computing
+Laboratory's annual report includes reference to research undertaken
+into "computer techniques for the analysis of Shakespearian texts"
+[1]. In 1974, the University appointed a teaching officer with
+specific responsibility for introducing the use of computers to
+non-scientific students and staff. Over the next six years Susan
+Hockey developed programming courses (in a language called Snobol)
+appropriate to arts graduates, and promoted an awareness of a wide
+range of research applications for "computing in the arts" (see for
+example her book [2]), for the most part focussing on the abilities
+which the mainframes of that distant era offered for searching and
+"analysing" textual data. In 1976, I invented the Oxford Text Archive
+as a means of collecting such machine-readable texts as could be
+found, transferring them from punched cards or paper tape to magnetic
+tape, and redistributing them to the research community.
+
+During the eighties, Oxford's growing reputation as a national home
+for these esoteric activities was further consolidated by a series of
+substantial grants.  In 1978, the Computer Board funded development of
+a new computer program for textual analysis, to be called the Oxford
+Concordance Program. Shortly afterwards, the Board also funded the
+purchase and installation of a Kurzweil Data Entry Machine, on which
+OUCS provided the first of many national services. The Kurzweil ("KDEM")
+was an ingenious optical character reader, which could recognize Latin
+and non-Latin fonts with an acceptable level of accuracy. This
+technology, now commonplace, was remarkable enough at the time to get
+coverage in the Oxford Times [3]. The Computer Board also funded the
+installation of another Oxford first, the Monotype Lasercomp
+typesetter, which enabled OUCS to offer a high quality digital
+typesetting service to the whole academic community, at a time when
+the notion of desktop publishing was still only nascent. The Lasercomp
+and KDEM services kept going until the early nineties, by which time
+they seemed oddly anachronistic.
+
+During the nineties, humanities computing, along with every other
+kind, changed out of all recognition. This was not simply a matter of
+the replacement of the central mainframe by the distributed desktop
+machine, or the vast increase in computer literacy and usage in the
+general population, but also of a transformation im the kinds of
+specialist support services required. Indications of the
+transformation are clearly to be found in Oxford's activities at the
+end of the eighties. The OUCS 1986/7 Annual Report records Oxford's
+participation in an experimental humanities computing bulletin board
+set up by the British Library's "Office for Humanities Communication"
+at Leicester (this was a very early version of what we now know as a
+Humanities Portal), while the following year's Annual report remarks
+presciently that "many research workers in the humanities now
+doubtless prefer to carry out their work on microcomputers, provided
+that the necessary software tools can be obtained."
+
+During the nineties, "humanities computing" became more
+institutionalised, with major government initiatives increasingly
+funding large scale programmes such as the Computers in Teaching
+Initiative (CTI) designed to increase the uptake of IT in academic
+teaching and learning, whether as a substitute for human teachers (as
+some feared in those Thatcherite days) or as a means of improving its
+quality. In 1989, Oxford was awarded three year's funding to set up a
+CTI Centre in Literary and Linguistic Studies, which (like the six
+other centres set up at the same time) would "act as a repository for
+computer-based teaching materials in specific subject areas, and a
+source of advice and information to working academics". For the best
+part of a decade thereafter Oxford's CTI Centre staff produced
+newsletters and reports, organized conferences and workshops, and
+above all went on the road, visiting almost every humanities
+department in British Universities in the cause of
+computer-consciousness-raising.
+
+Local interest and support also blossomed in the enthusiasm of the
+early nineties. By 1994, a Centre for Humanities Computing had been
+created within OUCS to provide specialist support and training on
+"software and hardware which has particular relevance to scholars and
+students in the humanities faculties". The CHC had its own resources
+room, ran courses and workshops, notably graduate training days; --
+and also produced a newsletter each term called "Humanities Computing
+in Oxford". Affiliated with it and the CTI Centre were a number of
+other R&D projects, which over the next decade were to produce an
+impressive portfolio of activities, ranging from software products
+such as the Poetry Shell for teaching hypermedia, to exemplary
+resources such as the Wilfred Owen digital archive, reports and
+publications such as the CTI Centre's "Resource Guide", conferences
+and workshops of all kinds, and a national and international
+reputation as a centre of excellence and expertise.
+
+On the world stage, the academic year 1994/95 saw the publication of
+the first edition of the TEI Guidelines, possibly the most influential
+of the research activities associated with humanities computing at
+Oxford. It also saw the publication of the British National Corpus, a
+100 million word corpus of British English which still sets the
+standard for such resources, and, at the end of the year, publication
+of the feasibility study which eventually lead to the establishment of
+a national Arts and Humanities Data Service.
+
+In October 1995, all the humanities-related projects and activities at
+OUCS were integrated, to form the Humanities Computing Unit (HCU).
+Over the next six years, the HCU built up its various constituent
+parts, maintaining a balance between the needs of increasingly
+demanding IT-aware faculties and departments at Oxford, and the
+University's obligations to external funding bodies. Computing
+technologies change at such a rate that today's leading-edge research
+is often tomorrow's consumer product. Remaining in touch with that
+research is correspondingly important to provision of IT support for
+researchers and teachers. 
+
+In teaching and learning, Oxford's IT strategy favoured the
+decentralization of IT support, yet there was at that time no obvious
+place in the Humanities to which such activities could be devolved,
+without massive expansion in the level of IT support at college and
+departmental level. With the help of an interfaculty Committee for
+Computing in the Arts, the HCU lobbied successfully for additional
+funding of IT support staff located within the departments, while at
+the same time contributing the expertise of its own staff to teaching
+departmental introductory courses.  The HCU also established a new
+"Humanities Computing Development Team" to work collaboratively with
+academic staff to develop new applications of ITC in teaching and
+research on a project by project basis. As with other locally funded
+services, the success of the HCDT soon lead to an expansion of its
+brief beyond the Humanities, and it was rebranded as the Academic
+Computing Development Team in 2000.
+
+At the start of the new millenium, the HCU employed over 20 people,
+half of them on external grants and contracts valued at over 350,000
+annually. With the advent of divisionalization, however, it faced a
+new challenge and a new environment, in which OUCS, as a
+centrally-funded service, must take particular care to meet the needs
+of the whole University, in a way which complements the support activities
+funded by individual divisions, rather than competing with or supplanting
+them.
+
+Our strategy has been to focus on areas where the HCU's long
+experience in promoting better usage of IT within one discipline can
+be generalized. In 2001, we set up a new Learning Technologies Group,
+to act as a cross-disciplinary advocacy and development focus for the
+integration of IT into traditional teaching and learning. This new LTG
+is now one of four key divisions within the new OUCS, additionally
+responsible for the full range of OUCS training activities. In 2002,
+as part of the same reorganization, we are setting up a complementary
+Research Technologies Service which will bring together three
+nationally-funded research support services: the Text Archive, the
+Humbul Humanities Hub, and the Oxford eScience Centre. Intrinsically
+interdisciplinary, and methodologically focussed, the "Humanities
+computing" spirit will thus surely continue to thrive at Oxford as
+well as it has for the last three decades, in whatever institutional
+structures makes its home.
+
+[1] Annual Report of the Computing Laboratory, 1964-1965;
+available from
+http://www.oucs.ox.ac.uk/internal/annrep/annrep64-65.html
+
+[2] Susan Hockey "A guide to computer applications in the Humanities"
+London: Duckworth, 1980. (Reviewed in the TLS by L D Burnard, 9 May
+1980, p 533)
+
+[3] "Jane Austen on the computer" Oxford Times article.
+
+
