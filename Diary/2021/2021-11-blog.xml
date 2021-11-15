@@ -15,118 +15,26 @@
             <p>AMOW</p>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2021-11-14">First draft</change></revisionDesc>
+      <revisionDesc>
+         <change when="2021-11-14">First draft</change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div n="2021-11">
             <head>A week in November</head>
-            <list>
-               <label>Saturday</label>
-               <item>Stayed in bed till 10. It's raining. Breakfast in my warm corner after checking
-                  that it's too wet to do anything outside today. Cleaned up kitchen a bit. Did some
-                  laundry. Worried bout the chauffe eau. But the coffee machine has fixed itself.
-                  Spend most of the morning writing an XSLT stylesheet for catoMinor whoever that
-                  is. They want to convert a biblStruct as output by Thing to simple text. formatted
-                  according to some project specific rules which are not all actually feasible,
-                  because not detectable from the markup. By the time I've got it working, it's
-                  lunch time, late lunch time. I am having my steak today and (whisper it not in
-                  Gath) some proper chips, as well as the rest of the green leaves. To complete the
-                  weekend's decadence, a glass of wine. Watch another Public Eye, and then start
-                  this blog, since it's still warm in my typing corner.</item>
-               <label>Friday</label>
-               <item>Rose at 10. Coffee machine unco-operative, seemingly because when I tried to decoke 
-                  it yesterday I left it running with no water for too  long. Curses. Fall back on
-                  the bialtti machine. with no water in
-                  it.Hacked some more overgrowth off the shed to encourage the vine. Sorted out
-                  firewood a bit. Lunch on pasta with sauce of ham, leaves, tomato, rather nice.
-                  Bother. Shawn appeared and gave me a barrowful of logs he had nicked from the
-                  place he works. Very satisfactory. We arranged to meet for beer later on, and I
-                  gave him a jar from my small stock of home made bramble jelly. Around 1745 I set
-                  off to walk to Bussiere, through the dark but with my trusty phone torch to show
-                  the way. Very peaceful walk with no boggarts or surprises. At Benoit's Shawn and
-                  Lisa drinking quietly in corner with someone called ?Don, a musician. Two beers
-                  and a chat. Shawn holds me personally responsible for the evils of the internet.
-                  Lisa is not going to work for Deidre, no thanks. After a bit realise I am drunk,
-                  which is nice. Lisa then drives us home, so to bed by 11. </item>
-               <label>Thursday</label>
-               <item>lunch of sausage and lentils, delicious. TV aerial conked out in the middle of Asterix movie, curses.
-               </item>
-               <label>Wednesday 10th</label>
-               <item>Walk into Bussiere AGAIN, this time getting some fresh veg from the lady who
-                  sets up her stall outside the church on Wednesdays (DO NOT FORGET). Also get pills
-                  for itchy legs from Pharmacie, steak from JeanLuc, and a chicken leg from the
-                  butchers. Benoit is open for lunch, but it will take 20 minutes to heat up his
-                  fish fryer, so I settle for a bavette and frites instead. No other customers to
-                  speak of, but it's early. </item>
-               <label>Tuesday 9th</label>
-               <item>Walk into Bussiere to get some more food from JeanLuc, not that he has much it
-                  being Tuesday. Also Benoit is shut. Never mind it's still sunny. My amazon
-                  delivery arrives while I am walking back, so when I get hme I can use new saw to
-                  make some more firewood very satisfying</item>
-               <label>Monday</label>
-               <item>Breakfast at the Hotel B &amp; B is minimal, like the hotel, but only costs
-                  6.50. Do what I can to get my money's worth, then walk out across the carpack and
-                  up into the station, then down again to platform J where my little two carriage
-                  TER is waiting for the first journey of the day, to Gueret via Saint Sulplice.
-                  Quite a few other passengers. At gueret, I trundle my bag successfully to the
-                  Centre 23 Frais, which is of course closed because it's Monday. Grumble a bit and
-                  schlep suitcase on into town centre to do a minimalist shopping at Monoprix (milk,
-                  butter, ham, bread, a few veg). Then coffee at the Moderne before the trusty TAD
-                  arrives. Hello house! Hello sun! Hello grass that needs cutting... Concentrate my
-                  efforts on initially on getting a fire going and making a comfortable clean bed to
-                  sleep on. </item>
-               <label>Sunday</label>
-               <item>A leisurely breakfast at the Grand Hotel, tho the scrambled eggs are long past
-                  their best by the time I get to them. Sit in the lobby with laptop for an hour or
-                  so, overhearing lady booking three successive visits up till April. Apparently the
-                  GH sees iself primarily as a conference venue, since their competition is all the
-                  snazzy new hotels down the road like the Mercure have stolen the commercial trade.
-                  And so to the 1222 departure for Poitiers, stopping at countless improbably named
-                  hamlets, like Villeperdue, which it clearly isnt. And at Poitiers, an easy 14
-                  minute change for Limoges onto another little TER full of polite students and
-                  schoolkids. And here we are in Limoges, trying to get to the B &amp; B hotel,
-                  which is not as easy as you might think. It's about 50 metres as the crow fies,
-                  but crows can fly better than me. The staircase which once lead down from the
-                  station front entrance to the road where te botels are is decidedly hard to find
-                  and is also condemned, unsurprisingly, since it is falling apart. The way to get
-                  down there is of course not to start from here, but from the side exit from the
-                  station, through the bus station, across the car park. Of course. And I am then
-                  faced with an extremely unfriendly automat to do the checkin process since no
-                  human being on reception duty. (They did turn up later, but were slightly less
-                  friendly than the robot). Set off in search of food, since I forgot to bring any
-                  lunch and it's now getting on for four pm. In Limoges, on a drizzly Sunday
-                  afternoon, lifted slightly by a beautiful and unexpected art nouveau palace half
-                  way up one of the many hills which characterize this urban architecture, which
-                  seems to be holding some sort of local artist expeosition. As I slog on up the
-                  hill, I find several places offering drink or fancy cakes but nothing like food
-                  unless I want to wait till six pm, which I do not. I press on and eventually reach
-                  the Cafe de Paris, which being a simulation of a real Parisian brasserie, is ready
-                  to serve real food almost any time of day. Hoorah. Burger Maison and frites and a
-                  glass of rouge for me thanks. After which I feel much better, and stroll all the
-                  way back down the hill to the B&amp;B box without further incident. </item>
-               <label>Saturday</label>
-               <item>Up at 0730 AGAIN, sigh, but this is the last day, and I don't have to do any
-                  teaching, just mop up after the others. Lunch as usual. Too tired to go out for
-                  dinner with Alexei though I probably shoulda. Bought a scarf from Mistigriff
-                  (6.99) cf every other shop I looked in at 30 or 40... Tried to get into the Yellow
-                  dog (no room), so fell back on La Maison Berbere which served a really charming
-                  couscous and mint tea. </item>
-               <label>Friday</label>
-               <item>Up at 0730 again, meme jeu, since today is my teach-nearly-all-day day (see
-                  timetable). Lunch was in the same depressing place, but the service was express.
-                  In the evening we dined en masse upstairs at La Piazza, which was pleasant, though
-                  mass dining experiences are always a bit of a strain. </item>
-               <label>Thursday</label>
-               <item>Up at 0730, out of the hotel, grab a creme et un croissant at the Dakota bar en
-                  route to CESR, arriving in plenty of time for my 0900 Introductory talks. Lunch
-                  for all has been booked at a large establishment in the picturesque old town
-                  square, currently packed with tourists of course. The service is slow and
-                  begrudging, even though Sandrine had forewarned them. The food is unremarkable: I
-                  wanted fish, which only came in the form of some scraps of salmon on an industrial
-                  pizza. As compensation, dinner at the bistrot du marche with elena et al was
-                  delicious., after which she gives me a lift home and much cahier gossip.</item>
-               <label>Wednesday</label>
+            <list type="gloss">
+
+               <label>Tuesday 2nd</label>
+               <item>Take 14h train from TM to Stratford International via Paddington and Kings
+                  Cross; check in to cheesy Premier Inn at Stratford International. Get distracted
+                  by interesting exotic upmarket food shops in that end of Westfield shopping
+                  centre, where I buy some proper rye bread for Al and Betty, also some diwali
+                  sweets ditto. Then stroll to their gaff in goodish time to pick up first Coco from
+                  nursery and then Daphne from after school club, which is all very pleasant and
+                  domestic. Likewise an evening at the Kayes. Back to my hotel box by 1030. And so
+                  to bed.</item>
+               <label>Wednesday 3rd</label>
                <item>Breakfast reasonable but I am too anxious to enjoy it. Catch packed commuter
                   train at 0945 to St Pancras, and then Off we go, 2 hours ahead of departure time,
                   for the 1230 eurostar to Paris. Much queuing, but it all goes quite smoothly,
@@ -140,15 +48,148 @@
                   should be. La Chope is closed, so we dine at the Brasserie de l'Univers, which is
                   absolutely packed, but the food is good (magret de canard) Or maybe it's packed
                   because the food is good. </item>
-               <label>Tuesday</label>
-               <item>Take 14h train from TM to Stratford International via Paddington and Kings
-                  Cross; check in to cheesy Premier Inn at Stratford International. Get distracted
-                  by interesting exotic upmarket food shops in that end of Westfield shopping
-                  centre, where I buy some proper rye bread for Al and Betty, also some diwali
-                  sweets ditto. Then stroll to their gaff in goodish time to pick up first Coco from
-                  nursery and then Daphne from after school club, which is all very pleasant and
-                  domestic. Likewise an evening at the Kayes. Back to my hotel box by 1030. And so
-                  to bed.</item>
+               <label>Thursday 4th</label>
+               <item>Up at 0730, out of the hotel, grab a creme et un croissant at the Dakota bar en
+                  route to CESR, arriving in plenty of time for my 0900 Introductory talks. Lunch
+                  for all has been booked at a large establishment in the picturesque old town
+                  square, currently packed with tourists of course. The service is slow and
+                  begrudging, even though Sandrine had forewarned them. The food is unremarkable: I
+                  wanted fish, which only came in the form of some scraps of salmon on an industrial
+                  pizza. As compensation, dinner at the bistrot du marche with Elena et al was
+                  delicious., after which she gives me a lift home and much cahier gossip.</item>
+               <label>Friday 5th</label>
+               <item>Up at 0730 again, meme jeu, since today is my teach-nearly-all-day day (see
+                  timetable). Lunch was in the same depressing place, but the service was express.
+                  In the evening we dined en masse upstairs at La Piazza, which was pleasant, though
+                  mass dining experiences are always a bit of a strain. </item>
+
+               <label>Saturday 6th</label>
+               <item>Up at 0730 AGAIN, sigh, but this is the last day, and I don't have to do any
+                  teaching, just mop up after the others. Lunch as usual. Too tired to go out for
+                  dinner with Alexei though I probably shoulda. Bought a scarf from Mistigriff
+                  (6.99) cf every other shop I looked in at 30 or 40... Tried to get into the Yellow
+                  dog (no room), so fell back on La Maison Berbere which served a really charming
+                  couscous and mint tea. </item>
+
+               <label>Sunday 7th</label>
+               <item>A leisurely breakfast at the Grand Hotel, tho the scrambled eggs are long past
+                  their best by the time I get to them. Sit in the lobby with laptop for an hour or
+                  so, overhearing lady booking three successive visits up till April. Apparently the
+                  GH sees iself primarily as a conference venue, since their competition is all the
+                  snazzy new hotels down the road like the Mercure have stolen the commercial trade.
+                  And so to the 1222 departure for Poitiers, stopping at countless improbably named
+                  hamlets, like Villeperdue, which it clearly isnt, and Futurescope, which it is to
+                  be hoped it isn't. And at Poitiers, an easy 14 minute change for Limoges onto
+                  another little TER full of polite students and schoolkids. And here we are in
+                  Limoges, trying to get to the B &amp; B hotel, which is not as easy as you might
+                  think. It's about 50 metres as the crow fies, but crows can fly better than me.
+                  The staircase which once led down from the station front entrance to the road
+                  where the hotels are is decidedly hard to find and when you do, it is officially
+                  sealed off and condemned, unsurprisingly, since it is falling apart. The way to
+                  get down there is of course not to start from here, but from the side exit from
+                  the station, through the bus station, across the car park. Of course. And I am
+                  then faced with an extremely unfriendly automat to do the checkin process since no
+                  human being is on reception duty. (They did turn up later, but were slightly less
+                  friendly than the robot). Set off in search of food, since I forgot to bring any
+                  lunch and it's now getting on for four pm. In Limoges, on a drizzly Sunday
+                  afternoon, lifted slightly by a beautiful and unexpected art nouveau palace half
+                  way up one of the many hills which characterize this urban architecture, which
+                  seems to be holding some sort of local artist exposition. As I slog on up the
+                  hill, I find several places offering drink or fancy cakes but nothing like food
+                  unless I want to wait till six pm, which I do not. I press on and eventually reach
+                  the Cafe de Paris, which being a simulation of a real Parisian brasserie, is ready
+                  to serve real food almost any time of day. Hoorah. Burger Maison and frites and a
+                  glass of rouge for me thanks. After which I feel much better, and stroll all the
+                  way back down the hill to the B&amp;B box without further incident. </item>
+               <label>Monday 8th</label>
+               <item>Breakfast at the Hotel B &amp; B is minimal, like the hotel, but only costs
+                  6.50. Do what I can to get my money's worth, then walk out across the carpack and
+                  up into the station, then down again to platform J where my little two carriage
+                  TER is waiting for the first journey of the day, to Gueret via Saint Sulplice.
+                  Quite a few other passengers. At gueret, I trundle my bag successfully to the
+                  Centre 23 Frais, which is of course closed because it's Monday. Grumble a bit and
+                  schlep suitcase on into town centre to do a minimalist shopping at Monoprix (milk,
+                  butter, ham, bread, a few veg). Then coffee at the Moderne before the trusty TAD
+                  arrives. Hello house! Hello sun! Hello grass that needs cutting... Concentrate my
+                  efforts on initially on getting a fire going and making a comfortable clean bed to
+                  sleep on. </item>
+               <label>Tuesday 9th</label>
+               <item>Walk into Bussiere to get some more food from JeanLuc, not that he has much it
+                  being Tuesday. Also Benoit is shut. Never mind it's still sunny. My amazon
+                  delivery arrives while I am walking back, so when I get hme I can use new saw to
+                  make some more firewood very satisfying</item>
+               <label>Wednesday 10th</label>
+               <item>Woken infeasibly early (i.e. 0830) by UPS man delivering recycled printer. Walk
+                  into Bussiere AGAIN, this time getting some fresh veg from the lady who sets up
+                  her stall outside the church on Wednesdays. Locally grown proper veg. very cheap
+                  and a nice chat. Also get pills for itchy legs from Pharmacie, steak from JeanLuc,
+                  and a chicken leg from the butchers. Benoit is open for lunch, but it will take 20
+                  minutes to heat up his fish fryer, so I settle for a bavette and frites instead.
+                  No other customers to speak of, but it's early. Back home I have another go at
+                  getting my bill into Chorus Pro, and also realise the extent of my folly in not
+                  having purchased any toner for printer. Of course it's not included. And of course
+                  it's no use ordering it now, because tomorrow is a jour ferie so no-one will
+                  deliver it before Monday.</item>
+               <label>Thursday 11th</label>
+               <item>A public holiday. Chorus Pro disdainfully rejects my first attempt at a bill,
+                  but does not deign to explain why. Spend an hour or two trying to submit a version
+                  of the bill it will accept (i.e. with no TVA). Console self with lunch of sausage
+                  and lentils, delicious, and the sun is shining enough to sit outside and eat it.
+                  TV aerial conked out in the middle of Asterix movie, curses. </item>
+               <label>Friday 12th</label>
+               <item>Rose at 10. Coffee machine unco-operative, seemingly because when I tried to
+                  decoke it yesterday I left it running with no water for too long. Curses. Fall
+                  back on the bialetti machine. Hacked some more overgrowth off the shed to
+                  encourage the vine. Sorted out firewood a bit. Lunch on pasta with sauce of ham,
+                  leaves, tomato, rather nice. Bother. Shawn appeared and gave me a barrowful of
+                  logs he had nicked from the place he works. Very satisfactory. We arranged to meet
+                  for beer later on, and I gave him a jar from my small stock of home made bramble
+                  jelly. Around 1745 I set off to walk to Bussiere, through the dark but with my
+                  trusty phone torch to show the way. Very peaceful walk with no boggarts or
+                  surprises. At Benoit's Shawn and Lisa drinking quietly in corner with someone
+                  called ?Don, a musician. Two beers and a chat. Shawn holds me personally
+                  responsible for the evils of the internet. Lisa is not going to work for Deidre,
+                  no thanks. After a bit realise I am drunk, which is nice. Lisa then drives us
+                  home, so to bed by 11. </item>
+               <label>Saturday 13th</label>
+               <item>Stayed in bed till 10. It's raining. Breakfast in my warm corner after checking
+                  that it's too wet to do anything outside today. Cleaned up kitchen a bit. Did some
+                  laundry. Worried about the chauffe eau. But the coffee machine has fixed itself.
+                  Spend most of the morning writing an XSLT stylesheet for @catoMinor whoever that
+                  is. They want to convert a biblStruct as output by Thing to simple text. formatted
+                  according to some project specific rules which are not all actually feasible,
+                  because not detectable from the markup. By the time I've got it working, it's
+                  lunch time, late lunch time. I am having my steak today and (whisper it not in
+                  Gath) some proper chips, as well as the rest of the green leaves. To complete the
+                  weekend's decadence, a glass of wine. Watch another Public Eye, and then start
+                  this blog, since it's still warm in my typing corner.</item>
+               <label>Sunday 14th</label>
+               <item>Stayed in bed till ten. Why not. Read some more Cahier witterings. Put my
+                  chicken leg in the kitchen to roast and go out for a virtuous stroll round the
+                  lake, since it's not actually raining and I havem't done this yet. Lake is
+                  deserted : fishing season closed at the end of October. Trees and mist looks like
+                  a parody of autumn. Go and check on Deidre's wood store, since she is nagging
+                  Lilette to nag me to give her some: predictably she has more logs than I do. Back
+                  home in time to slightly overcooked chicken and enjoy it with a glass of wine. The
+                  chauffe eau seems to be hehaving itself better, and (once I have reinitialised
+                  everything) so is the telly. Settle down therefore beside my roaring log fire to
+                  enjoy North by Northwest, on Arte-tv. Or rather, "La mort aux trousses": Cary
+                  Grant speaking French is all part of the fun. In bed just before midnight,
+                  reflecting that I seem to thrive on this simple routine, of minimal breakfast,
+                  adequate lunch with much veg, and porridge and prunes for a bedtime snack. I even
+                  wrote a pareagraph por two of introductory talk. </item>
+               <label>Monday 15th</label>
+               <item>The day begins gray and drizzly and doesn't get any better. I do my duty,
+                  tidying up, consuming everything that can be consumed and throwing the rest away.
+                  I even sweep the floor, but draw the line at moving the carpet which is a two
+                  person job. After lunch of courgette based fritata, I find myself numerous
+                  mindless organisational tasks, like copying files from the raspberry to a stick
+                  so I dont lose them, writing emails, booking tickets for the next few stages of
+                  this odyssey, etc. but cannot screw myself up to doing any proper work. Shawn arrives
+                  about 4.50 which is a little tight for the 1728 departure from La Souterraine, but
+                  we get there with a few minutes to spare. Lots of people on board, every one of
+                  them masked. And so, on to Paris, a journey I havent done in quite a while. The
+                  Intercite train is no better or worse than it has always been...</item>
             </list>
          </div>
       </body>
