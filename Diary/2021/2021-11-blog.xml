@@ -9,20 +9,20 @@
             <title>Blogging</title>
          </titleStmt>
          <publicationStmt>
-            <p>Unpubished draft</p>
+            <p>Unpublished draft</p>
          </publicationStmt>
          <sourceDesc>
             <p>AMOW</p>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2021-11-14">First draft</change>
+         <change when="2021-11-14">First draft started</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div n="2021-11">
-            <head>A week in November</head>
+            <head>November 2021</head>
             <list type="gloss">
 
                <label>Tuesday 2nd</label>
@@ -216,7 +216,11 @@
                   spare the details) but justice eventually prevailed, thanks to Andy in the
                   ticket office at Temple Meads and I returned home having only paid 10 quid to
                   upgrade my cheapo ticket, rather than having to buy an entirely new one (36 quid).
-               </item>
+               </item><label>Wednesday 17th</label><item>My diary is uncertain as to whether we are going to Nottingham today or tomorrow. The traintickets say it's today, the hotel booking says tomorrow. Belinda sends us a text promising venison burgers tomorrow which seems decisive. I proceed to spend most of the day catching up on my Cahier work,trying to get Vodafone to stop billing me for the broadband I disconnected in September, and of course getting my useless train tickets refunded. The last of these turned out to be a coupleof clicks on the website, while the second was a total nightmare, involving hours of waiting in call centre hell, three different mutually incomprehensible agents, each with only limited abilities to actually do what I want done. The first took a decided turn for the better when Elisabeth pointed out that the program has been changed. And of course when I actually focussed long enough to produce some draft remarks.
+               </item><label></label><item></item>
+               <label></label><item></item>
+               <label></label><item></item>
+               
             </list>
          </div>
       </body>

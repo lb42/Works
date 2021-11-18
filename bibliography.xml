@@ -60,6 +60,20 @@
    <div>
     <head>Journal Articles etc.</head>
     <listBibl type="articles">
+      
+      <!--
+In search of comity: TEI for distant reading [Full text]
+Published in Journal of the Text Encoding Initiative, Issue 14 | 2021
+What is TEI Conformance, and Why Should You Care? [Full text]
+Published in Journal of the Text Encoding Initiative, Issue 12 | July 2019 - May 2020
+Resolving the Durand Conundrum [Full text]
+Published in Journal of the Text Encoding Initiative, Issue 6 | December 2013-->
+      
+      <bibl><date></date><title>In search of comity: TEI for distant reading</title>
+        Lou Burnard, Christof Schöch and Carolin Odebrecht
+        <ref target="https://doi.org/10.4000/jtei.3500">
+          https://doi.org/10.4000/jtei.3500</ref></bibl>
+
      <bibl><date>2019</date><title type="main">La TEI pour les corpus linguistiques: un standard qui
        se renouvelle</title> in <title>L'enjeu des metadonnées dans les corpus textuels: un défi
        pour les sciences humaines.</title> Sous la direction de Philippe Caron, Rodolophe Defiolle
