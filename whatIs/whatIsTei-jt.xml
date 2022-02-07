@@ -547,12 +547,12 @@
                     and <date when="1970-10-26">26 Oct 1970</date></stamp>
                   <stamp type="postage"> Machin design. 4d, vermillion. </stamp>
                 </ab>
-                <address>
+                <ab><address>
 <addrLine>Mr Louis Burnard</addrLine>
 <addrLine>4 Freeland Cottages,</addrLine>
 <addrLine>Stanton St John</addrLine>
 <addrLine>OXFORD</addrLine>
-</address>
+</address></ab>
               </div>
             </div>
           </egXML>
@@ -1180,7 +1180,7 @@
             <p>Using this, we might tag this item in a way that more closely resembles the original version, at the
               price of making its subsequent processing a little more difficult: <egXML
                 xmlns="http://www.tei-c.org/ns/Examples">
-                <bibl><author>Deborah Cameron</author>: <title level="m">Verbal Hygiene.</title>. London, New York:
+                <bibl><author>Deborah Cameron</author>: <title level="m">Verbal Hygiene</title>. London, New York:
                     Routledge.<date>1995</date></bibl></egXML>
             </p>
             <p>Most of the elements available within <gi>bibl</gi> are also available (but optional) within

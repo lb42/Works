@@ -655,12 +655,12 @@
                       - Sussex</mentioned> et <date when="1970-10-26">26 Oct 1970</date></stamp>
                   <stamp type="postage"> Type Machin. 4d, vermillon. </stamp>
                 </ab>
-                <address>
+                <ab><address>
                   <addrLine>Mr Louis Burnard</addrLine>
                   <addrLine>4 Freeland Cottages,</addrLine>
                   <addrLine>Stanton St John</addrLine>
                   <addrLine>OXFORD</addrLine>
-                </address>
+                </address></ab>
               </div>
             </div>
           </egXML>
@@ -1474,7 +1474,7 @@
             <p>En utilisant cet élément, nous pourrions baliser cette référence d’une façon plus
               proche de la version originale, au prix d’un traitement un peu plus compliqué par la
               suite : <egXML xmlns="http://www.tei-c.org/ns/Examples">
-                <bibl><author>Deborah Cameron</author>: <title level="m">Verbal Hygiene.</title>.
+                <bibl><author>Deborah Cameron</author>: <title level="m">Verbal Hygiene</title>.
                   London, New York: Routledge. <date>1995</date></bibl></egXML>
             </p>
             <p>La plupart des éléments disponibles dans <gi>biblStruct</gi> sont aussi disponibles
