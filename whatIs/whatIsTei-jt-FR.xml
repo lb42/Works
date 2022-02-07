@@ -2497,9 +2497,9 @@
               <rendition xml:id="IT" scheme="css">font-style: italic</rendition>
               <rendition xml:id="FontRomain" scheme="css">font-family: serif</rendition>
               <namespace name="http://www.tei-c.org/ns/1.0">
-                <tagUsage gi="emph" render="#IT"/>
-                <tagUsage gi="hi" render="#IT"/>
-                <tagUsage gi="text" render="#FontRomain"/>
+                <tagUsage gi="emph" rendition="#IT"/>
+                <tagUsage gi="hi" rendition="#IT"/>
+                <tagUsage gi="text" rendition="#FontRomain"/>
               </namespace>
             </tagsDecl>
           </egXML>

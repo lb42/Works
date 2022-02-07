@@ -1812,12 +1812,10 @@
                 <bibl xml:id="Sue1846">
                   <author><surname>Sue</surname>, <forename>Eugène</forename></author>
                   <title level="m">Martin, l’enfant trouvé : Mémoires d’un valet de chambre</title>
-                  <imprint>
-                    <publisher>C. Muquardt</publisher>
-                    <pubPlace>Bruxelles</pubPlace>
-                    <pubPlace>Leipzig</pubPlace>
-                    <date when="1846">MDCCCXLVI</date>
-                  </imprint>
+                  <publisher>C. Muquardt</publisher>
+                  <pubPlace>Bruxelles</pubPlace>
+                  <pubPlace>Leipzig</pubPlace>
+                  <date when="1846">MDCCCXLVI</date>
                 </bibl>
               </sourceDesc>
             </egXML>
@@ -1926,7 +1924,7 @@
                   <p>Word forms broken by end of line hyphenation have been reconstructed without comment. The hyphen
                     has been removed except for hyphenated forms attested elsewhere in the text. </p>
                 </normalization>
-                <quotation marks="all" form="std">
+                <quotation marks="all">
                   <p>All quotation marks have been removed. Direct speech is represented by the use of the <gi>said</gi>
                     tag; other quoted material is represented by means of the <gi>q</gi> tag. </p>
                 </quotation>
@@ -2020,9 +2018,9 @@
               <rendition xml:id="IT" scheme="css">font-style: italic</rendition>
               <rendition xml:id="FontRoman" scheme="css">font-family: serif</rendition>
               <namespace name="http://www.tei-c.org/ns/1.0">
-                <tagUsage gi="emph" render="#IT"/>
-                <tagUsage gi="hi" render="#IT"/>
-                <tagUsage gi="text" render="#FontRoman"/>
+                <tagUsage gi="emph" rendition="#IT"/>
+                <tagUsage gi="hi" rendition="#IT"/>
+                <tagUsage gi="text" rendition="#FontRoman"/>
               </namespace>
             </tagsDecl>
           </egXML>
@@ -2087,7 +2085,7 @@
             </profileDesc>
           </egXML>
           <p>Note that this categorization applies to the whole text. For more fine grained classification, the
-              <att>decls</att> attribute may be used to select the classification applicable to any declarable elemnt,
+              <att>decls</att> attribute may be used to select the classification applicable to any declarable element,
             for example to an individual <gi>div</gi>. </p>
           <p>The fourth and last part of the TEI Header is the optional <term>revision description</term>, represented
             by a <gi>revisionDesc</gi> element which contains a list of <gi>change</gi> elements, each with
