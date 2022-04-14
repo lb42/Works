@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Blogging</title>
+   </titleStmt>
+   <publicationStmt>
+    <p>Unpublished draft</p>
+   </publicationStmt>
+   <sourceDesc>
+    <p>AMOW</p>
+   </sourceDesc>
+  </fileDesc>
+  <revisionDesc>
+   <change when="2022-04-13">First draft started</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+<body>
+ <div>
+  <head>An experiment in CLS</head>
+  <p>Some time ago, I agreed to participate along with several others much smarter than me in COST
+   Action Work Group 3. The goals of this work group were, amongst other things, to run a small
+   experiment in counting verb frequencies on ELTeC texts enhanced with POS and lemma information.
+   It took a surprisingly long time to find out exactly what contribution was required of me, and I
+   make no claim to have got it right even now. But here's what I thought I was doing. </p>
+  <p>First, I wrote an insultingly simple XSL stylesheet to produce a list, in descending frequency
+   order, of verbal lemmas in each of the (now) 10 ELTeC level 2 corpora. For example, here's the
+   start of the file <ident>rom/verbFreq.xml</ident>: <egXML xmlns="http://www.tei-c.org/ns/Examples"
+   >
+    <frequencies> 
+     <lemma form="face" freq="30919"/> 
+     <lemma form="avea" freq="29391"/> 
+     <lemma form="zice" freq="22673"/> 
+   <!-- ...  and so on for several hundred more lines --> </frequencies> </egXML>... which tells us
+   that in our data Romanian's favourite verb has the lemma <hi>face</hi>, and the next favourite is
+   <hi>avea</hi>. The code for doing this is (like all the rest of the code described here) in the
+   github repo <ident>COST-ELteC/ELTeC-data/Scripts </ident> if you care: it's called imaginatively
+   <ident>verbFreqs.xsl</ident> </p>
+  <p>Next, I wrote another simple-minded script to extract from each novel a <term>bag of
+   words</term>, with no markup or punctuation: just all the verbs, for example, or all the nouns,
+   in their order of appearance in the text. So the that celebrated work <title>Hard Times</title>,
+   which begins in the original like this <egXML xmlns="http://www.tei-c.org/ns/Examples"> 
+    <div type="group"> <head>BOOK THE FIRST <hi>SOWING</hi></head> <div type="chapter"> <head>CHAPTER I
+   THE ONE THING NEEDFUL</head>
+   <p>‘<hi>Now</hi>, what I want is, Facts.  Teach these boys and girls nothing but Facts.  Facts
+   alone are wanted in life.  Plant nothing else, and root out everything else.  You can only form
+   the minds of reasoning animals upon Facts: nothing else will ever be of any service to them.</p>
+   <!-- ... --> </div><!-- ... --></div> </egXML> generates a bag of words starting like this <egXML
+   xmlns="http://www.tei-c.org/ns/Examples">want be teach be want|wanted plant root form be...
+   </egXML> if I ask for VERB lemmas, or like this <egXML xmlns="http://www.tei-c.org/ns/Examples"
+   >book sowing|sow chapter thing fact boy girl fact fact life mind reasoning|reason animal fact
+   service </egXML> if I ask for NOUN lemmas. You may wish to complain about the 
+   behaviour of the lemmatizer here, but I am taking the path of least resistance and using whatever treetagger (in this case) produces without cavil. This deplorable laziness returns to bite me further below... </p>
+  <p>I wrote some python to run the xslt script <ident>filter.xsl</ident> which does this task: the
+   script is called <ident>filter.py</ident> and it uses a Python interface to the Saxon C processor
+   which I was very pleased with myself about when I got it working; less so later, see below.
+   There's more mundane detail of how to run it in the README in the Scripts folder. </p>
+  <p>If still awake, you are probably wondering what the point of all this was. And here comes the
+   scientific bit. The little workgroup I had signed up for wished to test a Hypothesis, which (if I
+   understand it correctly) might be crudely summarized thusly: <list><item>The european novel
+   undergoes some sort of seismic shift around the turn of the 19th century, which is popularly
+   known as The Rise of Modernism</item><item>Modernism has many stylistic correlatives, but they
+   include notably a refocus on the interior life of characters, on sensation and feeling, rather
+   than on objective omniscient narrative</item><item>If this is true, we should expect to see a
+   change in the frequency with which verbs associated with that <q>inner life</q> appear over
+   time.</item></list></p>
+  <p>I hope you can see where we are going with this, now. All we need is a reasonably plausible
+   list of verbs which express aspects of <q>inner life</q>. And so, for the next few months, with
+   zoom and email and similar modern contrivances, the group theorized how to actually produce such
+   a list. I may have fallen asleep during the process and missed something critical, but I think
+   eventually (I think) it was decided that we would explore two approaches to identifying our list.
+   Firstly, we'd ask language experts to vote for their top ten "inner" verbs. Secondly, we'd use a
+   statistical procedure (word vector embedding) to identify a list of candidate verbs
+   automagically. Then we'd compare the results, declare victory, and move on. </p><p>What could possible go wrong? Well, at least two things. </p>
+  <p>Firstly, the ask-an-expert approach turned out to be less successful than it might have been, largely
+   for purely logistical reasons. If we had asked the experts simply to review the existing verb
+   frequency lists for their language and identify in them those verbs which were indubitably and
+   always betokeners of interiority, plus any others which were a bit thus inclined sometimes, then
+   we might have got our results a bit faster. But we didn't, and the experts, understandably a bit
+   mystified by the whole process, gave us lists which varied widely in their format and scope. So I
+   found myself having to tweak and readjust their contributions, to remove duplicates and ambiguity. 
+   As for the automagical procedure, it proved a little
+   challenging for most participants to run, if only because it required access to a machine capable
+   of running Google's <ident>word2vec</ident> program which is not meant for your average laptop. In any
+   case, you can see the resulting word lists in the file <ident>innerVerbs.xml</ident> which I hope
+   is fairly self-explanatory.</p><p>Secondly, my simplistic notion of <q>lemma</q> turned out to be problematic. As you noticed above, when unable to choose between two alternatives, treetagger obligingly gives you both of them, separated by a vertical bar. That's no problem for me: I just discard the alternative. But other lemmatizers behave differently. For example, in our Portuguese data, the lemmas for reflexive verbs are suffixed by a # and an indication of person. In our Hungarian data, spelling variations of the same basic lemma  are sometimes presented as different lemmas.  In the first case, should I simply ignore the part of the lemma after the #? In the second, should I aggregate all the differently spelled variants and consider matches for any of them as equivalent? As usual in computational linguistics, it all depends what you think you're counting...</p>
+  <p>Despite these metalinguistic anxieties, I wrote a (needlessly complicated) python script called <ident>verbCount.py</ident> to count the frequencies of the inner verbs through time, comparing the things-called-lemmas in our various lists of inner verbs with the things-identified-as-lemmas in the level2-encoded files. 
+   Invoking various XSLT scripts and Saxon C as before, this script grudgingly churned out a file for each text in the corpus under examination, with a row for each title and a column for each inner verb, like this:
+  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+   extId year verbs innerVerbs aimer connaître croire entendre regarder savoir sembler trouver voir vouloir 
+   FRA00101 1860 3889 310  17 9 28 22 18 52 5 47 83 29
+   FRA00102 1883 5499 465  112 21 38 16 17 55 32 30 77 67   
+   FRA00201 1910 7577 682  26 20 41 75 96 63 49 93 128 91
+  ....
+  </egXML>
+  I say <q>grudgingly</q> because the script was obliged to process the whole of every file in order to extract a year of publication from its TEI header, and consequently ran with noticeable slowness. If I'd thought to include the year of publication along with other metadata in the filename of the "bag of words" I could have used that instead, which would have been much quicker. Maybe if I get a better set of inner life verbs I'll revise the scripts to do so.</p>
+  <p>Anyway, we now have a bunch of CSV files. And why? Because my colleague Diana has produced some R scripts which will plot this data set so everyone can understand it. Or at least look at it.  Here's what we get for some of the Portuguese data:
+   <figure>
+    <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/innerVerbs.png"/>
+    <head>Box plot showing frequency distribution of the ratio of inner verbs to other verbs over five year slots</head>
+   </figure>
+  </p><p>I leave it to the statistically-informed to interpret this and other similar results. The closing conference of the COST Action, taking place next week, includes <ref target="https://www.distant-reading.net/events/conference-programme/#s1">a paper</ref> (on which I am somewhat embarassingly cited as co-author) presenting the results in more detail.  </p></div>
+</body></text></TEI>
