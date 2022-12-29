@@ -19,7 +19,9 @@
 
  <text>
   <body>
-   <head>Wanderings to see the Wonders of the West</head>
+   <figure><graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/wanderings.png"/>
+      <head>Wanderings to see the Wonders of the West</head>
+     </figure>
    <p>In which we discover whether it really is much better to travel hopefully than to arrive.</p>
    <div>
     <head>Sunday 17 July</head>
@@ -187,7 +189,7 @@
     <p>And so to my revised journey home, which involved nothing more complicated than a long
      distance bus from Galway to Shannon, a lengthy wait there, an uneventful flight to Heathrow
      (the best kind), and a tedious two hour bus ride from there to Bristol. I was so pleased to get
-     back and not be on a bus any more that walked all the way home from the bus station. </p>
+     back and not be on a bus any more that I walked all the way home from the bus station. </p>
    </div>
   </body>
  </text>
