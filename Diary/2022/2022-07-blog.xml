@@ -19,9 +19,10 @@
 
  <text>
   <body>
-   <figure><graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/wanderings.png"/>
-      <head>Wanderings to see the Wonders of the West</head>
-     </figure>
+   <figure>
+    <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/wanderings.png"/>
+    <head>Wanderings to see the Wonders of the West</head>
+   </figure>
    <p>In which we discover whether it really is much better to travel hopefully than to arrive.</p>
    <div>
     <head>Sunday 17 July</head>
@@ -182,10 +183,12 @@
      back into the UK without a passport? By using a different airline, of course. Hats off to Aer
      Lingus, which allowed me to board a flight from Shannon to London without fuss.</p>
     <p>Despire this, I did manage to complete a fairly coherent report on my stint as a CLS Fellow
-     (final version here). That status (and an intro from Justin Tonra) gave me the opportunity to
-     engage in a pleasant and instructive discussion with Professor David OShaughnessy before
-     leaving. And I also enjoyed what I believe is known as the craik in one of the many Galway pubs
-     offering musical evening entertainment.</p>
+     (final version <ref
+     target="https://raw.githubusercontent.com/lb42/Works/master/Papers/2022-GalwayReport.pdf"
+     >here</ref>). That status (and an intro from Justin Tonra) gave me the opportunity to engage in
+     a pleasant and instructive discussion with Professor David OShaughnessy before leaving. And I
+     also enjoyed what I believe is known as the craik in one of the many Galway pubs offering
+     musical evening entertainment.</p>
     <p>And so to my revised journey home, which involved nothing more complicated than a long
      distance bus from Galway to Shannon, a lengthy wait there, an uneventful flight to Heathrow
      (the best kind), and a tedious two hour bus ride from there to Bristol. I was so pleased to get
