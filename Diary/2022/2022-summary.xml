@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Blogging</title>
+   </titleStmt>
+   <publicationStmt>
+    <p>Unpublished draft</p>
+   </publicationStmt>
+   <sourceDesc>
+    <p>AMOW</p>
+   </sourceDesc>
+  </fileDesc>
+  <revisionDesc>
+   <change when="2023-01-04">First draft started</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <head>2022: another year</head>
+   <figure><graphic url="timeline.png"/><head>European end of my timeline</head></figure>
+   <p>What's left to say about the year 2022? I survived it, as did most of those near and dear to
+    me. Despite coming close several times, the UK's current apology for a government did not
+    entirely collapse. I spent most of the year running away, as this blog attests.</p>
+   <list>
+    <item>In February, I paid my Covid dues and stayed in bed for a few days</item>
+    <item>In March I went to Galway, to test my brief (but very enjoyable) reincarnation as an
+     itinerant scholar, as holder of a prestigious fellowship </item>
+    <item>In May I went, as usual, to Tours to teach TEI "niveau 2", and then to La Vergne where
+     I stayed till July, with the exception of a brief side trip to Nottingham to enjoy a Belinda concert</item>
+    <item>In June I went to Lyon to teach a summer school: it was hot </item>
+    <item>In July I had another brief visit to Galway to swrap up my fellowship alas</item>
+    <item>In August I escaped to La Vergne again </item>
+    <item>In mid-September, I cane back to the UK perforce, to attend the annual TEI conference in Newcastle</item>
+    <item>At the end of October, we celebrated (a bit early) our golden wedding anniversary with an extraoredinary family holiday in the Forest of Dean</item>
+    <item>In November I managed to fit in another week in La Vergne, a three day teaching spell in
+     Tours, and a day long meeting in Paris, before joining Lilette for a three week break in
+     Mauritius, not before time. </item>
+   </list>
+   <p>It's all in my Google Location History, in glorious detail, but I don't know how to share that.</p>
+   <figure><graphic url="mauritianMap.png"/><head>European end of my timeline</head></figure></body>
+ </text>
+</TEI>
