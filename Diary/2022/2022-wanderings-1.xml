@@ -6,7 +6,7 @@
     <title>Galway Bloggage - 1</title>
    </titleStmt>
    <publicationStmt>
-    <p>Unpublished draft</p>
+    <p>Published at <ref>http://lb42.github.io/Diary</ref></p>
    </publicationStmt>
    <sourceDesc>
     <p>AMOW</p>
@@ -92,7 +92,9 @@
      call or two, I am duly authorised to sit at one of the immense tables in Special Collections,
      whip out my laptop, and get online with Eduroam. Splendid. </p>
     <figure>
-     <graphic url="../media/20220322_123846.jpg" width="400px"/>
+     <graphic
+      url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/20220322_123846.jpg"
+      width="400px"/>
      <head>Actually, it's called "Twin Spires". Nothing to do with penises at all. Well maybe.
      </head>
     </figure>
@@ -121,26 +123,37 @@
      submitted to the funding body</ref>: the rest of this report focusses almost exclusively on the
      trivia of my day to day existence. Being a free floating research student in a far off land is
      a novel experience, after all. I had to find reliable venues for dinner, lunch, and morning
-     coffee, find the optimal routes between my accomodation and the campus, and yes why not explore
-     the famed West End of Galway as well as neighbouring tourist attractions so long as I'm here. </p>
+     coffee, find the optimal routes between my accommodation and the campus, and yes why not
+     explore the famed West End of Galway as well as neighbouring tourist attractions so long as I'm
+     here. </p>
     <p>Pleasant though it was, I checked out of the Galway Inn on the morning of the 24th, schlepped
      my bag along my new preferred route to campus along the banks of the river Corrib, and at the
-     end of the day's hard work studenting, caught the bus out to Salthill, Galways famed seaside
+     end of the day's hard work studenting, caught the bus out to Salthill, Galway's famed seaside
      resort, where I had reserved myself an actual apartment for the long weekend.</p>
    </div>
    <div>
     <head>25-31 March</head>
     <p>Salthill has really only one street more or less following the curve of Galway Bay, along
-     which are scattered numerous holiday accomodations, pubs, and restaurants. It also boasts a
+     which are scattered numerous holiday accommodations, pubs, and restaurants. It also boasts a
      couple of beaches, a casino, a fun fair, an antique diving platform from which foolish youths
      can precipitate themselves into Galway Bay, and a stone monument commemorating those who tried
      to escape <ref target="https://en.wikipedia.org/wiki/Great_Famine_(Ireland)">the Great
-     Hunger</ref> by sailing for the New World from here. As this 1849 press cutting shows <figure>
-     <graphic url="../media/coffinShip.jpg" width="360px"/>
-     <head>Clipping from the <ref
-      target="https://www.advertiser.ie/galway/article/40780/the-great-famine-in-galway">Galway
-      Advertiser</ref></head>
-     </figure>, then as now emigration by boat was not the easiest of options. </p>
+     Hunger</ref> by emigrating to the New World. <table>
+     <row>
+      <cell>
+       <p>The monument is one of many across Ireland recalling one of the more shameful consequences
+       of British rule in Ireland. It also serves to recall the plight of other people reduced to
+       the desperation of nautical emigration: and to remind us that there is always someone ready
+       to profit from that desperation. </p></cell>
+      <cell><figure>
+       <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/coffinShip.jpg"
+        width="240px"/>
+       <head>See comments from today's <ref
+        target="https://www.advertiser.ie/galway/article/40780/the-great-famine-in-galway">Galway
+        Advertiser</ref></head>
+       </figure></cell>
+     </row>
+     </table> </p>
     <p>There is also of course a lengthy promenade for walking along, first in one direction, and
      then in the other, to take in the view and enjoy the sunshine, when there is any. Which there
      was for much of the weekend. Sunday was Mothers Day, or as it seems to be called here "Mammy's
@@ -156,7 +169,7 @@
    </div>
    <div>
     <head>1 - 9 April</head>
- <!--   <figure>
+    <!--   <figure>
      <graphic url="../media/20220404_092434.jpg" width="400px"/>
      <head>A classic full Irish</head>
     </figure>-->
@@ -173,21 +186,26 @@
     <table>
      <row>
       <cell> <figure>
-       <graphic url="../media/20220404_092434.jpg" width="400px"/>
-   <!--    <head>A classic full Irish</head>
-  -->     </figure> </cell>
+       <graphic
+        url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/20220404_092434.jpg"
+        width="400px"/>
+       <!--    <head>A classic full Irish</head>
+  -->
+       </figure> </cell>
       <cell>
-       <p>My internet research suggested that a bus trip to the Clifden, allegedly capital city of
+       <p>My internet research suggested that a bus trip to Clifden, allegedly capital city of
        Connemara, might be both amusing and cheap, as indeed it was. I stayed in a little guest
-       house round the corner from the former railway station, now a bar where I ate something
-       ill-advised and spent much of the next day in bed as a result. But I eventually managed to go
-       for a long walk all the same, and enjoyed some boggy scenery and views over the coastline. I
-       did not get as far as the bit of bog in which Alcock and Brown crashlanded in 1919, having
-       mistaken a patch of moss for some grass. Nor indeed the site of Mr Marconi's wireless
-       telegraphy station. There are fine monuments to both in the sleepy centre of Clifden, which I
-       duly noted instead. And there is also a very nice old fashioned pub called Foyles Hotel where
-       I stayed for my last night in the far West, and whose take on the classic full Irish
-       breakfast (shown opposite) I can whole heartedly recommend. </p> </cell>
+       house round the corner from the former railway station, which last has been converted to a
+       Victoriana-themed restaurant/bar. Somewhat unexpectedly I ate something here which disagreed
+       with me, and spent much of the next day in bed as a result. But I did eventually manage to go
+       for a couple of longish walks all the same, one by the high road and one by the low, both
+       featuring satisfyingly boggy scenery and views over the coastline. I did not get as far as
+       the bit of bog in which Alcock and Brown crashlanded in 1919, having mistaken a patch of moss
+       for some grass. Nor indeed the site of Mr Marconi's wireless telegraphy station. There are
+       fine monuments to both in the sleepy centre of Clifden, which I duly observed instead. And
+       there is also a very nice old fashioned pub called Foyles Hotel where I stayed for my last
+       night in the far West, and whose take on the classic full Irish breakfast (shown opposite) I
+       can whole heartedly recommend. </p> </cell>
      </row>
     </table>
 
@@ -198,7 +216,7 @@
      Fire up the laptop and resume the tap tap tapping. Set goals and get distracted from them.
      Review progress and discuss the way of the world occasionally with Justin over coffee. Turn up
      late for lunch, either at the staff canteen (contracted out to terrible caterers) or at the
-     student feeding troughs in the basement (noisy but filling), or (if feeling rich) at an
+     student feeding-troughs in the basement (noisy but filling), or (if feeling rich) at an
      off-campus coffee house. Back to work. And da capo. It's academic life. </p>
     <p>Justin persuaded me that I'd do better to take the express bus direct to Dublin airport, even
      though it took three hours, so I did that very thing. Which was a fairly awful experience,

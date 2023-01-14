@@ -6,14 +6,14 @@
     <title>2022: another year</title>
    </titleStmt>
    <publicationStmt>
-    <p>Unpublished draft</p>
+    <p>Published at <ref>http://lb42.github.io/Diary</ref></p>
    </publicationStmt>
    <sourceDesc>
     <p>AMOW</p>
    </sourceDesc>
   </fileDesc>
   <revisionDesc>
-   <change when="2023-01-04">First draft started</change>
+   <change when="2023-01-14">First draft started</change>
   </revisionDesc>
  </teiHeader>
  <text>
@@ -25,16 +25,16 @@
     entirely collapse. I spent much of the year travelling, as this blog attests.</p>
    <list>
     <item>In January and February, I seem to have done a lot of running about between dentists and doctors. I also paid my Covid dues and stayed in bed for a few days. And tried my best to contribute something sensible to the  <ref target="https://foxglove.hypotheses.org/669">CLS WG3 project on counting "verbs of inner life".</ref> </item>
-    <item>In March <ref target="wanderings-1.html">I went to Galway for three weeks</ref>, nervously clutching a prestigious CLS INFRA fellowship to test my brief (but very enjoyable) reincarnation as an
+    <item>In March <ref target="https://lb42.github.io/Diary/wanderings-1.html">I went to Galway for three weeks</ref>, nervously clutching a prestigious CLS INFRA fellowship to test my brief (but very enjoyable) reincarnation as an
      itinerant scholar.  </item>
     <item>In May I went, as usual, to Tours to teach TEI "niveau 2", and then to La Vergne where
-     I stayed most of the summer,  with the exception of a brief side trip to Nottingham to enjoy a Belinda concert</item>
-    <item>In June I went to Lyon to teach at an ENS summer school: it was hot </item>
-    <item>In July I had <ref target="wanderings-2.html">another brief visit to Galway</ref> to wrap up my fellowship alas</item>
+     I stayed most of the summer,  with the exception of a brief side trip to Nottingham to enjoy a Belinda concert and collect Lilette</item>
+    <item>In June Lilette returned to Bristol and I went to Lyon to teach at an ENS summer school: it was very hot </item>
+    <item>In July I took <ref target="https://lb42.github.io/Diary/wanderings-2.html">another brief visit to Galway</ref> to wrap up my fellowship alas</item>
     <item>In August I escaped to La Vergne again </item>
-    <item>In mid-September, I came back to the UK perforce, to attend the annual TEI conference in Newcastle</item>
+    <item>In mid-September, I came back to the UK perforce, to attend (and address) the annual TEI conference, this year hosted by the University of Newcastle </item>
     <item>At the end of October, we celebrated (a bit early) our golden wedding anniversary with an extraordinary family holiday in the Forest of Dean</item>
-    <item>In November I managed to fit in another week in La Vergne, a three day teaching spell in
+    <item>In November I managed to fit in another week in La Vergne, three days teaching TEI niveau 1 in
      Tours, and a day long meeting in Paris, before joining Lilette for a three week break in
      Mauritius, not before time. </item>
    </list>
