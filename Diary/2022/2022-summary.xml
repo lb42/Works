@@ -3,7 +3,7 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title>Blogging</title>
+    <title>2022: another year</title>
    </titleStmt>
    <publicationStmt>
     <p>Unpublished draft</p>
@@ -18,19 +18,19 @@
  </teiHeader>
  <text>
   <body>
-   <head>2022: another year</head>
-   <figure><graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/timeline.png"/><head>European end of my timeline</head></figure>
+   <head></head>
+   <figure><graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/timeline.png" width="500px"/><head>European end of my timeline</head></figure>
    <p>What's left to say about the year 2022? I survived it, as did most of those near and dear to
     me. Despite coming close several times, the UK's current apology for a government did not
     entirely collapse. I spent much of the year travelling, as this blog attests.</p>
    <list>
     <item>In January and February, I seem to have done a lot of running about between dentists and doctors. I also paid my Covid dues and stayed in bed for a few days. And tried my best to contribute something sensible to the  <ref target="https://foxglove.hypotheses.org/669">CLS WG3 project on counting "verbs of inner life".</ref> </item>
-    <item>In March I went to Galway for three weeks, nervously clutching a prestigious CLS INFRA fellowship to test my brief (but very enjoyable) reincarnation as an
+    <item>In March <ref target="wanderings-1.html">I went to Galway for three weeks</ref>, nervously clutching a prestigious CLS INFRA fellowship to test my brief (but very enjoyable) reincarnation as an
      itinerant scholar.  </item>
     <item>In May I went, as usual, to Tours to teach TEI "niveau 2", and then to La Vergne where
      I stayed most of the summer,  with the exception of a brief side trip to Nottingham to enjoy a Belinda concert</item>
     <item>In June I went to Lyon to teach at an ENS summer school: it was hot </item>
-    <item>In July I had another brief visit to Galway to wrap up my fellowship alas</item>
+    <item>In July I had <ref target="wanderings-2.html">another brief visit to Galway</ref> to wrap up my fellowship alas</item>
     <item>In August I escaped to La Vergne again </item>
     <item>In mid-September, I came back to the UK perforce, to attend the annual TEI conference in Newcastle</item>
     <item>At the end of October, we celebrated (a bit early) our golden wedding anniversary with an extraordinary family holiday in the Forest of Dean</item>
