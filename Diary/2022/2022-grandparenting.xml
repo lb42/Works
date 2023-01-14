@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Grandparenting</title>
+   </titleStmt>
+   <publicationStmt>
+    <p>Published at <ref>http://lb42.github.io/Diary</ref></p>
+   </publicationStmt>
+   <sourceDesc>
+    <p>AMOW</p>
+   </sourceDesc>
+  </fileDesc>
+  <revisionDesc>
+   <change when="2023-01-14">First draft started</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <head>Grandparenting</head>
+   <p>Though not particularly polyphiloprogenitive, I have three daughters, who have in due course
+    presented me with a total of six grandchildren, to say nothing of a scattering of step children
+    as well. This makes for a calendar well filled with birthday parties and other occasions on
+    which grandparenting duties (usually baby sitting) must be undertaken. In 2022, for example, I
+    note the following: <list>
+    <label>January 21-24</label>
+    <item>We went to Maryland to look after Coco, Daphne, and Al so that Elizabeth could join her
+     sisters for a spa weekend. <ref target="../media/20220122_093715.jpg"> Full instructions</ref>
+     were provided and a splendid time was had by all.</item>
+    <label>Feb 12th</label>
+    <item>To Stourton for a joint celebration of Lila's and Paddy's 12th birthdays: there was
+     cake and chocolate</item>
+    <label>March 11-16</label>
+     <item>To Maryland once more:  Daphne made a pizza, learned how to make bol renverse, and  lost a tooth; Coco just looked cute.  </item>
+     <label>April 14-15</label>
+     <item>Lila etc visit</item>
+     <label>23-24 April</label>
+     <item>To Stourton village hall for Leon's 2nd birthday party: there were lots of nibbles and balloons and everyone got quite tired; <graphic url="../media/20220424_172408.jpg"/></item>
+    <label>July 10th</label>
+    <item>Belinda and Sarah came and took us out for Lilette's birthday (aka Panos's birthday
+     barbie) </item>
+    <label>21-22 Oct</label>
+    <item>Stay at Ibis Stratford</item>
+   
+    <label>3-6 November</label>
+    <item>I am always seem to be away for Belinda's birthday, so this year I suggested she move it back a week. And so we spent a few days in  Arnold and Sherwood, doing exciting things like accompany
+    her to the opticians and having lunch of course. There were also sparklers, which Harvey appreciated.</item>
+    
+    </list></p>
+  </body>
+ </text>
+</TEI>

@@ -18,27 +18,47 @@
  </teiHeader>
  <text>
   <body>
-   <head></head>
-   <figure><graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/timeline.png" width="500px"/><head>European end of my timeline</head></figure>
+   <head/>
+   <figure>
+    <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/timeline.png"
+     width="500px"/>
+    <head>European end of my timeline</head>
+   </figure>
    <p>What's left to say about the year 2022? I survived it, as did most of those near and dear to
     me. Despite coming close several times, the UK's current apology for a government did not
-    entirely collapse. I spent much of the year travelling, as this blog attests.</p>
+    entirely collapse. I spent much of the year travelling, as this blog attests, when not engaged by
+   grandparental or gardening duties. </p>
    <list>
-    <item>In January and February, I seem to have done a lot of running about between dentists and doctors. I also paid my Covid dues and stayed in bed for a few days. And tried my best to contribute something sensible to the  <ref target="https://foxglove.hypotheses.org/669">CLS WG3 project on counting "verbs of inner life".</ref> </item>
-    <item>In March <ref target="https://lb42.github.io/Diary/wanderings-1.html">I went to Galway for three weeks</ref>, nervously clutching a prestigious CLS INFRA fellowship to test my brief (but very enjoyable) reincarnation as an
-     itinerant scholar.  </item>
-    <item>In May I went, as usual, to Tours to teach TEI "niveau 2", and then to La Vergne where
-     I stayed most of the summer,  with the exception of a brief side trip to Nottingham to enjoy a Belinda concert and collect Lilette</item>
-    <item>In June Lilette returned to Bristol and I went to Lyon to teach at an ENS summer school: it was very hot </item>
-    <item>In July I took <ref target="https://lb42.github.io/Diary/wanderings-2.html">another brief visit to Galway</ref> to wrap up my fellowship alas</item>
+    <item>In January and February, I seem to have done a lot of running about between dentists and
+     doctors. I also paid my Covid dues and stayed in bed for a few days. And tried my best to
+     contribute something sensible to the <ref target="https://foxglove.hypotheses.org/669">CLS WG3
+     project on counting "verbs of inner life".</ref> </item>
+    <item>In March <ref target="https://lb42.github.io/Diary/wanderings-1.html">I went to Galway for
+     three weeks</ref>, nervously clutching a prestigious CLS INFRA fellowship to test my brief (but
+     very enjoyable) reincarnation as an itinerant scholar. </item>
+    <item>In May I went, as usual, to Tours to teach TEI "niveau 2", and then to La Vergne where I
+     stayed most of the summer, with the exception of a brief side trip to Nottingham to enjoy a
+     Belinda concert and collect Lilette</item>
+    <item>In June Lilette returned to Bristol and I went to Lyon to teach at an ENS summer school:
+     it was very hot and the journey home was somewhat stressful</item>
+    <item>In July I took <ref target="https://lb42.github.io/Diary/wanderings-2.html">another brief
+     visit to Galway</ref> to wrap up my fellowship alas</item>
     <item>In August I escaped to La Vergne again </item>
-    <item>In mid-September, I came back to the UK perforce, to attend (and address) the annual TEI conference, this year hosted by the University of Newcastle </item>
-    <item>At the end of October, we celebrated (a bit early) our golden wedding anniversary with an extraordinary family holiday in the Forest of Dean</item>
-    <item>In November I managed to fit in another week in La Vergne, three days teaching TEI niveau 1 in
-     Tours, and a day long meeting in Paris, before joining Lilette for a three week break in
+    <item>In mid-September, I came back to the UK perforce, to attend (and address) the annual TEI
+     conference, this year hosted by the University of Newcastle </item>
+    <item>At the end of October, we celebrated (a bit early) our golden wedding anniversary with an
+     extraordinary family holiday in the Forest of Dean</item>
+    <item>In November I managed to fit in another week in La Vergne, three days teaching TEI niveau
+     1 in Tours, and a day long meeting in Paris, before joining Lilette for a three week break in
      Mauritius, not before time. </item>
    </list>
-   <p>The minute details of where and when are all logged in my Google Location History, but I don't know how to share that, other than by the occasional screen shot. But there are links to more detailed reportage of various kinds in the above list.</p>
-   <figure><graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/mauritianMap.png"/><head>Mauritian end of my timeline</head></figure></body>
+   <p>The minute details of where and when are all logged in my Google Location History, but I don't
+    know how to share that, other than by the occasional screen shot. But there are links to more
+    detailed reportage of various kinds in the above list.</p>
+   <figure>
+    <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/mauritianMap.png"/>
+    <head>Mauritian end of my timeline</head>
+   </figure>
+  </body>
  </text>
 </TEI>
