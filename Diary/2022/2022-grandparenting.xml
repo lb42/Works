@@ -18,7 +18,6 @@
  </teiHeader>
  <text>
   <body>
-   <head>Grandparenting</head>
 
 
    <p>Though not particularly polyphiloprogenitive, I have three daughters, who have in due course
@@ -37,38 +36,36 @@
     <head>Taken on 15 May, here are Louis, born June 2011, and Harvey, born Aug 2016, and their dad.
      They are probably shooting something. </head>
    </figure>
-   <table>
-    <row>
-     <cell> <figure>
-      <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/leon.png"
-       width="400px"/>
-      </figure></cell>
-     <cell> <figure>
-      <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/coco.png"
-       width="300px"/>
-      </figure></cell>
-     <cell> <figure>
-      <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/daphne.png"
-       width="390px"/>
-      </figure> </cell>
-    </row>
+   <table> <row>
+    <cell> <figure>
+     <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/leon.png"
+      width="400px"/>
+    </figure></cell>
+    <cell> <figure>
+     <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/coco.png"
+      width="300px"/>
+    </figure></cell>
+    <cell> <figure>
+     <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/daphne.png"
+      width="390px"/>
+    </figure> </cell>
+   </row>
     <row role="label">
      <cell>Taken on 24 April after his birthday party, here is Leon, born 2019 with his mum.
       Definitely time for bed. </cell>
-     <cell> <hi>Taken on 11 March, here is Coco, born July 2020 and her mum, just looking cute.
-      </hi></cell>
-     <cell role="label"> <hi>Also taken on 11 March, here is Daphne, born Aug 2016 , and the pizza
-      she made. </hi></cell>
+     <cell> <hi>Taken on 11 March, here is Coco, born July 2020 and her mum, just looking cute. </hi></cell>
+     <cell role="label"> <hi>Also taken on 11 March, here is Daphne, born Aug 2016 , and the pizza she made.
+     </hi></cell>
     </row>
    </table>
    <p>My three daughters and their respective families are quite seriously geographically dispersed,
     which means that we have become correspondingly expert in the available public transport routes
     to Nottingham, Maryland (E15), and Stourton (near Shipston on Stour), respectively. Also cheap
-    accommodation thereabouts, where there is any (full disclosure: there isn't). There are
-    persistent rumours that they all plan to move to Bristol soon, but it hasn't happened yet. All
-    of which made at least the first part of 2022 quite busy what with birthday parties and sundry
-    occasions on which grand-parenting duties (usually baby sitting) must be undertaken. Here's a
-    brief checklist: <list>
+    accommodation thereabouts, where there is any (full disclosure: there isn't). </p>
+   <p>There are persistent rumours that they all plan to move to Bristol soon, but it hasn't
+    happened yet. All of which made at least the first part of 2022 quite busy what with birthday
+    parties and sundry occasions on which grand-parenting duties (usually baby sitting) must be
+    undertaken. Here's a brief checklist: <list>
     <label>January 21-24</label>
     <item>We went to Maryland to look after Coco, Daphne, and Al so that Elizabeth could join her
      sisters for a much-needed sisterly spa weekend. <ref
@@ -84,8 +81,11 @@
     <item>Lila etc visit</item>
     <label>23-24 April</label>-->
     <item>To Stourton village hall for Leon's 2nd birthday party: there were lots of nibbles and
-     balloons and everyone got quite tired. <figure><head>There was also a seesaw </head><graphic
-     url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/seesaw.png"/></figure></item>
+     balloons and everyone got quite tired. <figure>
+     <head>There was also a seesaw </head>
+     <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/seesaw.png"
+      width="800px"/>
+     </figure></item>
     <label>July 10th</label>
     <item>Belinda and Sarah came and took us out for Lilette's birthday (aka Panos's birthday
      barbie) </item>
@@ -94,9 +94,9 @@
 
     <label>3-6 November</label>
     <item>I am always seem to be away for Belinda's birthday, so this year I suggested she move it
-     back a week. We spent a few days in Arnold and Sherwood, doing exciting things like
-     accompany her to the opticians and having lunch of course. There were also sparklers, which
-     Harvey appreciated.</item>
+     back a week. We spent a few days in Arnold and Sherwood, doing exciting things like accompany
+     her to the opticians and having lunch of course. There were also sparklers, which Harvey
+     appreciated.</item>
 
     </list></p>
   </body>
