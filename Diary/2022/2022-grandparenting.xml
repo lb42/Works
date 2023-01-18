@@ -36,26 +36,28 @@
     <head>Taken on 15 May, here are Louis, born June 2011, and Harvey, born Aug 2016, and their dad.
      They are probably shooting something. </head>
    </figure>
-   <table> <row>
-    <cell> <figure>
-     <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/leon.png"
-      width="400px"/>
-    </figure></cell>
-    <cell> <figure>
-     <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/coco.png"
-      width="300px"/>
-    </figure></cell>
-    <cell> <figure>
-     <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/daphne.png"
-      width="390px"/>
-    </figure> </cell>
-   </row>
+   <table>
+    <row>
+     <cell> <figure>
+      <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/leon.png"
+       width="400px"/>
+      </figure></cell>
+     <cell> <figure>
+      <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/coco.png"
+       width="300px"/>
+      </figure></cell>
+     <cell> <figure>
+      <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/daphne.png"
+       width="390px"/>
+      </figure> </cell>
+    </row>
     <row role="label">
      <cell>Taken on 24 April after his birthday party, here is Leon, born 2019 with his mum.
       Definitely time for bed. </cell>
-     <cell> <hi>Taken on 11 March, here is Coco, born July 2020 and her mum, just looking cute. </hi></cell>
-     <cell role="label"> <hi>Also taken on 11 March, here is Daphne, born Aug 2016 , and the pizza she made.
-     </hi></cell>
+     <cell> <hi>Taken on 11 March, here is Coco, born July 2020 and her mum, just looking cute.
+      </hi></cell>
+     <cell role="label"> <hi>Also taken on 11 March, here is Daphne, born Aug 2016 , and the pizza
+      she made. </hi></cell>
     </row>
    </table>
    <p>My three daughters and their respective families are quite seriously geographically dispersed,
@@ -78,17 +80,32 @@
     <item>To Maryland again. Daphne made a pizza, learned how to make <foreign>bol
      renversé</foreign>, and lost a tooth; Coco just looked cute. </item>
     <!--<label>April 14-15</label>
-    <item>Lila etc visit</item>
-    <label>23-24 April</label>-->
+    <item>Lila etc visit</item>-->
+    <label>23-24 April</label>
     <item>To Stourton village hall for Leon's 2nd birthday party: there were lots of nibbles and
      balloons and everyone got quite tired. <figure>
-     <head>There was also a seesaw </head>
      <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/seesaw.png"
       width="800px"/>
+     <head>There was also a seesaw </head>
      </figure></item>
     <label>July 10th</label>
-    <item>Belinda and Sarah came and took us out for Lilette's birthday (aka Panos's birthday
-     barbie) </item>
+    <item><table>
+     <row>
+      <cell>Our upstairs neighbours organized a splendid joint birthday barbecue, for which Belinda
+       played appropriate tunes on her fiddle. Sarah and Belinda then whisked us away to the dirty
+       bird and a birthday dinner at Cote. </cell>
+      <cell> <figure>
+       <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/belinda.png"
+        width="500px"/>
+       </figure></cell>
+     </row>
+     </table></item>
+    <label>27-30 July</label>
+    <item>Coco and Daphne came to stay for a few days, during which there was a grand birthday
+     picnic in our back garden, and also an expedition to St Andrew's Park for splashing purposes. 
+     <table><row><cell><graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/picnic.png" width="350px"/></cell>
+      <cell><graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/standrews.png" width="250px"/></cell></row></table></item>
+     
     <label>21-22 Oct</label>
     <item>We were back in Maryland, baby-sitting again the weekend before the big family outing. </item>
 
