@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>testfile</title>
+   </titleStmt>
+   <publicationStmt>
+    <p>Published at <ref>http://lb42.github.io/Diary/</ref></p>
+   </publicationStmt>
+   <sourceDesc>
+    <p>AMOW</p>
+   </sourceDesc>
+  </fileDesc>
+  <revisionDesc>
+   <change when="2023-01-14">First draft started</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div>
+    <head>25-31 March</head>
+    <p>Though not particularly polyphiloprogenitive, I have three daughters, who have in due course
+     presented me with a total of six grandchildren, to say nothing of a scattering of step children
+     as well. For the avoidance of doubt, though, indulge me as I take this opportunity to present
+     them to you in their spring 2022 shapes.</p>
+    <figure>
+     <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/paddylila.png"
+      width="800px"/>
+     <head>Taken on 12 Feb, at their joint birthday party, here are Paddy, born Feb 2009, and Lila, born Jan 2010.
+      They have just blown out the candles on a joint birthday cake. </head>
+    </figure>
+    <figure>
+     <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/louisharvey.png"
+      width="800px"/>
+     <head>Taken on 15 May, here are Louis, born June 2011, and Harvey, born Aug 2016, and their dad.
+      They are probably shooting something. </head>
+    </figure>
+     <table> <row>
+      <cell> <figure>
+       <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/leon.png"
+        width="400px"/>
+       </figure></cell>
+      <cell> <figure>
+       <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/coco.png"
+        width="300px"/>
+       </figure></cell>
+      <cell> <figure>
+       <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/daphne.png"
+        width="390px"/>
+       </figure> </cell>
+     </row>
+     <row role="label">
+      <cell>Taken on 24 April after his birthday party, here is Leon, born 2019 with his mum.
+       Definitely time for bed. </cell>
+      <cell> <hi>Taken on 11 March, here is Coco, born July 2020 and her mum, just looking cute. </hi></cell>
+      <cell role="label"> <hi>Also taken on 11 March, here is Daphne, born Aug 2016 , and the pizza she made.
+       </hi></cell>
+     </row>
+    </table>
+    <p>My three daughters and their respective families are quite seriously geographically dispersed, which means that we have become quite expert in
+    the available public transport routes to Nottingham, Maryland (E15), and Shipston on Stour, respectively. Also cheap accomodation thereabouts, where there is any. </p>
+    <table>
+     <row>
+      <cell> <figure>
+       <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/fullIrish.png"
+        width="300px"/>
+       <head>A classic full Irish</head>
+       </figure> </cell>
+      <cell>
+       <p>My internet research suggested that a bus trip to Clifden, allegedly capital city of
+       Connemara, might be both amusing and cheap, as indeed it was. I stayed in a little guest
+       house round the corner from the former railway station, which last has been converted to a
+       Victoriana-themed restaurant/bar. Somewhat unexpectedly I ate something here which disagreed
+       with me, and spent much of the next day in bed as a result. But I did eventually manage to go
+       for a couple of longish walks all the same, one by the high road and one by the low, both
+       featuring satisfyingly boggy scenery and views over the coastline. I did not get as far as
+       the bit of bog in which Alcock and Brown crashlanded in 1919, having mistaken a patch of moss
+       for some grass. Nor indeed the site of Mr Marconi's wireless telegraphy station. There are
+       fine monuments to both in the sleepy centre of Clifden, which I duly observed instead. And
+       there is also a very nice old fashioned pub called Foyles Hotel where I stayed for my last
+       night in the far West, and whose take on the classic full Irish breakfast (shown opposite) I
+       can whole heartedly recommend. </p> </cell>
+     </row>
+    </table>
+   <list> <label>July 10th</label>
+    <item> <figure>
+       <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/belinda.png"
+        width="400px"/><head>Our upstairs neighbours organized a splendid joint birthday barbecue, for which Belinda
+         played appropriate tunes on her fiddle. Sarah and Belinda then whisked us away to the dirty
+         bird and a birthday dinner at Cote. </head>
+      </figure>
+     </item>
+    <label>27-30 July</label>
+    <item>
+     <table><row><cell><graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/picnic.png" width="400px"/></cell>
+      <cell>Coco and Daphne came to stay for a few days, during which there was a grand birthday
+       picnic in our back garden, and also an expedition to St Andrew's Park for splashing purposes.</cell><cell><graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/standrews.png" width="300px"/></cell></row></table></item>
+
+    <label>21-22 Oct</label>
+    <item>We were back in Maryland, baby-sitting again the weekend before the big family outing. </item>
+    </list>
+    <table>
+     <row>
+      <cell>
+       <p>Salthill has really only one street along which are scattered numerous holiday
+       accommodations, pubs, and restaurants. It more or less follows the leisurely curve of Galway
+       Bay, along which may be found a couple of beaches, a casino, a fun fair, an antique diving
+       platform from which foolish youths can precipitate themselves into Galway Bay, and a stone
+       monument commemorating those who tried to escape <ref
+       target="https://en.wikipedia.org/wiki/Great_Famine_(Ireland)">the Great Hunger</ref> by
+       emigrating to the New World. </p>
+       <p>The monument is one of many across Ireland recalling one of the more shameful consequences
+       of British rule in Ireland. It also serves to recall the plight of other people reduced to
+       the desperation of nautical emigration: and to remind us that there is always someone ready
+       to profit from that desperation. </p></cell>
+      <cell><figure>
+       <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/coffinShip.png"
+        width="240px"/>
+       <head>See comments from today's <ref
+        target="https://www.advertiser.ie/galway/article/40780/the-great-famine-in-galway">Galway
+        Advertiser</ref></head>
+       </figure></cell>
+     </row>
+    </table>
+    <p>There is also of course a lengthy promenade for walking along, first in one direction, and
+     then in the other, to take in the view and enjoy the sunshine, when there is any. Which there
+     was for much of the weekend. Sunday was Mothers Day, or as it seems to be called here "Mammy's
+     Day" so there were lots of mothers being taken out for an airing and the decent restaurants
+     were all full. </p>
+    <table>
+     <row>
+      <cell>
+       <p>My academic host Justin Tonra, like every other academic I have ever known, has a very
+       busy timetable, but fits in time to listen to me drone on about Thomas Hailes Lacy, arranges
+       a zoom meeting with the elusive Kate Mattacks, formerly research student with the original
+       VPP project, and even buys me a pint at the end of the week. </p></cell>
+      <cell><figure>
+       <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/justinPint.png"
+        width="350px"/>
+       </figure></cell>
+     </row>
+    </table>
+    <p> For further details of the academic side of this visit, see <ref
+     target="https://lb42.github.io/Lacy/2022-07-TNA_Activity_Report.pdf">the official report
+     submitted to the funding body</ref>: the rest of this report focusses almost exclusively on the
+     trivia of my day to day existence. Being a free floating research student in a far off land is
+     a novel experience, after all. I had to find reliable venues for dinner, lunch, and morning
+     coffee, find the optimal routes between my accommodation and the campus, and yes why not
+     explore the famed West End of Galway as well as neighbouring tourist attractions so long as I'm
+     here. </p>
+   </div>
+  </body>
+ </text>
+</TEI>
