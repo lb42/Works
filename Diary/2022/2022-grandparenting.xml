@@ -37,7 +37,7 @@
     <head>Taken on 15 May, here are Louis, born June 2011, and Harvey, born Aug 2016, and their dad.
      They are probably shooting something. </head>
    </figure>
-   <table>
+  <!-- <table>
     <row>
      <cell> <figure>
       <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/leon.png"
@@ -60,7 +60,25 @@
      <cell role="label"> <hi>Also taken on 11 March, here is Daphne, born Aug 2016 , and the pizza
       she made. </hi></cell>
     </row>
-   </table>
+   </table>-->
+   
+   <figure>
+    <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/leon.png"
+     width="400px"/>
+    <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/coco.png"
+     width="300px"/>
+    <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/daphne.png"
+     width="390px"/>
+    <head> <table><row role="label">
+     <cell>Taken on 24 April after his birthday party, here is Leon, born 2019 with his mum.
+      Definitely time for bed. </cell>
+     <cell> <hi>Taken on 11 March, here is Coco, born July 2020 and her mum, just looking cute.
+     </hi></cell>
+     <cell role="label"> <hi>Also taken on 11 March, here is Daphne, born Aug 2016 , and the pizza
+      she made. </hi></cell>
+    </row>
+    </table></head>
+   </figure>
    <p>My three daughters and their respective families are quite seriously geographically dispersed,
     which means that we have become correspondingly expert in the available public transport routes
     to Nottingham, Maryland (E15), and Stourton (near Shipston on Stour), respectively. Also cheap
@@ -104,7 +122,7 @@
      picnic in our back garden, and also an expedition to St Andrew's Park for splashing purposes. 
      <figure>
      <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/picnic.png"
-      width="500px"/>
+      width="600px"/>
      <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/standrews.png"
       width="450px"/>
      </figure></item>
