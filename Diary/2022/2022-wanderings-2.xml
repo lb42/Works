@@ -6,7 +6,7 @@
     <title>Galway Bloggage - 2</title>
    </titleStmt>
    <publicationStmt>
-    <p>Published at <ref>http://lb42.github.io/Diary</ref></p>
+    <p>Published at <ptr target="http://lb42.github.io/Diary"/> using CETEICEAN</p>
    </publicationStmt>
    <sourceDesc>
     <p>AMOW</p>
@@ -193,8 +193,9 @@
      target="https://raw.githubusercontent.com/lb42/Works/master/Papers/2022-GalwayReport.pdf"
      >here</ref>). That status (and an intro from Justin Tonra) gave me the opportunity to engage in
      a pleasant and instructive discussion with Professor David OShaughnessy before leaving. And I
-     also enjoyed what I believe is known as the craik in one of the many Galway pubs offering
+     also enjoyed what I believe is known as the craic in one of the many Galway pubs offering
      musical evening entertainment.</p>
+    <figure><graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/craic.png"/><head>It's a serious business</head></figure>
     <p>And so to my revised journey home, which involved nothing more complicated than a long
      distance bus from Galway to Shannon,  a lengthy wait there, an uneventful flight to Heathrow
      (the best kind), and a tedious two hour bus ride from there to Bristol. I was so pleased to get
