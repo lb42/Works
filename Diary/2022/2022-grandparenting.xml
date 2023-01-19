@@ -3,10 +3,10 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title>Grandparenting</title>
+    <title>Grand parenting</title>
    </titleStmt>
    <publicationStmt>
-    <p>Published at <ref>http://lb42.github.io/Diary</ref></p>
+    <p>Published  at <ptr target="http://lb42.github.io/Diary"/> using CETEICEAN</p>
    </publicationStmt>
    <sourceDesc>
     <p>AMOW</p>
