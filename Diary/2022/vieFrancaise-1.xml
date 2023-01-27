@@ -136,7 +136,10 @@
     resemblance to one I left in Stratford East London several weeks ago. Yes, Mr Westfield has
     moved in on the languishing commercial properties which partially conceal the tower of the Lyon
     Library. Bizarre. </p>
-   <figure><graphic url="westfield.png" width="500px"/><head>Westfield sur saone</head></figure>
+   <figure>
+    <graphic url="westfield.png" width="500px"/>
+    <head>Westfield sur saone</head>
+   </figure>
    <p>This week I will be staying in an "apart'hotel" strategically placed midway between the
     training school's two sites (the MSH in rue Berthelot and the ENS campus behind Ave Jean
     Jaures), in the middle of a district of Lyon which has been transitioning from industrial to
@@ -149,13 +152,15 @@
     little back streets and squares to be relished. I have been coming here on and off for years,
     and I rather like the way it works. </p>
    <figure>
-    <graphic url="graffiti.png" width="500px"/>
+    <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/graffiti.png"
+     width="500px"/>
     <head>The graffiti are also remarkable</head>
    </figure>
    <p>There are a couple of rather posh pizza joints behind the block containing my hotel, but by
     now it is too late for lunch, and too early for dinner, so they are both shut, and I am forced
     to sit around waiting for refreshment. <figure>
-    <graphic url="stoutpizza.png" width="500px"/>
+    <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/stoutpizza.png"
+     width="500px"/>
     <head> It was worth waiting for though.</head>
     </figure></p>
    <p>The next week sees me commuting either north or south from my apart'hotel, getting to know
@@ -164,11 +169,16 @@
     with true lyonnaise hospitality, so the snacks are strictly superfluous and it's too hot to eat
     much anyway. The teaching room at the MSH was on the top floor (I recognised it from 2010) with
     somewhat spasmodic air conditioning, but we all survived, and it was a pleasure to work with
-    Alexey, Maud, Benedicte, Serge and company again. <figure>
-    <graphic url="alexeyetal.png"/>
+    Alexey, Maud, Benedicte, Serge and company again. <!--<figure>
+     <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/alexeyetal.png"/>
     <head>Alexey, Maud, and Benedicte sorting out a participant</head>
-    </figure> </p>
-  
+    </figure> -->My role was to provide a gentle introduction to Xpath and XSLT which could
+    function as a gateway drug for the sessions on txm, XQuery, and BaseX as applied to TEI
+    documents. Also, I am still hoping to learn how to do something useful with BaseX, which seemed
+    a good excuse to stick around for the whole week. But then the skies opened and it poured with
+    rain so I started <ref target="https://lb42.github.io/Diary/2022-06-25-blog.html">returning
+    (with difficulty) to Bristol</ref>. </p>
+
    <p> <ref target="http://lb42.github.io/Diary/2022-summary.html">[Back to Summary]</ref> </p>
   </body>
  </text>
