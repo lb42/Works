@@ -3,7 +3,7 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title>La vie creusoise</title>
+    <title>La vie francaise - 1</title>
    </titleStmt>
    <publicationStmt>
     <p>Published at <ptr target="http://lb42.github.io/Diary"/></p>
@@ -28,7 +28,7 @@
     anyway, so I might as well stay on for a while. In 2022, this wheeze worked three times, twice
     because I was invited to help teach TEI Workshops at the CESR in Tours ("Advanced" in May,
     "Beginners" in November), and once in June because I was invited to teach all about ODDs at an
-    encoding summer school organized by the ENS de Lyon. There is of course a non-neglible
+    encoding summer school organized by researchers in Lyon. There is of course a non-neglible
     opportunity cost attached to such invitations: I have to wrestle with the CNRS or other
     administration to actually get my reimbursement, but I am getting wily in the ways of e.g. a
     horrendous piece of software called "Chorus Pro", and the money always turns up eventually. </p>
@@ -42,18 +42,18 @@
    <p>For example, my first expedition to La Vergne this year involved the following steps: <list
     rend="numbered">
     <item>GWR train Bristol to London Paddington; tube to St Pancras; Eurostar from St Pancras to
-     Paris Nord (dep 1331, arr 1647) </item>
-    <item>Metro to Paris Montparnasse; Montparnasse to Tours (dep 1756, arr. 1915)</item>
+     Paris Nord </item>
+    <item>Metro to Paris Montparnasse; Montparnasse to Tours </item>
     <item>Check in at Le Grand Hotel, my favourite, conveniently located a few minutes stroll from
      La Chope, where tradition requires that an initial dinner with my teaching colleagues be held. </item>
     <item>Work for a few days, and then get a couple of slow trains from Tours to Limoges (via
-     Poitiers, rather than Paris, for a change)</item>
-    <item>An evening in Limoges, staying at the cheap Ibis hotel near the station, imposes itself,
+     Poitiers rather than Paris, for a change)</item>
+    <item>An evening in Limoges, staying at the cheap Ibis hotel near the station imposes itself,
      since there is no useful train to Gueret until next morning (there is one, but then I would
      have to spend the evening in Gueret)</item>
     <item>Take the 0910 from Limoges, which potters pleasantly across the departement, stopping here
      and there, and arriving at 1010. Which gives me time to do a little shopping before catching
-     the (previously reserved) TAD to La Vergne. </item>
+     the (previously reserved) midday TAD to La Vergne. </item>
     </list></p>
    <p>For the next eight days, I pottered around in splendid rural isolation. On Saturday I took the
     TAD to Gueret market, where I stocked up on fresh meat and veg, and also bought some tomato
@@ -89,7 +89,7 @@
     objectives: I did actually get to the concert before it finished, and I did bring Lilette back
     safe to France. (I even made a series of whatsapp videos recording my progress, yet to be
     edited) The outward leg , on 14 May, went perfectly (TAD to Gueret, train to Limoges, taxi to
-    the Limoges Airport, flight to EMA) but although I arrrived at EMA in good time for the fast bus
+    the Limoges Airport, flight to EMA) but although I arrived at EMA in good time for the fast bus
     into Nottingham, this simply did not materialize, so I had to take the slow one. But I did
     arrive in Hucknell in time to hear the encored version of the Star Wars March. The return leg,
     three days later, also went very smoothly until I got into an argument with a glass door at
@@ -100,13 +100,13 @@
     and so on. This year, the lake has gained a flock of wild ducks, complete with stern notices
     advising us neither to eat nor to feed them, whose melodious singing greets the dusk every day
     (and probably the dawn too, but I am asleep then). With considerable help from Lucy and John, we
-    tamed a bit of the back garden by weeding a bit and trimming some hedges. I spent far too much
-    time working out how to make the recycled laser printer I bought last year work, and just about
-    enough getting ready for my next teaching gig: the first instalment of something called an <ref
-    target="https://ethap.sciencesconf.org/">Ecole Thematique Analyser et Publier des corpus encodes
-    en XML</ref>, to be held in June in Lyon. I tracked down an emergency dentist in Gueret, who
-    took X-rays of my wobbly implant but confirmed my suspicion that this would necessitate another
-    trip to Oxford (which it did). </p>
+    tamed a bit of the back garden by weeding a bit and trimming some hedges. I tracked down an
+    emergency dentist in Gueret, who took X-rays of my wobbly implant but confirmed my suspicion
+    that this would necessitate another trip to Oxford (which it did). I spent far too much time
+    working out how to make the recycled laser printer I bought last year work, and just about
+    enough getting ready for my next teaching gig: the first instalment of something called <ref
+    target="https://ethap.sciencesconf.org/">Ecole Thematique : Analyser et Publier des corpus
+    encodes en XML</ref>, to be held in June in Lyon. </p>
    <p>Making haste very slowly, we packed the house up, and took the TAD to Gueret on the morning of
     17 June. They were setting up (or taking down) the funfair, so place Bonnyaud was littered with
     plastic elephants in cages rather than spring flowers and tomato plants. And eventually we took
@@ -123,14 +123,52 @@
    <p>In Tournus, I enjoy the luxury of the Terminus Hotel Restaurant, which offers fresh fried fish
     allegedly caught by the patron this morning, and a decent enough chablis to wash it down, as
     well as a very comfortable night's sleep. Next morning, I dutifully stroll down the main drag of
-    Tournus, which takes me past numerous shops to a large cobblestone square, in
-    which lurks the celebrated Abbaye de Saint Philibert, renowned for its mediaeval
-    mosaics. Around it there are, as expected, a lot of nice old buildings, and also a lot of restaurants and
-    bars and hotels for the benefit of those wishing to inspect same. I make my way through some
-    windy mediaeval streets to the banks of the river Saone, a bridge across which we must presume
-    gave Tournus its primary raison d'etre, and reflect that it is really getting a touch warm for
-    an elderly fat tourist like myself to engage in extensive perambulation before heading back to
-    the station and the next train to Lyon. </p>
+    Tournus, which takes me past numerous shops to a large cobblestone square, in which lurks the
+    celebrated Abbaye de Saint Philibert, renowned for its mediaeval mosaics. Around it there are,
+    as expected, a lot of nice old buildings, and also a lot of restaurants and bars and hotels for
+    the benefit of those wishing to inspect same. I make my way through some windy mediaeval streets
+    to the banks of the river Saone, a bridge across which we must presume gave Tournus its primary
+    raison d'etre, and reflect that it is really getting a touch warm for an elderly fat tourist
+    like myself to engage in extensive perambulation before heading back to the station and the next
+    train to Lyon. </p>
+   <p>I emerge from the bedlam of Lyon Part Dieu into the unforgiving afternoon sun around 3 p.m. to
+    discover that the station forecourt is no longer what it was, and now bears an uncanny
+    resemblance to one I left in Stratford East London several weeks ago. Yes, Mr Westfield has
+    moved in on the languishing commercial properties which partially conceal the tower of the Lyon
+    Library. Bizarre. </p>
+   <figure><graphic url="westfield.png" width="500px"/><head>Westfield sur saone</head></figure>
+   <p>This week I will be staying in an "apart'hotel" strategically placed midway between the
+    training school's two sites (the MSH in rue Berthelot and the ENS campus behind Ave Jean
+    Jaures), in the middle of a district of Lyon which has been transitioning from industrial to
+    urban for the last couple of decades, again a bit like Stratford. Former factories are
+    re-imagined as up-market drinking halls, or knocked flat, providing space for less lovely high
+    rise developments, providing accommodation, for students, and for hopeful new enterprises as
+    well as the predictably faceless office blocks. The street layout remains unchanged of course,
+    so there are several long straight lines along which the traffic and the wind are equally
+    unrelenting, but at least the high rises provide some shade, and there are still occasional
+    little back streets and squares to be relished. I have been coming here on and off for years,
+    and I rather like the way it works. </p>
+   <figure>
+    <graphic url="graffiti.png" width="500px"/>
+    <head>The graffiti are also remarkable</head>
+   </figure>
+   <p>There are a couple of rather posh pizza joints behind the block containing my hotel, but by
+    now it is too late for lunch, and too early for dinner, so they are both shut, and I am forced
+    to sit around waiting for refreshment. <figure>
+    <graphic url="stoutpizza.png" width="500px"/>
+    <head> It was worth waiting for though.</head>
+    </figure></p>
+   <p>The next week sees me commuting either north or south from my apart'hotel, getting to know
+    which side of the street is going to be shady, and where it's worth stopping for a coffee, or to
+    replenish my small larder of snacks. A light lunch and a fine dinner are, of course, provided
+    with true lyonnaise hospitality, so the snacks are strictly superfluous and it's too hot to eat
+    much anyway. The teaching room at the MSH was on the top floor (I recognised it from 2010) with
+    somewhat spasmodic air conditioning, but we all survived, and it was a pleasure to work with
+    Alexey, Maud, Benedicte, Serge and company again. <figure>
+    <graphic url="alexeyetal.png"/>
+    <head>Alexey, Maud, and Benedicte sorting out a participant</head>
+    </figure> </p>
+  
    <p> <ref target="http://lb42.github.io/Diary/2022-summary.html">[Back to Summary]</ref> </p>
   </body>
  </text>
