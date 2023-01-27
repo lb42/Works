@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>La vie francaise - 2</title>
+   </titleStmt>
+   <publicationStmt>
+    <p>Published at <ptr target="http://lb42.github.io/Diary"/></p>
+   </publicationStmt>
+   <sourceDesc>
+    <p>AMOW</p>
+   </sourceDesc>
+  </fileDesc>
+  <revisionDesc>
+   <change when="2023-01-27">First draft started</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <p>Every now and then, someone asks me to explain what we get up to when we disappear to our
+    house in France, usually with an overtone of puzzlement, if not downright bewilderment. What's
+    the attraction of a somewhat battered house with no central heating in the middle of nowhere,
+    hard to get to or from by public transport, and with nothing much to do in the immediate
+    vicinity? It seems a good pretext to review what we actually did do there during 2022, as
+    typical a year as any. </p>
+
+   <p>In August there's no need for explanation. Everyone, but everyone, heads for the countryside
+    in August. And the people who live in the country? They head to the seaside, of course. <ref
+    target="https://medium.com/@louBurnard/in-which-we-go-to-the-seaside-or-what-i-did-in-my-holidays-cf530bc0605a"
+    >We did that</ref> a few years ago, but this year we were very happy to just stay put in La
+    Vergne. The weather was kind to us, and there were important amusements to attend. </p>
+
+   <p> <ref target="http://lb42.github.io/Diary/2022-summary.html">[Back to Summary]</ref> </p>
+  </body>
+ </text>
+</TEI>

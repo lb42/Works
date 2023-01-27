@@ -3,7 +3,7 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title>La vie francaise - 1</title>
+    <title>La vie française - 1</title>
    </titleStmt>
    <publicationStmt>
     <p>Published at <ptr target="http://lb42.github.io/Diary"/></p>
@@ -13,7 +13,7 @@
    </sourceDesc>
   </fileDesc>
   <revisionDesc>
-   <change when="2023-01-19">First draft started</change>
+   <change when="2023-01-27">First draft started</change>
   </revisionDesc>
  </teiHeader>
  <text>
@@ -178,7 +178,9 @@
     a good excuse to stick around for the whole week. But then the skies opened and it poured with
     rain so I started <ref target="https://lb42.github.io/Diary/2022-06-25-blog.html">returning
     (with difficulty) to Bristol</ref>. </p>
-
+   
+   <p> <ref target="http://lb42.github.io/Diary/vieFrancaise-2.html">[On to La vie française 2 ]</ref> </p>
+   
    <p> <ref target="http://lb42.github.io/Diary/2022-summary.html">[Back to Summary]</ref> </p>
   </body>
  </text>
