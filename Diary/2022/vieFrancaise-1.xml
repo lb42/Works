@@ -27,11 +27,12 @@
    <p>My usual excuse for slipping away to La Vergne is that someone has paid me to go to France
     anyway, so I might as well stay on for a while. In 2022, this wheeze worked three times, twice
     because I was invited to help teach TEI Workshops at the CESR in Tours ("Advanced" in May,
-    "Beginners" in November), and once in June because I was invited to teach all about ODDs at an
-    encoding summer school organized by researchers in Lyon. There is of course a non-neglible
-    opportunity cost attached to such invitations: I have to wrestle with the CNRS or other
-    administration to actually get my reimbursement, but I am getting wily in the ways of e.g. a
-    horrendous piece of software called "Chorus Pro", and the money always turns up eventually. </p>
+    "Beginners" in November), and once in June because I was invited to teach at an encoding summer
+    school organized by researchers in Lyon. There is of course a non-neglible opportunity cost
+    attached to such invitations: at Tours, for example, I have to wrestle with the CNRS
+    administration (more precisely, a horrendous piece of software called "Chorus Pro") to actually
+    get my reimbursement. By now though I am getting quite wily in its ways and the money always
+    turns up eventually. </p>
    <p>As regards getting there, I think I now know as much as anyone about how to travel by train
     between London, Tours, Paris, and La Vergne. As with Amazon logistics, the tricky part is in the
     "last mile", but this year we persuaded someone else to take on the (paid) role of providing a
@@ -61,8 +62,14 @@
     cleaned the house a bit. I ate well. I used up my stock of firewood in the evenings when
     necessary and watched French telly. I went for a walk round the lake a couple of times and said
     hello to the neighbours. </p>
-   <p>I am very fond of tomatoes, especially freshly picked. The climate and the soil in my potager
-    seems to suit them very well, which is fortunate since I am a fair-weather gardener at best.</p>
+   <figure>
+    <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/daffodils.png"
+     width="400px"/>
+    <head>I think these are <hi>jonquilles sauvages</hi></head>
+   </figure>
+   <p>My major spring time endeavour was to get the tomatoes planted out. I am also very fond of
+    tomatoes, especially freshly picked. The climate and the soil in my potager seems to suit them
+    very well, which is fortunate since I am a fair-weather gardener at best.</p>
    <figure>
     <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/tomatoes-1.png"
      width="300px"/>
@@ -96,17 +103,17 @@
     Limoges airport, knocking one of my teeth out of shape. You can see why a chap might prefer to
     stay peacefully in France. </p>
    <p>There ensued four weeks of peace and quiet for both of us. An occasional spot of gardening,
-    quite a lot of eating, regular strolls round the lake, occasional sorties to Gueret or Bussiere,
+    quite a lot of eating, regular strolls round the lake, occasional sorties to Guéret or Bussière,
     and so on. This year, the lake has gained a flock of wild ducks, complete with stern notices
     advising us neither to eat nor to feed them, whose melodious singing greets the dusk every day
     (and probably the dawn too, but I am asleep then). With considerable help from Lucy and John, we
     tamed a bit of the back garden by weeding a bit and trimming some hedges. I tracked down an
-    emergency dentist in Gueret, who took X-rays of my wobbly implant but confirmed my suspicion
+    emergency dentist in Gueret, who took X-rays of my wobbly implant and confirmed my suspicion
     that this would necessitate another trip to Oxford (which it did). I spent far too much time
     working out how to make the recycled laser printer I bought last year work, and just about
     enough getting ready for my next teaching gig: the first instalment of something called <ref
-    target="https://ethap.sciencesconf.org/">Ecole Thematique : Analyser et Publier des corpus
-    encodes en XML</ref>, to be held in June in Lyon. </p>
+     target="https://ethap.sciencesconf.org/">Ecole Thématique : Analyser et Publier des corpus
+    encodés en XML</ref>, to be held in June in Lyon. </p>
    <p>Making haste very slowly, we packed the house up, and took the TAD to Gueret on the morning of
     17 June. They were setting up (or taking down) the funfair, so place Bonnyaud was littered with
     plastic elephants in cages rather than spring flowers and tomato plants. And eventually we took
@@ -127,9 +134,9 @@
     celebrated Abbaye de Saint Philibert, renowned for its mediaeval mosaics. Around it there are,
     as expected, a lot of nice old buildings, and also a lot of restaurants and bars and hotels for
     the benefit of those wishing to inspect same. I make my way through some windy mediaeval streets
-    to the banks of the river Saone, a bridge across which we must presume gave Tournus its primary
-    raison d'etre, and reflect that it is really getting a touch warm for an elderly fat tourist
-    like myself to engage in extensive perambulation before heading back to the station and the next
+    to the banks of the river Saone, a bridge across which presumably gave Tournus its primary
+    raison d'etre, and reflect that it is really getting a touch warm for a fat elderly tourist like
+    myself to engage in extensive perambulation before heading back to the station and the next
     train to Lyon. </p>
    <p>I emerge from the bedlam of Lyon Part Dieu into the unforgiving afternoon sun around 3 p.m. to
     discover that the station forecourt is no longer what it was, and now bears an uncanny
@@ -137,7 +144,8 @@
     moved in on the languishing commercial properties which partially conceal the tower of the Lyon
     Library. Bizarre. </p>
    <figure>
-    <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/westfield.png" width="600px"/>
+    <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/westfield.png"
+     width="600px"/>
     <head>Westfield sur saone</head>
    </figure>
    <p>This week I will be staying in an "apart'hotel" strategically placed midway between the
@@ -178,9 +186,10 @@
     a good excuse to stick around for the whole week. But then the skies opened and it poured with
     rain so I started <ref target="https://lb42.github.io/Diary/2022-06-25-blog.html">returning
     (with difficulty) to Bristol</ref>. </p>
-   
-   <p> <ref target="http://lb42.github.io/Diary/vieFrancaise-2.html">[On to La vie française 2 ]</ref> </p>
-   
+
+   <p> <ref target="http://lb42.github.io/Diary/vieFrancaise-2.html">[On to La vie française 2
+    ]</ref> </p>
+
    <p> <ref target="http://lb42.github.io/Diary/2022-summary.html">[Back to Summary]</ref> </p>
   </body>
  </text>
