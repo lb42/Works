@@ -74,19 +74,15 @@
     target="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/laMontagne.png">a good
     write up</ref>, and here are a few photos in any case. </p>
    <figure>
-    <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/tractor.png"
-     width="250px"/>
+    <!--<graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/tractor.png"
+     width="350px"/>-->
     <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/dancingGirls.png"
-     width="400px"/>
+     width="600px"/>   <head>Gamines throwing shapes</head>
+   </figure><figure>
     <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/banda.png"
-     width="350px"/>
-   <table>
-     <row>
-      <cell role="label">Floral tractor (both real)</cell>
-      <cell>Gamines throwing shapes</cell>
-      <cell>L'entente musicale</cell>
-     </row>
-     </table>
+     width="600px"/>
+    
+       <head>L'entente musicale</head>
    </figure>
 
    <p>At the end of our stay we finally found a suitable weekend to go out for lunch with Evelyne
@@ -100,11 +96,15 @@
     here</ref> </p>
    <figure>
     <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/walnuts.png"
-     width="250px"/>
+     width="350px"/>
     <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/raspberry.png"
-     width="400px"/>
-    </figure><p>September time in previous years has been marked by masses of walnuts, but this year the harvest was frankly pathetic. Not enough rain or rain at the wrong time or just the cussedness of things, I dunno. The last raspberry of the season was also unimpressive, but there my expectations were much lower. Clearly a systematic pruning of everything is needed. 
-     </p>
+     width="350px"/>
+
+   </figure>
+   <p>September time in previous years has been marked by masses of walnuts, but this year the
+    harvest was frankly pathetic. Not enough rain or rain at the wrong time or just the cussedness
+    of things, I dunno. The last raspberry of the season was also unimpressive, but there my
+    expectations were much lower. Clearly a systematic pruning of everything is needed. </p>
    <p> <ref target="http://lb42.github.io/Diary/2022-summary.html">[Back to Summary]</ref> </p>
   </body>
  </text>
