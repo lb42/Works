@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>La vie française - 3</title>
+   </titleStmt>
+   <publicationStmt>
+    <p>Published at <ptr target="http://lb42.github.io/Diary"/></p>
+   </publicationStmt>
+   <sourceDesc>
+    <p>AMOW</p>
+   </sourceDesc>
+  </fileDesc>
+  <revisionDesc>
+   <change when="2023-02-01">First draft started</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <p>As aforesaid, there's no easy way of getting to La Vergne by train without an overnight stay
+    somewhere. For my third and last escape to France this year, I took the simplest route <list>
+    <item>Oxford to London; London to Paris, arriving 2217 pm on 8 Nov</item>
+    <item>Stay at one of the two or three anonymous hotels opposite the Gare d'Austerlitz (which is
+     <hi>still</hi> being renovated) </item>
+    <item>Get up in time for the 0930 train to La Souterraine</item>
+    <item>Lucy picked me up and took me home via Lidl</item>
+    </list></p>
+   <p>16 nov 1406 dep La Souterraine -Vierzon - Tours; stay at flat near station</p>
+   <p>21 nov 1229: Tours - Le Mans - Chartres; stay at le Jardin Cathedrale</p>
+   <p>22 nov 1229: Chartres- Montparnasse; stay at Adagio aparthotel; Nanterre PASP</p>
+   <p>24 Nov 1213 Eurostar Paris-Londres</p>
+
+   <p> <ref target="http://lb42.github.io/Diary/2022-summary.html">[Back to Summary]</ref> </p>
+  </body>
+ </text>
+</TEI>

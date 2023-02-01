@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>21 Days in Mauritius</title>
+   </titleStmt>
+   <publicationStmt>
+    <p>Published at <ref>http://lb42.github.io/Diary/</ref> using CETEICEAN</p>
+   </publicationStmt>
+   <sourceDesc>
+    <p>AMOW</p>
+   </sourceDesc>
+  </fileDesc>
+  <revisionDesc>
+   <change when="2023-02-02">First draft started</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <p>This is not here, not yet anyway</p>
+  </body>
+ </text>
+</TEI>

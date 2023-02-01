@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Un grand succès pour la Saint Symphorien</title>
+   </titleStmt>
+   <publicationStmt>
+    <p>Published at <ptr target="http://lb42.github.io/Diary"/></p>
+   </publicationStmt>
+   <sourceDesc>
+    <p>Extracted from the online pages of La Montagne. Originally published on 2022-09-11, at <ptr target="https://www.lamontagne.fr/bussiere-dunoise-23320/loisirs/un-grand-succes-pour-la-saint-symphorien_14183333/"/></p>
+   </sourceDesc>
+  </fileDesc>
+  <revisionDesc>
+   <change when="2023-01-27">First draft started</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+<figure><graphic url="tractor.png" width="400px"/></figure>
+ <p><label>Bussière-Dunoise. La saint Symphorien a connu un grand succès.</label> La traditionnelle fête de saint
+  Symphorien (patron de la commune de Bussière-Dunoise), organisée par le comité des fêtes communal,
+  a déroulé ses trois jours de festivités. Le travail de toute l’année, pour les nombreux bénévoles
+  de cette association, a été cette année récompensé par la clémence de la météo, qui a permis le
+  passage du corso fleuri. </p>
+ <p> Tout a commencé le samedi par un concours de pétanque, sous la quiétude des tilleuls du champ
+  de foire suivi d’un repas à thème, sous chapiteau. Lorsque la fraîcheur s’est fait sentir, la
+  traditionnelle retraite aux flambeaux accompagnée par l’entente musicale de
+  Bussière-Dunoise\Bonnat a entraîné les plus courageux. </p>
+ <p> L’entente s’est d’ailleurs retrouvée dès les premières lueurs du matin pour un réveil en
+  musique le lendemain. Celle-ci a sillonné les rues de la bourgade et de quelques villages
+  environnants où les habitants les attendaient avec impatience. L’église communale, pour honorer le
+  saint patron à la messe dominicale, était bondée. </p>
+ <p> Tout s’est un peu calmé pour ravitailler les troupes et attendre la grande cavalcade de
+  l’après-midi. Celle-ci était très attendue : pas moins de cinq chars, délicieusement décorés et
+  parsemés d’enfants de la commune, aux intonations de l’union musicale de Saint- Amand-Montrond, de
+  la Banda des Deux rives de Bellerive-sur-Allier et de l’entente musicale Bussière-Dunoise -
+  Bonnat, a permis à l’assistance, de profiter de l’ambiance festive. Une halte du corso fleuri à
+  l’Ehpad Pierre-Guilbaud a permis aux plus âgés de profiter de la fête. </p>
+ <p> À 22 heures, le grand feu d’artifice précédé des chars illuminés a été tiré pour le plus grand
+  plaisir de tous. </p>
+ <p> Le lundi, dernier jour des festivités, un concours de manille, a terminé en beauté la Saint
+  Symphorien. </p>
+  </body></text></TEI>
