@@ -6,7 +6,7 @@
     <title>La vie française - 3</title>
    </titleStmt>
    <publicationStmt>
-    <p>Published at <ptr target="http://lb42.github.io/Diary"/></p>
+    <p>Published at <ptr target="http://lb42.github.io/Diary"/> using CETEICEAN</p>
    </publicationStmt>
    <sourceDesc>
     <p>AMOW</p>
@@ -18,19 +18,86 @@
  </teiHeader>
  <text>
   <body>
-   <p>As aforesaid, there's no easy way of getting to La Vergne by train without an overnight stay
-    somewhere. For my third and last escape to France this year, I took the simplest route <list>
-    <item>Oxford to London; London to Paris, arriving 2217 pm on 8 Nov</item>
-    <item>Stay at one of the two or three anonymous hotels opposite the Gare d'Austerlitz (which is
-     <hi>still</hi> being renovated) </item>
-    <item>Get up in time for the 0930 train to La Souterraine</item>
-    <item>Lucy picked me up and took me home via Lidl</item>
+   <figure>
+    <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/geese.png"
+     width="700px"/>
+    <head>Geese or cranes or something equally noisy flying in formation over La Vergne en route to
+     wherever it is these birds go for the winter</head>
+   </figure>
+   <p>As aforesaid, and whatever the season, there's no easy way of getting to La Vergne by train
+    without an overnight stay somewhere. For my third and last escape to France starting 8th
+    November this year, I took the simplest route, starting from Oxford not for old times sake but
+    on account of a dental appointment. Here's how it went: <list>
+    <item>Oxford to London; London to Paris, arriving 2217 pm</item>
+    <item>Overnight at the Orphee hotel (which is getting far too much of my money) opposite the
+     Gare d'Austerlitz (which is <hi>still</hi> being renovated) </item>
+    <item>Get up in time for the 0930 train to La Souterraine. </item>
+    <item>Get a ride home with Lucy via Lidl to get some provisions. </item>
     </list></p>
-   <p>16 nov 1406 dep La Souterraine -Vierzon - Tours; stay at flat near station</p>
-   <p>21 nov 1229: Tours - Le Mans - Chartres; stay at le Jardin Cathedrale</p>
-   <p>22 nov 1229: Chartres- Montparnasse; stay at Adagio aparthotel; Nanterre PASP</p>
-   <p>24 Nov 1213 Eurostar Paris-Londres</p>
-
+   <p>The weather was sunny, but quite chilly in the evening. Fortunately, Johan whatever his other
+    failings as a factotum did manage to source a stash of logs before my arrival, so I had toasty
+    warm evenings in front of the stove. I mostly spent the days gardening, shopping, eating, or
+    banging away on the computer, either preparing for next week's teaching, or following up on some
+    ELTeC business. Naturally, I also took the TAD to Gueret market at the weekend, from which I
+    managed to take this rather nice picture of one of the few public artworks in the commune. <figure>
+    <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/vedrines.png"
+     width="400px">
+     <head>This concrete stèle memorializing the forced landing here in 1911 of French flying ace
+      <ref target="https://www.airmemorialcreusois.fr/wp-content/uploads/2016/04/VEDRINES-_bio_.pdf"
+      >Jules Védrines</ref> is just visible from the road out of Bussière Dunoise. The man who made
+      it used to live in La Vergne. </head>
+    </graphic>
+    </figure></p>
+   <p>I was aided considerably in my gardening by Jon, as a result of whose efforts the overgrown
+    glycine and the ancient rose bushes in front of the house were severely abbreviated and the
+    larch interfering with the rhododendrons entirely removed. For my part, I talked very severely
+    to the overgrown white rose behind the house. We shall see the effects of all this next spring,
+    no doubt. </p>
+   <figure>
+    <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/whiterose.png"
+     width="500px"/><head>Can these dried twigs live?</head>
+   </figure>
+   <p>Before leaving I did manage to meet the new proprietor of the village shop, a charming lady
+    called Ocean, and compliment her on the modifications she is making. Then Lucy drove me back to
+    La Souterraine, where I caught the train to Vierzon, where I caught another train to Tours, as
+    usual. This time I have booked into a little self-catering flat rather than the Grand Hotel,
+    just for a change, but the TEI teaching takes place in the same familiar way, in the same
+    familiar place with the same colleagues, and the same pleasant lunches and dinners punctuating
+    three days of training sessions. </p>
+   
+   <p>As happens every year, I consider proposing major changes to
+    the organization of the course, and then realise it's just fine as it is. After which, I need a
+    little rest before proceeding to my next formal engagement. This takes the form of a day of
+    tourism, investigating some parts of Tours I have not yet visited: specifically the Jardin des
+    Prébendes d'Oé, where there is a nice park, and also several curious buildings), at the end of
+    which I take the train to Le Mans, and thence to Chartres. </p>
+   <p>It seems unnecessary to explain why one might want to visit the cathedral at Chartres. I have
+    done my internet research, so I know what I have to look out for, and by gum, there it is. I am
+    suitably impressed. They may have covered it over with chairs, but <ref
+    target="http://www.studiesincomparativereligion.com/public/articles/The_Mystery_of_the_Great_Labyrinth-Chartres_Cathedral-by_John_James.aspx"
+    >the great labyrinth</ref> is still there on the floor and I am glad to have seen it. As of
+    course I am to have gawped at the statues on the front door and the statues along the Choir
+    Screen and the lovely stained glass and even the tastefully yellowish walls which seem to have
+    caused some controversy. I did not descend to the crypt though, so I am unable to confirm or
+    deny the presence there of a black madonna who is actually white. </p>
+   <p>I spent an amusing morning in a coffee bar on the way to the station monitoring responses to
+    my tweet which invited people to guess the location of the photo of the cathedral I had just
+    tweeted, and then, caught the Ouigo to Paris. </p>
+   <p>In Paris, I am attending the annual meeting of the Labex "Passes dans le Present", on the
+    scientific committee of which I have the honour to serve. The meeting is all day tomorrow on the
+    Paris Nanterre campus, but for some reason they have booked me into yet another apart'hotel on
+    the edge of the Cite des Arts and Sciences at La Villette, i.e. on the other side of Paris. No
+    matter, the metro is not on strike, and the Parc de la Villette is a splendid place to walk
+    around in. I am particularly taken by the jewish supermarkets which are currently stuffed to the
+    gills with imported nonsense for Chanukah. </p>
+   <p>After the business part of the Labex meeting, we move to a larger seminar room for a public
+    mini conference, where everyone is invited to put on a mask. The masks provided are, however,
+    animal faces intended for children, which makes them a little small for most of the
+    participants, several of them therefore preferring to sport them as if they were fancy hats. I
+    am not sure who thought this would be a wizard wheeze. My chum Philippe who chaired the last
+    session looks rather imposing in his though. </p>
+   <p>And so finally, back to the Gare du Nord for my last Eurostar of the year back to London, back
+    to Bristol, and then... </p>
    <p> <ref target="http://lb42.github.io/Diary/2022-summary.html">[Back to Summary]</ref> </p>
   </body>
  </text>

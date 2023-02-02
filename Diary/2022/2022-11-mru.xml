@@ -6,7 +6,7 @@
     <title>21 Days in Mauritius</title>
    </titleStmt>
    <publicationStmt>
-    <p>Published at <ref>http://lb42.github.io/Diary/</ref> using CETEICEAN</p>
+    <p>Published at <ptr target="http://lb42.github.io/Diary"/> using CETEICEAN</p>
    </publicationStmt>
    <sourceDesc>
     <p>AMOW</p>
@@ -18,6 +18,10 @@
  </teiHeader>
  <text>
   <body>
+   <figure>
+    <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/mauritianMap.png"/>
+    <head>Mauritian end of my timeline</head>
+   </figure>
    <p>This is not here, not yet anyway</p>
   </body>
  </text>
