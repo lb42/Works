@@ -29,7 +29,7 @@
     November this year, I took the simplest route, starting from Oxford not for old times sake but
     on account of a dental appointment. Here's how it went: <list>
     <item>Oxford to London; London to Paris, arriving 2217 pm</item>
-    <item>Overnight at the Orphee hotel (which is getting far too much of my money) opposite the
+     <item>Overnight at the Orphée hotel (which is getting far too much of my money) opposite the
      Gare d'Austerlitz (which is <hi>still</hi> being renovated) </item>
     <item>Get up in time for the 0930 train to La Souterraine. </item>
     <item>Get a ride home with Lucy via Lidl to get some provisions. </item>
@@ -43,8 +43,8 @@
     <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/vedrines.png"
      width="400px">
      <head>This concrete stèle memorializing the forced landing here in 1911 of French flying ace
-      <ref target="https://www.airmemorialcreusois.fr/wp-content/uploads/2016/04/VEDRINES-_bio_.pdf"
-      >Jules Védrines</ref> is just visible from the road out of Bussière Dunoise. The man who made
+      <!--ref target="https://www.airmemorialcreusois.fr/wp-content/uploads/2016/04/VEDRINES-_bio_.pdf"
+      -->Jules Védrines<!--/ref--> is just visible from the road out of Bussière Dunoise. The man who made
       it used to live in La Vergne. </head>
     </graphic>
     </figure></p>
@@ -55,22 +55,32 @@
     no doubt. </p>
    <figure>
     <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/whiterose.png"
-     width="500px"/><head>Can these dried twigs live?</head>
+     width="500px"/>
+    <head>Can these dried twigs live?</head>
    </figure>
    <p>Before leaving I did manage to meet the new proprietor of the village shop, a charming lady
     called Ocean, and compliment her on the modifications she is making. Then Lucy drove me back to
     La Souterraine, where I caught the train to Vierzon, where I caught another train to Tours, as
-    usual. This time I have booked into a little self-catering flat rather than the Grand Hotel,
-    just for a change, but the TEI teaching takes place in the same familiar way, in the same
-    familiar place with the same colleagues, and the same pleasant lunches and dinners punctuating
-    three days of training sessions. </p>
-   
-   <p>As happens every year, I consider proposing major changes to
-    the organization of the course, and then realise it's just fine as it is. After which, I need a
-    little rest before proceeding to my next formal engagement. This takes the form of a day of
-    tourism, investigating some parts of Tours I have not yet visited: specifically the Jardin des
-    Prébendes d'Oé, where there is a nice park, and also several curious buildings), at the end of
-    which I take the train to Le Mans, and thence to Chartres. </p>
+    usual. It's time to initiate a new generation into using TEI for the encoding of <hi>le patrimoine
+    écrit</hi>. As happens every year, I consider proposing major changes to the organization of the
+    course, and then realise it's just fine as it is. This time I have booked into a little
+    self-catering flat rather than the Grand Hotel just for a change, but the TEI teaching takes
+    place in the same familiar way, in the same familiar place with the same colleagues, and the
+    same pleasant lunches and dinners punctuating three days of training sessions. </p>
+   <figure>
+    <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/students.png"
+     width="600px"/>
+    <head>Students hard at work</head>
+   </figure>
+   <p> After which, I need a little rest before proceeding to my next formal engagement. This takes
+    the form of a day of tourism, investigating some parts of Tours I have not yet visited:
+    specifically the Jardin des Prébendes d'Oé, where there is a nice park, and also several curious
+    buildings. The next day, still in tourist mode, I pack up my little flat, and take the train to Le Mans, and thence to this extraordinary building: 
+    <figure>
+     <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/cathedral.png"
+      width="600px"/>
+     <head>Recognise this, anyone?</head>
+    </figure></p>
    <p>It seems unnecessary to explain why one might want to visit the cathedral at Chartres. I have
     done my internet research, so I know what I have to look out for, and by gum, there it is. I am
     suitably impressed. They may have covered it over with chairs, but <ref
@@ -95,7 +105,13 @@
     animal faces intended for children, which makes them a little small for most of the
     participants, several of them therefore preferring to sport them as if they were fancy hats. I
     am not sure who thought this would be a wizard wheeze. My chum Philippe who chaired the last
-    session looks rather imposing in his though. </p>
+    session looks rather imposing in his though.
+    <figure>
+     <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/philippe.png"
+      width="600px"/>
+     <head>Compulsory masks at Nanterre University</head>
+    </figure></p>
+   
    <p>And so finally, back to the Gare du Nord for my last Eurostar of the year back to London, back
     to Bristol, and then... </p>
    <p> <ref target="http://lb42.github.io/Diary/2022-summary.html">[Back to Summary]</ref> </p>
