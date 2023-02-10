@@ -6,7 +6,7 @@
     <title>21 Days in Mauritius</title>
    </titleStmt>
    <publicationStmt>
-    <p>Published at <ptr target="http://lb42.github.io/Diary"/> using CETEICEAN</p>
+    <p>Published at <ptr target="http://lb42.github.io/Diary"/></p>
    </publicationStmt>
    <sourceDesc>
     <p>AMOW</p>
@@ -20,15 +20,16 @@
   <body>
    <figure>
     <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/mauritianMap.png"/>
-    <head>Mauritian end of my timeline</head>
+    <head>Mauritian end of my time line</head>
    </figure>
    <p>Those unfortunates unacquainted with the geography of Mauritius, an island in the Indian
     ocean, may find the above map helpful. We spent most of this trip in the bottom right hand
     corner, more specifically in the quiet old town of Mahébourg, named for Mahé de la Bourdonnais
-    (1699-1753), a product of the age of reason who liked towns to be laid out on a grid pattern,
-    and hardly at all in the top left hand corner, which is where the government and the tourist
-    hotels and beaches hang out. In the middle, and considerably further from sea level, is the
-    urban sprawl of Curepipe where Lilette's family lives, where it rains most of the time.
+    (1699-1753), a product of the age of reason who liked towns to be laid out on a grid pattern. We
+    did not on this occasion bother with the top left hand corner, which is where the government and
+    the tourist hotels and beaches hang out. In the middle, and considerably further from sea level,
+    is the urban sprawl of Curepipe where many Mauritians, including Lilette's family, live and
+    work, even though it rains most of the time.
     <!-- https://www.mauritiuslyyours.com/post/did-mark-twain-really-say-this-about-mauritius--></p>
    <p>On this visit, I kept a handwritten diary, from which I have polished up the following choice
     extracts. </p>
@@ -38,20 +39,26 @@
      then, to get up infeasibly early and catch a pre-ordered taxi, with enough spare time to get
      half way there and then go back to recover at least some of the essential items we’d forgotten
      to pack. And so to Bristol Bus and Coach Station, unrecognisable since the sixties when last I
-     frequented it. A pre-booked and very bored shuttle bus to Heathrow Airport through gloomy
+     frequented it. </p>
+    <figure>
+     <graphic url="suitcases.png" width="300px"/>
+     <head>Miss Suitcase 2022 arrives at Bristol Bus and Coach Station</head>
+    </figure>
+    <p>A pre-booked and very bored shuttle bus shuttles us to Heathrow Airport through the gloomy
      morning weather. Two hours along the motorway, enlivened only by eating a banana and reading
-     the LRB.</p>
-    <p>LHR recognisably much the same as when I used to do the transatlantic commute from here. From
-     the central bus station, now somewhat reduced in facilities, we collect trolleys and descend to
-     the bowels of what is now rebranded as the Elizabeth line. Tickets are free to T4 but
-     automation requires that you have one. The tunnels are brightly lit, but still too big and
-     vaguely threatening in the way that the approach to airport land should be. We trundle our
-     trolleys out of the lift, and yes, here it is: Airportland. Home of benign repetitious public
-     announcements and dreary repetitious music, populated by a different world of nationalities all
-     on their best behaviour, cowed into consumerist submission by a steady drizzle of shops filled
-     with things you can’t afford and don’t need, and of which you are in any case unworthy, as the
-     new underclass of serving staff populating them strongly suspects. Ever wondered what it must
-     have felt like to be Leonard Bast shopping up West? Never mind, it’s time for lunch. </p>
+     the LRB. Heathrow Airport is recognisably much the same as when I used to do the transatlantic
+     commute from here. From the central bus station, now somewhat reduced in facilities, we collect
+     trolleys and descend to the bowels of what is now re-branded as the Elizabeth line. Tickets to
+     Terminal 4 are free but automation requires that you have one. The tunnels are brightly lit,
+     but still too big and vaguely threatening in the way that the approach to Airportland should
+     be.</p>
+    <p> We trundle our trolleys out of the lift, and yes, here it is: Airportland. Home of benign
+     repetitious public announcements and dreary repetitious music, populated by a different world
+     of nationalities all on their best behaviour, cowed into consumerist submission by a steady
+     drizzle of shops filled with things you can’t afford and don’t need, and of which you are in
+     any case unworthy, as the new underclass of serving staff populating them strongly suspects.
+     Ever wondered what it must have felt like to be Leonard Bast shopping up West? Never mind, it’s
+     time for lunch. </p>
     <p>T4 is still basically a long corridor of unappealing boutiques once you have been processed
      through the security checks (on this occasion less awful than Eurostar, and much better than
      Stansted). We walk resolutely to Carluccio’s in the far corner where the muzak is almost
@@ -61,12 +68,12 @@
      discomfort of a day-long journey confined to cattle class, noting only that it could have been
      worse. Possibly. What do you expect for £780?</p>
     <p>The whole process of landing, de-planing, rediscovering luggage, being processed by
-     immigration, tracking down the taxi which is supposed to meet us, deciding what to do about it,
+     immigration, panicking at not immediately finding the taxi which is supposed to meet us, tracking him down by phone, 
      all takes an hour or more, but passes for the most part in some sort of daze. A big sigh of
      relief and a gradual relaxation as we realise that, yes, we have made it, and here is
-     Mahébourg, nestling in the unmistakeable lap of a sleeping lion. What’s more, it’s Monday and
+     Mahébourg, nestling unmistakeably in the lap of a sleeping lion. What’s more, it’s Monday and
      the sun is shining and … isn’t this the road to the market place ? Do I recognise this
-     restaurant from years ago? Is it too late to get a bol renversé? Apparently not. What did you
+     restaurant from years ago? Is it too late to get a <foreign>bol renversé</foreign>? Apparently not. What did you
      say the date was?</p>
    </div>
    <div type="div3">
@@ -78,7 +85,13 @@
      coming and going. There is fresh fruit salad, dreadful coffee, and delicious <hi>pain
      maison</hi> for breakfast, whenever we feel like having it. Supermarkets, the market, and the
      seaside promenade are within 5 minutes walk and the buses to Curepipe stop just round the
-     corner. Really all rather satisfactory. The first day passes in slow motion as we recover from
+     corner. Also just round the corner is a rather fine flamboyant as a landmark.  Really all rather satisfactory. 
+     <figure>
+      <graphic url="flamboyant.png" width="300px"/>
+      <head>Landmark flamboyant tree on the corner of La Chaux street</head>
+     </figure>
+     
+     The first day passes in slow motion as we recover from
      the journey, readjusting and rediscovering the tempo of Mauritian life, in which (I realise)
      hanging about waiting for something to happen is core to most experiences. The nearest
      supermarket has everything, including expensive French jam, and curious Indian convenience
@@ -194,7 +207,7 @@
      the road to Notre Dame des Anges, on this occasion packed with worshippers celebrating (I
      realised as they brought out the coffin) a funeral. The Church has an impressive yellow tower
      and allegedly dates from 1849; its stained glass is anodyne, but its roof is held up by some
-     impressive timbers and there is also a rather fine wooden statue of Pere Laval, the so-called
+     impressive timbers with carved angels on them and there is also a rather fine wooden statue of Pere Laval, the so-called
      Apostle of Mauritius. My walk proceeded up route Royale hopping from side to side to take
      advantage of the shade. despite traffic noise, as far as the Museum which is closed of course.
      Google maps indicates that there is a much quieter route home along a narrow residential
@@ -239,6 +252,11 @@
      was last here in 2007, and presumably still is, though the signage has disappeared and the
      verandah seems to have shrunk. But it still serves possibly the best <hi>bol renversé</hi> in
      Mahébourg, for a mere 150 rupees. </p>
+    <figure>
+     <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/bolrenverse.png"
+      width="800px"/>
+     <head>Arguably the best bol renversé in  Mahébourg</head>
+    </figure>
    </div>
    <div type="div3">
     <head>7 December</head>
@@ -259,6 +277,12 @@
      his type writer and his violin as well as his desk, and lots of remnants of his poetic career.
      It's a rather fine building too, made of coral and local stones, and seems to have been
      renovated since I last visited it. </p>
+    <figure>
+     <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/typeWriter.png"
+      width="800px"/>
+     <head>Robert Edward Hart's typewriter</head>
+    </figure>
+    
     <p>For our lunch stop we went to La Batelage at the port of Souillac. This used to be a very
      posh restaurant looking over an estuary which was once an important landing point for shipping
      from Port Louis. The 18th century warehouse with its fine 19th century fittings is still there,
@@ -365,6 +389,9 @@
      proceeding towards Rose Hill, following more or less the route of the old railway. The bus from
      Quatre Bornes to Flic en Flac, on the other hand, is much the same as it was back in 2006 when
      I last took it, i.e. bouncy and old skool, and in no particular hurry. </p>
+    <figure><graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/tram.png" width="40%"/>
+     <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/bus.png" width="40%"/>
+    <head>Boarding a tram (L)  vs boarding a bus (R)</head></figure>
     <p>Flic en Flac, when we get there, has not changed a great deal either. It still has a long
      beautiful beach, accessible to everyone, with white crunchy sands (maybe a little too much
      coral in it for barefoot walking though). It is still fringed with lots of filaotrees to sit
@@ -389,15 +416,16 @@
      plan for the day is family focussed. First we all pile into Alain's car and zoom back to the
      Curepipe marketplace to buy some flowers, then back to the house to pick up a metal implement
      and some cleaning materials. For today we are going to do some graveyard maintenance as well as
-     pay our respects at the x cemetery. Marie France's grave doesn't have a headstone as yet and
+     pay our respects at the Bigarade cemetery. Marie France's grave doesn't have a headstone as yet and
      Lilette's mum has no memorial as yet, but has been interred with her parents who do. Alain
      scrubs the inscription up to more or less legibility, and we plant flowers on both before
-     returning (eventually) to Roger's house for an enormous meal. There are gato pimen, delicious
-     bread, farata, rice, rougaille poisson and bredes, nice cakes, and a massive salad. More than
-     anyone can eat, even with the wine that Jef has provided. It takes a while to get everyone to
+     returning (eventually) to Roger's house for an enormous meal. </p>
+    <figure><graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/grave.png" width="40%"/></figure><p>There are <foreign>gato pimen</foreign>, delicious
+     bread, farata, rice, <foreign>rougaille poisson</foreign> and <foreign>bredes</foreign>, nice cakes, and a massive salad. More than
+     anyone can eat indeed, even with the wine that Jef has provided. It takes a while to get everyone to
      the table, but eventually the sadness that permeates the house does dissipate a little. </p>
     <p>As we are definitely too stuffed to move, Alain gives us a lift back to Curepipe bus station.
-     We just catch the bus that is about to leave, packed to the gunnels with commuters, but we are
+     We just catch a bus that is about to leave, packed to the gunnels with commuters, but we are
      getting quite used to that, and now expert in sharing a seat meant for three as the bus bounds
      and leaps like a wild animal down the motorway home. </p>
    </div>
@@ -411,7 +439,7 @@
    <div type="div3">
     <head>15 December</head>
     <p>Time for another taxi-hosted expedition, this time in an anti-clockwise direction. The
-     taximan this time is less experienced and doesn't entirely stick to the proposed route, so we
+     tax iman this time is less experienced and doesn't entirely stick to the proposed route, so we
      don't get to walk in the Bois des Amourettes. But we did see a debarcadere (landing stage) and
      some ancient cannon as well as taking exploratory strolls along several pleasant beaches along
      the North Eastern coast, facing Ile aux Cerfs. This last is now a major tourist venue, but the
@@ -458,9 +486,8 @@
      Chinese and quite tasty. Then we walk back to the centre of town to pick up pre-ordered cakes
      from the bakery, and some lychees from the market before catching the bus out to Forest Side
      once more. And at Rogers we wait, of course, for Roger who is out shopping, before eventually
-     lurching into birthday party mode when he returns. There is cake, there is wine, there is tea.
-     Roger has brought a birthday present for Nicole: a portable electric fan, with which she is
-     duly pleased. (Lilette has one too). Alain has brought a mountain of family photos for us all
+     progressing into birthday party mode when he returns. There is cake, there is wine, there is tea.
+     Roger has brought birthday presents for both his sisters: a portable electric fan each. Alain has brought a mountain of family photos for us all
      to look at, which is interesting: I take copies of some of them. The party mood is spoiled only
      at the last moment when I got my little finger caught in the car door as Nicole was closing it.
      No serious damage, except to Nicole's mood, as we all bounced along in the bus back home. </p>
@@ -473,7 +500,7 @@
      good when it did. Daube de cerf, too tough. A brief siesta ensued, and then I checked us in for
      our flights home. </p>
     <p>Down at the seafront the Hare Krishna party is reaching a climax, with the arrival of various
-     dignataries on board a boat pulled along by a couple of splendid fake swans. </p>
+     dignatories on board a boat pulled along by a couple of splendid fake swans. </p>
     <figure>
      <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/krishna.png"
       width="600px"/>
@@ -500,6 +527,11 @@
      (1824-1880), and by a hall full of photographs of modern political figures. And you can see
      Mahe de Labourdonnais' four poster bed, and a model of the Governor's personal railway
      carriage: the carriage itself is outside slowly decomposing in a shed behind the house. </p>
+    <figure>
+     <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/carriage.png"
+      width="600px"/>
+     <head>The Governor's Railway Carriage: in need of some TLC</head>
+    </figure>  
     <p>We then went in search of lunch, though with little success. The first place Mr Google
      suggested was shut, the second was too noisy and already full of busy lunchers; the third
      (Karay Mario) would have been perfect but had no space for us. So we took the bus back into
