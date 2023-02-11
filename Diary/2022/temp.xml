@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>21 Days in Mauritius</title>
+   </titleStmt>
+   <publicationStmt>
+    <p>Published at <ptr target="http://lb42.github.io/Diary"/></p>
+   </publicationStmt>
+   <sourceDesc>
+    <p>AMOW</p>
+   </sourceDesc>
+  </fileDesc>
+  <revisionDesc>
+   <change when="2023-02-02">First draft started</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <figure>
+    <graphic url="../media/mauritianMap.png"/>
+    <head>Mauritian end of my time line</head>
+   </figure>
+   <p>Those unfortunates unacquainted with the geography of Mauritius, an island in the Indian
+    ocean, may find the above map helpful. We spent most of this trip in the bottom right hand
+    corner, more specifically in the quiet old town of Mahébourg, named for Mahé de la Bourdonnais
+    (1699-1753), a product of the age of reason who liked towns to be laid out on a grid pattern. We
+    did not on this occasion bother with the top left hand corner, which is where the government and
+    the tourist hotels and beaches hang out. In the middle, and considerably further from sea level,
+    is the urban sprawl of Curepipe where many Mauritians, including Lilette's family, live and
+    work, even though it rains most of the time.
+    <!-- https://www.mauritiuslyyours.com/post/did-mark-twain-really-say-this-about-mauritius--></p>
+   <p>On this visit, I kept a handwritten diary, from which I have polished up the following choice
+    extracts. </p>
+   <div type="div3" rend="P11">
+    <head>27 November</head>
+    <p>This date, formerly known as Oblivion Monday, fell this year on a Sunday. An auspicious day,
+     then, to get up infeasibly early and catch a pre-ordered taxi, with enough spare time to get
+     half way there and then go back to recover at least some of the essential items we’d forgotten
+     to pack. And so to Bristol Bus and Coach Station, unrecognisable since the sixties when last I
+     frequented it. </p>
+    <figure>
+     <graphic url="../media/suitcases.png"
+      width="300px"/>
+     <head>Miss Suitcase 2022 arrives at Bristol Bus and Coach Station</head>
+    </figure>
+    <p>A pre-booked and very bored shuttle bus shuttles us to Heathrow Airport through the gloomy
+     morning weather. Two hours along the motorway, enlivened only by eating a banana and reading
+     the LRB. Heathrow Airport is recognisably much the same as when I used to do the transatlantic
+     commute from here. From the central bus station, now somewhat reduced in facilities, we collect
+     trolleys and descend to the bowels of what is now re-branded as the Elizabeth line. Tickets to
+     Terminal 4 are free but automation requires that you have one. The tunnels are brightly lit,
+     but still too big and vaguely threatening in the way that the approach to Airportland should
+     be.</p>
+    <p> We trundle our trolleys out of the lift, and yes, here it is: Airportland. Home of benign
+     repetitious public announcements and dreary repetitious music, populated by a different world
+     of nationalities all on their best behaviour, cowed into consumerist submission by a steady
+     drizzle of shops filled with things you can’t afford and don’t need, and of which you are in
+     any case unworthy, as the new underclass of serving staff populating them strongly suspects.
+     Ever wondered what it must have felt like to be Leonard Bast shopping up West? Never mind, it’s
+     time for lunch. </p>
+    <p>T4 is still basically a long corridor of unappealing boutiques once you have been processed
+     through the security checks (on this occasion less awful than Eurostar, and much better than
+     Stansted). We walk resolutely to Carluccio’s in the far corner where the muzak is almost
+     painfully loud, but the food is tolerable. And so, eventually, to boarding time, getting into
+     my airplane socks, and stowing myself away in my limited piece of personal space where I am to
+     be confined for the next eleven hours. Let us pass in silence over the dull food and duller
+     discomfort of a day-long journey confined to cattle class, noting only that it could have been
+     worse. Possibly. What do you expect for £780?</p>
+    <p>The whole process of landing, de-planing, rediscovering luggage, being processed by
+     immigration, panicking at not immediately finding the taxi which is supposed to meet us,
+     tracking him down by phone, all takes an hour or more, but passes for the most part in some
+     sort of daze. A big sigh of relief and a gradual relaxation as we realise that, yes, we have
+     made it, and here is Mahébourg, nestling unmistakeably in the lap of a sleeping lion. What’s
+     more, it’s Monday and the sun is shining and … isn’t this the road to the market place ? Do I
+     recognise this restaurant from years ago? Is it too late to get a <foreign>bol
+     renversé</foreign>? Apparently not. What did you say the date was?</p>
+   </div>
+   <div type="div3">
+    <head>28 November </head>
+    <p>We are staying at the Auberge le Saladier on rue de la Chaux, a charming b&amp;b I found on
+     le Booking. We have a large airy room on the ground floor, with comfortable bedding, functional
+     plumbing, and a rather noisy fan. Our hosts are charming, chatty, and very patient. There is an
+     outside terrace where we can sit and take breakfast in the fresh air, watching the other guests
+     coming and going. There is fresh fruit salad, dreadful coffee, and delicious <hi>pain
+     maison</hi> for breakfast, whenever we feel like having it. Supermarkets, the market, and the
+     seaside promenade are within 5 minutes walk and the buses to Curepipe stop just round the
+     corner. Also just round the corner is a rather fine flamboyant as a landmark. Really all rather
+     satisfactory. <figure>
+     <graphic url="../media/flamboyant.png"
+      width="300px"/>
+     <head>Landmark flamboyant tree on the corner of La Chaux street</head>
+     </figure> The first day passes in slow motion as we recover from the journey, readjusting and
+     rediscovering the tempo of Mauritian life, in which (I realise) hanging about waiting for
+     something to happen is core to most experiences. The nearest supermarket has everything,
+     including expensive French jam, and curious Indian convenience foods. And drinking water, which
+     is currently in short supply at Le Saladier, it seems.</p>
+   </div>
+   <div type="div3" rend="P12">
+    <head>29 November</head>
+    <p>We are not here simply to eat expensive French jam, nor indeed simply to bask in the
+     sunshine. We are here also on a family visit and grand Toussaint reunion. Which means getting
+     up early-ish and catching the express bus to Curepipe, so called because it takes advantage of
+     a couple of bits of motorway in between the long suburban crawl through the noisy but
+     picturesque streets of Rose Belle. Like her sister Nicole, Lilette has a Mauritian id card
+     which entitles her to free bus travel, but I have to fork out some rupees to the bus conductor
+     when he passes by.</p>
+    <p>The Jan Palach bus station at Curepipe is unchanged from the last time I was here, if a
+     little dingier, though its front end has been transformed by the arrival of a spanking new tram
+     terminal high above our heads. The marketplace is still there and just as colourful and noisy
+     as a tropical market place should be. The posh shopping arcade for the upwardly mobile is also
+     still there, serving proper coffee and nice cakes, which we indulge in before Jef and Nicole
+     appear, and we all then go in search of the local bus out to Les Casernes, and the first of
+     several visits to the house where Lilette’s mum used to live, now occupied by her brother Alain
+     alone, in the garden of which her other surviving brother Roger has built his own house. Lots
+     of waiting and some domestic drama ensued (we had arrived too early, and Olive was not well)
+     but family affairs are like that. For lunch, we went for a walk down the road and caught some
+     delicious fresh <hi rend="italic">farata</hi> from the <hi rend="italic">snack</hi> which has
+     recently opened just down the street. And we eventually got back to Mahébourg, just before
+     nightfall. </p>
+   </div>
+   <div type="div3" rend="P13">
+    <head>30 November</head>
+    <p>A repeat of yesterday’s expedition to Curepipe, but this time we are expected. Roger has
+     arranged a copious lunch for us, though we are of course late because Alain also wants to talk
+     to us in his house. I am delighted to renew my acquaintance with Phoenix beer and <hi
+     rend="italic">mine frit</hi> accompanied by lots of salad and washed down with very strong
+     espresso. We take the bus all the way to the Mahébourg bus station on our return, which gives
+     an opportunity to stroll through the market, mostly closed by now, and along the waterfront.
+    </p>
+   </div>
+   <div type="div3" rend="P14">
+    <head>1 December</head>
+    <figure>
+     <graphic url="../media/blueBay.png"
+      width="800px"/>
+     <head>"What a groove! a tropical paradise!"</head>
+    </figure>
+    <p>Today we did not go to Curepipe. Instead we took the bus to Blue Bay, or would have, had a
+     taxi not appeared first. Blue Bay still closely approximates to a tropical paradise. Jef and I
+     splash about in the water a bit; Nicole and Lilette natter and gossip about the creole families
+     all around us. A dodgy geezer with a mobile gets soundly cussed by a young heavy who, probably
+     justly, suspects him of secretly taking snaps of his bikini-clad companion. No violence, but
+     lots of shouting, so we walk off in search of lunch. It’s further away than I remember it, but
+     the Blue Bamboo is still in business and still does a respectable lunch. Jef and I have <hi
+     rend="italic">cari cerf</hi>; Nicole has a disgusting veggie pizza; Lilette has <hi
+     rend="italic">cari poisson</hi>. Of course our finances won’t permit such extravagance every
+     day, but for once in a while... And then, in due course, the bus back to the market where we
+     bought fruit for dinner. This could become a routine.</p>
+   </div>
+   <div type="div3">
+    <head>2 December</head>
+    <p>We stayed in bed till a luxurious 1030, and then got going very slowly. Today’s goal was to
+     refill the wallet, now almost empty of rupees, by any means possible. I won’t go into the
+     details, but essentially although there are thousands of the little fellas stashed away in
+     Lilette’s Mauritian bank account, it’s proving tricky to get them out. Consequently, we had to
+     do some currency mungeing which involved a little serious bank queuing– and until you have
+     experienced a queue in a Mauritian bank, you know nothing of queuing. There is usually a polite
+     policeman at the air-conditioned end of the queue who will tell you when you are permitted to
+     join it. There will usually be one or two people servicing the end of the queue where things
+     happen, but no guarantee that they will stay there. There will often be a crazy person who
+     doesn’t really know what they are doing in the queue in the first place. But, unlike similar
+     institutions in the UK, there is really very little impatience or bad temper. As I may have
+     said before, Mauritius is all about waiting.</p>
+    <p>Anyway, eventually the wallet feels better, and we proceed to the “Salut les copains” snack
+     to make our bellies feel better too, The <hi rend="italic">cari agneau </hi>was OK, but the <hi
+     rend="italic">banane flambée</hi> totally failed to ignite. Never mind, we were content to sit
+     on the terrasse digesting with the other fat French expats before returning for a brief snooze
+     back at the Saladier. In the cool of the evening I went out for a stroll on my own, up the hill
+     to the church, then back down to the waterfront. At street corners there are little groups of
+     men playing cards by candle light, which looks like it might be fun. </p>
+   </div>
+   <div type="div3">
+    <head>3 December</head>
+    <p>Today is Saturday, the day on which this year’s second <hi rend="italic">Festival Kiltir Ek
+     Langaz Kréol Morisien</hi> is coming to Mahébourg. Leaflets and other media no doubt have
+     promised a <hi rend="italic">Regat</hi>, as well as a <hi>Salon Kiliner, Evolision Artizanal,
+     ek Gran Konser,</hi> expected to be attended by 12 to 15 0000 people. I like the sound of a
+     culinary saloon, myself. However, we are slow to get going on account of the day's
+     unprecedented heat, and by the time we arrive the regatta is all over. By 4 pm, there's a
+     pleasant breeze from the sea and the whole length of the waterfront itself is decked with
+     parasols and umbrellas over stalls selling brightly coloured clothing, and jewellery, and
+     christmas toys and knick knacks of all kinds. Also a little serious ironmongery. </p>
+    <p>The festival proper begins around the statue of the Swami, where barricades and uniformed
+     security make sure we take the right route and presumably also deter any lowlife though at this
+     time of day the crowd is mostly smartly dressed families, with lots of pretty girls and cute
+     babies to distract the eye. The required route takes us past the municipal loos and a
+     delightfully shady clump of trees to massive tents holding the <hi>salon kiliner</hi>, aka lots
+     of Indian ladies selling freshly cooked <hi>farata</hi> and <hi>gato pimen</hi> and <hi>mine
+     frit</hi> etc. etc. Not a commercialised product in sight, unless you count the allegedly
+     Cornish ice cream vans. A huge dining tent with tables and chairs is already filling up with
+     diners who wish to be seated. Pausing only to buy a pair of stuffed <hi>farata</hi>, we proceed
+     past the dining area to join the (as yet) smallish crowd milling around in front of an enormous
+     rock-festival scale stage on which the <hi>Gran Konser</hi> is already underway. The MC
+     introduces famed speakerine Sandra Mayotte ("she's put on weight" says Nicole disapprovingly)
+     and much bouncy kréol music booms forth to general approbation. Alas though, we are a bit old
+     and white and self-conscious to stay long. Instead we buy some <hi>vindaye poisson</hi> and
+     <hi>achard legume</hi> to go with a ton of <hi>gato pimen</hi>, which we carry back to the
+     saladier for supper. The concert continues long into the night in any case, and we can follow
+     it on the tv <hi>en direk</hi>. </p>
+   </div>
+   <div type="div3">
+    <head>4 December</head>
+    <p>Today being Sunday, I had a quiet morning writing up my adventures and reading Jef's
+     <hi>Canard Enchainé</hi>, while Lilette and Nicole gossiped. I went for a walk about 4 pm, up
+     the road to Notre Dame des Anges, on this occasion packed with worshippers celebrating (I
+     realised as they brought out the coffin) a funeral. The Church has an impressive yellow tower
+     and allegedly dates from 1849; its stained glass is anodyne, but its roof is held up by some
+     impressive timbers with carved angels on them and there is also a rather fine wooden statue of
+     Pere Laval, the so-called Apostle of Mauritius. My walk proceeded up route Royale hopping from
+     side to side to take advantage of the shade. despite traffic noise, as far as the Museum which
+     is closed of course. Google maps indicates that there is a much quieter route home along a
+     narrow residential street, which leads me to a corner of Mahébourg I recognise from 2007. The
+     place we stayed on that occasion is still there but has been renamed, implausibly, the
+     Chillpill. </p>
+   </div>
+   <div type="div3">
+    <head>5 December</head>
+    <p>We've been here a week, so it's clearly time to do some proper tourism. Jef has done the
+     research and proposes that we should take the bus out to Vieux Grand Port where there is a
+     proper museum, as well as whatever remains or has been reconstructed of the first European
+     buildings in Mauritius, to wit the fort erected by Dutch mariners in the late 17th century,
+     when the island was still a tropical paradise covered with ebony groves and dodos. </p>
+    <p>The most visible ruins are 18th century: craggy black walls and arches mostly built of basalt
+     blocks mixed with coral: very picturesque, but it's very hot and someone is noisily strimming
+     the lawns. We retreat to the bungalow containing the museum building proper to contemplate the
+     official version of the first settlement here, essentially a pit stop and storage locker for
+     the ships of the Dutch East India company en route to and from the far east. They introduced
+     bananas and sugar cane and slaves to work it in the 18th century; also rats and deer. Shame
+     about the dodo and the ebony, but that's the price of progress.</p>
+    <figure>
+     <graphic url="../media/path.png"
+      width="300px"/>
+     <head>The path to Ferney Falaise Rouge</head>
+    </figure>
+    <p>We get onto a very crowded bus back towards Mahébourg, but then off it again at the turn off
+     for Ferney, since the plan is to have lunch at the <ref
+     target="https://www.ferney.mu/ferney-falaise-rouge/">Ferney Falaise Rouge</ref>, which is a
+     posh restaurant perched on top of some red cliffs overlooking the bay. We have to walk along a
+     palm-lined track across a cane field to get there but it's worth the effort. Proper lunch is
+     provided in European-style luxury, and, as we are early enough to have avoided the rush of
+     motorized tourists, the usual waiting passes very comfortably sitting under a palm tree with a
+     cool drink. I had <hi>cochon marron roti</hi> with mash, since you ask, and for dessert an
+     unexpectedly copious panna cotta with sour berries which was delicious. After which, walking
+     back to the main road to get the bus was quite hard work, but we managed it somehow. </p>
+   </div>
+   <div type="div3">
+    <head>6 December</head>
+    <p>An early start for Jef and Nicole, who are going to do something mysterious in Curepipe
+     again. And also a slightly less early one for us, as Lilette has thought of a new way of
+     getting access to her thousands of rupees. So off we go to the nearest branch of the MCI Bank,
+     and join the queue outside for the queue inside, under control of polite but firm policeman, as
+     aforesaid. It only takes 40 minutes to progress from the outside queue to the interior (air
+     conditioned) queue, at which point I leave Lilette to her fate and go for a coffee at Le
+     Basilic. Another half hour later, she reappears laden with rupees, and ready for lunch, which
+     we take in an aged Chinese restaurant near the market: it was called Le dragon de chine when I
+     was last here in 2007, and presumably still is, though the signage has disappeared and the
+     verandah seems to have shrunk. But it still serves possibly the best <hi>bol renversé</hi> in
+     Mahébourg, for a mere 150 rupees. </p>
+    <figure>
+     <graphic url="../media/bolrenverse.png"
+      width="400px"/>
+     <head>Arguably the best bol renversé in Mahébourg</head>
+    </figure>
+   </div>
+   <div type="div3">
+    <head>7 December</head>
+    <p>An essential part of any visit to Mauritius is the traditional island tour, which unrolls
+     more or less as follows. First, catch your taxi man. This was arranged for us by our hosts at
+     Le Saladier. Next decide which direction you wish to go in, i.e. clockwise or anti-clockwise
+     round the island. Finally prepare a list of interesting points you wish to visit and hope your
+     taxi man knows where they are. Hope that the weather will be kind, but don't hold your breath.
+     On this occasion, the skies opened as soon as we set off, which meant that our first few
+     beach-visits were wind-swept and mostly cursory, which is a pity as these were fine beaches. We
+     made a tentative stop at the Saint Aubin estate to visit the old distillery, but the entrance
+     fee discouraged us. Eventually, the rain stopped, and the sun came out long enough for us to
+     appreciate the views at Gris Gris beach, where there is no reef so the rocks are satisfactorily
+     battered by torrential waves, direct from the Indian Ocean. Which is why it is called <hi>La
+     roche qui pleure</hi>. Just up the road to Souillac from here there once lived that rarest of
+     birds, a Mauritian poet. His name was Robert Edward Hart (1891-1954) and they have turned his
+     house (which has splendidly romantic views over the raging ocean) into a museum. You can see
+     his type writer and his violin as well as his desk, and lots of remnants of his poetic career.
+     It's a rather fine building too, made of coral and local stones, and seems to have been
+     renovated since I last visited it. </p>
+    <figure>
+     <graphic url="../media/typeWriter.png"
+      width="400px"/>
+     <head>Robert Edward Hart's typewriter</head>
+    </figure>
+
+    <p>For our lunch stop we went to La Batelage at the port of Souillac. This used to be a very
+     posh restaurant looking over an estuary which was once an important landing point for shipping
+     from Port Louis. The 18th century warehouse with its fine 19th century fittings is still there,
+     but the quality of service in the restaurant has declined considerably. Much Mauritian waiting
+     and some tasty fish (capitaine) later, we resumed our day out with a visit to a new attraction:
+     the Parc de la Vallee des Couleurs. This is an example of what the eco-tourist industry can do
+     with a large expanse of land unsuitable for agriculture: it is all carefully constructed foot
+     paths going up and down and round about, flirting with some well channelled rocky streams.
+     There are curious four wheel bikes to hire and ziplines for thrills, and there are
+     multicoloured sands to gawp at, if you like that kind of thing. The view over the park and down
+     to the coast about 10 km away is pretty impressive though, even when it starts raining again.
+     But it's an exhausting business being a tourist, and I think I may have dozed off as we zoomed
+     back along the Southern coast road, via Chemin Grenier and Surinam. Or did we really stop and
+     watch at the spot where there are always people hanging on the wire fence to see the airplanes
+     at SSR Airport land and take off and trundle about? </p>
+   </div>
+   <div type="div3">
+    <head>8 December</head>
+    <p>My manuscript diary and my memory both agree that this was a day of inactivity until at 5 pm
+     prompt Yves Tonta turns up in his motor and drives us all to his very smart new house in Beau
+     Vallon, an area which I remember as being largely under construction. Now there are lots of
+     smart new houses here in what is effectively an up-market residential suburb of Mahébourg, but
+     the simple grid system of the old town has been abandoned in favour of other more exotic
+     patternings: or so it seems as Yves twists and turns his Toyota through the dark. The inside of
+     his home is also very decorative, with two distinct verandahs adjoining each other and both
+     securely gated. Security seems to be rather important. Anyway, we sit as invited round a round
+     table and are served beer and gajak in the form of dainty tuna sandwiches and some kind of
+     chicken roll, served by the third Mrs Yves, who is apparently an ex ballerina of South African
+     origins, judging from her accent, though she has lived in Mauritius for years. Much domestic
+     chatting ensued, none of which seemed to require or engage any contribution from me. Instead,
+     it was largely enlivened by photos of loverly grandchildren and old acquaintances on Yves'
+     tablet. And at the end of the evening Mauritian waiting on a grand scale before we are offered
+     a lift home. </p>
+   </div>
+   <div type="div3">
+    <head>9 December</head>
+    <p>By the time I turn out for the usual breakfast, Jef and Nicole have long since disappeared on
+     the earliest possible bus to Kirpip. The day is appropriately commemorated by a birthday card
+     from Lilette and a beep from the only one of my facebook friends not currently asleep in Europe
+     (tx Chris). And then we set off across town for another raid on Lilette's horde of rupees at
+     the MCB. The queue is very much shorter than last time and they have put up a splendid
+     christmas tree so I leave Lilette to it, and nip round the corner to get my hair cut at the
+     little salon de coiffure I noticed three days ago. Much refreshed and comparatively dapper as
+     well as rich, we do a little desultory shopping at the market and then proceed to birthday
+     lunch at Les Copains D'abord, the posh resto on the sea front we have been saving up for this
+     occasion. The veg tempura is a bit soggy, but the fish in coconut sauce does not disappoint. My
+     phone starts pinging as Europe wakes up: my daughters get online and Facebook prods my social
+     media contacts into action, which is all rather nice. We go for yet another stroll along the
+     Waterfront, enjoying the breeze, despite lowering gray skies and a temperature of 27. There's
+     no-one much about this afternoon: a half-hearted beggar; two or three tourist couples like us;
+     a fisherman who tells us he can't take his boat out because the sea is too rough, or he'd be
+     delighted to offer us his services. Lilette politely tells him to go away in kreol, but she is
+     only a woman, so he takes no notice till I perform the International Fuck Off gesture. Down by
+     the obelisk at the end of the waterfront a small group of slightly drunk ne'er-do-wells are
+     hanging out; a couple of ambulatory Mauritian policemen stroll past and look at them severely.
+     Their mere presence is enough. The obelisk, by the way, commemorates the Battle of Grand Port,
+     apparently the only naval battle of the Napoleonic era in which Johnny Frenchman
+     comprehensively defeated the marauding Brits, largely because the British commander either
+     lacked or ignored local intelligence about the rocks in the bay, and consequently ran his ships
+     aground well within range of French pot shots. (<ref
+     target="https://en.wikipedia.org/wiki/Battle_of_Grand_Port">The Wikipedia article</ref> is
+     comprehensive and more readable than the novel about it by Patrick O'Brian) </p>
+   </div>
+   <div type="div3">
+    <head>10 December</head>
+    <p>Copain or not, something in yesterday's lunch definitely upset my digestion, so I spent my
+     birthday evening and most of this morning lying in bed taking occasional sips of water and
+     feeling sorry for myself. Everyone else had the good sense to go away and, at Nicole's
+     suggestion, lunch at the local KFC. I do manage to get to the supermarket around 4 pm, where I
+     buy more water, yoghurt, and dahi, all of which my digestive system seems to be willing to
+     accept. In the rest of the evening, I watch with mounting incredulity a surge of "likes" on my
+     Facebook birthday posting, as the greetings pile in from people whose name I mostly recognise,
+     but of whom I have seen nothing for many years. Is this what my social life has been reduced
+     to, and how it's going to be henceforth ? Not too sure I like the sound of that, but it's still
+     nice to be pinged so frequently and so warmly.</p>
+   </div>
+   <div type="div3">
+    <head>11 December</head>
+    <p>Oh look, it's Sunday again, so not much happening in Mahébourg. But my belly feels much
+     better and I am ready to risk a refreshing shaved-ice-and-sugary-fruits confection from a
+     street vendor, with no ill effects, though everyone else looks a bit doubtful. They then
+     suggest more or less insistently that we should go to KFC for lunch again, after a lengthy
+     browse of Mahébourg's two or three tourist schmutter shops. As far as I am concerned, KFC was
+     just as awful as you might suppose (I had a veggie patty with chips), but my companions and
+     everyone else in the place seemed very happy to be there, so what do I know. Lots of young
+     people being cool, lots of families with small kids out for a Sunday treat. Lots of cardboard
+     packaging and not much decent food. Grrr. </p>
+   </div>
+   <div type="div3">
+    <head>12 December</head>
+    <p>The plan today is to make an expedition to Flic en Flac, a seaside resort on the opposite
+     side of the island. This means getting up infeasibly early (i.e. about 0700) to get the 0830
+     bus to Curepipe, transferring there to the wonderful new tram at 0935, a luxurious tram ride to
+     Quatre Bornes (arr. 1011), and then another traditional Mauritian bus out to Flic en Flac via
+     Bambous, arriving about 1120. The bus to Curepipe we know well, though I think this was the
+     first time I had taken it during the rush hour. It's empty when we get on it, but fills up
+     rapidly and is standing room only by the time it's half way through Rose Belle. The new <ref
+     target="https://mauritiusmetroexpress.mu/">Metro Express tram</ref> on the other hand is just
+     wonderful. Curepipe Central station is reached by lift or escalator, since it is about 40
+     metres above the chaotic traffic around the old bus station. Helpful staff on the platform
+     explain how to get tickets: as at T4, automation means you must have a pass of some sort even
+     if you don't have to pay for it (this applies to the ladies of course). Smart new trams saunter
+     into the station silently every ten minutes, and then out again down a gentle slope before
+     proceeding towards Rose Hill, following more or less the route of the old railway. The bus from
+     Quatre Bornes to Flic en Flac, on the other hand, is much the same as it was back in 2006 when
+     I last took it, i.e. bouncy and old skool, and in no particular hurry. </p>
+    <figure>
+     <graphic url="../media/tram.png"
+      width="300px"/>
+     <graphic url="../media/bus.png"
+      width="300px"/>
+     <head>Boarding a tram (L) vs boarding a bus (R)</head>
+    </figure>
+    <p>Flic en Flac, when we get there, has not changed a great deal either. It still has a long
+     beautiful beach, accessible to everyone, with white crunchy sands (maybe a little too much
+     coral in it for barefoot walking though). It is still fringed with lots of filaotrees to sit
+     underneath <hi>en famille</hi>, and plenty of families so doing. There are still lots of little
+     vans selling street food, and also a chap with a pile of fresh coconuts and a mighty scimitar
+     to serve them with. And most of the shops and restaurants I vaguely recall are still there too,
+     except for the ones that have disappeared or been upgraded. This includes the <hi>Canne a
+     Sucres</hi>, where Lilette's friend Claude-May is still in business and delighted to see us
+     again after, gosh, 20 years. We visit other relatives, take a light late lunch at the nearest
+     Thai restaurant, and a bit of a splash in the sea (Jef is more sensibly prepared for this than
+     I am), before regretfully repeating the three steps of the journey here in reverse. Since we
+     left Flic-en-Flac at 15h30, we necessarily left Curepipe in the rush hour, on a less than
+     luxurious and very over-crowded bus, whose back door swung open alarmingly at every other bump.
+    </p>
+   </div>
+   <div type="div3">
+    <head>13 December</head>
+    <p>Another trip to Curepipe today, but less frantic. Nicole and Jef go to the bank, and we
+     decide to walk to rue Henri Robert rather than take the bus, which is pleasant. The Eglise
+     protestant de St Clement has gained a new roof and some tasteful wooden shutters since I last
+     saw it. At Alain's house, I accept a beer and settle down to the usual sort of waiting. The
+     plan for the day is family focussed. First we all pile into Alain's car and zoom back to the
+     Curepipe marketplace to buy some flowers, then back to the house to pick up a metal implement
+     and some cleaning materials. For today we are going to do some graveyard maintenance as well as
+     pay our respects at the Bigarade cemetery. Marie France's grave doesn't have a headstone as yet
+     and Lilette's mum has no memorial as yet, but has been interred with her parents who do. Alain
+     scrubs the inscription up to more or less legibility, and we plant flowers on both before
+     returning (eventually) to Roger's house for an enormous meal. </p>
+    <figure>
+     <graphic url="../media/grave.png"
+      width="400px"/>
+    </figure>
+    <p>There are <foreign>gato pimen</foreign>, delicious bread, farata, rice, <foreign>rougaille
+     poisson</foreign> and <foreign>bredes</foreign>, nice cakes, and a massive salad. More than
+     anyone can eat indeed, even with the wine that Jef has provided. It takes a while to get
+     everyone to the table, but eventually the sadness that permeates the house does dissipate a
+     little. </p>
+    <p>As we are definitely too stuffed to move, Alain gives us a lift back to Curepipe bus station.
+     We just catch a bus that is about to leave, packed to the gunnels with commuters, but we are
+     getting quite used to that, and now expert in sharing a seat meant for three as the bus bounds
+     and leaps like a wild animal down the motorway home. </p>
+   </div>
+
+   <div type="div3">
+    <head>14 December</head>
+    <p>A very quiet day in which Lilette does a little desultory banking, and then goes to the
+     hairdresser. There is a snack next door to the hair salon where we eat quite plausible mine
+     frite before returning for a lazy afternoon doing nothing much. </p>
+   </div>
+   <div type="div3">
+    <head>15 December</head>
+    <p>Time for another taxi-hosted expedition, this time in an anti-clockwise direction. The tax
+     iman this time is less experienced and doesn't entirely stick to the proposed route, so we
+     don't get to walk in the Bois des Amourettes. But we did see a debarcadere (landing stage) and
+     some ancient cannon as well as taking exploratory strolls along several pleasant beaches along
+     the North Eastern coast, facing Ile aux Cerfs. This last is now a major tourist venue, but the
+     beaches are public and accessible, at Palmar and Belle mar and even Bras d'eau, though large
+     portions of many of them have been appropriated by hotel developments. There is also a much
+     improved coastal cycle path to admire, though as we are in a taxi we don't actually get to use
+     it, nor any of the beaches. We spend some time in an allegedly discounted cashmere shop full of
+     classy cashmere and over priced tourist goods, where Nicole bought herself a birthday present,
+     and Lilette some insanely expensive postcards. And then we went to a little place called La
+     Pelouse in Trou d'eau douce ("Fresh Water Hole" really doesn't sound as nice) for lunch.
+     Freshly grilled capitaine in a creole sauce, followed by fresh pineapple, followed by a very
+     sleepy ride home. </p>
+   </div>
+   <div type="div3">
+    <head>16 December</head>
+    <p>Jef and Nicole have disappeared on their own adventure by the time I have had my breakfast
+     and Lilette has appeared after doing her morning exercises. She suggests we lunch "Chez Edwige"
+     as recommended by Yves a few days ago, which turns out to be a pleasantly unpretentious and
+     entirely correct restaurant. We perch on a shady balcony overlooking the road to Blue Bay and
+     choose from a small menu: <hi>carri poulet</hi> for me and (implausibly) spaghetti bolognese
+     for Lilette, both of which were very satisfactory. And after an impeccably served <hi>banane
+     flambee</hi> to share, we stagger home, a bit hot for lack of shade, but replete. </p>
+    <p>Today is the beginning of the Hare Krishna Waterfront Festival, which (I think) celebrates
+     the birth of Krsna with any amount of hoo hah down on the waterfront. By the time we get down
+     to it, there is much expectant chanting and singing in the big tent, with associated speeches
+     in Kreol and French and English. It might be a village fete or a wedding. There are crowds of
+     pretty girls and old ladies all wearing their best saris; there is a band of musicians with a
+     charming singer sitting in the middle of the tent; there are fat men in white robes officiating
+     mysteriously; there are kids rushing around who will daub your forehead with paint if you let
+     them. Outside the tent there are (of course) stalls selling colourful clothing, objects of
+     devotion, and delicious vegetarian snacks. This is a three day festival with a narrative of its
+     own, of which we are of course entirely ignorant, but I liked it very much. </p>
+  <figure>
+     <graphic url="../media/words.png"
+      width="800px"/>
+     <head>Just in case you've forgotten the words, here's an aide-memoire</head>
+    </figure>
+   </div>
+   <div type="div3">
+    <head>17 December</head>
+    <p>After breakfast, I went for a short walk, but returned fairly soon, considering that if ten
+     minutes walking gives me a shirt as sweaty as this, either the shirt or the climate needs to be
+     changed. The latter possibility is only a few days away, alas, and Lilette and Nicole are
+     already thinking about packing. But for today, another mass expedition to Curepipe is planned,
+     even though it's Saturday and Curepipe is full of Christmas shoppers. Nicole (whose birthday it
+     is) wants to eat at Kasafe, a specific restaurant owned by a friend of a friend and located on
+     Sir Virgile Naz street, wherever that might be. Obligingly, Mr Google and I successfully plot a
+     route through Curepipe's extensive urban sprawl, both there and back. The lunch turns out to be
+     Chinese and quite tasty. Then we walk back to the centre of town to pick up pre-ordered cakes
+     from the bakery, and some lychees from the market before catching the bus out to Forest Side
+     once more. And at Rogers we wait, of course, for Roger who is out shopping, before eventually
+     progressing into birthday party mode when he returns. There is cake, there is wine, there is
+     tea. Roger has brought birthday presents for both his sisters: a portable electric fan each.
+     Alain has brought a mountain of family photos for us all to look at, which is interesting: I
+     take copies of some of them. The party mood is spoiled only at the last moment when I got my
+     little finger caught in the car door as Nicole was closing it. No serious damage, except to
+     Nicole's mood, as we all bounced along in the bus back home. </p>
+   </div>
+   <div type="div3">
+    <head>18 December</head>
+    <p>I went for another early morning saunter round the market and found a bargain price toy dodo
+     for Lilette. For lunch we all went to a nearby restauranmt already full of Christmas parties
+     and balloons, which was a mistake: our food took an hour to appear, and was not particularly
+     good when it did. Daube de cerf, too tough. A brief siesta ensued, and then I checked us in for
+     our flights home. </p>
+    <p>Down at the seafront the Hare Krishna party is reaching a climax, with the arrival of various
+     dignatories on board a boat pulled along by a couple of splendid fake swans. </p>
+    <figure>
+     <graphic url="../media/krishna.png"
+      width="650px"/>
+     <head>Krishna's boat arrives</head>
+    </figure>
+    <p>I gawped at this, and at the subsequent procession of said dignatories carrying brightly
+     coloured wooden representations of Krishna as Jagannatha through the crowd. The party was
+     clearly going to go on all night, and I was quite sorry to leave it for our walk home along the
+     sea front. Jef and Nicole are leaving tomorrow morning at dawn, so we said our farewells as the
+     night fell. </p>
+   </div>
+   <div type="div3">
+    <head>19 December</head>
+    <p>We have an extra day's grace since our flight back to London is not due to leave till shortly
+     before midnight tonight. We start by going for a walk to the National History Museum, down the
+     rue Royale. This is in a beautiful 18th century mansion, le chateau Gheude, itself much in need
+     of conservation. Inside, as well as a lot of creaky floor boards and two grand but slightly
+     wonky staircases there are photos and paintings describing the history of the island, largely
+     but not entirely from the European perspective. There is lots about the Dutch settlers, and
+     also about the Battle of Grand Port (see above), as well as some disturbing paraphernalia of
+     slavery. Portraits of notable blighters such as Robert Surcouf, the pirate, are complemented by
+     information about notable Mauritians long since forgotten like <ref
+     target="https://fr.wikipedia.org/wiki/Alfred_Richard">the painter Alfred Richard</ref>
+     (1824-1880), and by a hall full of photographs of modern political figures. And you can see
+     Mahé de Labourdonnais' four poster bed, and a model of the Governor's personal railway
+     carriage: the carriage itself is outside slowly decomposing in a shed behind the house. </p>
+    <figure>
+     <graphic url="../media/carriage.png"
+      width="650px"/>
+     <head>The Governor's Railway Carriage: in need of some TLC</head>
+    </figure>
+    <p>We then went in search of lunch, though with little success. The first place Mr Google
+     suggested was shut, the second was too noisy and already full of busy lunchers; the third
+     (Karay Mario) would have been perfect but had no space for us. So we took the bus back into
+     town and found a deserted snack willing to provide us with a modest bol renverse and some fish
+     szechuan style. Better than nothing. </p>
+    <p>Back at the Saladier, Yunnus has obtained a large pile of freshly made faratas for us to
+     smuggle home. My challenge is to find some appropriate wrapping for them, which I do eventually
+     in the Chinese supermarket (of course). Then we do the rest of the packing, and (eventually)
+     set off for the airport. I change into long trousers for the first time since we got here,
+     leaving the room keys in the pocket of my shorts which are then packed away with other
+     unsavoury garments at the bottom of my suitcase. Whoops. I am alerted to this by a phone call
+     from the long suffering Yunnus, and can thus unpack, extract, and return the keys as soon as we
+     get to the airport. </p>
+   </div>
+   <div type="div3">
+    <head>20 December</head>
+    <p>What more is there to say about a tedious 12 hour flight (it's uphill going back, so takes an
+     hour longer)? Nothing, obviously. We arrived at the Heathrow Central Bus station an hour after
+     the bus I had tickets for left, railed pointlessly against the inadequacies of privatised bus
+     systems, and bought some more tickets on the next available bus, which being a different
+     company, naturally deposited us somewhere completely different when we arrived in Bristol. But
+     there is a posh hotel here, and posh hotels can usually be persuaded to provide you with useful
+     services like a cup of coffee and a taxi, provided you ask nicely and look respectable. And so
+     indeed the receptionist of the Hampton Hotel did, and here we are back in our little
+     over-heated house in Clifton, and ready to have a snooze. Later we will get ready for Xmas, but
+     for now it's time for bed, even though the clock says it's not even midday yet. </p>
+   </div>
+  </body>
+ </text>
+</TEI>
