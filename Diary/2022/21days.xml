@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../diaryPrint.css" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
  <teiHeader>
   <fileDesc>
@@ -17,10 +18,14 @@
   </revisionDesc>
  </teiHeader>
  <text>
-  <body>
-   <figure>
-    <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/mauritianMap.png"/>
-    <head>Mauritian end of my time line</head>
+  <front><titlePage><docTitle>
+   <titlePart>21 Days in Mauritius</titlePart>
+  </docTitle><docAuthor>Another travelogue by Lou Burnard</docAuthor>
+   <titlePart>Privately published</titlePart><titlePart>November - December2021</titlePart></titlePage></front><body>
+    <figure>
+    <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/mauritianMap.png"
+    width="500px" height="600px"/>
+    <head>The Mauritian end of my time line</head>
    </figure>
    <p>Those unfortunates unacquainted with the geography of Mauritius, an island in the Indian
     ocean, may find the above map helpful. We spent most of this trip in the bottom right hand
@@ -35,14 +40,14 @@
     extracts. </p>
    <div type="div3" rend="P11">
     <head>27 November</head>
-    <p>This date, formerly known as Oblivion Monday, fell this year on a Sunday. An auspicious day,
+    <p>This date, formerly known as Oblivion Monday<note place="foot">A very obscure private reference</note>, fell this year on a Sunday. An auspicious day,
      then, to get up infeasibly early and catch a pre-ordered taxi, with enough spare time to get
      half way there and then go back to recover at least some of the essential items we’d forgotten
      to pack. And so to Bristol Bus and Coach Station, unrecognisable since the sixties when last I
      frequented it. </p>
     <figure>
      <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/suitcases.png"
-      width="300px"/>
+      width="350px" height="500px"/>
      <head>Miss Suitcase 2022 arrives at Bristol Bus and Coach Station</head>
     </figure>
     <p>A pre-booked and very bored shuttle bus shuttles us to Heathrow Airport through the gloomy
@@ -89,7 +94,7 @@
      corner. Also just round the corner is a rather fine flamboyant as a landmark. Really all rather
      satisfactory. <figure>
      <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/flamboyant.png"
-      width="600px"/>
+      width="500px" height="400px"/>
      <head>Landmark flamboyant tree on the corner of La Chaux street</head>
      </figure> The first day passes in slow motion as we recover from the journey, readjusting and
      rediscovering the tempo of Mauritian life, in which (I realise) hanging about waiting for
@@ -133,7 +138,7 @@
     <head>1 December</head>
     <figure>
      <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/blueBay.png"
-      width="800px"/>
+      width="750px" height="450px"/>
      <head>"What a groove! a tropical paradise!"</head>
     </figure>
     <p>Today we did not go to Curepipe. Instead we took the bus to Blue Bay, or would have, had a
@@ -195,7 +200,7 @@
      scale stage on which the <foreign>Gran Konser</foreign> is already underway. 
      <figure>
       <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/konser.png"
-       width="800px"/>
+       width="750px"/>
       <head>Gran konser en marche, from the back of the crowd</head>
      </figure>The MC introduces
      famed speakerine Sandra Mayotte ("she's put on weight" says Nicole disapprovingly) and much
@@ -204,6 +209,10 @@
      <foreign>achard legume</foreign> to go with a ton of <foreign>gato pimen</foreign>, which we
      carry back to the saladier for supper. The concert continues long into the night in any case,
      and we can follow it on the tv <foreign>en direk</foreign>. </p>
+    <div>
+     <head/>
+     <p/>
+    </div>
    </div>
    <div type="div3">
     <head>4 December</head>
@@ -266,7 +275,7 @@
      renversé</foreign> in Mahébourg, for a mere 150 rupees. </p>
     <figure>
      <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/bolrenverse.png"
-      width="400px"/>
+      width="400px" height="400px"/>
      <head>Arguably the best bol renversé in Mahébourg</head>
     </figure>
    </div>
@@ -280,7 +289,7 @@
      On this occasion, the skies opened as soon as we set off, which meant that our first few
      beach-visits were wind-swept and mostly cursory, which is a pity as these were fine beaches. We
      made a tentative stop at the Saint Aubin estate to visit the old distillery, but the entrance
-     fee discouraged us. Eventually, the rain stopped, and the sun came out long enough for us to
+     fee discouraged us.</p><p> Eventually, the rain stopped, and the sun came out long enough for us to
      appreciate the views at Gris Gris beach, where there is no reef so the rocks are satisfactorily
      battered by torrential waves, direct from the Indian Ocean. Which is why it is called
      <foreign>La roche qui pleure</foreign>. Just up the road to Souillac from here there once lived
@@ -291,7 +300,7 @@
      to have been renovated since I last visited it. </p>
     <figure>
      <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/typeWriter.png"
-      width="400px"/>
+      width="350px" height="500px"/>
      <head>Robert Edward Hart's typewriter</head>
     </figure>
 
@@ -337,7 +346,8 @@
      (tx Chris). And then we set off across town for another raid on Lilette's horde of rupees at
      the MCB. The queue is very much shorter than last time and they have put up a splendid
      christmas tree so I leave Lilette to it, and nip round the corner to get my hair cut at the
-     little salon de coiffure I noticed three days ago. Much refreshed and comparatively dapper as
+     little salon de coiffure I noticed three days ago.</p>
+    <p>Much refreshed and comparatively dapper as
      well as rich, we do a little desultory shopping at the market and then proceed to birthday
      lunch at Les Copains D'abord, the posh resto on the sea front we have been saving up for this
      occasion. The veg tempura is a bit soggy, but the fish in coconut sauce does not disappoint. My
@@ -403,9 +413,9 @@
      I last took it, i.e. bouncy and old skool, and in no particular hurry. </p>
     <figure>
      <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/tram.png"
-      width="400px"/>
+      width="300px" height="200px"/>
      <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/bus.png"
-      width="400px"/>
+      width="300px" height="200px"/>
      <head>Boarding a tram (L) vs boarding a bus (R)</head>
     </figure>
     <p>Flic en Flac, when we get there, has not changed a great deal either. It still has a long
@@ -496,7 +506,7 @@
      own, of which we are of course entirely ignorant, but I liked it very much. </p>
     <figure>
      <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/words.png"
-      width="800px"/>
+      width="600px"/>
      <head>Just in case you've forgotten the words, here's an aide-memoire</head>
     </figure>
    </div>
@@ -523,7 +533,7 @@
    <div type="div3">
     <head>18 December</head>
     <p>I went for another early morning saunter round the market and found a bargain price toy dodo
-     for Lilette. For lunch we all went to a nearby restauranmt already full of Christmas parties
+     for Lilette. For lunch we all went to a nearby restaurant already full of Christmas parties
      and balloons, which was a mistake: our food took an hour to appear, and was not particularly
      good when it did. Daube de cerf, too tough. A brief siesta ensued, and then I checked us in for
      our flights home. </p>
@@ -531,7 +541,7 @@
      dignatories on board a boat pulled along by a couple of splendid fake swans. </p>
     <figure>
      <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/krishna.png"
-      width="650px"/>
+      width="600px"/>
      <head>Krishna's boat arrives</head>
     </figure>
     <p>I gawped at this, and at the subsequent procession of said dignatories carrying brightly
@@ -557,7 +567,7 @@
      carriage: the carriage itself is outside slowly decomposing in a shed behind the house. </p>
     <figure>
      <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/carriage.png"
-      width="650px"/>
+      width="600px"/>
      <head>The Governor's Railway Carriage: in need of some TLC</head>
     </figure>
     <p>We then went in search of lunch, though with little success. The first place Mr Google

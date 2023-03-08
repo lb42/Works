@@ -57,26 +57,26 @@
    <div>
     <head>Journal Articles etc.</head>
     <listBibl type="articles">
-
      <bibl><date>2020</date><title>In search of comity: TEI for distant reading</title> Lou Burnard,
-      Christof Schöch and Carolin Odebrecht. <title level="j">Journal of the Text Encoding
+      <rs>Christof Schöch</rs> and <rs>Carolin Odebrecht</rs>. <title level="j">Journal of the Text Encoding
       Initiative </title>[Online], Issue 14 | 2021, URL : <ptr
       target="https://journals.openedition.org/jtei/3500"/> ; DOI : <ref
       target="https://doi.org/10.4000/jtei.3500"> https://doi.org/10.4000/jtei.3500</ref></bibl>
      <bibl><date>2019</date><title type="main">La TEI pour les corpus linguistiques: un standard qui
       se renouvelle</title> in <title>L'enjeu des metadonnées dans les corpus textuels: un défi pour
-      les sciences humaines.</title> Sous la direction de Philippe Caron, Rodolophe Defiolle et
-      Marie-Hélène Lay. Presses universitaires de Rennes: isbn 9782753576407 <ref
+      les sciences humaines.</title> Sous la direction de <rs>Philippe Caron</rs>, <rs>Rodolophe Defiolle</rs> et
+      <rs>Marie-Hélène Lay</rs>. Presses universitaires de Rennes: isbn 9782753576407 <ref
       target="Papers/2016-poitiers.xml">XML source</ref> </bibl>
      <bibl><date>2019 </date> <title>How modeling standards evolve: the case of the TEI</title> in
-      Flanders, Julia and Fotis Jannidis (eds) <title>The shape of data in digital
+      <rs>Flanders, Julia</rs> and <rs>Fotis Jannidis</rs> (eds) <title>The shape of data in digital
       humanities</title> Routledge. pp 99-116. <ref target="metaMuddling/2018-metamuddling.xml">XML
       source</ref>; <ref target="metaMuddling/2018-proofCopy.pdf">Final proofs</ref> </bibl>
-     <bibl><date>2017</date>
-      Ide, Nancy M., C. M. Sperberg-McQueen and Lou Burnard
-      <title>The TEI: where did it come from, and why is it still here?</title> (Revised from an unpublished transcript of the Zampolli Award
-       talks given in Montreal 10 August 2017.) <ref target="Papers/2017-zampolli-talk.xml">Unpublished transcript</ref>. <ref target="Papers/2017-zampolli-talk-jp.pdf">Japanese translation (local copy)</ref></bibl>
-     <bibl><date>2013</date> Rahtz, Sebastian, and Lou Burnard. <title>Reviewing the TEI ODD
+     <bibl><date>2017</date> <rs>Ide, Nancy M.</rs>, <rs>C. M. Sperberg-McQueen</rs> and Lou Burnard <title>The TEI:
+      where did it come from, and why is it still here?</title> (Revised from an unpublished
+      transcript of the Zampolli Award talks given in Montreal 10 August 2017.) <ref
+      target="Papers/2017-zampolli-talk.xml">Unpublished transcript</ref>. <ref
+      target="Papers/2017-zampolli-talk-jp.pdf">Japanese translation (local copy)</ref></bibl>
+     <bibl><date>2013</date> <rs>Rahtz, Sebastian</rs>, and Lou Burnard. <title>Reviewing the TEI ODD
       System</title>. In <title>Proceedings of the 2013 ACM Symposium on Document Engineering.
       DocEng ’13.</title> ACM, 2013. <ref target="http://doi.acm.org/10.1145/2494266.2494321"
       >http://doi.acm.org/10.1145/2494266.2494321</ref>; <ptr
@@ -90,71 +90,71 @@
       Project to Research Infrastructure</title> , <title level="j">Journal of the Text Encoding
       Initiative</title> [Online], Issue 5 | 2013, <ptr target="http://jtei.revues.org/811"/> ; DOI
       : 10.4000/jtei.811 <ref target="Papers/2013-evolutionTEI.pdf">local copy of PDF</ref></bibl>
-     <bibl><date>2012 </date> with Cummings, James et al <title>Future Developments for ODD (panel
+     <bibl><date>2012 </date> with <rs>Cummings, James</rs> et al <title>Future Developments for ODD (panel
       at DH2012)</title><ptr
       target="http://www.dh2012.uni-hamburg.de/conference/programme/abstracts/future-developments-for-tei-odd.1.html"
       /> <ref target="Papers/2012-ODDfuture-panel.xml">XML source</ref>; <ref
       target="Papers/2012-ODDfuture-panel.pdf">PDF version</ref></bibl>
      <bibl xml:lang="fr"><date>2012 </date> <title>Du literary and linguistic computing aux digital
       humanities : retour sur 40 ans de relations entre sciences humaines et informatique
-      2012</title> [with Pierre Mounier] in <title>Read/Write Book 2 : Une introduction aux
+      2012</title> [with <rs>Pierre Mounier</rs>] in <title>Read/Write Book 2 : Une introduction aux
       humanités numériques</title> Open Edition Press <ptr
       target="http://books.openedition.org/oep/242"/> <ref target="Papers/2012-LLCtoDH.xml">XML
       Source</ref></bibl>
-     <bibl><date>2008 </date> with Cummings, James, Matthew Driscoll &amp; Sebastian Rahtz.
+     <bibl><date>2008 </date> with <rs>Cummings, James</rs>, <rs>Matthew Driscoll</rs> &amp; <rs>Sebastian Rahtz</rs>.
       <title>Documentation and Training Materials for use with TEI P5 Specification for
       ENRICH</title> (Deliverable D3.2). ENRICH Project ECP 2006 DILI 510049. <ptr
       target="https://ora.ox.ac.uk/objects/pubs:387532"/></bibl>
      <bibl n="40" xml:lang="fr"> <date>2008 </date> <title>Une introduction au British National
       Corpus dans son edition XML</title>, revue electronique <title level="s">Text et
-      Corpus</title>, no 3 aout 2008. Actes des Journees de la linguistique de Corpus, ed. Geoffrey
-      Williams and Nathalie Dugales, 2007, p 17-34. <ptr
+      Corpus</title>, no 3 aout 2008. Actes des Journees de la linguistique de Corpus, ed. <rs>Geoffrey
+      Williams</rs> and <rs>Nathalie Dugales</rs>, 2007, p 17-34. <ptr
       target="http://web.univ-ubs.fr/corpus/jlc5/ACTES/ACTES_JLC07_burnard.pdf"/>; <ref
       target="Papers/2008-introBNC-FR.xml">XML source</ref>; <ref
       target="Papers/2008-introBNC-FR.pdf">local copy of PDF</ref></bibl>
      <bibl n="37" xml:lang="fr"><date>2007 </date> <title>TEI+XSL : un mariage fait aux cieux.
       Comment utiliser aujourdhui la Text Encoding Initiative pour numériser les documents en
       lettres et en sciences humaines</title>. <title level="j"> Revue LINX</title>, no spécial:
-      corpora et questionnements du litteraire. sous la direction de Denise Malrieu. <idno
+      corpora et questionnements du litteraire. sous la direction de <rs>Denise Malrieu</rs>. <idno
       type="issn">0246-8743</idno> pp 57-69 (<ref target="Papers/2007-mariage.xml">uncorrected XML
       draft</ref>)_</bibl>
      <bibl><date>2006 </date> <title>New tricks from an old dog: An overview of TEI P5</title> in
-      Lou Burnard, Milena Dobreva, Norbert Fuhr, Anke Lüdeling (eds) Digital Historical Corpora -
+      Lou Burnard, <rs>Milena Dobreva</rs>, <rs>Norbert Fuhr</rs>, <rs>Anke Lüdeling</rs> (eds) Digital Historical Corpora -
       Architecture, Annotation, and Retrieval, 03.12. - 08.12.2006 Internationales Begegnungs- und
       Forschungszentrum fuer Informatik (IBFI), Schloss Dagstuhl. <ref
       target="Papers/2006-newTricks.pdf">PDF fulltext</ref> </bibl>
      <bibl><date>2006 </date> <title>XAIRA : software for language analysis</title> (ibid) <ref
       target="Papers/2006-xaira-abstract.pdf">Extended abstract</ref></bibl>
-     <bibl n="66"> <date>2005 </date> <title level="a">Markup Languages: Text</title> <editor>Keith
-      Brown (editor in chief)</editor><title level="s">Elsevier Encyclopedia of Language and
+     <bibl n="66"> <date>2005 </date> <title level="a">Markup Languages: Text</title> <editor><rs>Keith
+      Brown</rs> (editor in chief)</editor><title level="s">Elsevier Encyclopedia of Language and
       Linguistics</title> Second edition. <biblScope unit="pp">516-519</biblScope> <ref
       target="Papers/2006-markup.xml">XML source</ref>; <ref
       target="http://www.sciencedirect.com/science/article/pii/B008044854200941X">Online
       version</ref> <ref target="Papers/2006-markup.pdf">Downloaded PDF</ref><idno type="doi"
       >doi:10.1016/B0-08-044854-2/00941-X</idno></bibl>
      <bibl><date>2005 </date> <title level="a">Metadata for corpus work</title> in <title>Developing
-      Linguistic Corpora: A guide to good practice</title> ed. Martin Wynne. Oxford: Oxbow Books, pp
+      Linguistic Corpora: A guide to good practice</title> ed. <rs>Martin Wynne</rs>. Oxford: Oxbow Books, pp
       30-46. <ref target="Papers/2005-metadata.xml">XML source</ref></bibl>
      <bibl><date>2005 </date> <title level="a">La TEI Lite dalla P4 alla P5: continuità e
       cambiamento</title> in <title>Il Manuale TEI Lite: introduzione alla codifica elettronica dei
-      testi letterari</title>. A cura di Fabio Ciotti. Milano: ed Sylvestre Bonnard.</bibl>
+      testi letterari</title>. A cura di <rs>Fabio Ciotti</rs>. Milano: ed Sylvestre Bonnard.</bibl>
      <bibl><date>2005 </date> <title level="a">Encoding standards for the electronic edition</title>
       in <title xml:lang="si">Znanstvene izdaje in elektronski medij</title> (<title>Scholarly
-      editions and the digital medium</title>) ed. Matija Ogrin. Ljubljana: Studia Litteraria ZRC
+      editions and the digital medium</title>) ed. <rs>Matija Ogrin</rs>. Ljubljana: Studia Litteraria ZRC
       ZAZU, pp 12-67. <ref target="Papers/2005-electronicEdition.xml">XML version april 2005</ref>
       <ref target="Papers/2005-eziss-burnard.pdf">PDF preprint</ref></bibl>
-     <bibl><date>2004 </date> (with Sebastian Rahtz): <title>RelaxNG with Son of ODD</title>.
+     <bibl><date>2004 </date> (with <rs>Sebastian Rahtz</rs>): <title>RelaxNG with Son of ODD</title>.
       Extreme Markup Languages. <ptr
       target="http://conferences.idealliance.org/extreme/html/2004/Burnard01/EML2004Burnard01.html"
       />; <ptr target="https://ora.ox.ac.uk/objects/pubs:394056"/></bibl>
-     <bibl n="67"><date>2004 </date> Syd Bauman, Alejandro Bia, Lou Burnard, Toma Erjavec,
-      Christine Ruotolo, Susan Schreibman. 2004. <title>Migrating Language Resources from SGML to
+     <bibl n="67"><date>2004 </date> <rs>Syd Bauman</rs>, <rs>Alejandro Bia</rs>, Lou Burnard, <rs>Tomas Erjavec</rs>,
+      <rs>Christine Ruotolo</rs>, <rs>Susan Schreibman</rs>. 2004. <title>Migrating Language Resources from SGML to
       XML: The Text Encoding Initiative Recommendations.</title> Proceedings of the Fourth
       International Conference on Language Resources and Evaluation (LREC-2004), Lisbon, Portugal.
       European Language Resources Association (ELRA). <ref
       target="http://www.lrec-conf.org/proceedings/lrec2004/pdf/504.pdf">Online PDF</ref>. <ref
       target="Papers/2004-migratingLR.pdf">local copy</ref></bibl>
-     <bibl n="28"><date>2003 </date> (with Geoffrey Williams) <title>A la recherche de SARA:
+     <bibl n="28"><date>2003 </date> (with <rs>Geoffrey Williams</rs>) <title>A la recherche de SARA:
       l'exploration d'un corpus scientifique balise selon la TEI avec le logiciel SARA.</title> in
       <title>La linguistique de corpus</title> Sous la direction de Geoffrey Williams. <idno
       type="isbn">2-7535-0046-0</idno>. Presses Universitaires de Rennes. pp. 247-258. </bibl>
@@ -163,7 +163,7 @@
       target="Papers/2003-chicago-report.pdf">PDF offprint</ref> </bibl>
      <bibl n="47"><date>2002 </date> <title level="a">The role of the Text Encoding Initiative (TEI)
       in the authoring and interchange of XML documents</title> in <title>elPub 2002
-      Proceedings</title> ed J. A. Carvalho et al. VWF Berlin. <ptr
+      Proceedings</title> ed <rs>J. A. Carvalho </rs>et al. VWF Berlin. <ptr
       target="https://ora.ox.ac.uk/objects/pubs:387542"/>; <ref target="Papers/2002-elpub-02-22.pdf"
       >local copy of PDF</ref> </bibl>
      <bibl n="31"><date>2002 </date> <title>Humanities Computing in Oxford: a retrospective</title>.
@@ -172,15 +172,15 @@
      <bibl n="30"><date>2002 </date> <title>Where did we go wrong? A retrospective look at the
       British National Corpus</title> in <title>Teaching and Learning by Doing Corpus Analysis.
       Proceedings of the Fourth International Conference on Teaching and Language Corpora, Graz
-      19-24 July, 2000.</title> Ketteman, Bernhard and Georg Marko (Eds.) Amsterdam: Rodopi
+      19-24 July, 2000.</title> <rs>Ketteman, Bernhard</rs> and <rs>Georg Marko</rs> (Eds.) Amsterdam: Rodopi
       <idno>978-90-420-1450-3</idno> <biblScope unit="pp">51-71</biblScope>. Also published in
       <title>Tradizione e innovazione III. Atti del VI Convegno Internazionale della SILFI, 28
-      giugno - 2 luglio 2000</title> (a cura di Elisabeth Burr), Gerard-Mercator-Universität
+      giugno - 2 luglio 2000</title> (a cura di <rs>Elisabeth Burr</rs>), Gerard-Mercator-Universität
       Duisburg, Firenze: Cesati. pp 97-114 <ref target="Papers/2002-whereWrong.xml">XML source</ref> </bibl>
      <bibl n="72"><date>2001 </date> <title level="a"> On the hermeneutic implications of text
       encoding</title>(in <title>New media and the humanities: research and applications:
       proceedings of the first seminar Computers, Literature and Philology, Edinburgh 7-9 september
-      1998.</title>, ed. D. Fiormonte and J. Usher. Oxford: Humanities Computing Unit, pp 31-38.
+      1998.</title>, ed. <rs>D. Fiormonte</rs> and <rs>J. Usher</rs>. Oxford: Humanities Computing Unit, pp 31-38.
       isbn <ref target="Papers/2001-herman.xml">XML source</ref> </bibl>
      <bibl n="36"><date>2001 </date> <title>From two cultures to digital culture: the rise of the
       digital demotic</title>. Presented at CLIP, Alicante. in <title>Informatica umanistica. Dalla
@@ -189,7 +189,7 @@
       la nascita del demotico digitale</title>trad. di Federico Pellizi. <title>il verri 16: "nella
       rete"</title>, Milano: Edizioni Monogramma. pp 9-22. <ref target="Papers/2000-twoCultures.xml"
       >XML Source</ref> </bibl>
-     <bibl><date>2000 </date> [with Claudia Claridge, Rainer Siemund, and Josef Schmidt] <title
+     <bibl><date>2000 </date> [with <rs>Claudia Claridge</rs>, <rs>Rainer Siemund</rs>, and <rs>Josef Schmidt</rs>] <title
       level="a">Encoding the Lampeter Corpus</title> in <title>DRH98: selected papers from Digital
       Resources for the Humanities</title> London: Office for Humanities Communication. <ref
       target="Papers/1999-lampeterCorpus.xml">XML source</ref></bibl>
@@ -211,24 +211,21 @@
       SGML for linguistic analysis: the case of the BNC</title> in <title>Maschinelle Verarbeitung
       altdeutscher Texte V</title>. <idno type="isbn">3-484-10832-0</idno> pp 53-72. Tuebingen: Max
       Niemeyer Verlag </bibl> <ref target="Papers/1996-usingSGML.xml">XML source</ref></bibl>
-     <bibl n="17"><date>1999 </date> [with Michael Popham] <title level="a">Putting our headers
+     <bibl n="17"><date>1999 </date> [with <rs>Michael Popham</rs>] <title level="a">Putting our headers
       together: a report on the TEI Header meeting 12 September 1997.</title> <title level="s"
       >Computers and the Humanities</title>. 33 pp. 39-47. Dordrecht, Boston: Kluwer Academic
       Publishers.</bibl>
-     <bibl><date>1999 </date> [with Peter Robinson and Elizabeth Lalou] <title level="a">Vers un
+     <bibl><date>1999 </date> [with <rs>Peter Robinson</rs> and <rs>Elizabeth Lalou</rs>] <title level="a">Vers un
       standard européen de description des manuscrits: le projet Master</title> <title>Les documents
       anciens</title>: <title level="s">Documents numeriques</title> 3.1-2. Paris: Hermes science
       publications</bibl>
      <bibl><date>1999 </date> <title level="a">XML: the dream and the reality</title> [closing
       plenary address at the XML Europe Conference, Granada, May 1999] <ref
       target="Papers/1999-xmlEurope.xml">XML source</ref> </bibl>
-     <bibl><date>1999 </date> [with Peter Robinson and Elizabeth Lalou] <title>Vers un standard
-      européen de description des manuscrits: le projet Master</title> <title>Les documents
-      anciens</title>: <title>Documents numeriques</title> 3.1-2. Paris: Hermes science publications </bibl>
-     <bibl><date>1998 </date>[with Tony McEnery, Andrew Wilson, and Paul Baker] <title>Validation of
+     <bibl><date>1998 </date>[with <rs>Tony McEnery</rs>, <rs>Andrew Wilson</rs>, and <rs>Paul Baker</rs>] <title>Validation of
       Linguistic Corpora</title> [Report commissioned by ELRA]. <ref
       target="Papers/1998-validLingCorp.xml">XML source</ref></bibl>
-     <bibl><date>1998 </date> [ed with Marilyn Deegan and Harold Short] <title>The Digital
+     <bibl><date>1998 </date> [ed with <rs>Marilyn Deegan</rs> and <rs>Harold Short</rs>] <title>The Digital
       Demotic</title> London: Office for Humanities Communication. </bibl>
      <bibl n="71"><date>1997 </date> <title>The Text Encoding Initiative's Recommendations for the
       Encoding of Language Corpora: Theory and Practice</title> Prepared for a seminar on
@@ -236,7 +233,7 @@
       Industrias de la Lengua (14-18 de Julio de 1997). Sponsored by the Fundacion Duques de Soria.
       <ref target="soria.xml">XML-ish version</ref></bibl>
      <bibl n="77"><title>An analytic framework for the validation of language corpora</title> [with
-      Paul Baker; Anthony McEnery; and Andrew Wilson]. Report for the ELRA Corpus Validation Group.
+      <rs>Paul Baker</rs>; <rs>Anthony McEnery</rs>; and <rs>Andrew Wilson</rs>]. Report for the ELRA Corpus Validation Group.
       (unpublished reports) ``</bibl>
      <bibl n="27"><date>1997 </date> <title>Introducing SARA: an SGML-aware retrieval application
       for the British National Corpus</title>(Paper presented at PALC 97) </bibl>
@@ -245,16 +242,16 @@
       12-15 <ref target="http://users.ox.ac.uk/~lou/Belux/">HTML and SGML source</ref></bibl>
      <bibl><date>1996 </date> <title>Introducing SARA: exploring the BNC with SARA</title>(Paper
       presented at TALC 96)<!--ref target="sara96.html">sara96.html</ref--> </bibl>
-     <bibl n="04"><date>1996 </date> [with David T. Barnard and C.M. Sperberg-McQueen]
+     <bibl n="04"><date>1996 </date> [with <rs>David T. Barnard</rs> and <rs>C.M. Sperberg-McQueen</rs>]
       <title>Lessons learned from using SGML in the Text Encoding Initiative</title> <title>Computer
       Standards &amp; Interfaces</title> 18 3-10. <ref target="Papers/1999-lessonsLearned.pdf">PDF
       download</ref></bibl>
-     <bibl n="44"> <date>1995 </date> [with David T Barnard, Jean-Pierre Gaspart, Lynne A Price,
-      C.M. Sperberg McQueen and G.B. Varile] <title>Hierarchical encoding of text: technical
+     <bibl n="44"> <date>1995 </date> [with <rs>David T Barnard</rs>, <rs>Jean-Pierre Gaspart</rs>, <rs>Lynne A Price</rs>,
+      <rs>C.M. Sperberg McQueen</rs> and <rs>G.B. Varile</rs>] <title>Hierarchical encoding of text: technical
       problems and SGML solutions</title> <title level="j">Computers and the
       Humanities</title><biblScope unit="vol">29</biblScope><biblScope unit="pp"
       >211-231</biblScope><ref target="Papers/1995-hierarchicalEncoding.pdf">PDF download</ref> </bibl>
-     <bibl n="59"><date>1995 </date> [with Daniel Greenstein] <title>Speaking with one voice:
+     <bibl n="59"><date>1995 </date> [with <rs>Daniel Greenstein</rs>] <title>Speaking with one voice:
       encoding Standards and the Prospects for an Integrated Approach to Computing in
       History.</title> <title level="s">Computers and the Humanities</title> 29:137-148, 1995. <ref
       target="Papers/1995-speakingWith.pdf">PDF download</ref></bibl>
@@ -262,7 +259,7 @@
       Initiative</title> <title>Text Technology</title>5, 3. </bibl>
      <bibl><date>1995 </date> [ed] <title>Users' Reference Guide for the British National Corpus,
       version 1.0</title>. Oxford: Oxford University Computing Services. </bibl>
-     <bibl n="05"><date>1995 </date> [with C.M. Sperberg-McQueen] <title>The design of the TEI
+     <bibl n="05"><date>1995 </date> [with <rs>C.M. Sperberg-McQueen</rs>] <title>The design of the TEI
       encoding scheme</title>. <title>Computers and the Humanities</title> <idno type="issn"
       >0010-4817</idno> 29: 17-39. Rpt. in <title>The Text Encoding Initiative: Background and
       Contexts</title>, ed. Nancy Ide and Jean Veronis. Dordrecht, Boston: Kluwer Academic
@@ -277,7 +274,7 @@
      <bibl n="19"><date>1994 </date> <title>The TEI: towards an Extensible Standard for the Encoding
       of Texts</title> in <title>Electronic Information Resources and Historians</title> ed S. Ross.
       London: British Academy. </bibl>
-     <bibl n="75"><date>1994 </date> [with C.M. Sperberg-McQueen] <title>The ODD system of tag set
+     <bibl n="75"><date>1994 </date> [with <rs>C.M. Sperberg-McQueen</rs>] <title>The ODD system of tag set
       documentation [abstract]</title> in <title>Consensus ex machina: colloque
       international</title>, Laboratoire Lexicometrie et textes politiques, Paris.</bibl>
      <bibl n="70"><date>1994 </date> <title>Managing information with SGML -- the next
@@ -323,7 +320,7 @@
      <bibl n="16"><date>1989 </date> <title>Relational Theory, SQL, and Historical Practice</title>
       in <title>History and Computing II</title> eds. P. Denley, S. Fogelvik and C. Harvey.
       Manchester: Manchester University Press </bibl>
-     <bibl><date>1989 </date> [with Malcolm Bain et al] <title>Free Text Retrieval Systems: a review
+     <bibl><date>1989 </date> [with <rs>Malcolm Bain</rs> et al] <title>Free Text Retrieval Systems: a review
       and evaluation </title>. Taylor Graham. </bibl>
      <bibl n="65"><date>1988 </date> <title>Report of Workshop on Text Encoding Guidelines</title>
       in <title>Literary &amp; Linguistic Computing</title>, 3 (1988) <ref
