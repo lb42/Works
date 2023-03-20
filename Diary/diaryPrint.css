@@ -1,0 +1,220 @@
+
+
+@page {
+  size: A4 portrait;
+   @footnote {
+    content: leader(solid);
+    color:red;
+  }
+}
+
+
+@page :left {
+  margin-left: 3cm;
+}
+@page :right {
+  margin-left: 4cm;
+}
+
+@page:right{ 
+  @bottom-left {
+    margin: 10pt 0 30pt 0;
+    border-top: .25pt solid #666;
+    content: string(theWork) ;
+    font-size: 12pt;
+    color: #333;
+  }
+  @top-right {
+    content: string(doctitle);
+    margin: 30pt 0 10pt 0;
+    font-size: 12pt;
+  }
+}
+
+teiHeader {
+ display:none;
+ 
+}
+
+teiHeader>fileDesc>titleStmt>title {
+ string-set: theWork content()
+}
+
+div>head {
+ display:block;
+ text-align:center; 
+ font-size: large;
+ font-variant: small-caps; 
+}
+
+div[type="part"]{
+  page-break-before: always;
+  }
+  
+  
+div[type='part']>head:first-child {  
+ padding-top: 4cm;
+}
+  
+div[type='part']>head{  
+ padding-top: 1cm;
+}
+
+
+  
+div[type='div3']>head {  
+  page-break-after: avoid;
+  string-set: doctitle content();
+  padding-top: 1cm ;
+  padding-bottom: 2mm;
+}
+
+
+@page:right{
+  @bottom-right {
+    content: counter(page);
+  }
+}
+
+@page:left{
+  @bottom-left {
+    content: "Page " counter(page) " of " counter(pages);
+  }
+}
+
+titlePage {
+ 
+  page-break-after: always;
+}
+
+docTitle>titlePart {
+ display:block;
+ text-align:center; 
+ font-size: 48pt;
+ padding-top:2cm;
+ padding-bottom: 1cm;
+}
+
+docAuthor {
+ display:block;
+ text-align:center;  
+ padding-bottom:2cm;
+}
+
+titlePart {
+ display:block;
+ text-align:center; 
+ font-size: large;
+}
+
+ 
+body{  
+    padding:0;
+    font-family:Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+    counter-reset:footnote;
+}
+
+div[type='liminal']>p{
+ display:block;
+ text-align:center;
+ padding-bottom:3mm;
+}
+
+p+p {
+ display:block;
+   margin: 0;
+   padding-top: 2em;
+   text-indent: 6mm;
+}
+
+
+list {
+padding-bottom: 2em;
+ padding-top:2em;
+ margin-top:2em;
+}
+
+item>label{
+   font-style:italic;
+  }   
+ 
+item {
+display: list-item;
+ margin-left: 2em;
+ margin-bottom:1em;
+ page-break-inside:avoid;
+}
+
+pb {
+ content: " [p. " attr(n) "] ";
+ color:gray;
+}
+
+graphic[url]:before{
+display: block;
+text-align:center;
+content: attr(url, url);
+max-width: attr(width, length); 
+max-height: attr(height, length); 
+  page-break-after: avoid;
+}
+ 
+ figure {
+  display:block;
+  padding:2em;
+  margin-left:auto;
+  margin-right:auto;
+  width:80%;
+ /*  border: 2px solid gray; */
+ }
+
+figure>head {
+display:block;
+ text-align:center;
+ font-style:italic;
+ font-size:smaller;
+ padding: 1em;
+ background-color:silver;
+ page-break-after: avoid;
+  page-break-before: avoid;
+}
+
+note[place='foot'] {
+ float:footnote;
+}
+
+note[place='foot']::footnote-call {
+ color:gray;
+}
+
+
+
+ref {
+ color:blue;
+}
+
+
+ref::after {
+float: footnote;
+content: "See further " attr(target);
+text-align:left;
+color:gray;
+}
+
+ref::footnote-call {
+ color:blue;
+}
+
+/*  make a clickable link
+  a[href$=".pdf"] { 
+  background: url('https://i.imgur.com/n8EHrrI.png') 0 50% no-repeat; 
+  padding-left: 25px;
+} */
+
+foreign{
+ font-style: italic;
+}
+
+title {
+ font-style: italic;
+}

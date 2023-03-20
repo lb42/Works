@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../diaryPrint.css" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Testing links</title>
+   </titleStmt>
+   <publicationStmt>
+    <p>Published at <ptr target="http://lb42.github.io/Diary"/></p>
+   </publicationStmt>
+   <sourceDesc>
+    <p>AMOW</p>
+   </sourceDesc>
+  </fileDesc>
+  <revisionDesc>
+   <change when="2023-01-14">First draft started</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+  
+   <p>We have some proper footnotes <note place="foot">like this.</note>  but mostly we want to
+    turn links into footnotes. <ref target="http://wibble.com">Like this</ref> and also
+    <ref target="http://wibble.com">like that</ref>. Should be simple enough.
+     </p>
+   <list><item>what</item><item>happened</item><item>here</item></list>
+  </body></text></TEI>
