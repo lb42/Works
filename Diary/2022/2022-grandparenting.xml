@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../diaryPrint.css" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
  <teiHeader>
   <fileDesc>
@@ -26,14 +27,14 @@
     them to you in their spring 2022 shapes.</p>
    <figure>
     <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/paddylila.png"
-     width="800px"/>
+     width="600px" height="600px"/>
     <head>Taken on 12 Feb, at their joint birthday party, here are Paddy, born Feb 2009, with his
      dad and Lila, born Jan 2010. They have just blown out the candles on a joint birthday cake.
     </head>
    </figure>
    <figure>
     <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/louisharvey.png"
-     width="800px"/>
+     width="600px"  height="600px"/>
     <head>Taken on 15 May, here are Louis, born June 2011, and Harvey, born Aug 2016, and their dad.
      They are probably shooting something. </head>
    </figure>

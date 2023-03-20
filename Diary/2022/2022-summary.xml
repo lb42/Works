@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../diaryPrint.css" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
  <teiHeader>
   <fileDesc>
@@ -18,18 +19,18 @@
  </teiHeader>
  <text>
   <body>
-   <head/>
+   <head>2022: another year</head>
    <figure>
     <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/timeline.png"
-     width="700px"/>
+     width="450px" height="500px"/>
     <head>European end of my time line</head>
    </figure>
    <p>What's left to say about the year 2022? I survived it, as did most of those near and dear to
     me. Despite coming close several times, the UK's current apology for a government did not
-    entirely collapse. As both the rest of this text and the above graphic attest, I spent much of the year trying to avoid thinking about
-    the government by travelling. (Each red spot is a location where Mr
-    Google spotted me.) I also spent quite a lot of time engaged on <ref
-    target="http://lb42.github.io/Diary/grandparenting.html"> grand-parenting duties, </ref> of
+    entirely collapse.  As both the rest of this text and the above graphic attest, I spent much of
+    the year trying to avoid thinking about the government by travelling. (Each red spot is a
+    location where Mr Google spotted me.) I also spent quite a lot of time engaged in <ref
+     target="http://lb42.github.io/Diary/grandparenting.html" > grand-parenting duties, </ref> of
     course. </p>
    <list>
     <item>In January and February, I seem to have done a lot of running about between dentists and
@@ -66,8 +67,8 @@
      target="https://lb42.github.io/Diary/vieFrancaise-3.html">another escape to France</ref>,
      comprising a week in La Vergne, three days teaching TEI Level 1 in Tours, a day off to inspect
      a well known cathedral, and a day long meeting in Paris, before joining Lilette for <ref
-     target="https://lb42.github.io/Diary/21days.html">a three week break in Mauritius</ref>,
-     not before time. </item>
+     target="https://lb42.github.io/Diary/21days.html">a three week break in Mauritius</ref>, not
+     before time. </item>
    </list>
    <p>Minute details of where and when are all logged in my Google Location History, but I don't
     know how to share that, other than by the occasional screen shot. But there are links to more
