@@ -29,10 +29,10 @@
    </teiHeader>
    <text>
       <body>
-         <head>Best Laid Plans</head>
-       
-         <p>For my fourth expedition to France of the year (destination Lyon ENS for the 2024
-            edition of <ref target="https://ethap.sciencesconf.org/">EthAP</ref>, which as any fule kno is short for  <hi>Ecole Thématique Analyser et
+       <!--  <head>Best Laid Plans</head>
+       -->
+         <p>For my third expedition to France of the year (destination Lyon ENS for the 2024
+            edition of <ref target="https://ethap.sciencesconf.org/">EthAP</ref>, which as any fule kno is short for  <hi rend="italic">Ecole Thématique Analyser et
             Publier</hi>, I had carefully planned an
             itinerary with plenty of time for lunches. Which turned out to be just as well, since of
             the four trains I took, only the first and last were remotely on time, and the other two
