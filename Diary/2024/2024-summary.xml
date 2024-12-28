@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../diaryPrint.css" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>2023: nothing new</title>
+   </titleStmt>
+   <publicationStmt>
+    <p>Published at <ptr target="http://lb42.github.io/Diary"/></p>
+   </publicationStmt>
+   <sourceDesc>
+    <p>AMOW</p>
+   </sourceDesc>
+  </fileDesc>
+  <revisionDesc>
+   <change when="2023-09-17">First draft started</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <head>2023: nothing new</head>
+   <figure>
+    <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/2023-timeline.png"
+     width="450px" height="500px"/>
+    <head>European end of my time line</head>
+   </figure>
+   <p>What's left to say about the year 2024? Almost everything this year seems to
+    have been a replay of something that happened last year, with some minor variation in the
+    detail. The year fits around me like a worn-out dressing gown, corners and creases familiar as
+    old friends and acquaintance (a crew which continues to diminish alas). </p>
+   <p><list type="gloss">
+    <label>January</label>
+    <item>19 : outing with P+P; 24: cinema </item>
+    <label>February</label>
+    <item>17 - 20 : to London for Elizabeth's birthsay, followed by Cable Street perf;l staying at Treavelodge Elephant</item>
+    <label>March</label>
+       <item>2 - 4: to nottingham ; 
+        <ref target="2024-03-13.html">first spring time escape to France</ref> </item>
+    <label>April</label><item>26-28: Stratford Guesthouse</item>
+    <label>May</label>
+    <item> <ref target="2024-05-20.html">second escape to France</ref> </item>
+    <label>June</label>
+    <item> <ref target="2024-06-17.html">third escape to France</ref></item>
+    <label>July</label>
+    <item>10 L's birthday at Sonny Stores; 12-14 to Maryland; 19 Dine at Nandos with Robert Price and wife; 23: to Bath for Sweeney Todd; 24 Bahram's dinner partry; 26 lila visit</item>
+    <label>August</label>
+    <item>4:5 : stay at Loscoe Rd airbnb; 8-9: stay maryland; 9-10 ibis stratford; 11-13 Roiger and Olive visit ; 15 ferry back to Caen; 17 aug news of msm's death;  22 : st syphorien; girls pass thro cpr;
+     </item>
+    <label>September</label>
+    <item>6: return from France; 11 Feigenbaum visit; 13 see Cable St mark 2; stay at Z Hotel shoreditch; 18L plumber; </item>
+    <label>October</label>
+    <item> 9: coppa gig; 10: P+P4T
+     <ref target="2024-11-09.html">fourth escape to France</ref></item>
+    
+    <label>November</label>
+    <item> 
+    </item>
+    <label>December</label>
+    <item><list><item>6-8: in London; 9:  Birthday dinner at Pam's; </item><item>23: Wedding anniv lunch at the Ivy</item><item>25: Xmas lunch with everyone except Elizabeth at Sarah's</item></list></item>
+    </list></p>
+
+  </body>
+ </text>
+</TEI>
