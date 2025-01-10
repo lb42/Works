@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="../diaryPrint.css" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="https://www.tei-c.org/ns/1.0">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>2024: nothing new</title>
    </titleStmt>
    <publicationStmt>
-    <p>Published at <ptr target="http://lb42.github.io/Diary"/></p>
+    <p>Published at <ptr target="https://lb42.github.io/Diary"/></p>
    </publicationStmt>
    <sourceDesc>
     <p>AMOW</p>
@@ -36,24 +36,24 @@
     <item>17 - 20 : to London for Elizabeth's birthday, followed by Cable Street staying at Travelodge Elephant</item>
     <label>March</label>
        <item>2 - 4: to Nottingham ; 
-        <ref target="http://lb42.github.io/Diary/2024-03-13.html">An expedition across the hexagon</ref> in which we go on a mostly Norman holiday, taking in my first ever talk all about Lacy's Acting Edition (in French), a visit to Jef and Nicole, some tourism on the Ile De Re, and getting stuck in La Rochelle, before proceeding to La Vergne for a couple of weeks.     </item>
+        <ref target="https://lb42.github.io/Diary/2024-03-13.html">An expedition across the hexagon</ref> in which we go on a mostly Norman holiday, taking in my first ever talk all about Lacy's Acting Edition (in French), a visit to Jef and Nicole, some tourism on the Ile De Re, and getting stuck in La Rochelle, before proceeding to La Vergne for a couple of weeks.     </item>
     <label>April</label><item>15: experimented with the La-Souterraine-Limoges-Poitiers-Tours-Caen route back to Caen for the Comite Scientifique on 17-18. On 18th, took the overnight ferry back to Portsmouth, which involved much hanging around on Portsmouth Harbour station in the chilly morning.
   26-28: Had a nice weekend in Stratford</item>
     <label>May</label>
-    <item> <ref target="http://lb42.github.io/Diary/2024-05-20.html">Another Tours de force</ref> </item>
+    <item> <ref target="https://lb42.github.io/Diary/2024-05-20.html">Another Tours de force</ref> </item>
     <label>June</label>
-    <item> <ref target="http://lb42.github.io/Diary/2024-06-17.html">Best Laid Plans</ref> A journey from Bristol to Lyon, via London and Paris, with major train delays at every step. The return trip from Lyon to Gueret even more so, during which we learn the French for bus replacement service.  </item>
+    <item> <ref target="https://lb42.github.io/Diary/2024-06-17.html">Best Laid Plans</ref> A journey from Bristol to Lyon, via London and Paris, with major train delays at every step. The return trip from Lyon to Gueret even more so, during which we learn the French for bus replacement service.  </item>
     <label>July</label>
     <item>10 L's birthday at Sonny Stores; 12-14 to Maryland; 19 Dine at Nandos with Robert Price and wife; 23: to Bath for Sweeney Todd; 24 Bahram's dinner party; 26 Lila visits</item>
     <label>August</label>
     <item>A quick round of visits before we evaporate to France for what's left of the summer. Complex planning needed to cope with sudden unexpected Mauritian arrivals. On the 4th we went to Nottingham, staying at an AirBNB on Loscoe Rd; on the 9th we went Maryland, staying at the Ibis Stratford; on the 11th we were back in Bristol welcoming Roger and Olive. And on the 15th we took the ferry from Portsmouth back to Caen, this time without incident. The news of Michael Sperberg McQAueen's unexpected decease hit Facebook and therefore also La Vergne a few days later, and I spent some time pondering the best sort of response, as did many other people. The fete de st symphorien passed as it always does with excellent music and dancing girls. ;
      </item>
     <label>September</label>
-    <item>We returned from France on the 6th, with a few days to sort things out for a visit from Mr and Mrs Feigenbaum; we took them out to see the countryside, despite his problems with the car; on the 13th to London again for Cable Street (Mk 2) which was much better than Mk 1, whatever <ref target="http://www.musicalsmagazine.com/features/article/cable-street-review">this reviewer</ref> says; we stayed at Z Hotel Shoreditch in an overpriced un-windowed cellar; on the 18th cheerful plumbers came and restored hot water apparently without needing to send in a little bill. </item>
+    <item>We returned from France on the 6th, with a few days to sort things out for a visit from Mr and Mrs Feigenbaum; we took them out to see the countryside, despite his problems with the car; on the 13th to London again for Cable Street (Mk 2) which was much better than Mk 1, whatever <ref target="https://www.musicalsmagazine.com/features/article/cable-street-review">this reviewer</ref> says; we stayed at Z Hotel Shoreditch in an overpriced un-windowed cellar; on the 18th cheerful plumbers came and restored hot water apparently without needing to send in a little bill. </item>
     <label>October</label>
     <item> 9: Went to Coppa to see L's choir lady sing; 10: P+P4T</item>
       <label>November</label>
-     <item> I gave a conference paper in English at a real academic conference    <ref target="http://lb42.github.io/Diary/2024-11-09.html">Once more with feeling</ref>!</item>
+     <item> I gave a conference paper in English at a real academic conference    <ref target="https://lb42.github.io/Diary/2024-11-09.html">Once more with feeling</ref>!</item>
  
     <label>December</label>
     <item><list><item>6-8: in London; 9:  Birthday dinner at Pam's; </item><item>23: Wedding anniv lunch at the Ivy</item><item>25: Xmas lunch with everyone except Elizabeth at Sarah's; Elizabeth and co came to stay till the New Year despite car collapse; on the 30th BEST EVER visit to Bath for panto, with Elizabeth, Daphne, Coco, and Leon. </item></list></item>
