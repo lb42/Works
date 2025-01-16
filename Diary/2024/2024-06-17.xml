@@ -1,55 +1,145 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Best Laid Plans </title>
-            
-         </titleStmt>
-         <editionStmt>
-            <edition>
-               <date>2024-06-24T11:01:10.155388662</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <p>Published at <ptr target="http://lb42.github.io/Diary"/></p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Written by OpenOffice</p>
-         </sourceDesc>
-      </fileDesc>
-      <revisionDesc>
-         <listChange>
-            <change>
-               <name/>
-               <date>2024-06-29T16:46:10.362529695</date>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
-       <!--  <head>Best Laid Plans</head>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Best Laid Plans </title>
+
+   </titleStmt>
+   <editionStmt>
+    <edition> <date>2024-06-24T11:01:10.155388662</date> </edition>
+   </editionStmt>
+   <publicationStmt>
+    <p>Published at <ptr target="http://lb42.github.io/Diary"/></p>
+   </publicationStmt>
+   <sourceDesc>
+    <p>Written by OpenOffice</p>
+   </sourceDesc>
+  </fileDesc>
+  <revisionDesc>
+   <listChange>
+    <change> <name/> <date>2024-06-29T16:46:10.362529695</date> </change>
+   </listChange>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <!--  <head>Best Laid Plans</head>
        -->
-         <p>For my third expedition to France of the year (destination Lyon ENS for the 2024
-            edition of <ref target="https://ethap.sciencesconf.org/">EthAP</ref>, which as any fule kno is short for  <hi rend="italic">Ecole Thématique Analyser et
-            Publier</hi>, I had carefully planned an
-            itinerary with plenty of time for lunches. Which turned out to be just as well, since of
-            the four trains I took, only the first and last were remotely on time, and the other two
-            were delayed by an hour or more of valuable lunching time. Tchah, as my sister used to
-            say.</p>
-         <div><head>17 June</head>  <p>The outward  journey began, since you ask, at Clifton Down, where the 1025 filled up with students and trundled off to Temple Meads in the sunshine, affording delightful views across the suburbs, as it usually does. At Temple Meads, the 1100 departure for Paddington was already waiting so on I got. As it set off we were informed by a remarkably communicative train manager (when did they stop being guards? or  conductors?) that  due to signalling  failures somewhere no trains were running between  Chippenham and Swindon; we would therefore be routed around said stations, so there might be some delay. He was not just whistling Dixie, as my friend Peter used to say. After Bath, the train slowed down to a halt, then trundled at high speed for a bit, then stopped again. Then again. And again.  Several times. The view from the window was not the usual blur either: we were rambling wild and free across Wiltshire , occasionally zooming through exotic locations like Trowbridge or Pewsey, but also quite  frequently sitting in a field admiring the view while other trains ahead of us moved out of the way: you could (almost)  hear them muttering “arr, we doant roightly spect to zee many oigh speed trains loike thee round these parrts”. We did see the White Horse though. Eventually, arriving at Paddington a delicately judged 55 minutes late, with therefore a bare 15 minutes to get to St Pancras before Eurostar boarding was due to start, I walked as fast as my fat legs would carry  me to the Hammersmith &amp; City line, which deposited me at St Pancras just in time to join the queue of people trying to catch the 1430 departure for Paris. Oh don’t worry they said,  plenty of time to go through the rites of passage, passport checked (twice), security check… BEEP. What? The security portal insists I should be sent back to Russia. Twice. I even get taken into the private room round the corner where they take unruly passengers for private beatings. But no sign of anything suspicious on my person, so eventually they let me join the heaving masses trying to find somewhere to sit  inside the “lounge”. Oh dearie me. </p>
-         <p>The incoming Eurostar has been delayed (no explanation given) and will not be boarding for another 90 minutes, at the earliest. I fight my way through the hordes to get a long overdue coffee and pret sandwich, and  dutifullywait.  The lounge gets fuller and fuller, as passengers for the next train to Bruxelles also start to arrive. There is (I estimate) enough space for 0,75 of a fully-loaded Eurostar to sit comfortably in this lounge, which  is currently occupied by well over two trains worth  of demoralised would-be travellers.  So it goes. Eventually, of course the incoming train arrives, and we are boarded, and trundled back to Paris, arriving only 90 minutes later than scheduled into Gare du Nord. Which means that the chances of getting a decent lunch before my next train leaves are slim to non-existent.  The RER B is no more horrible than usual at this time of day,known in French as the <hi rend="italic">heure d’affluence</hi>. The Gare de Lyon does offer a choice of sandwiches at least some of which are edible. And look, here is my last train of the day, just sitting there waiting for me. A splendidly red FrecciaRossa, business class on which boasts real leather seats, restorative calm, a little red box of tasty biscuits, and, gasp, real espresso coffee. It leaves at 8 pm, on time and arrives precisely one minute early at Lyon Perrache. Phew.  I stagger down the warm evening streets of the Confluence to my hotel and collapse into a cozy Ibis bed. </p></div><div>
-         <head>18 June</head>
-         <p>Up not particularly early, hoorah. Ascertain that I can check into my next hotel, the “ApartCity Gerland” any time I like, and proceed to do so. It’s too hot to walk that far, so I get a tram and a metro, thus discovering that my ancient TCL tickets are no longer valid.  The ApartCity is fairly drab, but convenient, not only for the ENS, but also for lots of nice restaurants, notably one called Trattino  where I at last have  a proper lunch : the  establishment specialises in umpteen varieties of gnocchi, and offers today a dish called “sexy zucchini” . All very nice sitting on a shady terrasse with no trains to catch for the next few days, no commitments at all  in fact till this evening when I am invited to dine with Alexei and the others  at the Bistrot du Potager, which I remember as being well worth the detour. Well, maybe I should just check the <hi rend="italic">exercices</hi>  for tomorrow's <hi rend="italic">tutos</hi>
-            once more, or maybe not.  At  dinner, Alexei and Elena and assorted lyonnais/es have assembled en masse, requiring reactivation of my French conversational mode; sufficiently well that  I find myself at the end of the dinner  waxing  enthusiastic about 19th  c theatre.</p></div><div>
-         <head>19 June</head>
-         <p>Next day, the <hi rend="italic">Ecole Thématique</hi> kicks off. Elena gives an invited speech about her latest wonderful research project, and I start working  for my living by teaching introductory tutorials on  xPath and XSLT; the same ones as we have been giving for years, with errors that get corrected, and then uncorrected in a few embarrassing cases. There are about 20 participants, and they all seem reasonably happy anyway. The day closes with an introduction to xQuery from Maud, and then everyone disperses. I am invited to a very good dinner at Brasserie Georges with Emmanuel, Alexei, and Nathalie Arlin  … where  yes, I waxed enthusiastic about 19th  c. theatre again.</p></div><div>
-         <head>20 June</head>
-         <p>Day Two of EThAP I do not have to do anything, except stay awake and preferably engaged during  Beatrice’s introduction to txm. My reward was a slightly better understanding of how to use  txm, and a sympathetic understanding of what these courses  look like from the participant’s seat. Worth the effort. In the evening, just as I was  preparing  for a nice farewell dinner with all the students, I was  somewhat discombobulated, not to say <hi rend="italic">bouleversé</hi>  by  a text alerting me to the fact that at least one of the  trains I was planning to take tomorrow had  been cancelled. But surely, this is a TER: they are never cancelled? Sympathetic students assured me that even when they were, there was always an alternative. </p></div><div>
-         <head>21 June</head>
-            <p>The plan was 0934 Lyon to Saint  Germain des Fossées arriving 1119; 1138 StGdesF  to Riom arriving 1208; 1228 Riom to Montlucon arriving 1355; lengthy late lunch; 1515 Montlucon to Gueret, arriving 1616; 1800 TAD from Gueret. But this was not to be. Whether because of <hi rend="italic">inondations</hi> on the line or  <hi rend="italic">action sociale</hi>  Montlucon station was closed for the day, with no trains going in or out. But this is France, where if a TER is cancelled there is usually a bus replacement. And so indeed it transpired. At Riom, after an uneventful progress by train, I joined two lost Hungarian backpackers at the bus stop, where (we were assured) a replacement for the  1228 train  would surely soon arrive, in the shape of a  1228 bus. This bus would naturally follow the same itinerary as the train, but more slowly. Just as  when we finally got to Montlucon, my planned 1515 train was  replaced by a 1515 bus. The “more slowly” part meant that I missed out on proper lunches yet again (though I did find some sustenance in a pleasant <hi rend="italic">boulangerie</hi>  in Riom); following the same itinerary however had the interesting side effect of exposing me to bits of the French countryside I would never otherwise have seen,  more specifically the insides  of towns and villages known to me only as brief railway station halts, some (but not all) of which were quite charming. The bus also plunged dramatically up and down various routes no train would ever consider, of which perhaps the most dramatic was the gorge of the Creuse at Busseau  where the train gingerly advances over <ref target="https://fr.wikipedia.org/wiki/Viaduc_de_Busseau">a magnificent 19th  century viaduct</ref>.</p>
-         <p>And so eventually around 1715 to Gueret station, with time to get a much merited beer from the new bar opposite, before catching the 1800 TAD back home with Evelyn. And home looks much as it did when I left it, though somewhat wetter. Sebastian has kindly cut the grass in the front garden, but there is still plenty of scope for strimming around the house. I will seriously consider it over the weekend.</p>
-    </div>  </body>
-   </text>
+   <p>For my third expedition to France of the year (destination Lyon ENS for the 2024 edition of
+    <ref target="https://ethap.sciencesconf.org/">EthAP</ref>, which as any fule kno is short for
+    <hi rend="italic">Ecole Thématique Analyser et Publier</hi>, I had carefully planned an
+    itinerary with plenty of time for lunches. Which turned out to be just as well, since of the
+    four trains I took, only the first and last were remotely on time, and the other two were
+    delayed by an hour or more of valuable lunching time. Tchah, as my sister used to say.</p>
+   <div>
+    <head>17 June</head>
+    <p>The outward journey began, since you ask, at Clifton Down, where the 1025 filled up with
+     students and trundled off to Temple Meads in the sunshine, affording delightful views across
+     the suburbs, as it usually does. At Temple Meads, the 1100 departure for Paddington was already
+     waiting so on I got. As it set off we were informed by a remarkably communicative train manager
+     (when did they stop being guards? or conductors?) that due to signalling failures somewhere no
+     trains were running between Chippenham and Swindon; we would therefore be routed around said
+     stations, so there might be some delay. He was not just whistling Dixie, as my friend Peter
+     used to say. After Bath, the train slowed down to a halt, then trundled at high speed for a
+     bit, then stopped again. Then again. And again. Several times. The view from the window was not
+     the usual blur either: we were rambling wild and free across Wiltshire , occasionally zooming
+     through exotic locations like Trowbridge or Pewsey, but also quite frequently sitting in a
+     field admiring the view while other trains ahead of us moved out of the way: you could (almost)
+     hear them muttering “arr, we doant roightly spect to zee many oigh speed trains loike thee
+     round these parrts”. We did see the White Horse though. Eventually, arriving at Paddington a
+     delicately judged 55 minutes late, with therefore a bare 15 minutes to get to St Pancras before
+     Eurostar boarding was due to start, I walked as fast as my fat legs would carry me to the
+     Hammersmith &amp; City line, which deposited me at St Pancras just in time to join the queue of
+     people trying to catch the 1430 departure for Paris. Oh don’t worry they said, plenty of time
+     to go through the rites of passage, passport checked (twice), security check… BEEP. What? The
+     security portal insists I should be sent back to Russia. Twice. I even get taken into the
+     private room round the corner where they take unruly passengers for private beatings. But no
+     sign of anything suspicious on my person, so eventually they let me join the heaving masses
+     trying to find somewhere to sit inside the “lounge”. Oh dearie me. </p>
+    <p>The incoming Eurostar has been delayed (no explanation given) and will not be boarding for
+     another 90 minutes, at the earliest. I fight my way through the hordes to get a long overdue
+     coffee and pret sandwich, and dutifully wait. The lounge gets fuller and fuller, as passengers
+     for the next train to Bruxelles also start to arrive. There is (I estimate) enough space for
+     0,75 of a fully-loaded Eurostar to sit comfortably in this lounge, which is currently occupied
+     by well over two trains worth of demoralised would-be travellers. So it goes. Eventually, of
+     course the incoming train arrives, and we are boarded, and trundled back to Paris, arriving
+     only 90 minutes later than scheduled into Gare du Nord. Which means that the chances of getting
+     a decent lunch before my next train leaves are slim to non-existent. The RER B is no more
+     horrible than usual at this time of day,known in French as the <hi rend="italic">heure
+     d’affluence</hi>. The Gare de Lyon does offer a choice of sandwiches at least some of which are
+     edible. And look, here is my last train of the day, just sitting there waiting for me. A
+     splendidly red FrecciaRossa, business class on which boasts real leather seats, restorative
+     calm, a little red box of tasty biscuits, and, gasp, real espresso coffee. It leaves at 8 pm,
+     on time and arrives precisely one minute early at Lyon Perrache. Phew. I stagger down the warm
+     evening streets of the Confluence to my hotel and collapse into a cozy Ibis bed. </p>
+    <figure><graphic url="../media/20240617-medley.png" width="600px"/><head>Pewsey to St Pancras to the Gare de Lyon</head></figure>
+   </div>
+   <div>
+    <head>18 June</head>
+    <p>Up not particularly early, hoorah. Ascertain that I can check into my next hotel, the
+     “ApartCity Gerland” any time I like, and proceed to do so. It’s too hot to walk that far, so I
+     get a tram and a metro, thus discovering that my ancient TCL tickets are no longer valid. The
+     ApartCity is fairly drab, but convenient, not only for the ENS, but also for lots of nice
+     restaurants, notably one called Trattino where I at last have a proper lunch : the
+     establishment specialises in umpteen varieties of gnocchi, and offers today a dish called “sexy
+     zucchini” . All very nice sitting on a shady terrasse with no trains to catch for the next few
+     days, no commitments at all in fact till this evening when I am invited to dine with Alexei and
+     the others at the Bistrot du Potager, which I remember as being well worth the detour. Well,
+     maybe I should just check the <hi rend="italic">exercices</hi> for tomorrow's <hi rend="italic"
+     >tutos</hi> once more, or maybe not. At dinner, Alexei and Elena and assorted lyonnais/es have
+     assembled en masse, requiring reactivation of my French conversational mode; sufficiently well
+     that I find myself at the end of the dinner waxing enthusiastic about 19th c theatre.</p>
+   </div>
+   <div>
+    <head>19 June</head>
+    <p>Next day, the <hi rend="italic">Ecole Thématique</hi> kicks off. Elena gives an invited
+     speech about her latest wonderful research project, and I start working for my living by
+     teaching introductory tutorials on xPath and XSLT; the same ones as we have been giving for
+     years, with errors that get corrected, and then uncorrected in a few embarrassing cases. There
+     are about 20 participants, and they all seem reasonably happy anyway. The day closes with an
+     introduction to xQuery from Maud, and then everyone disperses. I am invited to a very good
+     dinner at Brasserie Georges with Emmanuel, Alexei, and Nathalie Arlin … where yes, I waxed
+     enthusiastic about 19th c. theatre again.</p>
+   </div>
+   <div>
+    <head>20 June</head>
+    <p>Day Two of EThAP I do not have to do anything, except stay awake and preferably engaged
+     during Beatrice’s introduction to txm. My reward was a slightly better understanding of how to
+     use txm, and a sympathetic understanding of what these courses look like from the participant’s
+     seat. Worth the effort. In the evening, just as I was preparing for a nice farewell dinner with
+     all the students, I was somewhat discombobulated, not to say <hi rend="italic">bouleversé</hi>
+     by a text alerting me to the fact that at least one of the trains I was planning to take
+     tomorrow had been cancelled. But surely, this is a TER: they are never cancelled? Sympathetic
+     students assured me that even when they were, there was always an alternative. </p>
+   </div>
+   <div>
+    <head>21 June</head>
+    <p>The plan was 0934 Lyon to Saint Germain des Fossées arriving 1119; 1138 StGdesF to Riom
+     arriving 1208; 1228 Riom to Montlucon arriving 1355; lengthy late lunch; 1515 Montlucon to
+     Gueret, arriving 1616; 1800 TAD from Gueret. But this was not to be. Whether because of <hi
+     rend="italic">inondations</hi> on the line or <hi rend="italic">action sociale</hi> Montlucon
+     station was closed for the day, with no trains going in or out. But this is France, where if a
+     TER is cancelled there is usually a bus replacement. And so indeed it transpired. At Riom,
+     after an uneventful progress by train, I joined two lost Hungarian backpackers at the bus stop,
+     where (we were assured) a replacement for the 1228 train would surely soon arrive, in the shape
+     of a 1228 bus. This bus would naturally follow the same itinerary as the train, but more
+     slowly. Just as when we finally got to Montlucon, my planned 1515 train was replaced by a 1515
+     bus. The “more slowly” part meant that I missed out on proper lunches yet again (though I did
+     find some sustenance in a pleasant <hi rend="italic">boulangerie</hi> in Riom); following the
+     same itinerary however had the interesting side effect of exposing me to bits of the French
+     countryside I would never otherwise have seen, more specifically the insides of towns and
+     villages known to me only as brief railway station halts, some (but not all) of which were
+     quite charming. The bus also plunged dramatically up and down various routes no train would
+     ever consider, of which perhaps the most dramatic was the gorge of the Creuse at Busseau where
+     the train gingerly advances over <ref target="https://fr.wikipedia.org/wiki/Viaduc_de_Busseau"
+     >a magnificent 19th century viaduct</ref>.</p>
+    <p>And so eventually around 1715 to Gueret station, with time to get a much merited beer from
+     the new bar opposite, before catching the 1800 TAD back home with Evelyn. And home looks much
+     as it did when I left it, though somewhat wetter. Sebastian has kindly cut the grass in the
+     front garden, but there is still plenty of scope for strimming around the house. I will
+     seriously consider it over the weekend.</p>
+   </div>
+  </body>
+ </text>
 </TEI>
