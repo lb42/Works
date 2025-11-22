@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="diaryPrint.css" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+   <title>From the Vaults... 1992</title>
+   </titleStmt>
+   <publicationStmt>
+    <p>Published at <ptr target="http://lb42.github.io/Diary"/></p>
+   </publicationStmt>
+   <sourceDesc>
+    <p>AMOW</p>
+   </sourceDesc>
+  </fileDesc>
+  <revisionDesc>
+   <change when="2025-11-22">Converted from old web page to XML</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+
+
+
+<head>Life with Me: 1992</head>
+  
+  <p>There seems to be a point of view prevalent amongst the other
+  inhabitants of Burnard Towers to the effect that I am never there, but
+  spend all my time gadding around foreign locations and not always
+  remembering to bring daughters nice presents back from them to
+  boot. In order to lay at least some of these indecent speculations to
+  bed once for all, this year I have taken the trouble of checking back
+  through the disorganized mass of scribbles and ticket stubs and
+  expense claims to come up with the following AUTHORITATIVE LIST of my
+  foreign engagements during 1992.</p>
+  
+  <p><label>JANUARY</label> 3-10th. To Chicago for a few days editorial work and
+  thence to Las Cruces for a three day workshop at the University of New
+  Mexico's famed Center for Research in Linguistics run by Yorick Wilks.
+  
+  </p><p>22-30th: To Pisa for a pair of workshops, this time at the even
+  more famed (and culinarily far superior) Inst. di Linguistica
+  Compazionale; the first one had large numbers of large cheeses, and
+  the second a smaller number of grease monkeys. Michael and I had to
+  work at both.
+  </p><p><label>FEBRUARY</label> I stayed in Oxford, apart from a couple of day trips to London
+  
+  </p><p><label>MARCH</label> 1 -3 : to New Brunswick, home of Johnson &amp; Johnson,
+  for a TEI Steering Committee Meeting. I stayed at the Hyatt and the
+  meeting was in Rutgers University, but in three days you don't see
+  much of either.  
+  </p><p> Rest of month and all of <label>APRIL</label> I stayed in Oxford
+  (though, admittedly, somewhat pre-occupied by the ALLCACH 92
+  conference which I had got lumbered with the organization of. It was
+  in Christ Church and there were about 250 attendees to worry about.)
+  
+  </p><p><label>MAY</label> 25th: To Chicago for another TEI Steering Committee
+  meeting, followed by a three day meeting of the Technical Review Committee. I stayed with Michael,
+  which meant a lot of suburban commuting from Oak Park.
+  
+  </p><p>In <label>JUNE</label> I note a couple of domestic engagements: only one (in
+  Lancaster) involving an over night stay, this time in a really posh
+  British hotel. And I did my share of baby sitting while Lilette wound
+  up to her degree ceremony.
+  
+  </p><p><label>JULY</label> 11th: Another weekend in the wilds of New Jersey: this
+  time I think we stayed in a Best Western hotel nowhere in particular
+  called Scotch Plains, and met at Susan Hockey's house. It's hard to
+  tell.  
+  </p><p>24th: To Nantes for COLING 92. I taught a half day workshop on
+  TEI matters, the reward for which was four days in a nice hotel, lots
+  of sunshine and no obligation to go to any boring sessions about
+  computational linguistics. And I went to the seaside. This one was
+  definitely more pleasure than business.
+  
+  </p><p><label>AUGUST </label>
+  28th: To <ref target="9208bologna.txt">Bologna</ref> 
+  for the Association for History and Computing's annual
+  conference, for which my friend Digger and I had a paper, most of
+  which we prepared at Guy's mountain retreat in Vergato, in
+  the intervals of helping Guy fight forest fires. And we didn't stay in
+  Bologna very long, it must be admitted. Too hot. Then on to Pisa and
+  <!--a href="9209paris.htm"-->to <ref target="reports:collected.xml#Report-1992-09-12"> Paris</ref> for a couple of day's consultation each with various corpus
+  builders. Hey, this is what the TEI is paying me for, right?
+  
+  </p><p><label>SEPTEMBER</label> 18-20: To Bergen for the only real TEI workgroup
+  meeting of the year. A real pleasure to spend two days at the
+  Wittgenstein Archive arguing about how to encode manuscripts with
+  assorted manuscript encoders. And only one afternoon sight-seeing (I
+  saw Grieg's grave and learned he was Scots. Did you know that?)
+  
+  </p><p><label>OCTOBER</label> 15-16 : Two days in Bonn at another corpus
+  workshop. This was politically a good idea, but intellectually fairly
+  pointless since my knowledge of German has not advanced much beyond
+  the 'can i have a cup of coffee' stage. I spent a lot of time
+  whispering to the helpful lady next to me.
+  
+  </p><p>21-24: To Bologna again, definitely for holiday purposes, paid for by
+  my giving a childs' introduction to things electronic at a conference
+  organized by something called the Association for Italian Teachers of
+  English, in Parma, where I met a different bunch of people and eat
+  very well indeed.  Guy and I took a leisurely route back, involving a
+  visit to a very strange place called Sabionetta.
+  
+  </p><p><label>NOVEMBER</label> 27-9: The third transatlantic weekend necessitated
+  by a TEI Steering Committee Meeting; this time we stayed in a Best
+  Western hotel in Bernardsville New Jersey and met in Don Walker's
+  house, but only the names seemed to be different. I had a nice day
+  before the meeting wandering around Manhattan with Joe Raben
+  however.
+  
+  </p><p><label>DECEMBER</label>
+  7-9 As a birthday treat, I took Lilette to Paris with me. Then I went
+  to a two day workshop on HyTime (a new ISO standard forthe encoding of
+  time based hypermedia, since you ask).
+  
+  </p><p>I think this summary proves conclusively that there have been as many
+  as six weeks at a time when I have not stirred from Oxford. And no
+  month in which I have been away for more than two weeks. So I am sure
+  you will agree that rumours of my non-existence are seriously
+  over-stated. Moreover, I have learned a great deal from all this
+  foreign travel, if only where to eat well in several European cities
+  (and that it is simply not possible to eat well in any American
+  city). And I can now announce my OFFICIAL HONOURS LIST for 1992 as
+  follows: 
+  <list>
+  <item>Best Transatlantic Carrier: Air India. The food is
+  interesting and the movies are amazing. Runner up: Virgin Atlantic
+  (movies also pretty good, but food less impressive) </item>
+  <item>Most Memorable
+  Lunch: Osteria 36, Parma. (four hours of unalloyed pleasure and five
+  courses) </item>
+  <item>Most Ridiculous Venue: La Cantina, Old Las Cruces (a
+  lovingly restored 19th c. bordello now masquerading as a Mexican
+  restaurant) </item>
+  <item>Most Bizarre Historical Sight: the town of Sabionetta,
+  where nothing much has happened since the 15th century </item>
+  <item>Most
+  Impressive Railway Station: the Musee d'Orsay, Paris (runner up:
+  Hoboken Rail/Ferry Terminal, terminus of the the first electric
+  railway in the US ran, driven by Edison himself, and from which there
+  is a magnificent view of Manhattan) </item>
+  <item>Best Musical Debut: a difficult
+  choice, what with Sarah's performances at the Dome and the Old Fire
+  Station, but I think on balance the opportunities for low comedy
+  offered by her role as the Mad Hatter in Alice ...</item>
+  </list></p>
+  <!--
+
+Jan 
+3: To Chicago
+6: To El Paso, and thence to CLR for workshop till 9th.
+An exciting journey with many things getting lost) and found
+14: BNC PC at Bentink St
+22-30: Pisa for Corpus wkshop, followed by more corpus wokshoip
+Feb
+29: to New Bwick for SC (till 3 Mar)
+Mar
+5: SGML UG London
+28: Dido at Sheldonian
+Apr
+3 Willard Arrives
+4-9 ALLCACH92
+9 Arnes concert
+13 Lavanino stays
+23: A chapter of P2 is published!
+30:Kingston Poly, then to Munster
+May
+5: Talk to linguistics dept in Oxf
+23: B's choir at Dorchester Abbey
+25: to chicago for SC followed by Not the AB (TRC), till 1st
+June
+8: Miki And Willard both arrive; I take W cycling on 10th
+11: heavy meeting with OEP
+12: willard gives talk in Jesus; B's exams finish
+13: visit Ma
+20: to Brighton for L's degree
+29: To Lancaster for BNC PC
+July
+3: finish OET manual
+11-13: SC NJ
+15: Alice
+16: BNC interviews
+17: another chapter published
+20-24: Coling, Nantes (qv)
+29: E and L go to France with Bex (till 5th)
+30: A Freeman
+Aug
+20: To Bristol for SGML Project
+28: To Bologna for AHC (sort of), Pisa, (qv)
+Sept
+10: SGMLUK agm in London
+18-20: Bergen: mss wg
+21-26: MSM works here, SC meets Oxford 25-6
+29: BNC PC
+Oct
+8: Seminar on BNC at BL
+15-6: Bonn Corpus wkshop
+21-4: Bologna, Parma
+29 : farewell visit to BP
+Nov
+11: take B to London for teeth
+12: Sheffield 
+25 : meet J Triggs
+27/8: To Manhattan, meet Joe Raben, then on to Bernardsville
+
+Dec
+2: SGMLP mtg Oxf
+4: Dentist: lost tooth
+5: To Paris with Lilette
+7-8: Hytime workshop, Paris
+12:Hereford for G's 70th bdy
+17: E's first night in Babes
+23: 20th weddn anniv
+
+
+- Workshop on Construction of Representative Language Corpora,
+held at the University of Bonn (15-16 October 1992)
+
+- Presentation on use of electronic resources in language
+teaching (Annual conference of Italian Teachers of English,
+University of Parma, 21-24 Oct 92)
+
+- Presentation on text encoding standards and text archiving at
+the University of Sheffield, 12 Nov 92.
+
+
+
+-->
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </body></text></TEI>
