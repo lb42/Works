@@ -1,0 +1,139 @@
+<?xml version="1.0"?> 
+<?xml-stylesheet type="text/css" href="diaryPrint.css" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Oz notes</title>
+   </titleStmt>
+   <publicationStmt>
+   <p>Published at <ptr target="http://lb42.github.io/Diary"/></p>
+   </publicationStmt>
+   <sourceDesc>
+   <p>AMOW</p>
+   </sourceDesc>
+  </fileDesc>
+ <revisionDesc>
+ <change when="2025-11-22">Converted from old web page to XML for Work</change>
+ </revisionDesc>
+ 
+ </teiHeader>
+ <text>
+  <body>
+   <list>
+    <label><date>Monday 24 sep 2001</date></label>
+    <item>Arrive Sydney a little early about 8 pm, and spot in rapid
+    succession Alan M and Dave N. Mutual introductions, and we drive
+    off to Sancta Sophia. Walk down to pub for a pint or so before
+    collapsing.
+    </item>
+    <label><date>Tuesday 25</date></label>
+    <item>TEI/Master Workshop: could have been worse</item>
+    <label><date>Wednesay 26</date></label>
+    <item>In the evening, Peter insists on taking us on ferry boat to
+    ?, where we meet his mum, and proceed to a posh resto by the now
+    invisibly dark seaside; a bit too pretentious for matty; he and
+    i argue spiritedly about page images stoutly ignoring peter's mum
+    and her aged friend, who therefore have to focus on creagh. i am
+    falling asleep and want to get home to panic about my talks long
+    before the taxi finally appears</item>
+    <label><date>Thursday 27</date></label>
+    <item><p>I give two plenaries, one at the start of the day and one
+    after lunch about the BNC: both brilliant</p>
+     <p>Afterwards, join D Pitti et al people for drinks in the Nags
+    Head, followed by conf dinner in Indian
+    resto on Glebe Pt Rd: heated argument on immigration issues with
+    Ian Johnson, his charming oriental wife,  and Peter R. More
+    interesting than the Burrowses anyway.</p></item>
+    <label><date>Friday 28</date></label>
+    <item>Last day of conf; I have to move rooms again, up to rm 215
+    on top corridor. Everyone goes to dine at Toren's  house
+    except me</item>
+    <label><date>Saturday 29</date></label>
+    <item>Wake late, shower in solitary splendour, wonder how I will
+    find anyone to play with, and then Matthew and A-M turn up and we
+    agree to  meet later for tourism purposes. I have time to walk down Church St
+    to King St to get my haircut before meeting then again for
+    expedition to the Botanic Gdns  (excellent lunch in posh resto;
+    flying foxes; ) and ferry trip to
+    Manly (a bit too late to do much but walk a little along the
+    cliff). We drink a lot of wine in winebar on Glebe Pt Rd (Matthew
+    insists on sending one bottle back) and then eat in very noisy
+    thai restaurant, where the proprietor and A-M strike up
+    friendship on basis of shared love for scandinavian
+    furniture. Back home, I find secret instructiomns for how to get
+    into my new luxury apt, and do so: goodness me, what a lot of
+    space and gadgetry! </item>
+    <label><date>Sunday 30</date></label>
+    <item>Wake too late to find anyone much, though I just miss both
+    Matty and Alan, and leave notes for both before returning to
+    enjoy my splendour, shop for breakfast items, do washing
+    etc. Around lunchtime, call David. Fail to connect my machine to
+    the net in his office, but check email anyway. </item>
+
+    <label><date>Monday 1st oct</date></label>
+    <item>Public holiday. To Bondi Beach! To Chinatown, where we saw a
+    dragon and bought opals. Was this the day we
+    had delicious chinese vegeterian? </item>
+    <label><date>Tuesday 2nd oct</date></label>
+    <item><p>Dave rings to say he thinks the weather's too bad for an
+    outing, but evidence doesnt support this, especially when he's
+    finished whatever the lecture preparation panic was about. So we
+    set off around midday, and drive down the Gt West Rd, to various
+    scenic mountain spots: Wentworth Falls, and then Katoomba where we had
+    steak and chips in beautifully preserved 20s restaurant, aptly
+    named The Paragon. We do vertical
+    mtn railway and swiss cable car along with many other japanese
+    tourists, nice rainforest though. Back to the car just as the
+    skies open and the thunder storm begins.</p>
+     <p>In the evening, we drive to the Rocks, through the rain,
+    interesting inner city urban renewal kind of thing, and a pub
+    selling nice beer.</p></item>
+
+    <label><date>Wednesday  3rd</date></label>
+    <item><p>Got up, tidied up, reluctant to leave my palatial flat,
+    but did so anyway. After 1000 re-negotiated a checkout time of 11
+    with the Lancashire lass at reception, and almost made it. Walk
+    across greens and the campus, dragging my stuffed suitcase to
+    David's office. Kids are back, students everywhere. Had a coffee
+    with David, checked my email, used the loo, left all the stuff
+    with him and departed c. 1400 for Circular Harbour again</p>
+     <p>Took Ferry to Manly again: this time, packed with holiday
+    makers, mostly Oz or Japanese. Harbour views magnificent, sunshine
+    beautiful. Arriving at Manly, walk across to the Beach proper,
+    along street just like imagined English seaside town, and buy
+    fish and chips to eat on the beach. Sun a bit sporadic, but enough
+    of it to warrant sitting down doing nowt for half an hour or so;
+    watch surfers in wet suits doing implausible things on top of
+    waves, wonder whether or not to do more scenic walking, but not
+    really enough time. Back on 1635 ferry, and then catch tube train
+    to Newtown, wrong end of Kings road for David's flat, where he is
+    packing. </p>
+     <p>We get falafel sandwiches from the habibi, and wash it down
+    with properly made and served delicious oolong tea, as per David's
+    instructions from Meili. And then we get cab to the train for
+    Melbourne.</p></item>
+<label><date>Thursday 4th</date></label>
+<item>Woken from fitful slumbers on lurching train by disgusting
+     apology for breakfast. Never mind, we are now in Melbourne. Dave
+     takes me on rapid tram-based tour for an hour or so, and we get
+     some coffee, before I take next train off to Castlemaine. His
+     mate that he's going to stay with has announced that Janine will
+     be there too, which throws Dave somewhat. My train rattles slowly
+     through the bush as I type the day's events. Jan meets me off the
+     train. Meet Bernie, who's on night shift, and his bees; also 2
+     dogs, 2 cats, 5 ducks, and a sheep. In the evening, attend Jan's
+     rehearsal and slope off to pub across the road. </item>
+<label><date>Friday 5th</date></label>
+<item>Potter about in the morning. I could get to like this place:
+     walk into Maldon for coffee. Home made pizza-like thing for
+     lunch. Jan drives me to Melbourne again, where we eventually find
+    resto. Strange dinner with their mum, (my long lost aunty Etty), Dave's asstd chums,
+     Eva and Swedish husband. Jan and Dave take me back to airport in
+     good time for return to business class space and time: flight is
+     full, unfortunately, but I manage to sleep a bit. And so
+     eventually, back to Bangkok airport where I have a trouser disaster. </item>
+   </list>
+  </body>
+ </text>
+</TEI>
