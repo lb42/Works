@@ -1,5 +1,5 @@
 <div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1985-06-13">
-   <pb facs="Pages/img470.jpg"/>
+   <pb facs="https://github.com/lb42/Works/tree/master/Reports/Pages/img470.jpg"/>
    <head type="report">VISIT REPORT 10 Royai
 National Hotel 13 June 1985</head>
    <head type="event">ICL DMUG/LSUG
@@ -62,7 +62,7 @@ the evolution of a corporate database is still going on. The problem
 with ICL's DDS (which Worsley otherwise considered "superb") was that
 there was no automatic connexion betwen the top and bottom halves of
 the quadrant. ECLIPSE uses a code generator called DELTA (not sure where
-it comes from) to transform <pb facs="Pages/img471.jpg"/> essentially documentary
+it comes from) to transform <pb facs="https://github.com/lb42/Works/tree/master/Reports/Pages/img471.jpg"/> essentially documentary
 specifications into code (COBOL, SCL etc) appropriate to all sorts of
 machines. The novel thing in all this is that the ECLIPSE user is
 specifically disallowed access to any interface beyond documentation!

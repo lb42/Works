@@ -1,5 +1,5 @@
 <div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1979-04-12">
-   <pb facs="Pages/img413.jpg"/>
+   <pb facs="https://github.com/lb42/Works/tree/master/Reports/Pages/img413.jpg"/>
    <head type="report">VISIT REPORT L. Burnard</head>
    <head type="location"> ICL
 Computer House</head>
@@ -19,10 +19,9 @@ IDMS which however makes some unwarranted assumptions about the
 structures represented. Of these presentations, only that on the
 relational view seemed to me to be of much use, the others being
 somewhat perfunctory and ad hoc. The Plessey product was also of
-interest in that it had evolved q</p>
-   <p>uite naturally from software
+interest in that it had evolved quite naturally from software
 originally written to support their conventional flatfiles during
-their changeover to IDMS. Dataskil were ^elieved to be marketing a
+their changeover to IDMS. Dataskil were believed to be marketing a
 similar product.</p>
    <p>There was some (fairly murderous) criticism of
 the draft section-headings for the final report proposed by J.West
