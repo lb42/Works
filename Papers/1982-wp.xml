@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Report of the Word Processing Working Party </title>
+<editor>
+<name><forename>Lou</forename>
+<surname>Burnard</surname></name>
+</editor>
+</titleStmt>
+<publicationStmt>
+<p>XML version for my personal archive</p>
+</publicationStmt>
+<sourceDesc>
+<p>Page images dated <date>28 May 1982</date>
+</p>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change><date notAfter="2025-11-24"/>Initial conversion; made header</change>
+</revisionDesc>
+</teiHeader>
+<text><body><ab>
+ <pb n="1" facs="https://github.com/lb42/Works/tree/master/Reports/Pages/1982-wp-01.tiff"/>
+ <pb n="2" facs="https://github.com/lb42/Works/tree/master/Reports/Pages/1982-wp-02.tiff"/>
+ <pb n="3" facs="https://github.com/lb42/Works/tree/master/Reports/Pages/1982-wp-03.tiff"/>
+ <pb n="4" facs="https://github.com/lb42/Works/tree/master/Reports/Pages/1982-wp-04.tiff"/>
+ <pb n="5" facs="https://github.com/lb42/Works/tree/master/Reports/Pages/1982-wp-05.tiff"/>
+ <pb n="6" facs="https://github.com/lb42/Works/tree/master/Reports/Pages/1982-wp-06.tiff"/> 
+ <pb n="7" facs="https://github.com/lb42/Works/tree/master/Reports/Pages/1982-wp-07.tiff"/>
+ <pb n="8" facs="https://github.com/lb42/Works/tree/master/Reports/Pages/1982-wp-08.tiff"/> 
+ <pb n="9" facs="https://github.com/lb42/Works/tree/master/Reports/Pages/1982-wp-09.tiff"/>
+ <pb n="10" facs="https://github.com/lb42/Works/tree/master/Reports/Pages/1982-wp-10.tiff"/> 
+ <pb n="11" facs="https://github.com/lb42/Works/tree/master/Reports/Pages/1982-wp-11.tiff"/> 
+ <pb n="12" facs="https://github.com/lb42/Works/tree/master/Reports/Pages/1982-wp-12.tiff"/></ab></body>
+</text>
+</TEI>
