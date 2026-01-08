@@ -69,9 +69,9 @@
      model capable of supporting queries about all significant aspects of the conservation,
      accession, cataloguing and description of museum objects, currently being undertaken in
      collaboration with the Ashmolean Museum at Oxford. Because much semantic information is
-     included in the relationships modelled, a high degree of expert knowle.g., may be built into
+     included in the relationships modelled, a high degree of expert knowledge may be built into
      the implemented database, sufficient, it is claimed, for this to be better referred to as a
-     knowle.g., base.</p>
+     knowledge base.</p>
    </div>
   </front>
   <body>
@@ -81,7 +81,7 @@
      that the former may be regarded as a collection of information rather than simply of objects.
      Information is instantiated by the objects (just as the objects are given meaning by the
      information they convey) as much as it is represented in the catalogues and other indexes which
-     describe them. Information is also present in the sum total of the expert knowle.g., concerning
+     describe them. Information is also present in the sum total of the expert knowledge, concerning
      the objects and their descriptions instantiated by the museum staff&#x2019;s learning and the
      whole body of research on which it can draw. As new objects are added or catalogued and as
      opinions about existing objects and their inter-relations shift and change, this information is
@@ -355,7 +355,7 @@
       from domains which are quite large. <soCalled>Technique</soCalled> is fairly simple: a
       manageably small set of codes for this and for <soCalled>Shape</soCalled> had been defined.
       Even in the <soCalled>Subjects</soCalled> field it had proved feasible, if difficult, for the
-      Archive to keep to a controlled vocabulary, given its expert knowle.g., of the subject.
+      Archive to keep to a controlled vocabulary, given its expert knowledge, of the subject.
       However, with fields such as <soCalled>Museum</soCalled> and <soCalled>Publication</soCalled>
       it was proving quite difficult to maintain consistency in the abbreviations used to refer to
       named items occurring perhaps very infrequently in the whole database, without frequent
@@ -762,8 +762,8 @@
       submodel is invariably relevant to the others. </p>
      <p> For example, an analysis carried out to conserve an object may produce new data
       authenticating (or invalidating) the attribution of that object to a particular time or place.
-      Equally, the success of a particular treatment may be crucially dependent on a knowle.g., of
-      the object&#x2019;s previous environment or history; while a knowle.g., of the complete
+      Equally, the success of a particular treatment may be crucially dependent on a knowledge, of
+      the object&#x2019;s previous environment or history; while a knowledge, of the complete
       tradition of an object&#x2019;s history is often regarded as an integral part of its
       description. (This last is particularly true of the Ashmolean which still retains from its
       early days as the <soCalled>Knicknackatorie</soCalled> such curiosities as <soCalled>Guy
@@ -1052,7 +1052,7 @@
      data management system: the human mind, the accumulation of human records and artefacts, and
      the interaction between the two which gives meaning to both. We are familiar with methods of
      exploiting the computer&#x2019;s immense powers of symbolic manipulation for the second of
-     these categories. Knowle.g., engineers and workers in articial intelligence are begining to
+     these categories. Knowledge, engineers and workers in articial intelligence are begining to
      show us ways of exploiting them for the first. I have tried to argue in this paper that tools
      for exploring the third category already exist. It may be easier than we think to transform a
      database into a knowledge base. </p>
@@ -1124,7 +1124,7 @@
       Oxford, 31 March 1984). </bibl>
      <bibl xml:id="N_30"> Spectra. Museum Computer Network Inc (SUNY, Stony Brooke) </bibl>
      <bibl xml:id="N_31"> Guichard, S. Catalogue informatise des antiquites Egyptiennes du Musee du
-      Louvre in Gottinger Miszellen Beitre.g., zur agyptologischen Diskussion, vol 51 (Gottingen,
+      Louvre in Gottinger Miszellen Beitreg., zur agyptologischen Diskussion, vol 51 (Gottingen,
       1981). </bibl>
      <bibl xml:id="N_32"> Porter, M.F., Light, R.B., Roberts, D.A. A unified approach to the
       computerisation of museum catalogues. British Library R&amp;D Report no 5338HC. (London,
@@ -1138,7 +1138,7 @@
      <bibl xml:id="N_36"> See for example the Marburger Index (Munchen, Saur, 1985). </bibl>
      <bibl xml:id="N_37"> Bartle, R. and Cook, M. Computer applications in Archive: a survey.
       British Library R&amp;D Report 5749 (Archives Unit, University of Liverpool, 1983). </bibl>
-     <bibl xml:id="N_38"> It is a pleasure to acknowle.g., here the stimulating effect of our
+     <bibl xml:id="N_38"> It is a pleasure to acknowledge, here the stimulating effect of our
       lengthy discussions with Gwyn Miles and Dr Helen Whitehouse of the Ashmolean Museum. </bibl>
      <bibl xml:id="N_39"> ICL Computer Users Association CAFS Special Interest Group. Exploiting
       CAFS-ISP. Working Party Report, July 1984. </bibl>

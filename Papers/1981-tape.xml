@@ -3,32 +3,29 @@
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title type="main">First Thoughts on text </title>
-<title type="sub">BCS/Codasyl DBAWG Working Paper, 3 Sep 1984</title>
+<title type="main">Magnetic Tape Problems on the 2980</title>
+<title type="sub">OUCS Technical Paper 11.2, <date>17 July 1981</date></title>
 <author>
 <name><forename>Lou</forename>
 <surname>Burnard</surname></name>
-
 </author>
 </titleStmt>
 <publicationStmt>
 <p>XML version for my personal archive</p>
 </publicationStmt>
 <sourceDesc>
-<p>Page images dated <date>3 Sep 1984</date>
+<p>Page images dated <date>17 July 1981</date>
 </p>
 </sourceDesc>
 </fileDesc>
 <revisionDesc>
-
 <change><date notAfter="2025-11-24"/>Initial conversion; made header</change>
 </revisionDesc>
 </teiHeader>
 <text>
 <body><ab>
- <pb n="1" facs="https://github.com/lb42/Works/tree/master/Reports/Pages/1984-dbawg-01.tiff"/>
- <pb n="2" facs="https://github.com/lb42/Works/tree/master/Reports/Pages/1984-dbawg-02.tiff"/>
- <pb n="3" facs="https://github.com/lb42/Works/tree/master/Reports/Pages/1984-dbawg-03.tiff"/> 
- <pb n="4" facs="https://github.com/lb42/Works/tree/master/Reports/Pages/1984-dbawg-04.tiff"/>
+ <pb n="1" facs="https://github.com/lb42/Works/tree/master/Papers/Pages/1981-tape-01.tiff"/>
+ <pb n="2" facs="https://github.com/lb42/Works/tree/master/Papers/Pages/1981-tape-02.tiff"/>
+ <pb n="3" facs="https://github.com/lb42/Works/tree/master/Papers/Pages/1981-tape-03.tiff"/> 
 </ab></body></text>
 </TEI>

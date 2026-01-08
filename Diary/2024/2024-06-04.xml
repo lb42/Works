@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+          <title>La Vergne to Clifton in Eleven Hours</title>
+            </titleStmt>
+              <publicationStmt>
+                 <p>Published at <ptr target="http://lb42.github.io/Diary"/></p>
+               </publicationStmt>
+         <sourceDesc>
+          <p>Drafted in Open Office and converted to TEI.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <change>            
+               <date>2026-01-02T17:43:27.967519182</date>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>La Vergne to Clifton in Eleven Hours </head>
+         <p>(involving two taxis, three trains, and a lot of waiting around in stations)</p>
+         <p>The day I am going to attempt the world speed rail record from one home to another dawns, as predicted, with sunshine and a blue sky after four days of intermittent rain and  grayness. The grass will have to stay un-tonsured till it gets a bit drier. I am coming back to check up on it in a few days so I decide I will leave the water on. But I do the usual last minute sweep up, and here is Jon ready to drive me to the train, at 1045 prompt. At La Souterraine it’s still sunny, and the platform is filling up with peasants off to Paris for the week. At 1137 the Toulouse-Paris intercite appears. It’s a huge train,  it’s on time, and it’s not too busy. Moreover, in first class, I have a comfy seat surrounded with blessed silence, during which I find myself happily writing a first draft of my proposal for the Caen Punch performance.</p>
+         <p>Three hours later at 1445, and only 5 minutes later than scheduled, I descend at Austerlitz, which is still under construction, of course, though there are now  definite signs of progress, notably in that the line 5 metro station  has been reinstated. And so to renewing my acquaintance with the Eurostar check-in craziness. Not too bad today:  they seem to have contracted out the bag checking detail, and presumably as a consequence the ratio of people in hi-viz vests to passengers is much higher than I recall. Though there is still not enough time to get a decent sandwich for lunch before checking in for the 1612 departure. I sit and sup my coffee and my indecent sandwich in a quiet spot in the upstairs lounge till we board. Alas, although nominally first class, my Eurostar carriage is full of noisy brits on tour, who spend most of the journey shouting at each other. A good reminder that old farts (for these are all over 70) can be just as annoying as young  ones, though what’s good about it I am not sure. The Eurostar “light meal” was also just as nasty as expected:  we pass over it.</p>
+         <p>We emerge from the tunnel into gray skies and blustery rain, and then the train grinds to a halt just outside Ashford. It seems there are technical reasons inhibiting our progress, though the driver is not very clear on the topic. We resume progress, hesitantly, and then stop again. A good thing I am not anxious about making a connexion in London. At about 6 pm local time, we pull into St Pancras 25 minutes late,  and off I trot in search of the controlled hysteria of the London underground in the rush hour. </p>
+         <p>And so to Paddington, where I wait patiently to be told what platform my 19h01 departure is leaving from. Mustn’t grumble, this train at least leaves on time,  despite  the menu of annoying announcements. Chat with my fellow passenger, an unusual experience. She’s a retired music teacher; heaven knows what she thinks I am. And at TM, a mere 5 minutes late, I deserve a taxi ride home , arriving before  9 pm, which makes it just about  eleven  hours door to door.</p>
+      </body>
+   </text>
+</TEI>
