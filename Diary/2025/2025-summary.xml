@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="../diaryPrint.css" ?>
+<!--<?xml-stylesheet type="text/css" href="../diaryPrint.css" ?>-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
  <teiHeader>
   <fileDesc>
@@ -28,85 +28,111 @@
    </figure>-->
    <p>What to say about the year 2025? Mostly variations on the same theme as other parts of the
     2020s. The same pattern of occasional expeditions to Mauritius or (mostly) France in the
-    intervals of medical appointments and family gatherings; the same occasional  excursion. I
+    intervals of medical appointments and family gatherings; the same occasional excursion. I
     continued to pootle around with Victorian dramas, giving rise to <ref
      target="https://foxglove.hypotheses.org/category/tei-xml-praxis/victorian-theatre">occasional
      blog postings</ref>, and even the occasional academic conference. Some highlights are listed
     below. </p>
    <p>
-    <label>January</label> On the 11th we went back to Oxford, overnighting at the Easy Hotel in
+    <label>January</label>On the 10th, I made many jars of marmalade. It's hard, but someone has to.  
+    On the 11th we went back to Oxford, overnighting at the Easy Hotel in
     Summertown before joining the throng celebrating Hazel's 80th birthday. Back in Bristol we were
     taken for an outing to Kings Weston House by Pam and Philip: nice architecture, though the cake
-    shop was not as fancy as we had been led to believe. I was rather impressed by T. Chalamet's
-    performance as the young Bob Dylan in a movie called <ref target="https://en.wikipedia.org/wiki/A_Complete_Unknown">"A complete unknown",</ref> showing at the
-    luxurious Everyman cinema on Whiteladies Rd. I was so much older then. </p>
+    shop was not as fancy as we had been led to believe. On the 24th, I was rather impressed by T. Chalamet's
+    performance as the young Bob Dylan in a movie called <ref
+     target="https://en.wikipedia.org/wiki/A_Complete_Unknown">"A complete unknown",</ref> showing
+    at the luxurious Everyman cinema on Whiteladies Rd. I was so much older then. </p>
    <p>
     <label>February</label> On the 8th we escaped to Mauritius for a month or so, staying in two
-    different beach hotels, and a third floor flat flat in Curepipe. We experienced a tropical storm called Garance,
-    my first such experience: full details are in <ref target="2025-03-27-mru.html">my holiday report</ref> </p>
+    different beach hotels, and a third floor flat in Curepipe. We also experienced a tropical storm
+    called Garance, my first such experience: full details are in <ref target="2025-03-27-mru.html"
+     >my holiday report</ref>
+   </p>
    <p>
     <label>March</label> Our arrival back in Bristol on the 3rd was fairly horrible, mostly because
     of the journey but also because as we staggered out of the bus station in search of the Uber, L
-    realised she had left her phone and kindle on the bus now heading off to Newport. This led to
+    realised she had left her phone and kindle on the bus now heading off to the land of Wales. This led to
     much to and fro with the Flixbus website and with assorted insurance companies, but culminated
     in a trip to Newport on the 28th where she was reunited with her gadgets, and I saw some rather
     splendid monuments commemorating the Newport Raising of 1839. We need more chartists. </p>
    <p>
-    <label>April</label> For our first French trip of the year, we tried catching a flight from
-    Bristol to Bordeaux on 6th, and staying the night there before taking the 1026 TER to Limoges
-    (arr 1248), proceeding via another TER to Gueret arriving just in time for the 1430 TAD. But
-    what we did for the four weeks in La Vergne before catching the train back to England, I have no
-    idea. </p>
-   <p> At the start of <label>May</label>, I went to Oxford for a  college reunion: a Gaudy lunch at
-    Balliol. This was surprisingly enjoyable: the food was good  and both Carl Schmidt and Nick
-    Shrimpton allowed me to drone on about Lacy at them. And people I did not remember at all seemed
-    to remember me, which is curiously satisfying. Later in the month, we had a pleasant excursion
-    to Bath with P&amp;P to see Opera Luna's version of the Mikado, which I also enjoyed. And at the
-    very end of the month, we tried the other route into France, viz train to Portsmouth (the
-    caribbean resto opposite the station is actually quite good), and the late afternoon ferry to
-    Ouistreham, where we stayed a couple of nights in the Hotel "Le Cosy Riva Bella", enabling us to
-    explore the beach a bit.</p>
+    <label>April</label> For our first French trip of the year, we experimented with a flight from
+    Bristol to Bordeaux on the 6th,  staying the night there before taking the 1026 TER to Limoges
+    (arr 1248), proceeding via another TER to Gueret which arrived just in time for the 1430 TAD.
+    But what we did for the four weeks in La Vergne before catching the train back to England, I
+    have no idea. </p>
+   <p> At the start of <label>May</label>, I went to Oxford for a college reunion: a Gaudy lunch at
+    Balliol. This was surprisingly enjoyable: the food was good and both Carl Schmidt and Nick
+    Shrimpton allowed me to drone on about Lacy at them. People I did not remember at all seemed
+    to remember me, which is curiously satisfying; and my, how old we all are. 
+    Later in the month, we had an excursion to Bath
+    with P&amp;P to see Opera Luna's version of the Mikado, which I enjoyed immensely. And at the very
+    end of the month, we tried another route into France, viz train to Portsmouth (the caribbean
+    resto opposite the station is actually quite good), and the late afternoon ferry to Ouistreham,
+    where we stayed a couple of nights in the Hotel "Le Cosy Riva Bella", enabling us to explore the
+   Normandy beach a bit.</p>
    <p>
     <label>June</label> From Ouistreham, we proceeded by bus and train to Coutances, and then by bus
-    from there to La Haye where Jef and Nicole came to meet us. We stayed in a slightly odd Air BNB
+    to La Haye where Jef and Nicole came to meet us. We stayed in a slightly odd Air BNB
     in La Haye, and did some seaside expeditions with Jef, still in his corset. On the 5th, we left
-    them at Valognes and took the train to La Souterraine, via (inevitably) Paris, where we had
-    ample time for a (very) late lunch.</p>
+    them at Valognes and took the train to La Souterraine, via (inevitably) Paris, and started our
+    proper summer holiday in La Vergne. The grass grew high, there were cherries on the trees and
+    lambs in the fields. Evelyne took us out for dinner at the end of the month. </p>
    <p>
-    <label>July</label>We spent the whole month in La Vergne, doing nothing in particular, and then
-    back to Bristol via La Souterraine and Paris.</p>
+    <label>July</label> We spent the whole month in La Vergne, doing nothing in particular. P&amp;P
+    came for a 48 hour visit : they tested the new bed (it worked, though the hot water did not);
+    they also took us out for L's birthday lunch. There was a brocante around the reservoir, and at
+    the end of the month we went out with everyone else to celebrate Evelyne's birthday at the Royal
+    Wok (eat as much as you can) before reluctantly returning to Bristol via La Souterraine and
+    Paris.</p>
+   <p> During <label>August</label> we were on grandparent duty, first in Nottingham for Harvey's
+    birthday, and then to Maryland for Daphne's birthday bowling party at Stratford on the 9th. As
+    has been their habit, Belinda and family passed through Bristol on their way to Cornwall on the
+    16th: we vacated the house to put them up, which gave us an excuse to sample Channings hotel: a
+    pretty good breakfast, if not up to German standards. On the 21st P&amp;P took us on another
+    agreeable outing, by train to Freshford, along the banks of the Avon to Bradford on Same and
+    back by train. And at the end of the month, I flew off to Berlin all on my own in order to
+    participate in the <ref target="https://summit.dracor.org/programme-overview">Dracor
+     Summit</ref> at the Free University of Berlin. Very exciting. Getting from the airport to the
+    campus by U-bahn and S-bahn was also quite exciting. </p>
    <p>
-    <label>August</label> We visited Nottingham, and Maryland, the latter on 0 Aug being notable for
-    Daphne's birthday bowling party at Stratford. Belinda and co passed through on their way to
-    Cornwall, and we vacated the house to put them up, which gave us an excuse to sample Channings
-    hotel (pretty good breakfast). At the end of the month, I flew off to Berlin all on my own in
-    order to participate in the Dracor Summit at the Free University of Berlin. Very exciting. </p>
+    <label>September</label> I stayed in Berlin until the 5th, relishing the experience of being on
+    a well-funded European university campus and staying in a posh hotel. Then I took the slow route
+    back to La Vergne, via Mannheim, Karlsruhe, Paris, and La Souterraine, On the 20th, after
+    another largely uneventful fortnight in La Vergne, I left for Bristol via Paris, again. On the
+    27th Kev had a surprise 50th birthday party in a pub in Easton. </p>
    <p>
-    <label>September</label> Was in Berlin until the 5th, when I took the slow route back to La
-    Vergne, via Mannheim, Karlsruhe, Paris, and La Souterraine, On the 20th, I left for Bristol via
-    Paris, again. On the 27th Kev had a surprise 50th birthday party in a pub in Easton. </p>
-   <p>
-    <label>October </label> On the 14th I nipped off to Caen, by train, for a meeting of the CAESAR
-    council, which was fun, though the hotel was noisy. Being in France, I was then unable to resist
-    the temptation of another lengthy train journey, from Caen to Tours , Tours to Vierzon, and
-    Vierzon to La Souterraine, of course, arriving 2021, where Patrice came (eventually) to collect
-    me. Then I had a week or so in La Vergne, all alone, before having to repeat most of the same
-    journey in reverse, to get back to Tours in time to teach "TEI Niveau 1" from the 27th to the
-    29th. And back to London and Bristol on the 30th. </p>
-   <p>
-    <label>November</label>From the 6th to the 8th I stayed in a little room in one of the many
-    minimalist hotels around Kings Cross. The occasion was a study day on the 7th, where I met and
-    tried to impress some of the victorian studies glitterati. Organised by the Caen Punch Project,
-    the day was hosted at the BL, even though there was a strike going on. And at the end of the
-    month, I yet again popped over to Caen by Eurostar, this time for the MRSH Scientific Committee.
-    But I did not proceed from there to La Vergne, and was back in Bristol for the 22nd. </p>
-   <p>
-    <label>December</label> Which was just as well, since on the 5th, L fell over in mysterious
-    circumstances on the way home, fracturing her clavicule, Which meant that almost all  amusements
+    <label>October </label> On the 14th I nipped off to Caen, by train, for a meeting of the <ref
+     target="https://caesar-project.unicaen.fr/caesar/">CaeSAR Project</ref> scientific council,
+    which was fun, though I am still not sure how exactly it will accelerate research. I saw some of
+    my Lacy texts being presented by MAX, but only momentarily. I stayed two nights in a very noisy
+    hotel over a bar in the centre of Caen, before MrsH was shamed into moving me to a much nicer
+    one near the station. Being in France, I was then unable to resist the temptation of the lengthy
+    but increasingly familiar train journey, from Caen to La Souterraine, via Tours and Vierzon. It
+    takes more than five hours, but so does the alternative so-called high speed route via Paris.
+    Then I had another week or so in La Vergne, during which there was much wind and tempest,
+    sufficient to uproot one of the two mighty walnut trees in the back garden. It fell on top of
+    Patrice's recently erected fence, which is probably why he seemed to take a gloomy delight in
+    reducing it to a heap of logs over the next few days. I then retraced my railway steps as far as
+    Tours where I yet again taught the ever popular <ref
+     target="2025_Programme_Formation_TEI_Initiation_2025_DEF.pdf">"TEI Niveau 1"</ref> from the
+    27th to the 29th, before returning once more back to London and Bristol on the 30th. </p>
+   <p> From the 6th to the 8th of <label>November</label> I stayed in one of the many cheapish
+    minimalist hotels around Kings Cross. The occasion was a <ref
+     target="https://rs4vp.org/pictorial-punch-treasures-from-the-archive/">"study day"</ref> hosted
+    by the British Library on the 7th, where I met and tried to impress some Victorian Studies
+    glitterati. Organised jointly with the Caen Punch Project, the day involved much discussion of
+    Punch visuals and some interesting snippets of background history, notably my first encounter
+    with Patrick Leary and Henry Silver's diary. BL staff were on strike, but still supplied masses
+    of fairly horrid sandwiches. And at the end of the month, I yet again popped over to Caen by
+    Eurostar, this time for the MRSH Scientific Committee. But this was my last expedition of the
+    year: I did not proceed from there to La Vergne, and was back in Bristol for the 22nd. </p>
+   <p> Which was just as well, since on the 5th <label>December</label>, L fell over in mysterious
+    circumstances on the way home, fracturing her clavicule, Which meant that almost all amusements
     planned for December had to be cancelled. On the plus side, I got to know the route to and from
-    the BRI rather well; the NHS was wonderful, and we were able to have an Xmas lunch with
-    Elizabeth and co, a boxing day amusement with everyone except Belinda and co, and a new years
-    eve with Belinda's boys. </p>
+    the BRI rather well; the NHS was wonderful; and we were still able to have an extensive Xmas
+    lunch with Elizabeth and co, plus a boxing day amusement at Sarah's house with everyone except
+    the Nottingham family branch, who did however come to join us for New Years eve.</p>
   </body>
  </text>
 </TEI>
