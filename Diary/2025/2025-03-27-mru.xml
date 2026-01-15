@@ -1,75 +1,151 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-          <title>What I did in my holidays, 2025</title>
-            <author/>
-         </titleStmt>
-       
-         <publicationStmt>
-          <p>Published at <ptr target="https://lb42.github.io/Diary"/></p>         
-         </publicationStmt>
-         <sourceDesc>
-            <p>Written by OpenOffice revised in oxygen</p>
-         </sourceDesc>
-      </fileDesc>
-      <revisionDesc>
-         <listChange>
-            <change>
-               <date>2025-05-25T23:07:35.784350255</date>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
-        <div>
-                <head>What I did in my Holidays: A tale of three locations</head>
-          
-       <head>Also featuring my adventures with Cyclone Garance</head>
-       
-      <!-- <list type="unordered">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>What I did in my holidays, 2025</title>
+    <author/>
+   </titleStmt>
+
+   <publicationStmt>
+    <p>Published at <ptr target="https://lb42.github.io/Diary"/></p>
+   </publicationStmt>
+   <sourceDesc>
+    <p>Written by OpenOffice revised in oxygen</p>
+   </sourceDesc>
+  </fileDesc>
+  <revisionDesc>
+   <listChange>
+    <change>
+     <date>2025-05-25T23:07:35.784350255</date>
+    </change>
+   </listChange>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div>
+    <head>What I did in my Holidays: A tale of three locations</head>
+
+    <head>Also featuring my adventures with Cyclone Garance</head>
+
+    <!-- <list type="unordered">
                                     <item>Pereybere hotel and spa</item>
                                     <item>Bobato Building, Curepipe</item>
                                     <item>ChillPill, Mahebourg</item>
                                  </list>
        -->
-              
-                  <!--<div type="div4">
+
+    <!--<div type="div4">
                      <head>The three locations and what we did in each: a summary</head>
                      
                      
                     
                   </div>-->
-         <div type="div1" rend="P9">
-            <head>Getting There</head>
-            <p><label>Saturday 8th February 2025.</label> The Uber was on time, though nothing else was. The Flix bus to Gatwick, driven by a harassed Italian, left 15 minutes late and got later as it made the really dull slog to Heathrow, all terminals, and eventually Gatwick S, where it arrived 30 minutes late. Then some real waiting made even longer by am unexplained 90 minute delay in departure for our flight, which finally boarded around 21h10 instead of 19h35, and then proceeded to sit on the runway for another 30 minutes sorting out some mechanical problems. Sigh. Tried fitfully to snooze for the next 12 hours. Some hopes. We arrived Mru two hours  later than expected, but the taxi is waiting for us somewhere, and so are the two SIMs I have sensibly pre-ordered.  Off we go for a very long ride across the island to Pereybere. Our driver is aged and seems a bit deaf or we are not really awake yet. Our hotel is on the main street through Pereybere opposite the bus stop, and a beach restaurant complete today with Chinese dragons dancing to celebrate our arrival. Also fire crackers, since it’s Feb 9th  and therefore somebody's public holiday.  Our hotel has a nice atrium, with carp and the room  is comfortable, though the electricity is a bit dodgy. Mine frites and tasty freshly made boulettes from seemingly the only restaurant that’s open today, install SIMs and retired to bed to sleep for many hours.</p>
-        </div><div type="div1" rend="P9"><head>Being there (1)</head>    
-         <p>The Pereybere Hotel and Spa is directly opposite a nice beach where one may sit under the filaos and enjoy the breeze. Occasional excursion by bus to Grande Baie and beyond even to Pointe aux Piments. Fairly routine Mauritian luncheons. Nice breakfasts. Dodgy electrics. </p>
-         <p><label>Monday 10th. </label>
-          
-           Both sims working, I think. Excellent breakfast at hotel: lots of choice though coffee is a bit dubious. We walked to Winners supermarket and bought milk, hats, sandals to deal with immediate concerns. Heart problems from accumulated stree I think. Rested 20 mins, then went to sat on beach solus, enjoying the breeze in the trees, A late overpriced lunch at the japanese resto down the road. Nice coffee and cakes at cakeshop. Sitting on a bench you will always make friends. I chatted to a builder from Reunion; L chatted to a Malgache lady  selling vanilla pods.</p>
-         <p><label>Tu,Wed,Thu,Fri,Sat. </label>
-            Most mornings, L got up for pre-breakfast exercises, so we arrived late for breakfast and gawped at other guests. Occasionally went on a bus excursion, e.g. to a coiffeuse in Grand Baie. We tried most eating places in the street for lunch. And slowly relaxed into holiday mood.</p>
-         
-         </div><div type="div1" rend="P9"><head>Being There (2)</head>
-          <p>The Bobateau Building in Curepipe has several spacious but minimally furnished flats. Ours was regrettably on the fourth floor. We cooked for ourselves a bit once we’d located shops and bakers. We walked to Roger’s house, only getting a bit lost once. We did a lot of queuing in  banks as is traditional. Lunch At the Sapin d’or just across the road was nice, Shiva-honouring floats for light relief. Botanic Gardens also nice. Intermart  less so.</p>
-            <p><label>Sun 16th Feb. </label>
-            
-            Taxi to Bobato Building. Keys, as previously arranged with Roger.  </p>
-            <p>17th  Roger offered huge lunch of pasta chicken bread.</p>
-            <p>18th  in Curepipe arcade</p>
-          </div><div type="div1" rend="P9">
-         <head>Being There (3)</head>
-           <p>The "Chill Pill" hotel in Mahebourg, which we stayed at many years ago (December 2006, to be precise). To get there this time, we had to defy Cyclone Garance by taking an illegal taxi. Here we watched boats in the bay and enjoyed being tourists again.  Got drenched once . Splashed about in pool with fellow guests from Quebec and from California. Was visited by Roger, Alain, Olive and Roger’s current garage boy, Sebastian.</p>
-            <p>1 march roger and co visit</p>
-         </div>
-         <div type="div1" rend="P14">
-            <head>All about the Tropical Depression</head>
-            <p>For those with neither knowledge nor access to Google, a tropical cyclone is a large area of atmospheric craziness in which the wind blows at a high speed of 3 or 4 hundred km per hour but in a circular motion, causing havoc in areas beneath. This area changes as the cyclone moves along a path usually correctly predicted by clever data modelling techniques. Like other scary things, once identified, a cyclone is allocated a girl’s name by the meteorological authority on whose beat they are first detected. Garance seems to have originated near Madagascar, about 500 km NW of Mauritius (see map) but moved south over the next 36 hours, missing Mauritius by a whisker, but passing directly over Reunion island, where she caused the deaths of four foolish reunionnais who had presumably ignored  governmental injunctions to stay indoors. In Mauritius,  Curepipe  was mostly cloudy and rainy as usual, but even so a truly spectacular tropical storm built up  over the 48 hours during which Garance passed us by. There were sudden gusts of wind which made the trees buckle, and squalls of rain more dramatic than usual. Then there was a lowering sky and a government warning to stay  indoors and on no account go to sea. The airport closed. All the shops (except bakers) closed as well. Taxi drivers were reluctant to set out on uninsured journeys. </p>
-            <p>Nevertheless, we managed to get the promise of a ride from someone working for “Yugo” a Mauritian Uber-clone. And so on 27th  March, cyclone warning level 3 in force, we shut up our unloved  curepipe residence  in the Bobato Building and  went up and  down its horrible staircase numerous times to transfer or dispose of our chattels. And were then  driven with exemplary skill along 90% empty motorways, and past a silent airport, to a seaside bolt hole in Mahebourg on the other side of the island. The winds continued to blow and the waves were fierce, breaking over the hotel sea wall in fact. Occasional  thunder storms erupted to mark Garance’s displeasure at our insouciance, followed  of course by lots  of torrential rain, rendering almost impossible a simple walk up the road to the cash  machine, round the corner from the taximen’s mosque. And then as abruptly  as she had come, Garance evaporated into the deep south of the Indian ocean. The water reservoirs of Mauritius glugged up the storm waters thankfully, and after a bit of cloud and breeze, the sun came out again and we tourists sported ourselves once more in hotel pools and in markets both super and traditional, across the region. It  remains windy today but the sky is clear  and the  temperature well over 26. Shame to leave really.</p>
-         </div></div>
-      </body>
-   </text>
+    <div type="div1" rend="P9">
+     <head>Getting There</head>
+     <p><label>Saturday 8th February 2025.</label> The Uber was on time, though nothing else was.
+      The Flix bus to Gatwick, driven by a harassed Italian, left 15 minutes late and got later as
+      it made the really dull slog to Heathrow, all terminals, and eventually Gatwick S, where it
+      arrived 30 minutes late. Then some real waiting made even longer by am unexplained 90 minute
+      delay in departure for our flight, which finally boarded around 21h10 instead of 19h35, and
+      then proceeded to sit on the runway for another 30 minutes sorting out some mechanical
+      problems. Sigh. Tried fitfully to snooze for the next 12 hours. Some hopes. We arrived Mru two
+      hours later than expected, but the taxi is waiting for us somewhere, and so are the two SIMs I
+      have sensibly pre-ordered. Off we go for a very long ride across the island to Pereybere. Our
+      driver is aged and seems a bit deaf or we are not really awake yet. Our hotel is on the main
+      street through Pereybere opposite the bus stop, and a beach restaurant complete today with
+      Chinese dragons dancing to celebrate our arrival. Also fire crackers, since it’s Feb 9th and
+      therefore somebody's public holiday. Our hotel has a nice atrium, with carp and the room is
+      comfortable, though the electricity is a bit dodgy. Mine frites and tasty freshly made
+      boulettes from seemingly the only restaurant that’s open today, install SIMs and retired to
+      bed to sleep for many hours.</p>
+    </div>
+    <div type="div1" rend="P9">
+     <head>Being there (1)</head>
+     <p>The Pereybere Hotel and Spa is directly opposite a nice beach where one may sit under the
+      filaos and enjoy the breeze. Occasional excursion by bus to Grande Baie and beyond even to
+      Pointe aux Piments. Fairly routine Mauritian luncheons. Nice breakfasts. Dodgy electrics. </p>
+     <p><label>Monday 10th. </label> Both sims working, I think. Excellent breakfast at hotel: lots
+      of choice though coffee is a bit dubious. We walked to Winners supermarket and bought milk,
+      hats, sandals to deal with immediate concerns. Heart problems from accumulated stree I think.
+      Rested 20 mins, then went to sat on beach solus, enjoying the breeze in the trees, A late
+      overpriced lunch at the japanese resto down the road. Nice coffee and cakes at cakeshop.
+      Sitting on a bench you will always make friends. I chatted to a builder from Reunion; L
+      chatted to a Malgache lady selling vanilla pods.</p>
+     <p><label>Tu,Wed,Thu,Fri,Sat. </label> Most mornings, L got up for pre-breakfast exercises, so
+      we arrived late for breakfast and gawped at other guests. Occasionally went on a bus
+      excursion, e.g. to a coiffeuse in Grand Baie. We tried most eating places in the street for
+      lunch. And slowly relaxed into holiday mood.</p>
+
+    </div>
+    <div type="div1" rend="P9">
+     <head>Being There (2)</head>
+     <p>The Bobateau Building in Curepipe is so named, I assume, because its ground floor is devoted
+      to the sale of fancy model ships, but above this there are several spacious if minimally
+      furnished flats. Ours was regrettably on the fourth floor, but with a balcony from which we
+      watched fruit bats in the neighbouring fruit trees, and also much traffic, since it is on a
+      busy road, formerly called Sir John Pope Henessy Avenue, but now renamed Daruty de Grandpere
+      Avenue, presumably in an outburst of anti-colonial fervour. Extinct volcano Trou aux Cerfs is
+      near by, as is the Sir Sewoosagur Ramgoolam Botanical Garden. And it's only a short walk to
+      the cosmopolitan delights of downtown Curepipe, notably the splendidly eclectic Sik Yuen
+      supermarket, the dead posh boutiques of the Curepipe Arcades shopping centre, and of course
+      the market place. We cooked for ourselves a bit once we’d located all these, and we also
+      eventually found how to get to Roger's house without getting completely lost despite the best
+      endeavours of Google maps. We did a lot of queuing in banks as is traditional (see <ref
+       target="https://lb42.github.io/Diary/21days.html">previous reports</ref>). Undeterred by the rain, large numbers of people were to be oibserved honouring Shiva-honouring
+      floats for light relief. Botanic Gardens also nice. Intermart less so.</p>
+     <p><label>Sun 16th Feb. </label> Taxi to Bobato Building. Keys, as previously arranged with
+      Roger. </p>
+     <p>17th Roger offered huge lunch of pasta chicken bread.</p>
+     <p>18th in Curepipe arcade</p>
+    </div>
+    <div type="div1" rend="P9">
+     <head>Being There (3)</head>
+     <p>The "Chill Pill" hotel in Mahebourg, which we stayed at many years ago (December 2006, to be
+      precise) has acquired a fancy swimming pool as well as a new name since then. To get there
+      this time, we had to defy Cyclone Garance by taking an illegal taxi, but it was worth the
+      effort: we were greeted by an excellent biryani served, exceptionally. on account of the
+      weather. When Gara\nce calmed down a bit, we watched boats in the bay and enjoyed being
+      hedonistic tourists again. I splashed about in the pool with fellow guests from Quebec and
+      from California. Roger, Alain, Olive and Roger’s current garage boy Sebastian came to visit
+      one day.</p>
+
+    </div>
+    <div type="div1" rend="P14">
+     <head>All about the Tropical Depression</head>
+     <p>For those with neither knowledge nor access to Google, a tropical cyclone is a large area of
+      atmospheric craziness in which the wind blows at a high speed of 3 or 4 hundred km per hour
+      but in a circular motion, causing havoc in areas beneath. This area changes as the cyclone
+      moves along a path usually correctly predicted by clever data modelling techniques. Like other
+      scary things, once identified, a cyclone is allocated a girl’s name by the meteorological
+      authority on whose beat they are first detected. Garance seems to have originated near
+      Madagascar, about 500 km NW of Mauritius (see map) but moved south over the next 36 hours,
+      missing Mauritius by a whisker, but passing directly over Reunion island, where she caused the
+      deaths of four foolish reunionnais who had presumably ignored governmental injunctions to stay
+      indoors. In Mauritius, Curepipe was mostly cloudy and rainy as usual, but even so a truly
+      spectacular tropical storm built up over the 48 hours during which Garance passed us by. There
+      were sudden gusts of wind which made the trees buckle, and squalls of rain more dramatic than
+      usual. Then there was a lowering sky and a government warning to stay indoors and on no
+      account go to sea. The airport closed. All the shops (except bakers) closed as well. Taxi
+      drivers were reluctant to set out on uninsured journeys. </p>
+     <p>Nevertheless, we managed to get the promise of a ride from someone working for “Yugo” a
+      Mauritian Uber-clone. And so on 27th March, cyclone warning level 3 in force, we shut up our
+      unloved curepipe residence in the Bobato Building and went up and down its horrible staircase
+      numerous times to transfer or dispose of our chattels. And were then driven with exemplary
+      skill along 90% empty motorways, and past a silent airport, to a seaside bolt hole in
+      Mahebourg on the other side of the island. The winds continued to blow and the waves were
+      fierce, breaking over the hotel sea wall in fact. Occasional thunder storms erupted to mark
+      Garance’s displeasure at our insouciance, followed of course by lots of torrential rain,
+      rendering almost impossible a simple walk up the road to the cash machine, round the corner
+      from the taximen’s mosque. And then as abruptly as she had come, Garance evaporated into the
+      deep south of the Indian ocean. The water reservoirs of Mauritius glugged up the storm waters
+      thankfully, and after a bit of cloud and breeze, the sun came out again and we tourists
+      sported ourselves once more in hotel pools and in markets both super and traditional, across
+      the region. It remains windy today but the sky is clear and the temperature well over 26.
+      Shame to leave really.</p>
+    </div>
+   </div>
+  </body>
+ </text>
 </TEI>
