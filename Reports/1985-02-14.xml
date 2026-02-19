@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1985-02-14">
+  <pb facs="https://github.com/lb42/Works/tree/master/Reports/Pages/img380.png"/>
+  <head type="report">VISIT REPORT</head>
+  <head type="location">ICL Putney</head>
+  <head type="event"> ICL CUA CAFS SIG WP</head>
+  <head type="head"> 14 Feb 1985</head>
+  <p> This was the first meeting between members of the SIG working party and the "panel" of ICL
+   heavies carefully chosen by the appalling D. Lovegrove to field the working party's assorted
+   googlies and bouncers. Heavies actually present in addition to said Lovegrove were the customary
+   Carmichael, the ubiquitous Haworth, the really obnoxious J. Finch (putting in a late appearance
+   between really important meetings elsewhere as usual) and two human beings from Kidsgrove called
+   Barry Hopewell and Jim Lucking. </p>
+  <p> After some elaborate foreplay in which Lovegrove attempted to take over the chair, the meeting
+   settled down to going through the more recent of the wp's two wishlists, explicating where
+   necessary (often) and categorising each item as A (ICL would do) B (it wouldnt) or C (for later
+   discussion). A revised and homogenised list of items tagged C will be circulated for the next
+   meeting, by when ICL should have responded on most of its content. Most of my tricky bits of text
+   handling were categorised as "well known Bs", to no one's particular surprise. </p>
+  <p> After lunch, work on the Report continued. The apportioning of sections, and what was expected
+   in each, were firmed up and drafts were promised for the next meeting. Hearing that money was
+   available for the purpose, I offered to get a quote for lasercomping the report at OUCS. </p>
+  <p> I also attempted to determine the ICL view on the IDM (Britton Lee's competing hardware
+   database) and learned that it is not selling better than CAFS (but not much worse either); my
+   suggestion that it would be interesting to run the Britton Lee benchmark on a CAFS system was not
+   rejected out of hand. </p>
+  <p> Other minor points of interest noted during the day: the SV211 VME "Package Designers" (?)
+   manual incorporates much concerning CAFS design aids... ICL Service Desks will be CAFS-ized
+   eventually... CAFS support for DDS is probable... QM250 spec is still under review and now
+   delayed until the summer... The announcement concerning new products (you know, Estriels, discs
+   that fly etc) is still pending, but when it's made I'll be able to tell you that at least one
+   controller on any installation will have a CAFS board at no extra charge. </p>
+  <note place="bottomleft" hand="written"> RP469 (FF sez it's Rubbish)</note>
+ </div>
