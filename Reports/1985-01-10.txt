@@ -1,0 +1,89 @@
+VISIT REPORT L.Burnard 
+TO    ICL Slough 10 Jan 85
+FOR ICLCUA CAFS SIG WP 
+
+1. The Chairman reported that the appalling D. Lovegrove (CAFS marketing 
+manager) has proposed regular meetings between a panel of ICL experts
+and the working party, the first of these to be on St Valentines Day. 
+Detailed responses will be given to the list of gripes in the WP's first
+report, plus any others delivered in time. The names proposed for the
+panel (a dozen or so) are impressive. 
+
+eith Jones of Berkshire County Council described the new county library
+project which will allow the general public to access the libraries
+catalogue by means of viewdata screens. The initial system will allow 
+users to find out what books are available on a specified subject, by a
+specific author or containing a specified word in the title, and how 
+many are available or out on loan at which libraries. It will
+(probably) be supported by Bulletin (ICL's teletext system) and CAFS, 
+apparently a unique combination.
+
+BCC have a long history of computerisation; they are also planning an 
+impressive computer cataloguing of their archives, which are extensive.
+Viewdata is seen as a useful extension of their public services, e.g.
+to replace out of data information booklets on social services, to
+provide messaging facilities between outlying old folks homes etc etc.
+
+The libraries main acquisition, issue and maintenance system runs under -
+a package called P29 which incidentally uses QM and hence CAFS; they 
+have no intention of expanding this, and are waiting for RCI before any
+further CAFS usage is planned. Three problems were reported: (1) the
+familiar cry of "Where is SV2I1" (2) Bulletin pages cannot be written to
+in Batch or TP (!) and (3) Bulletin does not support "Unsolicited
+Messages". These are nothing to do with the Readers Digest, but
+Viewdata Jargon for frames which are displayed in sequence (also known
+as a "carousel") while the frame you are looking for is being tracked
+down, (They will presumably display a potter's wheel). A delay of
+about 20-30 seconds is anticipated while CAFS finds the required data
+and Bulletin formats it.
+
+BCC have a 12 Mb 2976 and a 16 Mb 2966 driving around 200 terminals of
+various types; 40 of these will be viewdata terminals and 24 for library
+a staff usage. The total database fits onto one FDS640 (just) and
+contains about 1 1/2 million title records. As they are using the British
+Telecom kilostream network, it will also be accessible via PSS from home
+computers, JANET etc. The system has to be working by July Ist when the
+new Reading library will be opened.
+
+3. Hamish Carmichael gave a brief lack-of-progress report on: 
+<pb/>
+
+INDEPOL (formerly the CAFS-800 system) Phase 0 is on field trial; phase
+1, which will support updating, has no dates. It is a free standing
+product, but an interface to DDS is in the design. It comes out of 
+ICL's Defence Technology Centre whose current position is that it will
+be available only to MOD and some Police authorities. This is either
+because it has some very special security facilities or because they
+want to recoup their development costs. I am not allowed to say any
+more than that. 
+
+TEXTMASTER is the internal name for a Status-like package with links to ;
+word processing, office automation etc. It is still some way off but a
+Statement of Direction will be published later this month. 
+
+A new CAFS advertising campaign will be launched shortly. By the end of
+1984, there were 400 units on order and 300 installed (average of 2.6 a
+units per processor); this is believed to be slightly better than the | aes
+Britton-Lee machine, which is CAFS's only current competition. 
+Meanwhile ICL's sales force needs to be banged around the head somewhat
+an activity which will clearly delight the appalling D. Lovegrove, and
+Beaumont is planning a ‘CAFS exploitation’ seminar.
+
+The Logica/DCI involvement had clearly been a success; "several" other 
+software houses had expressed interest, the only one specified being
+Savant who are planning a VME/CAFS version of MIMER. 
+
+The first whisper of something called the Advanced Cafs Option was
+heard. This had arisen out of the experience gained with the Inland
+Revenue COP project and is basically a number of VME bolt-ons enabling
+secondary indexing at the RECMAN level (hence invisible to QM, DCI etc)
+to partition really big databases. It will also support searches acros
+ies multiple CAFS controllers (gulp).
+
+After a routinely awful ICL buffet lunch, we turned to the next WP
+report. The final revisions to our questionnaire were agreed. Around
+100 sites are to be contacted. The Report sections were shared out. I
+volunteered for the "Case Studies" section because it looked most
+interesting. Our chairman (who runs a tight ship) hopes to get a draft
+together by April.
+
