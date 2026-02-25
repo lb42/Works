@@ -1,5 +1,5 @@
 <div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1979-09-10">
-   <pb facs="Pages/img388.jpg"/>
+   <pb facs="https://github.com/lb42/Works/tree/master/Reports/Pages/img388.jpg"/>
    <head type="event">[IUCC Symposium]</head>
    <head type="location">[University of Warwick]</head>
 
@@ -53,7 +53,7 @@ substituting at very short notice for a speaker from Grenoble, with
 the heretical propositions that 'databases are for programmers' and
 that a fully generalised Database Management System was
 impossible. His main interest was in Computer Aided Design systems,
-for which existing dbms are undeniably <pb facs="Pages/img389.jpg"/>cumbersome. He described a system
+for which existing dbms are undeniably <pb facs="https://github.com/lb42/Works/tree/master/Reports/Pages/img389.jpg"/>cumbersome. He described a system
 currently being designed which included a component called the Data
 Curator to control data security and integrity and handle transmission
 of it to and from various CAD micros on a ring. Other speakers at this

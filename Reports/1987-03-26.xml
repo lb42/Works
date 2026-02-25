@@ -1,5 +1,5 @@
 <div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1987-03-26">
-   <pb facs="Pages/img498.jpg"/>
+   <pb facs="https://github.com/lb42/Works/tree/master/Reports/Pages/img498.jpg"/>
    <head type="report">VISIT REPORTLou Burnard</head>
    <head type="event">
 Memex Information Engines Ltd</head>
@@ -59,7 +59,7 @@ of hierarchically organised structural units (document, chapter,
 paragraph, sentence for example) which are composed of tokens all of a
 single type. Conversion of text to "infobase" (sic), involves the
 creation of an index of non-numeric tokens (the "vocabulary") which
-maps the external form of each <pb facs="Pages/img499.jpg"/> such
+maps the external form of each <pb facs="https://github.com/lb42/Works/tree/master/Reports/Pages/img499.jpg"/> such
 token to a unique symbol. The text is stored in a compressed form by
 replacing each token by this symbol, which may be up to 3 bytes
 long. Capitalisation, whether or not the token is a word-separator and
@@ -117,7 +117,7 @@ imprint, we had to resort to the rather counter-intuitive process of
 specifying that "London" must precede the word "Imprint" in the
 record; to search for books printed in Tunbridge Wells, one would
 similarly have to search for "Imprint" and "Tunbridge Wells" in that
-order and within 3 words. Aside from their reliance on the <pb facs="Pages/img500.jpg"/> existence of the tokens "Imprint" (etc)
+order and within 3 words. Aside from their reliance on the <pb facs="https://github.com/lb42/Works/tree/master/Reports/Pages/img500.jpg"/> existence of the tokens "Imprint" (etc)
 within the record, neither procedure worked entirely satisfactorily in
 the Bodleian data, which contains multiple bibliographical entities
 within one record.</p>

@@ -1,5 +1,5 @@
 <div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1977-01-01">
-   <pb facs="pages/img393.jpg"/> 
+   <pb facs="https://github.com/lb42/Works/tree/master/Reports/Pages/img393.jpg"/> 
    <head>QUARTERLY REPORT Jan-March 1977:
 L. BURNARD</head>
    <p>This quarter I have kept a diary.</p>
@@ -34,22 +34,23 @@ quarter.</p>
    <p>IDMS is not yet available at Bath, though it should be
 after Easter.</p>
    <p>I ran the IDMS installation test successfully on
-18th January, and used the SORT and DATAVALIDATE modulfiS of the DMUS
+18th January, and used the SORT and DATAVALIDATE modules of the DMUS
 successfully a few days later.</p>
    <p>There then followed a week of
 lost blocks during which the Project Team showed itself remarkably
-well-ter.ipered. By 9th February however I had successfully compiled
+well-tempered. By 9th February however I had successfully compiled
 my own schema and DMCL for the pilot IDMS project. This is to be a
 study of the last 15 years of observations of swans on the Thames
 however, since most of the data is still stored in several shoeboxes
 of grubby notebooks, I wrote a program to generate some test data. The
 first attempt to store any of it in the IDMS database failed because I
 had made the page size too small (128 bytes as opposed to a suggested
-l-l\ thousand), but at the second attempt 25 of my synthetic swans
+thousand), but at the second attempt 25 of my synthetic swans
 fluttered home to roost before a logical error in my schema design
-caused run-unit abortion..Using IDMS is a complicated business so I
+caused run-unit abortion. Using IDMS is a complicated business so I
+    <pb facs="https://github.com/lb42/Works/tree/master/Reports/Pages/img394.jpg"/>
 spent the next week or two on a MAC terminal writing an SCL macro to
-make it less of'a feat of memory. This was successful up to a point,
+make it less of a feat of memory. This was successful up to a point,
 though much remains to be understood. The whole application program
 ran successfully on MAC on April 4th.</p>
    <p>0ther Activities</p>

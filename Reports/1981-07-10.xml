@@ -1,5 +1,5 @@
 <div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1981-07-10">
-   <pb facs="Pages/img437.jpg"/>
+   <pb facs="https://github.com/lb42/Works/tree/master/Reports/Pages/img437.jpg"/>
    <head type="report"/>
    <head type="location">
 University College Cardiff</head> 
@@ -72,7 +72,7 @@ argued the case for a database solution to this problem, which may
 have some effect.</p>
    <p>The Welsh team, in the person of one Fiddian,
 gave a paper on their current fund-raising exercise which has the
-ambitious name of SENSE; quite what else it has remains <pb facs="Pages/img438.jpg"/>to be seen. It is apparently something
+ambitious name of SENSE; quite what else it has remains <pb facs="https://github.com/lb42/Works/tree/master/Reports/Pages/img438.jpg"/>to be seen. It is apparently something
 like CONSISTENT on Multics, or Software Tools on UNIX, or -dare I say
 it- VME/B. Quite why the government should be funding the development
 of a machine independent operating system is rather beyond me, but

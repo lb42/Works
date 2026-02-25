@@ -1,5 +1,5 @@
 <div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1984-05-19">
-   <pb facs="Pages/img537.jpg"/>
+   <pb facs="https://github.com/lb42/Works/tree/master/Reports/Pages/img537.jpg"/>
    <head type="location">Low Wood Hotel (Windermere)</head>
    <head type="date">19-23 May 1984</head>
    <head type="event">Lancaster University Conference (ICAME)</head>
@@ -49,7 +49,7 @@ these chunks to tone units on the one hand, and syntactic units on the
 other. His colleagues Anna-Britta Stenstrbm developed further the
 importance of pauses as markers of semantic units in speech, a feature
 of language the importance of which some of the
-<pb facs="Pages/img538.jpg"/>
+<pb facs="https://github.com/lb42/Works/tree/master/Reports/Pages/img538.jpg"/>
 non-native speakers here did not seem to have assimilated, while Mats
 Eeg-Olofsson reported on the dp problems involved in the analysis of a
 tagged corpus of 5000 tone units (or whatever they are) using a 16 bit
@@ -102,7 +102,7 @@ Lancaster tagging system.</p>
    <p>Roger Garside (a computer scientist)
 typified their grammar as one of 'constituent likelihood'; it works by
 generating every possible parse of a group of tagged words as a number
-of trees. Probabilistic weighting, <pb facs="Pages/img539.jpg"/>derived from other trees already present in
+of trees. Probabilistic weighting, <pb facs="https://github.com/lb42/Works/tree/master/Reports/Pages/img539.jpg"/>derived from other trees already present in
 the corpus, is then assigned each tree using some fairly fancy sums
 and the winner added to the corpus once it has been verified by a
 linguist. This process now has a claimed accuracy greater than 95%

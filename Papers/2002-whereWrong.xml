@@ -118,9 +118,9 @@ most usefully be extended into the new century.
    larger collections of textual material as part of the COBUILD
    project throughout the late eighties<note place="foot">For a summary of this highly
    influential work, prefiguring that of the BNC in many regards, see
-   <ref target="Renouf">Renouf 1986</ref>, and the many
+   <ref target="#Renouf">Renouf 1986</ref>, and the many
    publications of its intellectual centre, J. McH. Sinclair,
-   e.g. <ref>Sinclair 1987</ref></note>; and the American view most
+   e.g. <ref target="#Sinclair">Sinclair 1987</ref></note>; and the American view most
    famously expressed by Mitch Marcus as <q>there's no data like more
    data</q>. The locale in which these traditions most visibly began
    to combine into a new form was in computer aided lexicography,
@@ -130,14 +130,14 @@ most usefully be extended into the new century.
    Dictionary of Contemporary English, and of course the
    computerization of the Oxford English Dictionary itself, partly as
    a result of an upsurge of interest amongst the computational
-   linguistics community (see for example <ref>Atkins92</ref>). </p>
+   linguistics community (see for example <ref target="#Atkins92">Atkins 1992</ref>). </p>
 
 <p>At the same time, the early nineties were an exciting period for
    synergy in research applications of information technology. <soCalled>Humanities Computing</soCalled> and
    <soCalled>Computational Linguistics</soCalled> were pulling together in their first
    (and to date only) joint success, the establishment of Text
    Encoding standards appropriate to the dawning digital age.<note place="foot">The
-   introduction to <ref target="Zampolli">Zampolli 1994</ref> makes
+   introduction to <ref target="#Zampolli">Zampolli 1994</ref> makes
    this connexion explicit.</note> 
 The term <term>language engineering</term> was being used to
    describe not a dubious kind of social policy, but a sexy new
@@ -163,7 +163,7 @@ The term <term>language engineering</term> was being used to
    for the British Library, the corpus was one of a number of
    exploratory projects being set up to experiment with new media at
    the beginning of the age of the digital library (for other
-   examples, see the essays in <ref target="Carpenter">Carpenter 1998</ref>)
+   examples, see the essays in <ref target="#Carpenter">Carpenter 1998</ref>)
   </p>
 
 <p>The stated goals of the BNC project were quite explicit: it would
@@ -207,7 +207,7 @@ The term <term>language engineering</term> was being used to
    industrial co-operation was the need for some accomodation between the
    academic desire for perfection and the commercial imperatives of
    delivering a pre-defined product on time and not too far over
-   budget (see further <ref target="Burnard">Burnard 1999</ref>).
+   budget (see further <ref target="#Burnard">Burnard 1999</ref>).
 In setting up an
    industrial scale text production system, the project found itself
    inevitably making compromises in both design and execution. The
@@ -227,12 +227,12 @@ In setting up an
     at OUCS, which also maintained a database of contextual and
     workflow information. Linguistic annotation of the material was
     carried out at Lancaster, using the well-established CLAWS tagger
-    (discussed below and in <ref target="Garside96">Garside
+    (discussed below and in <ref target="#Garside96">Garside
     1996</ref>, and the resulting texts then combined with standard
     metadata descriptions extracted from the database to form a single
     document conformant (insofaras these were already published) to the
     recommendations of the Text Encoding Initiative (<ref
-    target="TEI-P3">Sperberg-McQueen 1994</ref>). </p>
+    target="#TEI-P3">Sperberg-McQueen 1994</ref>). </p>
 
 
 <p>As might be expected, the rate with which the sausage machine
@@ -353,7 +353,7 @@ Each of these topics is further discussed in the following sections.
       outset the goal of sampling materials from across the language
       with respect to explicit design criteria rather than simply
       their contingent availability in machine-readable form. These
-      criteria (usefully summarized in  <ref target="Atkins92">Atkins 1992</ref>) defined a
+      criteria (usefully summarized in  <ref target="#Atkins92">Atkins 1992</ref>) defined a
       specific range of text characteristics and target proportions
       for the material to be collected. The goal of the BNC was to
       make it possible to say something about language in general. But
@@ -376,11 +376,11 @@ Each of these topics is further discussed in the following sections.
 
 <p>This is not the place to rehearse in detail the motivations for the
     text classification scheme adopted by the BNC<note place="foot">These are
-    exhaustively discussed in e.g. <ref target="Atkins92">Atkins 1992</ref> for the
+    exhaustively discussed in e.g. <ref target="#Atkins92">Atkins 1992</ref> for the
     written material, and <ref target="Crowdy95">Crowdy 1995</ref> for the spoken
     material; discussion and detailed tables for each classification
     are also provided in the <title>BNC User Reference Guide</title> (<ref
-    target="Burnard95">Burnard 1995, revised 2000</ref>).  </note>. For example, spoken texts may be
+    target="#Burnard95">Burnard 1995, revised 2000</ref>).  </note>. For example, spoken texts may be
     characterized by age, sex, or social class (of respondent, not
     speaker), or by the domain, region, or type of speech captured;
     written texts may also be characterized by author age, sex, type,
@@ -530,7 +530,7 @@ Each of these topics is further discussed in the following sections.
     classification codes used) into a header file applicable to the
     whole corpus, retaining within each text header only the specific
     codes applicable to that text.<note place="foot">For further description of the way TEI Headers
-    are used by the BNC see <ref target="Dunlop">Dunlop 1995</ref></note> </p> 
+    are used by the BNC see <ref target="#Dunlop">Dunlop 1995</ref></note> </p> 
 
 <p>During production, however,
     classificatory and other metadata was naturally gathered as part
@@ -552,10 +552,10 @@ Each of these topics is further discussed in the following sections.
  Lancaster University from the CLAWS1
  tagger originally produced to perform a similar task on
  the one million LOB Corpus. The system is described more fully in  <ref
- target="Leech">Leech 1994</ref>; its theory and practice are explored
- in <ref target="Garside97">Garside 1997</ref>, and full technical
+ target="#Leech">Leech 1994</ref>; its theory and practice are explored
+ in <ref target="#Garside97">Garside 1997</ref>, and full technical
  documentation of its usage with the BNC is provided in the Manual
- which accompanies the BNC World Edition (<ref>Leech 2000</ref>). </p> 
+ which accompanies the BNC World Edition (<ref target="#Leech20">Leech 2000</ref>). </p> 
 <p>CLAWS4 is a <term>hybrid</term> tagger, employing a mixture of
  probabilistic and non-probabilistic techniques. It assigns a
  part-of-speech code (or
@@ -611,7 +611,7 @@ Each of these topics is further discussed in the following sections.
       SGML-based scheme has been so widely taken up and is well documented
       elsewhere, we do not discuss it further here.</p>
 <p>As some indication of the extent and nature of the markup in the BNC, here is the start
-			 of a typical written text:
+			 of a typical written text: <!--
 <eg><![CDATA[
 <text complete=Y decls='CN000 HN001 QN000 SN000'>
 <div1 complete=Y org=SEQ>
@@ -628,8 +628,9 @@ Each of these topics is further discussed in the following sections.
 <w PNP>we <w VVB>tend <w TO0>to <w VVI>take
 <w PNP>it <w CJS-PRP>for <w VVD-VVN>granted
 <c PUN>.
-]]></eg>
-
+]]></eg>-->
+</p><figure><graphic url="media/bnc-text.png"/></figure>
+<p>
 The start of each <soCalled>word</soCalled> identified by CLAWS is
       marked by an SGML <gi>w</gi> tag, which also contains the POS
       code or codes allocated to it. The start of each
@@ -640,7 +641,7 @@ The start of each <soCalled>word</soCalled> identified by CLAWS is
       the text such as headings and paragraphs.  </p>
 
 <p> The User
-      Reference Guide (<ref target="Burnard95">Burnard 1995</ref>)
+      Reference Guide (<ref target="#Burnard95">Burnard 1995</ref>)
       delivered with the corpus contains a detailed discussion of the
       scope and significance of this markup system. As the above
       example shows, it relies on the minimization features of SGML to
@@ -669,7 +670,7 @@ representing an additional overhead of approximately 10 bytes per
     material recorded in Northern Ireland). Transcribers added a
     minimal (non-SGML) kind of markup to the text, which was then
     normalized, converted to SGML, and validated by special purpose
-    software (see further <ref target="Burnage">Burnage
+    software (see further <ref target="#Burnage">Burnage
     1993</ref>). The markup scheme made explicit a number of features,
     including changes of speaker and quite detailed overlap; the words
     used, as perceived by the transcriber; indications of false
@@ -681,7 +682,7 @@ representing an additional overhead of approximately 10 bytes per
    </p>
 
 <p>Here is a sample from a transcribed spoken text:
-
+<!--
 <eg><![CDATA[
 
 <u who=PS04Y>
@@ -702,8 +703,10 @@ representing an additional overhead of approximately 10 bytes per
 <s n=01299><w NP0>Paul <w VBZ>is <w AV0>quite
 <w AJ0>good <w PRP>at <w NN1-VVG>cooking <pause>
 <w AJ0>standard <w NN1>cooking<c PUN>.</u>
-]]></eg>
+]]></eg>-->
    </p>
+ <figure><graphic url="media/bnc-stext.png"/></figure>
+ 
 <p>Words and sentences are tagged as in the written example
       above. However, sentences are now grouped into
       <term>utterances</term>, marked by the SGML <gi>u</gi> element,
@@ -724,7 +727,7 @@ representing an additional overhead of approximately 10 bytes per
      of conventional punctuation to mark intonation patterns
      interpreted as questions. For more discussion of the rationale
      behind this and other aspects of the speech transcription see
-     <ref target="Crowdy94">Crowdy 1994</ref>. </p>
+     <ref target="#Crowdy94">Crowdy 1994</ref>. </p>
 
 </div2>
 
@@ -781,7 +784,7 @@ standalone  computing environments, such as individual desktop machines. </p>
     of licencing restrictions. The British Library generously offered
     the project a server for this purpose, and a simple web interface
     to the corpus was developed. This service, still available at the
-    address <ref>http://sara.natcorp.ox.ac.uk</ref> allows anyone to
+    address <ref target="http://sara.natcorp.ox.ac.uk">http://sara.natcorp.ox.ac.uk</ref> allows anyone to
     perform basic searches of the corpus, with a restricted range of
     display options; those wishing for more sophisticated facilities
     can also download a copy of the SARA client program to access the
@@ -790,7 +793,7 @@ standalone  computing environments, such as individual desktop machines. </p>
 
 <p>To complement this service, and in response to the demand for help
     in using the BNC from the language teaching community, a detailed
-    tutorial guide (<ref target="Aston">Aston 1999</ref>) was written, introducing the various facilities of
+    tutorial guide (<ref target="#Aston">Aston 1999</ref>) was written, introducing the various facilities of
     the software in the form of focussed and linguistically-motivated
     exercises.  The Online service
     remains very popular, receiving several thousand queries each month.
@@ -800,7 +803,7 @@ standalone  computing environments, such as individual desktop machines. </p>
 --><p>Further evidence of the benefits of the software-independent
       approach taken in designing the corpus is provided by the
       success of the BNCweb project at the University of Zurich (<ref
-      target="Hoffman">Lehmann 1999</ref>), which has developed an entirely
+      target="#Hoffman">Lehmann 1999</ref>), which has developed an entirely
       web-based approach to searching the BNC using the SARA server as
       a back end together with a database of associated word-frequency
       data. </p>
@@ -828,7 +831,7 @@ enhanced version of SARA. </p>
  above, but the DTD it uses is now TEI-conformant, and there is
  a section in the manual which defines formally its relationship with
 both the published TEI specification, and its derivative Corpus Encoding
- Scheme (<ref target="Ide">Ide 1996</ref>). In practice, the differences are very slight — a
+ Scheme (<ref target="#Ide">Ide 1996</ref>). In practice, the differences are very slight — a
  few elements have different names, and the content model used by the
  BNC is simpler and more restrictive than that of CES. Although the
  text remain in SGML, the headers of the World Edition are now
@@ -873,7 +876,7 @@ counts as an error is not always obvious: mis-spelled words do appear
  out at Lancaster with funding from the Engineering and Physical
  Sciences Research Council (Research Grant No. GR/F 99847), is
  described in detail in the Manual supplied with the corpus (<ref
- target="Leech20">Leech 2000</ref>), which estimates that the error
+ target="#Leech20">Leech 2000</ref>), which estimates that the error
  rate in the whole corpus following the automatic procedures applied
  is now reduced to approximately 1.15 percent of all words, while the
  proportion of ambiguous codes is now reduced to approximately 3.75
@@ -887,7 +890,7 @@ counts as an error is not always obvious: mis-spelled words do appear
  in each text, which had been found to contain many errors in BNC1. In
  addition, we were able to include the results of a systematic
  investigation of the text classifications carried out at Lancaster
- (reported in <ref target="Lee">Lee 2001</ref>); this means that each
+ (reported in <ref target="#Lee">Lee 2001</ref>); this means that each
  text now carries not only a somewhat more reliable version of its
  original classification criteria, but also a completely new
  classification carried out in terms of a more delicate taxonomy
@@ -911,7 +914,7 @@ most important, the new version of SARA can be used with any
 TEI-conformant corpus. More information on each of these facilities,
 together with practical information on how to install and use the new
 version is available from the website
-<ref>http://www.hcu.ox.ac.uk/SARA</ref>. </p> <p>The fifth new
+ <ref target="http://www.hcu.ox.ac.uk/SARA">http://www.hcu.ox.ac.uk/SARA</ref>. </p> <p>The fifth new
 feature of this release of the BNC is a consequence of the changing
 technical environment in which the corpus is now used. It is simply
 that the corpus can now be installed at low cost for personal use on a
@@ -1091,12 +1094,12 @@ in the honour of Geoffrey Leech</title> Harlow: Longman, pp.
 
 <bibl xml:id="Ide">Ide, N., Priest-Dorman, G., Véronis, J. (1996)
       <title>Corpus Encoding Standard</title>. [available from
-      <ref>http://www.cs.vassar.edu/CES/</ref>]</bibl>
+ <ref target="http://www.cs.vassar.edu/CES/">http://www.cs.vassar.edu/CES/</ref>]</bibl>
 
 <bibl xml:id="Lee">Lee, D. (2001) <title level="a">Genres, registers, text types and styles: clarifying
 the concepts and navigating a path through the BNC Jungle</title> in
 <title level="s">Language Learning and Technology</title>,
-      5.3. [available from <ref>http://llt.msu.edu/</ref>]</bibl>
+ 5.3. [available from <ref target="http://llt.msu.edu/">http://llt.msu.edu/</ref>]</bibl>
 
 <bibl xml:id="Leech">Leech, G., Garside, R., and Bryant, M. (1994). <title
        level="a">CLAWS4: The tagging of the British National

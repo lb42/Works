@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="diaryPrint.css" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>From the Vaults... 1985</title>
+</titleStmt>
+<publicationStmt>
+<p>Published at <ptr target="http://lb42.github.io/Diary"/></p>
+</publicationStmt>
+<sourceDesc>
+<p>AMOW</p>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change when="2025-11-22">Converted from old web page to XML</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<head>1985 The Reports</head>
+<p>Many, many, years ago, I had both the leisure and the motivation to produce
+monthly reports on my activities. Many of these documents have long since
+vanished, but a few survive. They present a strange world in which some names
+and terms since very familiar jostle with others long since obscured by the
+passage of time. In preparing them for the web, I've added minimal formatting
+and (where I can find them) links to any other documents mentioned or related,
+but otherwise these are unrevised and unrepentant instances of the written
+persona I cultivated at that time.</p>
+<div>
+<head>Lou's Report for July-August 1985</head>
+<list>
+<label>INTRO</label>
+<item> Owing to the less than perfect behaviour of the 2988 this summer, I have
+had at least three opportunities to tidy my desk since the last report, during
+one of which I wrote out a list of all the little jobs I should try to complete
+before the date of this report. I abandoned this quixotic venture with number 13
+and threw away the evidence: what follows is what actually did get done. </item>
+<label>FAME</label>
+<item><ref target="Papers/icltj.htm">A paper</ref> about the wonders of CAFS/DCI
+for text handling, counting semicolons in the complete works of Shakespeare,
+searching Bodley's pre-1920 catalogue etc etc was handed over for publication in
+the next ICL Technical Journal, only a week late. Paul and I were invited to
+address (a) the ICL Large Systems User Group (Exeter, October, free dinner and
+"Late Night Entertainment" sic) and (b) the annual CAFS lunch (Cafe Royal,
+December, champagne). Work on the ICLCUA CAFS WP Report Mark 2 proceeded, at
+first intermittently, now hastily and next month no doubt at a rate of knots. A
+complete draft (more or less) has now been assembled on the 8801 and I shall now
+start trying to make it look coherent before it is typeset. </item>
+<label>ASH</label>
+<item>Most of the summer seems to have been spent worrying about and even
+working on the Ashmolean prototype database. Some effort went into various
+amendments to data definitions and documentation; most of it went into grappling
+with Application Master. This mental equivalent of sumo wrestling is one of
+those 4GLs you may have read of in the popular press, which is supposed to
+improve Programmer Productivity by 99% overnight. I'll let you know.</item>
+<label>CAFS/BUGS</label>
+<item>Two major bugs encountered by QM/CAFS were reported to ICL; reps were
+supplied eventually and one of them (but not the other) appears to have worked.
+I was disappointed to discover that the whole filestore couldnt be made CAFS
+searchable as well as NOT CAFS searchable, if unsurprised.</item>
+<label>CAFS/APPLICATIONS</label>
+<item>
+<list>
+<item>* Spent about a fortnight on and off getting Bodley's pre-1920 catalogue
+(S to SHERIDAN) into shape. This eventually produced 8 Mb of searchable file,
+containing lots of fascinating information, which the Shakespeare mob are now
+playing with excitedly. </item>
+<item>* Spent three days getting the Canterbury Tales into shape and sending it
+off on a tape to form part of a DCI demonstration package. In return, we should
+be getting a pre-release of DCI-200 (which can access IDMS databases) later this
+year. </item>
+<item>* Spent a morning persuading :KINLEN to stop mucking about with tapes and
+use DCI instead. Her eyes lit up, as well they might. </item>
+<item>* Spent about five minutes (every day for a week) helping the RSL's wonder
+boy programmer over various hurdles encountered while getting their serials file
+into shape. </item>
+<item>* Converted :DIGGER from PDS to QM in late July; he hasnt looked back
+since. </item>
+</list>
+</item>
+<label>EXTERNAL AFFAIRS</label>
+<item>Had a week in Gottingen where I met various German historians and signed
+an historic international agreement on cooperation between text archives. Was
+visited by N.Calzolari (Pisa), K.Watts (Kidsgrove), R.Oakman (S.Carolina),
+N.Ransome (Ohio), M.Larsen (Aalborg) et of course al. Visited OXFAM in search of
+AM enlightenment and saw a DM1. </item>
+<label>FAMULUS77</label>
+<item>Version 2.3 was ready for distribution in time for Jeremy to take a well
+earned two weeks holiday (most of which he seems to have spent massacring ducks)
+before being re-incarnated as OCP programmer. I produced a new version of the
+manual, incorporating all the suggestions made to date, except Susan's which
+arrived shortly after I'd handed it over to Lynne. I distributed 40 tapes, one
+of which has been returned with thanks so far. The new version will be handed
+over to Edinburgh next month. </item>
+<label>TEXT ARCHIVE</label>
+<item>The usual steady drizzle of network mail, letters, dud tapes, missing
+cheques, silly questions continued throughout the summer. Notable acqusitions
+included Dante's Divine Comedy which I eventually translated into a usable
+format. Couldnt find any jokes in it though. </item>
+</list>
+</div>
+<div>
+<head> LOU'S NOVEMBER REPORT</head>
+<div>
+<head>CAFS DEVELOPMENTS</head>
+<list>
+<item>
+<p>1. Successfully wrote a Spitbol program for converting Protestant Cemetery
+Gravestone Inscriptions into not just SIF, not just multiple SIF, but Multiple
+Sif With Trailers!! </p>
+</item>
+<item>
+<p>2. Thought about CAFSizing some Greek in response to unprecedented demand
+(four different people in succession in Advisory) and asked Charles nicely about
+getting Greek output on the Xerox Printer. </p>
+</item>
+<item>
+<p>3. Converted two more PDS databases to Querymaster, uncovering another bug in
+our bootleg PDSTOQM software in the process; also fell foul of a bug in QM, the
+patch for which Paul found by accident when looking through the KEL for
+something else. </p>
+</item>
+<item>
+<p>4. Encouraged :KINLEN (actually Lucy) to move her Scottish Deaths onto the
+CAFS discs; I think this is now nearly complete, thus reducing the number of
+tapejobs run on the 2988 by 40% at a stroke. </p>
+</item>
+<item>
+<p>5. Tried unsuccessfully to get Application Master to produce SIF. The first
+failure was caused by forgetting that SCL INTs aint the same as proper ones; the
+second is still sub judice. </p>
+</item>
+<item>
+<p>6. CEP demonstrated that four concurrent CAFS searches took roughly twice as
+much elapsed time (each) as one. Successfully cafsized a further major chunk of
+Bodleian catalogue (SH to TH), once Rob had discovered and fixed bug in OUCS
+tape handling routines, without my having to get very rude, and I had ditto
+ditto in my conversion program, without Malcolm's ditto ditto. </p>
+</item>
+<item>
+<p>7. DCI-150 was installed temporarily, withdrawn in such a way as to stop
+DCI-100 working, and has now (I hope) been reinstated. Tested one of its new
+facilities (case-blind searching) but not the other (access to IDMS databases).
+</p>
+</item>
+<item>
+<p>8. Drafted (and re-drafted) <ref target="Papers/ucafs.htm"> M-series user
+guide on Using CAFS</ref>, featuring full frontal details of CSO, dark hints
+about DCI and oblique reference to QM, i.e. exactly the reverse of the official
+ICL profile for these products. </p>
+</item>
+<item>
+<p>9. The ICL CAFS Working Party Report was finally published, with jubilation
+tempered somewhat by the appalling job the printer had done on the paste-up. The
+annual CAFS lunch, (and its rehearsal at Beaumont) occurred. Paul and I were
+magnificent.</p>
+</item>
+</list>
+</div>
+<div>
+<head>NON-CAFS RELATED EVENTS</head>
+<p>Final version of Famulus77 Manual went back to Documentation for printing.
+Another final bug in Famulus emerged. I passed it to Edinburgh! About six
+million letters for the Text Archive, some containing orders, arrived and I
+answered some of them. Played a bit with HUMBUL (not a misprint for the
+Christmas Spirit but the Humanities Bulletin Board at Leicester). Toned down
+<ref target="Reviews/johnson.sgm">a review</ref> I wrote for the new ALLC
+journal which the editor considered too rude for publication. The <ref
+target="Reviews/johnson0.icl">uncensored version</ref> is still available, if
+anyone's interested. </p>
+</div>
+</div>
+<div>
+<head>Other stuff</head>
+<p>[ Documents from this year not otherwise linked include : <list>
+<item><ref target="8510wgorton.htm">a trip to West Gorton</ref> in
+October</item>
+<item><ref target="8510italy.htm">a trip to Italy</ref> in October</item>
+<item><ref target="8511saturday.htm">a busy Saturday in November</ref></item>
+</list> ]</p>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,5 +1,5 @@
 <div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1985-09-13">
-   <pb facs="pages/img486.jpg"/>
+ <pb facs="https://github.com/lb42/Works/tree/master/Reports/Pages/img486.jpg"/>
    <head type="report"/>
    <head type="location"> City University </head>
    <head type="when">13-14 Sept. 1985</head>
@@ -34,7 +34,7 @@ project, currently indexing all dramatic works performed in Germany
 since 1960, some 13,000 documents, as well as bibliographic data, this
 holds information about productions (the roles, performers, costume
 designs, instruments used, stage sets etc.). It uses STAIRS, and runs
-on an IBM 370 beionginq to the German Ministry of Agriculture. The
+on an IBM 370 belonginq to the German Ministry of Agriculture. The
 demonstration was moderately impressive, if you've never seen a
 demonstration of STAIRS before. The second demonstration was live from
 City University New York, where a very similar U.S. project is going
@@ -54,7 +54,8 @@ a swift Reception (wine, olives, peanuts). This proved to be
 remarkably convivial considering I hadn't met any of the people
 present before (except for Joe Donohue who claimed to remember me from
 Dartmouth nine years ago and stole one of my jokes for his speech the
-<pb facs="Pages/img488.jpg"/>next day); perhaps theatre
+<pb facs="https://github.com/lb42/Works/tree/master/Reports/Pages/img487.jpg"/>
+next day); perhaps theatre
 historians are friendlier than database specialists.</p>
    <p>The second
 day consisted of three sessions, one on "International"
@@ -70,7 +71,7 @@ I know not) and explaining that the purpose of theatrical databases
 was to pass on to future generations the theatrical
 experience.</p>
    <p>Speakers were limited to ten minutes each: a good
-idea . Joe Donohue gave yet another update on the state of the London
+idea. Joe Donohue gave yet another update on the state of the London
 Stage Databank at the University of Massachaussets. This, currently
 using INFOL2 on the CDC Cyber, is now being moved to a Corona (IBM PC
 clone), attached to something called an Omega Bernouli Box -a sort of
@@ -109,7 +110,7 @@ and is looking for national bodies with which to co-operate,
 co-operation consisting of the national body depositing its records
 with TANDEM and in return getting the right to use the database, this
 idea is clearly far too Teutonic and sensible over to work.</p>
-   <pb facs="Pages/img488.jpg"/>
+   <pb facs="https://github.com/lb42/Works/tree/master/Reports/Pages/img488.jpg"/>
    <p>Over lunch I was button holed by an
 egg-shaped bookseller who had been sold a Gould running Oracle and was
 wondering what to do with it; this went on so lonq that I barely had
@@ -120,10 +121,10 @@ London) was using, or planning to use, TANDEM for their very
 miscellaneous collection; she also used the Museum Documentation
 Association's forms, the Betjemanesque Jane Hatford Dunn (British
 Theatre Association) was also in transition to TANDEM. They have vast
-numbers of sets of plays for loan indexed to varyi ngly successful
+numbers of sets of plays for loan indexed to varyingly successful
 degree. I gave my standard soft sell for the Shakespeare database at
 top speed, which appeared to provoke stunned amazement. Judith Chapman
-(Resource Dance Centre at Surrey) use INFO on the Surrey Prime to
+(Resource Dance Centre at Surrey) uses INFO on the Surrey Prime to
 index bibliographies of dance material. Gillian Hartnoll (British Film
 Institute) outlined plans to integrate several existing databases (the
 British National Film and Video Catalogue, the index to Sight and

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../diaryPrint.css" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>2024: nothing new</title>
+   </titleStmt>
+   <publicationStmt>
+    <p>Published at <ptr target="https://lb42.github.io/Diary"/></p>
+   </publicationStmt>
+   <sourceDesc>
+    <p>AMOW</p>
+   </sourceDesc>
+  </fileDesc>
+  <revisionDesc>
+   <change when="2023-09-17">First draft started</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <!-- <head>2024: still nothing new</head>
+ -->
+   <!--<figure>
+    <graphic url="https://raw.githubusercontent.com/lb42/Works/master/Diary/media/2023-timeline.png"
+     width="450px" height="500px"/>
+    <head>European end of my time line</head>
+   </figure>-->
+   <p>What's left to say about the year 2024? Many things this year seem to have been a replay of
+    something that happened last year, with minor variation in the detail... but, no, there were two
+    distinct novelties. We enjoyed some excellent theatre -- <ref
+    target="https://southwarkplayhouse.co.uk/productions/cable-street">the new musical Cable
+    Street</ref> (twice), <ref
+    target="https://www.theatreroyal.org.uk/events/sweeney-todd-a-victorian-melodrama/">a splendid
+    melodrama</ref> , and <ref
+    target="https://www.theatreroyal.org.uk/events/snow-white-the-seven-dwarfs/">a fine panto</ref>
+    -- and I gave two presentations about<ref target="https://lb42.github.io/Lacy"> my friend Mr
+    Lacy</ref> disguised as a real academic. </p>
+
+   <p> <label>January</label> On the 19th, P&amp;P took us out for lunch to the White Hart at
+    Littleton-upon-Severn, conveniently located down a windy country lane from the Church of Saint
+    Arilda, commanding splendid views of the Severn Bridge. <figure>
+    <graphic url="../media/20240119_000000.jpg" width="600px"/>
+    <head>Sundown at St Arilda's</head>
+    </figure></p>
+   <p> <label>February</label> On the 17th we were in Maryland for Elizabeth's birthday, notable
+    this year for balloons and a gold bangle from the Dragon Workshop. <figure>
+    <graphic url="../media/20240217_183208.jpg" width="500px"/>
+    <head>Birthday Balloons</head>
+    </figure></p>
+   <p>This was followed by a trip to exotic Southwark to see <ref
+    target="https://southwarkplayhouse.co.uk/productions/cable-street-1/">Cable Street the Musical
+    (Mk1)</ref>. We stayed in a Travelodge over the road and ate at a rather disappointing street
+    food market. Back in the West Country, on the 24th, P&amp;P took us to the Clevedon Gardeners
+    Club show, where we ate too much cake and were impressed by vegetables. </p>
+   <p> <label>March</label> At the start of the month, we went to Nottingham to enjoy Belinda's new
+    klezmer band in action, which was a musical treat. And then, hoorah for <ref
+    target="https://lb42.github.io/Diary/2024-03-13.html">An expedition across the Hexagon</ref>
+    during which we went on a mostly Norman holiday, taking in my first ever talk all about Lacy's
+    Acting Edition (in French), a visit to Jef and Nicole, some tourism on the Ile de Ré, and
+    getting stuck in La Rochelle, before proceeding to La Vergne for a couple of weeks. Follow the
+    link for more details and lovely photos. </p>
+   <p> <label>April</label> Leaving La Vergne on the 15th, we experimented with the
+    La-Souterraine-Limoges-Poitiers-Tours-Caen route back to the ferry. It took a while, but the
+    trains all connected. In Caen, Mrs H's <hi>Comité Scientifique</hi> was its usual sybaritic
+    self, of course. On the evening of the 18th, we took the overnight ferry back to Portsmouth,
+    this time paying for a below decks cabin, which was a rather unpleasant box. Back in Portsmouth
+    Harbour and Southsea station we had a long wait for the first train to Bristol, on a very chilly
+    morning. </p>
+   <figure>
+    <graphic url="../media/20240419_070138.jpg" width="600px"/>
+    <head>It's seven a.m. and this is a war memorial</head>
+   </figure>
+
+   <p> <label>May</label> This month I headed back to La Vergne on my own, via Caen, Tours, and
+    Vierzon: see further <ref target="https://lb42.github.io/Diary/2024-05-20.html">Another Tours de
+    force</ref> for full detail. </p>
+   <p> <label>June</label> At the start of the month, I <ref target="https://lb42.github.io/Diary/2024-06-04.html">dashed back from France</ref> for a Dermatological Encounter, and more interestingly a visit from (most of) the Kayes, which provided the
+    occasion for a rare (almost complete) family photo: <figure>
+    <graphic url="../media/20240615_170538.jpg" width="800px"/>
+    <head>Fromage de famille</head>
+    </figure> Also this month, I had another summer school teaching gig so proceeded back to France
+    on my own. The journey to Lyon, via London and Paris, with major train delays at every step, is
+    painstakingly documented in <ref target="https://lb42.github.io/Diary/2024-06-17.html">Best Laid
+    Plans</ref>, as is the continuation from Lyon to Gueret during which I learned (from experience)
+    the French for bus replacement service. For the last week of the month, Lilette came out to join
+    me contemplating the grass growing at La Vergne, and we then we flew back together from Limoges
+    to Bristol without incident. </p>
+   <p> <label>July</label> Birthday lunches for Lilette at Sonny Stores on the 10th and for Coco at
+    the Stratford Bamboo Mat on the 13th. Unbirthday lunch at Nando's Park Street for the mysterious
+    Mr and Mrs Robert Price. Birthday dinner chez Bekhradnia for Bahram on the 24th. And, as
+    aforesaid, to Bath on the 23rd for <ref
+    target="https://www.theatreroyal.org.uk/events/sweeney-todd-a-victorian-melodrama/">a splendid
+    melodrama</ref>, though not one included in Lacy's Acting Edition.</p>
+   <p> <label>August</label> This month we made a quick round of visits before evaporating to France
+    for what was left of the summer. The English part of this turned out to need complex planning to
+    cope with unexpected Mauritian arrivals. On the 4th we went to Nottingham, staying at an AirBnb
+    on Loscoe Rd, to celebrate Harvey's birthday; we also visited Wollaton Hall where we saw huge
+    trees, tiny artworks, and lots of deer. On the 9th we went Maryland, to celebrate Daphne's
+    birthday, one night on the sofa, one night in the Ibis. And on the 11th we were back in Bristol
+    welcoming Roger and Olive on their lightning tour of the UK. </p>
+   <figure>
+    <graphic url="../media/20240813_161957.jpg" width="500px"/>
+    <head>Roger and Olive departing by Flixbus</head>
+   </figure>
+   <p>On the 15th we took the now-familiar ferry from Portsmouth back to Caen, and thence to La
+    Vergne, via Paris and La Souterraine, which is (a bit) speedier though more expensive than going
+    via Tours. The journey passed this time without incident. The news of Michael Sperberg McQueen's
+    unexpected decease hit Facebook and therefore also La Vergne a few days later, and I spent some
+    time pondering the best sort of response, <ref target="https://balisage.net/RememberingMSM.html"
+    > as did many other people</ref>. In Bussière, we did more or less nothing much except for the
+    occasional excursion; the fete de St Syphorien at the end of the month passed as it always does
+    with a splendid procession of tractor-hauled floral floats, excellent music, and dancing girls. </p>
+   <p> <label>September</label> We returned to Caen for a different Comite Scientifique meeting,
+    which was interesting, and thence via Paris and London back home to Bristol on the 6th, since
+    Mrs H was paying. We had a few days to sort things out for a visit from Mr and Mrs Feigenbaum on
+    which we took them to the White Hart at Littleton-upon-Severn (but could not find our way from
+    there to St Arilda's), despite car problems ; on the 13th we went to London again, partly for
+    Al's birthday, but mostly for Cable Street (Mk 2) which was much better than Mk 1, whatever <ref
+    target="https://www.musicalsmagazine.com/features/article/cable-street-review">this
+    reviewer</ref> says; we stayed at Z Hotel Shoreditch in an overpriced un-windowed cellar; on the
+    18th cheerful plumbers came and restored hot water apparently without needing to send in a
+    little bill. </p>
+   <p> <label>October and November</label> The first fortnight of October I seem to have been
+    walking up to the Clifton Observatory rather frequently, with no other motivation than a need
+    for exercise and a desire for this - it pains me to say this - iconic view <figure>
+    <graphic url="../media/20241004_122800.jpg" width="900px"/>
+    <head>As seen on TV</head>
+    </figure> </p>
+   <p> On the 15th, however I set off from Clifton Down for France again, solus. I have to teach
+    "TEI niveau 2" in Tours, but there's a week before and after it during which, despite the wintry
+    weather, I will hide away in La Vergne, before proceeding (yes, again) to Caen to give a real
+    academic conference paper in English at a real academic conference. Read all about it at <ref
+    target="https://lb42.github.io/Diary/2024-11-09.html">Once more with feeling</ref>!</p>
+   <p> <label>December</label> On the 6th, I went to Oxford for a brief lunchtime reunion of ex-OUCS
+    employees, those who are not yet dead. A curious experience, which I may write about elsewhere
+    some time. I proceeded from there to London for another Stratford weekend with the Kayes before
+    returning to Bristol on the 8th for the traditional, not to say inevitable, end of year
+    amusements and over-eating-occasions, namely viz, my birthday dinner at Pam's; a wedding
+    anniversary lunch at the Ivy; and a vast Xmas lunch at Sarah's with everyone except Elizabeth
+    and company. <figure>
+    <graphic url="../media/20241209mix.png" width="800px"/>
+    <head>Pam's cat watching us lunch vs. Congratulatory cake from the Ivy </head>
+    </figure> But the high spot of the season was undoubtedly (as it should be) going to see the
+    panto at Bath, with Elizabeth, Daphne, Coco, and Leon. We went on a bus and a train and ate
+    pizza and ice cream and everyone behaved perfectly. </p>
+   <figure>
+    <graphic url="../media/20241230_133237.jpg" width="750px"/>
+    <head>Ready to rumble</head>
+   </figure>
+  </body>
+ </text>
+</TEI>

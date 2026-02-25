@@ -79,115 +79,115 @@ Lou Burnard, Cork, 21 Nov 93
 ========= Concluding statement of the WWW/TEI Meeting follows ==========
 </p>
    <p>
-      <eg>
-&lt;!-- This uses the HTML dtd --&gt;
+      <code><![CDATA[
+<!-- This uses the HTML dtd -->
 
-&lt;title&gt;WWW/TEI Meeting&lt;/title&gt;
-&lt;h1&gt;Notes from WWW/TEI Meeting&lt;/h1&gt;
-&lt;h3&gt;Action Items/Recommendations&lt;/h3&gt;
-&lt;list&gt;
-&lt;li&gt;HTML 1.0 should be documented to define the behavior of existing browsers,
+<title>WWW/TEI Meeting</title>
+<h1>Notes from WWW/TEI Meeting</h1>
+<h3>Action Items/Recommendations</h3>
+<list>
+<li>HTML 1.0 should be documented to define the behavior of existing browsers,
     and should be frozen as agreed upon at the WWW Developers' Conference.
-	&lt;list&gt;
-	&lt;li&gt;Features to be documented, implemented and specified include
+	<list>
+	<li>Features to be documented, implemented and specified include
 	    collapsing spaces, underline, alt attribute, BR, HR, ISMAP...
-	&lt;li&gt;HTML IETF spec needs to be updated by CERN, as well as existing 
+	<li>HTML IETF spec needs to be updated by CERN, as well as existing 
             documentation
-	&lt;/list&gt;
-&lt;li&gt;HTML+ future browsers need not support HTML 1.0 features after a reasonable
+	</list>
+<li>HTML+ future browsers need not support HTML 1.0 features after a reasonable
     amount of time.
     As an aid in transition, the HTML+ spec/DTD will not include any deprecated
     features of HTML 1.0.
-	&lt;list&gt;
-	&lt;li&gt;HTML 1.0 deprecated features
-		&lt;list&gt;
-		&lt;li&gt;nextid
-		&lt;li&gt;method, rel, rev, effect from &amp;lt;A&amp;gt; tag (but
-		    not from the &amp;lt;LINK&amp;gt; tag)
-		&lt;li&gt;blockquote --&amp;gt; quote
-		&lt;li&gt;There was a feeling that the &amp;lt;img&amp;gt; tag will
-		    be superceded by the &amp;lt;fig&amp;gt; tag, although its
+	<list>
+	<li>HTML 1.0 deprecated features
+		<list>
+		<li>nextid
+		<li>method, rel, rev, effect from <A> tag (but
+		    not from the <LINK> tag)
+		<li>blockquote --> quote
+		<li>There was a feeling that the <img> tag will
+		    be superceded by the fig tag, although its
 		    deprecation was not agreed upon.
-		&lt;li&gt;menu list --&amp;gt; ul
-		&lt;li&gt;dir list--&amp;gt; ul
-		&lt;/list&gt;
-	&lt;/list&gt;
-&lt;li&gt;The intention of HTML+ is to support generic SGML-compliant authoring
+		<li>menu list --> ul
+		<li>dir list--&amp;gt; ul
+		</list>
+	</list>
+<li>The intention of HTML+ is to support generic SGML-compliant authoring
     tools, and authors are recommended to use this software with the HTML+
     DTD for the creation/maintenance of documents.
-&lt;li&gt;Browsers may implement different levels of HTML+ conformance.
-	&lt;list&gt;
-	&lt;li&gt;Level 0 implementation
-		&lt;list&gt;
-		&lt;li&gt;HTML 1.0 spec referenced above
-		&lt;/list&gt;
-	&lt;li&gt;Level 1 implementation
-		&lt;list&gt;
-		&lt;li&gt;Partial fill-out forms
-		&lt;li&gt;New entity definitions (in section 5.1 of HTML+ draft)
-		&lt;/list&gt;
-	&lt;li&gt;Level 2 implementation
-		&lt;list&gt;
-		&lt;li&gt;Additional presentation tags (sub, sup, strike) &amp;amp;
+<li>Browsers may implement different levels of HTML+ conformance.
+	<list>
+	<li>Level 0 implementation
+		<list>
+		<li>HTML 1.0 spec referenced above
+		</list>
+	<li>Level 1 implementation
+		<list>
+		<li>Partial fill-out forms
+		<li>New entity definitions (in section 5.1 of HTML+ draft)
+		</list>
+	<li>Level 2 implementation
+		<list>
+		<li>Additional presentation tags (sub, sup, strike) &amp;amp;
                    logical emphasis
-		&lt;li&gt;Full forms support (incl. type checking)
-		&lt;li&gt;Generic emphasis tag
-		&lt;/list&gt;
-	&lt;li&gt;Level 3 implementation
-		&lt;list&gt;
-		&lt;li&gt;Figures
-		&lt;li&gt;NOTEs and admonishments
-		&lt;/list&gt;
-	&lt;li&gt;Further levels to be specified
-	&lt;/list&gt;
-&lt;li&gt;Authoring tools are expected to conform to the HTML+ DTD and are
-    &lt;b&gt;NOT&lt;/b&gt; to support deprecated features.
-&lt;li&gt;We expect the HTML+ DTD to be developed incrementally. The HTML+
+		<li>Full forms support (incl. type checking)
+		<li>Generic emphasis tag
+		</list>
+	<li>Level 3 implementation
+		<list>
+		<li>Figures
+		<li>NOTEs and admonishments
+		</list>
+	<li>Further levels to be specified
+	</list>
+<li>Authoring tools are expected to conform to the HTML+ DTD and are
+    <b>NOT</b> to support deprecated features.
+<li>We expect the HTML+ DTD to be developed incrementally. The HTML+
     internet draft will make clear which features are now stable and
     which are still subject to change. The DTD will be structured to
     reflect this.
-	&lt;ol&gt;
-	&lt;li&gt;HTML+ will work with the SGML reference concrete syntax.
-	&lt;li&gt;The entity sets will be user-specifiable (in the long run).
-	&lt;li&gt;HTML+ will support nested divisions or containers.
-	&lt;li&gt;There will be a number of new features
-		&lt;dl&gt;
-		&lt;dt&gt;&lt;b&gt;Figures &amp; Images&lt;/b&gt;
-		    &lt;dd&gt;&amp;lt;fig&amp;gt; may be able to subsume the role of &amp;lt;img&amp;gt;.
-		&lt;dt&gt;&lt;b&gt;Generic highlighting tag&lt;/b&gt;
-		    &lt;dd&gt;The &amp;lt;em&amp;gt; tag will be used with a set of
+	<ol>
+	<li>HTML+ will work with the SGML reference concrete syntax.
+	<li>The entity sets will be user-specifiable (in the long run).
+	<li>HTML+ will support nested divisions or containers.
+	<li>There will be a number of new features
+		<dl>
+		<dt><b>Figures &amp; Images</b>
+		    <dd>&amp;lt;fig&amp;gt; may be able to subsume the role of &amp;lt;img&amp;gt;.
+		<dt><b>Generic highlighting tag</b>
+		    <dd>The &amp;lt;em&amp;gt; tag will be used with a set of
                         three or four defined attributes to present a
                         guaranteed-distinct presentation of these
                         attributes.
-		&lt;dt&gt;&lt;b&gt;Generic roles&lt;/b&gt;
-		&lt;dt&gt;&lt;b&gt;Support for undefined elements&lt;/b&gt; (user extensions) (render)
-		&lt;dd&gt;
-		&lt;dt&gt;&lt;b&gt;Tables&lt;/b&gt;
-		&lt;dd&gt;This is now stable.
-		&lt;dt&gt;Math&lt;/b&gt;
-		&lt;dd&gt;for research
-		&lt;/dl&gt;
-	&lt;/ol&gt;
-&lt;li&gt;HTML/TEI
-	&lt;list&gt;
-	&lt;li&gt;It was felt the correct way to convert between TEI and HTML
+		<dt><b>Generic roles</b>
+		<dt><b>Support for undefined elements</b> (user extensions) (render)
+		<dd>
+		<dt><b>Tables</b>
+		<dd>This is now stable.
+		<dt>Math</b>
+		<dd>for research
+		</dl>
+	</ol>
+<li>HTML/TEI
+	<list>
+	<li>It was felt the correct way to convert between TEI and HTML
 	    was to do it on the server side using a conversion filter.
-	&lt;li&gt;This server will also provide a hypertext link to download the
+	<li>This server will also provide a hypertext link to download the
 	    raw TEI text.
-	&lt;li&gt;We (WWW developers and TEI people) will strive together to
+	<li>We (WWW developers and TEI people) will strive together to
 	    converge functionality between HTML* and TEI, as well as to
 	    produce this server/filter system.
-	&lt;/list&gt;
-&lt;li&gt;Links to:
-	&lt;list&gt;
-	&lt;li&gt;HTML spec
-	&lt;li&gt;HTML+ spec
-	&lt;li&gt;&lt;ref target="http://curia.ucc.ie/curia/doc/tei.html"&gt;TEI overview&lt;/a&gt;
-	&lt;/list&gt;
-&lt;/list&gt;
+	</list>
+<li>Links to:
+	<list>
+	<li>HTML spec
+	<li>HTML+ spec
+	<li><ref target="http://curia.ucc.ie/curia/doc/tei.html">TEI overview</a>
+	</list>
+</list>
 
-
-</eg>
+]]>
+</code>
    </p>
 
 </div>

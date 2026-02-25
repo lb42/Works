@@ -1,5 +1,5 @@
 <div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1986-12-05">
-   <pb facs="Pages/img477.jpg"/>
+   <pb facs="https://github.com/lb42/Works/tree/master/Reports/Pages/img477.jpg"/>
    <head type="report"> Lou Burnard</head>
    <head type="location">Batelle Software</head>
    <head type="event">Seminar on DM/BASIS</head>
@@ -51,7 +51,7 @@ publishers. Its indexing strategies (there are twenty different
 algorithms) appear to be sufficiently flexible to cater for almost any
 sort of text or user requirement thereof, including support for funny
 alphabets, embedded ignore characters etc.</p>
-   <pb facs="Pages/img478.jpg"/>
+   <pb facs="https://github.com/lb42/Works/tree/master/Reports/Pages/img478.jpg"/>
    <p>Stop/Go words can be specified. Phrases
 can be indexed. Subfields within text can be indexed (e.g. if one
 field of a report contains a table, each row of the table can be
