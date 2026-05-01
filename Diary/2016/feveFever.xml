@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="UTF-8"?><!--Source: https://medium.com/@louBurnard/at-the-end-of-my-sixth-decade-having-some-credit-at-my-bank-and-no-particular-calls-on-my-time-i-f5707a1d9ed0-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:html="http://www.w3.org/1999/xhtml">
+
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>FEVE-fever : a collaborative account</title>
+<author>Guy Aston</author> 
+<author>Lou Burnard</author>
+</titleStmt>
+<publicationStmt>
+<p>Published at <ptr target="http://lb42.github.io/Diary"/> using CETEICEAN</p>
+</publicationStmt>
+<sourceDesc>
+<p>Originally posted as a series of posts on Medium.com, this text has been translated from HTML to TEI, and combined to form a single document.</p>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change when="20260501">Converted, combined, added header</change></revisionDesc>
+</teiHeader>
+
+<text>
+<body>
+
+
+<!--</header>-->
+<p>At the end of my sixth decade, having some credit at my bank, and no
+particular calls on my time, I resolved to spend a week or two travelling by
+slow train from left to right along the shores of the Bay of Biscay, in the
+company of my oldest surviving friend Dr G.A.</p>
+<p>We began the journey proper in Santiago de Compostela and finished it in
+Hendaye, so this may be thought of as a kind of reverse or widdershins
+pilgrimage. To get to Santiago, we took a high speed train from Madrid; and from
+Hendaye we took a high speed train to Paris. But in between we were on FEVE
+trains, which is a very different kind of experience. (See  <ref
+target="http://www.wikiwand.com/en/Renfe_Feve"
+>http://www.wikiwand.com/en/Renfe_Feve</ref> for background on FEVE)</p>
+<p>We took it in turns to write a daily log, which was first published on Medium, and is now for the first time collected as a single document.  <!--you can now read as
+follows:--></p>
+<list>
+<item><ref target="https://medium.com/p/51571d2c981b"><hi rend="bold">FEVE fever :
+1</hi>
+<hi rend="italic">In which we find the Holy Grail</hi></ref>
+</item><item>
+<ref target="https://medium.com/p/2e3ff932e24c"><hi rend="bold">FEVE Fever :
+2</hi>
+<hi rend="italic">In which we pass by the end of the world</hi></ref>
+</item><item>
+<ref target="https://medium.com/p/ffec804721ba"><hi rend="bold">FEVE fever :
+3</hi>
+<hi rend="italic">The vendetta of the invincible Armada</hi></ref>
+</item><item>
+<ref target="https://medium.com/p/ca7172868535"><hi rend="bold">FEVE fever :
+4</hi>
+<hi rend="italic">In which we return to the big(gish) City</hi></ref>
+</item><item>
+<ref target="https://medium.com/p/71b21a2e3c2a"><hi rend="bold">FEVE fever :
+5</hi>
+<hi rend="italic">In my beginning is my end</hi></ref>
+</item><item>
+<ref target="https://medium.com/p/b9a6134e17b"><hi rend="bold">FEVE fever :
+6</hi>
+<hi rend="italic">In which we are translated from Asturian to
+Castilian</hi></ref>
+</item><item>
+<ref target="https://medium.com/p/b781b04e0f07"><hi rend="bold">FEVE fever :
+7</hi>
+<hi rend="italic">A million Mexicans can’t be wrong: the Transcantabrian
+Adventure</hi></ref>
+</item><item>
+<ref target="https://medium.com/p/4f15cc8d4a95"><hi rend="bold">FEVE fever :
+8</hi>
+<hi rend="italic">In which we reach the (other) end of the line</hi></ref>
+</item><item>
+<ref target="https://medium.com/p/ea40bf9df5bd"><hi rend="bold">FEVE fever :
+9</hi>
+<hi rend="italic">Goodbye Feve; Hail and Farewell Euskotren.</hi></ref>
+</item><item>
+<ref target="https://medium.com/p/ca967dfec834"><hi rend="bold">FEVE fever :
+10</hi>
+<hi rend="italic">In which we glide back into the 21st century</hi></ref>
+<ref target="https://medium.com/p/ca967dfec834"/></item></list>
+
+
+<div xml:id="feveFever1" resp="CGA" n="20160413_163514">
+
+
+<head><hi rend="italic">In which we find the Holy Grail</hi></head>
+<p>
+<hi rend="italic">Guy sez:</hi> What can one say about the 9.15 8-coach ALVIA
+Talgo from platform 21 of Madrid Chamartin for Ferrol, calling at Zamora,
+Ourense, Santiago de Compostella, A Coruna, and Betanzos?</p>
+<figure>
+<graphic url="media/1*cg0uLFecVP7k7RjqNFqf-w.jpeg" rend="img" mimeType="image/jpeg"/>
+
+<head>The rain in Spain falls mainly on the train</head>
+</figure>
+<p> Very little really, and I doubt much more tomorrow when we pick it up again
+from Santiago to Ferrol. Miles of empty countryside which give way to
+single-track snow-lined passes and peaks after the ritual of gauge change. A
+friendly guard who shows us where we are on the map. An anxious glance at the
+speedometer as we come to the curve leading into Santiago where a train derailed
+last year. Virtually no other traffic.</p>
+<p>Lou was offered an Eeyorish dinner at Pepe’s on arrival last night, branded
+(in the English menu) as beans and thistles. But with no sign of the thistles in
+practice. I finished my nice acorn-fed ham boccadillo in my stuffy little room.
+We depart from Chamartin not too much the worse for wear with Burnard family
+blessings.</p>
+<p>Lunch in the first restaurant we encounter coming out of the station at
+Santiago. Galician soup proves a splendid invention. And then we set about
+hunting for the Holy Grail, located after some brief confusion under a dusky
+portico. A charming elderly establishment, with old wooden floors, much wooden
+pannelling, low ceilings, and walls too thin to keep out the rhythm section
+rehearsing next door.</p>
+<p> Destination the cathedral. We come to a hat shop. Lou needs a new
+beret — cheaper here than in France, it seems. Both emerge wearing berets.</p>
+<figure>
+<graphic
+url="media/1*RDnhGh44nML_bXf6JB1sqw.jpg"
+rend="img" mimeType="image/jpg"/>
+
+<head>Guy is fitted for his beret (slightly smaller than mine hem hem)</head>
+</figure>
+<p>We proceed to purchase obligatory tourist tat, e.g. postcards, snow globes,
+etc. etc. Electric candles in front of St James’ relics on behalf of Sandra and
+Adolfo. But I draw the line at joining the queue to embrace the saint’s statue
+from the rear, so can tell you nothing today about his bottom. His main claim to
+fame (apart from apostolic status and biblical references) appears to have been
+helping Alfonso the nth to defeat the Moors in 700 and something. Will try and
+find out more about this guest appearance in history. Certainly convenient that
+his martyred remains had been imported from the Middle East for the occasion.
+Expecting to find floods of pilgrims, but there seem relatively few tourists
+around, and between showers we wander round bookshops (- Do you have a book
+called Transcantabrica. I don’t know the author or publisher. — No.: this
+allusion reserved exclusively for the surviving Pixies among our readers.)</p>
+<p>Dinner is in what we gather is <ref target="http://cafecasino.es/el-casino/"
+>a former gentlemen’s club</ref> across the road, with large armchairs and
+carved wood panelling mainly but not exclusively depicting naked ladies (the
+panelling that is). If my guts would only behave I might appreciate it more. As
+it is, I give up on my second Galician soup of the day and on Lou’s surfeit of
+small green peppers, and retire for an early night: Lou shortly knocks clutching
+consolatory bottles of water and clementines. More tomorrow, hopefully not of
+the same, from Lou.</p>
+</div>
+<div xml:id="feveFever2" resp="LB" n="20160414_1846">
+
+<head>In which we pass by the end of the world</head>
+<p>
+<hi rend="italic">Lou says:</hi> One (or two) good night’s sleep later, we
+return to the Cafe Casino, partly to see whether it is just as extraordinary by
+daylight, but mostly to enjoy its excellent coffee and selections of <hi
+rend="italic">desayunos</hi> (No 2 for G, No 3 for L). These comprise crunchy
+grainy toast smeared with salsa and (in the case of No 3) large quantities of
+ham. And did I mention the excellent restorative coffee? A flock of tourists
+comes in out of the rain, and is sent packing by the waiter, hoorah.</p>
+<figure>
+<graphic url="media/1*q5DWJGzPevVO4x2eKljQ-w.jpeg" rend="img" mimeType="image/jpeg"/>
+
+<head>Death and the Maiden at the Cafe Casino</head>
+</figure>
+<p>We have time to purchase more <hi rend="italic">schmuck</hi> and effectuate a
+further modicum of tourism, so we take in the Cathedral museum, which turns out
+to be largely an advertisement for — or testimony to — the heroic efforts of the
+restoration workers, but it does feature some impressive pieces of devotional
+kitsch, such as you might expect to have accumulated after a few centuries</p>
+<figure>
+<graphic url="media/1*dPt0avyusMWUbn9jjGTmuw.jpeg" rend="img" mimeType="image/jpeg"/>
+<head>Hi Mary! Who’s your friend?</head>
+</figure>
+<p> And so back the Hotel of the Holy Graal to finish packing and watch the
+world go by for a few moments from my window, before paying up and moving on. I
+would be happy to return here, for one. It’s noon and far too early to expect
+anyone to serve lunch, but we do eventually persuade the <hi rend="italic"
+>cerviceria</hi> opposite the Galician parliament to oblige. The dish of the day
+is <hi rend="italic">bacalao</hi>, which seems too good to resist. Guy’s innards
+are still feeling tender, but he is persuaded by the solicitous barman to order
+only half a steak. And so back to the station in good time for the 1417 train to
+Ferrol, the same one as we got off of yesterday, or not, depending on your views
+about the nature of identity.</p>
+<p>The train chunters through the glooming (is that a word?) to A Coruna while I
+wrestle with the problem of reorganizing the photos I have taken on the trip so
+far, and do not therefore notice that the train has had to reverse direction to
+back out of A Coruna, before continuing to chunter more slowly into the rather
+grim estuary of Betanzos-Infesta, and then back out again in the opposite
+direction. The rain continues to fall as it skirts the edge of the estuary until
+it finds a bridge to cross over and descend on the charming city of Ferrol, our
+destination <hi rend="italic">du jour</hi>. From which, Guy informs me, the
+Spanish armada sailed some time ago.</p>
+<p>Ferrol station is where our real FEVE adventure is due to begin tomorrow,
+since this is the westernmost terminus of the narrow-gauge lines we are taking
+along the coast towards Bilbao. A helpful lady at the station explains to us the
+rules and regulations for buying FEVE tickets (only on the day of departure,
+please, and only for one section at a time), and also reveals the cost benefits
+of buying a Golden Card, the Spanish equivalent of the Senior Railcard or Carte
+Senior. 6 euros for a year’s half price travel is an irresistible bargain in any
+language.</p>
+<p>And the sun comes out! Our hotel today is a charming edifice dating from 1906
+on one of the three pedestrianized shopping streets that constitute much of the
+centre of Ferrol, originally laid out on a grid pattern (Guy tells me) during
+the Enlightenment to house shipyard workers. We inspect the naval base, or more
+exactly the wall around it and the fish market (closed), and also some tumbling
+down houses on the cobbled precipitous streets of the Old Town before resting in
+a park full of peacocks and seagulls. The evocative cries of the seagulls are
+interspersed with the low comedy of the peacocks. And thence for a light supper
+(mmm sardines, and patatas bravas) in a typical Galician meson.</p>
+<figure>
+<graphic url="media/1*vDxdbBuM2FRY44UffdK32A.jpeg" rend="img" mimeType="image/jpeg"/>
+<head>For low comedy, it is hard to better the peacock’s arse</head>
+</figure>
+</div>
+<div xml:id="feveFever3" resp="CGA" n="20160415_2031">
+
+<head>The vendetta of the invincible Armada</head>
+<p>
+<hi rend="italic">An historical note by Guy. </hi></p>
+<p>El Ferrol, where I was
+awakened at dawn this morning by the wheeling of gulls outside my French window
+(following three prior awakenings by other calls of nature), was razed virtually
+to the ground by fire in 1568. Nonetheless some accounts claim that, as the home
+of the Spanish Arsenal, it was still a point of departure for the invincible
+fleet in 1588.</p>
+<figure>
+<graphic url="media/1*LxVIvXpH7egGOeYG8qbnyg.jpeg" rend="img" mimeType="image/jpeg"/>
+
+<head>Invincible Armada approaching the Isle of White (from our own reporter)
+via Wikimedia</head>
+</figure>
+<p> Drake’s observations have gone down in history as relating to a game of
+bowls, but Elizabethan spelling was clearly flexible, certainly on Plymouth Hoe,
+so it is quite likely that the official record missed the vowel e. Some of the
+Spanish ships will have visited Mexico earlier in the century, and have
+encountered and duly imported to the Arsenal significant samples of Montezuma’s
+revenge. Vengeance proved total last night in the (quite nice) Galician bar
+where Lou succeeded, but I totally failed to hold down (or up) my dinner,
+something I do not intend to try to — again until I have departed this place. As
+I now write the following evening, when we have finally left Galicia and entered
+Asturias, perhaps limited risks may be taken. It will be seen.</p>
+<p>After this brief historical-autobiographical preface, we turn to the details
+of walking to the railway station(s) in Ferrol, via two bookshops neither of
+which has a book called <hi rend="italic">Transcantabrica</hi> (even though we
+now know the author and publisher). Half the station being RENFE, half being
+FEVE (<hi rend="italic">Ferrocarriles Españoles de Vía Estrecha = Spanish narrow
+gauge railways</hi>), which is now also owned by RENFE (This means that the
+national Spanish rail operator somehow manages to run trains on three different
+gauges, specifically the 1668-mm “Iberian gauge”, the 1435-mm “European gauge”
+and the 1000-mm “Metre Gauge” networks). Access to the two sets of platforms is
+strictly segregated: to get to a FEVE platform you must have a FEVE ticket. This
+also provides access to the FEVE half of the station bar, occupied by a number
+of railwaymen, where we order European toasted sandwiches to accompany the
+inevitable freshly squeezed orange juice and coffee, and then watch the 1030
+departure move out from platform 7 prior to embarking on our 1045 from platform
+5.</p>
+<figure>
+<graphic url="media/1*x9aD4NXqt01Se_6HOJt5TQ.jpeg" rend="img" mimeType="image/jpeg"/>
+
+<head>1045 Ferrol-Ribadeo preparing to leave</head>
+</figure>
+<p> There is an intensive service on this route for the first few miles, which
+progressively thins out to become a mere two trains a day beyond Ribadeo, our
+current destination which we reach some three hours later. All the trains are
+two-coach articulated diesel multiple units with driver and guard which stop
+upon request: so we speed happily through the first station from Ferrol before
+braking dramatically and reversing into the station to pick up a previously
+unnoticed would-be passenger.</p>
+<p>The route is decidedly scenic, with lots of little farms, and many wooded
+hills covered in eucalyptus (on which more anon). There are also lots of
+crossing points with station masters/mistresses in smart hats (they aren’t the
+only ones: see <ref target="http://bit.ly/feveFever1">first instalment</ref>).
+The train averages 4–5 passengers until we get to the last stretch along the
+coast to Ribadeo, where we are joined by a vociferous group who seem the
+worse/better for drink. At Ribadeo everyone gets out, including the train crew
+who are taken away in a car, presumably to lunch.</p>
+<figure>
+<graphic url="media/1*BS0rAn2us6EiM1lcgf8MWg.jpeg" rend="img" mimeType="image/jpeg"/>
+
+<head>Buenos dias Ribadeo. Bring us lunch.</head>
+</figure>
+<p>We share this objective, and a five-minute walk takes us to <hi rend="italic"
+>O Piano</hi>, and another Galician soup of a fishy nature, though I can’t
+handle the boiled beef which follows it on the <hi rend="italic">Menu del
+Dia</hi>.</p>
+<p> Somewhat restored, we set out for the town centre, where we find: a post
+office without anywhere to post things; another Casino in need of repair, the
+glimmering red and silver tiles of Ribadeo’s triumph of Art Nouveau.</p>
+<figure>
+<graphic url="media/1*T2D9rvOqrpL62mlHXsko7g.jpeg" rend="img" mimeType="image/jpeg"/>
+
+<head>Casino in urgent need of restoration, Ribadeo</head>
+</figure>
+<p>I have completely run out of energy at this point, but Lou manages to get me
+back to the railway station and purchase tickets for Navia, via a supermarket
+and a supply of bananas and fruit juice. Ribadeo is the last place in Galicia,
+and perhaps of associated maledictions. Into the train, seated opposite a fluffy
+Spanish lady whom the guard assumes is English, and here we all are in Navia
+(accent on first syllable), walking down the hill to our (fairly) luxurious
+hotel wherein I have the dingy desk with hi-tech bathroom facilities, and Lou
+has the luxurious suite complete with view over the estuary and tailors
+dummy.</p>
+<figure>
+<graphic url="media/1*rLCcQt8AN6juV_wJYAqf-w.jpeg" rend="img" mimeType="image/jpeg"/>
+</figure>
+<p> Dinner, for which the hotel cannot be held responsible, is a total disaster.
+I am a wreck after struggling through the streets of Ribadeo with zero energy.
+For Lou it is far too late for eating. We end up stuck between two screens
+displaying the evening’s football game at full volume in an unpleasant and
+largely deserted bar. My two glasses of wine do however remain <hi rend="italic"
+>in situ</hi>, and we stagger back to the hotel and fall over. If only they
+would invest in something over a five-watt light bulb. Good nite.</p>
+
+</div>
+<div xml:id="feveFever4" resp="LB" n="20160416_1840">
+
+
+<head>In which we return to the big(gish) City</head>
+<p>
+<hi rend="italic">Lou says:</hi> I am woken by the sound of rain falling on the
+slate roof of my penthouse suite at the Casona Naviega, and also by occasional
+swooshes of motor transport along the road outside. How nice to be staying in
+bed this morning. Yes, the sky is very grey, with no evident signs of
+improvement, though the view across the estuary is still quite pleasant.</p>
+<figure>
+<graphic
+url="media/1*EeyNI0MyD2W6qdrMHlj2eg.jpeg"
+rend="img" mimeType="image/jpeg"/>
+
+<head>View from the Casona Naviega, top floor</head>
+</figure>
+<p> Excellent breakfast awaits downstairs, so I heave myself out by 10 or so,
+and graze appreciatively for a while before prodding G into making an
+appearance. The hotelier converses in broken English, first with another guest,
+and then with us, at some length. He knows Oxford colleges well, but from the
+perspective of the migrant Spanish waiter. We leave him hastily to catch our
+1225 train, which is in the event 10 minutes late arriving.</p>
+<p>It is a shame about the endless rain, since the scenery we are pottering
+through is very scenic. We are travelling parallel to the coast line, and
+therefore of necessity having to cope with numerous inlets, estuaries, and heaps
+of rock in inconvenient places. Which means that there are lots of deep
+cuttings, dizzy embankments, and wiggly tunnels for the train to navigate. Every
+now and then we also see snake-like motorways swooping across gorges we are
+compelled to chug gingerly around or under, lifted up high on enormous concrete
+pillars.</p>
+<p>In between, we occasionally catch a brief perspective down a valley to a
+stormy beach, but mostly masses of gumtrees. My researches indicate that the
+eucalyptus is now the preferred crop in these parts, which means much <ref
+target="https://www.ence.es/pdf/Eucalyptus.pdf">debate about its ecological
+impact</ref>, need for careful management to avoid fires, and general political
+hoo hah. It’s a profitable crop that doesn’t require industrial scale farming,
+is my understanding. To celebrate which, here is <ref
+target="https://www.youtube.com/watch?v=z0SGwF7jv_s">some lumberjack porn</ref>
+showing exactly how to turn a giant eucalyptus into a massive beam.</p>
+<p>The train, by the way, is another two-car diesel unit, but a bit more modern
+and comfortable, so that everyone on board soon dozes off.</p>
+<figure>
+<graphic url="media/1*WFydr6Euqc3lNh5XrIVjgw.jpeg" rend="img" mimeType="image/jpeg"/>
+
+<head>1330 arrival at Pravia</head>
+</figure>
+<p>We arrive at Pravia (not to be confused with Navia) without incident, and
+detrain in search of lunch. The station master assuring us that this is only
+available in town, we leave the station via a lift, and five minutes later are
+walking up Pravia’s main street which does indeed boast several eating
+establishments as well as some colourful architecture. Lunch is fish soup for
+Guy, and salad followed by yet more ham and potatoes. But the waiter is friendly
+and the ambiance agreeable. Small town vibes suit us old timers well.</p>
+<p>And then back down the hill we go to pick up our onward train to Gijon. This
+is an electrified item, since we are now in the metropolitan area of Gijon, and
+the view from the window is remarkably different. Around the port of Aviles and
+beyond we pass through an industrial wasteland, featuring huge gas and coke
+processors, some of them rusting and defunct, others just rusting. There is a
+brief interlude of green dotted with what appear to be small seaside villas, but
+then the industrial zone reasserts itself, as for example the Zone of
+Distribution, where lorries and containers are massed for despatch throughout
+Europe, some of them wrapped up in plastic like the luggage of nervous air
+travellers. As we trundle into Gijon there is mile upon mile of the sort of
+featureless industrial estates you might see at the periphery of almost any
+large European or American city. For Gijon, as we realise when we arrive, is
+actually a city, with long <hi rend="italic">calles</hi> full of shops, some of
+them pedestrianized, there are plazas beneath which there are car parks, so as
+to permit the pedestrianization, and there’s a pleasing jumble of ancient and
+modern architecture. It’s a long schlep into town and to our hotel, but
+instructive.</p>
+<figure>
+<graphic url="media/1*quAIZ6u3KRwJFoMsL1Pejw.jpeg" rend="img" mimeType="image/jpeg"/>
+
+<head>Backstreet Downtown Gijon</head>
+</figure>
+<p> After a brief nap, we take a pleasant walk along the promenade before follow
+the advice of the hotel map in selecting from the dozens of <hi rend="italic"
+>cidrerias</hi> along the streets around the harbour. This one aereates the
+cider not by means of theatrical gestures but by means of an ingenious kind of
+stopper to the bottle. The waiter also persuades us to try some freshly grilled
+fish with it, which turns out to be a very good idea. And so, dear reader, to
+bed.</p>
+<figure>
+<graphic url="media/1*iT-cHn5DBKvigYTS-4zEGA.jpeg" rend="img" mimeType="image/jpeg"/>
+</figure>
+</div>
+<div xml:id="feveFever5" resp="CGA" n="20160417_2022">
+
+<head>In my beginning is my end</head>
+<p>
+<hi rend="italic">Guy sez:</hi> Yes, today is the only day to finish where it
+starts. It thus involves a return journey. After finding breakfast near the bus
+station, we proceed beneath the rain to various chemists lacking appropriate
+syringes and, eventually, the Railway Museum in Gijon, which now occupies the
+original railway station building . The latter celebrates, inter alia, the birth
+of the Gijon-Langreo railway in 1852.</p>
+<figure>
+<graphic url="media/1*ZZ8yEnRRGNtqgXwY23zKTg.jpeg" rend="img" mimeType="image/jpeg"/>
+
+<head>Opening of the Gijon-Langreo Railway, courtesy An Unknown Artist and
+Wikimedia</head>
+</figure>
+<p> Unlike any other railway in Spain for the next century, this was built to
+standard gauge (1.438m), before being forcibly converted to 1m gauge in the
+1960s to become part of FEVE — a little before the Spanish AVE project was
+formulated to introduce standard gauge as the high speed norm.</p>
+<p>The museum hosts many fine relics of narrow gauge splendour including a
+yellow FEVE travelling post office, various tank engines and 4-wheel coaches,
+which we gaze at in the rain for a while. It also has a splendid and extensive
+model railway of 00 gauge staffed by middle-aged spaniards happily whiling away
+their Saturday morning.</p>
+<figure>
+<graphic url="media/1*MM7N-fRb4avpVhlkQcTzjw.jpeg" rend="img" mimeType="image/jpeg"/>
+
+<head>If the train risks running into the building, just move the
+building…</head>
+</figure>
+<p> Aside from the proper gauge for railways, the main existential problem
+around these parts appears to be how to pour cider. This has to be aerated prior
+to consumption. The traditional means is by pouring into a glass held in one
+hand by the knee from a bottle held in the other hand as far above the head as
+possible. The possibilities of inaccuracy are considerable, hence best done
+either outside or over a large bucket. Only a small amount has to be poured at a
+time — certainly not more than 100ml — so that it does not fall flat before
+consumption. At dinner yesterday we were introduced to the first technological
+solution, namely a bottle top which magically mixes air with the cider as it is
+poured. Today, we encountered the electronic version, where at the end of each
+table is positioned a device in which you place your glass at an angle of 30
+degrees in a holder, brandish your swipe card, and wait for replenishment, as an
+illuminated display informs you how much you have consumed (or not) from the
+hidden supply pipe.</p>
+<p>This is in Oviedo, which we have reached on an express FEVE 2-coach electric
+multiple unit from Gijon, taking a mere 30 minutes through a lengthy
+double-track tunnel (previously home to an inclined plane operating on the
+principle that the trains of coal descending were heavier than those of empties
+ascending), and whose city centre is full of cranes and closed roads before we
+finally reach our reference point, namely a statue of Woody Allen, who must have
+a weakness for cider.</p>
+<figure>
+<graphic url="media/1*fWjCOFlFMzANohYSpgBerQ.jpeg" rend="img" mimeType="image/jpeg"/>
+
+<head>Watch out Woodie, she’s checking up on you with Google</head>
+</figure>
+<p> Lunch takes place on Cider Boulevard in Oviedo, and consists of <hi
+rend="italic">fabada</hi> (large white beans stewed with bits of sausage) as
+well as our half-dozen cider top/bottom-ups. The cathedral is shut. We wander
+round the closed market and sit in the park as it starts raining again. No, more
+serious matters still await, in the shape of Lou’s trews. These had been looming
+from various shop windows in Gijon, and after a restorative cuppa, here we are
+at a mere few yards from El Corte Ingles (Oviedo branch), where a
+girth-attentive lady on the second floor resolves the problem by trial and error
+for a mere thirty euros, thereby enabling us to subsequently rush through the
+rain and catch the 4.40 back to Gijon.</p>
+<p>Here Lou will subsequently seek out and test the laundry facilities (another
+advantage of remaining in the same place for two nights in a row), and I will
+fall asleep for three hours feeling knackered after discovering that the hotel
+laundry service hasn’t. Note: this last part of the journey also involved our
+first Spanish taxi, hardly a matter of note. But there we were, and it was
+pissing it down as it had been all day.</p>
+<p>And the evening and that evening’s cider, which we watched being poured by a
+charming lady while we drank wine, were the fifth day.</p>
+
+</div>
+<div xml:id="feveFever6" n="20160418_2034" resp="LB">
+
+<head>In which we are translated from Asturian to Castilian</head>
+<p>
+<hi rend="italic">Lou says:</hi> A pleasant breakfast in the Hernan Cortes hotel
+before we shoulder our bags and decamp for Gijon’s nasty new station once more.
+At least it’s not actually raining, though it soon will be. Today we are going
+to leave the Asturias definitively and head deep inland to Leon in search of the
+legendary once-a-day Leon-Bilbao FEVE line. We have tickets on the RENFE service
+to Alacant, on which one carriage is considered to be a “regionale” (i.e. cheap)
+service for poor folks like us, but only on Sundays. Which it is, plus we have
+our Golden Cards as aforesaid, so we get to ride at the front of the train for
+very cheap, hoorah. We head for approximately the same valley as we did on
+yesterday’s trip to Oviedo, but along entirely different tracks, thus affording
+a view of the opposite side of the gas-coke-processing complex outside Oviedo.
+Our train continues beyond there towards the coal mining town of La Robla, which
+involves going over some serious mountain ranges and (today at least) into the
+clouds. For yes, it is now raining again and visibility is pretty much the same
+whether we are inside or outside the numerous twisty little tunnels the train
+clatters through as it goes up the valley out of Asturias and then down on the
+other side into Castille y Leon. Guy remains convinced that we will at some
+point enter a new more direct tunnel, scheduled to replace the numerous twisty
+little tunnels, but it is clearly still scheduled for manana. Before starting
+the descent and just above the cloudline the scenery mutates into jagged rock
+formations, with snow lying on the ground, and very little by way of vegetation
+or villages. But soon, round about Gordo country, we are speeding through a
+valley that looks (by contrast) more like a lush flood plain with big meadows
+full of contented cows once more. And the sun is coming out again!</p>
+<p>Leon RENFE station turns out to be another nasty new one, about fifty metres
+away from the perfectly good but now defunct old one. I have been here before
+(last summer with Lilette and a huge suitcase) so I know the way into town,
+though not much more since all we did on that occasion was have lunch. We cross
+the river and walk about 15 minutes into the old town, where we are greeted by a
+large roman pillar topped by a stork’s nest complete with storks.</p>
+<figure>
+<graphic url="media/1*-mzqkYK1KRZDr_Y6CowiGw.jpeg" rend="img" mimeType="image/jpeg"/>
+</figure>
+<p> There are (according to Guy’s Guidebook) three essential architectural
+treasures in this city: the Cathedral, the College of St Isidore, and St Mark’s
+church, representing the Gothic, the Classical, and the Renaissance periods
+respectively. Our hotel is conveniently located in the Roman part i.e. inside
+the former monastery attached to the Church of <ref
+target="https://en.wikipedia.org/wiki/Isidore_of_Seville">St Isidore, patron
+saint of the Internet</ref> as any fule kno. It boasts the usual sort of stone
+corridors and cloisters, monastic cells complete with crosses on the wall,
+numerous art works, nice comfy chairs at regular intervals, and really bad wifi.
+But our cells look reasonably comfortable and there is real linen on the
+beds.</p>
+<p> However, we urgently need lunch and sally forth in search of same. It is
+Sunday and the town is full of similarly motivated families on their way back
+from mass, so it takes a while to find somewhere with space to accomodate us.
+The beef goulasch and potatoes were definitely worth the wait though.</p>
+<figure>
+<graphic url="media/1*1L-6R4XWpzBzIu9jo_snMw.jpeg" rend="img" mimeType="image/jpeg"/>
+
+<head>A decent meal at last</head>
+</figure>
+<p> Replete, we take a brief digestive stroll in order to locate the FEVE
+station (thank you Google maps) which is shut, and the market, ditto, before
+retiring to our cells for a well earned siesta.</p>
+<p>When I wake, I spend an hour or so getting annoyed by the inadequacies of the
+hotel wifi (which dear reader is why yesterday’s blog appeared 24 hours late)
+and we then set off on a quixotic search for something really light for supper.
+And a drink, There is no problem finding drink: the bars are all doing very
+nicely thank you, and the clientele is agreeably mixed in age, but the one we
+settle on offers as free munchies only crisps, olives, or something called
+garlic soup. So we order raciones again (Guy has a plate of cheesy fried
+croquettes, and I have a mass of fried sweetbreads) which is more than we can
+eat, even with the accompaniment of a rather nice fresh white wine. But on the
+way back to the cloister, we find a tiny bar which proffers grilled mushrooms to
+accompany the glass of brandy I had proposed as night cap. And we begin to feel
+that maybe we can cope with spanish life after all. And so to bed.</p>
+
+
+</div>
+
+<div xml:id="feveFever7" n="20160420_1935" resp="CGA">
+
+
+
+<head>A million Mexicans can’t be wrong: the Transcantabrian Adventure</head>
+<p>
+<hi rend="italic">Guy says :</hi> We inspected the FEVE station in Leon (closed
+on Sundays) last night, where a substitute bus driver assured us it would be
+open on Monday. As indeed it was when we went down after breakfast, but no
+trains apparent. Substitute buses as far as the university, apparently, on
+account of the <hi rend="italic">Obras.</hi> And thereafter, finally, there
+would be trains. The ticket office lady gives us tickets and timetables for the
+one train each day covering the Leon-Bilbao route, scheduled to take a mere
+eight hours for the 250 miles. We aim to get off after a mere seven hours at
+Balmaseda, where the Bilbao suburban service terminates. Our morning plans for
+Leon therefore include substantial shopping with a visit to the market to
+procure adequate supplies for the journey.</p>
+<p>But first, a tour of the church of St Isidore, with its beguiling 12th
+century frescoes of the months and miscellaneous saints, and many tombs of the
+kings and queens of Leon. This leads us back to our <hi rend="italic"
+>collegio</hi> (also dedicated to St Isidore), where a number of fellow guests
+are awaiting the promised free conducted tour. However, having been talked at in
+Castilian for a few minutes and inspected the Roman walls, where the mystery of
+Leon’s ubiquitous cockerel is explained, we defect: we still have the cathedral
+to see. So we finish packing and deposit our belongings, at a point to prove key
+to a miraculous discovery some two hours later.</p>
+<p>Off to the cathedral, which boasts much stained glass, some of it medieval,
+in Gothic windows. Free audio guides educate us as to the spiritual significance
+and purity of Gothic Architecture.</p>
+<figure>
+<graphic url="media/1*k2Lk9n9unVWDRDX6HRhXrw.jpeg" rend="img" mimeType="image/jpeg"/>
+
+<head>Err, Mary, you seem to have a bun in the oven</head>
+</figure>
+<p> And then it’s time for coffee and the market, where the one open stall
+convinces Lou of its wildly expensive ham and cheese while I go to the bread
+shop and also pick up olives, water, and wine for which the lady lends a
+corkscrew. St Isidore has become, Lou assures me, the patron saint of the
+internet. Could this be the reason why, when we collect our bags from the
+Collegio before retracing our tracks to the FEVE station, we find a serrated
+knife miraculously hidden behind Lou’s bag, ideal for cutting bread, cheese, and
+fruit on lengthy train journeys when devising bloggery? Finally, a digression
+upon the nests of storks, of which one reposes outside St Isidore’s. During the
+day we find these may be comfortably situated on top of a) pillars; b) derelict
+industrial chimneys; c) telegraph poles, as well as trees of course. To be
+defended against other marauding storks by rapid beak-clicking, not unlike the
+pecking of woodpeckers.</p>
+<p>After an extensive bus tour of the university, we board the train for Bilbao.
+Half an hour later, we reach the junction for La Robla (where the coal came
+from), and the line turns to the east, skirting the Asturian/Cantabrian peaks on
+the south side. This means that while generally heading east, it turns north up
+any river valley encountered, which it then descends slowly to the first
+appropriate crossing place (generally coinciding with a village) before
+returning south along the other side of the valley until it has reacquired
+sufficient height to cross the next ridge; and then repeat the entire operation
+for the next valley. This means, roughly speaking, ten kilometres of labour for
+every two moved eastwards. There are no tunnels, no fancy viaducts, in fact
+nothing but long curving lines of ballast, most of it with 50km/h speed limits,
+presumably placed there when the line was reopened with European funding some 20
+years ago.</p>
+<p>We say hello to numerous cows, and few signs of human habitation. We spot
+more storks (or are they cranes), we startle wild deer, and more implausibly
+cattles, horses, and donkeys. The stations are nearly all request stops; the
+crossing points have red-hatted station mistresses/masters; we occasionally
+cross a descending train for Leon starting from Guardo, a mere 3 hours up the
+line and where everything (except our train) terminates. As well as the three
+staff in the driving cab, and the third different guard/ticket collector since
+we started, there are three other passengers as we gradually move closer to the
+bare snow-capped peaks, and up above the tree line. Until finally, after four
+hours, we find ourselves running alongside the broad gauge Burgos-Santander line
+into Mataporquera</p>
+<figure>
+<graphic url="media/1*Yku643hxqJACEHWmIgpTrA.jpeg" rend="img" mimeType="image/jpeg"/>
+
+<head>Mataporquera. Note the cement factory.</head>
+</figure>
+<p> Mataporquera is the nearest thing to an event on the journey. First, it is
+the only point where you could in fact change and get onto another railway line.
+Second, it is the crossing point with the train in the other direction, for
+which we have to wait a few minutes. This gives us time to stretch our legs and
+examine the group of oldies hanging around the platform, and follow their
+indications to the waiting room cum railway museum, which primarily documents
+the lives of the train crews in the days of steam and their cooking skills.
+Mataporquera boasts a large cement works, and numerous wagons (of both gauges),
+but nothing resembling an active goods train. We agree it would not have been a
+thrilling place to spend the night, even if it does apparently boast two
+hotels.</p>
+<p>We move on. Snow-capped peaks give way to long cliff-topped mountains and
+cows to sheep as we wander around a long reservoir and then drop down to
+Balmaseda.</p>
+<figure>
+<graphic url="media/1*xVqQTsMPbfHSHtEeZtchcA.jpeg" rend="img" mimeType="image/jpeg"/>
+
+<head>Cliff topped mountains</head>
+</figure>
+<p> Balmaseda is home to the FEVE railway works, and the apparently luxurious La
+Robla tourist train, and is also where we are staying tonight in a former
+nunnery. Which, when we find it, is apparently closed for the night. The museum
+next door provides advice, leading us to the back door of the hotel (also
+closed) and then phoning them. Wait five minutes and someone will come. A
+somewhat harassed-looking young lady eventually turns up, checks us in, and
+departs. The rooms are reasonably comfortable, for a nunnery.</p>
+<p>We wander back through the town to the main square exchanging childhood
+railway memories and looking for somewhere to eat, but nine o’clock is clearly
+too late for anything other than a glass of Rioja and a sandwich. It’s been a
+long day, and this is the Basque country.</p>
+<p>PS We never found that Transcantabrica book, either.</p>
+
+</div>
+<div xml:id="feveFever8" n="20160420_2044" resp="LB">
+
+
+<head>In which we reach the (other) end of the line</head>
+<p>
+<hi rend="italic">Lou says:</hi> I apologise to the noble Basques, but their
+language defeats me totally. It seems to be mostly composed of the names of
+minor characters in bad science fiction novels, e.g. “Norabide Guztiak”. Still,
+the sun is shining and we are getting by reasonably well with pidgin spanish and
+much hand waving. Nothing however had quite prepared me for the assault on the
+senses this morning when I poked my head out of my cell in search of breakfast.
+There is a VERY LOUD tape of VERY BAD torch singing in International Amurrican
+booming out incongruously across the decorative courtyard of the Convento San
+Roque. I escape from it into the bar, where I consume some coffee (reasonable),
+some orange juice (fake), a croissant (fresh, but sugary), and a piece of
+freshly made tortilla (quite nice).</p>
+<p>Guy appears and we take a pleasant walk in the Spring Sunshine, first over a
+rather scenic medieval bridge and up the road to inspect the nearest railway
+station (La Calzada, terminus of the Bilbao metro) and then back along the river
+to inspect the main square of <ref
+target="https://en.wikipedia.org/wiki/Balmaseda">Balmaseda</ref>. Apparently,
+this town was big in the 12 century when the populace hit on the cunning wheeze
+of charging itinerant merchants for the privilege of crossing the river by means
+of their rather scenic medieval bridge, but subsequently declined when a new
+road was constructed between Biscay and Navarre in the 16th century. It
+recovered slightly at the end of the 19th century when the La Robla railway
+arrived and is now poised for, well, whatever comes along really. Speaking for
+myself, I recommend the baker in the main square, whose chocolate and buns are
+both excellent. There is also a gothic church if you like that sort of
+thing.</p>
+<figure>
+<graphic url="media/1*e-Lwg2OuWnwO8hAflfV1dw.jpeg" rend="img" mimeType="image/jpeg"/>
+
+<head>Balmaseda’s renowned medieval bridge</head>
+</figure>
+<p> Our train journey today is essentially a continuation of the epic trip we
+did yesterday, although it is on a train which considers itself to be part of
+the Greater Bilbao metropolitan area. It’s just like any other commuter train,
+except that for most of the way we are descending a wooded river valley, with
+occasional pasturage and villages. As we descend, industrial sites and housing
+developments become more frequent, though still interspersed with spots of more
+bucolic charm, until finally as we arrive at the fringes of Bilbao proper they
+become entirely dominant.</p>
+<p>The FEVE stations also become correspondingly grander as we approach,
+boasting such luxuries as multiple platforms, escalators and so forth. And
+within 40 minutes here we are back in the modern(ish) world at Bilbao’s <ref
+target="https://es.wikipedia.org/wiki/Estaci%C3%B3n_de_Bilbao-Concordia"
+>beautiful Concordia station</ref> (“eclecticism, 1902”), where the lines
+symbolically terminate under the watchful eye of portuguese venture capitalist
+<ref target="https://es.wikipedia.org/wiki/V%C3%ADctor_Ch%C3%A1varri">Victor de
+Chavarri</ref> to whom is attributed the immortal phrase “<hi rend="italic">El
+ferrocarril ademas in historia: tambien es arte</hi>” in a plaque commemorating
+the terminus’s 90th birthday in 1992.</p>
+<figure>
+<graphic url="media/1*Y5re5ZBc3MBKDZ5q_9-k1g.jpeg" rend="img" mimeType="image/jpeg"/>
+<head>O mama, can this really be the end?</head>
+</figure>
+<p> And so we reach the end of the FEVE. Or is it? Because here in the Basque
+country, there is another narrow gauge network called the “Euskotren” which
+formed part of the FEVE network up till the 1980s, when the Spanish government
+handed it over to the provincial government in a fit of devolution. And tomorrow
+we will continue our journey on that line from its <ref
+target="https://en.wikipedia.org/wiki/Bilbao-Atxuri_Station">Atxuri
+terminus,</ref> on the other side of the old town.</p>
+<p>For now, however, it’s time to find our cheap hotel (booked by Guy at the
+last minute last night, but none the worse for that), and then (a recurrent
+theme I know) some lunch. Both are adjacent in Maria Somebody street, in the
+heart of the pedestrianised old town. The former glories in a curvaceous wooden
+staircase, and the latter (recommended by the former) is in a typical back room
+<hi rend="italic">comedor</hi>, featuring nice artichokes, thin slices of
+grilled meats, a scattering of chips, and a bottle of rather good wine which we
+cannot quite finish, before retiring to see Esther, bless her.</p>
+<p>Around 5 pm, as per usual, we re-arise and explore further. Our plan is to
+stroll along the river bank to the Guggenheim museum though (I am informed) this
+is more impressive on the outside than the inside. The outside certainly is
+grandiose in an entirely post-modernistic way; see just about any architectural
+journal. Our energies are not equal however to the task of exploring its
+expensive insides, and since it is starting to rain again we take a tram back
+into town instead. And then we went out and ate rice, in the form of vegetable
+paella, and consumed a refreshing bottle of young red wine. And it was good. No,
+really, really good. Notwithstanding our neighbours slowly and noisily scoffing
+a large piece of grilled cow in the background.</p>
+
+
+</div>
+<div xml:id="feveFever9" n="20160421_1203" resp="CGA">
+<head>Goodbye Feve; Hail and Farewell Euskotren.</head>
+<p>
+<hi rend="italic">Guy says:</hi> Our efficiency when we have a train to catch is
+astounding, in this case the 11 am from Bilbao Atxari to Donostia. For which, we
+discovered yesterday, senior railcards give no reduction whatever. A 9am gesture
+at breakfast in the hotel, who present us each with a neatly wrapped green bag
+emblazoned with their name as a souvenir and an apology for the noise caused by
+ongoing renovations; then off to inspect the RENFE broad gauge station, with its
+magnificent stained class tribute to Basque society (miners, fishermen,
+winnowers, pelote players etc), and then back across the bridge admiring the
+single-track Bilbotram (this place appears to have been colonised by Tolkien
+maniacs) to the Cafe Bilbao under the arches of the big square, which offers a
+truly worthwhile breakfast with good tortilla.</p>
+<figure>
+<graphic
+url="media/1*nblxsrCelNUe5_Yf6AB5Mg.jpeg"
+rend="img" mimeType="image/jpeg"/>
+
+<head>Um, one of them, one of them, and a <hi rend="italic">cafe con
+leche </hi>please</head>
+</figure>
+<p> Back to the hotel for a 1030 departure, pick up bags, wave goodbye, avoid
+falling down the staircase yet again, and it’s off to Atxari in the rain
+(again). What else can one say? Not much really. Two tickets to Donostia and
+it’s another 150 minutes stop-everywhere 4-coach Euskotren electric multiple
+unit, which people get on and off at frequent intervals as we wind up and down
+valleys, along and not along the coast, turning from double to single track, and
+heading for what my Italian guidebook claims — under the heading of San
+Sebastian — is a ridiculously overpriced resort for nouveaux riches.</p>
+<figure>
+<graphic url="media/1*skSoBMr1nsNYQZOt5tIGdg.jpeg" rend="img"
+mimeType="image/jpeg"/>
+
+<head>Yes, that is Don Quixote and Sancho Panza trying to upstage us in this
+carefully organised photo on the front in San Sebastian</head>
+</figure>
+<p>We do however find some two-o-clock lunch for only twice the average cost so
+far, and then wander along to the seafront where Lou is able to practice his
+French on a gentleman whom he convinces to take our photo in front of the local
+statue of Don Quixote and Sancho Panza. And we find a bun for tea before
+boarding the 1545 for Hendaye and saying farewell to Spanish (if not Basque)
+soil.</p>
+<p>We are booked into different Hendaye hotels under the same management, with
+shared pricing and breakfasting arrangements. Visit to the station to renew my
+French Carte Senior+, then a stroll along the old port, commanding magnificent
+views of Spain, plus several antique cannons to fire at it. Back into town
+through the seaside villas in search of a place for dinner. Three storeys of
+wooden gallery in the church from which the faithful are just emerging (Lou
+witnessed the transubstantiation, i.e. saw the priest quaffing the wine; Guy was
+too scared to watch). Back in the square an establishment with the unpromising
+name of Pizzeria 64 has a Gault&amp;Millau review in its window, and comes up
+with a bottle of Basque cider (aired using the plastic top method), as well as
+an entirely acceptable <hi rend="italic">gigot d’agneau</hi> and <hi
+rend="italic">poulet basquaise</hi>, though we’re not sure about the guffawing
+landlord. And so back to the Hotel de la Gare, where the Basque digestif could
+better have been an omitted experience. And we fix breakfast for 8 in order to
+further demonstrate our astounding efficiency, even where no narrow gauge is any
+longer involved.</p>
+</div>
+<div xml:id="feveFever10" n="20160421_1203" resp="LB">
+
+<head>In which we glide back into the 21st century</head>
+<p>
+<hi rend="italic">Lou says:</hi> An early start in Hendaye, where since it is
+Thursday the artisanal boulangerie is shut. But breakfast in the cafe de la gare
+is <hi rend="italic">sympathique</hi> and the <hi rend="italic">petit
+déjeuner</hi> is <hi rend="italic">offert</hi> (Madame said pityingly when we
+arrived, “<hi rend="italic">parce que vous êtes tous seuls, les deux</hi>”) so
+not to be spurned. We bid farewell to the Basque country, which is just waking
+up, and board the 0910 idTGV to Paris. Our carriage is at the very very end of
+the platform, in an almost deserted <hi rend="italic">espace idZen</hi> (i.e.
+quiet zone), so we choose the comfiest best placed seats available and take in
+the view all the way to Bordeaux (stopping at St Jean de Luz, Bayonne, and Dax)
+at which point the train fills up and we have to return to our allocated seats,
+curses curses. The view is however fairly unspectacular: the route takes us
+briefly along the coast through some bosky bays, but then turns inland and
+proceeds in an absolutely straight line across what I surmise was once a flood
+plain to Bordeaux. Guy (who has bought a map) observes that the straight line
+deviates whenever necessary in order to cross a river at exactly 90 degrees.</p>
+<p>After Bordeaux, one of my fellow passengers complains that I am typing too
+loudly, but another graciously restores to me the passport I had accidentally
+dropped when changing my seat. So honour is satisfied. I contemplate the green
+fields, modest woods, villages, and occasional chateaux of Aquitaine
+disappearing rapidly from view outside the window, and ponder the wonders of
+modern science which enable me to do so at the same time as engaging in badinage
+with my daughters via Whatsapp. Well, perhaps “ponder” is too strong a word. And
+in a final feat of tail-consuming bravado, I try to complete my final blog entry
+for this trip, without hitting the keys too hard or too fast. Speeding across
+France by TGV is becoming so routine I am not sure what to write about it: it’s
+faster and mostly more comfortable than the FEVE, obviously, but you miss the
+sense of proximity to the landscape that slower speed and frequent wiggling
+confer. So I scarcely notice when our train finally gets to the high speed line
+north of Bordeaux and hits its top speed of around 300 km/hr. At 15h33 precisely
+we are at Paris Montparnasse (at the very front of the train now, which is an
+unexpected bonus), and being swallowed up by the general rush to the metro: line
+6 for Guy, who is going to rest for the night before proceeding back to Italy;
+line 4 for me, as I am going on to Paris Nord, for the Eurostar to London. So
+farewells are said, and we disappear into the crowd.</p>
+<p>Fortunately there are (a few) bits of FEVE left which neither Guy nor I has
+yet explored; plus a few places that seemed worth a second visit (Ferrol and
+Leon, notably) so we’ll just have to come back some time.</p>
+</div>
+
+</body>
+</text>
+</TEI>
