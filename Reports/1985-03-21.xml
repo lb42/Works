@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1985-03-21">
+ <pb facs="https://github.com/lb42/Works/tree/master/Reports/Pages/img381.png"/>
+ <head type="report">VISIT REPORT</head>
+ <head type="location">ICL Slough</head>
+ <head type="event"> CAFS working party</head>
+ <head type="head"> 21 March 1985</head>
+ 
+ <p> A consolidated list of the current 76 outstanding gripes about CAFS and its interfaces not
+  already categorised as A (i.e. on the committed development path) or B (i.e. impossible with the
+  current hardware) was tabled, but only discussed long enough for me to add one more gripe. H.
+  Carmichael is to produce a new consolidated list with some notes on each for ranking
+  independently by the WP and by ICL; this exercise to be completed by next meeting (early May). </p>
+ <p> The appalling D. Lovegrove's proposals for a new "CAFS overview" manual were discussed. I have
+  a copy of the draft contents of what should be quite a useful little publication (if it ever
+  happens). </p>
+ <p> J. Finch reported that the massive document on VME performance currently in its final stages
+  of revision includes as much information about monitoring CAFS performance as anyone currently
+  was letting on; working party members were offered copies of said tome (I said yes please). On
+  the two aspects which specifically interested us, namely (a) how can you tell how busy the CAFS
+  unit actually is and (b) how can you charge for its use differentially, there seems to be little
+  progress; it is strongly suspected that the answer to both questions is "dunno". </p>
+ <p> Volunteers were requested (a) to join the CUA executive (b) to give presentations at the next
+  two CUA CAFS Lunches (Nov 85 and May 86). </p>
+ <p> The bulk of the day was taken up with discussion of the two day CAFS Exploitation seminar to
+  be dry-run next month, under the aegis of Dick Jukes. The course is aimed at analysts rather than
+  programmers and covers more or less the expected ground. Much of it is necessarily more to do
+  with Querymaster and RCI as software tools than with CAFS as such, but it does include a session
+  on CSO and (at the end) a gray area labelled DCI. I argued, probably too forcibly, that CSO was
+  the best place to start, following on more naturally than QM from an initial session about what
+  CAFS actually is and how it works, thus endearing myself to the inventor of CSO who was
+  (unbeknownst to me) present, if to no one else. </p>
+ <p> Working Party business consisted mainly of shortlisting the sites to be featured in the Case
+  Studies section of the report and reviewing progress on the other sections (not a lot). </p>
+</div>

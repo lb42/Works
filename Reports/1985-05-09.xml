@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="Report-1985-05-09">
+ <pb facs="https://github.com/lb42/Works/tree/master/Reports/Pages/img382.png"/>
+ <head type="report">VISIT REPORT</head>
+ <head type="location">ICL Slough</head>
+ <head type="event">CUA CAFS SIG WP</head>
+ <head type="head"> 9 May 1985</head>
+ <p> Prioritisation of enhancement proposals occupied most of the morning. Of the thirty odd topics
+  previously categorised as requiring discussion, the bulk concerned getting IDMS to use CAFS more
+  often eg for sequential scans (the IDMS response to which was "probably useless in most
+  commercial databases"); I was volunteered to spell out why this was probably not the case. Of the
+  improvements to QM we particularly want, improvements to PRINT and better support for numerics
+  both ranked high, but better performance statistics from the CAFS unit itself are apparently
+  accessible only from 3900 machines. The PDS wangle for performing inequality joins also has to be
+  written up. </p>
+ <p> After lunch there was much some waving of ecstatic press cuttings, and talk of forthcoming
+  jamborees. Various high fliers are proposed for the next CAFS lunch, to be held in the Cafe Royal
+  this winter, the names of R. Wilmot, a man from STC and even one J. Martin being mentioned as
+  candidates for the guru slot on the bill. </p>
+ <p> I. Carpenter had been to the dry run of the new CAFS appreciation course described at the last
+  meeting; he reported that it was pretty much as expected, i.e. lots of detail on how to use QM,
+  with only token gestures to CSO and DCI, but still a good introduction, if an unusual mixture of
+  design considerations and practicalities. </p>
+ <p> The rest of the day (a long one) was spent on the Report proper. It was agreed that OUCS
+  typesetting was preferable to typing, but it would have to be on A4! Sections of the report in
+  various stages of completion were discussed: several draft sections in various stages of
+  inchoateness were tabled and politely shredded.</p>
+</div>
+

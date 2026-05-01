@@ -13,7 +13,9 @@
                 <p>Text originally published as 
                     <bibl n="65"><date>1988</date>
                         <title>Report of Workshop on Text Encoding Guidelines</title> in <title>Literary
-                            &amp; Linguistic Computing</title>, 3 (1988) </bibl>
+                            &amp; Linguistic Computing</title>, 3 (1988), pp 131–133
+                        <ref target="https://doi.org/10.1093/llc/3.2.131"> https://doi.org/10.1093/llc/3.2.131</ref>
+                    </bibl>
                     </p>
             </sourceDesc>
         </fileDesc>
@@ -26,9 +28,9 @@
 <front><titlePage><docTitle><titlePart>Report of Workshop on Text Encoding Guidelines</titlePart>
 </docTitle>
 <docAuthor>L. D. BURNARD
-Oxford UniversitLy, UK</docAuthor>
+Oxford University, UK</docAuthor>
 <titlePart>
-Correspondence: Lou D. Barnard, Oxford University Computing
+Correspondence: Lou D. Burnard, Oxford University Computing
 Service,13 Banbury Road, Oxford, OX2 6NN, UK.
 E-mail: LOU@VAX OX.AC.UK
 </titlePart>
@@ -40,8 +42,8 @@ New York, was funded by the American National
 Endowment for the Humanities (NEH) with support
 from Vassar College and organised by the Association
 for Computers and the Humanities (ACH). The ALLC
-as well as the Association for Computational Linguis-
-tics, was invited to participate at an early stage. The
+as well as the Association for Computational Linguistics, 
+was invited to participate at an early stage. The
 purpose of the workshop was to find some way of
 defining a consistent scheme for the encoding of textual
 data for use in humanistic research. To that end a small
@@ -51,8 +53,8 @@ without whose participation (or at least recognition) no
 such scheme could stand a chance of survival. Most of
 the major European text archives were represented
 (Oxford, Bar-Ilan, Nancy, Oslo, Tubingen. Louvain-la-
-Neuve. Pisa) as were important North American re-
-search centres, including both those purely academic
+Neuve. Pisa) as were important North American 
+research centres, including both those purely academic
 (Provo, Toronto, Pennsylvania) and some bodies with a
 more commercial affiliation (AAP, BELLCORE, IBM,
 OCLC). Three observers from the NEH also attended
