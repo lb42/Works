@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><!--Source: https://medium.com/@louBurnard/remembering-guy-8243a7872690-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:html="http://www.w3.org/1999/xhtml">
+
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Remembering Guy</title>
+<author/>
+</titleStmt>
+<publicationStmt>
+<p/>
+</publicationStmt>
+<sourceDesc>
+<p>downloaded from https://medium.com/@louBurnard/remembering-guy-8243a7872690 and translated from HTML to TEI</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+
+<text>
+<body>
+
+<head>Remembering Guy</head>
+
+<figure>
+<graphic url="media/1*422-mmdEAt4GQiZ9oGdW0Q.jpeg" rend="img" mimeType="image/jpeg"/>
+
+<head>Federico sent me this photo of Guy. I don’t know where or when exactly it
+was taken, but it’s nice to think that it captures an essential part of his
+life, waiting for lunch in the restaurant car of a central European train
+somewhere, perhaps en route to see some more Brueghels</head>
+</figure>
+
+<p>My friend Guy Aston died on 31 October this year in hospital in Modena, after
+a year or more of obstinately refusing to give in to cancer and other ills. He
+was cared for in his last days by a small network of close long-term friends,
+who also organized a special memorial event for him on Dec 8th in Vergato, which
+I attended along with maybe sixty other people. There were photos of Guy’s life
+and speeches, and (for me) the unexpected pleasure of meeting again some people
+I had not seen for many years and also meeting some that I had never met before;
+but who all had in common their love for Guy. There were former students and
+colleagues from Forli and Modena, whose careers he had helped advance; there
+were neighbours and friends from Vergato with whom he shared his long life in
+Italy. It was a surprisingly joyful occasion and blessed by wintry sunshine.</p>
+<p>There were three pre-prepared speeches, which you can read in English or
+Italian by clicking the links below :</p>
+<list type="unordered">
+
+<item>
+<ref target="http://lb42.github.io/guyMemorial/Talks/michelaNerio.pdf">Michela
+and Nerio</ref>, Guy’s neighbours in Liserna, set the scene</item>
+
+<item>I spoke <ref
+target="https://lb42.github.io/guyMemorial/Talks/louBurnard.pdf">about our long
+friendship</ref></item>
+
+<item>
+<ref target="https://lb42.github.io/guyMemorial/Talks/pierPaola.pdf">Pier Paola
+Calori</ref> spoke about his life in Liserna</item>
+</list>
+<p>At the invitation of the organisers, many other people also spoke, in
+particular fellow researchers and teachers, providing anecdotes and
+reminiscences about his influence on them, and his character. These remarks were
+not recorded, but I am of course happy to add other people’s memories to this
+site as they become available.</p>
+<p>I have made and annotated <ref
+target="https://photos.app.goo.gl/Q8GZWgboFRDZb6oFA">a small sample of the many
+photos I have of Guy</ref>; a representative sample of moments where our lives
+intersected. Please click the link above to see them!</p>
+<p> Finally, it is good to record that on December 23, 2018, Guy’s ashes were
+scattered (as he had requested) on the hillside in Liserna which had been his
+true home for so long.</p>
+<p>Lou Burnard</p>
+</body>
+</text>
+</TEI>

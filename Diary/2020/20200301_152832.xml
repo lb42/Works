@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><!--Source: https://medium.com/@louBurnard/back-to-bennsville-79e291119e54-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:html="http://www.w3.org/1999/xhtml">
+
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Back to Bennsville</title>
+<author/>
+</titleStmt>
+<publicationStmt>
+<p/>
+</publicationStmt>
+<sourceDesc>
+<p>Diwnloaded from  https://medium.com/@louBurnard/back-to-bennsville-79e291119e54 and translated from HTML to TEI</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+
+<text>
+<body>
+
+<head><hi rend="bold">Back to Bennsville</hi></head>
+<figure>
+<graphic url="media/1*LF7xXVqESMXGHMbzXD7PgQ.jpeg" rend="img" mimeType="image/jpeg"/>
+</figure>
+
+<p>At the top of Blackboy Hill is a spot where my friend Chris and I used to
+sit and mull over our Saturday night successes or failures, most weekends of
+1963 or 4. Conveniently located mid-way between my home in Cotham and his in
+Stoke Bishop, we called it Bennsville in honour of Antony Wedgwood Benn who had
+recently renounced his title in order to continue as Bristol’s MP. There were (I
+think) two benches and a street lamp, a roundabout, and lots of traffic. Behind
+it was a seedy night club called the Glen which we did not patronise. There is
+much more traffic now and new buildings have appeared : the Glen has been
+redeveloped as a hospital and Mr AXA has erected an unlovely office block which
+spoils the view down the hill. Chris died years ago, but one of the benches is
+still there. So I sat on it and took this photo and thought of him this
+afternoon after a muddy walk across the downs.</p>
+
+</body>
+</text>
+</TEI>
