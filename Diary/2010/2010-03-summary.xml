@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="2010-02-paris">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Channel hopping</title>
+<author>louburnard</author>
+</titleStmt>
+<publicationStmt>
+<publisher>Self-published (WordPress)</publisher>
+<idno type="URL">https://louburnard.wordpress.com/2010/02/20/channel-hopping/</idno>
+<date when="2010-02-20">2010-02-20</date>
+<availability>
+<p>Originally published on WordPress.</p>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from WordPress WXR export.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<textClass>
+<keywords scheme="category">
+<term>Biographical</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="post">
+<head>Channel hopping</head>
+<p>In the last three months, I have been across or rather under the Channel five times and spent a total of six weeks away from Oxford. Is that what I signed up for?
+<table>
+<row>
+<cell>
+<hi rend="italic">Depart</hi>
+</cell>
+<cell>
+<hi rend="italic">Return</hi>
+</cell>
+<cell>
+<hi rend="italic">Inhabit</hi>
+</cell>
+<cell>
+<hi rend="italic">Also visit</hi>
+</cell>
+</row>
+<row>
+<cell>22 Nov</cell>
+<cell>27 Nov</cell>
+<cell>Flat, rue Mouffetard</cell>
+<cell>Nancy</cell>
+</row>
+<row>
+<cell>9 Dec</cell>
+<cell>17 Dec</cell>
+<cell>Flat, rue Vandrezanne</cell>
+<cell>Caen</cell>
+</row>
+<row>
+<cell>10 Jan</cell>
+<cell>13 Jan</cell>
+<cell>Hotels</cell>
+<cell>Tours</cell>
+</row>
+<row>
+<cell>24 Jan</cell>
+<cell>5 Feb</cell>
+<cell>Hotels; Flat rue St Andre des Arts</cell>
+<cell>Luxembourg; Munich</cell>
+</row>
+<row>
+<cell>14 Feb</cell>
+<cell>20 Feb</cell>
+<cell>Hotels</cell>
+<cell>Lyon</cell>
+</row>
+</table></p>
+<p>One might reasonably ask what have I actually done during all that time, apart from enlarge my experience of the public transport, food, and politics of la belle France?</p>
+<p>
+Well, I put in a reasonable number of gigs:
+<list type="ordered">
+<item>In December, I spoke at an interesting seminar called <ref target="http://www.unicaen.fr/recherche/mrsh/patrimoine2009/">Le patrimoine à l'ère du numérique : structuration et balisage</ref> at the MSH in Caen; this introduced me  to a different branch of the family  of TEI users in France;</item>
+<item>I gave an extended version of my celebrated potted history of digital humanities at<ref target="http://www.ehess.fr/fr/enseignement/enseignements/2009/ue/928/">a seminar on Digital Humanities</ref> organized by Pierre Mounier and Marin Dacos at EHESS; this was fun, though I am somewhat unnerved <note>Francophone readers may wish to note that being "unnerved" is not at all the same thing as being "énervé" ... I do my best to avoid the latter, while the former is quite a normal state of mind.</note> by its  <ref target="http://leo.hypotheses.org/3994">subsequent digital publication</ref>, slides, summary, audio, warts, and all.</item>
+<item>With Nicole Dufournaud,  I taught <ref>an introductory TEI course </ref> at the <ref target="http://cesr.univ-tours.fr/">Centre d'Etudes Supérieures de la Renaissance</ref>, Université François-Rabelais de Tours;</item>
+<item>I survived the final review meeting of <ref target="http://enrich.manuscriptorium.com">the ENRICH project</ref> in Luxembourg which was much kinder than it might have been;</item>
+<item>I attended a DARIAH Technical Workgroup meeting hosted at the Max Planck Digital Library in Munich where  progress of some sort was made on the subject of the <ref target="http://tei.oucs.ox.ac.uk/Projects/Demonstrator">TEI Demonstrator</ref>; I also experienced Strauss's <ref target="http://alexrossmusic.typepad.com/photos/uncategorized/2007/09/15/app0001_3_2.jpg">
+<hi rend="italic">Salome</hi>
+</ref> for the first time, at the Staatsopera. Got my hair cut, visited the Alte Pinakotek. As you do.</item>
+<item>I went to a lot of meetings. Specifically:  a planning meeting at the IRHT for Richard's ANGD planned course; a meeting to compare and contrast<ref target="http://www.escidoc.org"> eSciDoc</ref> and <ref target="http://www.tge-adonis.fr/wiki/index.php/ISIDORE_/_projet">Isidore </ref> at the Computing Centre of the In2p3 in Lyon;  a planning meeting for the  Mutec "TEI journees d'etude" at the Institut des sciences de l'homme also in Lyon; a discussion of  the  "current awareness" activities which Adonis has subcontracted to a lady from CNAM.</item>
+</list>
+</p>
+<p>I spent much time and effort trying to understand the TGE Adonis, both as it is, and as various people would like it to be.  This is not as easy as you might suppose, but I am making progress; at any rate I seem to have internalised quite a few acronyms, and am dimly becoming aware of the politics.
+</p><p>
+Meanwhile, in real life, there was a lot of snow (which did not however stop us going to visit our at that time un-named grand-daughter in Brum) on both sides of the channel. I improved my knowledge of Paris considerably:  I dined twice with Nicole D. and Jean-Daniel F. out in the wilds of St Ouen. I scored two successes against French bureaucracy: firstly, I got a ticket authorising me to eat cheap lunches at the Ministry of Higher Education's <hi rend="italic">cantine</hi> just behind the Pantheon; secondly, I opened a euro bank account.
+</p><p>
+Lilette came and stayed with me in a posh flat on the 23rd floor of a tower block near place d'Italie with magnificent views over the XIIIeme; I realised that I was too old and grumpy to enjoy living in rue Mouffetard or rue St Andre des Arts (the latter being particularly nasty), but that on the other hand there was quite a lot to be said for Denfert- Rocherau. Especially if the weather improves.</p>
+
+</div>
+</body>
+</text>
+</TEI>

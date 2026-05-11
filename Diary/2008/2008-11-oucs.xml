@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="2008-11-oucs">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>A day in the life</title>
+<author>louburnard</author>
+</titleStmt>
+<publicationStmt>
+<publisher>Self-published (WordPress)</publisher>
+<idno type="URL">https://louburnard.wordpress.com/2008/11/12/a-day-in-the-life/</idno>
+<date when="2008-11-12">2008-11-12</date>
+<availability>
+<p>Originally published on WordPress.</p>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from WordPress WXR export.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<textClass>
+<keywords scheme="category">
+<term>OUCS</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="post">
+<head>A day in the life</head>
+<p>Some days are just, I suppose, normal. Today for example. I got up, had breakfast, went to the office. Checked out my email (nothing special). From 10 to 11 I chaired what may well be the last meeting of our ill-fated CMS Project Board. Also present were Ratty, Bungo, Oswald and the Duck. . Ratty had drawn up a plan explaining what he and the other chipmunks were going to do instead of installing a CMS. The Duck and I agreed that this was a sound plan, given the uncertainty of life in general (a  coded reference to the University's Groupware project). We went through the plan from the end backwards, for no very good reason. Oswald said that he and the other ferrets were very unhappy with having to maintain Axkit 1.0 a moment longer than strictly necessary. Then we spent some time bickering about whether or not the level of idiot-accessibility proposed in the paper was adequate to Bungo's needs without  insulting everyone else's intelligence too much. Bungo wanted to know whether the new system meant he and the rest of the cuddly toys still had to produce valid XML documents (yes they do) and whether it would make validating and checking in those documents a bit less of a nuisance (yes it would, provided your document was a mind-numbingly simple one intended for cuddly toy consumption).  Oswald and the Duck and I all felt that Ratty should try harder to cater for the rest of us, eg by not requiring separate red button presses for every component of a less mind-numbingly simple document. That only left a few minutes for discussion of the start of Ratty's proposal, which is good as this was the most fascist part of all, spelling out clearly that there would be One True Schema, and One Authoring Tool, and if you didn't like them you were on your own kiddo. And all this was agreed in the twinkling of an eye, aka  a stampede for coffee.
+</p><p>
+Or so I believe, because I then had to dash back to my office for my next meeting, an interview with Gloriana, our newly appointed chief of cuddly toys. This was fun. I learned that none of the cuddly toys actually recognised the description of their activities which she had been given at interview, for example. She proposed, and I agreed, that Bungo needed to be given more time to work on the Steeple project, and Doris rather less. We agreed that there was a striking need for crash courses in strategic thinking at OUCS. I reminded her that Doris's remit extended to include the research aspirations of the Independent Republic of Cuddly Toys. We agreed that defining a research strategy needed input from all parts of the forest.
+</p><p>
+From 12 till one, I had a rather less interesting interview with the Weasel. The purpose of this was to see whether we could cook up a plausible reason to persuade the Hemulen that she should continue to provide him with an office and the means to pursue assorted wild geese without requiring him to manage a couple of existing e-science projects. Or at the very least to see if we could jointly agree on a strategy aimed towards that end, whether or not it would persuade her. I am not going to try to explain how we squared this particular circle but I can reveal that it involved fairy gold, and that I hope to get my hands on some of it.  We shall see, on Friday, possibly, when we are due to meet up with the H.
+</p><p>
+This was cut short by a phone call from Taiwan inviting me to come and do something splendid and honorary next April, hoorah. As Ratty is also going to Taiwan around that time, I hauled him into the conversation, but it transpires his gig is a month earlier than mine. Mine however is a double header: I get to preside over a TEI launch and also, in a different corner, burble about the BNC. Ratty and I then had an agreeable half hour gossiping about various outbreaks of madness around the building and beyond, e.g. the story about academia.edu which is about to break, all I now know (after yesterday's discussions with the Walrus) about the CUD project, further TEI politics, etc.
+</p><p>
+By now it's five to two and time for a hasty lunch. I grab a sandwich and a bun from Maison Blanc, and wander into a somewhat dispirited meeting of the Oxford Corpora special interest group down in our basement, chaired by the weasel. Nothing happening here, but it gives me a chance to eat my sandwich.  Yes we should order the ANC. No the library still hasn't done anything about putting BNC XML into Oxlip. Ah well. I head back to my office, and get button-holed by Jimbo who wants to discuss his woprkplan for the next stage of the Enrich project. We do this in a highly unsatisfactory and cursory manner as I proceed hastily to my 3.30 engagement... peacefully sitting on the Help Desk, being very nice to people. You've lost your password again? No problem we can fix that for you sir. Laptop not connecting to the network? Let's have a look madam. Wanna buy some site licensed software? Here, let me guide you through the unbelievably crass idiocy of our Online Shop. It's the high spot of my week.
+
+Five pm rolls around, and I get to catch up on more email, fill in some outstanding forms, sign off some invoices and expense claims, and check on my committments for tomorrow before heading home for a nice dinner at 7.After which, a spot of telly, and this report. A full life, eh.</p>
+</div>
+</body>
+</text>
+</TEI>

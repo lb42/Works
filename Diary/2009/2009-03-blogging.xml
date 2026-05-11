@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="2009-03-12">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Navel gazing</title>
+<author>louburnard</author>
+</titleStmt>
+<publicationStmt>
+<publisher>Self-published (WordPress)</publisher>
+<idno type="URL">https://louburnard.wordpress.com/2009/03/12/navel-gazing/</idno>
+<date when="2009-03-12">2009-03-12</date>
+<availability>
+<p>Originally published on WordPress.</p>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from WordPress WXR export.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<textClass>
+<keywords scheme="category">
+<term>Biographical</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="post">
+<head>Navel gazing</head>
+<p>I'm starting to worry about everything, but in particular just now, next week's DayofDH. So, I thought I'd address this on two fronts. First I'd keep notes all day of what I was doing when, practice-like. And second, I'd check out my general blog-worthiness to date, with the aid of that neat little <ref target="http://www.wordle.net">wordle thingy</ref>. The second was easy, and here it is:
+
+<figure>
+<graphic url="media/myblog071b.png"><!--http://louburnard.wordpress.com/wp-content/uploads/2009/03/myblog.png--></graphic><head>This blog's verbal landscape to date</head>
+</figure></p><p>What does this tell us? Adonis looms larger than AHDS and digital information and trains matter a lot. Not a statistically valid sample though, I think we can all agree.
+</p><p>
+And what have I been doing today? My records show something like this, for the working day from 0900 to 1830 (after that, it's dinner and tv, and blogging of course)
+<list type="unordered">
+<item>
+<hi rend="bold">staff management </hi>(talking to one manager about someone we jointly manage; emailing  staff I manage about meetings held or to be held; listening to or jollying along other staff viva voce etc.) ... today a total of  2 hours</item>
+<item>
+<hi rend="bold">debugging the OULD sticky</hi> (aka Linux in a Bun, this is a bootable Ubuntu customization on a USB key which Sebastian is developing and I am testing. It seemed a great idea when we started, but we are both now getting very frustrated by things not quite working out as they should. On the other hand, as am unexpected side effect, it seems I am entitled to a new desktop machine, which duly appeared this morning and contributed to the   implausible total of 3 hours I spent faffing about with machinery today)</item>
+<item>
+<hi rend="bold">progressing the CUD project</hi> (this is a pilot for a single University-wide repository for  personal information; we have a very clever consultant working on merging data from the many data sources around the place, and I have defined a TEI conformant spec for its documentation, which he has apparently taken on board without a second thought, hoorah... today maybe an hour checking that my conversion of his spreadsheet into XML still works)</item>
+<item>
+<hi rend="bold">clearing the backlog of <ref target="http://www.natcorp.ox.ac.uk">BNC</ref> support tickets</hi> (about a dozen of them, mostly needing to be pointed elsewhere,  having been misled by out-dated pages on the website... A frustratingly slow business since our implementation of rt is long overdue for an upgrade -- about 45 minutes.</item>
+<item>
+<hi rend="bold">and of course a steady stream of email throughout the day: </hi>I sent 16 messages, and read many many more.  Some of them were quite sensible (e.g. discussing a new funding bid  for which we're putting together a letter of intent) and most of them were not (e.g. oucs wondering collectively whether "graffiti" could be used as a verb this morning)</item>
+</list></p><p>
+Put that together with an hour off for lunch, spent quietly skimming through<hi rend="italic"> Academy Zappa: Proceedings of the first international conference of esemplastic zappology</hi>, and you can see where the time goes, if nothing else.</p>
+</div>
+</body>
+</text>
+</TEI>

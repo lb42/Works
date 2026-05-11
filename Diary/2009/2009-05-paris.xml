@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="2009-05-paris">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Paris in the in the spring</title>
+<author>louburnard</author>
+</titleStmt>
+<publicationStmt>
+<publisher>Self-published (WordPress)</publisher>
+<idno type="URL"
+>https://louburnard.wordpress.com/2009/05/17/paris-in-the-in-the-spring/</idno>
+<date when="2009-05-17">2009-05-17</date>
+<availability>
+<p>Originally published on WordPress.</p>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from WordPress WXR export.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<textClass>
+<keywords scheme="category">
+<term>Biographical</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="post">
+<head>Paris in the in the spring</head>
+
+<p>
+<figure>
+<graphic url="media/20090513_203028.jpg" width="291px"
+><!--http://louburnard.wordpress.com/wp-content/uploads/2009/05/blogfot1.png?w=291--></graphic>
+<head>The Wardonia</head>
+</figure> A “Special Interest Group” of the TEI dealing with <hi>l'édition génétique</hi> has convened a meeting at ITEM which is not to be missed. And it's <hi
+rend="italic">over a month </hi> since I was last in Paris. The meeting starts
+at 2 pm, which implies an early start from St Pancras (0920 to be exact), to
+make which less of a pain I spend the night before at a carefully selected very
+cheap hotel (the <ref target="http://www.wardoniahotel.co.uk/index.php"
+>Wardonia,</ref> Argyle Street, right next to a black hole on Google Maps, you
+can't miss it). My room was a double cell in the cellar, with its own bathroom,
+but absolutely no chairs, tables or other furbelows. Bright and early, and
+appreciating the contrast, I then waltzed into the Eurostar executive lounge for
+my free wifi, breakfast, etc. and thence, in due course, to Paris. Somewhat
+harassed staff took too long to bring a proper breakfast for the couple opposite
+me, so the lady concerned – a plausible impersonation of Maudie Littlehampton –
+proceeded to complain her way to some sort of discount and a personal apology
+from the chef du train. I gather that they can't get the staff these days, not
+since they laid them all off after that unfortunate Incident in the tunnel last
+year anyway </p>
+
+<p> No matter. It's drizzling in Paris, and Yannick isn't answering his phone.
+Dump bags at my hotel du jour (les 3 colleges, rue Cujas), check email, grab a
+chinese steamed bun for lunch, and then proceed to rue d'Ulm, and the Ecole
+Normale Superieure itself, which is just as Superieure as usual, even in the
+rain, and even though the assembled stone philosophes and former normaliens are
+in mourning, presumably for the the current parlous state of the French
+university system. <figure>
+<graphic url="media/20090514_142100.jpg" width="300px"
+><!--http://louburnard.wordpress.com/wp-content/uploads/2009/05/20090514_142100.jpg?w=300--></graphic>
+<head>Anciens normaliens en deuil</head>
+</figure> I track down <ref
+target="http://wiki.tei-c.org/index.php/GeneticEditionsWorkshopParis">the
+meeting</ref> eventually, where someone is in full spate on the intricacies of
+recognizing authorial actions and traces in the manuscripts of Flaubert. I
+insert myself at the back of the room, next to, good heavens yes, it is Claus
+Huitfeldt, and there is Dino Buzzetti, and, over there is Hans Walter Gabler,
+and there are Daniel Ferrer and Aurelie Cresson, and yes, that is definitely
+Dirk van Hulle, and there are Wolfgang Lukas, Anne Bohnekamp, Fotis Iannidis,
+Hilde Boe, and hm that must be Jean-Louis Lebrave chairing the session... I
+apologise for the name dropping, but if a bomb went off in this room, there
+probably wouldn't be much critical editing done in Europe for a while. A couple
+of Americans (John Bryant and Brett Barney) are also in evidence: Elena and
+Malte and Fotis and Paolo d'Iorio (who is regrettably not here) have evidently
+done their homework. Lots of interesting stuff gets presented very quickly but
+raising many tricky theoretical issues; there is well-behaved but energetic
+discussion. I sit at the back and concentrate. You have texts, possibly, you
+have documents definitely. You can't really look at the former and ignore the
+latter; you can't look at the latter without seeing the former. And yes, there
+is a lot in the TEI recommendations for textual editing which needs a fresh look
+and a good dusting down. In the evening, we dine at <ref
+target="http://www.guides-restaurants.fr/bar-vin-paris/mauzac.php">le
+Mauzac</ref> – a distinctive joint just off rue Gay-Lussac, offering excellent
+wine and good fish, where I chat to Susan Schreibman mostly, and learn amongst
+other slightly surprising facts that she had wanted to become a rabbi in her
+youth. </p>
+<p> Next morning, there is more of the same, this time inside an antique cinema
+mysteriously located in the basement of a different ENS building. I am down to
+chair, in place of Laurent, which I dutifully do. As is his wont, Jean-Daniel
+Fekete demonstrates a rather cool piece of software he's developed (I have a
+copy: it's called<ref target="http://tei-eclipse.gforge.inria.fr/transcripteur/"
+> Transcripteur</ref> and it does what it says on the tin). Emmanuelle Morlock,
+from the Flaubert project is busily taking notes on everything everyone says; I
+gather that the point is to assemble aspects of current practice not yet
+assimilated by the draft proposals of the workgroup. The original plan was to
+divide into breakout groups to discuss three distinct areas of the proposals,
+but since most people want to be in all three, and any way we are all getting on
+so well together, this is abandoned. At lunchtime, I rush off for a very quick
+business meeting with Yannick, and then return for the final rather crowded (but
+still amicable) plenary discussion, firmly chaired by Laurent. After protracted
+farewells, and promises of reports and redactions, I sit around a bit longer to
+winge about specific details of the draft ODD which Elena's assistant Moritz has
+put together and then dash off to meet Yannick again. </p>
+<p> Who is deep in discussion with a lady wearing an implausible hat, who has
+the task of explaining in a report to the publishers of Ile de France just what
+this XML malarkey is all about and how it might affect them. I obligingly
+blether a bit, and we then depart for a quick drink, before walking at high
+speed (discussing all the while whether or not there is such as thing as digital
+humanities) through the rush hour to the rue de four, for my next gig at
+something called the<ref target="http://www-ihpst.univ-paris1.fr/ihpst">
+IHPST</ref>. This is an institute devoted to the study of the history of
+philosophy, where an energetic lady called Wioletta has organized a little
+drinkie-do to kick off tomorrow's seminar, organized as part of a project to
+digitise the surviving <ref target="http://www.elv-akt.net">manuscript
+archive</ref> of a Polish philosopher called <ref
+target="http://en.wikipedia.org/wiki/Kazimierz_Twardowski">Kazimierz
+Twardowski</ref> and seductively titled <hi rend="italic">TEI – l'outil d'avenir
+du chercheur SHS </hi>? (note the question mark). Jean-Daniel and Nicole arrive
+shortly after Yannick and me; as do Marie-Luce Demonet and Celine Poudat. We are
+the stars of the occasion, which is as they say nice, and even nicer is the
+subsequent dinner in an exclusive restaurant overlooking the <hi>Marché St Germain.</hi>
+I explain why TEI might be interesting to an elderly linguist colleague of
+Wioletta's and also to a gentleman I believe to be a Polish cultural attach é ,
+and they both listen politely. Then I stagger back to my hotel somewhat
+unsteadily, reflecting on (a) what a long day this has been and (b) how
+different the sixieme arrondissement is from the cinqieme. </p>
+<p> Next morning, I give my standard<ref
+target="http://tei.oucs.ox.ac.uk/Oxford/2009-05-paris/intro-tei-fr.pdf"> “TEI
+encoding pour les nuls” talk</ref>, emphasizing the “what is text anyway”
+aspects, and also including for the first time the <hi rend="italic">Petit
+Comtois</hi> example, all of which seems to go down well. The lady with the
+implausible hat shows up, as do a small number of students, but it's an intimate
+little gathering, unsurprisingly on a Saturday morning. Marie-Luce gives a good
+introduction to the <ref target="http://www.bvh.univ-tours.fr/">Bibliotheque
+Virtuelle des Humanistes</ref>, including some up to date statistics: I download
+some sample texts from Epistemon, and explain again to Nicole why the way she's
+doing end of line hyphenation is all wrong. Jean-Daniel demonstrates some
+(different) cool visualisation software and elaborates a little on the theory
+behind it, which is all new to me. We go to lunch round the corner, in a resto
+which we seem to be sharing with someone's wedding party, but none the worse for
+that. Mmm, fish. Mmm, prunes in liqueur. And so to the closing session, which I
+had to chair, despite feeling that perhaps a little nap would not be
+inappropriate. <ref target="http://chavalarias.com/tiki-index.php">David
+Chavalarias </ref>presented some high powered statistical work on terminology in
+scientific literature; Celine talked about her corpus of academic writing;
+Nicole talked about her work with historical archives. And in a final session I
+learned about Twardowsky, and the vagaries of his manuscripts – he died in Lviv
+in 1938,  so the archive in which they were deposited has changed its ownership
+rather more frequently than is strictly necessary. I also learned that Wioletta
+and three of her students are signed up for my next appearance in Paris, at
+l'Ecole des Chartes on 3 June, which means I probably have to prepare a <hi
+rend="italic">different </hi> “TEI encoding pour les nuls” talk, drat. </p>
+
+</div>
+</body>
+</text>
+</TEI>

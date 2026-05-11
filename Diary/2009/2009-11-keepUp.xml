@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="2009-11-keepUp">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Keep up at the back</title>
+<author>louburnard</author>
+</titleStmt>
+<publicationStmt>
+<publisher>Self-published (WordPress)</publisher>
+<idno type="URL">https://louburnard.wordpress.com/2009/11/20/keep-up-at-the-back/</idno>
+<date when="2009-11-20">2009-11-20</date>
+<availability>
+<p>Originally published on WordPress.</p>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from WordPress WXR export.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<textClass>
+<keywords scheme="category">
+<term>Biographical</term>
+<term>conference</term>
+<term>digital</term>
+<term>humanities</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="post">
+<head>Keep up at the back</head>
+<p>I promised myself when I started this division of labour between OUCS and ADONIS that I'd try to keep track on what I was doing better. Regular bloggage I said to myself, that's the answer. And myself replied, as I do, of course I will.
+</p><p>
+Err. So here's a quick update covering the last month, following Lilette's annual departure to Mauritius to visit her mum on 14 Oct. The very next day, I packed my bag, locked up the house, and set off for Paris. Being tired of hotels, I  rented a tiny flat at an exorbitant cost in the rue du Temple for a week, and started learning how to be a Parisian. I also attended a succession of meetings...
+<list type="gloss">
+<label>Fri 16 Oct</label>
+
+<item><!--http://louburnard.wordpress.com/wp-content/uploads/2009/11/ens-doorway.png-->
+<figure>
+<graphic url="media/ens-doorway.png" width='300px'/>
+</figure>
+
+
+
+First to the Ecole Normale Superieure  for<ref target="http://www.ailf.asso.fr/upload/programme%20colloque_AIL.pdf"> LexiPraxi2009</ref>, annual conference of the Association des Informaticiens de Langue Francaise, which this year is devoted to feature structures, no less, and has therefore invited me to talk about the TEI and its recommendations on the subject. The day began with an odd session in which most of the speakers (me, Laurent Romary,  Eric de la Clergerie, Sadik Bessou, and Kais Haddar) sat around a table with the organiser (Jean Michel Borde, Henri Hudrisier, Stephanie Delmotte) and nattered about what we were going to say while feasting on dates and biscuits brought from Algeria by Sadik. Then we adjourned for an excellent lunch, where we were joined with a distinguished gent called <ref target="http://portal.unesco.org/shs/fr/ev.php-URL_ID=10617&amp;URL_DO=DO_TOPIC&amp;URL_SECTION=201.html"> Xavier North</ref>,  who opened the formal proceedings with a nice talk about neologisms and the web. The event took place in a room I vaguely remember from previous events at the ENS, blessed with exceedingly comfortable fauteuils, but I managed to stay awake, for<ref target="http://tei.oucs.ox.ac.uk/Oxford/2009-10-paris/tei-ana.xml"> my own talk</ref> at least.
+
+</item>
+
+
+
+<label>Le weekend</label>
+
+<item>
+<figure>
+<graphic url="media/ileauxcerfs.jpg" width='225px'/>
+</figure>
+
+Next morning was Saturday so I stayed in bed as long as possible,  though sadly not as long as I might have since I had a domestic problem to resolve, involving shower pipes.  Finding the replacement turned out to be easy because  Merlin Vert, France's answer to B&amp;Q, had just opened a super new department store in rue Rambuteau, just round the corner. After some hesitation, my aching feet insisted that I take the plunge and investigate the modalities of the <ref target="https://abo-paris.cyclocity.fr/">velolibs de paris</ref>,  with whose aid I was able to discover an interesting market and <ref target="http://ile-aux-cerfs.eresto.net/">a Mauritian restaurant</ref>,before peddling triumphantly back to my flat for a healthy dinner and bed. The deal is that you can pick up abike from any one of the little parking places  throughout the city, and don't pay anything beyond your weekly fee if you return it to another such parking place within 30 mins (or a euro if you take an hour). The only thing that can go wrong is if there's no free place at your destination, or no functioning bike at your point de depart, but neither of those has happened to me yet.  And then there's the Paris traffic system of course.</item>
+
+<label>19-20 Oct</label>
+
+<item>Cycling across Paris to the DARIAH meeting proved a somewhat terrifying experience since the nearside lane of your typical Parisian boulevard is reserved for the exclusive use of buses, taxis, and delivery vehicles. Oh, and bikes, if there's room, which there usually isn't. Still, I made it, much envigorated and not actually killed, to the Espace Haussmann within 30 minutes for a two day meeting of the DARIAH project.
+
+<!--http://louburnard.wordpress.com/wp-content/uploads/2009/11/dariah.jpg-->
+<figure>
+<graphic url="media/dariah.jpg"/>
+</figure>
+With my Adonis hat on I had a lot of fun meeting people I haven't seen for years, asking questions, and poking my nose into matters already decided ages ago by the inner circle management Board.  DARIAH is a massive EU funded plot^h^h^hroject to create a new digital infrastructure for the Humanities, which (now that I'm in it) seems to have combined more or less everyone who is anyone in Digital Humanities. It has work groups and work packages and partners and is considering also institutionalising things called Competency Centres within, as legal framework, something called an <ref target="http://ec.europa.eu/research/infrastructures/eric_en.html">ERIC</ref>. All good infrastructural stuff. And it's also a way of maintaining the place of some existing organizations (DANS, CERCH, ADONIS, TextGrid...) at the centre of things. 
+
+
+
+
+<figure>
+<graphic url="media/dariah-lunch.jpg" width='259px'/>
+</figure>
+
+
+
+The eating
+was at least as good as the meeting, featuring notably <ref target="http://mollard.fr">a delightful Art Nouveau restaurant</ref> for lunch (see also Peter Doorn's <ref target="http://picasaweb.google.com/pkdoorn/DARIAHConsortiumMeetingParis1920Oct2009#">nice photos</ref>)
+</item>
+
+<label>21 Oct</label>
+<item><!--http://louburnard.wordpress.com/wp-content/uploads/2009/11/adonis-team.jpg-->
+<figure>
+<graphic url="media/adonis-team.jpg" width='300px'/>
+<head>TGE Adonis Team Meeting, rue Lhomond.</head>
+</figure>
+
+</item>
+
+<label>22 Oct</label>
+<item>Up early for the train to Orleans for a seminar on TEI for manuscripts hosted by Richard Walter; I gave <ref target="http://tei.oucs.ox.ac.uk/Oxford/2009-10-paris/tei-sources.xml">another talk</ref> (much less well prepared) and was updated on some of  the activities of the IRHT. I met Patrick Peccate en route which is why we missed the connecting train. But an interesting day all the same: I saw a tool being developed for  the <ref target="http://www.cn-telma.fr/"> TELMA</ref> plateforme which looks like a comparatively sensible version of the ENRICH "MTool" and had an enjoyable argument with someone about their TEI-like encoding of a cartulary.
+</item>
+<label>23 Oct</label>
+
+<item>
+
+<figure>
+<graphic url="media/iphst.jpg" width='300px'/>
+</figure>
+
+
+
+
+By bike (again) to  the IPHST, near the Marche St Germain to consult with Wioletta Miskiewicz and her students working on the the <ref target="http://www.elv-akt.net">digital archive of Twardowski and his circle</ref>. I learn that there are some mss in Lithuania which are known only by descriptions made of them early in this century before the secret police decided to hide them away. I try to persuade them that Dublin Core may be a bit restricted for full ms descriptions, and help Alexandra come to terms with Oxygen.  Oh, and quelle surprise, another excellent lunch, this time with Jacques Dubucs, who is in excellent humour.</item>
+
+<label>24 Oct to 9 Nov</label><item>
+Nearly two  weeks at OUCS, working on CUD report, preparing next P5 release, getting used to living in an empty house.
+
+Interrupted by a couple of days (5-6 Nov) in  Madrid for the <ref target="http://enrich.manuscriptorium.com/">ENRICH</ref> final conference, where I had to give <ref target="http://tei.oucs.ox.ac.uk/Oxford/2009-10-paris/madridtalk.xml">yet another talk</ref>, but otherwise did very little except (a) enjoy the company of other ENRICH partners, now much more relaxed as they realise that it's too late to change anything (b) enjoy Madrid, a splendid city I now know I want to know better and (c) buy myself a new beret.
+
+<!--http://louburnard.wordpress.com/wp-content/uploads/2009/11/new-beret.jpg-->
+<figure>
+<graphic url="media/new-beret.jpg" width='225px'/>
+</figure>
+</item>
+<label>10 - 16 Nov</label><item>
+My first visit across the Atlantic for several years... in two steps. United put me into business class, which was nice, for the flight to Chicago. Then I got slightly lost at OHare, but eventually tracked down the PACE bus to Evanston where Martin Mueller welcomed me to his home for fine wine, excellent steak and conversation, and a really good night's sleep. The following day, I took a leisurely train ride to Ann Arbor. It's Amtrak -- what's the rush? And so to the Bell Tower Inn at the University of Michigan, much nicer than I remember it being,  for the annual <ref target="http://www.lib.umich.edu/spo/teimeeting09/">TEI Members Meeting And Conference</ref>. That really deserves a report of its own, which I haven't time to provide now, though the <ref target="http://twapperkeeper.com/tei_09/"> archived  twitter feed</ref> is probably as good as anything else to demonstrate that this was actually a whole lot of fun. The journey home, however, after a full day's Board meeting, was just too, too long.
+</item>
+<label>17-21 Nov</label>
+<item>
+Nearly a week at OUCS, featuring SMG, MLPS IT Committee, UST (chaired by Sebastian) ...
+And now it's the 22nd off we go to Paris again, this time to a merely expensive flat in rue Mouffetard. Watch this space.</item></list></p>
+</div>
+</body>
+</text>
+</TEI>

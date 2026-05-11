@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="2008-10-04">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>"They order these things better in France"</title>
+<author>louburnard</author>
+</titleStmt>
+<publicationStmt>
+<publisher>Self-published (WordPress)</publisher>
+<idno type="URL">https://louburnard.wordpress.com/2008/10/04/they-order-these-things-better-in-france/</idno>
+<date when="2008-10-04">2008-10-04</date>
+<availability>
+<p>Originally published on WordPress.</p>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from WordPress WXR export.</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="post">
+<head>"They order these things better in France"</head>
+<p>Yesterday I found myself once more in Paris for a meeting of the Conseil Scientifique (sounds impressive, means something like Academic Advisory Committee) of the<ref target="http://www.tge-adonis.fr"> TGE Adonis</ref> which, if you don't know it, is the major French infrastructural agency for provision and management of digital resources in the humanities and social sciences (SHS), one of the small number of such "tres grand equipements" funded by the CNRS. Business of the day, not too strenuous, a review of the minutes of the last meeting, reports on recent and planned TGE activities, and an opportunity for us to make annoying comments about how things really ought to be done, without too much responsibility attached (ADONIS also has a proper steering committee, which meets next week). More significantly, perhaps, a chance to get an interesting glimpse of how this bit of the French academic community is reacting to the same digital agenda as the rest of us.
+</p><p>
+The CS has about ten members, most of them senior academics or librarians with considerable depth of experience of things digital and webby: see the (slightly out of date)<ref target="http://www.tge-adonis.fr/spip.php?page=rubrique&amp;id_rubrique=44"> list </ref>. My favourite is Francoise Genova, who runs the <ref target="http://cdsweb.u-strasbg.fr/CDS-description.gml">AstronomicalObservatory at Strasbourg,</ref> (one of the best illustrations of what the  web and judicious application of standards can do to transform the way a discipline operates), but they're all pretty cool. This meeting welcomed a new member, Alexandre Moatti, a historian of science and maths with a distinguished track record in digital library activity.
+</p><p>
+As far as I understand things, one of the chief challenges for ADONIS has been to establish a niche for itself from which to exert significant influence amongst the rather crowded world of acronymically-named infrastructural entities in France. It seems to be succeeding: for example, NUMES which is a joint project with ABES (the major French academic OPAC) to prepare a catalogue of digitization projects, is now set to kick off next year, having been the subject of some uncertainty for the last two. A similar project for the social  sciences is also underway, via the existing <ref target="http://www.centre.quetelet.cnrs.fr/">QUETELET portal</ref> The ADONIS team (Yannick Maignien and Benoit Habert) is fortunate in possessing immeasurable amounts of diplomacy and doggedness, as well as enormous amounts of  expertise and experience: they need them. Sometimes things go wrong:
+an attempt to set up an "observatory" on the take-up and application of digital resources (policies on which vary enormously across institutions), has apparently been blocked by inter-ministerial rivalries; but often they go right, as witness the setting up of a pilor project on archiving of spoken data on the OAIS model, to be carried out by ADONIS and the CRDO  jointly with the BNF (Bibliotheque Nationale de France), and the DAF (Direction des Archives de France).
+</p><p>
+This year, ADONIS organised a summer school to promote communication amongst all the projects it had initially funded which seems to have been a reasonably successful community-building event (there is a full
+report on the ADONIS website). One of the ideas proposed was to set up a quasi-autonomous "user group" of some kind, which seemed an interesting way of balancing the lack of any more formal way of assessing user-need in the community. It does however beg the question of how representative of the wider SHS community such a self-selecting group can hope to be.  This led to a discussion of the relationship with the existing "<ref target="http://www.cnrs.fr/shs/recherche/centres-ressources-numeriques.htm">centres de ressources numeriques"</ref> (Digital Resource Centres) . There are five of these,  pecialised for the most part by type of materials held: CRDO for spoken data (donnees orales); CNRTL for texts and linguistic data; TELMA for manuscripts and archives; M2IAS for geographical data; and C2SNV for visual data. The interesting point about these is that they are all attached to (at least one) specific institution, have a significant history of expertise, and are (largely) financially independent. From a UK perspective, they thus look rather like former AHDS centres, but without any AHDS Executive, or any top-down funding. By providing a model for long term archiving, and also for exchange of information about best practice (another topic which emerged at the summer school concerned recommendations for tools), it seems that ADONIS provides something to complement the specialist activities of the Centres in a useful way.
+</p><p>
+ADONIS has also been working as a marriage broker, it appears: the world of online journals is a nightmare one for French librarians, dominated by the competing claims of at least two different cataloguing systems (CLEO and CAIRNS). ADONIS has now successfully brokered an agreement between these two to make their respective online catalogues mutually linked, so that a search in one can find links (based on DOIs) to the other. Even more amazingly (to me), it appears that someone (at INIST?) is working on using TEI as a bridge format between some of the various XML formats currently in use in institutional repositories for e-theses etc. Hoorah!
+</p><p>
+Also like the late-lamented AHDS, ADONIS is charged with providing something called a "metaportal"; it has sensibly contracted implementation of this out to a private company (Atos Consulting) and the CS was therefore treated to some slides showing the likely architecture and content of the portal. I whinged on about how their model didn't include any provision for archiving (fine, that is being done elsewhere) or for migration of project to service (this did seem to be something they had not thought about).
+</p><p>
+ADONIS will issue a call for new projects next year; the intention is to finance a smaller number of larger projects than last year, typically consortia running two-year projects. I suggested that it would be useful to hold some kind of town meeting to help the community develop such consortia in advance of the bidding process, a suggestion which seemed to go down well.
+</p><p>
+After the meeting proper, Yannick asked me to recommend some relevant UK contacts; I pointed him to <ref target="http://www.arts-humanities.net">arts-humanities.net</ref>, described the emerging Network of Centres, and also gave him some names of people in JISC to pursue.</p>
+</div>
+</body>
+</text>
+</TEI>
