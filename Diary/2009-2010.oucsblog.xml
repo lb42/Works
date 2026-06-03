@@ -1,0 +1,1118 @@
+<?xml version="1.0" encoding="UTF-8"?><body xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:excerpt="http://wordpress.org/export/1.1/excerpt/"><div><head ref="http://blogs.it.ox.ac.uk/louburnard/2009/08/hello-world/">Let's chat, genetically</head><pre>
+[Tue Aug 25 2009 15:18:11] Elena: hi Lou
+[Tue Aug 25 2009 15:18:34] lou burnard: That is one very scarey icon you have there
+[Tue Aug 25 2009 15:18:56] Elena: :)
+[Tue Aug 25 2009 15:18:56] … I am terribly scary!
+[Tue Aug 25 2009 15:19:31] lou burnard: OK... i have to do some non-TEI work for the next hour or so, but will be back on your case then, OK?
+[Tue Aug 25 2009 15:19:52] Elena: (Edited by elena_pierazzo on Tue Aug 25 2009 15:20:02) I will be here shivering with impatience
+[Tue Aug 25 2009 15:20:07] … :)
+[Tue Aug 25 2009 16:44:54] lou burnard: still shivering?
+[Tue Aug 25 2009 16:49:11] Elena: here I am
+[Tue Aug 25 2009 16:49:24] lou burnard: some new questions...
+[Tue Aug 25 2009 16:49:30] Elena: shoot
+[Tue Aug 25 2009 16:49:58] lou burnard: 2.1.2.5 "@timing ... @instant"  -- these dont seem to be documented anywhere?
+[Tue Aug 25 2009 16:50:28] Elena: dammit, I forgot
+[Tue Aug 25 2009 16:50:37] … (blush)
+[Tue Aug 25 2009 16:50:45] … point is that I am not really sure about it
+[Tue Aug 25 2009 16:50:58] … so I left it behind to think about it a little bit more
+[Tue Aug 25 2009 16:50:59] … then I forgot
+[Tue Aug 25 2009 16:51:02] lou burnard: an example would help to make you sure! if you cannot think of one it's probly a bad idea.
+[Tue Aug 25 2009 16:51:20] Elena: I can think of many examples
+[Tue Aug 25 2009 16:51:32] … the things I'm not sure is how to call teh attribute
+[Tue Aug 25 2009 16:51:38] … and how to use it
+[Tue Aug 25 2009 16:51:52] lou burnard: ok... 2.1.2.6 the <gi>undo</gi> example points to its parent ?!?
+[Tue Aug 25 2009 16:52:06] Elena: the attribute how I see ti should a boolean....
+[Tue Aug 25 2009 16:52:23] … hang on, looking for it
+[Tue Aug 25 2009 16:53:53] … ok, yes it does, it means that it is undoing the element to which it points
+[Tue Aug 25 2009 16:54:19] lou burnard: but it isn't! it's only undoing part of it.
+[Tue Aug 25 2009 16:54:46] Elena: yes, it is undoing the 'function' espressed by that element
+[Tue Aug 25 2009 16:55:10] … otherwise how should you that?
+[Tue Aug 25 2009 16:55:12] lou burnard: but not for the whole element, which is what the @target is pointing to
+[Tue Aug 25 2009 16:55:45] Elena: I see your point, but how would you espress it?
+[Tue Aug 25 2009 16:56:15] lou burnard: either you need to have a special rule which explains what it means to put an <gi>undo</gi> inside something else, or you have to do the undoing by means of a standoff pointer
+[Tue Aug 25 2009 16:56:40] Elena: what do you mean bya a special rule?
+[Tue Aug 25 2009 16:57:19] … the prose isn't enough?, there I say: Normally the element <gi>undo</gi> would contain the element to be undone, except in the case of partial undoing as in the following example taken from Giacomo Leopardi's Zibaldone
+[Tue Aug 25 2009 16:57:40] lou burnard: the prose is not enough, sorry. computers don't read prose.
+[Tue Aug 25 2009 16:57:55] Elena: OK, so you are thinking to a smultron or similar?
+[Tue Aug 25 2009 16:58:07] lou burnard: I bthink the concept of "undo" needs tighter definitions.
+[Tue Aug 25 2009 16:58:23] Elena: Ok
+[Tue Aug 25 2009 16:58:43] … can you make me an example?
+[Tue Aug 25 2009 16:58:50] lou burnard: will ponder that...
+[Tue Aug 25 2009 16:58:55] Elena: OK
+[Tue Aug 25 2009 16:59:24] lou burnard: One more thing for today: @mod and <gi>mod</gi>
+[Tue Aug 25 2009 16:59:30] Elena: yes
+[Tue Aug 25 2009 16:59:41] lou burnard: I don't think you need <gi>mode</gi>
+[Tue Aug 25 2009 16:59:57] … if it's only purpose is to provide something for @mod to point to
+[Tue Aug 25 2009 17:00:17] … why not use an xpointer?
+[Tue Aug 25 2009 17:00:36] Elena: mmmm we discussed it, it is a way a. to give a context to a modification in order to understand its rationale, and 2. to reset the counter of a @seq
+[Tue Aug 25 2009 17:00:51] … @mod point not to <gi>mod</gi> but to <gi>modNote</gi>
+[Tue Aug 25 2009 17:01:06] lou burnard: that's not what it says in the doc.
+[Tue Aug 25 2009 17:01:39] Elena: "In many cases it is necessary to scope a portion of text in which one or more alteration occurs, in order to give the necessary context for any editorial discussion. For that purpose we have introduced an element <gi>mod</gi>, which occurs within a <gi>line</gi> or a <gi>p</gi> or any block and phrasal level elements. "
+[Tue Aug 25 2009 17:01:47] lou burnard: I can see why you want <gi>modNote</gi>, that's fine. But yhou also say "It is necessary to scope a portion of text (shd be doc!) in which..."
+[Tue Aug 25 2009 17:02:03] … er yes, that;'s what I am complaining about!
+[Tue Aug 25 2009 17:02:09] … but you can type faster than me
+[Tue Aug 25 2009 17:02:13] Elena: :)
+[Tue Aug 25 2009 17:02:54] lou burnard: there just seem to be too many ways to do the same thing
+[Tue Aug 25 2009 17:02:58] Elena: I lost the part in which I speak about @mod
+[Tue Aug 25 2009 17:03:35] … I don't think so, perhaps I do explain things badly but here is the rationale:
+[Tue Aug 25 2009 17:03:50] … 1.modNote in teh heade to explain what happened
+[Tue Aug 25 2009 17:04:05] … 2. @mod to point from the text/document to the modNote
+[Tue Aug 25 2009 17:04:52] … 3. <gi>mod</gi> to scope portions of text (I think it's text) to give a context in order to explain modification
+[Tue Aug 25 2009 17:05:24] … I agree that you could use ,seg> instead of <gi>mod</gi>
+[Tue Aug 25 2009 17:05:26] … <gi>seg</gi>
+[Tue Aug 25 2009 17:05:47] … it is same as <tag>seg type="modified-segment"</tag>
+[Tue Aug 25 2009 17:05:51] lou burnard: yes, or ab or p or zone or anything!
+[Tue Aug 25 2009 17:06:14] … or line
+[Tue Aug 25 2009 17:06:24] Elena: yes, it is just tht I thought we could have a specific element for that
+[Tue Aug 25 2009 17:06:33] … so In case you think it is too much
+[Tue Aug 25 2009 17:06:43] … then we can explain how to use other elements for that
+[Tue Aug 25 2009 17:07:21] lou burnard: ok, will reconsider (now I look at my notes, i see i was actually confused about which way the pointing was going)
+[Tue Aug 25 2009 17:07:36] Elena: sure
+[Tue Aug 25 2009 17:08:33] lou burnard: sorry i havent had time to finish reading thro today... will try to do a bit more this pm.
+[Tue Aug 25 2009 17:08:56] Elena: that's fine, I think you are really really helpful here
+[Tue Aug 25 2009 17:09:09] … in the sense that you really help me to think straight :)
+[Tue Aug 25 2009 17:09:31] lou burnard: it's what we editors try to do, innit?
+[Tue Aug 25 2009 17:09:43] Elena: indeed
+[Tue Aug 25 2009 17:12:29] lou burnard: could you find me an example of what you want to achieve with the @toiming attribute mentioned above?
+[Tue Aug 25 2009 17:12:39] Elena: sure
+[Tue Aug 25 2009 17:12:39] lou burnard: @timing
+[Tue Aug 25 2009 17:12:44] Elena: I'll look for it
+[Tue Aug 25 2009 17:13:23] lou burnard: OK, have to go now. Just remembered I havent finished a job for the boss.
+[Tue Aug 25 2009 17:13:33] Elena: sure, I'll email it to you
+[Tue Aug 25 2009 17:13:39] lou burnard: tx
+[Tue Aug 25 2009 17:13:47] Elena: pleasure
+[Wed Aug 26 2009 11:29:26] lou burnard: Good morning!
+[Wed Aug 26 2009 11:30:32] Elena: good morning - I am bit busy at the moment
+[Wed Aug 26 2009 11:30:47] … I am completely free in the afternoon though
+[Wed Aug 26 2009 11:31:09] lou burnard: ok. just checking in to say that I now understand transposition!
+[Wed Aug 26 2009 11:31:19] Elena: (party)
+[Wed Aug 26 2009 11:31:32] lou burnard: and have a new suggestion about "instant corrections"
+[Wed Aug 26 2009 11:31:47] … will continue, and send you email
+[Wed Aug 26 2009 11:31:49] Elena: lovely!
+[Wed Aug 26 2009 14:09:20] lou burnard: good afternoon!
+[Wed Aug 26 2009 14:09:33] Elena: hallo!
+[Wed Aug 26 2009 14:09:42] … I was just opening the file to answer to your emails!
+[Wed Aug 26 2009 14:11:31] … do you prefer to discuss the points via skype or me to email you?
+[Wed Aug 26 2009 14:11:52] lou burnard: dont mind, whatevers easier for you
+[Wed Aug 26 2009 14:12:07] Elena: ok, let's start then
+[Wed Aug 26 2009 14:12:12] … 1. >
+> I think what was confusing me was the use of the word "previous" -- i
+> understood it to mean "physically preceding" rather than "prior in
+> time". And by "cross-cutting" you mean "spanning", I think.
+[Wed Aug 26 2009 14:12:21] … (transposition)
+[Wed Aug 26 2009 14:12:27] … indeed you are right!
+[Wed Aug 26 2009 14:12:55] … 2. List item 3 says that a metaMark should be comntained by an add or a
+del, but I think you mean by the tr don't you? certainly it makes more
+sense to put it inside than outside (note that it will be "inside" even
+if the tr is spanning). The example has it outside, which I think is wrong.
+List item 4 ought to mention that you use the standoff <gi>transpositions</gi>
+element to do the realignment.
+[Wed Aug 26 2009 14:13:22] … OK for the part in which you say 'inside ,tr>
+[Wed Aug 26 2009 14:13:32] … but I also meant inside the <gi>add</gi>
+[Wed Aug 26 2009 14:13:57] … as the metamark has  been indeed added as well
+[Wed Aug 26 2009 14:14:26] lou burnard: could a metamark ever NOT be added?
+[Wed Aug 26 2009 14:14:34] Elena: that's a good question
+[Wed Aug 26 2009 14:14:38] … :)
+[Wed Aug 26 2009 14:14:49] … I take your point
+[Wed Aug 26 2009 14:15:05] … 3. You suggest putting the <gi>transpositions</gi> element inside the
+<gi>profileDesc</gi>. I'm not sure about that: since it's about how the text is
+encoded, maybe it should be inside the encodingDesc? are there other
+things like this that also need a home somewhere?
+[Wed Aug 26 2009 14:15:38] … I think it aslo matter on how the docuemtn is organised, not just encoded
+[Wed Aug 26 2009 14:15:59] … that's why I thought of profidesc
+[Wed Aug 26 2009 14:16:56] lou burnard: well, the <gi>creation</gi> is inside <gi>profileDesc</gi>
+[Wed Aug 26 2009 14:17:32] Elena: yes
+[Wed Aug 26 2009 14:17:35] lou burnard: but this <gi>transpositions</gi> is more about how to make sense of the encoding in the document -- i.e. that this version of the document should be read in the specified order
+[Wed Aug 26 2009 14:17:56] Elena: not sure about that
+[Wed Aug 26 2009 14:18:04] lou burnard: so it's about the document encoding. But it's an open question
+[Wed Aug 26 2009 14:18:04] Elena: the point is that it make sense in both order
+[Wed Aug 26 2009 14:18:10] … it is a question of the time of revision
+[Wed Aug 26 2009 14:18:26] lou burnard: eh?
+[Wed Aug 26 2009 14:18:35] Elena: meaning that in the first plac ethe author wrote on one order
+[Wed Aug 26 2009 14:18:41] … then he/she modiefed it
+[Wed Aug 26 2009 14:19:25] lou burnard: yes. but in your encoding,  since it's in XML, the order is fixed by your encoding. you want to say that there is however another order possible. so it's about varying the encoding.
+[Wed Aug 26 2009 14:19:37] Elena: OK
+[Wed Aug 26 2009 14:19:52] … I don't have a strong feeling about that, so if you think it is better, I'm OK
+[Wed Aug 26 2009 14:20:03] … I just wanted to understand and make sure I get the point
+[Wed Aug 26 2009 14:20:26] … About instant corrections: I love you rproposal
+[Wed Aug 26 2009 14:20:27] lou burnard: sure
+[Wed Aug 26 2009 14:20:58] … oh! my turn to say(sun)
+[Wed Aug 26 2009 14:21:09] Elena: the only point I think is how to call @seq
+[Wed Aug 26 2009 14:21:15] … seq > stage > state
+[Wed Aug 26 2009 14:21:38] … I think stage was Moritz early proposal which we say that it was to close to <gi>stage</gi> to work
+[Wed Aug 26 2009 14:21:43] lou burnard: i dont like seq, because it implies linearity which i dont think is justified
+[Wed Aug 26 2009 14:21:56] … stage and stage are indeed close
+[Wed Aug 26 2009 14:22:07] … but tTEI also already has state!
+[Wed Aug 26 2009 14:22:30] Elena: I missed that one
+[Wed Aug 26 2009 14:23:10] … I can't find state in the list of attributes
+[Wed Aug 26 2009 14:23:13] … where is it?
+[Wed Aug 26 2009 14:23:19] lou burnard: is an element
+[Wed Aug 26 2009 14:23:31] Elena: oh! so there is <gi>stage</gi> and ,state>
+[Wed Aug 26 2009 14:23:40] … cool
+[Wed Aug 26 2009 14:23:57] … then I think stage is more semantically correct
+[Wed Aug 26 2009 14:24:35] lou burnard: ok, let's go with @stage for now
+[Wed Aug 26 2009 14:24:42] … and keep moritz happy!
+[Wed Aug 26 2009 14:24:50] Elena: :)
+[Wed Aug 26 2009 14:25:02] … <!--end of first email>
+[Wed Aug 26 2009 14:25:13] … <beginning of second email-->
+[Wed Aug 26 2009 14:27:03] … I'm not sure I understood your problem with <gi>geneticGroup</gi>
+[Wed Aug 26 2009 14:27:17] … 1. you don't like <link/>
+[Wed Aug 26 2009 14:27:26] … and prefer <ptr/>, right?
+[Wed Aug 26 2009 14:28:08] … "In this case, is there any reason not to use just a bunch of <ptr/>s,
+each indicating one... er, what are these things anyway?"
+[Wed Aug 26 2009 14:28:38] … <ptr/> is fine for me, but I thought we wanted to group them somehow
+[Wed Aug 26 2009 14:28:49] … (Edited by elena_pierazzo on Wed Aug 26 2009 14:33:41) they point to different version of the text
+[Wed Aug 26 2009 14:28:58] … (Edited by elena_pierazzo on Wed Aug 26 2009 14:33:54) which can be in the same document or in other documents
+[Wed Aug 26 2009 14:35:30] … I think you might be busy, so better if I write yoy an email that you can read wheneve you have time
+[Wed Aug 26 2009 14:36:02] lou burnard: ok, whatever... i was distracted by a visitor just now
+[Wed Aug 26 2009 14:36:13] Elena: ah you're back
+[Wed Aug 26 2009 14:36:22] … it's ok then
+[Wed Aug 26 2009 14:37:03] lou burnard: linkGrp can contain a bunch of ptrs or a bunch of links.
+[Wed Aug 26 2009 14:37:23] Elena: OK, so you prefer linkGrp/ptr(s)
+[Wed Aug 26 2009 14:37:27] … fine by me
+[Wed Aug 26 2009 14:37:38] lou burnard: yes, because link introduces an ambiguoity
+[Wed Aug 26 2009 14:37:50] Elena: perfect
+[Wed Aug 26 2009 14:38:14] lou burnard: <link targets="#a #b"/> does it mean #a and #b or the concatenation of #a and #b and ois it the same as #b #a?
+[Wed Aug 26 2009 14:38:29] Elena: I see your point
+[Wed Aug 26 2009 14:38:57] lou burnard: if you use ptr, then the order is explicit
+[Wed Aug 26 2009 14:39:05] Elena: sure
+[Wed Aug 26 2009 14:39:25] … then you asked what they point at
+[Wed Aug 26 2009 14:39:41] … they points to texts or to documents
+[Wed Aug 26 2009 14:39:48] lou burnard: aargh!
+[Wed Aug 26 2009 14:40:06] Elena: basically they group 'things' that are genetically related
+[Wed Aug 26 2009 14:40:17] … so docuemnts that contains different version of the text
+[Wed Aug 26 2009 14:40:33] … or different version of the same text within the same docuemnt
+[Wed Aug 26 2009 14:40:38] lou burnard: or fragments of document?
+[Wed Aug 26 2009 14:40:43] Elena: precisely
+[Wed Aug 26 2009 14:40:55] lou burnard: so an xpath could be used
+[Wed Aug 26 2009 14:41:01] … sorry, xpointer
+[Wed Aug 26 2009 14:41:07] Elena: yes
+[Wed Aug 26 2009 14:41:16] … it may be very suseful, actually
+[Wed Aug 26 2009 14:41:20] lou burnard: e.g. to say from #foo to #bar
+[Wed Aug 26 2009 14:41:43] … without having to define a <gi>tr</gi> or <gi>seg</gi> or whatever
+[Wed Aug 26 2009 14:41:52] Elena: yes
+[Wed Aug 26 2009 14:42:00] lou burnard: ok. next
+[Wed Aug 26 2009 14:42:06] Elena: nodes
+[Wed Aug 26 2009 14:42:20] … "a node represents one version or a text" -> "of a text" presumably, but
+don't you mean "document"?
+[Wed Aug 26 2009 14:42:29] … I mean 'of a text'
+[Wed Aug 26 2009 14:42:58] … as said before for genticGrp, same situation
+[Wed Aug 26 2009 14:43:18] … @target "... points to a file" No it doesn't! it points to an XML object!
+[Wed Aug 26 2009 14:43:24] … you are right
+[Wed Aug 26 2009 14:44:08] … then
+[Wed Aug 26 2009 14:44:09] … Why introduce the indirection of making <gi>node</gi>s? If the @target values
+for your <gi>node</gi> elements are all actual nodes in the XML document (which
+they seem to be -- I'm not sure because your example doesnt define what
+e.g. #poem is) why not just point directly to these from the <gi>arc</gi>s? If
+the only purpose is to introduce a meaningful label (like "A") then
+that's what the  @n attribute is for.
+[Wed Aug 26 2009 14:44:25] … cool! I didn't know you could do that
+[Wed Aug 26 2009 14:44:37] … all examples I saw got first all the nodes then the arcs
+[Wed Aug 26 2009 14:44:55] … for us nodes are just redundant
+[Wed Aug 26 2009 14:45:02] lou burnard: well, i dont know wjhether you can do that, i was just asking what nodes were for
+[Wed Aug 26 2009 14:45:20] Elena: OK, keep down my enthusiasm
+[Wed Aug 26 2009 14:45:40] lou burnard: but for you, nodes are redundant?
+[Wed Aug 26 2009 14:45:45] Elena: yes
+[Wed Aug 26 2009 14:46:06] … the things to be connected via arc have already been defined eslwhere
+[Wed Aug 26 2009 14:46:15] … they are actually XML nodes
+[Wed Aug 26 2009 14:46:19] … as you say
+[Wed Aug 26 2009 14:46:33] lou burnard: yes, that's what i thought. So in fact the arcs are just ...... <gi>links</gi>!
+[Wed Aug 26 2009 14:46:46] Elena: more or less, yes
+[Wed Aug 26 2009 14:46:50] lou burnard: ok
+[Wed Aug 26 2009 14:46:58] Elena: the only thing is that we need to annotate it
+[Wed Aug 26 2009 14:47:23] … so I have added edJust (or note) within arc
+[Wed Aug 26 2009 14:47:59] lou burnard: yes, but i wd rather do it with the existing desc, gloss, etc.
+[Wed Aug 26 2009 14:48:12] … for consistency
+[Wed Aug 26 2009 14:48:44] Elena: the idea was to use the same element thoroughout the docuemnt to discuss genetic problem
+[Wed Aug 26 2009 14:49:05] lou burnard: but every element discusses genetic problems in some sense!
+[Wed Aug 26 2009 14:49:17] Elena: sorry, I reformulate
+[Wed Aug 26 2009 14:49:22] lou burnard: so you only need one... <gi>geneticProblem</gi>
+[Wed Aug 26 2009 14:49:26] … :-)
+[Wed Aug 26 2009 14:49:43] Elena: contain editorial statements
+[Wed Aug 26 2009 14:49:58] … all editorial statement within 1 element
+[Wed Aug 26 2009 14:49:59] lou burnard: markup is an editorial statement of some kind
+[Wed Aug 26 2009 14:50:13] Elena: reformulate again
+[Wed Aug 26 2009 14:50:25] … contain editorial 'prose' statements
+[Wed Aug 26 2009 14:50:34] lou burnard: saying what the arc is meant to represent is a description of the arc, not an editorial statement
+[Wed Aug 26 2009 14:51:05] Elena: the ideas is more to be able to dscuss the reason that are at the base of establishing the arc
+[Wed Aug 26 2009 14:51:38] … for instance: this is an arc becuase of this evidence and this other evidence
+[Wed Aug 26 2009 14:52:24] … most of these arcs will be very controversial
+[Wed Aug 26 2009 14:52:43] lou burnard: OK, I see that but that's not what your example does.
+[Wed Aug 26 2009 14:52:55] Elena: That is quite possible
+[Wed Aug 26 2009 14:53:06] lou burnard: The Whitman example is just descriptoive
+[Wed Aug 26 2009 14:53:15] Elena: I meant to ask Ken and Brett to help me with that as I only had access to the document on the web
+[Wed Aug 26 2009 14:53:18] … but I run out of time
+[Wed Aug 26 2009 14:54:30] … next?
+[Wed Aug 26 2009 14:54:58] lou burnard: relation?
+[Wed Aug 26 2009 14:55:01] Elena: Similarly, but more strongly, I don't think you're using <gi>relation</gi>
+correction. <gi>relation</gi> is for specific instances of a type of
+relationship, not for types of relationship per se. I think you want ta
+@type (or @relationType if you prefer) attribute on <gi>arc</gi>.
+[Wed Aug 26 2009 14:55:04] … yep
+[Wed Aug 26 2009 14:55:26] … What we thought is to create some kind of taxonomy of the types of relations
+[Wed Aug 26 2009 14:55:34] … to be used by the arcs
+[Wed Aug 26 2009 14:55:51] … and we wanted to describe the type of relation
+[Wed Aug 26 2009 14:55:55] lou burnard: sure, but that's something else: you'd do that in the valList of you ODD
+[Wed Aug 26 2009 14:56:28] Elena: sure, but that doesn't allow you to say if a relation is mutual, etc
+[Wed Aug 26 2009 14:56:42] … the real point was to be able to describe it
+[Wed Aug 26 2009 14:56:46] lou burnard: yes it does
+[Wed Aug 26 2009 14:56:59] Elena: I haven't done it because I am really not sure how to describe the relation
+[Wed Aug 26 2009 14:57:25] … how so?
+[Wed Aug 26 2009 14:58:19] lou burnard: well, let's wait for a real example then...
+[Wed Aug 26 2009 14:58:39] Elena: OK, I know that Moritz had many ideas about it
+[Wed Aug 26 2009 14:58:50] … which I don't I am afraid
+[Wed Aug 26 2009 14:59:04] lou burnard: you agree that a relation instance is not the same as a relation type at least. the tei element is for tjhe for,mer, not the latter
+[Wed Aug 26 2009 14:59:15] Elena: yes
+[Wed Aug 26 2009 14:59:45] … that's why, by the way, I had introduce a <gi>geneticRel</gi> element in the previous version
+[Wed Aug 26 2009 14:59:54] … because I thought they where not the same thing
+[Wed Aug 26 2009 15:00:28] … but I think we better leave as it is and discuss with the others, as I  have no ideas, really
+[Wed Aug 26 2009 15:00:34] … next
+[Wed Aug 26 2009 15:00:37] … collation
+[Wed Aug 26 2009 15:00:52] … I agree that it's important to distinguish between intra-document and
+inter-document variation. I don't think anyone's come up with a better
+way of doing the latter than what we currently have in <gi>app</gi>, but that
+doesn't seem appropriate to the genetic approach at all. So I think this
+document should just point out the problem, unless we have a better
+solution. What do current systems actually do to mark up the results of
+a collation anyway?
+[Wed Aug 26 2009 15:01:12] … why you say that: but that
+doesn't seem appropriate to the genetic approach at all
+[Wed Aug 26 2009 15:01:25] … I don't understand
+[Wed Aug 26 2009 15:04:37] lou burnard: because it distinguishes lemma and reading
+[Wed Aug 26 2009 15:05:09] Elena: you are right, in a sense, but to a point
+[Wed Aug 26 2009 15:05:37] lou burnard: as i understand it, you have readings and that;s all
+[Wed Aug 26 2009 15:05:41] Elena: 1. teh only Schools that will ever attempt a collations are the Italians and the Germans
+[Wed Aug 26 2009 15:05:56] lou burnard: and in a single document you only have one set of readings anyway
+[Wed Aug 26 2009 15:06:04] Elena: 2. they recognise the value of the 'final version', not like the French
+[Wed Aug 26 2009 15:06:06] lou burnard: we could tell the italians and germans to stick to cheeze
+[Wed Aug 26 2009 15:06:27] Elena: so for many of them the use of <gi>lem</gi> and <gi>rdg</gi> will be justified
+[Wed Aug 26 2009 15:06:27] lou burnard: no, better, stick to wine and beer respectively
+[Wed Aug 26 2009 15:06:28] Elena: :D
+[Wed Aug 26 2009 15:07:27] … because their purpose a) the process and b) one finel critical version
+[Wed Aug 26 2009 15:07:39] lou burnard: seriously tho: it's something that many people will find strange in a document about genetic criticsm
+[Wed Aug 26 2009 15:07:49] Elena: while the Frence will say tha A) alone is important and c) all teh witnesses in the way they are
+[Wed Aug 26 2009 15:08:26] lou burnard: je suis spartacus
+[Wed Aug 26 2009 15:08:41] Elena: (Edited by elena_pierazzo on Wed Aug 26 2009 15:08:58) I agree in a asnes, but you need to convince Fotis abou tit: he is the one that feels very strongly about it becuse he actually do gentic edition (I do only partially and Malte doesn't) and use the apparatus a lot
+[Wed Aug 26 2009 15:09:16] lou burnard: i'm not saying he cant do apparatus, i am just saying it doesn't need to be talked about in this document
+[Wed Aug 26 2009 15:09:32] … expecially since we dont have any special tags fpor it -- we just point to what the tei already does
+[Wed Aug 26 2009 15:09:59] Elena: I think this is another point we should discuss in W.
+[Wed Aug 26 2009 15:10:03] lou burnard: ok
+[Wed Aug 26 2009 15:10:29] … well, we are now at the section on time, and i have not yet had time to read it
+[Wed Aug 26 2009 15:10:37] Elena: You don't need @from and @to on <gi>rdg</gi> by the way, because you can use an
+xpointer as the value for @wit
+[Wed Aug 26 2009 15:10:37] … last point
+[Wed Aug 26 2009 15:10:49] … you are quite right, master
+[Wed Aug 26 2009 15:10:56] … (bow)
+[Wed Aug 26 2009 15:11:06] lou burnard: wjhat on earth was that splodge?
+[Wed Aug 26 2009 15:11:23] Elena: splodge? I don't know this word
+[Wed Aug 26 2009 15:11:40] lou burnard: spot, smudge, splatter
+[Wed Aug 26 2009 15:12:02] … emoticon
+[Wed Aug 26 2009 15:12:08] Elena: well, I just meant that you are the master of TEI, aren't you? I keep forgetting things
+[Wed Aug 26 2009 15:12:18] … ahhh
+[Wed Aug 26 2009 15:12:36] … the emoticon is just ridicoulus, and therefore funny (at least fo rme)
+[Wed Aug 26 2009 15:12:57] … and it meand 'bow'
+[Wed Aug 26 2009 15:12:59] lou burnard: but communicative, to a degree.,,,
+[Wed Aug 26 2009 15:13:03] … ah, tx
+[Wed Aug 26 2009 15:13:26] … there doesnt seem to be one for patting you on the head and sayingf "go in peace my child and sin no more"
+[Wed Aug 26 2009 15:13:38] Elena: not yet, but you can propose it
+[Wed Aug 26 2009 15:13:58] … I'm sure there will be plenty of users that will love it
+[Wed Aug 26 2009 15:14:01] … ;)
+[Wed Aug 26 2009 15:14:05] lou burnard: (^) have some cake anyway
+[Wed Aug 26 2009 15:14:11] Elena: tx!
+[Wed Aug 26 2009 15:14:29] … OK, whenever you want to speak about time....
+[Wed Aug 26 2009 15:14:37] … I'll be right here
+[Wed Aug 26 2009 15:15:00] lou burnard: ok, i have to sit on helpdesk for next couple hours
+[Wed Aug 26 2009 15:15:27] … BTW, what i'd like to do now is go thro the doc and edit it fairly seriously. probably two passes
+[Wed Aug 26 2009 15:15:37] Elena: I will leave the office around 5:45/6
+[Wed Aug 26 2009 15:15:48] lou burnard: pass 1: to correct typos
+[Wed Aug 26 2009 15:15:56] … pass 2: to clarify and expand examples
+[Wed Aug 26 2009 15:16:01] Elena: sure
+[Wed Aug 26 2009 15:16:29] lou burnard: you're disappearing on friday?
+[Wed Aug 26 2009 15:16:39] Elena: yes, at around 3pm
+[Wed Aug 26 2009 15:16:45] lou burnard: no email after that?
+[Wed Aug 26 2009 15:16:46] Elena: for a week
+[Wed Aug 26 2009 15:17:01] … nope, I will devote my time to my sister and newly born niece
+[Wed Aug 26 2009 15:17:20] lou burnard: ok: i saw you have become a tata! congrats
+[Wed Aug 26 2009 15:17:30] Elena: thanks, so exciting!
+[Wed Aug 26 2009 15:17:39] lou burnard: your first?
+[Wed Aug 26 2009 15:17:41] Elena: yes
+[Wed Aug 26 2009 15:17:50] lou burnard: aunts are very special, according to my daughters anyway
+[Wed Aug 26 2009 15:18:09] Elena: I hope so, I plan to become a very very special one
+[Wed Aug 26 2009 15:18:56] … anyway, I will check email, but I cannot promise I will replay or I will be able to say something sensible without having the doc in fron t of me
+[Wed Aug 26 2009 15:19:00] … sorry
+[Wed Aug 26 2009 15:19:30] lou burnard:  no problem... you can always revert anything you don't like, and see what I have changed, thanks to the wonders of subversion
+[Wed Aug 26 2009 15:19:45] Elena: yes, but I am sure I will like it
+[Wed Aug 26 2009 15:19:59] … anyway, ther is still tomorrow and Friday morning
+[Wed Aug 26 2009 15:20:26] lou burnard: OK.  ciao for niao
+[Wed Aug 26 2009 15:20:32] Elena: ciao ciao
+[Wed Aug 26 2009 16:09:03] lou burnard: hmmm
+[Wed Aug 26 2009 16:09:25] Elena: that doesn't sound promising
+[Wed Aug 26 2009 16:09:59] lou burnard: you're using timeLine in a nonstandard way. As defined, you point at it from your document, not the other way round
+[Wed Aug 26 2009 16:10:26] Elena: am I?
+[Wed Aug 26 2009 16:10:44] … I thought I was  pointing from timeline to the document
+[Wed Aug 26 2009 16:10:44] lou burnard: also, you may not have noticed there was a recent fix so that you dont need to specify @origin
+[Wed Aug 26 2009 16:10:55] Elena: no I miised that
+[Wed Aug 26 2009 16:11:04] lou burnard: yes, you are. whereas in TEI at present, you shd point from doc to timeline
+[Wed Aug 26 2009 16:11:16] … using @sync attribute
+[Wed Aug 26 2009 16:11:26] Elena: ah...
+[Wed Aug 26 2009 16:11:37] … I followed the example in the Guidelines....
+[Wed Aug 26 2009 16:12:15] lou burnard: which one?
+[Wed Aug 26 2009 16:12:29] Elena: no, I did not.... I simply misundersttod it
+[Wed Aug 26 2009 16:12:41] … (Edited by elena_pierazzo on Wed Aug 26 2009 16:13:04) that's why I added the target
+[Wed Aug 26 2009 16:12:52] … because I was finding it a bit strange
+[Wed Aug 26 2009 16:14:00] … but I think it make more sense here, because if you have alterantive timelines
+[Wed Aug 26 2009 16:14:10] … it is complicate to use sync
+[Wed Aug 26 2009 16:15:34] lou burnard: why?
+[Wed Aug 26 2009 16:16:12] … give us a real example
+[Wed Aug 26 2009 16:16:19] Elena: in the sense that you don't have the immediate perception of what is in alternation
+[Wed Aug 26 2009 16:16:33] … well the example i put ther eis not completly fake
+[Wed Aug 26 2009 16:16:35] lou burnard: you dont have immediate perception of ANYTHING in this dense tagging!
+[Wed Aug 26 2009 16:16:57] Elena: in the sense that it is not cleare which dates those two docuemtn have
+[Wed Aug 26 2009 16:18:07] lou burnard: i am looking aty the sleepers example. what is it meant to tell me?
+[Wed Aug 26 2009 16:19:27] Elena: It means that the two manuscripts (the one I called Shroud -first word of the title, and Curse 2 -- I am a curse, second Ms with this title) have not clear dating
+[Wed Aug 26 2009 16:19:37] … so we don't know which one come first
+[Wed Aug 26 2009 16:19:51] lou burnard: so you cannot use @sync for them
+[Wed Aug 26 2009 16:20:06] Elena: that's what I thought
+[Wed Aug 26 2009 16:20:26] … so I thought that you could do it the other way around
+[Wed Aug 26 2009 16:20:31] … and make sense
+[Wed Aug 26 2009 16:20:41] lou burnard: but i dont understand what your markup is saying
+[Wed Aug 26 2009 16:21:05] … so its not making sense!
+[Wed Aug 26 2009 16:21:10] Elena: ok, the markup assume that each of the witnesses in teh webpage is marked by an id
+[Wed Aug 26 2009 16:21:23] … like poem, sweet_flag etc
+[Wed Aug 26 2009 16:21:28] lou burnard: i get that
+[Wed Aug 26 2009 16:21:50] Elena: then with the timeline I am creating a cronology for them
+[Wed Aug 26 2009 16:22:01] … following the order of the whens
+[Wed Aug 26 2009 16:22:14] … in one case (the last) we have an absolute date
+[Wed Aug 26 2009 16:22:19] lou burnard: but you just said you dont know where those two fit
+[Wed Aug 26 2009 16:22:25] … the one you do know, is fine
+[Wed Aug 26 2009 16:22:40] Elena: in all other we just think of them as one after the others
+[Wed Aug 26 2009 16:23:06] … in case of shroud and curse2 we know they come both after efflux and before topple_down
+[Wed Aug 26 2009 16:23:22] … but we don't know which of the two come first
+[Wed Aug 26 2009 16:23:51] … so the order can be:
+[Wed Aug 26 2009 16:24:01] … efflux shroud curse2
+[Wed Aug 26 2009 16:24:09] … or efflux curse2 shroud
+[Wed Aug 26 2009 16:24:55] … there is an error in the markup I just noticed: one of the two timeline within choice should have weight="0.2"
+[Wed Aug 26 2009 16:24:59] … and not both 0.8
+[Wed Aug 26 2009 16:25:13] lou burnard: ah that helps a bit
+[Wed Aug 26 2009 16:26:02] … so you have a when which T1 (when efflux appeared), and two other whens
+[Wed Aug 26 2009 16:26:12] … sorry, give me a mo
+[Wed Aug 26 2009 16:26:17] Elena: sure
+[Wed Aug 26 2009 16:27:00] lou burnard: you have three whens, T1 T2 T3
+[Wed Aug 26 2009 16:27:11] Elena: yes
+[Wed Aug 26 2009 16:27:14] lou burnard: T2 and T3 are both after T1
+[Wed Aug 26 2009 16:27:27] Elena: yes
+[Wed Aug 26 2009 16:27:30] lou burnard: but you don't know whether T2 is before T3 or not
+[Wed Aug 26 2009 16:27:36] Elena: precisely
+[Wed Aug 26 2009 16:27:44] lou burnard: indeed they might possibly be at the same time!
+[Wed Aug 26 2009 16:27:59] Elena: in theory, but unlikely
+[Wed Aug 26 2009 16:28:06] lou burnard: (he had two hands right?)
+[Wed Aug 26 2009 16:28:10] Elena: sure
+[Wed Aug 26 2009 16:29:46] lou burnard: i think that's all you need. then you sync your three poems with the appropriate when. It doesnt matter whether you sync e.g. shroud with T2 or T3, since all you;re saying is that it's after T1
+[Wed Aug 26 2009 16:30:04] … and they both are
+[Wed Aug 26 2009 16:30:22] Elena: but how do you shuffle then?
+[Wed Aug 26 2009 16:30:23] lou burnard: where it gets com[plicated is when you want to give certainty etc
+[Wed Aug 26 2009 16:30:30] … you don't shuffle them
+[Wed Aug 26 2009 16:30:56] Elena: but I do want to say that one is after the other...
+[Wed Aug 26 2009 16:31:02] … just not sur which
+[Wed Aug 26 2009 16:31:28] … point is that we do have very complicated timelines all teh time
+[Wed Aug 26 2009 16:31:50] … and in many cases they do not concern 2 witnesses, but many others...
+[Wed Aug 26 2009 16:32:12] … I remeber Paolo showing me some examples for Nietsche
+[Wed Aug 26 2009 16:32:58] lou burnard: ok, but dont forget : whereof we cannot speak, thereof we must remain silent
+[Wed Aug 26 2009 16:33:03] … (Wittgenstein)
+[Wed Aug 26 2009 16:36:00] Elena: sure...
+[Wed Aug 26 2009 16:51:52] lou burnard: hello?
+[Wed Aug 26 2009 16:51:59] Elena: yes
+[Wed Aug 26 2009 16:52:23] … were you waiting for me to say something?
+[Wed Aug 26 2009 16:53:13] lou burnard: just checking my connexion was alive!
+[Wed Aug 26 2009 16:53:20] Elena: it is
+[Wed Aug 26 2009 16:53:25] lou burnard: anyway, last thing i wanted to add:
+[Wed Aug 26 2009 16:53:37] … modNote, geneticNote, edJust ....
+[Wed Aug 26 2009 16:53:43] … they';re all <gi>note</gi>s to me
+[Wed Aug 26 2009 16:54:05] … and the argument about wanting to have them "near" the thing they're about cuts no ice!
+[Wed Aug 26 2009 16:54:36] … oh and another thing
+[Wed Aug 26 2009 16:54:41] Elena: yes for the first two, but I think I followed the example of handlist handnote
+[Wed Aug 26 2009 16:54:58] lou burnard: eh?
+[Wed Aug 26 2009 16:55:15] … why not us
+[Wed Aug 26 2009 16:55:22] Elena: modGrp/modNote --> handlist/handNote
+[Wed Aug 26 2009 16:55:43] lou burnard: yes, I see that,
+[Wed Aug 26 2009 16:55:50] Elena: I think handNote is as much of a note as modNote
+[Wed Aug 26 2009 16:55:55] lou burnard: but then why edJust instead of note
+[Wed Aug 26 2009 16:56:12] … since it might not actually be anything to do with edityorial justification
+[Wed Aug 26 2009 16:56:38] Elena: 2 reasons:
+[Wed Aug 26 2009 16:56:55] … 1. it si more of a note as it include some of the certainty features
+[Wed Aug 26 2009 16:57:09] lou burnard: (so does note)
+[Wed Aug 26 2009 16:57:57] Elena: 2. <gi>note</gi> is so generic and can be used for so many purposes that we felt we needed something more specific
+[Wed Aug 26 2009 16:58:11] … in both case I know there aren't any strong feeeling
+[Wed Aug 26 2009 16:58:25] … so I think we can agree on note
+[Wed Aug 26 2009 16:58:28] lou burnard: yes but you havent told me in what respect edJust is more specific!
+[Wed Aug 26 2009 16:58:39] Elena: but I would like to hear the other on this point
+[Wed Aug 26 2009 16:58:44] lou burnard: and all the examples are very general
+[Wed Aug 26 2009 16:58:48] … ok.
+[Wed Aug 26 2009 16:59:05] … last question before you go...
+[Wed Aug 26 2009 16:59:25] Elena: you there are things for which I am convinced, other I am more agnistic
+[Wed Aug 26 2009 16:59:35] lou burnard: we have @stage to indicate some sort of chronology and we also have @sync
+[Wed Aug 26 2009 16:59:37] Elena: but I cannot take responsibilites becuse of that!
+[Wed Aug 26 2009 16:59:42] lou burnard: why do we need both?
+[Wed Aug 26 2009 16:59:59] Elena: one uses a number scheme (0, 1, 2, 3)
+[Wed Aug 26 2009 17:00:16] … the other, rememebr we have not agreed we need it :)
+[Wed Aug 26 2009 17:00:34] … it is mentioned in the doc but with abother meaning
+[Wed Aug 26 2009 17:00:40] lou burnard: OK, but  functionally they are aiming to do the same thing?
+[Wed Aug 26 2009 17:01:01] Elena: yes, more or less
+[Wed Aug 26 2009 17:01:14] … they aim to establish a relative chronology
+[Wed Aug 26 2009 17:01:26] lou burnard: ok, then i will invoke Occam's razor!
+[Wed Aug 26 2009 17:02:00] Elena: sure
+[Wed Aug 26 2009 17:02:32] … (again, here is a point for which I am agnostic, i always thought that seq/stage is enough...)
+[Wed Aug 26 2009 17:07:13] lou burnard: goodnight!
+[Wed Aug 26 2009 17:07:22] Elena: and to you, thank you again!
+[Thu Aug 27 2009 12:43:52] lou burnard: morning!
+[Thu Aug 27 2009 12:44:07] Elena: ciao
+[Thu Aug 27 2009 12:44:17] lou burnard: i just sent you an email
+[Thu Aug 27 2009 12:44:24] Elena: ok
+[Thu Aug 27 2009 12:45:00] … not yet here
+[Thu Aug 27 2009 12:49:07] lou burnard: the key thing is the suggestion to  move into a separate section of the document all the bits that need more discussion
+[Thu Aug 27 2009 12:49:43] … subject line is "summary" as i started listing the major things i think we agreed yesterday
+[Thu Aug 27 2009 12:50:01] Elena: ah it's here now
+[Thu Aug 27 2009 12:51:17] … I agree with your plan
+[Thu Aug 27 2009 12:51:22] … seesm correct
+[Thu Aug 27 2009 12:51:52] lou burnard: ok, good
+[Thu Aug 27 2009 12:51:55] Elena: :)
+[Thu Aug 27 2009 12:52:12] lou burnard: shouldn't  we also tell fotis, malte, etc?
+[Thu Aug 27 2009 12:52:40] Elena: yes, but not before they have seen this version
+[Thu Aug 27 2009 12:52:54] lou burnard: the one i havent finished doing you mean?
+[Thu Aug 27 2009 12:53:00] Elena: yes
+[Thu Aug 27 2009 12:53:00] … because it is substantially changed respect the lats they have seen
+[Thu Aug 27 2009 12:53:13] … otherwise they will be more confuse than anything
+[Thu Aug 27 2009 12:53:16] lou burnard: no, i dont understand
+[Thu Aug 27 2009 12:53:53] … do you want them to see the current version before i  do more work on it?
+[Thu Aug 27 2009 12:54:02] Elena: no, I think you should finish it
+[Thu Aug 27 2009 12:54:20] … then send an email with a version for them to look and the genral principles
+[Thu Aug 27 2009 12:54:49] lou burnard: ok.
+[Thu Aug 27 2009 12:55:01] … can i add myself as an author then?
+[Thu Aug 27 2009 12:55:17] Elena: yes, please
+[Thu Aug 27 2009 12:55:26] … you can also add a <gi>change</gi>
+[Thu Aug 27 2009 12:55:31] … thanks
+[Thu Aug 27 2009 12:55:40] … I should have done it
+[Thu Aug 27 2009 12:55:53] lou burnard: ok, i had better stop chatting and start typing then....
+[Thu Aug 27 2009 12:56:21] Elena: I will be off for a while, then back online around 5
+[Thu Aug 27 2009 12:56:27] lou burnard: ok, laters
+[Thu Aug 27 2009 12:56:29] Elena: ciao caio
+[Thu Aug 27 2009 22:26:04] lou burnard: what is @depth attribute in d1 example for?
+[11:13:29] … buo n giorno
+[11:13:41] Elena: ciao ciao
+[11:13:53] lou burnard: tutto bene?
+[11:14:01] Elena: benisimo
+[11:14:11] … I'm impressed by your italian!
+[11:14:18] lou burnard: ench'io...
+[11:14:27] Elena: bravo!
+[11:14:53] lou burnard: but how about my murdering of your prose?
+[11:15:10] Elena: I love my prose after you have murdered it!
+[11:15:12] … ;)
+[11:15:26] lou burnard: ok, i continue to massacre
+[11:15:27] Elena: generally speaking it is great
+[11:15:37] … I have a couple of questins fo ryou though...
+[11:15:39] lou burnard: specifically tho?
+[11:15:46] … shoot!
+[11:16:07] Elena: 1. I think you have included the wrong image from the ones prepared by Moritz
+[11:16:18] … you have include H3.png
+[11:16:25] … but should be D1.png
+[11:16:32] … the transcription is abou D1
+[11:17:12] lou burnard: correct!
+[11:17:17] … easy to fix
+[11:17:18] Elena: yep
+[11:17:40] … 2. you ahve commented out the attributes for the patch like pinned, detached, etc.patch
+[11:17:43] … any particular reason?
+[11:17:57] … I think we need to provide such infromation
+[11:18:44] lou burnard: yes, havent finished thinking about the patch element
+[11:18:57] Elena: Ok fair enough
+[11:18:59] … just checking
+[11:19:07] … everything else looks great to me
+[11:19:15] lou burnard: also have another thought about @rotate
+[11:19:23] Elena: meaning?
+[11:20:18] … you don't think it is necessary. or...?
+[11:20:40] lou burnard: instead of using @rotate on zone, i am now thinking that a rotated surface should be regarded as a different surface
+[11:21:05] Elena: I', mot following you
+[11:21:12] … you mean that in D! for instance
+[11:21:22] … what is written i blue should be another surface?
+[11:21:32] lou burnard: ezatamente
+[11:21:42] Elena: mmmm why?
+[11:22:07] … I thought surface had something to do with the physical support
+[11:22:13] … so ok for the page and for a patch
+[11:22:18] lou burnard: because the writer is treating the surface as if it was a new piece of paper
+[11:22:26] Elena: not all the time
+[11:22:35] lou burnard: think about a palimpsest for example
+[11:22:49] Elena: when for instac it want just add things on the borders and writes all along
+[11:22:56] … becase ther is no space
+[11:23:11] lou burnard: writing in the borders etc. is a different case i think
+[11:23:20] … it's just another zone
+[11:23:24] Elena: but then the surface can be rotates
+[11:23:52] … we actually discussed the case of a palympsest and whe thouthg about layers
+[11:24:03] lou burnard: yes, layers are like surfaces too
+[11:24:20] Elena: so, to answer to a question you made last night that's the function of teh depth attribute
+[11:24:41] lou burnard: so think of the @depth as indicating the surface
+[11:24:53] Elena: yes
+[11:25:03] lou burnard: you have multiple surfaces on which you can identify multiple zones
+[11:25:17] … each zone in a given surface uses the same co-ordinate system
+[11:25:24] Elena: I don't like the idea fo multpile surfaces...
+[11:25:27] lou burnard: why?
+[11:25:45] Elena: because to me they are one surface with layerd zones
+[11:26:23] … the physical support (surface) is one
+[11:27:14] lou burnard: one what?
+[11:27:31] Elena: one physical support
+[11:27:54] lou burnard: but (e.g. patches) we know that the single physical support has multiple components
+[11:28:17] Elena: yes, I agree in case of patches as they are other physical supports
+[11:28:33] lou burnard: and we also know that the relationship between orientation of phys support and orientation of zone can change as in palimpsest
+[11:28:57] … zones are identified by the encoder
+[11:28:58] Elena: yes, that's why coordinates and orientation are provided for zones
+[11:29:29] … yes, based on the layout of writing
+[11:29:32] lou burnard: i  need to draw on a board to exp;lain better
+[11:29:43] Elena: no I follow your thinking
+[11:29:59] … it is just that I cannot accept that theya re different surfaces
+[11:30:15] … because to me surface is done by materiality
+[11:30:38] … so I wouldn't object on creating a <gi>layer</gi> intermediate element
+[11:30:53] … but I think it is more economic to use <gi>zone</gi> for that
+[11:31:35] lou burnard: is the reverse of a leaf a different surface?
+[11:31:42] Elena: yes
+[11:32:05] lou burnard: the reverse of a leaf is accessed by rotating it round one axis, right?
+[11:32:16] Elena: we are in fact speaking of surface and not of leaves
+[11:32:23] lou burnard: so if i rotate it round another axis, the result should also be another surface!
+[11:32:50] … and you were speaking about surface *physicality* i believe¬!
+[11:33:01] Elena: no really, we are speaking again of a surface, if you rotate a *leave; you have another surface
+[11:33:13] … so leaves have two surfaces
+[11:33:35] … but surfaces are bi-dimensional
+[11:34:37] lou burnard: hmmm
+[11:34:43] Elena: hmmm
+[11:34:51] lou burnard: coffee time, clearly
+[11:34:58] Elena: (coffee)
+[11:35:58] lou burnard: well, i will leave @rotate alone for now anyway
+[11:36:31] Elena: thanks!
+[11:36:40] lou burnard: are you happy with the discussion about document/text ?
+[11:36:58] Elena: I am indeed
+[11:37:06] … I think it make loads of sense
+[11:37:16] … it makeS
+[11:37:27] … (always forget my Ss)
+[11:38:24] lou burnard: ok, thanks: i think i have plenty more to do now
+[11:38:39] Elena: (blush)
+[11:39:08] … sorry again, I thought your task was les demanding....
+[11:39:15] … but I realise it is huge
+[11:39:21] lou burnard: it's my fault for getting too interested :-(
+[11:39:30] … don't apologise
+[11:39:52] Elena: thanks so much, anyway! I really appreciate it!\
+[11:40:14] lou burnard: i will have to take a break to work on something else for next week over the weekend... but should get a bit further today
+[11:40:27] … will give you an update after lunch
+[11:40:29] … ciao
+[11:40:44] Elena: I'll leave at around 2:30/45
+[11:40:50] lou burnard: ok
+[11:41:03] … flying from london city?
+[11:41:16] Elena: I wish
+[11:41:19] … Stansted
+[11:41:29] … plane ias at 7!
+[11:41:37] lou burnard: yuk...
+[11:42:07] Elena: ther is no flight to venice from london city....
+[11:42:42] lou burnard: i wd have gone by train -- overnight paris-milan is very comfortable
+[11:43:00] … but i am quite mad
+[11:43:16] Elena: you said that ;)
+[11:43:41] lou burnard: 8-|
+[11:44:20] … ok, am going to seek out my (coffee) now... later
+[11:44:27] Elena: ciao caio
+[13:04:05] lou burnard: am wondering about the date in D1
+[13:04:11] … should it not be a metaMark?
+[13:04:43] Elena: That was one of the things I asked myself to Moritz!
+[13:04:49] … the point is that it is a Diary entry
+[13:04:56] … so it is actually part of the text
+[13:05:14] … while a metamark is when the date doesn't belong to the main text
+[13:05:22] … but the distiction is subtle I admit
+[13:05:54] lou burnard: for me the poijnt is that the <gi>date</gi> element is an interpretation bdelonging at the text level rather than the documentary one
+[13:06:16] Elena: it is
+[13:06:28] … that's why I said 'it belong to the text'
+[13:06:34] lou burnard: so we agree
+[13:06:41] Elena: yes
+[13:06:52] lou burnard: in which case, it should not be marked at all !
+[13:07:32] Elena: well, you can use @spanTo, right? so why not date?
+[13:11:41] lou burnard: you could say that of anything... why not mark up persName or placeName!
+[13:13:20] Elena: wel I thought you would, actually
+[13:13:59] lou burnard: because they're all textual, is why not
+[13:14:17] Elena: if you decide not to transcribe it twice, namely use docuemnt and text, but just document
+[13:14:38] … I thought that you could combine things
+[13:14:52] … it is just the structure that is different
+[13:15:10] lou burnard: sure, but it seems confusing in our very first example
+[13:15:33] Elena: but we always thoguht to be able to mark also semantic-textual feature, in case you want to
+[13:16:00] … Ok, I take your point for the example
+[13:16:05] lou burnard: ok... but even so, there is a subtle ambiguity in dates
+[13:16:15] … i grant that you can mark this as A date
+[13:16:24] … but that doesn't mean that is THE date of the entry!
+[13:16:34] Elena: yes, that's right
+[13:16:58] lou burnard: if the claim is only that it is A date, i have no particular problem
+[13:17:24] Elena: Ok, why dont' we take out the date from the first example
+[13:17:28] lou burnard: (except that now i have to tweak the content model)
+[13:17:35] Elena: ant use it when we mark <gi>span</gi>?
+[13:17:41] lou burnard: good idea...
+[13:17:53] … sorry, you are trying to pack and i am distracting you
+[13:17:59] Elena: no, it's ok
+[13:18:03] … I ahve already packed
+[13:18:18] lou burnard: i am wondering whether to put the HTML version somewhere where our friends in wuerzburg can read it
+[13:18:32] … but there doesnt seem to be anyway to upload html directly to the wiki
+[13:18:34] Elena: I think this will be a good idea
+[13:18:54] … What I do I that I normally put it in a private space of mine
+[13:18:58] … then link it
+[13:19:03] … I know it is not safe
+[13:19:17] … but the wiki doesn't offer anything  on that respect
+[13:24:10] lou burnard: i was reaching same conclusions. ok, ,must
+</pre>
+</div>
+ 
+ <div><head ref="http://blogs.it.ox.ac.uk/louburnard/about/">About</head><img class="alignright size-full wp-image-64" src="http://blogs.it.ox.ac.uk/louburnard/files/2009/08/bloggeur.jpg" alt="Le bloggeur" width="312" height="414" />
+<h2><span style="color: #993300">This is Lou Burnard's work blog. Comments and reactions are welcome. </span></h2>
+<h2><span style="color: #993300">You can also find me elsewhere in cyberspace, see <a target="http://users.ox.ac.uk/~lou">http://users.ox.ac.uk/~lou</a> for details</span></h2>
+[Picture from Mike Licht's excellent set of such images <a target="http://www.flickr.com/photos/notionscapital/sets/72157604000142049/">on Flickr]</a></div>
+ 
+ <div><head ref="http://blogs.it.ox.ac.uk/louburnard/2009/09/le-bloggingue/">Le bloggingue</head><p>At the CLEO Summer School in Marseille, I'm trying to concentrate on the presentation about "le blogging scientifique", but being distracted by the same summer school's twitter feed. (On which someone has just posted a link to <a target="http://detoutsurrien.wordpress.com/2009/09/10/le-blogging-scientifique-pierre-mounier-cleo-marseille/">his useful summary </a>There is definitely a difference between taking notes in a relatively focussed way, and trying to keep up with the tweets; and there's another difference between blogging as a tool (what you can do with it) and blogging as a phenomenon (what actually happens). Pierre Mounier's talk this morning tried to place blogging in the great scientific tradition of epistolary communication: an inheritor of 17th c manuscript discussion, etc. (an idea from J C Guedon it appears), as distinct from formal scientific publication. OK, but in practice how much scientific discussion takes place in the scientific blogosphere? I suppose the only way to find out is to join it. Which brings me to wonder whether or not our lovely new web service actually supports trackbacks, now that I've found out what they are?</p>
+  
+  </div>
+ 
+ <div><head ref="http://blogs.it.ox.ac.uk/louburnard/2009/09/a-text-encoding-experiment/">A text encoding experiment</head><p>A few weeks ago I received an email from the TEI List inviting me (and any of that excellent list's other hundreds of markup nuts) to participate in some kind of a markup challenge. We were invited to look at image scans of a few pages of textual material (some pages from an early 20th c. guest register), consider  ways in which they should be marked up, and (critically) actually do the markup and hand it in by a specific deadline. The deadline hasn't expired yet, so I don't know whether this was actually a cunning psychological experiment or a genuine enquiry into the varieties of markup practice now current, or what. Anyway, I thought it might be fun to participate, and also to share my reactions as I proceed, possibly thus ruining the proponents' experimental design but that's life in the big city.
+ </p><p>
+The material looks like this:
+
+[image suppressed]
+</p>
+<p>
+This immediately poses a fairly obvious question about the relative importance of capturing the layout features or the semantic content. I'm guessing that visual features such as the following
+<ul>
+	<item>text straying beyond their designated column</item>
+	<item>text written at a funny angle or otherwise tweaked to fit</item>
+	<item>actual position on the page of text</item>
+	<item>changes of hand or ink</item>
+</ul>
+are less interesting than
+<ul>
+	<item>distinguishing names of people from their addresses</item>
+	<item>distinguishing dates of arrival from dates of departure</item>
+</ul>
+But I can readily imagine people arguing that changes of hand or ink are really useful  ways of identifying something about who wrote the entry and when, and since the organisers have thoughtfully provided us with an HTML image map giving approximate co-ordinates for most items in the (unmarked up) transcript also provided, it would be relatively easy to include information linking bits of the transcript directly to bits of the page image.
+And of course the material doesn't all  look like this. Some of it looks like this:</p>
+
+<p style="text-align: left">
+[image suppressed]
+</p>
+<p style="text-align: left">We still have recognisable rows of client data – but the relative positions of their arrival and departure dates are now quite different. Do I care? Well, actually, no I don't. And that's why I decided against trying to use the tempting image map data served up on a plate. Instead, my view is that what's important here is to record as accurately as possible the semantic content. Each row records someone, or some group of someones, registering at this hotel on some date, and (sometimes) when they left. What matters (I am guessing) is who they were, where they came from, how long they stayed.  Each page contains a bunch of guestbook-entries; each entry contains at least the name of a person (sometimes more than one person),  plus some parts of an address, plus sometimes a date of arrival and sometimes a date of departure. A few entries have all of these, but the majority are to a greater or lesser extent "incomplete". And then you have the interesting problem of "ditto marks". Some times you have a dash, sometimes a splot that might be a double quote mark, sometimes you have the strange word "do", indicating that the item in some column should be understood as being copied from the item in the preceding row. (Or, ugh, part of it)</p>
+<p>
+So my first attempt looks like this</p>
+<!--<pre><entry>
+<dateArrival>23 Sept:</dateArrival>
+<client>
+<name>E.A. Coltmany</name>
+<address>Burbank. Burley. Hants:</address>
+</client>
+<dateDeparture>24th Sept:</dateDeparture>
+</entry>
+<entry>
+<dateArrival></dateArrival>
+<client>
+<name>Ken Doncaster</name>
+<address>Byway</address>
+</client>
+<dateDeparture></dateDeparture>
+</entry><entry>
+<dateArrival>May 1st</dateArrival>
+<client>
+<name>E. d. Bloomfield</name>
+<address>Hines Park Waterford</address>
+</client>
+<dateDeparture></dateDeparture>
+</entry></pre>-->
+<p>Do I care that the order of presentation of the components in the markup is not quite the same as that in the original? I'll think about that later. Do I care that I am going to have to make up lots of special purpose tags? I'll come back to that later too.</p>
+<p>
+If we're not really interested in the way these entries are written, but in what they talk about, then we really really need some way of   normalising the names of people and places.  The great thing about the TEI of course is that it provides mechanisms for doing this: I can link the names in my transcripts to some other place where they can be normalised or glossed. That might  be a canonical home elsewhere on the web for information about the person or placed referred to (Wikipedia maybe), or it might be a quickly constructed canonical shack I've hacked together for the purpose myself, using the TEI's fine module for people and places.   Off I scurry to ask Mr Google (and other suitable authorities) whether they have heard of any of the people or places listed in these pages.  This is dangerously close to being fun, so I don't attempt it for the whole of the text. But I am pleased to be able to use the standard TEI linking mechanisms to record in my TEI header my opinion that the "W Rowley Bristow" who stayed at the hotel in February 1935 (address Harley St) is probably the Walter Rowley Bristow (12 Dec 1882 - 1947) listed in <em>Who's Who in Orthopedics</em>; as I am to associate the cursory reference to "Col: H Ramsden-Jodrell" of Taxal Lodge, Whaley Bridge, with his full biographical note on a rather useful website called  http://www.thepeerage.com. So this what real researchers do all day!
+</p><p>
+Normalising the dates is a comparatively mechanical exercise, which I do with a bunch of emacs macros; on a closer look, I also see that some of the dates seem to have been rewritten or corrected, which I inconsistently decide it is worth marking up (with <gi>tei:subst</gi> and friends) even though arguably a presentational matter. The normalization process also helps a bit with the "ditto" problem, since it doesn't feel dishonest to add the normalised value for a date which is not there but implied by a ditto mark. Sadly, I can't see how to do that for placenames similarly implied. They will have to be represented by appropriate pointer elements.
+</p><p>
+As a concession to those who do care about the appearance of this text, I have defined a facsimile element in my document, and used the lazy person's method of linking page break elements to page images defined within it. If I was more interested in the physicality of the source (for example the fact that the first few pages are loose leaf) I'd probably do a lot more about defining surfaces and zones as well. But one has to make choices in any encoding exercise, even imaginary ones.
+</p><p>
+It's only when I am speeding out of the channel tunnel and thinking about generating a schema that I realise I could make the whole thing much simpler. My final model just needs one new element, which I think of as a specialised kind of paragraph-like thing called "guest", recording everything that the guestbook tells us about a particular stay by one or more people -- its dates, the names, and placenames involved. Since each these subcomponents clearly  appear in various orders and varying quantities, trying to make a more complex substructure to accomodate them is just taking a rod to my own wossname. So I redefine my guest element to contain any old mixture of text, <gi>tei:date</gi>,  <gi>tei:persName</gi>, <gi>tei:placeName</gi>, and useful TEI global elements, and to be datable. Bang out an appropriately cut down ODD and we're done.
+</p><p>
+So here's my final version:
+<!--<pre><my:guest from="1927-08-27">
+<persName>Mary Stokes</persName>
+<placeName>Monerakelle,</placeName>
+<placeName ref="http://en.wikipedia.org/wiki/Moneragala_District">Moneragalla</placeName>,
+<placeName>Ceylon.</placeName>
+<date>27th August</date>
+</my:guest>
+<my:guest from="1927-09-23" to="1927-09-24">
+<persName>E.A. Coltmany</persName>
+<placeName>Burbank.</placeName> <placeName>Burley.</placeName> <placeName>Hants:</placeName>
+<date>23 Sept:</date>
+<date>24th Sept:</date>
+</my:guest>
+<my:guest>
+<persName>Ken Doncaster</persName>
+<placeName>Byway</placeName>
+</my:guest></pre>-->
+Completing my homework, or at least making it less incomplete, is then a matter of generating an ODD, splitting up the existing address elements into component placeNames (a very useful exercise), and validating everything. The usual fighting with namespaces and xInclude. Oh but there's so much more one could do... Anyway, here's a zip file containing my resulting marked up text, and here's another containing the associated ODD, schema and doc files. And I handed it in before the deadline, too. Let's sit back and see what happens....
+</p>
+ </div>
+ 
+<div><head ref="http://blogs.it.ox.ac.uk/louburnard/2009/09/a-text-encoding-experiment-update/">A text encoding experiment - update</head><p>"Let's sit back and see what happens...." did I say? Within hours of my announcing my previous posting about a text encoding experiment to the organizers of same, I received plaintive emails requesting me to desist. Apparently it had not occurred to them to seek permission for online publication of the digital images distributed to participants from the rights owner for said materials. Or maybe it had, and they just haven't got round to it yet. It seems a bit weird to me to be promoting an experiment in text encoding where participants cannot share their results or even their sources with anyone other than the experimenter, but I expect that's what the rats in the  Animal Behaviour labs say too. Anyway, in case you're wondering, that's why the images I painstakingly uploaded yesterday have vanished, and why there are no links to my handed in results in the preceding post. If you're desperate for more, you'll just have to stop me in the virtual corridor.</p></div>
+ 
+ <div><head ref="http://blogs.it.ox.ac.uk/louburnard/2009/09/xaira-under-a-new-hat/">Xaira under a new Hat</head>
+  
+<p>To set up Xaira on any machine, I normally proceed as follows:
+<list>
+	<item>Get the source from http://xaira.sf.net and unpack it</item>
+	<item>Run configure, adding required packages till it stops wingeing.</item>
+	<item>Run the Makefile</item>
+</list>
+On this particular one, the BL's server running Red Hat, I first had to get connected to it via their super-secure VPN connexion. This involved a fair bit of messing about, downloading and installing a suitable VPN client for Linux, working out how to get said client running, and finding its configuration files, and indeed using the right passwords. Also  the promise in the installation script that it would initialise the client at a reboot turns out to be a complete lie. And when the connexion is finally  running, no other internet activity is possible on my desktop.
+Yesterday I managed to
+<ul>
+	<item>get VPN-connected</item>
+	<item>Unpack the BNC disks, thoughtfully already copied to the machine (takes ages)</item>
+	<item>upload the Xaira source and start configure</item>
+	<item>Install the <strong> icu-devel-i386</strong> package</item>
+</ul>
+Today, so far, I have
+<ul>
+	<item>managed to remember  how to get connected again</item>
+	<item>Upload source for <strong> xerces-c-3.0.1</strong> (not unfortunately available as a package yet)</item>
+	<item>Try to build it. The instructions at the XERCES website say there is a reconfiguree utility, but there isn't, so I just did the default configure, make thing..
+It fell over at the linking stage...
+
+<pre>/usr/bin/ld: skipping incompatible /usr/lib/libnsl.so when searching for -lnsl
+/usr/bin/ld: skipping incompatible /usr/lib/libnsl.a when searching for -lnsl
+/usr/bin/ld: skipping incompatible /usr/lib/libpthread.so when searching for -lpthread
+/usr/bin/ld: skipping incompatible /usr/lib/libpthread.a when searching for -lpthread
+/usr/bin/ld: skipping incompatible /usr/lib/libcurl.so when searching for -lcurl
+/usr/bin/ld: skipping incompatible /usr/lib/libcurl.a when searching for -lcurl
+/usr/bin/ld: skipping incompatible /usr/lib/libicuuc.so when searching for -licuuc
+/usr/bin/ld: skipping incompatible /usr/lib/libicuuc.so when searching for -licuuc
+/usr/bin/ld: cannot find -licuuc
+collect2: ld returned 1 exit status</pre>
+</item>
+	<item>All of which, suggests that the configure is not doing things right. Maybe it thinks this is a 64 bit machine? (Maybe it *is* a 64 bit machine) Wasted most of the evening tryiong (unsuccessfully) to get a VPN client running under Windows7 so I could investigate further. Grrr.</item>
+	<item>After another day's looking... sigh, yes, uname confirms that this is indeed a 64 bit machine running a 64 bit kernel. Both 32 and 64 bit libraries are available, but I'm blowed if I can work out how to tell configure which one to use. Back to the drawing board...</item>
+</ul>
+
+<strong>Update</strong> Using the BL VPN client is such a pain, I have now asked those nice people in NSMS to give us an identical vm to play with instead. It says something about how much we depend on the internet to do anything these days that a working environment in which you can only talk to one machine at a time is just infeasible...</p>
+</div>
+ 
+ <div><head ref="http://blogs.it.ox.ac.uk/louburnard/2009/10/an-interesting-day-at-la-villette/">An interesting day at La Villette</head><img class="aligncenter size-large wp-image-49" src="http://blogs.it.ox.ac.uk/louburnard/files/2009/10/20091009_151220-1024x768.jpg" alt="The view of the Geode from the Cite" width="1024" height="768" /><p>On Thursday evening about 8 pm I succeeded (not without some effort) in persuading the rather tentative (but free) wifi of the Hotel Crimée to let me receive my email at the start of this week's brief expedition to Paris. This was a good thing because it enabled me to receive a long awaited official document ("La convention d’accueil") from the CNRS which being signed half of my time will officially been at the disposition of the TGE ADONIS, an idea which Yannick Maignien and I first discussed at the Fréjus summer school, almost exactly a year ago. "Ah, l'administration française", as they say with almost exactly the same air of proud resignation as we might say "well that's british bureaucracy".
+
+Anyway, it meant that I seriously toyed for a while with the idea of adding the TGE ADONIS logo to the slides for my talk (along with those of the TEI and Oxford Uni, naturally) before reluctantly getting down to the rather more serious task of boiling down 60 slides of rambling inconsequentiality to a finely honed 30 minute presentation about how the semantic web was going to transform digital humanities. Or something. Even after a couple of hours work and a light  dinner from the Japanese restaurant across the street this was still more hacked than honed so I went to bed.
+
+Next morning, bright and early and breakfasted a la parisienne, I set off for the <a target="http://en.wikipedia.org/wiki/Cité_des_Sciences_et_de_l'Industrie">Cité des Sciences et de l'Industrie</a>, a monster science museum about 15 minutes walk away. For those who have never seen it before (e.g. me) this was quite an impressive experience. I'm seeing a pattern emerge though -- you have La Defense, you have Bercy, you have La Villette: all of them formerly massive entrepots of 19th century commerce on the fringes of what is now the periph, all of them erased and recreated as extraordinary pieces of massive public architecture. La Villette has follies. And a geodesic dome. And canals, of course, all of which make it rather special, as does the fact that its <a target="http://en.wikipedia.org/wiki/Deconstructivism">deconstructivist</a> design (<a target="http://en.wikipedia.org/wiki/Parc_de_la_Villette">according to Wikipedia</a>) was influenced by Jacques Derrida.
+
+Was it his idea to make this enormous museum, somewhat of a cross between a railway station and a department store, with enormous spaces specially intended for children, lots of escalators, and some fake dinosaurs? I proceed purposefully downstairs to the "espaces colloques", locate the salle Agora, switch to French, and start meeting and greeting.
+
+<a target="http://www.tge-adonis.fr/?Usages-des-sources-numeriques-en">Today's programme</a> is quite full: Pierre Mounier from <a target="http://www.ehess.fr/fr/">EHESS</a> gives a brief overview of the day, and discusses electronic publishing from the revues.org perspective, the need to observe standards, the holistic nature of scholarly writing and reading -- that the articles we publish now are the subjects of study of the future, that scholarly communication in digital form has undergone massive changes. I then stagger through quite a lot of my presentation, which is not much improved since I gave up on it last night, but sounds almost interesting in French. They liked the bit about moving from the web of documents to the web of data, and they liked the historical overview; they were I think politely uninterested by the rest, but an English man speaking French is almost as curious a spectacle as a dog dancing on its hind legs, so that's OK.
+
+Stephane Pouyllau from ADONIS and Shadia Kilouchi from <a target="http://www.cn2sv.fr/">CN2SV</a> gave a comparatiuvely sensible presentation, explaining how ADONIS is addressing archival and related issues; much of the data we study is now born digital (photos, sounds, bibliographies). We heard how the relationship with CN2SV is working out, and also about an interesting inventory project called AOMS, a couple of French iconographic systems, (mediHAL and ICEberg) and of course the celebrated Isidore project. As there were many historians of science in the audience, subsequent discussion focussed on problems of archiving email collections (whose job is it?) rather than the research possibilities offered by "mashing up" what is available.
+
+Richard Walter from IRHT gave a determinedly non-threatening introduction to the activities of that august institution, stressing the need for an intermediary between technical experts and medieval experts, neither of which he claimed to be. Probably because I already know far too much about both camps, I felt that he was protesting too much.
+
+Finally, Christine Blondel, our host from the CRHST, presented her work and that of her colleagues. Their bag is the development of digital archives for preservation of scientific papers (letters, notebooks etc.), notably of <a target="http://www.ampere.cnrs.fr/">Ampere</a> though there are plenty of others: for example a project called  <a target="http://numix.sabix.org/">Numix</a> is developing spomethjing similar for Gay-Lussac and his circle. Such archives are open, not just in terms of access, (she made a passing comment on the uselessness -- because of its business model -- of the Oxford <a target="http://www.e-enlightenment.com/">Electronic Enlightenment</a> project, during which I studiously looked elsewhere) but also in the extensibility of their content (you never know when a new document is going to turn up, or where). She  repeated the orthodoxy of the day about OAI/PMH, RDF, etc. and name-checked another Adonis joint venture called <a target="http://www.numes.fr">NUMES</a>, which is cataloguing digital resources.  She mentioned the possibilities of collaborative transcriptions (e.g. the mss of Flaubert), and some relevant software before speculating about the <a target="http://www.webpronews.com/topnews/2009/09/16/google-acquires-captcha-company">implications of Google's purchase of Captcha technologies</a>, which might improve its OCR capabilities (as we've recently seen, this is <a target="http://googlesystem.blogspot.com/2007/04/open-source-ocr-software-sponsored-by.html">not such bad news at all </a> potentially). She pointed out that virtual archives, combining resources in productive ways, can be intra- as well as inter- archive, citing the development of some scientific instrument across the range of papers in the Ampere archive. She talked about the need to make such collections accessible to the grand publique, about standards and rights problems and the challenges posed by short term funding and changing technologies and the need to bridge cultural divides and to seek professional help... a really good overview, in short. And she dropped quite a few interesting HREFs by way of illustration, notably a <a target="http://www.hstl.crhst.cnrs.fr/i-corpus/histmap/">project about geological maps of Europe</a>
+
+In discussion Michel Bernard from the Sorbonne (who is, I learned later, one of the brains behind <a target="http://www.cavi.univ-paris3.fr/phalese/">Hubert de Phalese</a>) made some sniffy remarks about the reductive nature of technological change which I (perhaps ill- advisedly) pooh-poohed. Stephane reminded us all that digital publishing is about process not product, that its results ere inherently dynamic and changeable, and we broke up for a really good lunch downstairs.
+
+After lunch, we were promised Maud Ingaro from Lyon (ENS, Cluster 13, Mutec), but she couldn't make it. This gave more time to hear about some multimedia case studies, notably another double act from Jean-Louis Kerouanton (Université de Nantes) and Alain Michel (Université d’Évry); part of this concerned virtual  reconstructions of the Port of Nantes, but the part I remember was a project which had created a functioning simulation of the Renault factory of the 1920s,  lovingly reconstructed in virtual reality on the basis of contemporary plans and photographs. This was as interesting for what it told us about the historical development of the assembly line (essentially, the photos contradict the claims of the management about the efficiency of the process) as it was for the technology deployed (mercifully, no one once mentioned second life)
+
+The day closed with a good presentation  about the challenge of maintaining the archaeological record from Elisabeth Bellon (Maison René-Ginouvès, Nanterre), illustrated by work done in digitizing a neolithic site in Cyprus (also funded by ADONIS).
+
+After saying my farewells, I went for a walk around the Park, to have what was left of my mind blown by the deconstructivist architecture. Not only can the French put on a good lunch and a good digital archive, they do public spaces in a way that puts us to shame.</p></div>
+ 
+ <div><head ref="http://blogs.it.ox.ac.uk/louburnard/2009/10/an-interesting-day-at-la-villette/20091009_151220/">The view of the Geode from the Cite</head><p>There is an IMAX cinema inside the Geodesic dome, behind the Cite des Sciences et de l'Industrie at La Villette. It's impressive, even when it's raining</p></div>
+ 
+ <div><head ref="http://blogs.it.ox.ac.uk/louburnard/2009/11/58/"/><p>When a new Ubuntu release comes out,I tend to just push the button and install it as an upgrade. Almost every time this <em>nearly </em>works, and therefore almost every time I find myself fiddling around for longer than strictly necessary. This is an aide memoire for next time, when the lecherous Leech (or whatever it's called) is upon us in April...</p>
+<list>
+	<item>
+<p style="margin-bottom: 0cm">Upgraded Benson 	(my domestic desktop, don't ask) overnight. Everything just worked. 	(Well, nearly everything.  I had to fight with skype quite a lot on 	Saturday morning before I realised that I had two different sound 	inputs when the webcam was plugged in, and Skype was choosing the 	wrong one, but that was my fault not its)</p>
+</item>
+	<item>
+<p style="margin-bottom: 0cm">Thus encouraged, I 	decided also to upgrade Thimk (my laptop, the one I use everywhere, 	the one I am about to depend on for two weeks travelling). Not a 	good idea. It all seemed to work, except that …</p>
+
+<ul>
+	<item>
+<p style="margin-bottom: 0cm">The audio 		disappeared, completely.  Even the little wotsit  called “Sound” 		under System-Preferences disappeared. When I launched Digikam, 		which is a KDE application I use for managing photos, it protested 		that something called Morphon was unhappy.... Actually several 		things were unhappy, not least me.</p>
+</item>
+	<item>
+<p style="margin-bottom: 0cm">Something, 		presumably Gnome, kept trying to do something crucial in the 		background, presumably trying to recover from this unhappy 		situation, which meant that there weren't any CPU  cycles left for 		me to do things like scroll windows. Which made most things other 		than emacs unusable. OK, I do most things with emacs anyway, but 		still...</p>
+</item>
+	<item>
+<p style="margin-bottom: 0cm">In such 		circumstances, one does two things: reboot several times; and spend 		ages trawling the interweb for plaintive messages from fellow 		sufferers, in the hope that one of them will have found or been 		given an answer. The latter course (as usual) showed me that I was 		not alone –  but that no-one had a sure-fire solution. A 		significant number of people opined that pulseAudio was a disaster 		area... but there it was working quite happily on my desktop, and 		removing it certainly didn't solve my laptop's problem.</p>
+</item>
+	<item>
+<p style="margin-bottom: 0cm">The rebooting 		showed up a much more alarming problem: approximately half of the 		time, the laptop would hang in the middle of the boot sequence 		(immediately after loading the drivers for the stupid 3G modem I 		never use, since you ask). And half the time it would complete the 		boot sequence and then hit the problems outlined above.</p>
+</item>
+</ul>
+</item>
+	<item>
+<p style="margin-bottom: 0cm">What does the 	superior man do when confronted by such problems? He moves on, or to 	be more exact, he moves back. Thanks to the wonders of the 	oucs-ubuntu stick I can reinstall a nice fresh Jaunty Jackalope Just 	Like That. This will mean reinstalling all the software packages 	I've added since June or whenever, not to mention taking steps to 	recover from having my home directory zapped but still.</p>
+</item>
+	<item>
+<p style="margin-bottom: 0cm">It's Sunday, so I 	am going to be pottering about in the kitchen baking, not to mention 	the ironing. So it's no big deal to connect the big USB disk to the 	laptop, boot the latter from the oucs-ubuntu stick, and do a 	not-so-quick rsync of my home directory to the former. Here's the 	command line I chose eventually:</p>
+<p style="margin-bottom: 0cm"><code>sudo rsync 	-vrlPeogt –exclude=Public /media/disk-1/home/lou 	/media/disk/thinkBack2</code></p>
+<p style="margin-bottom: 0cm">The 	 --exclude is to exclude stuff which is available from various SVN 	servers; I also had the sense to delete the .trash directory before 	starting the backup. </p>
+</item>
+	<item>
+<p style="margin-bottom: 0cm">Then 	it's just a matter of ... </p>
+
+<ul>
+	<item>
+telling 		the oucs-ubuntu stick to install itself de novo on the laptop
+</item>
+	<item>
+restoring 		everything from the USB backup
+</item>
+	<item>
+reinstalling 		any packages I'd forgotten I was using
+</item>
+	<item>
+repopulating 		my Public directory from the sourceforge and OUCS repositories
+</item>
+</ul>
+</item>
+</list>
+<p style="margin-bottom: 0cm">It's 	getting on for 9 pm, and the restore is still chugging away: I fear 	I will have to get on with the ironing after all.</p>
+
+<p style="margin-bottom: 0cm">Don't get me wrong. I'm still a Ubuntu fanboy... I think.</p>
+</div><div><head ref="http://blogs.it.ox.ac.uk/louburnard/about/bloggeur/">Le bloggeur</head>Borrowed from Mike Ficht's splendid set of blogging images</div><div><head ref="http://blogs.it.ox.ac.uk/louburnard/2009/11/apt-get-install-hadopi-la-loi-installee-par-les-geeks-numerama/">apt-get install hadopi : la loi installée par les geeks - Numerama</head>This hits so many of my favourite buttons at once it's hardly likely  anyone else will get it. But it still made me chortle.
+
+<a target="http://www.numerama.com/magazine/14026-apt-get-install-hadopi-la-loi-installee-par-les-geeks.html">apt-get install hadopi : la loi installée par les geeks - Numerama</a>.</div><div><head ref="http://blogs.it.ox.ac.uk/louburnard/2010/03/what-i-am-doing-in-paris-since-you-ask/utopie/">utopie</head></div>
+ 
+ <div><head ref="http://blogs.it.ox.ac.uk/louburnard/aftertag/">afterTag</head>[sourcecode language="perl"]
+<eg><![CDATA[
+# afterTag.prl
+# cajoles output from treeTagger into proper TEI XML
+#
+$sno = 1;
+while (<>) {
+chop;
+s//XXXX/;
+if (/<!--) { # tag found<br /--> $buffer .= $_;
+} else { # token found
+($str, $pos, $hw) = split(/\t/);
+$tag = "w";
+$pos =~ s/\$/s/;
+unless ($pos =~ /[A-Z][A-Z]/) {
+$hw ="";
+$tag = "pc";
+$pos = "sub" if($pos =~ /[\,\:\;]/);
+$pos = "op" if($pos =~ /[\(\[\{]/);
+$pos = "cp" if($pos =~ /[\)\]\}]/);
+$pos = "oq" if($pos =~ /[\`]/);
+$pos = "cq" if($pos =~ /[\"\']/);
+}
+
+if ($pos=~ /SENT/)  {
+$tag = "pc";
+$hw ="";
+} elsif ($hw =~ /[\[\]]/) {
+$tag = "pc";
+$hw ="";
+}
+ 
+$str =~ s/\&amp;amp;amp;/\&amp;amp;amp;\;/g;
+$hw =~ s/\&amp;amp;amp;/and/g;
+if ($hw) {$hw = " lemma\=\"$hw\""};
+
+$buffer .=  "<$tag type\=\"$pos\"$hw>$str<\/$tag>\n";
+
+}
+
+} # end of file
+
+$buffer =~ s/]*)>//g;
+$buffer =~ s/<\/head>/<\/s><\/head>/g;
+$buffer =~ s/]+)>//g;
+$buffer =~ s/\n+//g;
+$buffer =~ s/<\/p>/<\/s><\/p>/g;
+$buffer =~ s/]+)>//g;
+$buffer =~ s/<\/ab>/<\/s><\/ab>/g;
+$buffer =~ s/(type="SENT"[^\/]+\/pc>\n)<\/s>\n
+print $buffer;
+
+sub sentenceStart {
+#print "" ;
+$sentenceStarted = 1;
+}
+
+sub sentenceStop {
+my $notYet;
+foreach $openTag  (keys %tagStash) {
+if($tagStash{$openTag} > 0)
+{ print"<!-- .. still got an open $openTag -->";
+$notYet = "1";
+}
+}
+
+unless ($notYet) {
+#    print "<\/s>\n";
+print "\n";
+$sentenceStarted = $sentenceEnded = 0;
+}
+}]]>
+</eg>
+ 
+</div>
+ 
+  <div><head ref="http://blogs.it.ox.ac.uk/louburnard/2010/02/xaira-meets-her-maj/">XAIRA meets her Maj</head><p>Looking around for an interesting data set to play with (for the <a target="http://dariah.eu/wiki/index.php?title=TeiDemonstrator">TEI Demonstrator project</a> <em>inter alia</em>) the other day, I discovered that the British Royal Family's very own website includes  transcripts of every one of  the Queen's Christmas Day broadcasts, from 1953 to date. A fascinating slice of English social history, reflecting our sovereign lady's unchanged obsession with family values and the Commonwealth over the last half century and also pretty easy to hoover up and reprocess into something susceptible of automatic analysis. (I'm not the first to notice this, by the way; I stole the idea from those clever chaps at the <a target="http://labs.timesonline.co.uk/blog/2010/01/21/christmas-words-the-queens-speech-since-1952/">Times Online Labs)</a>
+</p><p>
+This post just summarizes what I did to make the corpus.
+<list>
+	<item>I used <ref target="http://www.gnu.org/software/wget/">wget</ref> to download the relevant chunks of <ref target="http://royal.gov.uk">the website</ref> (the bits I wanted were conveniently all in one subdirectory (ImagesandBroadcasts/TheQueensChristmasBroadcasts), but it proved easier to just grab the whole site and throw away countless uninteresting photos)</item>
+	<item>I wrote an XSLT  stylesheet to extract from the XHTML files on the website just the chunks I wanted and spit them out into separate plain TEI XML files. There were two files which didn't follow exactly the same coding conventions as all the others, so I hand-edited them into conformity. There were three files which were not valid XHTML (weirdo character entity references) so I wrote a perl script to hack them into submission. It happens.</item>
+	<item>This gave me a bunch of files which start off  like this:
+<egXML>
+<head>Christmas Broadcast 1974</head>
+<!--The Queen's Christmas Broadcast in 1974 alludes to problems such as continuing violence in Northern Ireland and the Middle East, famine in Bangladesh and floods in Brisbane, Australia. -->
+<p>There can be few people in any country of the Commonwealth who are not anxious about what is happening in their own countries or in the rest of the world at this time.</p>
+<p>We have never been short of problems, but in the last year everything seems to have happened at once. There have been floods and drought and famine: there have been outbreaks of senseless violence. And on top of it all the cost of living continues to rise - everywhere.</p>
+<p>Here in Britain, from where so many people of the Commonwealth came, we hear a great deal about our troubles, about discord and dissension and about the uncertainty of our future.</p></egXML>
+</item>
+	<item>Finally, I used <ref target="http://www.ims.uni-stuttgart.de/projekte/corplex/TreeTagger/">treetagger</ref> to add simple linguistic analysis to the texts.  By default, treetagger takes XML marked up text, leaves the markup alone, tokenizes the text, one word or punctuation mark per line, and adds POS codes and lemmata. I keep meaning to do something about making it output the results in a nice clean TEI conformant version, but somehow it's always quicker to just run an <ref target="http://blogs.it.ox.ac.uk/louburnard/aftertag/">after-the-event perl script</ref> to tidy up its output.</item><item> Which gave me a bunch of files that contained lines like this
+<egxml><div n="1974"><head><s><w type="NP" lemma="Christmas">Christmas</w>
+<w type="NP" lemma="Broadcast">Broadcast</w>
+<w type="CD" lemma="@card@">1974</w>
+</s></head><p><s><w type="RB" lemma="there">There</w>
+<w type="MD" lemma="can">can</w>
+<w type="VB" lemma="be">be</w>
+<w type="JJ" lemma="few">few</w>
+<w type="NNS" lemma="people">people</w>
+<w type="IN" lemma="in">in</w>
+<w type="DT" lemma="any">any</w>
+<w type="NN" lemma="country">country</w>
+<w type="IN" lemma="of">of</w>
+<w type="DT" lemma="the">the</w>
+<w type="NP" lemma="Commonwealth">Commonwealth</w>
+<w type="WP" lemma="who">who</w>
+<w type="VBP" lemma="are">are</w>
+<w type="RB" lemma="not">not</w>
+<w type="JJ" lemma="anxious">anxious</w>
+...
+</s></p></div></egxml>
+</item>
+	<item>Finally I wrote a TEI Header file to put <ref target="http://tei.oucs.ox.ac.uk/Demonstrator/queen.zip">all the files together</ref> into a single TEI document or corpus.</item>
+</list>
+Then, just for fun, I moved the corpus onto a (virtual) Windows machine (why? Because the all singing all dancing web client for XAIRA is not quite ready yet) and followed the handy <ref target="http://www.oucs.ox.ac.uk/rts/xaira/Doc/xairaIndexing.xml">Indexing with Xaira </ref> Tutorial to produce a XAIRA-searchable version of it. I'll put up a few screen shots to prove the point later.</p></div>
+ 
+ 
+ <div><head ref="http://blogs.it.ox.ac.uk/louburnard/2010/03/what-i-am-doing-in-paris-since-you-ask/">What I am doing in Paris, since you ask</head><p>Last week I attended a face to face meeting of almost all the staff now working directly on<a target="http://www.tge-adonis.fr"> the ADONIS project,</a> a fairly unusual event (I think this was the first one in the current development cycle) since the project now has many people working in different locations around France. Probably as a punishment for typing too noisily during the meeting, I was asked to draft a brief report on the meeting for the ADONIS website, which seems a good pretext for me to write up a blog posting here.
+
+ADONIS is a TGE (<em>Très Grand Equipement</em>) directly financed by the Ministry of Higher Education (MESR) and reporting to the CNRS, the National Research Council.  (Inevitably these two bodies occasionally  have different points of view and priorities,  which makes life, shall we say, interesting). ADONIS is so far the only TGE to have been specifically charged with responsibility for infrastructural support of the humanities and social sciences (SHS) and has defined an ambitious programme of work, currently underway. The TGE is co-ordinated by a small team based in Paris but is highly distributed, with most of its key activities and services being run by people attached to other labs and service organizations around the country, some of whom had never met before this meeting, though they feature on  <a target="//www.tge-adonis.fr/?-La-structure-">the official staff list</a>.
+
+After a set of mutual introductions around the table, Yannick Maignien (Director) and Richard Walter (Assistant Director)  began by sketching out the TGE's overall structure and objectives, placing them in the international and national contexts respectively. The mission of ADONIS is to improve the quality and efficiency of French research in SHS, by facilitating better access to shared resources, and promoting best practice; in defining and implementing the key infrastructural resources and services needed for the humanities research environment. These include, for example, provision of  archival resources; development of an intelligent search engine for existing digital resources;  training on the use of specific relevant technologies; promotion of open access and other digital publishing methods.
+
+Administratively speaking, ADONIS is a "<em>Unité Propre de Service"</em> (Specific Service Unit) attached to the CNRS, and funded like others such on a four year rolling programme. It has a Steering Committee (<em>comité de pilotage</em>), chaired by Michel Spiro, with representatives of the Ministry and the CNRS Institute for Human and Social Sciences, and other interested parties. It also has an Advisory Board (<em>comité scientifique</em>) with a dozen or so distinguished members (e.g. Simon Hodson from JISC, Stephan Gradman from Humboldt University, Francoise Genova from the Strassbourg Observatory).
+
+Since 2005, the CNRS has also funded a number of <em>centres de ressources</em> (National Resource Centres). These are subject-specific centres attached to one or more existing <em>labos</em> (research units) and charged with the task of sharing their expertise and their services with other research units. In the hard sciences, typically, research is carried out at one of a small number of  large<em> labos</em>; in the Humanities by contrast, there is a very large number of small units. Hence the importance of developing and sharing shared solutions to common problems, and the important role that ADONIS has with regard to the <em>centres</em>. Just to make life even more interesting, there are other relevant national organizations, notably the CNRS network of professional staff (collectively known in the CNRS as ITA: <em>Ingénieurs, Techniciens, Administrateurs</em>), and the completely different regional network of<em> Maisons des Sciences de l'Homme</em> which provide support services to the Universities, rather than via the CNRS.
+
+<a target="http://blog.stephanepouyllau.org/">Stephane Pouyllau</a>, the third member of the central ADONIS team to speak, gave an overview of the Digital Humanities <em>(sciences numériques) à la française</em>, a set of topics which overlaps significantly but not entirely with the concerns and activities promoted under that badge elsewhere in the world. In France,  it is preservation of, and  access to digital resources of all kinds which are the major concerns and which constitute the "digital turn"  (<em>le tournant du numérique</em>); the major threats are seen to be such things as loss of data, dispersion of expertise, duplication of effort, solutions which do not scale, lack of international visibility and recognition. The need for skills in helping non-technical experts gain confidence in technical areas is largely unrecognized by existing professional training for computing support staff, with consequent problems of communication. And of course, in France the word "<em>science</em>" includes the study of the Humanities as well as the study of "<em>les sciences dures</em>".
+
+ADONIS aims to address these problems in several ways. It will provide a <em>socle de services</em> (core set of services), including such key activities as archival services and cataloguing of resources needed by many labos, and, from the end of this year,  it will also be offering <a target="http://www.tge-adonis.fr/?Lancement-de-la-premiere-phase-de">a sophisticated search engine called Isidore</a>. Isidore (Integrated Service for Indexing the Data of Research and Education -- or something like that) will crawl and index a wide variety of existing data sources, analysing a variety of standard metadata formats (OAI-PMH, RSS, Sitemap, Z39-50...) to access  and merge information into a unique RDF system with its own SPARQL endpoint.  Although this may entail working closely with service providers, the need to involve them in the project should mean that the quality, relevance, and accuracy of data provided will be much higher than is currently available from (e.g.) Google.
+
+Returning to the topic of the National Resource Centres, Richard gave a brief overview of the activities and responsibilities of each, as currently configured, noting in passing that the ANR (Agence National de Recherche; the main French research funding agency) had funded dozens of digital data creation projects in the past but had no policies in place to ensure their preservation or their continued access.  The skill sets available within the <a target="http://www.cnrs.fr/inshs/recherche/centres-ressources-numeriques.htm">five existing centres</a> include archaeology and 3-D modelling, modelling in social science, iconographic and visual indexing, and linguistic and terminological analysis, as well as  appropriate technologies for the digitization and encoding of manuscript or spoken materials.
+
+Stephane then presented the recently completed pilot project on long term archiving, for which the  CRDO (<em>Centre de ressources pour la description de l’oral:</em> the National Resource Centre concerned with spoken data) had served as guinea pig. Financed by ADONIS, this project had involved the CRDO as source of the original data and manager of access to its archived form, and also the CINES (<a target="http://www.cines.fr/?lang=en">National Computing Centre for Higher Education</a>) which had managed the whole archival process, conformant to <a target="http://en.wikipedia.org/wiki/Open_Archival_Information_System">Open Archival Information System</a> norms, and the CC-IN2P3 (<a target="http://cc.in2p3.fr/?lang=en">Computing Centre of the National Institute for Nuclear and Particle Physics</a>) which had provided the computing resources -- a FEDORA database--  for the resulting system.   The project had thus demonstrated the viability of ADONIS' distributed approach to the resourcing of such services, and shown the value of an "e-Research" mode of operation: the storage facilities of CC-IN2P3 are able to preserve the results of fieldwork on surviving old French dialects just as well as the experimental data resulting from nuclear reactions, while the CINES' expertise in the international standard methodology for creating and managing long term meta data is equally applicable to either.
+
+Thus encouraged, we broke for a pizza lunch (<a target="http://picasaweb.google.co.uk/lou.burnard/DeplacementMars#5450758171342571618">see photo</a>) at Casa valentino, rue St Jacques.
+
+After lunch, we heard more technical detail about the archival experiment from Pierre-Yves Jalud, who is responsible for managing the project at CC-IN2P3. Pierre-Yves had  of necessity become expert in the use of  <a target="http://www.fedora-commons.org/">Fedora Commons</a>as a repository management system; there was some discussion as to the merits of this open source solution as opposed to dSpace,<a target="http://www.dspace.org"> dSpace,</a> which seems to be its closest rival. Pierre-Yves noted that the latter did not support iRods<a target="http://www.irods.org"> iRODS</a>, the de facto software platform for grid applications.  He also cited  <a target="http://archivesic.ccsd.cnrs.fr/sic_00123423/en/">Carl Lagoze's article</a> from 2006 as a foundational text for the definition of what a digital library should be.
+
+His colleague Huân Thebault spoke in more detail about the authentication and authorisation solutions adopted for the project. RENATER (the French equivalent of JANET) already provides a Shibboleth-based national network of trust, so that the credentials from any RENATER site can be used to log in to any of the others, including the CCN2P3. However, this clearly needs to be complemented by something else for users coming from outside RENATER. The solution adopted is a hybrid architecture combining Shibboleth with openSSO, which is used to authenticate "foreign" users. The drawback, from some points of view, is that they have to maintain their own LDAP directory to hold authorisation data -- but they would have to do this in any case.
+
+Jean-Baptiste Génicot described some of the technical problems behind  implementing an efficient Z39-50 based access where the various repositories concerned have wildly varying notions both concerning  what data items should be made available, and what technical infrastructure should be used to deliver them. His solutions used the existing SOAP library for php to handle data delivered via WSDL, derived from legacy formats such as BIBLIOML and MARCXML in MODS3.3.
+
+The CCSD (<a target="http://www.ccsd.cnrs.fr/">Centre for Direct Scientific Communication</a>) is one of the key bibliographic service providers in France, responsible amongst many other things for   <a target="http://hal.archives-ouvertes.fr/">HAL: HyperArticles Online</a>, the major open access archive of French research papers and resources. It also hosts another ADONIS-supported project, the <a target="http://hal.archives-ouvertes.fr/">Open Archive for Photographs and Scientific Images</a>. Philippe Correia and Loïc Comparet reported on a new service under development there called <a target="http://www.sciencesconf.org/">Scienceconfs</a> which (when it opens) will provide a full range of conference management services, from announcements (already well served by e.g. calenda.org) through reviewing and programme planning to proceedings manufacture. The project is still under development and there is good scope for consultation and review.
+
+The  CLEO (<a target="http://cleo.cnrs.fr/">Centre for open electronic publishing</a>) also supported by ADONIS has established itself as a key academic publisher in France and beyond, with several hundred journal titles published through its portal <a target="http://www.revues.org/">revues.org</a> and a raft of other complementary services. It was represented at our meeting by Andréa Pirastru, a new recruit, who talked about his experience in working with Drupal, the content management system on which revues.org depends.
+
+As I noted above, ADONIS also has an important role outside the hexagon, as the sole French contributor to the European Research Roadmap for infrastructural support in the Humanities.  Britta Moehring described some current activities in this connexion: notably the elaboration of a business plan and organizational structure for <a target="http://www.dariah.eu/">DARIAH</a>, the EU-funded project which is supposed to be defining a Digital Research Infrastructure for the Arts and Humanities at a European level.  The model that is emerging is, appropriately, a highly distributed one, in which a number of essential "competences" are identified, and then provided by possibly many  partners acting in collaboration. This is being worked out with other DARIAH partners, notably the Max Planck Institute, the University of Göttingen, King's College London, and DANS (Data Archiving and Networked Services), the Dutch project leaders.  Further collaboration is to be anticipated with other key infrastructural initiatives, such as CLARIN (in which OUCS is also represented by the way), and CESSDA
+
+ADONIS is well placed to do this work, since it faces exactly the same issues at the local (i.e. national) level. No single institution can provide all the components of an infrastructure of the kind needed, whether for financial or skill set limitations;  organization and maintenance of productive partnerships and distribution of specialist services seem the only way forward.
+
+My own brief intervention came at the end of a long day, so I kept it short. I commented on "internationalisation" aspects and activities of ADONIS, some of which I have already touched on in this report. As well as DARIAH, and knowledge transfer with the non-francophone Digital Humanities community,  I suggested that work with the  <a target="http://www.tei-c.org">Text Encoding Initiative</a>was also an important component of the project (well, I would, wouldn't I). I described briefly the <a target="http://tei.oucs.ox.ac.uk/Demonstrator">TEI Demonstrator</a> project in which we are collaborating closely with the Max Planck Digital Library and noted its synergy with the development of the Isidore platform. But mostly I showed the following nice picture of a Virtual Research Environment, as envisaged in France at the start of the 20th century. ADONIS is the box on the right, and its team is the hard working boy turning the handle.
+
+[caption id="attachment_75" align="aligncenter" width="600" caption="L&amp;#39;Utopie  1910	 (http://expositions.bnf.fr/utopie/feuill/index.htm)	"]<img class="size-full wp-image-75" title="utopie" src="http://blogs.it.ox.ac.uk/louburnard/files/2010/03/utopie.jpg" alt="L'Utopie  1910	 (http://expositions.bnf.fr/utopie/feuill/index.htm)" width="600" height="350" />[/caption]</p> </div>
+ 
+ <div><head ref="http://blogs.it.ox.ac.uk/louburnard/2010/05/why-i-was-right-about-project-gutenberg-all-along/">Why I was right about Project Gutenberg all along</head><p>Just came across this nice, if old, article about the limitations of  crowd sourcing:
+
+"I do not want the arguments above to suggest that Gracenote is worthless or Project Gutenberg useless. Far from it. Both are immensely useful. Nonetheless, both suffer from problems of quality that are not addressed by what I have called the laws of quality — the general faith that popular sites that are open to improvement iron out problems and continuously improve. In the case of Gracenote, it may be that only users with minority tastes suffer and they should be prepared to look after themselves. In the case of Project Gutenberg, by contrast, the Project does greatest disservice to those it most seeks to serve, the general reader who may not know enough about the the texts he or she is reading to be able to distinguish nonsense from complexity, editorial misjudgment from authorial teasing, bowdlerization from Nordic prudery. In both cases, whether to guide users better or to improve the system, these limitations need to be recognized."
+
+
+http://firstmonday.org/htbin/cgiwrap/bin/ojs/index.php/fm/article/view/1405/1323</p></div>
+ 
+ <div><head ref="http://blogs.it.ox.ac.uk/louburnard/2010/06/tei-prospects-and-practice-in-france/">TEI Prospects and Practice in France</head><p>Attached to both the Institut des Sciences d'Homme and the ENS de Lyon, there is in France an interesting project called MuTEC whose role in life (it says <a target="http://www.mutec-shs.fr">here</a>) is to promote and to share expertise and experience in the digital humanities, in particularly with respect to the creation of digital editions and corpora. Organization of discussion amongst representatives of some of the major users and would-be adopters of the TEI  in France therefore seems to fall well within their remit. Their recent two-day <a target="http://www.mutec-shs.fr/la-tei-en-france-pratiques-et-perspectives">event</a>  (financed by TGE ADONIS)  included presentations on a carefully chosen range of topics with  speakers from several different centres, plenty of debate, and two half days of highly concentrated training sessions. And, this being Lyon, a respectable amount of good eating.
+
+Marie Luce Demonet (<a target="http://www.bvh.univ-tours.fr/">Bibliotheque Virtuelle des Humanistes,</a> Univ of Tours) was down to talk about the BVH as an exemplary case of how such projects  can achieve long life and happiness; the range and variety of activities and output which this project has achieved, and continues to achieve, remain exceptional however, particularly in view of  its resources. Discussion focused on the way that the TEI was now being proposed as the glue which held its texts, databases of authority files, documentation, and other resources together, rather than simply one of the possible outcomes from the project. Tours is also organizing another TEI training session later this year, as a part of a "Masters Pro" course. 
+
+Bertrand Gaiffe from the  <a target="http://www.cnrtl.fr/"> Centre National de Ressources Textuelles et Lexicales</a> in Nancy gave a good overview of the features provided by the TEI for use in linguistic analysis, protesting however that he knew nothing about linguistics (which is manifestly not true). He managed to convey the essential aspects of such arcana as the ISO data category register and the TEI  feature structure system in a painless manner, such that even the casual TEI text creator could see why (and how) you might want to use them; no mean feat; I did however have to protest when he asserted that <gi>s</gi> elements could self-nest. (Note to self: must add schematron constraint in P5 to prevent such folly).
+
+The “Intensive TEI Training” parts of the programme consisted of two morning sessions in classrooms at ENS, jointly taught by  Florence Clavaud from the <a target="http://www.enc.sorbonne.fr/">Ecole Nationale des Chartes</a> and  myself. The plan was to focus on just a few topics  in some detail rather than give the usual overview of TEI Super Lite: selection of the topics was carried out in advance by polling the participants for their preferences – which revealed  somewhat to my surprise a strong desire to know more about the TEI Header, amongst other things. Each session contained two talks and two  hands-on practical sessions and the programme, complete with sample texts  (contributed by Florence),  talks, and workshop exercises is all <a target="http://tei.oucs.ox.ac.uk/Oxford/2010-06-mutec/">on t'web </a> so I will not describe it here. The participants' expertise varied enormously, but everyone managed to get through the exercises somehow and even seemed to be enjoying the experience.
+
+Alexei Lavrentev from the <a target="http://icar.univ-lyon2.fr/">ICAR </a>lab at the ENS de Lyon gave a  presentation about how TEI schemas come into being, with some good material on ODD, and a description of the <a target="http://bfm.ens-lsh.fr/"> Base du Francais Medieva</a>l project. This sparked vociferous debate, both on the traditional philological issue of what texts should be edited, and on the traditional TEI argument about whether TEI-ALL should ever be used, ever. 
+
+Standing in for my Adonisian colleagues Richard Walter and Stephane Pouyllau, I presented a hastily confected overview of <a target="http://tei.oucs.ox.ac.uk/Oxford/2010-06-mutec/carto-tei.pdf">the current state of things TEI in France</a>, using a nice map, and making some suggestions about ways in which a francophone TEI network might be further invigorated. I then somehow coerced a seven person panel (consisting largely of  provocateurs handpicked from amongst the persons present)  into orchestrating an energetic and wide ranging discussion. Although no-one had  any concrete suggestions for how we might reclaim the south west corner of the hexagon for TEI, there was a general feeling that we ought to try a bit harder to use such facilities as the tei-fr mailing list, and a recognition that the TEI was very much a part of the new enthusiasm for a <a target="http://tcp.hypotheses.org/318">Digital Humanities agenda</a> in France. 
+
+For the final session of the two days, we heard from Dominique Roux aand Pierre-Yves Buard about  ways in which TEI can fit well into both  technical and economic models for small academic publishers, based on their experience at the <a target="http://www.unicaen.fr/services/puc/index.php">Presses universitaires de Caen</a>, which remains (sadly) unique amongst the numerous small French University presses in actually putting into practice some enlightened views about the role of a university press in the digital age, particularly with respect to the use of XML in the publishing process. This was held in a lecture room basement lecture room converted from a dungeon formerly used by the Gestapo, or so I was told; it felt more like a Turkish bath. </p>
+  
+</div><div><head ref="http://blogs.it.ox.ac.uk/louburnard/2010/08/toodle-pip/">Toodle-pip</head><img src="http://blogs.it.ox.ac.uk/louburnard/files/2010/08/Emergency-Exit-300x300.jpg" alt="Exit" title="Exit" width="300" height="300" class="alignleft size-small wp-image-98" /><p>The deal being now more or less wrapped up, it seems appropriate to  announce it here first. I'm taking early retirement from OUCS, and moving on after (count them) thirty-six years in academic computing support. When you start thinking more about the decades that have disappeared than those which are yet to come, it's usually a sign that you need to shake things up a bit, so that's my plan. A touch regretfully of course,  because Oxford University has been a very good employer, and I have thrived here in ways I couldn't begin to imagine being possible elsewhere. Thanks for everything chaps: you've all been wonderful.  There are loose ends to be sorted out in the next few weeks, but my leaving date is fixed for 30 September, so those that don't get sorted by then probably won't. 
+</p>
+</div><div><head ref="http://blogs.it.ox.ac.uk/louburnard/2010/09/three-dozen-years-at-oucs-vol-one/">Three dozen years at OUCS -- vol one</head><p>I first joined OUCS as a data centre operator in the autumn of 1973. Newly returned with wife and baby from Malawi, I needed the money and OUCS wanted someone to look after its new "remote job entry" facility -- a room containing a couple of teletypes, a card reader, a lineprinter, and a large mysterious white box called a MOD 1 located in the Atmospheric Physics department. My job was to keep an eye on the teletype monitoring the state of this computer by means of a noisy typewriter-like device which would tell me the the time every five minutes, and the date every fifteen minutes on a very long roll of paper. Occasionally, it would also display a message to or from the other operators on the system. If it stopped working, I was responsible for calling out Geoff Lescott (my first boss) who would usually suggest rebooting the MOD1 by running a paper tape through it. If that didn't work, we'd send for the engineers and take the rest of the day off, hoorah. I was also responsible for sorting out the reams of paper being churned out by the line printer in the middle of the room. There was a right way of doing this and a wrong way. The right way was to find the banner page with the name of the person whose job output followed and fold it neatly in half horizontally, without detaching it from the rest, tear off the rest of the batch belonging to that username, and place it tidily on the table in the corner. The wrong way was to just leave the whole pile in the corner, and let the users deal with it themselves. Since the users concerned were either boffins pressed for time or D Phil students who didn't know their left hand from their right, the wrong way usually worked quite well. 
+
+In April 1974 I applied for, and got, a more white-collar kind of job, as an application programmer. This was almost like moving from the shop floor into middle management. My new contract was "academically related" and conferred on me the right to use the staff tearoom at the Computing Services' swish new premises at 19 Banbury Road, as well as my very own desk in the corner of one of the top floor offices. I shared this with Carol Bateman, Bob Douglas, and Edwin Taylor. Charles Curran made a similar transition across the class divide at about the same time. Access to the time-sharing facility ("MOP") on the 1906A was via a couple of teletypes outside the office, but most of my time was spent leafing through huge wodges of lineprinter output and scribbling on it. In those distant days, tobacco smoke was an acceptable, even accepted, accompaniment to office life, so I used to consume large amounts of fragrant Gold Block while wondering why my latest attempt to move some bits from one end of an 8 bit byte to the other had failed ignominiously.
+
+The bit twiddling was done in a language called PLAN, which was the low level machine code for the ICL 1906A. My initiation as a programmer was to write a routine which could be used to pack six-bit characters from the ICL filesystem into eight-bit bytes on the PDP 8 mini used to drive Oxford's state of the art graphics display devices. It took me weeks, and a lot of patience on the part of one of the real system programmars, Alan Fuller, who had been charged with my initiation into the mysteries of machine code programming, an art which I took to like a brick to water.
+
+OUCS had a team of about 12 programmers in those days, divided into "system" programmers, who knew how to make the computer sit up and do stuff, and "application" programmers, who knew what sorts of stuff might actually be useful to anyone, chiefly libraries of arcane mathematical routines. The boundaries were fluid however, and further confused by the introduction during the eighties of a third estate called "communications" programmers who knew all about the bits of string by which computers and computer users communicated. The top man on the systems side was a charismatic fellow called Chris Cheetham, while the applications side reported to a strong-minded lady called Linda Hayes.
+
+Once a week every programmer had to sit in a little room called "Programme Advisory" for a couple of hours, and attempt to console harassed users, usually clutching reams of Fortran printout. This was not as difficult as it sounds -- nine times out of ten the problem was caused by misaligned pointers to COMMON blocks, wrong length variables (Ah the joys of the fortran IMPLICIT statement), or NAG routines being called with faulty arguments. If all else failed, you could get rid of the user by suggesting insertion of some PRINT statements at random points in the code, or in really dire cases summoning another expert to repeat the diagnostic process. The chief benefit of an Oxford education, as any fule kno, is the ability to sound convincingly knowledgeable on anything, so I survived this experience unscathed, even though I didn't (and don't) know an eigen vector from a fast fourier transform. 
+
+In those days of course, any university worth its salt had a massive mainframe computer, partially funded by a now defunct government agency called the Computer Board, and also maintained a small staff of technicians to look after it. This was necessary since those mainframe computers were temperamental beasts, and (moreover) all had to be controlled using different languages and command systems; us ICL experts remained for the most part blissfully ignorant of the workings of the IBM system at Liverpool or the CDC system in London. "Information Technology" as a career was in the process of being invented at the time. I was encouraged by the management to take an active role in representing the University on what we would now call community development activities such as user groups and inter-university committees for this that and the other. My collected visit reports from the period record indicate how mutually baffling an experience it was for me and (say) the DP Manager of West Midlands Gas to find outselves jointly lobbying ICL to get on with delivering some enhanced database product or other. They also contain a fair amount of academic gossip, in which some famous names pop up occasionally. 
+
+When it became apparent that bit-twiddling was not my forte, I took up (or invented) the role of database expert, which I occupied for most of the eighties. I also backed up Susan Hockey in providing some support for bewildered boffins from non-scientific or mathematical faculties who had heard rumours about the possibility of applying computing hardware to literary or linguistic research questions. I was of course already doing this for my own interest (I had spent quite a lot of my time as a data centre operator in producing the world's first computer-generated concordance to the works of Bob Dylan, distributed to discerning friends as a Christmas present in 1973). In 1977, I also invented a role for myself as custodian and evangelist for something called the Oxford Text Archive, the object of which was partly to encourage the sharing of those expensively produced machine-readable source texts, despite the laws of copyright and the immense variability of practice amongst the strange people who transcribed texts for manipulation by computer in those days. And of course to satisfy my own curiosity about what might be done with a really big collection of such things, if it ever existed. 
+
+In the days before Google, the process of searching through large amounts of computer-held text was moderately problematic, and academically the concern of a minor subdiscipline of librarianship optimistically called "information retrieval". The current wisdom was that you needed lots of predefined indexes until such time as expert systems came along to do the reading for you. At the end of the eighties I had a lot of fun exploring the possibilities of a wizard gadget called the "Content Addressable File Store" or CAFS. ICL wanted to use this now-forgotten British invention to revolutionize their transaction processing and database systems; I used it to provide high speed non-indexed searching of oh huge amounts of text e.g. the complete works of Shakespeare, or the Bodleian pre-1920 catalogue, which was weird enough to feature extensively in ICL's marketing literature, as was I. </p></div>
+ 
+ <div><head ref="http://blogs.it.ox.ac.uk/louburnard/2010/09/three-dozen-years-at-oucs-vol-two/">Three dozen years at OUCS - vol two: 1986-1995</head><p>This decade began as the age of the BBC micro, the Amstrad Word Processor, and the Computers in Teaching Initiative. At OUCS, the ICL 1906A had been switched off in 1981 and replaced by an unloved but bright orange 2900 series mainframe, which we had the difficult task of persuading a sceptical university they liked better than the really boring but much more efficient VAX VMS system which complemented it. But the days of the mainframe, whatever colour, were clearly numbered. In my office, an Olivetti microcomputer running something called MS-DOS appeared (catch me using an IBM like everyone else); a bit later on I installed a Macintosh with an A4 monitor and started preparing overheads for my talks on that instead of Charles Curran's ICL PERQ. Computing stopped being something you did in batches or at a terminal, and became something you did on your desk. The phrases "information technology", "desktop publishing" and "word processing" were heard in the land. Amongst other seminal events, in November 1986, I attended a conference at the University of Waterloo on the possibilities offered by the forthcoming first ever digitized edition of the Oxford English Dictionary. In April 1987, Sebastian Rahtz organised a conference on Computers and Teaching in the Humanities at Southampton University. And in November 1987, I attended an international conference at Poughkeepsie College in upstate New York from which was born the  Text Encoding Initiative. 
+
+The Internet started its insidious transformation of everyday life. From 1989 onwards, earnest intellectual discussion on the newly founded Humanist mailing list led to new acquaintances and new social networks (only we didn't call them that). In 1993 I went to a Network Services Conference, organised by something called the European Academic Research Network. Here a man called Robert Cailliau from CERN demonstrated live a program called Mosaic which could display data from sites on three different continents, which was almost as amazing as the sight of a room full of people from Eastern and Central Europe taking advantage of Poland's recent accession to EARN (the European end of BITNET) and consequent unwonted connectivity by sending email messages back home in dozens of funny languages. To say nothing of the crazy notion, which I first heard voiced there, that one day people would actually use this World Wide Web thing as a means of making money. In Oxford, of course, after much deliberation, at this time we had just installed something called Gopher to run our information services.
+
+I did a huge amount of travelling in the nineties, much of it on behalf of the TEI, which I joined as European editor in 1989. Between 1990 and 1994, when the TEI Guidelines were finally published as two big green books, I must have made more than a dozen trips to the US, and as many to various places in Europe, to attend the umpteen committee and workgroup meetings whose deliberations formed the basis of the TEI Guideline, to argue with the TEI's North American editor -- one Michael Sperberg-McQueen -- about how those deliberations should best be represented in SGML, and to make common cause with him in defending our decisions to the TEI's occasionally infuriating steeering committee. Michael has described the first of these processes as resembling the herding of cats but Charles Goldfarb, self-styled inventor of SGML, called it an outstanding exercise in electro-political audacity, which I like better. My participation in the TEI as "European Editor" was financed partly through a series of European grants obtained by the ingenious, charismatic, and sadly missed Antonio Zampolli, at that time one of the first people to identify and successfully tap the rich sources of research funding headquartered in Luxembourg. 
+
+My other major activity of the nineties was the creation of the British National Corpus: another attempt to create a REALLY BIG collection of language data, this time for the use of lexicographers. This project got some serious funding due to an unusual coincidence of interest amongst commercial dictionary publishers, computational linguists, and the UK Government, which was at that time keen to develop something called the "language engineering industries". At OUCS, it led to the installation of some massive Sun Workstations in what is now a rather soggy meeting room called Turing but was then a rather soggy basement, along with three people to run them, one of whom (not me) actually knew how to design and implement a workflow for the production of several thousand miscellaneous texts and text samples with detailed SGML markup. It seems astonishing that both the TEI and the BNC are still alive and well, despite occasional reports of their obsolescence, but they are. The history of the TEI has yet to be written, if only because it's far from over; I have however written an article about the history of the BNC called "Where did we go wrong?" a title which regularly confuses the non-native English speakers who keep buying copies of the corpus year after year. 
+
+Almost every project or institution mentioned in this blog entry now has an entry in Wikipedia. I don't know what to make of that, but it is certainly sobering to reflect that when the decade I'm talking about began, we were somehow muddling along without any of mobile phones, Wikipedia, Facebook, or the Channel Tunnel, most of which had become unremarkable parts of everyday life by its end. That sort of thing makes a chap feel old.</p>
+</div>
+ 
+ <div><head ref="http://blogs.it.ox.ac.uk/louburnard/2010/09/three-dozen-years-at-oucs-vol-three-1996-2010/">Three dozen years at OUCS -- vol three: 1996-2010</head><p>Somewhere around 1995, about the time that Harold Short and I were busy designing the ill-fated UK Arts and Humanities Data Service, I made the transition into management. It's a bit of a blur now, but I think someone must have noticed I was having too much fun. For whatever reason, in one of those fits of enthusiasm for reorganisation which periodically grips OUCS, it was decided to knock together various hitherto discrete activities and create a new thingie called the "Humanities Computing Unit" with me as its manager. This rapidly proved to be not so much herding cats, as trying to prevent the huskies from disagreeing too much about the destination of our sledge: you will appreciate the justice of this metaphor if I remind you that the huskies in question included a comparatively youthful pair of doctors called Lee and Fraser, and Mr Michael Popham, amongst others. 
+
+Running the HCU was my introduction to the wonderful world of Oxford committees, the complexities of which rapidly made database knitting, international encoding research projects, and even corpus design look like child's play. I also found myself having to develop something I'd never heard of called "interpersonal skills" (some will assure you I was as bad at this as at bit twiddling). Still, it was actually quite a lot of fun running a unit dedicated to something that I had vigorously argued in public didn't exist, on a largely fictious budget, along with a bunch of other enthusiastic lunatics. The HCU had a strong sense of its own identity, largely because it was sequestered away from the rest of OUCS in the afore-mentioned soggy basement, but also because its members were all so, how can I put this tactfully, weird. It also, I can proudly say, introduced many fine traditions to OUCS, not least the Xmas party. And I am particularly proud of the fact that its lunatics have now taken over the asylum.
+
+ Talking of lunatics, on Sept 11, 2001, as everyone knows, the world changed forever. Quite apart from some bizarre incident in New York, that was when we realised that the HCU had become too noticeable to continue as a discrete entity within OUCS, and that unfortunately the newly invented Humanities division didn't have the money or the will power to offer it any other home. (It probably now has the latter, but sadly still not the former). We made a few attempts to redefine ourselves without the dread "humanities" badge we had been so proud of only five years earlier, but no-one was fooled. It was time to redeploy the components of the HCU across the rest of OUCS and I had to grow up and start doing serious things like amalgamate the OUCS front line support services, help square the circle that is co-ordination of distributed IT services across the university, manage a Research Technologies Service, set up and run an internal forum called the User Services Team, and manage the Core User Directory pilot service. Did I mention staying awake at SMG meetings? Yes, I had to do that too. 
+
+Fortunately I was still able to take some time off for good behaviour. Amongst other things, the TEI was reborn as an open source community, largely under the prodding of the very same Sebastian Rahtz I had known in the late eighties, and also underwent some long overdue technical enhancements which I could expatiate on at length, but won't. The success of the TEI also inspired a number of other projects in which I was involved, notably a European effort to standardize manuscript descriptions originally masterminded by Peter Robinson, which led to my (and others) spending much of the start of the 21st century trying to explain the delights of XML to bewildered librarians across many parts of eastern Europe. And a bit nearer home, when some time around 2008 les digital humanités suddenly became cool again, I found myself invited to participate in some French events and projects, most notably an infrastructural project called ADONIS to which I was seconded for a year in 2009.
+
+I should probably close this entry with some kind of magisterial summary, but the muse is fickle and the retirement party is close -- and later today I expect to have to summarize at least some of this for the amusement of those gathered at the nice party OUCS is laying on for me here in Oxford. So all I will say now is that despite the occasional grumbling from my perspective it's hard to conceive of a better employer than the University of Oxford has been. Throughout my career, I've worked closely with all sorts of people who don't work for OUCS, and time and again I've found myself being quietly smug, and even mildly surprised by the way other institutions don't seem to function in quite the same way. It's not just the free coffee, or the readiness to fund the occasional cricket match or Artsweek event; it's not even just the professionalism and the mutual respect that permeates all of those responsible for our technically very sophisticated environment: it's the presence of a culture that allows, encourages, even requires people to find their own way and to develop their own enthusiasms. I used to joke that I'd always benefitted from years of benign neglect, but I have also learned from the other side of the fence just how hard it is to find the right balance between helping people to build their own way, and making sure that they build something worth while. So my thanks for that are due to the many previous OUCS directors and managers I've reported to -- from Alan, via Christopher, Alan (a different one), Linda, Alan (yet another), Alan (the same one again), Alec (just for a change), Paul, and Stuart. 
+
+What next? That would be telling. If they let me keep this blog going....</p></div>
+ 
+ <div><head ref="http://blogs.it.ox.ac.uk/louburnard/2010/11/boxing-up/">Boxing up</head><p>In 36 years you accumulate a lot of paper even if yr schtick is supposed to be all about digitization, etexts, etc. You still accumulate reports and articles and minutes and logs and off prints and publicity glossies and lists,  things you wrote, things your friends wrote, things you read and enjoyed, things you felt you ought to read and enjoy, things you printed out because they looked as if you might enjoy them if you ever got round to reading them, things people sent you with touching dedicatory notes, things with sentimental association with times and places long since disappeared.... What's to do with all that paper?
+  </p>
+  <figure><graphic url="media/20100930_180801.jpg"/><head>State of play on 30 Oct 2010</head></figure>
+  <p>
+Most of it is by no means unique to me, so I could confidently think of its preservation as Someone Else's Problem. but there seems to be a law somewhere about the inverse relationship between the size of the <a target="http://en.wikipedia.org/wiki/Somebody_Else%27s_Problem">SEP field </a> and the size of one's ego, since I keep finding myself thinking about how jolly interesting this collection of stuff might be to anyone interested in the last three decades of digital humanities, as refracted through my experience of it. I know such beings must exist, I see they even get degrees in it, though who knows for how much longer.
+</p><p>
+So I spent the last couple weeks of October skimming through the junk.
+</p><p>
+Fortunately (or not) OUCS has a large dry basement, formerly used to house the air conditioning systems for the machine room, now used to store old furniture and other things people cannot bear to be parted from. I have been allocated some space and into it my boxes are to be conveyed just as soon as I finish packing and labeling them. As of 1 Nov, when I gave up, there are neatly queued up for the basement store
+<list>
+	<item>41 small. numbered boxes containing miscellaneous articles, offprints, manuals, reports etc.</item>
+	<item>10 chronologically-ordered small boxes containing detritus  from assorted events and conferences I attended between 1977 and 2000</item>
+	<item>2 boxes containing the delegate packs and abstract volumes from the ALLC/ACH or ACH/ALLC or DH conference, also going back to the late seventies, with just a few gaps.</item>
+	<item>3 boxes of papers and other material relating to the short glory days of the Humanities Computing Unit</item>
+	<item>One or two more about the Oxford Text Archive (already very well represented down in the OUCS Basement)</item>
+	<item>One box of very dusty old junk relating to my activities during  80s, in the field of database design and support</item>
+	<item>Four or five boxes of TEI memorabilia, including committee documents and drafts and working papers never digitized. Several copies of Ps 1 to 5... CDs from various TEI training events.</item>
+</list></p>
+<p>The contents of many of these boxes was catalogued back in the days when I had time to catalogue and an assistant to actually do it, on a Macintosh using a hypercard stack I wrote. Many years ago  also I  wrote a script to export that in SGML (of course), and that SGML file has since been converted into a TEI XML file (quelle surprise), so I know what (at least in theory) should be in many of them without looking. So I contented myself with cataloguing very roughly only the conference fallout boxes in addition, and put off to a rainy day any investigation of the others.
+</p><p>
+And acting on the suggestion of the current librarian of Senate House, who just happens also to be the current chair of the DRHA standing committee, I also put into a separate box every surviving document relating to or produced by the DRH(A) series of conferences...  yes every one of them from 1996 to 2010 inclusive. Said box has now been shipped off to the library at senate house for digitization, and will form the raw material for my forthcoming intensely interesting study on the evolution and sociology of academic conferences concerning the emergence of the Digital medium and its effects on the Humanities. Maybe.</p></div></body>
