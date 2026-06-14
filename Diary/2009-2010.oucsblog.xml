@@ -665,95 +665,9 @@ xpointer as the value for @wit
 <h2><span style="color: #993300">You can also find me elsewhere in cyberspace, see <a target="http://users.ox.ac.uk/~lou">http://users.ox.ac.uk/~lou</a> for details</span></h2>
 [Picture from Mike Licht's excellent set of such images <a target="http://www.flickr.com/photos/notionscapital/sets/72157604000142049/">on Flickr]</a></div>
  
- <div><head ref="http://blogs.it.ox.ac.uk/louburnard/2009/09/le-bloggingue/">Le bloggingue</head><p>At the CLEO Summer School in Marseille, I'm trying to concentrate on the presentation about "le blogging scientifique", but being distracted by the same summer school's twitter feed. (On which someone has just posted a link to <a target="http://detoutsurrien.wordpress.com/2009/09/10/le-blogging-scientifique-pierre-mounier-cleo-marseille/">his useful summary </a>There is definitely a difference between taking notes in a relatively focussed way, and trying to keep up with the tweets; and there's another difference between blogging as a tool (what you can do with it) and blogging as a phenomenon (what actually happens). Pierre Mounier's talk this morning tried to place blogging in the great scientific tradition of epistolary communication: an inheritor of 17th c manuscript discussion, etc. (an idea from J C Guedon it appears), as distinct from formal scientific publication. OK, but in practice how much scientific discussion takes place in the scientific blogosphere? I suppose the only way to find out is to join it. Which brings me to wonder whether or not our lovely new web service actually supports trackbacks, now that I've found out what they are?</p>
-  
-  </div>
  
- <div><head ref="http://blogs.it.ox.ac.uk/louburnard/2009/09/a-text-encoding-experiment/">A text encoding experiment</head><p>A few weeks ago I received an email from the TEI List inviting me (and any of that excellent list's other hundreds of markup nuts) to participate in some kind of a markup challenge. We were invited to look at image scans of a few pages of textual material (some pages from an early 20th c. guest register), consider  ways in which they should be marked up, and (critically) actually do the markup and hand it in by a specific deadline. The deadline hasn't expired yet, so I don't know whether this was actually a cunning psychological experiment or a genuine enquiry into the varieties of markup practice now current, or what. Anyway, I thought it might be fun to participate, and also to share my reactions as I proceed, possibly thus ruining the proponents' experimental design but that's life in the big city.
- </p><p>
-The material looks like this:
+ 
 
-[image suppressed]
-</p>
-<p>
-This immediately poses a fairly obvious question about the relative importance of capturing the layout features or the semantic content. I'm guessing that visual features such as the following
-<ul>
-	<item>text straying beyond their designated column</item>
-	<item>text written at a funny angle or otherwise tweaked to fit</item>
-	<item>actual position on the page of text</item>
-	<item>changes of hand or ink</item>
-</ul>
-are less interesting than
-<ul>
-	<item>distinguishing names of people from their addresses</item>
-	<item>distinguishing dates of arrival from dates of departure</item>
-</ul>
-But I can readily imagine people arguing that changes of hand or ink are really useful  ways of identifying something about who wrote the entry and when, and since the organisers have thoughtfully provided us with an HTML image map giving approximate co-ordinates for most items in the (unmarked up) transcript also provided, it would be relatively easy to include information linking bits of the transcript directly to bits of the page image.
-And of course the material doesn't all  look like this. Some of it looks like this:</p>
-
-<p style="text-align: left">
-[image suppressed]
-</p>
-<p style="text-align: left">We still have recognisable rows of client data – but the relative positions of their arrival and departure dates are now quite different. Do I care? Well, actually, no I don't. And that's why I decided against trying to use the tempting image map data served up on a plate. Instead, my view is that what's important here is to record as accurately as possible the semantic content. Each row records someone, or some group of someones, registering at this hotel on some date, and (sometimes) when they left. What matters (I am guessing) is who they were, where they came from, how long they stayed.  Each page contains a bunch of guestbook-entries; each entry contains at least the name of a person (sometimes more than one person),  plus some parts of an address, plus sometimes a date of arrival and sometimes a date of departure. A few entries have all of these, but the majority are to a greater or lesser extent "incomplete". And then you have the interesting problem of "ditto marks". Some times you have a dash, sometimes a splot that might be a double quote mark, sometimes you have the strange word "do", indicating that the item in some column should be understood as being copied from the item in the preceding row. (Or, ugh, part of it)</p>
-<p>
-So my first attempt looks like this</p>
-<!--<pre><entry>
-<dateArrival>23 Sept:</dateArrival>
-<client>
-<name>E.A. Coltmany</name>
-<address>Burbank. Burley. Hants:</address>
-</client>
-<dateDeparture>24th Sept:</dateDeparture>
-</entry>
-<entry>
-<dateArrival></dateArrival>
-<client>
-<name>Ken Doncaster</name>
-<address>Byway</address>
-</client>
-<dateDeparture></dateDeparture>
-</entry><entry>
-<dateArrival>May 1st</dateArrival>
-<client>
-<name>E. d. Bloomfield</name>
-<address>Hines Park Waterford</address>
-</client>
-<dateDeparture></dateDeparture>
-</entry></pre>-->
-<p>Do I care that the order of presentation of the components in the markup is not quite the same as that in the original? I'll think about that later. Do I care that I am going to have to make up lots of special purpose tags? I'll come back to that later too.</p>
-<p>
-If we're not really interested in the way these entries are written, but in what they talk about, then we really really need some way of   normalising the names of people and places.  The great thing about the TEI of course is that it provides mechanisms for doing this: I can link the names in my transcripts to some other place where they can be normalised or glossed. That might  be a canonical home elsewhere on the web for information about the person or placed referred to (Wikipedia maybe), or it might be a quickly constructed canonical shack I've hacked together for the purpose myself, using the TEI's fine module for people and places.   Off I scurry to ask Mr Google (and other suitable authorities) whether they have heard of any of the people or places listed in these pages.  This is dangerously close to being fun, so I don't attempt it for the whole of the text. But I am pleased to be able to use the standard TEI linking mechanisms to record in my TEI header my opinion that the "W Rowley Bristow" who stayed at the hotel in February 1935 (address Harley St) is probably the Walter Rowley Bristow (12 Dec 1882 - 1947) listed in <em>Who's Who in Orthopedics</em>; as I am to associate the cursory reference to "Col: H Ramsden-Jodrell" of Taxal Lodge, Whaley Bridge, with his full biographical note on a rather useful website called  http://www.thepeerage.com. So this what real researchers do all day!
-</p><p>
-Normalising the dates is a comparatively mechanical exercise, which I do with a bunch of emacs macros; on a closer look, I also see that some of the dates seem to have been rewritten or corrected, which I inconsistently decide it is worth marking up (with <gi>tei:subst</gi> and friends) even though arguably a presentational matter. The normalization process also helps a bit with the "ditto" problem, since it doesn't feel dishonest to add the normalised value for a date which is not there but implied by a ditto mark. Sadly, I can't see how to do that for placenames similarly implied. They will have to be represented by appropriate pointer elements.
-</p><p>
-As a concession to those who do care about the appearance of this text, I have defined a facsimile element in my document, and used the lazy person's method of linking page break elements to page images defined within it. If I was more interested in the physicality of the source (for example the fact that the first few pages are loose leaf) I'd probably do a lot more about defining surfaces and zones as well. But one has to make choices in any encoding exercise, even imaginary ones.
-</p><p>
-It's only when I am speeding out of the channel tunnel and thinking about generating a schema that I realise I could make the whole thing much simpler. My final model just needs one new element, which I think of as a specialised kind of paragraph-like thing called "guest", recording everything that the guestbook tells us about a particular stay by one or more people -- its dates, the names, and placenames involved. Since each these subcomponents clearly  appear in various orders and varying quantities, trying to make a more complex substructure to accomodate them is just taking a rod to my own wossname. So I redefine my guest element to contain any old mixture of text, <gi>tei:date</gi>,  <gi>tei:persName</gi>, <gi>tei:placeName</gi>, and useful TEI global elements, and to be datable. Bang out an appropriately cut down ODD and we're done.
-</p><p>
-So here's my final version:
-<!--<pre><my:guest from="1927-08-27">
-<persName>Mary Stokes</persName>
-<placeName>Monerakelle,</placeName>
-<placeName ref="http://en.wikipedia.org/wiki/Moneragala_District">Moneragalla</placeName>,
-<placeName>Ceylon.</placeName>
-<date>27th August</date>
-</my:guest>
-<my:guest from="1927-09-23" to="1927-09-24">
-<persName>E.A. Coltmany</persName>
-<placeName>Burbank.</placeName> <placeName>Burley.</placeName> <placeName>Hants:</placeName>
-<date>23 Sept:</date>
-<date>24th Sept:</date>
-</my:guest>
-<my:guest>
-<persName>Ken Doncaster</persName>
-<placeName>Byway</placeName>
-</my:guest></pre>-->
-Completing my homework, or at least making it less incomplete, is then a matter of generating an ODD, splitting up the existing address elements into component placeNames (a very useful exercise), and validating everything. The usual fighting with namespaces and xInclude. Oh but there's so much more one could do... Anyway, here's a zip file containing my resulting marked up text, and here's another containing the associated ODD, schema and doc files. And I handed it in before the deadline, too. Let's sit back and see what happens....
-</p>
- </div>
- 
-<div><head ref="http://blogs.it.ox.ac.uk/louburnard/2009/09/a-text-encoding-experiment-update/">A text encoding experiment - update</head><p>"Let's sit back and see what happens...." did I say? Within hours of my announcing my previous posting about a text encoding experiment to the organizers of same, I received plaintive emails requesting me to desist. Apparently it had not occurred to them to seek permission for online publication of the digital images distributed to participants from the rights owner for said materials. Or maybe it had, and they just haven't got round to it yet. It seems a bit weird to me to be promoting an experiment in text encoding where participants cannot share their results or even their sources with anyone other than the experimenter, but I expect that's what the rats in the  Animal Behaviour labs say too. Anyway, in case you're wondering, that's why the images I painstakingly uploaded yesterday have vanished, and why there are no links to my handed in results in the preceding post. If you're desperate for more, you'll just have to stop me in the virtual corridor.</p></div>
- 
  <div><head ref="http://blogs.it.ox.ac.uk/louburnard/2009/09/xaira-under-a-new-hat/">Xaira under a new Hat</head>
   
 <p>To set up Xaira on any machine, I normally proceed as follows:
@@ -764,14 +678,14 @@ Completing my homework, or at least making it less incomplete, is then a matter 
 </list>
 On this particular one, the BL's server running Red Hat, I first had to get connected to it via their super-secure VPN connexion. This involved a fair bit of messing about, downloading and installing a suitable VPN client for Linux, working out how to get said client running, and finding its configuration files, and indeed using the right passwords. Also  the promise in the installation script that it would initialise the client at a reboot turns out to be a complete lie. And when the connexion is finally  running, no other internet activity is possible on my desktop.
 Yesterday I managed to
-<ul>
+<list>
 	<item>get VPN-connected</item>
 	<item>Unpack the BNC disks, thoughtfully already copied to the machine (takes ages)</item>
 	<item>upload the Xaira source and start configure</item>
 	<item>Install the <strong> icu-devel-i386</strong> package</item>
-</ul>
+</list>
 Today, so far, I have
-<ul>
+<list>
 	<item>managed to remember  how to get connected again</item>
 	<item>Upload source for <strong> xerces-c-3.0.1</strong> (not unfortunately available as a package yet)</item>
 	<item>Try to build it. The instructions at the XERCES website say there is a reconfiguree utility, but there isn't, so I just did the default configure, make thing..
@@ -790,7 +704,7 @@ collect2: ld returned 1 exit status</pre>
 </item>
 	<item>All of which, suggests that the configure is not doing things right. Maybe it thinks this is a 64 bit machine? (Maybe it *is* a 64 bit machine) Wasted most of the evening tryiong (unsuccessfully) to get a VPN client running under Windows7 so I could investigate further. Grrr.</item>
 	<item>After another day's looking... sigh, yes, uname confirms that this is indeed a 64 bit machine running a 64 bit kernel. Both 32 and 64 bit libraries are available, but I'm blowed if I can work out how to tell configure which one to use. Back to the drawing board...</item>
-</ul>
+</list>
 
 <strong>Update</strong> Using the BL VPN client is such a pain, I have now asked those nice people in NSMS to give us an identical vm to play with instead. It says something about how much we depend on the internet to do anything these days that a working environment in which you can only talk to one machine at a time is just infeasible...</p>
 </div>
@@ -824,38 +738,38 @@ After saying my farewells, I went for a walk around the Park, to have what was l
  <div><head ref="http://blogs.it.ox.ac.uk/louburnard/2009/11/58/"/><p>When a new Ubuntu release comes out,I tend to just push the button and install it as an upgrade. Almost every time this <em>nearly </em>works, and therefore almost every time I find myself fiddling around for longer than strictly necessary. This is an aide memoire for next time, when the lecherous Leech (or whatever it's called) is upon us in April...</p>
 <list>
 	<item>
-<p style="margin-bottom: 0cm">Upgraded Benson 	(my domestic desktop, don't ask) overnight. Everything just worked. 	(Well, nearly everything.  I had to fight with skype quite a lot on 	Saturday morning before I realised that I had two different sound 	inputs when the webcam was plugged in, and Skype was choosing the 	wrong one, but that was my fault not its)</p>
+<p>Upgraded Benson 	(my domestic desktop, don't ask) overnight. Everything just worked. 	(Well, nearly everything.  I had to fight with skype quite a lot on 	Saturday morning before I realised that I had two different sound 	inputs when the webcam was plugged in, and Skype was choosing the 	wrong one, but that was my fault not its)</p>
 </item>
 	<item>
-<p style="margin-bottom: 0cm">Thus encouraged, I 	decided also to upgrade Thimk (my laptop, the one I use everywhere, 	the one I am about to depend on for two weeks travelling). Not a 	good idea. It all seemed to work, except that …</p>
+<p>Thus encouraged, I 	decided also to upgrade Thimk (my laptop, the one I use everywhere, 	the one I am about to depend on for two weeks travelling). Not a 	good idea. It all seemed to work, except that …</p>
 
-<ul>
+<list>
 	<item>
-<p style="margin-bottom: 0cm">The audio 		disappeared, completely.  Even the little wotsit  called “Sound” 		under System-Preferences disappeared. When I launched Digikam, 		which is a KDE application I use for managing photos, it protested 		that something called Morphon was unhappy.... Actually several 		things were unhappy, not least me.</p>
+<p>The audio 		disappeared, completely.  Even the little wotsit  called “Sound” 		under System-Preferences disappeared. When I launched Digikam, 		which is a KDE application I use for managing photos, it protested 		that something called Morphon was unhappy.... Actually several 		things were unhappy, not least me.</p>
 </item>
 	<item>
-<p style="margin-bottom: 0cm">Something, 		presumably Gnome, kept trying to do something crucial in the 		background, presumably trying to recover from this unhappy 		situation, which meant that there weren't any CPU  cycles left for 		me to do things like scroll windows. Which made most things other 		than emacs unusable. OK, I do most things with emacs anyway, but 		still...</p>
+<p>Something, 		presumably Gnome, kept trying to do something crucial in the 		background, presumably trying to recover from this unhappy 		situation, which meant that there weren't any CPU  cycles left for 		me to do things like scroll windows. Which made most things other 		than emacs unusable. OK, I do most things with emacs anyway, but 		still...</p>
 </item>
 	<item>
-<p style="margin-bottom: 0cm">In such 		circumstances, one does two things: reboot several times; and spend 		ages trawling the interweb for plaintive messages from fellow 		sufferers, in the hope that one of them will have found or been 		given an answer. The latter course (as usual) showed me that I was 		not alone –  but that no-one had a sure-fire solution. A 		significant number of people opined that pulseAudio was a disaster 		area... but there it was working quite happily on my desktop, and 		removing it certainly didn't solve my laptop's problem.</p>
+<p>In such 		circumstances, one does two things: reboot several times; and spend 		ages trawling the interweb for plaintive messages from fellow 		sufferers, in the hope that one of them will have found or been 		given an answer. The latter course (as usual) showed me that I was 		not alone –  but that no-one had a sure-fire solution. A 		significant number of people opined that pulseAudio was a disaster 		area... but there it was working quite happily on my desktop, and 		removing it certainly didn't solve my laptop's problem.</p>
 </item>
 	<item>
-<p style="margin-bottom: 0cm">The rebooting 		showed up a much more alarming problem: approximately half of the 		time, the laptop would hang in the middle of the boot sequence 		(immediately after loading the drivers for the stupid 3G modem I 		never use, since you ask). And half the time it would complete the 		boot sequence and then hit the problems outlined above.</p>
+<p>The rebooting 		showed up a much more alarming problem: approximately half of the 		time, the laptop would hang in the middle of the boot sequence 		(immediately after loading the drivers for the stupid 3G modem I 		never use, since you ask). And half the time it would complete the 		boot sequence and then hit the problems outlined above.</p>
 </item>
-</ul>
-</item>
-	<item>
-<p style="margin-bottom: 0cm">What does the 	superior man do when confronted by such problems? He moves on, or to 	be more exact, he moves back. Thanks to the wonders of the 	oucs-ubuntu stick I can reinstall a nice fresh Jaunty Jackalope Just 	Like That. This will mean reinstalling all the software packages 	I've added since June or whenever, not to mention taking steps to 	recover from having my home directory zapped but still.</p>
+</list>
 </item>
 	<item>
-<p style="margin-bottom: 0cm">It's Sunday, so I 	am going to be pottering about in the kitchen baking, not to mention 	the ironing. So it's no big deal to connect the big USB disk to the 	laptop, boot the latter from the oucs-ubuntu stick, and do a 	not-so-quick rsync of my home directory to the former. Here's the 	command line I chose eventually:</p>
-<p style="margin-bottom: 0cm"><code>sudo rsync 	-vrlPeogt –exclude=Public /media/disk-1/home/lou 	/media/disk/thinkBack2</code></p>
-<p style="margin-bottom: 0cm">The 	 --exclude is to exclude stuff which is available from various SVN 	servers; I also had the sense to delete the .trash directory before 	starting the backup. </p>
+<p>What does the 	superior man do when confronted by such problems? He moves on, or to 	be more exact, he moves back. Thanks to the wonders of the 	oucs-ubuntu stick I can reinstall a nice fresh Jaunty Jackalope Just 	Like That. This will mean reinstalling all the software packages 	I've added since June or whenever, not to mention taking steps to 	recover from having my home directory zapped but still.</p>
 </item>
 	<item>
-<p style="margin-bottom: 0cm">Then 	it's just a matter of ... </p>
+<p>It's Sunday, so I 	am going to be pottering about in the kitchen baking, not to mention 	the ironing. So it's no big deal to connect the big USB disk to the 	laptop, boot the latter from the oucs-ubuntu stick, and do a 	not-so-quick rsync of my home directory to the former. Here's the 	command line I chose eventually:</p>
+<p><code>sudo rsync 	-vrlPeogt –exclude=Public /media/disk-1/home/lou 	/media/disk/thinkBack2</code></p>
+<p>The 	 --exclude is to exclude stuff which is available from various SVN 	servers; I also had the sense to delete the .trash directory before 	starting the backup. </p>
+</item>
+	<item>
+<p>Then 	it's just a matter of ... </p>
 
-<ul>
+<list>
 	<item>
 telling 		the oucs-ubuntu stick to install itself de novo on the laptop
 </item>
@@ -868,26 +782,26 @@ reinstalling 		any packages I'd forgotten I was using
 	<item>
 repopulating 		my Public directory from the sourceforge and OUCS repositories
 </item>
-</ul>
+</list>
 </item>
 </list>
-<p style="margin-bottom: 0cm">It's 	getting on for 9 pm, and the restore is still chugging away: I fear 	I will have to get on with the ironing after all.</p>
+<p>It's 	getting on for 9 pm, and the restore is still chugging away: I fear 	I will have to get on with the ironing after all.</p>
 
-<p style="margin-bottom: 0cm">Don't get me wrong. I'm still a Ubuntu fanboy... I think.</p>
+<p>Don't get me wrong. I'm still a Ubuntu fanboy... I think.</p>
 </div><div><head ref="http://blogs.it.ox.ac.uk/louburnard/about/bloggeur/">Le bloggeur</head>Borrowed from Mike Ficht's splendid set of blogging images</div><div><head ref="http://blogs.it.ox.ac.uk/louburnard/2009/11/apt-get-install-hadopi-la-loi-installee-par-les-geeks-numerama/">apt-get install hadopi : la loi installée par les geeks - Numerama</head>This hits so many of my favourite buttons at once it's hardly likely  anyone else will get it. But it still made me chortle.
 
 <a target="http://www.numerama.com/magazine/14026-apt-get-install-hadopi-la-loi-installee-par-les-geeks.html">apt-get install hadopi : la loi installée par les geeks - Numerama</a>.</div><div><head ref="http://blogs.it.ox.ac.uk/louburnard/2010/03/what-i-am-doing-in-paris-since-you-ask/utopie/">utopie</head></div>
  
  <div><head ref="http://blogs.it.ox.ac.uk/louburnard/aftertag/">afterTag</head>[sourcecode language="perl"]
-<eg><![CDATA[
+<eg>
 # afterTag.prl
 # cajoles output from treeTagger into proper TEI XML
 #
 $sno = 1;
-while (<>) {
+while (&lt;>) {
 chop;
 s//XXXX/;
-if (/<!--) { # tag found<br /--> $buffer .= $_;
+if (/&lt;!--) { # tag found&lt;br /--> $buffer .= $_;
 } else { # token found
 ($str, $pos, $hw) = split(/\t/);
 $tag = "w";
@@ -910,24 +824,24 @@ $tag = "pc";
 $hw ="";
 }
  
-$str =~ s/\&amp;amp;amp;/\&amp;amp;amp;\;/g;
-$hw =~ s/\&amp;amp;amp;/and/g;
+$str =~ s/\&amp;amp;amp;amp;/\&amp;amp;amp;amp;\;/g;
+$hw =~ s/\&amp;amp;amp;amp;/and/g;
 if ($hw) {$hw = " lemma\=\"$hw\""};
 
-$buffer .=  "<$tag type\=\"$pos\"$hw>$str<\/$tag>\n";
+$buffer .=  "&lt;$tag type\=\"$pos\"$hw>$str&lt;\/$tag>\n";
 
 }
 
 } # end of file
 
 $buffer =~ s/]*)>//g;
-$buffer =~ s/<\/head>/<\/s><\/head>/g;
+$buffer =~ s/&lt;\/head>/&lt;\/s>&lt;\/head>/g;
 $buffer =~ s/]+)>//g;
 $buffer =~ s/\n+//g;
-$buffer =~ s/<\/p>/<\/s><\/p>/g;
+$buffer =~ s/&lt;\/p>/&lt;\/s>&lt;\/p>/g;
 $buffer =~ s/]+)>//g;
-$buffer =~ s/<\/ab>/<\/s><\/ab>/g;
-$buffer =~ s/(type="SENT"[^\/]+\/pc>\n)<\/s>\n
+$buffer =~ s/&lt;\/ab>/&lt;\/s>&lt;\/ab>/g;
+$buffer =~ s/(type="SENT"[^\/]+\/pc>\n)&lt;\/s>\n
 print $buffer;
 
 sub sentenceStart {
@@ -939,17 +853,17 @@ sub sentenceStop {
 my $notYet;
 foreach $openTag  (keys %tagStash) {
 if($tagStash{$openTag} > 0)
-{ print"<!-- .. still got an open $openTag -->";
+{ print"&lt;!-- .. still got an open $openTag -->";
 $notYet = "1";
 }
 }
 
 unless ($notYet) {
-#    print "<\/s>\n";
+#    print "&lt;\/s>\n";
 print "\n";
 $sentenceStarted = $sentenceEnded = 0;
 }
-}]]>
+}
 </eg>
  
 </div>
@@ -1054,65 +968,4 @@ Standing in for my Adonisian colleagues Richard Walter and Stephane Pouyllau, I 
 
 For the final session of the two days, we heard from Dominique Roux aand Pierre-Yves Buard about  ways in which TEI can fit well into both  technical and economic models for small academic publishers, based on their experience at the <a target="http://www.unicaen.fr/services/puc/index.php">Presses universitaires de Caen</a>, which remains (sadly) unique amongst the numerous small French University presses in actually putting into practice some enlightened views about the role of a university press in the digital age, particularly with respect to the use of XML in the publishing process. This was held in a lecture room basement lecture room converted from a dungeon formerly used by the Gestapo, or so I was told; it felt more like a Turkish bath. </p>
   
-</div><div><head ref="http://blogs.it.ox.ac.uk/louburnard/2010/08/toodle-pip/">Toodle-pip</head><img src="http://blogs.it.ox.ac.uk/louburnard/files/2010/08/Emergency-Exit-300x300.jpg" alt="Exit" title="Exit" width="300" height="300" class="alignleft size-small wp-image-98" /><p>The deal being now more or less wrapped up, it seems appropriate to  announce it here first. I'm taking early retirement from OUCS, and moving on after (count them) thirty-six years in academic computing support. When you start thinking more about the decades that have disappeared than those which are yet to come, it's usually a sign that you need to shake things up a bit, so that's my plan. A touch regretfully of course,  because Oxford University has been a very good employer, and I have thrived here in ways I couldn't begin to imagine being possible elsewhere. Thanks for everything chaps: you've all been wonderful.  There are loose ends to be sorted out in the next few weeks, but my leaving date is fixed for 30 September, so those that don't get sorted by then probably won't. 
-</p>
-</div><div><head ref="http://blogs.it.ox.ac.uk/louburnard/2010/09/three-dozen-years-at-oucs-vol-one/">Three dozen years at OUCS -- vol one</head><p>I first joined OUCS as a data centre operator in the autumn of 1973. Newly returned with wife and baby from Malawi, I needed the money and OUCS wanted someone to look after its new "remote job entry" facility -- a room containing a couple of teletypes, a card reader, a lineprinter, and a large mysterious white box called a MOD 1 located in the Atmospheric Physics department. My job was to keep an eye on the teletype monitoring the state of this computer by means of a noisy typewriter-like device which would tell me the the time every five minutes, and the date every fifteen minutes on a very long roll of paper. Occasionally, it would also display a message to or from the other operators on the system. If it stopped working, I was responsible for calling out Geoff Lescott (my first boss) who would usually suggest rebooting the MOD1 by running a paper tape through it. If that didn't work, we'd send for the engineers and take the rest of the day off, hoorah. I was also responsible for sorting out the reams of paper being churned out by the line printer in the middle of the room. There was a right way of doing this and a wrong way. The right way was to find the banner page with the name of the person whose job output followed and fold it neatly in half horizontally, without detaching it from the rest, tear off the rest of the batch belonging to that username, and place it tidily on the table in the corner. The wrong way was to just leave the whole pile in the corner, and let the users deal with it themselves. Since the users concerned were either boffins pressed for time or D Phil students who didn't know their left hand from their right, the wrong way usually worked quite well. 
-
-In April 1974 I applied for, and got, a more white-collar kind of job, as an application programmer. This was almost like moving from the shop floor into middle management. My new contract was "academically related" and conferred on me the right to use the staff tearoom at the Computing Services' swish new premises at 19 Banbury Road, as well as my very own desk in the corner of one of the top floor offices. I shared this with Carol Bateman, Bob Douglas, and Edwin Taylor. Charles Curran made a similar transition across the class divide at about the same time. Access to the time-sharing facility ("MOP") on the 1906A was via a couple of teletypes outside the office, but most of my time was spent leafing through huge wodges of lineprinter output and scribbling on it. In those distant days, tobacco smoke was an acceptable, even accepted, accompaniment to office life, so I used to consume large amounts of fragrant Gold Block while wondering why my latest attempt to move some bits from one end of an 8 bit byte to the other had failed ignominiously.
-
-The bit twiddling was done in a language called PLAN, which was the low level machine code for the ICL 1906A. My initiation as a programmer was to write a routine which could be used to pack six-bit characters from the ICL filesystem into eight-bit bytes on the PDP 8 mini used to drive Oxford's state of the art graphics display devices. It took me weeks, and a lot of patience on the part of one of the real system programmars, Alan Fuller, who had been charged with my initiation into the mysteries of machine code programming, an art which I took to like a brick to water.
-
-OUCS had a team of about 12 programmers in those days, divided into "system" programmers, who knew how to make the computer sit up and do stuff, and "application" programmers, who knew what sorts of stuff might actually be useful to anyone, chiefly libraries of arcane mathematical routines. The boundaries were fluid however, and further confused by the introduction during the eighties of a third estate called "communications" programmers who knew all about the bits of string by which computers and computer users communicated. The top man on the systems side was a charismatic fellow called Chris Cheetham, while the applications side reported to a strong-minded lady called Linda Hayes.
-
-Once a week every programmer had to sit in a little room called "Programme Advisory" for a couple of hours, and attempt to console harassed users, usually clutching reams of Fortran printout. This was not as difficult as it sounds -- nine times out of ten the problem was caused by misaligned pointers to COMMON blocks, wrong length variables (Ah the joys of the fortran IMPLICIT statement), or NAG routines being called with faulty arguments. If all else failed, you could get rid of the user by suggesting insertion of some PRINT statements at random points in the code, or in really dire cases summoning another expert to repeat the diagnostic process. The chief benefit of an Oxford education, as any fule kno, is the ability to sound convincingly knowledgeable on anything, so I survived this experience unscathed, even though I didn't (and don't) know an eigen vector from a fast fourier transform. 
-
-In those days of course, any university worth its salt had a massive mainframe computer, partially funded by a now defunct government agency called the Computer Board, and also maintained a small staff of technicians to look after it. This was necessary since those mainframe computers were temperamental beasts, and (moreover) all had to be controlled using different languages and command systems; us ICL experts remained for the most part blissfully ignorant of the workings of the IBM system at Liverpool or the CDC system in London. "Information Technology" as a career was in the process of being invented at the time. I was encouraged by the management to take an active role in representing the University on what we would now call community development activities such as user groups and inter-university committees for this that and the other. My collected visit reports from the period record indicate how mutually baffling an experience it was for me and (say) the DP Manager of West Midlands Gas to find outselves jointly lobbying ICL to get on with delivering some enhanced database product or other. They also contain a fair amount of academic gossip, in which some famous names pop up occasionally. 
-
-When it became apparent that bit-twiddling was not my forte, I took up (or invented) the role of database expert, which I occupied for most of the eighties. I also backed up Susan Hockey in providing some support for bewildered boffins from non-scientific or mathematical faculties who had heard rumours about the possibility of applying computing hardware to literary or linguistic research questions. I was of course already doing this for my own interest (I had spent quite a lot of my time as a data centre operator in producing the world's first computer-generated concordance to the works of Bob Dylan, distributed to discerning friends as a Christmas present in 1973). In 1977, I also invented a role for myself as custodian and evangelist for something called the Oxford Text Archive, the object of which was partly to encourage the sharing of those expensively produced machine-readable source texts, despite the laws of copyright and the immense variability of practice amongst the strange people who transcribed texts for manipulation by computer in those days. And of course to satisfy my own curiosity about what might be done with a really big collection of such things, if it ever existed. 
-
-In the days before Google, the process of searching through large amounts of computer-held text was moderately problematic, and academically the concern of a minor subdiscipline of librarianship optimistically called "information retrieval". The current wisdom was that you needed lots of predefined indexes until such time as expert systems came along to do the reading for you. At the end of the eighties I had a lot of fun exploring the possibilities of a wizard gadget called the "Content Addressable File Store" or CAFS. ICL wanted to use this now-forgotten British invention to revolutionize their transaction processing and database systems; I used it to provide high speed non-indexed searching of oh huge amounts of text e.g. the complete works of Shakespeare, or the Bodleian pre-1920 catalogue, which was weird enough to feature extensively in ICL's marketing literature, as was I. </p></div>
- 
- <div><head ref="http://blogs.it.ox.ac.uk/louburnard/2010/09/three-dozen-years-at-oucs-vol-two/">Three dozen years at OUCS - vol two: 1986-1995</head><p>This decade began as the age of the BBC micro, the Amstrad Word Processor, and the Computers in Teaching Initiative. At OUCS, the ICL 1906A had been switched off in 1981 and replaced by an unloved but bright orange 2900 series mainframe, which we had the difficult task of persuading a sceptical university they liked better than the really boring but much more efficient VAX VMS system which complemented it. But the days of the mainframe, whatever colour, were clearly numbered. In my office, an Olivetti microcomputer running something called MS-DOS appeared (catch me using an IBM like everyone else); a bit later on I installed a Macintosh with an A4 monitor and started preparing overheads for my talks on that instead of Charles Curran's ICL PERQ. Computing stopped being something you did in batches or at a terminal, and became something you did on your desk. The phrases "information technology", "desktop publishing" and "word processing" were heard in the land. Amongst other seminal events, in November 1986, I attended a conference at the University of Waterloo on the possibilities offered by the forthcoming first ever digitized edition of the Oxford English Dictionary. In April 1987, Sebastian Rahtz organised a conference on Computers and Teaching in the Humanities at Southampton University. And in November 1987, I attended an international conference at Poughkeepsie College in upstate New York from which was born the  Text Encoding Initiative. 
-
-The Internet started its insidious transformation of everyday life. From 1989 onwards, earnest intellectual discussion on the newly founded Humanist mailing list led to new acquaintances and new social networks (only we didn't call them that). In 1993 I went to a Network Services Conference, organised by something called the European Academic Research Network. Here a man called Robert Cailliau from CERN demonstrated live a program called Mosaic which could display data from sites on three different continents, which was almost as amazing as the sight of a room full of people from Eastern and Central Europe taking advantage of Poland's recent accession to EARN (the European end of BITNET) and consequent unwonted connectivity by sending email messages back home in dozens of funny languages. To say nothing of the crazy notion, which I first heard voiced there, that one day people would actually use this World Wide Web thing as a means of making money. In Oxford, of course, after much deliberation, at this time we had just installed something called Gopher to run our information services.
-
-I did a huge amount of travelling in the nineties, much of it on behalf of the TEI, which I joined as European editor in 1989. Between 1990 and 1994, when the TEI Guidelines were finally published as two big green books, I must have made more than a dozen trips to the US, and as many to various places in Europe, to attend the umpteen committee and workgroup meetings whose deliberations formed the basis of the TEI Guideline, to argue with the TEI's North American editor -- one Michael Sperberg-McQueen -- about how those deliberations should best be represented in SGML, and to make common cause with him in defending our decisions to the TEI's occasionally infuriating steeering committee. Michael has described the first of these processes as resembling the herding of cats but Charles Goldfarb, self-styled inventor of SGML, called it an outstanding exercise in electro-political audacity, which I like better. My participation in the TEI as "European Editor" was financed partly through a series of European grants obtained by the ingenious, charismatic, and sadly missed Antonio Zampolli, at that time one of the first people to identify and successfully tap the rich sources of research funding headquartered in Luxembourg. 
-
-My other major activity of the nineties was the creation of the British National Corpus: another attempt to create a REALLY BIG collection of language data, this time for the use of lexicographers. This project got some serious funding due to an unusual coincidence of interest amongst commercial dictionary publishers, computational linguists, and the UK Government, which was at that time keen to develop something called the "language engineering industries". At OUCS, it led to the installation of some massive Sun Workstations in what is now a rather soggy meeting room called Turing but was then a rather soggy basement, along with three people to run them, one of whom (not me) actually knew how to design and implement a workflow for the production of several thousand miscellaneous texts and text samples with detailed SGML markup. It seems astonishing that both the TEI and the BNC are still alive and well, despite occasional reports of their obsolescence, but they are. The history of the TEI has yet to be written, if only because it's far from over; I have however written an article about the history of the BNC called "Where did we go wrong?" a title which regularly confuses the non-native English speakers who keep buying copies of the corpus year after year. 
-
-Almost every project or institution mentioned in this blog entry now has an entry in Wikipedia. I don't know what to make of that, but it is certainly sobering to reflect that when the decade I'm talking about began, we were somehow muddling along without any of mobile phones, Wikipedia, Facebook, or the Channel Tunnel, most of which had become unremarkable parts of everyday life by its end. That sort of thing makes a chap feel old.</p>
-</div>
- 
- <div><head ref="http://blogs.it.ox.ac.uk/louburnard/2010/09/three-dozen-years-at-oucs-vol-three-1996-2010/">Three dozen years at OUCS -- vol three: 1996-2010</head><p>Somewhere around 1995, about the time that Harold Short and I were busy designing the ill-fated UK Arts and Humanities Data Service, I made the transition into management. It's a bit of a blur now, but I think someone must have noticed I was having too much fun. For whatever reason, in one of those fits of enthusiasm for reorganisation which periodically grips OUCS, it was decided to knock together various hitherto discrete activities and create a new thingie called the "Humanities Computing Unit" with me as its manager. This rapidly proved to be not so much herding cats, as trying to prevent the huskies from disagreeing too much about the destination of our sledge: you will appreciate the justice of this metaphor if I remind you that the huskies in question included a comparatively youthful pair of doctors called Lee and Fraser, and Mr Michael Popham, amongst others. 
-
-Running the HCU was my introduction to the wonderful world of Oxford committees, the complexities of which rapidly made database knitting, international encoding research projects, and even corpus design look like child's play. I also found myself having to develop something I'd never heard of called "interpersonal skills" (some will assure you I was as bad at this as at bit twiddling). Still, it was actually quite a lot of fun running a unit dedicated to something that I had vigorously argued in public didn't exist, on a largely fictious budget, along with a bunch of other enthusiastic lunatics. The HCU had a strong sense of its own identity, largely because it was sequestered away from the rest of OUCS in the afore-mentioned soggy basement, but also because its members were all so, how can I put this tactfully, weird. It also, I can proudly say, introduced many fine traditions to OUCS, not least the Xmas party. And I am particularly proud of the fact that its lunatics have now taken over the asylum.
-
- Talking of lunatics, on Sept 11, 2001, as everyone knows, the world changed forever. Quite apart from some bizarre incident in New York, that was when we realised that the HCU had become too noticeable to continue as a discrete entity within OUCS, and that unfortunately the newly invented Humanities division didn't have the money or the will power to offer it any other home. (It probably now has the latter, but sadly still not the former). We made a few attempts to redefine ourselves without the dread "humanities" badge we had been so proud of only five years earlier, but no-one was fooled. It was time to redeploy the components of the HCU across the rest of OUCS and I had to grow up and start doing serious things like amalgamate the OUCS front line support services, help square the circle that is co-ordination of distributed IT services across the university, manage a Research Technologies Service, set up and run an internal forum called the User Services Team, and manage the Core User Directory pilot service. Did I mention staying awake at SMG meetings? Yes, I had to do that too. 
-
-Fortunately I was still able to take some time off for good behaviour. Amongst other things, the TEI was reborn as an open source community, largely under the prodding of the very same Sebastian Rahtz I had known in the late eighties, and also underwent some long overdue technical enhancements which I could expatiate on at length, but won't. The success of the TEI also inspired a number of other projects in which I was involved, notably a European effort to standardize manuscript descriptions originally masterminded by Peter Robinson, which led to my (and others) spending much of the start of the 21st century trying to explain the delights of XML to bewildered librarians across many parts of eastern Europe. And a bit nearer home, when some time around 2008 les digital humanités suddenly became cool again, I found myself invited to participate in some French events and projects, most notably an infrastructural project called ADONIS to which I was seconded for a year in 2009.
-
-I should probably close this entry with some kind of magisterial summary, but the muse is fickle and the retirement party is close -- and later today I expect to have to summarize at least some of this for the amusement of those gathered at the nice party OUCS is laying on for me here in Oxford. So all I will say now is that despite the occasional grumbling from my perspective it's hard to conceive of a better employer than the University of Oxford has been. Throughout my career, I've worked closely with all sorts of people who don't work for OUCS, and time and again I've found myself being quietly smug, and even mildly surprised by the way other institutions don't seem to function in quite the same way. It's not just the free coffee, or the readiness to fund the occasional cricket match or Artsweek event; it's not even just the professionalism and the mutual respect that permeates all of those responsible for our technically very sophisticated environment: it's the presence of a culture that allows, encourages, even requires people to find their own way and to develop their own enthusiasms. I used to joke that I'd always benefitted from years of benign neglect, but I have also learned from the other side of the fence just how hard it is to find the right balance between helping people to build their own way, and making sure that they build something worth while. So my thanks for that are due to the many previous OUCS directors and managers I've reported to -- from Alan, via Christopher, Alan (a different one), Linda, Alan (yet another), Alan (the same one again), Alec (just for a change), Paul, and Stuart. 
-
-What next? That would be telling. If they let me keep this blog going....</p></div>
- 
- <div><head ref="http://blogs.it.ox.ac.uk/louburnard/2010/11/boxing-up/">Boxing up</head><p>In 36 years you accumulate a lot of paper even if yr schtick is supposed to be all about digitization, etexts, etc. You still accumulate reports and articles and minutes and logs and off prints and publicity glossies and lists,  things you wrote, things your friends wrote, things you read and enjoyed, things you felt you ought to read and enjoy, things you printed out because they looked as if you might enjoy them if you ever got round to reading them, things people sent you with touching dedicatory notes, things with sentimental association with times and places long since disappeared.... What's to do with all that paper?
-  </p>
-  <figure><graphic url="media/20100930_180801.jpg"/><head>State of play on 30 Oct 2010</head></figure>
-  <p>
-Most of it is by no means unique to me, so I could confidently think of its preservation as Someone Else's Problem. but there seems to be a law somewhere about the inverse relationship between the size of the <a target="http://en.wikipedia.org/wiki/Somebody_Else%27s_Problem">SEP field </a> and the size of one's ego, since I keep finding myself thinking about how jolly interesting this collection of stuff might be to anyone interested in the last three decades of digital humanities, as refracted through my experience of it. I know such beings must exist, I see they even get degrees in it, though who knows for how much longer.
-</p><p>
-So I spent the last couple weeks of October skimming through the junk.
-</p><p>
-Fortunately (or not) OUCS has a large dry basement, formerly used to house the air conditioning systems for the machine room, now used to store old furniture and other things people cannot bear to be parted from. I have been allocated some space and into it my boxes are to be conveyed just as soon as I finish packing and labeling them. As of 1 Nov, when I gave up, there are neatly queued up for the basement store
-<list>
-	<item>41 small. numbered boxes containing miscellaneous articles, offprints, manuals, reports etc.</item>
-	<item>10 chronologically-ordered small boxes containing detritus  from assorted events and conferences I attended between 1977 and 2000</item>
-	<item>2 boxes containing the delegate packs and abstract volumes from the ALLC/ACH or ACH/ALLC or DH conference, also going back to the late seventies, with just a few gaps.</item>
-	<item>3 boxes of papers and other material relating to the short glory days of the Humanities Computing Unit</item>
-	<item>One or two more about the Oxford Text Archive (already very well represented down in the OUCS Basement)</item>
-	<item>One box of very dusty old junk relating to my activities during  80s, in the field of database design and support</item>
-	<item>Four or five boxes of TEI memorabilia, including committee documents and drafts and working papers never digitized. Several copies of Ps 1 to 5... CDs from various TEI training events.</item>
-</list></p>
-<p>The contents of many of these boxes was catalogued back in the days when I had time to catalogue and an assistant to actually do it, on a Macintosh using a hypercard stack I wrote. Many years ago  also I  wrote a script to export that in SGML (of course), and that SGML file has since been converted into a TEI XML file (quelle surprise), so I know what (at least in theory) should be in many of them without looking. So I contented myself with cataloguing very roughly only the conference fallout boxes in addition, and put off to a rainy day any investigation of the others.
-</p><p>
-And acting on the suggestion of the current librarian of Senate House, who just happens also to be the current chair of the DRHA standing committee, I also put into a separate box every surviving document relating to or produced by the DRH(A) series of conferences...  yes every one of them from 1996 to 2010 inclusive. Said box has now been shipped off to the library at senate house for digitization, and will form the raw material for my forthcoming intensely interesting study on the evolution and sociology of academic conferences concerning the emergence of the Digital medium and its effects on the Humanities. Maybe.</p></div></body>
+</div></body>
