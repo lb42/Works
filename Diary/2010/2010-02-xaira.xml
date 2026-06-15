@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="2010-02-xaira">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>XAIRA meets her Maj</title>
+
+</titleStmt>
+<publicationStmt>
+<publisher>Self-published (OUCS blog)</publisher>
+<idno type="URL"
+>https://louburnard.wordpress.com/2009/11/20/keep-up-at-the-back/</idno>
+<date when="2009-11-20">2009-11-20</date>
+<availability>
+<p>Originally published on OUCS blog</p>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from http://blogs.it.ox.ac.uk/louburnard/2010/02/xaira-meets-her-maj/</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<textClass>
+<keywords scheme="category">
+<term>Biographical</term>
+
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div><head >XAIRA meets her Maj</head><p>Looking around for an interesting data set to play with (for the <ref target="http://dariah.eu/wiki/index.php?title=TeiDemonstrator">TEI Demonstrator project</ref> <hi>inter alia</hi>) the other day, I discovered that the British Royal Family's very own website includes  transcripts of every one of  the Queen's Christmas Day broadcasts, from 1953 to date. A fascinating slice of English social history, reflecting our sovereign lady's unchanged obsession with family values and the Commonwealth over the last half century and also pretty easy to hoover up and reprocess into something susceptible of automatic analysis. (I'm not the first to notice this, by the way; I stole the idea from those clever chaps at the <ref target="http://labs.timesonline.co.uk/blog/2010/01/21/christmas-words-the-queens-speech-since-1952/">Times Online Labs)</ref>
+</p><p>
+This post just summarizes what I did to make the corpus.
+<list>
+<item>I used <ref target="http://www.gnu.org/software/wget/">wget</ref> to download the relevant chunks of <ref target="http://royal.gov.uk">the website</ref> (the bits I wanted were conveniently all in one subdirectory (ImagesandBroadcasts/TheQueensChristmasBroadcasts), but it proved easier to just grab the whole site and throw away countless uninteresting photos)</item>
+<item>I wrote an XSLT  stylesheet to extract from the XHTML files on the website just the chunks I wanted and spit them out into separate plain TEI XML files. There were two files which didn't follow exactly the same coding conventions as all the others, so I hand-edited them into conformity. There were three files which were not valid XHTML (weirdo character entity references) so I wrote a perl script to hack them into submission. It happens.</item>
+<item>This gave me a bunch of files which start off  like this:
+<eg><![CDATA[
+<head>Christmas Broadcast 1974</head>
+<!--The Queen's Christmas Broadcast in 1974 alludes to problems such as continuing violence in Northern Ireland and the Middle East, famine in Bangladesh and floods in Brisbane, Australia. -->
+<p>There can be few people in any country of the Commonwealth who are not anxious about what is happening in their own countries or in the rest of the world at this time.</p>
+<p>We have never been short of problems, but in the last year everything seems to have happened at once. There have been floods and drought and famine: there have been outbreaks of senseless violence. And on top of it all the cost of living continues to rise - everywhere.</p>
+<p>Here in Britain, from where so many people of the Commonwealth came, we hear a great deal about our troubles, about discord and dissension and about the uncertainty of our future.</p>]]></eg>
+</item>
+<item>Finally, I used <ref target="http://www.ims.uni-stuttgart.de/projekte/corplex/TreeTagger/">treetagger</ref> to add simple linguistic analysis to the texts.  By default, treetagger takes XML marked up text, leaves the markup alone, tokenizes the text, one word or punctuation mark per line, and adds POS codes and lemmata. I keep meaning to do something about making it output the results in a nice clean TEI conformant version, but somehow it's always quicker to just run an <ref target="http://blogs.it.ox.ac.uk/louburnard/aftertag/">after-the-event perl script</ref> to tidy up its output.</item><item> Which gave me a bunch of files that contained lines like this
+<eg><![CDATA[<div n="1974"><head><s><w type="NP" lemma="Christmas">Christmas</w>
+<w type="NP" lemma="Broadcast">Broadcast</w>
+<w type="CD" lemma="@card@">1974</w>
+</s></head><p><s><w type="RB" lemma="there">There</w>
+<w type="MD" lemma="can">can</w>
+<w type="VB" lemma="be">be</w>
+<w type="JJ" lemma="few">few</w>
+<w type="NNS" lemma="people">people</w>
+<w type="IN" lemma="in">in</w>
+<w type="DT" lemma="any">any</w>
+<w type="NN" lemma="country">country</w>
+<w type="IN" lemma="of">of</w>
+<w type="DT" lemma="the">the</w>
+<w type="NP" lemma="Commonwealth">Commonwealth</w>
+<w type="WP" lemma="who">who</w>
+<w type="VBP" lemma="are">are</w>
+<w type="RB" lemma="not">not</w>
+<w type="JJ" lemma="anxious">anxious</w>
+...
+</s></p></div>]]></eg>
+</item>
+<item>Finally I wrote a TEI Header file to put <ref target="http://tei.oucs.ox.ac.uk/Demonstrator/queen.zip">all the files together</ref> into a single TEI document or corpus.</item>
+</list>
+Then, just for fun, I moved the corpus onto a (virtual) Windows machine (why? Because the all singing all dancing web client for XAIRA is not quite ready yet) and followed the handy <ref target="http://www.oucs.ox.ac.uk/rts/xaira/Doc/xairaIndexing.xml">Indexing with Xaira </ref> Tutorial to produce a XAIRA-searchable version of it. I'll put up a few screen shots to prove the point later.</p></div>
+</body></text></TEI>

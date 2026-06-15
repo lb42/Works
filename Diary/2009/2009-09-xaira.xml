@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="2009-02-luxembourg">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Xaira under a new Hat</title>
+</titleStmt>
+<publicationStmt>
+<publisher>Self-published (OUCS blog)</publisher>
+<idno type="URL">http://blogs.it.ox.ac.uk/louburnard/2009/09/xaira-under-a-new-hat/</idno>
+<date when="2009-09">2009-09</date>
+<availability>
+<p>Originally published on OUCS blog.</p>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from OUCS blog.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<textClass>
+<keywords scheme="category">
+<term>Biographical</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div><head>Xaira under a new Hat</head>
+
+<p>To set up Xaira on any machine, I normally proceed as follows:
+<list>
+<item>Get the source from http://xaira.sf.net and unpack it</item>
+<item>Run configure, adding required packages till it stops wingeing.</item>
+<item>Run the Makefile</item>
+</list>
+On this particular one, the BL's server running Red Hat, I first had to get connected to it via their super-secure VPN connexion. This involved a fair bit of messing about, downloading and installing a suitable VPN client for Linux, working out how to get said client running, and finding its configuration files, and indeed using the right passwords. Also  the promise in the installation script that it would initialise the client at a reboot turns out to be a complete lie. And when the connexion is finally  running, no other internet activity is possible on my desktop.
+Yesterday I managed to
+<list>
+<item>get VPN-connected</item>
+<item>Unpack the BNC disks, thoughtfully already copied to the machine (takes ages)</item>
+<item>upload the Xaira source and start configure</item>
+<item>Install the <ident> icu-devel-i386</ident> package</item>
+</list>
+Today, so far, I have
+<list>
+<item>managed to remember  how to get connected again</item>
+<item>Upload source for <ident> xerces-c-3.0.1</ident> (not unfortunately available as a package yet)</item>
+<item>Try to build it. The instructions at the XERCES website say there is a reconfiguree utility, but there isn't, so I just did the default configure, make thing..
+It fell over at the linking stage...
+
+<eg><![CDATA[</eg>/usr/bin/ld: skipping incompatible /usr/lib/libnsl.so when searching for -lnsl
+/usr/bin/ld: skipping incompatible /usr/lib/libnsl.a when searching for -lnsl
+/usr/bin/ld: skipping incompatible /usr/lib/libpthread.so when searching for -lpthread
+/usr/bin/ld: skipping incompatible /usr/lib/libpthread.a when searching for -lpthread
+/usr/bin/ld: skipping incompatible /usr/lib/libcurl.so when searching for -lcurl
+/usr/bin/ld: skipping incompatible /usr/lib/libcurl.a when searching for -lcurl
+/usr/bin/ld: skipping incompatible /usr/lib/libicuuc.so when searching for -licuuc
+/usr/bin/ld: skipping incompatible /usr/lib/libicuuc.so when searching for -licuuc
+/usr/bin/ld: cannot find -licuuc
+collect2: ld returned 1 exit status]]></eg>
+</item>
+<item>All of which, suggests that the configure is not doing things right. Maybe it thinks this is a 64 bit machine? (Maybe it *is* a 64 bit machine) Wasted most of the evening tryiong (unsuccessfully) to get a VPN client running under Windows7 so I could investigate further. Grrr.</item>
+<item>After another day's looking... sigh, yes, uname confirms that this is indeed a 64 bit machine running a 64 bit kernel. Both 32 and 64 bit libraries are available, but I'm blowed if I can work out how to tell configure which one to use. Back to the drawing board...</item>
+</list>
+</p><p>
+<label>Update</label> Using the BL VPN client is such a pain, I have now asked those nice people in NSMS to give us an identical vm to play with instead. It says something about how much we depend on the internet to do anything these days that a working environment in which you can only talk to one machine at a time is just infeasible...</p>
+</div>
+</body></text></TEI>

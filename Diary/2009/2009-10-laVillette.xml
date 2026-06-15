@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="2009-10-laVillette">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>An interesting day at La Villette</title>
+</titleStmt>
+<publicationStmt>
+<publisher>Self-published (OUCS blog)</publisher>
+<idno type="URL">http://blogs.it.ox.ac.uk/louburnard/2009/10/an-interesting-day-at-la-villette/</idno>
+<date when="2009-10">2009-10</date>
+<availability>
+<p>Originally published on OUCS blog.</p>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from OUCS blog.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<textClass>
+<keywords scheme="category">
+<term>Biographical</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div><head>An interesting day at La Villette</head>
+<!--<graphic url="http://blogs.it.ox.ac.uk/louburnard/files/2009/10/20091009_151220-1024x768.jpg"  width="1024px" height="768px" />-->
+<p>On Thursday evening about 8 pm I succeeded (not without some effort) in persuading the rather tentative (but free) wifi of the Hotel Crimée to let me receive my email at the start of this week's brief expedition to Paris. This was a good thing because it enabled me to receive a long awaited official document ("La convention d’accueil") from the CNRS which being signed half of my time will officially been at the disposition of the TGE ADONIS, an idea which Yannick Maignien and I first discussed at the Fréjus summer school, almost exactly a year ago. "Ah, l'administration française", as they say with almost exactly the same air of proud resignation as we might say "well that's british bureaucracy".
+</p><p>
+Anyway, it meant that I seriously toyed for a while with the idea of adding the TGE ADONIS logo to the slides for my talk (along with those of the TEI and Oxford Uni, naturally) before reluctantly getting down to the rather more serious task of boiling down 60 slides of rambling inconsequentiality to a finely honed 30 minute presentation about how the semantic web was going to transform digital humanities. Or something. Even after a couple of hours work and a light  dinner from the Japanese restaurant across the street this was still more hacked than honed so I went to bed.
+</p><p>
+Next morning, bright and early and breakfasted a la parisienne, I set off for the <ref target="http://en.wikipedia.org/wiki/Cité_des_Sciences_et_de_l'Industrie">Cité des Sciences et de l'Industrie</ref>, a monster science museum about 15 minutes walk away. For those who have never seen it before (e.g. me) this was quite an impressive experience. I'm seeing a pattern emerge though -- you have La Defense, you have Bercy, you have La Villette: all of them formerly massive entrepots of 19th century commerce on the fringes of what is now the periph, all of them erased and recreated as extraordinary pieces of massive public architecture. La Villette has follies. And a geodesic dome. And canals, of course, all of which make it rather special, as does the fact that its <ref target="http://en.wikipedia.org/wiki/Deconstructivism">deconstructivist</ref> design (<ref target="http://en.wikipedia.org/wiki/Parc_de_la_Villette">according to Wikipedia</ref>) was influenced by Jacques Derrida.
+</p><p>
+Was it his idea to make this enormous museum, somewhat of a cross between a railway station and a department store, with enormous spaces specially intended for children, lots of escalators, and some fake dinosaurs? I proceed purposefully downstairs to the "espaces colloques", locate the salle Agora, switch to French, and start meeting and greeting.
+</p><p>
+<ref target="http://www.tge-adonis.fr/?Usages-des-sources-numeriques-en">Today's programme</ref> is quite full: Pierre Mounier from <ref target="http://www.ehess.fr/fr/">EHESS</ref> gives a brief overview of the day, and discusses electronic publishing from the revues.org perspective, the need to observe standards, the holistic nature of scholarly writing and reading -- that the articles we publish now are the subjects of study of the future, that scholarly communication in digital form has undergone massive changes. I then stagger through quite a lot of my presentation, which is not much improved since I gave up on it last night, but sounds almost interesting in French. They liked the bit about moving from the web of documents to the web of data, and they liked the historical overview; they were I think politely uninterested by the rest, but an English man speaking French is almost as curious a spectacle as a dog dancing on its hind legs, so that's OK.
+</p><p>
+Stephane Pouyllau from ADONIS and Shadia Kilouchi from <ref target="http://www.cn2sv.fr/">CN2SV</ref> gave a comparatiuvely sensible presentation, explaining how ADONIS is addressing archival and related issues; much of the data we study is now born digital (photos, sounds, bibliographies). We heard how the relationship with CN2SV is working out, and also about an interesting inventory project called AOMS, a couple of French iconographic systems, (mediHAL and ICEberg) and of course the celebrated Isidore project. As there were many historians of science in the audience, subsequent discussion focussed on problems of archiving email collections (whose job is it?) rather than the research possibilities offered by "mashing up" what is available.
+</p><p>
+Richard Walter from IRHT gave a determinedly non-threatening introduction to the activities of that august institution, stressing the need for an intermediary between technical experts and medieval experts, neither of which he claimed to be. Probably because I already know far too much about both camps, I felt that he was protesting too much.
+</p><p>Finally, Christine Blondel, our host from the CRHST, presented her work and that of her colleagues. Their bag is the development of digital archives for preservation of scientific papers (letters, notebooks etc.), notably of <ref target="http://www.ampere.cnrs.fr/">Ampere</ref> though there are plenty of others: for example a project called  <ref target="http://numix.sabix.org/">Numix</ref> is developing spomethjing similar for Gay-Lussac and his circle. Such archives are open, not just in terms of access, (she made a passing <!--cet="http://www.hstl.crhst.cnrs.fr/i-corpus/histmap/">project about geological maps of Europe</a>-->
+comment on the uselessness -- because of its business model -- of the Oxford <ref target="http://www.e-enlightenment.com/">Electronic Enlightenment</ref> project, during which I studiously looked elsewhere) but also in the extensibility of their content (you never know when a new document is going to turn up, or where). She  repeated the orthodoxy of the day about OAI/PMH, RDF, etc. and name-checked another Adonis joint venture called <ref target="http://www.numes.fr">NUMES</ref>, which is cataloguing digital resources.  She mentioned the possibilities of collaborative transcriptions (e.g. the mss of Flaubert), and some relevant software before speculating about the <ref target="http://www.webpronews.com/topnews/2009/09/16/google-acquires-captcha-company">implications of Google's purchase of Captcha technologies</ref>, which might improve its OCR capabilities (as we've recently seen, this is <ref target="http://googlesystem.blogspot.com/2007/04/open-source-ocr-software-sponsored-by.html">not such bad news at all </ref> potentially). She pointed out that virtual archives, combining resources in productive ways, can be intra- as well as inter- archive, citing the development of some scientific instrument across the range of papers in the Ampere archive. She talked about the need to make such collections accessible to the grand publique, about standards and rights problems and the challenges posed by short term funding and changing technologies and the need to bridge cultural divides and to seek professional help... a really good overview, in short. And she dropped quite a few interesting HREFs by way of illustration, notably a <ref target="http://www.hstl.crhst.cnrs.fr/i-corpus/histmap/">project about geological maps of Europe</ref>
+</p><p>
+In discussion Michel Bernard from the Sorbonne (who is, I learned later, one of the brains behind <ref target="http://www.cavi.univ-paris3.fr/phalese/">Hubert de Phalese</ref>) made some sniffy remarks about the reductive nature of technological change which I (perhaps ill- advisedly) pooh-poohed. Stephane reminded us all that digital publishing is about process not product, that its results ere inherently dynamic and changeable, and we broke up for a really good lunch downstairs.
+</p><p>
+After lunch, we were promised Maud Ingaro from Lyon (ENS, Cluster 13, Mutec), but she couldn't make it. This gave more time to hear about some multimedia case studies, notably another double act from Jean-Louis Kerouanton (Université de Nantes) and Alain Michel (Université d’Évry); part of this concerned virtual  reconstructions of the Port of Nantes, but the part I remember was a project which had created a functioning simulation of the Renault factory of the 1920s,  lovingly reconstructed in virtual reality on the basis of contemporary plans and photographs. This was as interesting for what it told us about the historical development of the assembly line (essentially, the photos contradict the claims of the management about the efficiency of the process) as it was for the technology deployed (mercifully, no one once mentioned second life)
+</p><p>
+The day closed with a good presentation  about the challenge of maintaining the archaeological record from Elisabeth Bellon (Maison René-Ginouvès, Nanterre), illustrated by work done in digitizing a neolithic site in Cyprus (also funded by ADONIS).
+</p>
+
+
+<p>
+After saying my farewells, I went for a walk around the Park, to have what was left of my mind blown by the deconstructivist architecture. Not only can the French put on a good lunch and a good digital archive, they do public spaces in a way that puts us to shame.</p>
+
+<figure><graphic url="http://blogs.it.ox.ac.uk/louburnard/2009/10/an-interesting-day-at-la-villette/20091009_151220/"/><head>The view of the Geode from the Cite</head></figure><p>There is an IMAX cinema inside the Geodesic dome, behind the Cite des Sciences et de l'Industrie at La Villette. It's impressive, even when it's raining</p></div>
+
+</body></text></TEI>
