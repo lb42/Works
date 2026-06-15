@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="2010-02-paris">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Adonis: French adventures</title>
+<author>louburnard</author>
+</titleStmt>
+<publicationStmt>
+<publisher>Self-published (WordPress)</publisher>
+<idno type="URL">https://louburnard.wordpress.com/2010/02/20/channel-hopping/</idno>
+<date when="2010-02-20">2010-02-20</date>
+<availability>
+<p>Originally published on WordPress.</p>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from WordPress WXR export.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<textClass>
+<keywords scheme="category">
+<term>Biographical</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="post">
+<head>Channel hopping</head>
+<p>In the last three months, I have been across or rather under the Channel five times and spent a total of six weeks away from Oxford. Is that what I signed up for?
+<table>
+<row>
+<cell>
+<hi rend="italic">Depart</hi>
+</cell>
+<cell>
+<hi rend="italic">Return</hi>
+</cell>
+<cell>
+<hi rend="italic">Inhabit</hi>
+</cell>
+<cell>
+<hi rend="italic">Also visit</hi>
+</cell>
+</row>
+<row>
+<cell>22 Nov</cell>
+<cell>27 Nov</cell>
+<cell>Flat, rue Mouffetard</cell>
+<cell>Nancy</cell>
+</row>
+<row>
+<cell>9 Dec</cell>
+<cell>17 Dec</cell>
+<cell>Flat, rue Vandrezanne</cell>
+<cell>Caen</cell>
+</row>
+<row>
+<cell>10 Jan</cell>
+<cell>13 Jan</cell>
+<cell>Hotels</cell>
+<cell>Tours</cell>
+</row>
+<row>
+<cell>24 Jan</cell>
+<cell>5 Feb</cell>
+<cell>Hotels; Flat rue St Andre des Arts</cell>
+<cell>Luxembourg; Munich</cell>
+</row>
+<row>
+<cell>14 Feb</cell>
+<cell>20 Feb</cell>
+<cell>Hotels</cell>
+<cell>Lyon</cell>
+</row>
+</table></p>
+<p>One might reasonably ask what have I actually done during all that time, apart from enlarge my experience of the public transport, food, and politics of la belle France?</p>
+<p>
+Well, I put in a reasonable number of gigs:
+<list type="ordered">
+<item>In December, I spoke at an interesting seminar called <ref target="http://www.unicaen.fr/recherche/mrsh/patrimoine2009/">Le patrimoine à l'ère du numérique : structuration et balisage</ref> at the MSH in Caen; this introduced me  to a different branch of the family  of TEI users in France;</item>
+<item>I gave an extended version of my celebrated potted history of digital humanities at<ref target="http://www.ehess.fr/fr/enseignement/enseignements/2009/ue/928/">a seminar on Digital Humanities</ref> organized by Pierre Mounier and Marin Dacos at EHESS; this was fun, though I am somewhat unnerved <note>Francophone readers may wish to note that being "unnerved" is not at all the same thing as being "énervé" ... I do my best to avoid the latter, while the former is quite a normal state of mind.</note> by its  <ref target="http://leo.hypotheses.org/3994">subsequent digital publication</ref>, slides, summary, audio, warts, and all.</item>
+<item>With Nicole Dufournaud,  I taught <ref>an introductory TEI course </ref> at the <ref target="http://cesr.univ-tours.fr/">Centre d'Etudes Supérieures de la Renaissance</ref>, Université François-Rabelais de Tours;</item>
+<item>I survived the final review meeting of <ref target="http://enrich.manuscriptorium.com">the ENRICH project</ref> in Luxembourg which was much kinder than it might have been;</item>
+<item>I attended a DARIAH Technical Workgroup meeting hosted at the Max Planck Digital Library in Munich where  progress of some sort was made on the subject of the <ref target="http://tei.oucs.ox.ac.uk/Projects/Demonstrator">TEI Demonstrator</ref>; I also experienced Strauss's <ref target="http://alexrossmusic.typepad.com/photos/uncategorized/2007/09/15/app0001_3_2.jpg">
+<hi rend="italic">Salome</hi>
+</ref> for the first time, at the Staatsopera. Got my hair cut, visited the Alte Pinakotek. As you do.</item>
+<item>I went to a lot of meetings. Specifically:  a planning meeting at the IRHT for Richard's ANGD planned course; a meeting to compare and contrast<ref target="http://www.escidoc.org"> eSciDoc</ref> and <ref target="http://www.tge-adonis.fr/wiki/index.php/ISIDORE_/_projet">Isidore </ref> at the Computing Centre of the In2p3 in Lyon;  a planning meeting for the  Mutec "TEI journees d'etude" at the Institut des sciences de l'homme also in Lyon; a discussion of  the  "current awareness" activities which Adonis has subcontracted to a lady from CNAM.</item>
+</list>
+</p>
+<p>I spent much time and effort trying to understand the TGE Adonis, both as it is, and as various people would like it to be.  This is not as easy as you might suppose, but I am making progress; at any rate I seem to have internalised quite a few acronyms, and am dimly becoming aware of the politics.
+</p><p>
+Meanwhile, in real life, there was a lot of snow (which did not however stop us going to visit our at that time un-named grand-daughter in Brum) on both sides of the channel. I improved my knowledge of Paris considerably:  I dined twice with Nicole D. and Jean-Daniel F. out in the wilds of St Ouen. I scored two successes against French bureaucracy: firstly, I got a ticket authorising me to eat cheap lunches at the Ministry of Higher Education's <hi rend="italic">cantine</hi> just behind the Pantheon; secondly, I opened a euro bank account.
+</p><p>
+Lilette came and stayed with me in a posh flat on the 23rd floor of a tower block near place d'Italie with magnificent views over the XIIIeme; I realised that I was too old and grumpy to enjoy living in rue Mouffetard or rue St Andre des Arts (the latter being particularly nasty), but that on the other hand there was quite a lot to be said for Denfert- Rocherau. Especially if the weather improves.</p>
+</div>
+<div><!-- ref="http://blogs.it.ox.ac.uk/louburnard/2010/03/what-i-am-doing-in-paris-since-you-ask/"-->
+<head >What I am doing in Paris, since you ask</head><p>Last week I attended a face to face meeting of almost all the staff now working directly on<ref target="http://www.tge-adonis.fr"> the ADONIS project,</ref> a fairly unusual event (I think this was the first one in the current development cycle) since the project now has many people working in different locations around France. Probably as a punishment for typing too noisily during the meeting, I was asked to draft a brief report on the meeting for the ADONIS website, which seems a good pretext for me to write up a blog posting here.
+</p><p>
+ADONIS is a TGE (<hi>Très Grand Equipement</hi>) directly financed by the Ministry of Higher Education (MESR) and reporting to the CNRS, the National Research Council.  (Inevitably these two bodies occasionally  have different points of view and priorities,  which makes life, shall we say, interesting). ADONIS is so far the only TGE to have been specifically charged with responsibility for infrastructural support of the humanities and social sciences (SHS) and has defined an ambitious programme of work, currently underway. The TGE is co-ordinated by a small team based in Paris but is highly distributed, with most of its key activities and services being run by people attached to other labs and service organizations around the country, some of whom had never met before this meeting, though they feature on  <ref target="//www.tge-adonis.fr/?-La-structure-">the official staff list</ref>.
+</p><p>
+After a set of mutual introductions around the table, Yannick Maignien (Director) and Richard Walter (Assistant Director)  began by sketching out the TGE's overall structure and objectives, placing them in the international and national contexts respectively. The mission of ADONIS is to improve the quality and efficiency of French research in SHS, by facilitating better access to shared resources, and promoting best practice; in defining and implementing the key infrastructural resources and services needed for the humanities research environment. These include, for example, provision of  archival resources; development of an intelligent search engine for existing digital resources;  training on the use of specific relevant technologies; promotion of open access and other digital publishing methods.
+</p><p>
+Administratively speaking, ADONIS is a "<hi>Unité Propre de Service"</hi> (Specific Service Unit) attached to the CNRS, and funded like others such on a four year rolling programme. It has a Steering Committee (<hi>comité de pilotage</hi>), chaired by Michel Spiro, with representatives of the Ministry and the CNRS Institute for Human and Social Sciences, and other interested parties. It also has an Advisory Board (<hi>comité scientifique</hi>) with a dozen or so distinguished members (e.g. Simon Hodson from JISC, Stephan Gradman from Humboldt University, Francoise Genova from the Strassbourg Observatory).
+</p><p>
+Since 2005, the CNRS has also funded a number of <hi>centres de ressources</hi> (National Resource Centres). These are subject-specific centres attached to one or more existing <hi>labos</hi> (research units) and charged with the task of sharing their expertise and their services with other research units. In the hard sciences, typically, research is carried out at one of a small number of  large<hi> labos</hi>; in the Humanities by contrast, there is a very large number of small units. Hence the importance of developing and sharing shared solutions to common problems, and the important role that ADONIS has with regard to the <hi>centres</hi>. Just to make life even more interesting, there are other relevant national organizations, notably the CNRS network of professional staff (collectively known in the CNRS as ITA: <hi>Ingénieurs, Techniciens, Administrateurs</hi>), and the completely different regional network of<hi> Maisons des Sciences de l'Homme</hi> which provide support services to the Universities, rather than via the CNRS.
+</p><p>
+<ref target="http://blog.stephanepouyllau.org/">Stephane Pouyllau</ref>, the third member of the central ADONIS team to speak, gave an overview of the Digital Humanities <hi>(sciences numériques) à la française</hi>, a set of topics which overlaps significantly but not entirely with the concerns and activities promoted under that badge elsewhere in the world. In France,  it is preservation of, and  access to digital resources of all kinds which are the major concerns and which constitute the "digital turn"  (<hi>le tournant du numérique</hi>); the major threats are seen to be such things as loss of data, dispersion of expertise, duplication of effort, solutions which do not scale, lack of international visibility and recognition. The need for skills in helping non-technical experts gain confidence in technical areas is largely unrecognized by existing professional training for computing support staff, with consequent problems of communication. And of course, in France the word "<hi>science</hi>" includes the study of the Humanities as well as the study of "<hi>les sciences dures</hi>".
+</p><p>
+ADONIS aims to address these problems in several ways. It will provide a <hi>socle de services</hi> (core set of services), including such key activities as archival services and cataloguing of resources needed by many labos, and, from the end of this year,  it will also be offering <ref target="http://www.tge-adonis.fr/?Lancement-de-la-premiere-phase-de">a sophisticated search engine called Isidore</ref>. Isidore (Integrated Service for Indexing the Data of Research and Education -- or something like that) will crawl and index a wide variety of existing data sources, analysing a variety of standard metadata formats (OAI-PMH, RSS, Sitemap, Z39-50...) to access  and merge information into a unique RDF system with its own SPARQL endpoint.  Although this may entail working closely with service providers, the need to involve them in the project should mean that the quality, relevance, and accuracy of data provided will be much higher than is currently available from (e.g.) Google.
+</p><p>
+Returning to the topic of the National Resource Centres, Richard gave a brief overview of the activities and responsibilities of each, as currently configured, noting in passing that the ANR (Agence National de Recherche; the main French research funding agency) had funded dozens of digital data creation projects in the past but had no policies in place to ensure their preservation or their continued access.  The skill sets available within the <ref target="http://www.cnrs.fr/inshs/recherche/centres-ressources-numeriques.htm">five existing centres</ref> include archaeology and 3-D modelling, modelling in social science, iconographic and visual indexing, and linguistic and terminological analysis, as well as  appropriate technologies for the digitization and encoding of manuscript or spoken materials.
+</p><p>
+Stephane then presented the recently completed pilot project on long term archiving, for which the  CRDO (<hi>Centre de ressources pour la description de l’oral:</hi> the National Resource Centre concerned with spoken data) had served as guinea pig. Financed by ADONIS, this project had involved the CRDO as source of the original data and manager of access to its archived form, and also the CINES (<ref target="http://www.cines.fr/?lang=en">National Computing Centre for Higher Education</ref>) which had managed the whole archival process, conformant to <ref target="http://en.wikipedia.org/wiki/Open_Archival_Information_System">Open Archival Information System</ref> norms, and the CC-IN2P3 (<ref target="http://cc.in2p3.fr/?lang=en">Computing Centre of the National Institute for Nuclear and Particle Physics</ref>) which had provided the computing resources -- a FEDORA database--  for the resulting system.   The project had thus demonstrated the viability of ADONIS' distributed approach to the resourcing of such services, and shown the value of an "e-Research" mode of operation: the storage facilities of CC-IN2P3 are able to preserve the results of fieldwork on surviving old French dialects just as well as the experimental data resulting from nuclear reactions, while the CINES' expertise in the international standard methodology for creating and managing long term meta data is equally applicable to either.
+</p><p>
+Thus encouraged, we broke for a pizza lunch (<ref target="http://picasaweb.google.co.uk/lou.burnard/DeplacementMars#5450758171342571618">see photo</ref>) at Casa valentino, rue St Jacques.
+</p><p>
+After lunch, we heard more technical detail about the archival experiment from Pierre-Yves Jalud, who is responsible for managing the project at CC-IN2P3. Pierre-Yves had  of necessity become expert in the use of  <ref target="http://www.fedora-commons.org/">Fedora Commons</ref>as a repository management system; there was some discussion as to the merits of this open source solution as opposed to dSpace,<ref target="http://www.dspace.org"> dSpace,</ref> which seems to be its closest rival. Pierre-Yves noted that the latter did not support iRods<ref target="http://www.irods.org"> iRODS</ref>, the de facto software platform for grid applications.  He also cited  <ref target="http://archivesic.ccsd.cnrs.fr/sic_00123423/en/">Carl Lagoze's article</ref> from 2006 as a foundational text for the definition of what a digital library should be.
+</p><p>
+His colleague Huân Thebault spoke in more detail about the authentication and authorisation solutions adopted for the project. RENATER (the French equivalent of JANET) already provides a Shibboleth-based national network of trust, so that the credentials from any RENATER site can be used to log in to any of the others, including the CCN2P3. However, this clearly needs to be complemented by something else for users coming from outside RENATER. The solution adopted is a hybrid architecture combining Shibboleth with openSSO, which is used to authenticate "foreign" users. The drawback, from some points of view, is that they have to maintain their own LDAP directory to hold authorisation data -- but they would have to do this in any case.
+</p><p>
+Jean-Baptiste Génicot described some of the technical problems behind  implementing an efficient Z39-50 based access where the various repositories concerned have wildly varying notions both concerning  what data items should be made available, and what technical infrastructure should be used to deliver them. His solutions used the existing SOAP library for php to handle data delivered via WSDL, derived from legacy formats such as BIBLIOML and MARCXML in MODS3.3.
+</p><p>
+The CCSD (<ref target="http://www.ccsd.cnrs.fr/">Centre for Direct Scientific Communication</ref>) is one of the key bibliographic service providers in France, responsible amongst many other things for   <ref target="http://hal.archives-ouvertes.fr/">HAL: HyperArticles Online</ref>, the major open access archive of French research papers and resources. It also hosts another ADONIS-supported project, the <ref target="http://hal.archives-ouvertes.fr/">Open Archive for Photographs and Scientific Images</ref>. Philippe Correia and Loïc Comparet reported on a new service under development there called <ref target="http://www.sciencesconf.org/">Scienceconfs</ref> which (when it opens) will provide a full range of conference management services, from announcements (already well served by e.g. calenda.org) through reviewing and programme planning to proceedings manufacture. The project is still under development and there is good scope for consultation and review.
+</p><p>
+The  CLEO (<ref target="http://cleo.cnrs.fr/">Centre for open electronic publishing</ref>) also supported by ADONIS has established itself as a key academic publisher in France and beyond, with several hundred journal titles published through its portal <ref target="http://www.revues.org/">revues.org</ref> and a raft of other complementary services. It was represented at our meeting by Andréa Pirastru, a new recruit, who talked about his experience in working with Drupal, the content management system on which revues.org depends.
+</p><p>
+As I noted above, ADONIS also has an important role outside the hexagon, as the sole French contributor to the European Research Roadmap for infrastructural support in the Humanities.  Britta Moehring described some current activities in this connexion: notably the elaboration of a business plan and organizational structure for <ref target="http://www.dariah.eu/">DARIAH</ref>, the EU-funded project which is supposed to be defining a Digital Research Infrastructure for the Arts and Humanities at a European level.  The model that is emerging is, appropriately, a highly distributed one, in which a number of essential "competences" are identified, and then provided by possibly many  partners acting in collaboration. This is being worked out with other DARIAH partners, notably the Max Planck Institute, the University of Göttingen, King's College London, and DANS (Data Archiving and Networked Services), the Dutch project leaders.  Further collaboration is to be anticipated with other key infrastructural initiatives, such as CLARIN (in which OUCS is also represented by the way), and CESSDA
+</p><p>
+ADONIS is well placed to do this work, since it faces exactly the same issues at the local (i.e. national) level. No single institution can provide all the components of an infrastructure of the kind needed, whether for financial or skill set limitations;  organization and maintenance of productive partnerships and distribution of specialist services seem the only way forward.
+</p><p>
+My own brief intervention came at the end of a long day, so I kept it short. I commented on "internationalisation" aspects and activities of ADONIS, some of which I have already touched on in this report. As well as DARIAH, and knowledge transfer with the non-francophone Digital Humanities community,  I suggested that work with the  <ref target="http://www.tei-c.org">Text Encoding Initiative</ref>was also an important component of the project (well, I would, wouldn't I). I described briefly the <ref target="http://tei.oucs.ox.ac.uk/Demonstrator">TEI Demonstrator</ref> project in which we are collaborating closely with the Max Planck Digital Library and noted its synergy with the development of the Isidore platform. But mostly I showed the following nice picture of a Virtual Research Environment, as envisaged in France at the start of the 20th century. ADONIS is the box on the right, and its team is the hard working boy turning the handle.
+<figure><graphic url="media/utopie.jpg"/><head>
+<ref target="https://essentiels.bnf.fr/fr/image/fc829657-c0dd-4db1-bd00-d7000859b509-ecole-1">L'ecole, Jean-Marc Côté, dessinateur présumé ; Villemard, lithographe</ref> </head></figure></p> </div>
+<div><!-- ref="http://blogs.it.ox.ac.uk/louburnard/2010/06/tei-prospects-and-practice-in-france/"-->
+<head >TEI Prospects and Practice in France</head><p>Attached to both the Institut des Sciences d'Homme and the ENS de Lyon, there is in France an interesting project called MuTEC whose role in life (it says <ref target="http://www.mutec-shs.fr">here</ref>) is to promote and to share expertise and experience in the digital humanities, in particularly with respect to the creation of digital editions and corpora. Organization of discussion amongst representatives of some of the major users and would-be adopters of the TEI  in France therefore seems to fall well within their remit. Their recent two-day <ref target="http://www.mutec-shs.fr/la-tei-en-france-pratiques-et-perspectives">event</ref>  (financed by TGE ADONIS)  included presentations on a carefully chosen range of topics with  speakers from several different centres, plenty of debate, and two half days of highly concentrated training sessions. And, this being Lyon, a respectable amount of good eating.
+</p><p>
+Marie Luce Demonet (<ref target="http://www.bvh.univ-tours.fr/">Bibliotheque Virtuelle des Humanistes,</ref> Univ of Tours) was down to talk about the BVH as an exemplary case of how such projects  can achieve long life and happiness; the range and variety of activities and output which this project has achieved, and continues to achieve, remain exceptional however, particularly in view of  its resources. Discussion focused on the way that the TEI was now being proposed as the glue which held its texts, databases of authority files, documentation, and other resources together, rather than simply one of the possible outcomes from the project. Tours is also organizing another TEI training session later this year, as a part of a "Masters Pro" course. 
+</p><p>
+Bertrand Gaiffe from the  <ref target="http://www.cnrtl.fr/"> Centre National de Ressources Textuelles et Lexicales</ref> in Nancy gave a good overview of the features provided by the TEI for use in linguistic analysis, protesting however that he knew nothing about linguistics (which is manifestly not true). He managed to convey the essential aspects of such arcana as the ISO data category register and the TEI  feature structure system in a painless manner, such that even the casual TEI text creator could see why (and how) you might want to use them; no mean feat; I did however have to protest when he asserted that <gi>s</gi> elements could self-nest. (Note to self: must add schematron constraint in P5 to prevent such folly).
+</p><p>
+The “Intensive TEI Training” parts of the programme consisted of two morning sessions in classrooms at ENS, jointly taught by  Florence Clavaud from the <ref target="http://www.enc.sorbonne.fr/">Ecole Nationale des Chartes</ref> and  myself. The plan was to focus on just a few topics  in some detail rather than give the usual overview of TEI Super Lite: selection of the topics was carried out in advance by polling the participants for their preferences – which revealed  somewhat to my surprise a strong desire to know more about the TEI Header, amongst other things. Each session contained two talks and two  hands-on practical sessions and the programme, complete with sample texts  (contributed by Florence),  talks, and workshop exercises is all <ref target="http://tei.oucs.ox.ac.uk/Oxford/2010-06-mutec/">on t'web </ref> so I will not describe it here. The participants' expertise varied enormously, but everyone managed to get through the exercises somehow and even seemed to be enjoying the experience.
+</p><p>
+Alexei Lavrentev from the <ref target="http://icar.univ-lyon2.fr/">ICAR </ref>lab at the ENS de Lyon gave a  presentation about how TEI schemas come into being, with some good material on ODD, and a description of the <ref target="http://bfm.ens-lsh.fr/"> Base du Francais Medieva</ref>l project. This sparked vociferous debate, both on the traditional philological issue of what texts should be edited, and on the traditional TEI argument about whether TEI-ALL should ever be used, ever. 
+</p><p>
+Standing in for my Adonisian colleagues Richard Walter and Stephane Pouyllau, I presented a hastily confected overview of <ref target="http://tei.oucs.ox.ac.uk/Oxford/2010-06-mutec/carto-tei.pdf">the current state of things TEI in France</ref>, using a nice map, and making some suggestions about ways in which a francophone TEI network might be further invigorated. I then somehow coerced a seven person panel (consisting largely of  provocateurs handpicked from amongst the persons present)  into orchestrating an energetic and wide ranging discussion. Although no-one had  any concrete suggestions for how we might reclaim the south west corner of the hexagon for TEI, there was a general feeling that we ought to try a bit harder to use such facilities as the tei-fr mailing list, and a recognition that the TEI was very much a part of the new enthusiasm for a <ref target="http://tcp.hypotheses.org/318">Digital Humanities agenda</ref> in France. 
+</p><p>
+For the final session of the two days, we heard from Dominique Roux aand Pierre-Yves Buard about  ways in which TEI can fit well into both  technical and economic models for small academic publishers, based on their experience at the <ref target="http://www.unicaen.fr/services/puc/index.php">Presses universitaires de Caen</ref>, which remains (sadly) unique amongst the numerous small French University presses in actually putting into practice some enlightened views about the role of a university press in the digital age, particularly with respect to the use of XML in the publishing process. This was held in a lecture room basement lecture room converted from a dungeon formerly used by the Gestapo, or so I was told; it felt more like a Turkish bath. </p>
+
+</div>
+
+
+</body>
+</text>
+</TEI>
