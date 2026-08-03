@@ -49,9 +49,15 @@ teiString='''<?xml version="1.0" encoding="UTF-8"?>
  <text>
 <body>
  <div><head>Summary</head>
+  <p>Blog entries for this year...</p>
+  <list>
 '''
-
+teiCloser='''
+</list></div></body></text></TEI>
+'''
 # Script to process Diary files
+# produces ceteicean-ready HTML files for individual TEI files
+# and a [year]-summary.xml which links to them
 
 if (len(sys.argv) != 2) :
     print(len(sys.argv))
@@ -74,7 +80,7 @@ else :
             for FILE in FILES:
 # read the file to get its title
                 txt = pathlib.Path(FILE).read_text()
-                result=re.search('<title>(.+)<\/title>',txt)
+                result=re.search('<title>(.+)<',txt)
                 fileTitle=result.group(1)
 # create a proxy
                 proxyFile2=proxyRoot+pathlib.Path(FILE).stem+'.html'
@@ -84,8 +90,9 @@ else :
                    f.write(string)
                    f.close()
 # add info to summary file        
-                link='<ref target="'+proxyFile2+'">'+fileTitle+'</ref>'
-                print(link)
+                link='<item><ref target="'+proxyFile2+'">'+fileTitle+'</ref></item>'
                 iF.write(link)
+            iF.write(teiCloser)
+            print("Summary file completed")
 
 
