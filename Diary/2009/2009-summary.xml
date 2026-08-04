@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Blogging</title>
+   </titleStmt>
+   <publicationStmt>
+    <p>Unpublished draft</p>
+   </publicationStmt>
+   <sourceDesc>
+    <p>AMOW</p> 
+   </sourceDesc>
+  </fileDesc>
+  <revisionDesc>
+   <change when="2026-08-03">Written by diarize.py</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+<body>
+ <div><head>Summary</head>
+  <p>Blog entries for this year...</p>
+  <list>
+<item><ref target="/home/lou/Public/lb42.github.io/Diary/2009-02-luxembourg.html">Singing for our supper</ref></item><item><ref target="/home/lou/Public/lb42.github.io/Diary/2009-03-blogging.html">Navel gazing</ref></item><item><ref target="/home/lou/Public/lb42.github.io/Diary/2009-04-taiwan.html">A week in Taiwan</ref></item><item><ref target="/home/lou/Public/lb42.github.io/Diary/2009-05-paris.html">Paris in the in the spring</ref></item><item><ref target="/home/lou/Public/lb42.github.io/Diary/2009-08-oxford.html">60 minute cycles</ref></item><item><ref target="/home/lou/Public/lb42.github.io/Diary/2009-09-experiment.html">A day in the life</ref></item><item><ref target="/home/lou/Public/lb42.github.io/Diary/2009-09-marseilles.html">Transports en commun</ref></item><item><ref target="/home/lou/Public/lb42.github.io/Diary/2009-09-xaira.html">Xaira under a new Hat</ref></item><item><ref target="/home/lou/Public/lb42.github.io/Diary/2009-10-laVillette.html">An interesting day at La Villette</ref></item><item><ref target="/home/lou/Public/lb42.github.io/Diary/2009-11-keepUp.html">Keep up at the back</ref></item>
+</list></div></body></text></TEI>
