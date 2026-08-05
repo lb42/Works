@@ -13,7 +13,7 @@
    </sourceDesc>
   </fileDesc>
   <revisionDesc>
-   <change when="2026-08-04">Written by diarize.py</change>
+   <change when="2026-08-05">Written by diarize.py</change>
   </revisionDesc>
  </teiHeader>
  <text>
@@ -21,5 +21,5 @@
  <div><head>Summary</head>
   <p>Blog entries for this year...</p>
   <list>
-<item><ref target="/home/lou/Public/lb42.github.io/Diary/2010-02-xaira.html">XAIRA meets her Maj</ref></item><item><ref target="/home/lou/Public/lb42.github.io/Diary/2010-07-molesworth.html">Molesworth: the early years</ref></item><item><ref target="/home/lou/Public/lb42.github.io/Diary/2010-08-dublin.html">A trip to Dublin</ref></item><item><ref target="/home/lou/Public/lb42.github.io/Diary/2010-09-farewell.html">Goodbye to OUCS </ref></item><item><ref target="/home/lou/Public/lb42.github.io/Diary/2010-adonis.html">Adonis: French adventures</ref></item>
+<item><ref target="/home/lou/Public/lb42.github.io/Diary/2010-02-xaira.html">XAIRA meets her Maj</ref></item><item><ref target="/home/lou/Public/lb42.github.io/Diary/2010-07-molesworth.html">Molesworth: the early years</ref></item><item><ref target="/home/lou/Public/lb42.github.io/Diary/2010-08-dublin.html">A trip to Dublin</ref></item><item><ref target="/home/lou/Public/lb42.github.io/Diary/2010-09-farewell.html">Goodbye to OUCS </ref></item><item><ref target="/home/lou/Public/lb42.github.io/Diary/2010-adonis.html">Adonis: French adventures</ref></item><item><ref target="/home/lou/Public/lb42.github.io/Diary/2010-summary.html">Blogging</ref></item>
 </list></div></body></text></TEI>
