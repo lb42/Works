@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Le patrimone à l'ere du numerique: Compte Rendu</title>
+        <author>Lou Burnard</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Originally emailed to Adonis partners</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>tagged and added some accents</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change when="20260805">TEI version for archive</change>
+    </revisionDesc>
+
+  </teiHeader>
+  <text>
+    <body>
+-->
+<div xml:id="Report-2009-12-12" xmlns="http://www.tei-c.org/ns/1.0">
+<head>"Le patrimone à l'ere du numérique" MRSH de Caen</head>
+<div>
+<p> Inspiré du bon exemple de Stéphane, voici un mini-CR du colloque "Le patrimone à l'ere du numérique", à la MRSH de Caen ou je viens de participer. En dépit du titre, c'était en effet un évenement tres orienté TEI qui rassemblait plusieurs équipes bien-connus pour l'informaticisation des données textuelles anciennes, en y melangeant quelques doctorants de l'Uni de Caen, et avec un accent fort sur l'édition TEI.  Malheureusement, j'ai du quitter avant la fin du colloque (histoire compliquée...), et donc j'ai loupé la présentation du logiciel "Transcript" developpé à l'uni de Rouen, que semble tres intéressant; et également la discussion "round table" à la fin.
+</p><p>
+ Le programme est disponible sur le web à http://www.unicaen.fr/recherche/mrsh/patrimoine2009/programme
+ donc je passe par les détails... J'en tire que quelques remarques indiscretes et non-attribuables qui suivront.
+<list><item>
+ a. les themes "Web 2.0" evoqués par Minuti ne semblaient pas etre tres bien compris, sauf théoriquement; j'avais l'impression que pour la plupart de ceux presents, l'édition informatique semble rester toujours un "by product" de l'édition traditionelle sur papier.
+</item><item> b. néanmoins, il y avait une convergence évidente entres les enjeux et les méthodes des plusieurs projets de recherches présentés: celui de Marie Luce Demonet (BVH), celui de Isabelle Draelants  (Sourcencycme), celui des Canois (Ichyta), par exemple. La vision d'édition collaborative, elaborée par Isabelle Draelants, par exemple semble etre d'un interet extreme pour ce communauté. L'utilisage de TEI pour annoter la structuration des sources indépendemment de leur réalisation, également. A noter quand meme: la voix minoritaire du projet Flaubert (Daniel Girard et collegues) qui à realisé collaborativement un énorme fonds de transcriptions flaubertiens, sans béneficier à aucun moment d'un balisage plus fort que l'HTML.
+
+</item><item> c. on a évoqué frequemment le besoin d'un outillage, soit un workflow, entre Word et TEI, meme qu'il en existe déja plusieurs, aux bénéfices des savants incapables de gérer une editeur XML. J'ai discuté ca avec Pierre-Yves Buard, des PUC, qui a elaboré un tel system base sur les feuilles de style de Sebastian Rahtz, avec des semblances fortes à la systeme implementée à revues.org par Nicolas Bart, mais bien sur totallement différente.
+
+</item><item> d. de belles discussions tres francaises sur les conceptes de l'édition génétique, par rapport au projet Bouvard et Pecuchet à Lyon: j'espere les faire tester un peu les propositions de la TEI à cet égard, et en cette maniere les pragmatiser
+</item><item>
+</item><item> e. un rapport magistral d'Alexandre Gefen sur son projet "corpus electronique de la premiere modernité" (dont un, l'Artamene, j'ai envie de faire partie du TEI Demonstrateur) et sur ses bagarres avec Gallimard
+</item><item>
+ f. des présentations des étudiants doctorantes qui faisaient vif témoin de l'efficacité de l'intégration de TEI au masters en édition numérique à l'uni de Caen.
+</item></list></p>
+<p> Le colloque était animé par Alain Pierrot, qui en plus a rapporté un oeuil critique et judicieux sur toutes les interventions. Et, bien sur, on a TRES bien mangé... avec peut etre un peu trop de creme.
+</p>
+<signed>
+bon weekend!
+Lou 
+</signed> 
+</div><div><head>
+Richard Walter's response:
+</head>
+<p>Bonjour Lou
+on (irht) devait aller aussi à ce colloque mais le temps nous a empêché, et moi la cuisine normande, j'ai déjà donné.</p><p>
+le colloque vient des presses universitaires de caen donc très orienté "by product" de l'édition papier comme tu écris justement, cela nous avait gêné dans les discussions préalables.
+il faut souligner les travaux de ML Demonet qui est toujurs CNRTL il me semble, on doit la voir mardi prochain et aussi le projet Flaubert de Lyon vient à notre séminaire, on constate une convergence autour de l'édition TEI, malgré les époques, les thèmes ou les structures de recherche, il faut creuser là dessus.</p><p>
+je suis plus réservé sur ce qui se fait à Nancy avec l'équipe de Draelents, on a d'ailleurs un projet commun pour Telma.</p><p>
+le master de caen est très réputé, on prend toujours des stagiaires de chez eux.</p><p>
+et je suis tout à fait d'accord sur le besoin d'outillage, workflow, il n'y a que comme cela qu'on arrivera à disséminer la tei dans les labos.</p>
+<signed>à bientôt
+richard</signed>
+</div>
+<!--Then (12/12) went to Paris to meet L for a few more days and stay in skyscraper Place d'Italie. Email to Ariane 31/12: Je mets a la poste les justicatifs pour ma derniere deplacement à Paris. A cet occasion, on m'a fait payer:
+- frais d'agence   ... 161.38
+- frais de location ... 530
+- amende d'arrivee tardive ... 50
+en total: 741.38
+A cet occasion, mes frais de transport Londres-Paris-Londres ont ete prises en charge par l'universite de Caen (ou je suis alle le 9-10). -->
+
+</div>
