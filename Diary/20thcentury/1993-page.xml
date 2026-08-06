@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="diaryPrint.css" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>From the Vaults... 1993</title>
+</titleStmt>
+<publicationStmt>
+<p>Published at <ptr target="http://lb42.github.io/Diary"/></p>
+</publicationStmt>
+<sourceDesc>
+<p>AMOW</p>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change when="2026-08-05">Converted from old web page to XML</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<head>Life with Me: 1993</head>
+<list>
+<item><label>JAN</label>
+<ref target="reports:Report-1993-01-09">SALT Workshop on Multimedia
+research</ref>. </item>
+<item><label>FEB</label>Michael visited in Oxford on the 16th, and we then
+proceeded to Aix en Provence for a Steering Committee Meeting (16-22?) </item>
+<item><label>MAR</label>Michael visited Oxford for TEI Editorial meeting (21-28) </item>
+<item><label>APRIL</label> OII Workshop on Hypermedia and Multimedia Standards,
+Amsterdam, 22-23 April. Proceedings of this Workshop, including a write-up of my
+presentation, have recently been published in a special edition of the journal
+'Information Services and Use' (vol 13 no 2, IOS Press, Amsterdam, ISSN
+0167-5265) </item>
+<!-- <bibl n="23"><date>1993 </date> <title>Rolling your own with the TEI</title> <title>Information
+      Services and Use</title> vol 13 no 2. pp 141-154 Amsterdam: IOS Press </bibl>
+   -->
+<item><label>MAY</label> Organized the TEI Technical Review Conference at
+Eynsham Hall, 13-16 May, 1993 </item>
+<item>
+<label>JUNE</label>With MSM, reported on progress to date at the ACH ALLC
+International Conference, held 15-19 June 93 at Georgetown University, USA </item>
+<item>Afterdinner speech at the Society of Bookmen, London 3 June 1993. </item>
+<item>Electronic Resources for Historians and Social Scientists: a special
+symposium held at the British Academy, 25-6 June 93 Proceedings are in press.
+<!-- <bibl n="19"><date>1994 </date> <title>The TEI: towards an Extensible Standard for the Encoding
+      of Texts</title> in <title>Electronic Information Resources and Historians</title> ed S. Ross.
+      London: British Academy. </bibl>--></item>
+<item>With MSM, gave presentations on current state of P2 to TEI Advisory Board,
+meeting in Oak Park 27-9 June. </item>
+<item><label>SEPT</label>Invited Participant on Round Table on language corpora,
+at European Society for Study of English conference (Univ of Bordeaux, 5-6
+September) </item>
+<item>European Science Foundation Network on Semantics of Classical Hebrew.
+(University of Cambridge, 12-13 September) </item>
+<item>Workshop on Spoken Language Corpora (University of Lancaster, 25-6
+September 1993) (Presentn to be published in collecn by Longmans) </item>
+<item><label>OCT</label> Information Technology in Literary Studies: symposium
+at the Maison Francaise, Oxford. 1-3 Oct 1993 </item>
+<item><ref target="reports:Report-1993-10-18">Networking Services
+Conference</ref> 1993 , Warsaw 12-14 October </item>
+<item><ref target="reports:Report-1993-10-26">EAGLES Meeting</ref>, Paris
+October 23-24 (?) </item>
+<item><label>NOV</label>Social Science and History Association, Baltimore 5-7
+Nov (jointly with MSM, DIG) </item>
+<item><ref target="reports:Report-1993-11-21">Joint TEI and WWW meeting</ref>,
+University Coll Cork, 18-20 Nov </item>
+<item><label>DEC</label> "TEI Vision, Answers and Questions: SGML for the rest
+of us" Opening Keynote Address at SGML93, Boston 6-10 Dec (see <ref
+target="https://xml.coverpages.org/sgml93.html">Report by Michael Popham</ref>
+</item>
+</list>
+</body>
+</text>
+</TEI>
