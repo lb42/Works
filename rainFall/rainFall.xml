@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../Public/TEI/P5/Exemplars/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rainfall out of clear sky: TEI edition</title>
+            <author>Louis Burnard</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Scanned from first edition (September 1968) typescript</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage facs="0_titlepage.png">
+            <titlePart>
+               <lb/>RAIN
+               <lb/> FALL
+               <lb/> OUT OF
+               <lb/> CLEAR
+               <lb/> SKY</titlePart>
+            <titlePart>a palindrome</titlePart>
+            <titlePart>for Suzie</titlePart>
+
+            <docImprint>bristol &amp; london, august &amp; september 1968 </docImprint>
+         </titlePage>
+
+      </front>
+      <body>
+         <pb n="1" facs="1_passionate.png"/>
+         <div n="1">
+            <head>THE PASSIONATE POET TO HIS LOVE </head>
+            <l>Listen: high in the mountains</l>
+            <l> the masonic hammer: rip, rap:</l>
+            <l> hard words on iron anvil.</l>
+            <l> a faint cuckoo—rustling to us</l>
+            <l> stirring our land of wheat and honey</l>
+            <l> with fables of monsters.</l>
+            <l> Let us sit on lower ground</l>
+            <l> to forge our own bespoke chains</l>
+            <l> made upon the anvil of circumstance</l>
+            <l> with the soft hammer of your willing smile. </l>
+
+         </div>
+         <pb n="2" facs="2_daythoughts.png"/>
+         <div n="2">
+            <head> BOSAUQUET'S DAY THOUGHTS </head>
+            <lg n="1">
+               <l>The sun is so bright </l>
+               <l>it blots out the shadows of the cave; </l>
+               <l>and that is how she brings </l>
+               <l>eyesight to the blind. </l>
+            </lg>
+            <lg n="2">
+               <l> Are we </l>
+               <l> in love? you </l>
+               <l> and I, hardly daring to speak </l>
+               <l>to each other: are we </l>
+               <l>members of that class after all? </l>
+               <l>so simply conforming? </l>
+               <l>extraordinary! </l>
+            </lg>
+            <lg n="3">
+               <l> When I gave you toy—birds,</l>
+               <l> tomorrow—birds, I did not know</l>
+               <l> they would sing so sweet</l>
+               <l> a yesterday—song, and for so long. </l>
+            </lg>
+            <lg n="4">
+               <l> Bosauquet's blackthorn grows green leaves:</l>
+               <l> can this tender creeper change so much?</l>
+               <l> she laughed and said</l>
+               <l> 'It will if you let it'</l>
+            </lg>
+            <figure>
+               <graphic n="19680900_00L000.jpg" url="L08.JPG"/>
+               <!--typescript has L0A but no such photo found -->
+            </figure>
+         </div>
+         <pb n="3" facs="3_lovestory.png"/>
+         <div n="3">
+            <head>LOVE STORY</head>
+
+            <l>It is not for me alone to talk of such things </l>
+            <l>but this I will say, that when </l>
+            <l>the lamp looks away, hides in the curtain, when </l>
+            <l>friends, with fond shy smiles, leave </l>
+            <l>their coffee unfinished, when </l>
+            <l>the recordplayer has to turn itself off, </l>
+            <l>at such times I think to be in love </l>
+            <l>and a part of such things </l>
+            <l>as bring us here, to lie, side </l>
+            <l>by side, and whisper </l>
+            <l>in the dark </l>
+            <l rend="indent"> (like a lonely child, peopling </l>
+            <l rend="indent"> the night with strangers: </l>
+            <l rend="indent"> we tell each other tales, and </l>
+            <l rend="indent"> wait for morning's lies and company </l>
+            <l> though at times, another voice </l>
+            <l> wonders in my ear how </l>
+            <l> we look, and what </l>
+            <l> everyone else is whispering about. </l>
+            <figure>
+               <graphic n="19680400_00F024.jpg" url="F24.JPG"/>
+            </figure>
+            <!--  -->
+            <!-- ms has e26 crossed out -->
+         </div>
+         <pb n="4" facs="4_powergame.png"/>
+         <div n="4">
+            <head>THE POWER GAME</head>
+            <l> He is a baby</l>
+            <l> panther, a red eye</l>
+            <l> glowing tiny in the dark</l>
+            <l> web of snares they have laid</l>
+            <l> for each other; he drinks</l>
+            <l> from a still pool, disturbing</l>
+            <l> it an instant, shattering</l>
+            <l> a glass palace reflected there:</l>
+            <l> within the palace, the princess</l>
+            <l> lives in fear of strange animals,</l>
+            <l> taming them, giving them names.</l>
+            <l> She calls him 'master'; he sweetly </l>
+            <l> breathes 'mistress' to her distrustful ears.</l>
+            <l> And, fawning in her lap, is seized</l>
+            <l> struggles, strikes once, and then, and then,</l>
+            <l> hears with sad blinded eyes</l>
+            <l> murmured prayers for mercy.</l>
+            <figure>
+               <graphic n="19680300_00E026.jpg" url="E26.JPG"/>
+            </figure>
+            <!-- -->
+         </div>
+         <pb n="5" facs="5_thebed.png"/>
+         <div n="5">
+            <head>HOW TO MAKE THE BED</head>
+            <lg>
+               <l> When you have drunk mugs of tea,</l>
+               <l> eaten,(two spoons in a bowl)</l>
+               <l> divide into teams and start the game.</l>
+            </lg>
+            <lg>
+               <l> Be gentle: peel off each modest layer</l>
+               <l> till, naked and blushing, its secret skin</l>
+               <l> is revealed, crumpled, surprised.</l>
+            </lg>
+            <lg>
+               <l> Now you must make it anonymous.</l>
+            </lg>
+            <lg>
+               <l> Ignore the sweet smell of disorder</l>
+               <l> dressing it again, blank and smooth;</l>
+               <l> be firm: replace each faceless layer.</l>
+            </lg>
+            <lg>
+               <l> Lastly, you may disguise yourselves</l>
+               <l> with eyeshadow, a clean shirt;</l>
+               <l> take your bag of toys - books,papers,gossip —</l>
+               <l> and lock the door behind you. </l>
+            </lg>
+            <figure>
+               <graphic n="19680800_00K000.jpg" url="K00.JPG"/>
+            </figure>
+            <!---->
+         </div>
+         <pb n="6" facs="6_tearHere.png"/>
+         <div n="6">
+            <head> ———————————————————————— TEAR HERE —————————————————————————————————— </head>
+            <lg>
+               <l>Shadows grow quietly between us</l>
+               <l> dark pools from an unseen source:</l>
+               <l> words, like ill—fitting clothes, clinging tighter</l>
+               <l> sodden, as the waters lap our knees</l>
+               <l> silently, I on my island, she</l>
+               <l> perhaps leaving the din of an upperdeck party</l>
+               <l> to lean on the rail, suddenly alone,</l>
+               <l> idly watching the stars: and I</l>
+               <l> poor castaway, with tattered flag and trouser,</l>
+               <l> wave farewell as the lights drift by.</l>
+               <l> Or perhaps it is she now come to say farewell</l>
+               <l> to place a look upon my grave, turning away</l>
+               <l> to hide in a handkerchief, drowning</l>
+               <l> my memory in graceful tears.</l>
+            </lg>
+            <lg>
+               <l> But no tears fall, as shadowy pools</l>
+               <l> rise silently between us, as I am bound</l>
+               <l> in dank cloth of words, as Andromeda unchained</l>
+               <l> walks over the Stygian waters. </l>
+            </lg>
+            <figure>
+               <graphic n="19680800_00K027.jpg" url="K27.JPG"/>
+            </figure>
+            <!-- -->
+         </div>
+         <pb n="7" facs="7_defence.png"/>
+         <div n="7">
+            <head>THE DEFENCE</head>
+
+            <cit>
+               <q><l>let me be my own fool of my own making</l>
+               </q>
+               <bibl>(R.Cree1ey)</bibl>
+            </cit>
+            <lg>
+               <l> One says to the drunkard, enough</l>
+               <l> stop drinking (and this</l>
+               <l> is only fair): to the pagan too</l>
+               <l> another says, enough, stop</l>
+               <l> worshipping; that, they say, is false,</l>
+               <l> this, true. </l>
+            </lg>
+            <lg>
+               <l> And this to men who have held</l>
+               <l> their world in a bottle</l>
+               <l> or thrown it through the window</l>
+               <l> the better to see some stars.</l>
+            </lg>
+            <figure>
+               <graphic n="19680800_00K029.jpg" url="K29.JPG"/>
+            </figure>
+            <!-- -->
+            <!--K23?-->
+         </div>
+         <pb n="8" facs="8_nightthoughts.png"/>
+         <div n="8">
+            <head>BOSAUQUET'S NIGHT THOUGHTS</head>
+            <lg n="1">
+               <l> Daylight floods all in clarity </l>
+               <l>adequate and simple explanation. </l>
+               <l>At night, I hear Sibelius </l>
+               <l>as pictures flicker through my mind: </l>
+               <l>mountains and forests, myself alone. </l>
+            </lg>
+            <lg n="2">
+               <l> Other people's stories, like mine: </l>
+               <l>I twist their words too. </l>
+            </lg>
+            <lg n="3">
+               <l> Your voice, like treacle toffee </l>
+               <l> stuck in my teeth, rotting the bone, </l>
+               <l>every touch of my tongue, agony. </l>
+            </lg>
+            <lg n="4">
+               <l> Rotting Bosauauquet in a daze </l>
+               <l>trying hard to see what hit him, </l>
+               <l> bangs his head on the same old wall; </l>
+               <l>so, let the wall go on banging. </l>
+               <l>It will if you let it. </l>
+            </lg>
+            <!--l2a ?-->
+            <figure>
+               <graphic n="19680900_00L0002.jpg" url="L02.JPG"/>
+            </figure>
+            <!-- -->
+
+         </div>
+         <pb n="9" facs="9_thieves.png"/>
+
+         <div n="9">
+            <head>DO NOT DESPAIR - ONE OF THE THIEVES WAS SAVED</head>
+            <head> DO NOT PRESUME — ONE OF THE THIEVES WAS DAMNED </head>
+            <l> A man came to the door today</l>
+            <l> a knifegrinder, with eyes</l>
+            <l> like your lover's, so gentle,</l>
+            <l> yet shifting, bashful; I did not</l>
+            <l> let him in, knowing he was a thief:</l>
+            <l> tonight I found poems by your lover,</l>
+            <l> staccato pictures, like an oldtime movie,</l>
+            <l> of two paintings: pears, a boat.</l>
+            <l> I feared, and now I wonder, whether</l>
+            <l> he writes poems about you, stealing</l>
+            <l> like me, a story from your eyes</l>
+            <l> to grind his axe upon.</l>
+            <figure>
+               <graphic url="F21.JPG" n="19680400_00F021.jpg"/>
+            </figure>
+            <!-- 19680400_00F021.jpg-->
+         </div>
+         <pb n="10" facs="A_postscript.png"/>
+
+         <div n="10">
+            <head>POSTSCRIPT</head>
+            <lg>
+               <l> Anything you do</l>
+               <l> often enough, becomes</l>
+               <l> in your eyes, important.</l>
+            </lg>
+            <lg>
+               <l> So, hidden, I watch walls</l>
+               <l> we have touched, and</l>
+               <l> make pictures of how it is</l>
+               <l> (it being fixed now), establishing thus</l>
+               <l> a belief, which </l>
+               <l> she (alas) cannot touch. </l>
+            </lg>
+            <figure>
+               <graphic url="K12.JPG" n="19680800_00K012.jpg"/>
+            </figure>
+           
+            <trailer>100968</trailer>
+         </div>
+
+      </body>
+   </text>
+</TEI>
