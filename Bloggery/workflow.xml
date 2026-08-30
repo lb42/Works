@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>The Lacy Workflow</title>
+</titleStmt>
+<publicationStmt>
+<p>For publication at foxglove.hypotheses.org</p>
+</publicationStmt>
+<sourceDesc>
+<p>AMOW</p>
+</sourceDesc>
+</fileDesc>
+<revisionDesc><change when="2026-08-30">TEI draft</change></revisionDesc>
+</teiHeader>
+<text>
+<body>
+<p>This summer has seen the establishment of a fairly routine procedure addressing the quixotic task of producing a TEI conformant version of Lacy's Acting Edition. I can comfortably now do one play a day, or 365 a year, which means I should have done the lot within the next four years, assuming I don't go mad or find something more interesting to do. For the avoidance of doubt, and in case I forget what I am doing, here's a fairly complete account of the current workflow.    </p>
+<p>The final validated version of each file is stored in the repository named
+Lacy/TEI and has the form <ident>Lxxx.xml</ident> (or <ident>LxxxR.xml</ident>)</p>
+<p>Intermediate versions are stored in the work folder
+<ident>Desktop/G3</ident>, in one of the subfolders <ident>Pending</ident>
+(currently being worked on), <ident>Done</ident> (finished with), or
+<ident>Laters</ident> (No longer pending). Each file is named as follows:
+<list><item><ident>Lxxx.txt</ident> plain text version as downloaded from
+Hathitrust or similar;</item><item><ident>Lxxx-final.xml</ident> initial tagged
+version of the same produced by an LLM, so far only Gemini 3;</item><item>
+<ident>Lxxx-ed.xml</ident> manually corrected version, checked against a
+specific source text</item></list></p>
+<p>Processing proceeds like this:</p>
+<list>
+<item>Download plain text version of a volume. </item>
+<item>Run <ident>splitVols.pl</ident> to produce individual .txt files, one per
+play.</item>
+<item>Select play, according to the following arcane principles:
+<list><item>there should be at least three titles from each volume: run <code>
+saxon catalogue.xml volFreq.xsl </code> to see how well this criterion is being
+met; </item><item>the proportion of plays by a given author should be roughly
+the same in the TEI subset and in the whole LAE: run <code>saxon catalogue.xml
+balanceCheck.xsl </code> to see how we're doing on this one; </item>
+<item>other arbitrary predilections not summarised here.</item></list></item>
+<item>Casefix: as we are not even attempting to reproduce the typographic
+luxuriance of these originals, the use of uppercase is merely annoying. We run
+<code>perl Scripts/caseFixer.pl Lxxxx-final.xml > Lxxxx-ed.xml</code>, or
+(inside <ident>Desktop/G3/Pending</ident>) <code>sh caseFix.sh Lxxx</code> to
+normalize case throughout.</item>
+<item>Clean up and correct the following systematic errors (inter al) using
+oXygen: <list>
+<item>use of hyphen vs emdash;</item>
+<item>placement and numbering of page breaks;</item>
+<item>placement and punctuation of stage directions;</item>
+<item>tagging of titlepage, cast lists, and other front matter;</item>
+<item>assign a gender to each <gi>role</gi>;</item>
+<item>tag italicized phrases in speech using <gi>hi</gi>;</item>
+<item>remove redundant <gi>p</gi> tag surrounding a sequence of <gi>l</gi> in
+verse texts;</item>
+<item>add <gi>spGrp</gi> around musical numbers;</item>
+<item>correct occasional hallucinations, misplaced tags, wild speculations etc.
+</item>
+</list></item>
+<item>Run <code>saxon doPartix.xsl Lxxx-ed.xml</code> (or choose the doPartix
+scenario from Oxygen menu). This produces a file
+<ident>Partix/Lxxxx-ed.xml</ident> containing a draft <gi>particDesc</gi>
+derived from the <gi>speaker</gi> elements in the text. Correct this file (or
+the contents of <gi>speaker</gi> elements) as documented in <ref
+target="https://foxglove.hypotheses.org/1063">this blog posting</ref>.</item>
+<item>Run <code>sh enrichHdr.sh Lxxxx</code> : a script which:
+<list><item>rewrites the TEI Header to include this particDesc and other
+metadata from the <ident>catalogue.xml</ident>;</item><item>adds <att>who</att>
+attributes to each <gi>sp</gi>, pointing to the appropriate <gi>person</gi>
+element;</item><item>validates the resulting file against the current Dracor
+schema.</item>
+</list>
+</item>
+<item>The most likely problem at this stage will be <gi>sp</gi> elements with
+missing or defective <att>who</att> attributes: these have to be fixed by hand.
+When all is well, update the <ident>catalogue.xml</ident> to show that a TEI
+version of this title is now available (by adding <att>subtype='TEI'</att> to
+its corresponding <code>div type='work'</code>), move the validated file from
+subdirectory <ident>Dracor</ident> to <ident>Lacy/TEI</ident>, and push the
+changes to the github repo</item>
+<item>Regenerate the public listing of the whole archive at <ptr
+target="lb42.github.io/Lacy/report.html"/> by running <code>python3
+Scripts/refreshRepo.py</code> and pushing associated changes to the
+lb42.github.io repository.</item>
+<item>Put the kettle on. </item>
+</list>
+</body>
+</text>
+</TEI>
