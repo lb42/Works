@@ -81,7 +81,7 @@ its corresponding <code>div type='work'</code>), move the validated file from
 subdirectory <ident>Dracor</ident> to <ident>Lacy/TEI</ident>, and push the
 changes to the github repo</item>
 <item>Regenerate the public listing of the whole archive at <ptr
-target="lb42.github.io/Lacy/report.html"/> by running <code>python3
+target="https://lb42.github.io/Lacy/report.html"/> by running <code>python3
 Scripts/refreshRepo.py</code> and pushing associated changes to the
 lb42.github.io repository.</item>
 <item>Put the kettle on. </item>
