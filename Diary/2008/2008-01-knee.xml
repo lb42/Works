@@ -313,9 +313,9 @@ a walk through Jericho and over the canal bridge, returning more than a little
 pooped. </p>
 <p> Tuesday I decided to keep up the momentum with <ref
 target="http://routebuilder.org/207">the longest walk yet </ref>(2.38 km) This
-involved some more pottering about through Jericho and a<figure>
+involved some more pottering about through Jericho and a<!--<figure>
 <graphic url="media/25.jpg"/>
-</figure> pause for refreshment in Cafe Rouge. Being in that part of town around
+</figure>--> pause for refreshment in Cafe Rouge. Being in that part of town around
 noon meant naturally enough that lots of people I would normally expect to
 exchange no more than a grunt or a glance with, stopped, looked uncertainly at
 my accompanying sticks, and needed to be informed about my dramatic progress,
@@ -333,16 +333,16 @@ an enjoyable stroll across a very sunny Port Meadow to Burgess Field and back,
 taking in the chance to greet a few muddy horses en route, and observe a
 twitcher, twitching at the possible presence of some large wading birds miles
 away across the large puddle which covers most of that part of the meadow at
-this time of year. <figure>
+this time of year.<!-- <figure>
 <graphic url="media/slug-logo.png"/>
-</figure>Envigorated by this bucolic splendour, I spent most of the rest of the
+</figure>-->Envigorated by this bucolic splendour, I spent most of the rest of the
 day tapping away on my laptop on ENRICH-related matters, mostly. OK, I also got
 both NFS and samba working on the slug, and played back music from it on
 Elizabeth's mac, once.</p>
 <p>
-<figure>
+<!--<figure>
 <graphic url="media/painted%20pebble.jpg"/>
-</figure>Thursday morning saw a more major achievement: in the closing minutes
+</figure>-->Thursday morning saw a more major achievement: in the closing minutes
 of my weekly physio appointment with the electronic rack, I did actually achieve
 the target <hi rend="bold">60 degrees of flexion</hi>. Whereupon, as they do,
 Suzie remarked that the goalposts were now moving on, of course, but still and
@@ -374,7 +374,7 @@ to see whether janus, my desktop, is really as dead as it seems to be: it
 is)</p>
 <p>
 <figure>
-<graphic url="media/croci.jpg"/>
+<graphic url="media/croci.jpg" width="80%"/>
 <head>crocuses</head>
 </figure>
 </p>
@@ -506,7 +506,7 @@ called Jeanne-Marie Debaisieux: I managed (somehow) to get into the front of his
 immense motor, and off we drove to the Gentilhommiere, one of the best in the
 little restaurant ghetto which is rue Marechaux, and which also provides the
 good advice you see in this photo. <figure>
-<graphic url="media/nancy.jpg"/>
+<graphic url="media/nancy.jpg" width="75%"/>
 <head>Good advice in a restaurant</head>
 </figure></p>
 <p> My steak was a little too well done, but we had a very enjoyable evening,
@@ -521,7 +521,7 @@ Centre nationale de ressources textuelles et lexicales (<ref
 target="http://www.cnrtl.fr">CNRTL</ref>) and that this is strictly a TEI
 establishment (or soon will be). </p>
 <figure>
-<graphic url="media/cnrtl1.jpg"/>
+<graphic url="media/cnrtl1.jpg" width="70%"/>
 <head>A posterful of good intentions</head>
 </figure>
 <p> We had a useful morning discussing TEI politics, and speculating idly about
@@ -558,7 +558,7 @@ arrival since when I presented myself to request the key for my room in the
 Hotel des Invites, I was told that I had a special ground floor room, and even
 personally escorted to it,a degree of service which I have never seen before. I
 ate some of my kebab, drank a lot of water, and went to sleep. <figure>
-<graphic url="media/ens-lsh.jpg"/>
+<graphic url="media/ens-lsh.jpg" width="75%"/>
 <head>Bonjour, Ecole Normale Superieure de Lyon. </head>
 </figure></p>
 <p> Wednesday morning I experimented with a different shower: also nice. I
@@ -598,17 +598,17 @@ the data (on punch cards) derived from it. Another evening offered a boat trip,
 but I regretfully declined that in favour of a quiet evening eating, yes,
 tartiflette at the student resto round the corner. Friday evening, with the
 conference finally wound down, I was able to go out for a quiet dinner with
-Serge Heiden, and seek his views on the ADONIS TEI project. <figure>
-<graphic url="media/waiter1.jpg"/>
-<head>A waiter
-with early 20th century flair</head>
-</figure></p>
+Serge Heiden, and seek his views on the ADONIS TEI project.</p>
 <p>All of this intellectual activity was rewarded on Saturday morning when I
 caught the 1000 train to Paris, in good time to meet Guy for lunch at <ref
 target="http://www.le-train-bleu.com">Le Train Bleu</ref>: a truly memorable feast in
 truly memorable surroundings. We had the 48 euro menu, at the heart of which was
 a gigot d'agneau served from an early 20th century carving table by a waiter
-with early 20th century flair. There are not many places like this restaurant
+with early 20th century flair.  <figure>
+<graphic url="media/waiter1.jpg" width="60%"/>
+<head>A waiter
+with early 20th century flair</head>
+</figure>There are not many places like this restaurant
 left in the world, and very few of them are in such good working order: they are
 to be cherished. See further my flickr pages.  After lunch, I checked into a
 hotel near Gare du Nord, and we then went to inspect Guy's flat in rue Alexandre
